@@ -40,6 +40,13 @@ const test = (name, run) => tests.push({ name, run });
 const occurrences = (text, fragment) => text.split(fragment).length - 1;
 const normalText = (value) => String(value ?? "").trim();
 
+function normalizeStudentNames(value) {
+  if (typeof value === "string") return value.replace(/\bMia\b/g, "Tom").replaceAll("米婭", "湯姆");
+  if (Array.isArray(value)) value.forEach((item, index) => { value[index] = normalizeStudentNames(item); });
+  else if (value && typeof value === "object") Object.keys(value).forEach((key) => { value[key] = normalizeStudentNames(value[key]); });
+  return value;
+}
+
 function loadContent() {
   const sandbox = { window: {} };
   vm.createContext(sandbox);
@@ -53,9 +60,9 @@ const lessons = content.lessons;
 const allQuestions = lessons.flatMap((lesson) => lesson.questions);
 const importedLessonSources = await Promise.all(
   Array.from({ length: 214 }, (_, index) => index + 5)
-    .map(async (number) => JSON.parse(
+    .map(async (number) => normalizeStudentNames(JSON.parse(
       await read(`tools/sentence-structure-lessons/ss${String(number).padStart(2, "0")}.json`)
-    ))
+    )))
 );
 
 function makeElement(seed = {}) {
@@ -119,7 +126,9 @@ function createFrontendHarness() {
     "[data-admin-students-button]", "[data-logout]", "[data-login-form]",
     "[data-login-button]", "[data-login-status]", "#sentence-structure-username",
     "#sentence-structure-password", "[data-password-toggle]", "[data-dashboard-welcome]",
-    "[data-lesson-count]", "[data-lesson-choice-grid]", "[data-history-list]", "[data-lesson-round]",
+    "[data-lesson-count]", "[data-lesson-choice-grid]", "[data-lesson-search-form]",
+    "[data-lesson-search-input]", "[data-lesson-search-summary]", "[data-lesson-search-results]",
+    "[data-clear-lesson-search]", "[data-history-list]", "[data-lesson-round]",
     "[data-sentence-progress-toggle]", "[data-sentence-progress-toggle-label]", "[data-sentence-progress-panel]",
     "[data-sentence-progress-chart]", "[data-sentence-progress-period-total]",
     "[data-sentence-progress-all-total]", "[data-sentence-progress-active-days]",
@@ -254,6 +263,7 @@ window.__SENTENCE_STRUCTURE_TEST__ = {
   getLesson, getQuestion, createExercise, exerciseFromAttempt,
   studentLogin, openLesson, setLessonPage, renderLessonPage, renderExercisePage, renderLessonChoices,
   currentProgressQuestionId, focusExerciseQuestion,
+  collectLessonSearchStrings, normalizeLessonSearchText, lessonSearchIndex, searchLessons, renderLessonSearch, clearLessonSearch,
   syncExerciseButtons, submitExercise, startNextRound,
   startCorrectionRound, exitCorrectionRound, toggleCorrectCard, toggleAllCorrectCards,
   clearQuestionAnswer,
@@ -299,6 +309,8 @@ test("data contract contains 218 complete 50-question lessons", () => {
   );
   assert.equal(allQuestions.length, 10900);
   assert.equal(new Set(allQuestions.map((question) => question.id)).size, 10900);
+  assert.doesNotMatch(JSON.stringify(lessons), /\bMia\b|米婭/);
+  assert.match(JSON.stringify(lessons), /\bTom\b|湯姆/);
   assert.equal(new Set(lessons.map((lesson) => lesson.source.file)).size, expectedIds.length);
   assert.ok(lessons.every((lesson) => lesson.source.file.endsWith(".pdf")));
   assert.deepEqual(
@@ -569,6 +581,16 @@ test("HTML, CSS, and navigation expose all required system surfaces", () => {
     html.indexOf("data-sentence-progress-day-list") < html.indexOf("data-sentence-time-progress-chart"),
     "the time dashboard must follow the completed-question dashboard"
   );
+  assert.match(html, /id="sentence-structure-search-heading">搜尋句子結構</);
+  assert.match(html, /class="lesson-search-label"[^>]*>搜尋關鍵字</);
+  assert.match(html, /data-lesson-search-input/);
+  assert.match(html, /data-clear-lesson-search/);
+  assert.ok(
+    html.indexOf('class="lesson-search-panel') < html.indexOf("data-lesson-choice-grid"),
+    "the visible search panel must sit directly above the lesson cards"
+  );
+  assert.match(css, /\.lesson-search-controls\s*\{[^}]*grid-template-columns:\s*minmax\(0,\s*1fr\)\s+auto\s+auto/s);
+  assert.match(css, /\.lesson-search-controls input\s*\{[^}]*border:\s*2px/s);
   assert.match(html, /data-bookmark-list/);
   assert.match(html, /data-admin-student-list/);
   assert.match(html, /data-admin-detail/);
@@ -601,6 +623,29 @@ test("HTML, CSS, and navigation expose all required system surfaces", () => {
   assert.doesNotMatch(frontendSource, /題練習<\/span>/);
   assert.doesNotMatch(frontendSource, /由公式開始/);
   assert.equal((indexHtml.match(/href=["']sentence-structure\.html["']/g) || []).length, 1, "homepage must link to Sentence Structure exactly once");
+});
+
+test("Sentence Structure search finds titles, teaching pages, exercise prompts, and answers", () => {
+  const { sut } = createFrontendHarness();
+  const lesson = lessons[0];
+  const question = lesson.questions[0];
+  const benefitQuery = normalText(lesson.benefits[0].en || lesson.benefits[0].zh);
+
+  assert.equal(sut.searchLessons(lesson.titleEn).some((entry) => entry.lessonId === lesson.id && entry.kind === "title"), true);
+  assert.equal(sut.searchLessons(benefitQuery).some((entry) => entry.lessonId === lesson.id && entry.page === 2), true);
+  assert.equal(sut.searchLessons(question.prompt).some((entry) => entry.questionId === question.id && entry.page === 4), true);
+  assert.equal(sut.searchLessons(question.answer).some((entry) => entry.questionId === question.id && entry.page === 4), true);
+
+  sut.elements.lessonSearchInput.value = question.prompt;
+  sut.renderLessonSearch();
+  assert.equal(sut.elements.lessonSearchResults.hidden, false);
+  assert.match(sut.elements.lessonSearchSummary.textContent, /找到 \d+ 個相符位置/);
+  assert.match(sut.elements.lessonSearchResults.innerHTML, new RegExp(`data-search-question="${question.id}"`));
+
+  sut.elements.lessonSearchInput.value = "not-a-real-lesson-keyword-5194";
+  sut.renderLessonSearch();
+  assert.match(sut.elements.lessonSearchSummary.textContent, /找不到相符內容/);
+  assert.match(sut.elements.lessonSearchResults.innerHTML, /沒有搜尋結果/);
 });
 
 test("frontend source keeps shared login, persistence, and click wiring intact", () => {
@@ -1038,7 +1083,8 @@ test("wrong answers can enter an immediate correction round and return to the un
   assert.deepEqual(Array.from(sut.state.exercise.correctionIds), [q2.id]);
   assert.deepEqual(Array.from(sut.submissionQuestions(), (question) => question.id), [q2.id]);
   assert.equal((sut.elements.lessonContent.innerHTML.match(/data-question-id=/g) || []).length, 1);
-  assert.match(sut.elements.lessonContent.innerHTML, /Correction Round · 改正輪/);
+  assert.match(sut.elements.lessonContent.innerHTML, /錯題改正/);
+  assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /第\s*\d+\s*輪|分輪|改正輪/);
   assert.match(sut.elements.lessonContent.innerHTML, /暫時隱藏參考答案/);
   assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /answer-reveal/);
   assert.ok(!sut.elements.lessonContent.innerHTML.includes(q2.answer));
@@ -1679,6 +1725,29 @@ test("admin list and detail show per-student attempts, completions, and bookmark
   assert.match(sut.elements.adminDetail.innerHTML, /<strong>1<\/strong><span>完成次數<\/span>/);
   assert.match(sut.elements.adminDetail.innerHTML, /<strong>1<\/strong><span>書簽數量<\/span>/);
   assert.doesNotMatch(sut.elements.adminDetail.innerHTML, /data-resume-attempt=/);
+});
+
+test("Sentence Structure question totals stay unique across retries and later attempts", () => {
+  const { sut } = createFrontendHarness();
+  const [q1, q2] = sut.getLesson("ss1").questions;
+  sut.state.attempts = [
+    { id: "attempt-1", lessonId: "ss1", result: { rounds: [
+      { round: 1, submittedAt: "2026-07-01T10:00:00.000Z", checkedIds: [q1.id, q1.id], correctIds: [], incorrectIds: [q1.id] },
+      { round: 2, submittedAt: "2026-07-02T10:00:00.000Z", checkedIds: [q1.id, q2.id], correctIds: [q1.id], incorrectIds: [q2.id] }
+    ] } },
+    { id: "attempt-2", lessonId: "ss1", result: { rounds: [
+      { round: 3, submittedAt: "2026-07-03T10:00:00.000Z", checkedIds: [q2.id], correctIds: [q2.id], incorrectIds: [] }
+    ] } }
+  ];
+  const rows = sut.questionActivityRows();
+  assert.equal(rows.length, 2);
+  assert.equal(rows.find(({ questionId }) => questionId === q1.id).time, Date.parse("2026-07-01T10:00:00.000Z"));
+  assert.equal(rows.find(({ questionId }) => questionId === q1.id).correctedAt, Date.parse("2026-07-02T10:00:00.000Z"));
+  assert.equal(rows.find(({ questionId }) => questionId === q2.id).correctedAt, Date.parse("2026-07-03T10:00:00.000Z"));
+});
+
+test("student-facing Sentence Structure copy contains no round counter", () => {
+  assert.doesNotMatch(`${html}\n${frontendSource}`, /第\s*\$?\{?[^\n<]{0,30}輪|分輪|改正輪/);
 });
 
 let failed = 0;

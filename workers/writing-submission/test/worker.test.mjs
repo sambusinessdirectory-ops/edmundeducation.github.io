@@ -101,6 +101,7 @@ function occurrence(overrides = {}) {
     originalText: "companies requires",
     suggestedText: "companies require",
     sentenceText: "More companies requires staff to wear uniforms.",
+    correctedSentence: "More companies require staff to wear uniforms.",
     detectedAt: new Date().toISOString(),
     ...overrides
   };
@@ -498,7 +499,7 @@ test("health keeps the core service independent and reports grammar AI readiness
   assert.equal(completeBody.grammarAi.version, "2026-08-01.11");
   assert.equal(completeBody.grammarAi.model, "@cf/meta/llama-3.3-70b-instruct-fp8-fast");
   assert.equal(completeBody.grammarAi.repairModel, "@cf/meta/llama-3.1-8b-instruct-fast");
-  assert.equal(completeBody.grammarCorpus.version, "2026-08-02.1");
+  assert.equal(completeBody.grammarCorpus.version, "2026-08-02.2");
   assert.equal(completeBody.grammarCorpus.approvedSentenceCount, 14);
   assert.equal(completeBody.grammarCorpus.execution, "worker-bundled");
   assert.equal(completeBody.rateLimiters.grammarCheck, true);
@@ -578,7 +579,7 @@ test("an exact teacher-approved corpus sentence works without AI or an extra Sup
   const body = JSON.parse(responseText);
 
   assert.equal(body.engine.name, "edmund-approved-grammar-corpus");
-  assert.equal(body.engine.version, "2026-08-02.1");
+  assert.equal(body.engine.version, "2026-08-02.2");
   assert.equal(body.corpus.paragraphId, "PARA-0001");
   assert.equal(body.corpus.sentenceId, "PARA-0001-S02");
   assert.equal(body.issues.length, 3);
@@ -2767,13 +2768,14 @@ test("a valid submission derives its owner and word count on the Worker", async 
       assert.equal(rpc.body.p_token, STUDENT_TOKEN);
       return jsonResponse(studentProfile());
     }
-    if (rpc.name === "writing_submission_submit") {
+    if (rpc.name === "writing_submission_submit_v2") {
       submittedPayload = rpc.body;
       return jsonResponse([{
         id: rpc.body.p_id,
         topic: rpc.body.p_topic,
         answer: rpc.body.p_answer,
         word_count: rpc.body.p_word_count,
+        duration_seconds: rpc.body.p_duration_seconds,
         submitted_at: "2026-07-31T00:00:00.000Z"
       }]);
     }
@@ -2791,7 +2793,8 @@ test("a valid submission derives its owner and word count on the Worker", async 
       },
       body: JSON.stringify({
         topic: "Should companies require uniforms?",
-        answer: "Many companies require staff to wear uniforms."
+        answer: "Many companies require staff to wear uniforms.",
+        durationSeconds: 725
       })
     }
   ), environment());
@@ -2801,7 +2804,9 @@ test("a valid submission derives its owner and word count on the Worker", async 
   assert.equal(submittedPayload.p_student_id, STUDENT_ID);
   assert.equal(submittedPayload.p_id, SUBMISSION_ID);
   assert.equal(submittedPayload.p_word_count, 7);
+  assert.equal(submittedPayload.p_duration_seconds, 725);
   assert.equal(JSON.parse(responseText).submission.wordCount, 7);
+  assert.equal(JSON.parse(responseText).submission.durationSeconds, 725);
 });
 
 test("submission payloads cannot choose a student ID or add unknown fields", async t => {
@@ -2811,7 +2816,7 @@ test("submission payloads cannot choose a student ID or add unknown fields", asy
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_submit") submitCalled = true;
+    if (rpc.name === "writing_submission_submit_v2") submitCalled = true;
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
 
@@ -2843,7 +2848,7 @@ test("submission writes require JSON and are bounded before the storage RPC", as
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_submit") submitCalled = true;
+    if (rpc.name === "writing_submission_submit_v2") submitCalled = true;
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
 
@@ -2873,17 +2878,18 @@ test("student history is paginated and full detail includes grammar occurrences"
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_list") {
+    if (rpc.name === "writing_submission_list_v2") {
       assert.equal(rpc.body.p_limit, 3);
       assert.equal(rpc.body.p_offset, 0);
       return jsonResponse(rows);
     }
-    if (rpc.name === "writing_submission_get") {
+    if (rpc.name === "writing_submission_get_v2") {
       return jsonResponse([{
         id: SUBMISSION_ID,
         topic: "Prompt 1",
         answer: "Full answer.",
         word_count: 2,
+        duration_seconds: 360,
         submitted_at: "2026-07-31T00:00:00.000Z"
       }]);
     }
@@ -2895,6 +2901,7 @@ test("student history is paginated and full detail includes grammar occurrences"
         original_text: "companies requires",
         suggested_text: "companies require",
         sentence_text: "More companies requires staff.",
+        corrected_sentence: "More companies require staff.",
         detected_at: "2026-07-31T00:00:00.000Z"
       }]);
     }
@@ -2918,7 +2925,9 @@ test("student history is paginated and full detail includes grammar occurrences"
   assert.equal(detailResponse.status, 200);
   const detailBody = await detailResponse.json();
   assert.equal(detailBody.submission.answer, "Full answer.");
+  assert.equal(detailBody.submission.durationSeconds, 360);
   assert.equal(detailBody.grammarOccurrences[0].ruleId, "SubjectVerbAgreement");
+  assert.equal(detailBody.grammarOccurrences[0].correctedSentence, "More companies require staff.");
 });
 
 test("grammar batches preserve stable identifiers and return dedupe counts", async t => {
@@ -2955,10 +2964,103 @@ test("grammar batches preserve stable identifiers and return dedupe counts", asy
   assert.equal(issuePayload.p_student_id, STUDENT_ID);
   assert.equal(issuePayload.p_document_id, SUBMISSION_ID);
   assert.equal(issuePayload.p_occurrences[0].fingerprint, FINGERPRINT);
+  assert.equal(
+    issuePayload.p_occurrences[0].correctedSentence,
+    "More companies require staff to wear uniforms."
+  );
   const storedDetectedAt = Date.parse(issuePayload.p_occurrences[0].detectedAt);
   assert.ok(storedDetectedAt >= beforeRequest);
   assert.ok(storedDetectedAt <= Date.now());
   assert.deepEqual(await response.json(), { acceptedCount: 1, insertedCount: 1 });
+});
+
+test("legacy grammar batches derive a full corrected sentence during a rolling release", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  let issuePayload = null;
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_submission_record_issue_batch") {
+      issuePayload = rpc.body;
+      return jsonResponse([{ accepted_count: 1, inserted_count: 1 }]);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const legacyOccurrence = occurrence({
+    originalText: "requires",
+    suggestedText: "require",
+    sentenceText: "More companies requires staff."
+  });
+  delete legacyOccurrence.correctedSentence;
+
+  const response = await worker.fetch(new Request(
+    "https://worker.example/v1/grammar-occurrences/batch",
+    {
+      method: "POST",
+      headers: {
+        Origin: ORIGIN,
+        Authorization: `Bearer ${STUDENT_TOKEN}`,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ documentId: SUBMISSION_ID, occurrences: [legacyOccurrence] })
+    }
+  ), environment());
+
+  assert.equal(response.status, 200);
+  assert.equal(issuePayload.p_occurrences[0].correctedSentence, "More companies require staff.");
+});
+
+test("two concrete occurrences of the same rule remain separate in one composition", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  let issuePayload = null;
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_submission_record_issue_batch") {
+      issuePayload = rpc.body;
+      return jsonResponse([{ accepted_count: 2, inserted_count: 2 }]);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const secondFingerprint = "b".repeat(64);
+  const response = await worker.fetch(new Request(
+    "https://worker.example/v1/grammar-occurrences/batch",
+    {
+      method: "POST",
+      headers: {
+        Origin: ORIGIN,
+        Authorization: `Bearer ${STUDENT_TOKEN}`,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        documentId: SUBMISSION_ID,
+        occurrences: [
+          occurrence({
+            originalText: "writing",
+            suggestedText: "write",
+            sentenceText: "I like writing and reading.",
+            correctedSentence: "I like write and reading."
+          }),
+          occurrence({
+            id: "77777777-7777-4777-8777-777777777777",
+            fingerprint: secondFingerprint,
+            originalText: "reading",
+            suggestedText: "read",
+            sentenceText: "I like writing and reading.",
+            correctedSentence: "I like writing and read."
+          })
+        ]
+      })
+    }
+  ), environment());
+
+  assert.equal(response.status, 200);
+  assert.equal(issuePayload.p_occurrences.length, 2);
+  assert.equal(issuePayload.p_occurrences[0].ruleId, issuePayload.p_occurrences[1].ruleId);
+  assert.notEqual(issuePayload.p_occurrences[0].fingerprint, issuePayload.p_occurrences[1].fingerprint);
+  assert.deepEqual(await response.json(), { acceptedCount: 2, insertedCount: 2 });
 });
 
 test("duplicate grammar fingerprints are rejected before the storage RPC", async t => {
@@ -3051,6 +3153,155 @@ test("grammar problem log maps durable per-rule aggregates", async t => {
   assert.equal(body.grammarProblems[0].occurrenceCount, 4);
 });
 
+test("students can page only their own detailed occurrences for one grammar category", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_submission_problem_occurrences") {
+      assert.equal(rpc.body.p_student_id, STUDENT_ID);
+      assert.equal(rpc.body.p_rule_id, "EdmundAI:verb_form_and_tense");
+      assert.equal(rpc.body.p_limit, 26);
+      assert.equal(rpc.body.p_offset, 0);
+      return jsonResponse([{
+        id: OCCURRENCE_ID,
+        document_id: SUBMISSION_ID,
+        submission_id: SUBMISSION_ID,
+        fingerprint: FINGERPRINT,
+        rule_id: "EdmundAI:verb_form_and_tense",
+        title: "動詞形式與時態",
+        message: "「writing」在此應改為「write」。",
+        original_text: "writing",
+        suggested_text: "write",
+        sentence_text: "I want to writing a book.",
+        corrected_sentence: "I want to write a book.",
+        detected_at: "2026-08-03T08:00:00.000Z",
+        source_topic: "My future book",
+        source_submitted_at: "2026-08-03T09:00:00.000Z",
+        source_deleted_at: null
+      }]);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const response = await worker.fetch(new Request(
+    "https://worker.example/v1/grammar-problem-occurrences?ruleId=EdmundAI%3Averb_form_and_tense&page=1&pageSize=25",
+    { headers: { Origin: ORIGIN, Authorization: `Bearer ${STUDENT_TOKEN}` } }
+  ), environment());
+  assert.equal(response.status, 200);
+  const body = await response.json();
+  assert.equal(body.grammarOccurrences[0].correctedSentence, "I want to write a book.");
+  assert.equal(body.grammarOccurrences[0].sourceTopic, "My future book");
+  assert.equal(body.grammarOccurrences[0].submissionId, SUBMISSION_ID);
+  assert.equal(Object.hasOwn(body.grammarOccurrences[0], "studentId"), false);
+});
+
+test("grammar detection preference is account-backed and can be switched off", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  const calls = [];
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    calls.push(rpc);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_submission_preferences_get") {
+      return jsonResponse([{ grammar_detection_enabled: true, updated_at: null }]);
+    }
+    if (rpc.name === "writing_submission_preferences_set") {
+      assert.equal(rpc.body.p_student_id, STUDENT_ID);
+      assert.equal(rpc.body.p_grammar_detection_enabled, false);
+      return jsonResponse([{
+        grammar_detection_enabled: false,
+        updated_at: "2026-08-03T00:00:00.000Z"
+      }]);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const headers = { Origin: ORIGIN, Authorization: `Bearer ${STUDENT_TOKEN}` };
+  const getResponse = await worker.fetch(new Request(
+    "https://worker.example/v1/preferences",
+    { headers }
+  ), environment());
+  assert.equal(getResponse.status, 200);
+  assert.equal((await getResponse.json()).preferences.grammarDetectionEnabled, true);
+
+  const writeLimiter = limiter();
+  const putResponse = await worker.fetch(new Request(
+    "https://worker.example/v1/preferences",
+    {
+      method: "PUT",
+      headers: { ...headers, "Content-Type": "application/json" },
+      body: JSON.stringify({ grammarDetectionEnabled: false })
+    }
+  ), environment({ SUBMISSION_WRITE_RATE_LIMITER: writeLimiter }));
+  assert.equal(putResponse.status, 200);
+  assert.equal((await putResponse.json()).preferences.grammarDetectionEnabled, false);
+  assert.deepEqual(writeLimiter.calls, [{ key: `writing-submission-preference:${STUDENT_ID}` }]);
+  assert.equal(calls.filter(call => call.name === "writing_submission_preferences_set").length, 1);
+});
+
+test("writing progress returns exact daily, average and cumulative values", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_submission_progress") {
+      assert.equal(rpc.body.p_student_id, STUDENT_ID);
+      return jsonResponse([{
+        activity_date: "2026-08-03",
+        articles_written: 2,
+        time_spent_seconds: 1800,
+        average_seconds: "900.00",
+        cumulative_articles: 5,
+        cumulative_time_seconds: 4200
+      }]);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const response = await worker.fetch(new Request(
+    "https://worker.example/v1/progress",
+    { headers: { Origin: ORIGIN, Authorization: `Bearer ${STUDENT_TOKEN}` } }
+  ), environment());
+  assert.equal(response.status, 200);
+  assert.deepEqual((await response.json()).progress[0], {
+    date: "2026-08-03",
+    articlesWritten: 2,
+    timeSpentSeconds: 1800,
+    averageSeconds: 900,
+    cumulativeArticles: 5,
+    cumulativeTimeSeconds: 4200
+  });
+});
+
+test("student deletion is recoverable and uses the soft-delete RPC", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  let deletePayload = null;
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_submission_soft_delete") {
+      deletePayload = rpc.body;
+      return jsonResponse([{ id: SUBMISSION_ID, deleted_at: "2026-08-03T01:02:03.000Z" }]);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const response = await worker.fetch(new Request(
+    `https://worker.example/v1/submissions/${SUBMISSION_ID}`,
+    {
+      method: "DELETE",
+      headers: { Origin: ORIGIN, Authorization: `Bearer ${STUDENT_TOKEN}` }
+    }
+  ), environment());
+  assert.equal(response.status, 200);
+  assert.deepEqual(deletePayload, { p_student_id: STUDENT_ID, p_id: SUBMISSION_ID });
+  assert.deepEqual(await response.json(), {
+    deleted: { id: SUBMISSION_ID, deletedAt: "2026-08-03T01:02:03.000Z" }
+  });
+});
+
 test("admin login is rate limited before password parsing or bcrypt RPC", async t => {
   const originalFetch = globalThis.fetch;
   t.after(() => { globalThis.fetch = originalFetch; });
@@ -3097,7 +3348,7 @@ test("administrator list and detail routes use only the dedicated admin token", 
         last_submission_at: "2026-07-31T00:00:00.000Z"
       }]);
     }
-    if (rpc.name === "writing_submission_admin_list_submissions") {
+    if (rpc.name === "writing_submission_admin_list_submissions_v2") {
       assert.equal(rpc.body.p_student_id, STUDENT_ID);
       return jsonResponse([{
         id: SUBMISSION_ID,
@@ -3106,10 +3357,12 @@ test("administrator list and detail routes use only the dedicated admin token", 
         topic: "Prompt",
         answer_preview: "Preview",
         word_count: 20,
+        duration_seconds: 840,
+        deleted_at: "2026-08-02T00:00:00.000Z",
         submitted_at: "2026-07-31T00:00:00.000Z"
       }]);
     }
-    if (rpc.name === "writing_submission_admin_get_submission") {
+    if (rpc.name === "writing_submission_admin_get_submission_v2") {
       return jsonResponse([{
         id: SUBMISSION_ID,
         student_id: STUDENT_ID,
@@ -3117,6 +3370,8 @@ test("administrator list and detail routes use only the dedicated admin token", 
         topic: "Prompt",
         answer: "Full answer",
         word_count: 2,
+        duration_seconds: 840,
+        deleted_at: "2026-08-02T00:00:00.000Z",
         submitted_at: "2026-07-31T00:00:00.000Z"
       }]);
     }
@@ -3137,7 +3392,9 @@ test("administrator list and detail routes use only the dedicated admin token", 
     { headers: authHeaders }
   ), environment());
   assert.equal(listResponse.status, 200);
-  assert.equal((await listResponse.json()).submissions[0].studentName, "Test Student");
+  const listSubmission = (await listResponse.json()).submissions[0];
+  assert.equal(listSubmission.studentName, "Test Student");
+  assert.equal(listSubmission.deletedAt, "2026-08-02T00:00:00.000Z");
 
   const detailResponse = await worker.fetch(new Request(
     `https://worker.example/v1/admin/submissions/${SUBMISSION_ID}`,
@@ -3145,6 +3402,53 @@ test("administrator list and detail routes use only the dedicated admin token", 
   ), environment());
   assert.equal(detailResponse.status, 200);
   assert.equal((await detailResponse.json()).submission.answer, "Full answer");
+});
+
+test("the missing-explanation queue is available only through administrator authentication", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_admin_me") {
+      assert.equal(rpc.body.p_admin_token, ADMIN_TOKEN);
+      return jsonResponse(adminProfile());
+    }
+    if (rpc.name === "writing_submission_admin_explanation_review_queue") {
+      assert.equal(rpc.body.p_admin_token, ADMIN_TOKEN);
+      assert.equal(rpc.body.p_limit, 51);
+      assert.equal(rpc.body.p_offset, 0);
+      return jsonResponse([{
+        id: OCCURRENCE_ID,
+        student_id: STUDENT_ID,
+        student_name: "Test Student",
+        document_id: SUBMISSION_ID,
+        submission_id: SUBMISSION_ID,
+        fingerprint: FINGERPRINT,
+        rule_id: "EdmundAI:word_form",
+        title: "字詞形式",
+        message: "「hardly」應改為「hard」；請留意這部分的文法結構。",
+        original_text: "hardly",
+        suggested_text: "hard",
+        sentence_text: "We should study hardly.",
+        corrected_sentence: "We should study hard.",
+        detected_at: "2026-08-03T08:00:00.000Z",
+        source_topic: "Reading books",
+        source_submitted_at: "2026-08-03T09:00:00.000Z",
+        source_deleted_at: null
+      }]);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const response = await worker.fetch(new Request(
+    "https://worker.example/v1/admin/explanation-review?page=1&pageSize=50",
+    { headers: { Origin: ORIGIN, Authorization: `Bearer ${ADMIN_TOKEN}` } }
+  ), environment());
+  assert.equal(response.status, 200);
+  const body = await response.json();
+  assert.equal(body.grammarOccurrences[0].studentName, "Test Student");
+  assert.equal(body.grammarOccurrences[0].correctedSentence, "We should study hard.");
+  assert.match(body.grammarOccurrences[0].message, /請留意這部分的文法結構/);
 });
 
 test("the migration keeps tables private and provisioning unavailable to service_role", t => {
@@ -3199,4 +3503,53 @@ test("the migration keeps tables private and provisioning unavailable to service
     assert.ok(studentPosition >= 0, `${functionName} must take the student lock`);
     assert.ok(documentPosition > studentPosition, `${functionName} must take the document lock second`);
   }
+});
+
+test("the enhancement migration keeps preferences private and deletion recoverable", t => {
+  const migrationUrl = new URL("../../../supabase-writing-submission-enhancements.sql", import.meta.url);
+  if (!fs.existsSync(migrationUrl)) {
+    t.skip("the focused Worker staging fixture does not include the enhancement migration");
+    return;
+  }
+  const migration = fs.readFileSync(migrationUrl, "utf8");
+  assert.match(migration, /add column if not exists duration_seconds integer not null default 0/);
+  assert.match(migration, /add column if not exists deleted_at timestamptz/);
+  assert.match(migration, /alter table public\.writing_submission_preferences enable row level security/);
+  assert.match(migration, /create or replace function public\.writing_submission_soft_delete/);
+  assert.doesNotMatch(migration.match(/writing_submission_soft_delete[\s\S]*?\n\$\$;/)?.[0] || "", /\bdelete\s+from\b/i);
+  const progress = migration.match(/create or replace function public\.writing_submission_progress[\s\S]*?\n\$\$;/)?.[0] || "";
+  assert.match(progress, /sum\(submission\.duration_seconds\)/);
+  assert.doesNotMatch(progress, /submission\.deleted_at is null/);
+  assert.match(migration, /grant execute on function public\.writing_submission_preferences_set\(uuid, boolean\) to service_role/);
+});
+
+test("the grammar-history migration preserves ownership, complete cards and an admin-only review queue", t => {
+  const migrationUrl = new URL("../../../supabase-writing-submission-grammar-history.sql", import.meta.url);
+  if (!fs.existsSync(migrationUrl)) {
+    t.skip("the focused Worker staging fixture does not include the grammar-history migration");
+    return;
+  }
+  const migration = fs.readFileSync(migrationUrl, "utf8");
+  assert.match(migration, /add column if not exists corrected_sentence text not null default ''/);
+  assert.match(migration, /needs_explanation_review boolean[\s\S]*?請留意這部分的文法結構。/);
+  assert.match(migration, /create index if not exists writing_submission_issues_review_queue_idx/);
+  const studentHistory = migration.match(
+    /create or replace function public\.writing_submission_problem_occurrences[\s\S]*?\n\$\$;/
+  )?.[0] || "";
+  assert.match(studentHistory, /where occurrence\.student_id = p_student_id/);
+  assert.match(studentHistory, /and occurrence\.rule_id = p_rule_id/);
+  const adminQueue = migration.match(
+    /create or replace function public\.writing_submission_admin_explanation_review_queue[\s\S]*?\n\$\$;/
+  )?.[0] || "";
+  assert.match(adminQueue, /public\._writing_submission_admin_id\(p_admin_token\) is null/);
+  assert.match(adminQueue, /where occurrence\.needs_explanation_review/);
+  assert.match(
+    migration,
+    /grant execute on function public\.writing_submission_problem_occurrences\(uuid, text, integer, integer\)[\s\S]*?to service_role;/
+  );
+  assert.match(
+    migration,
+    /grant execute on function public\.writing_submission_admin_explanation_review_queue\(uuid, integer, integer\)[\s\S]*?to service_role;/
+  );
+  assert.doesNotMatch(migration, /grant execute[\s\S]*?to (?:anon|authenticated);/);
 });

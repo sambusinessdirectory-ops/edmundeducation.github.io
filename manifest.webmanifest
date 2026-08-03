@@ -41,6 +41,12 @@
   ],
   "shortcuts": [
     {
+      "name": "全面英文能力發展進度表",
+      "short_name": "英文進度",
+      "url": "/student-progress.html?source=pwa-shortcut",
+      "icons": [{ "src": "/assets/icons/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
       "name": "Flashcard 學習卡",
       "short_name": "Flashcards",
       "url": "/flashcards.html?source=pwa-shortcut",

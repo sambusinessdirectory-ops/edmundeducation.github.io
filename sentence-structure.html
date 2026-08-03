@@ -19,7 +19,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="sentence-structure.css?v=20260727-2">
+  <link rel="stylesheet" href="sentence-structure.css?v=20260803-search1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260722-1">
 </head>
 <body>
@@ -59,7 +59,7 @@
           <div class="hero-copy">
             <p class="student-label">(學生使用)</p>
             <h1>句子結構<br><span>Sentence Structure</span><br>學習系統</h1>
-            <p>由公式、例句及重要規則開始，再透過分輪句子改寫練習，把英文句型真正變成自己的能力。</p>
+            <p>由公式、例句及重要規則開始，再透過句子改寫練習，把英文句型真正變成自己的能力。</p>
           </div>
         </article>
 
@@ -97,7 +97,7 @@
         <div>
           <p class="eyebrow">CHOOSE A STRUCTURE</p>
           <h1>句子結構學習系統</h1>
-          <p data-dashboard-welcome>選擇一個句型，由概念開始，再完成 50 題分輪練習。</p>
+          <p data-dashboard-welcome>選擇一個句型，由概念開始，再完成 50 題練習。</p>
         </div>
         <div class="dashboard-metric" aria-label="可選課題數量">
           <strong data-lesson-count>218</strong>
@@ -195,6 +195,23 @@
         </section>
       </section>
 
+      <section class="lesson-search-panel glass-panel" aria-labelledby="sentence-structure-search-heading">
+        <div class="lesson-search-heading">
+          <h2 id="sentence-structure-search-heading">搜尋句子結構</h2>
+          <p>輸入中英文關鍵字，即時搜尋句型標題、公式、例句、學習好處、重要規則及練習題。</p>
+        </div>
+        <form class="lesson-search-form" data-lesson-search-form role="search">
+          <label class="lesson-search-label" for="sentence-structure-lesson-search">搜尋關鍵字</label>
+          <div class="lesson-search-controls">
+            <input id="sentence-structure-lesson-search" type="search" data-lesson-search-input autocomplete="off" spellcheck="false" aria-describedby="sentence-structure-search-summary" aria-controls="sentence-structure-search-results" placeholder="例如：目的、although、to avoid">
+            <button class="lesson-search-submit" type="submit">搜尋</button>
+            <button class="lesson-search-clear" type="button" data-clear-lesson-search hidden>清除</button>
+          </div>
+        </form>
+        <p class="lesson-search-summary" id="sentence-structure-search-summary" data-lesson-search-summary role="status">尚未輸入關鍵字。可搜尋全部句子結構的四個學習頁面及練習題。</p>
+        <div class="lesson-search-results" id="sentence-structure-search-results" data-lesson-search-results hidden aria-live="polite"></div>
+      </section>
+
       <section class="lesson-choice-grid" data-lesson-choice-grid aria-label="句型選擇"></section>
 
       <section class="history-panel glass-panel" aria-labelledby="history-heading">
@@ -275,7 +292,7 @@
           <div class="admin-empty">
             <span aria-hidden="true">→</span>
             <h2>選擇一位學生</h2>
-            <p>學生的完成進度、分輪結果及書簽會顯示在這裡。</p>
+            <p>學生的完成進度、練習結果及書簽會顯示在這裡。</p>
           </div>
         </div>
       </section>
@@ -296,7 +313,7 @@
   <script src="sentence-structure-config.js"></script>
   <script src="sentence-structure-lessons-5-218.js?v=20260730-1"></script>
   <script src="sentence-structure-data.js?v=20260723-4"></script>
-  <script src="shared-system-nav.js?v=20260728-2"></script>
-  <script type="module" src="sentence-structure.js?v=20260730-1"></script>
+  <script src="shared-system-nav.js?v=20260803-1"></script>
+  <script type="module" src="sentence-structure.js?v=20260803-search1"></script>
 </body>
 </html>

@@ -2031,11 +2031,11 @@
           "number": 2,
           "sourcePage": 19,
           "answerSourcePage": 30,
-          "prompt": "Come on, Mia. Move faster. Class starts in five minutes.",
-          "promptZh": "快點，米婭。動作快一點。五分鐘後便上課。",
+          "prompt": "Come on, Tom. Move faster. Class starts in five minutes.",
+          "promptZh": "快點，湯姆。動作快一點。五分鐘後便上課。",
           "starter": "Come",
-          "answer": "Come on, Mia, shake a leg; class starts in five minutes.",
-          "answerZh": "快點，米婭；五分鐘後便上課。",
+          "answer": "Come on, Tom, shake a leg; class starts in five minutes.",
+          "answerZh": "快點，湯姆；五分鐘後便上課。",
           "highlight": "shake a leg",
           "id": "idiom-02-q02",
           "targetForm": "shake a leg",
@@ -30693,5 +30693,12 @@
     }
   ]
 };
+  function normalizeStudentNames(value) {
+    if (typeof value === "string") return value.replace(/\bMia\b/g, "Tom").replaceAll("米婭", "湯姆");
+    if (Array.isArray(value)) value.forEach((item, index) => { value[index] = normalizeStudentNames(item); });
+    else if (value && typeof value === "object") Object.keys(value).forEach((key) => { value[key] = normalizeStudentNames(value[key]); });
+    return value;
+  }
+  normalizeStudentNames(data);
   window.EDMUND_IDIOM_SYSTEM_DATA = Object.freeze(data);
 })();

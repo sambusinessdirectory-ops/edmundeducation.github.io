@@ -4,22 +4,34 @@ export const MAX_HOMEWORK_RESOURCES = 12;
 export const SCHEDULE_MESSAGE_MAX_LENGTH = 2000;
 
 export const HOMEWORK_RESOURCE_TYPES = Object.freeze([
-  Object.freeze({ type: "flashcards", trigger: "Flash Cards", label: "Flash Cards" }),
-  Object.freeze({ type: "fill-blanks", trigger: "Fill in the blanks", label: "Fill in the blanks" }),
-  Object.freeze({ type: "speaking", trigger: "Speaking", label: "Speaking" }),
-  Object.freeze({ type: "sentence-structure", trigger: "Sentence Structure", label: "Sentence Structure" })
+  Object.freeze({ type: "flashcards", trigger: "Flash Cards", label: "Flash Cards", color: "#3f73d8" }),
+  Object.freeze({ type: "fill-blanks", trigger: "Fill in the blanks", label: "Fill in the blanks", color: "#e49a31" }),
+  Object.freeze({ type: "writing-submission", trigger: "Writing Submission", label: "Writing Submission", color: "#b75ac7" }),
+  Object.freeze({ type: "idiom", trigger: "Idiom", label: "Idiom", color: "#e65b3d" }),
+  Object.freeze({ type: "proverb", trigger: "Proverb", label: "Proverb", color: "#94613c" }),
+  Object.freeze({ type: "phrasal-verb", trigger: "Phrasal Verbs", label: "Phrasal Verbs", color: "#31966a" }),
+  Object.freeze({ type: "speaking", trigger: "Speaking", label: "Speaking", color: "#2b9caf" }),
+  Object.freeze({ type: "sentence-structure", trigger: "Sentence Structure", label: "Sentence Structure", color: "#6e62c9" })
 ]);
 
 const TYPE_BY_NAME = new Map(HOMEWORK_RESOURCE_TYPES.map((item) => [item.type, item]));
 const ALLOWED_PAGE_BY_TYPE = Object.freeze({
   flashcards: "/flashcards.html",
   "fill-blanks": "/writing-practice.html",
+  "writing-submission": "/writing-submission.html",
+  idiom: "/idiom-system.html",
+  proverb: "/proverb-system.html",
+  "phrasal-verb": "/phrasal-verb-system.html",
   speaking: "/speaking-system.html",
   "sentence-structure": "/sentence-structure.html"
 });
 const EXPECTED_PARAMETER_BY_PAGE = Object.freeze({
   "/flashcards.html": "deck",
   "/writing-practice.html": "exercise",
+  "/writing-submission.html": null,
+  "/idiom-system.html": "lesson",
+  "/proverb-system.html": "lesson",
+  "/phrasal-verb-system.html": "lesson",
   "/speaking-system.html": "exercise",
   "/sentence-structure.html": "lesson"
 });
@@ -67,10 +79,13 @@ export function normalizeHomeworkHref(value) {
   } catch {
     return null;
   }
-  if (parsed.origin !== "https://edmundeducation.com") return null;
+  if (parsed.origin !== "https://edmundeducation.com" || parsed.username || parsed.password || parsed.hash) return null;
+  if (!Object.hasOwn(EXPECTED_PARAMETER_BY_PAGE, parsed.pathname)) return null;
   const expectedParameter = EXPECTED_PARAMETER_BY_PAGE[parsed.pathname];
-  if (!expectedParameter) return null;
-  if (parsed.username || parsed.password || !parsed.search) return null;
+  if (expectedParameter === null) {
+    return parsed.search ? null : parsed.pathname.slice(1);
+  }
+  if (!parsed.search) return null;
   if (!parsed.searchParams.get(expectedParameter) || [...parsed.searchParams.keys()].some((key) => key !== expectedParameter)) return null;
   return `${parsed.pathname.slice(1)}?${parsed.searchParams.toString()}`;
 }
@@ -142,7 +157,56 @@ export function acceptHomeworkAutocomplete(value, selectionStart, selectionEnd, 
   const end = Number.isInteger(selectionEnd) ? selectionEnd : Number(selectionStart) || completion.end;
   const next = `${text.slice(0, completion.start)}${completion.trigger}${text.slice(end)}`;
   const cursor = completion.start + completion.trigger.length;
-  return { value: next, cursor, type: completion.type, trigger: completion.trigger };
+  return { value: next, cursor, start: completion.start, end: cursor, type: completion.type, trigger: completion.trigger };
+}
+
+export function insertHomeworkResourceTitle(value, replacement, label) {
+  const text = String(value || "");
+  const title = String(label || "").replace(/\s+/g, " ").trim();
+  if (!title) return { value: text, cursor: text.length, inserted: false };
+
+  const start = Number(replacement?.start);
+  const end = Number(replacement?.end);
+  const trigger = String(replacement?.trigger || "");
+  const validReplacement = Number.isInteger(start)
+    && Number.isInteger(end)
+    && start >= 0
+    && end >= start
+    && end <= text.length
+    && trigger
+    && text.slice(start, end).toLocaleLowerCase("en") === trigger.toLocaleLowerCase("en");
+  if (validReplacement) {
+    return {
+      value: `${text.slice(0, start)}${title}${text.slice(end)}`,
+      cursor: start + title.length,
+      inserted: true
+    };
+  }
+  if (text.split(/\r?\n/).some((line) => line.trim() === title)) {
+    return { value: text, cursor: text.length, inserted: false };
+  }
+  const separator = !text || /\n$/.test(text) ? "" : "\n";
+  return {
+    value: `${text}${separator}${title}`,
+    cursor: text.length + separator.length + title.length,
+    inserted: true
+  };
+}
+
+export function homeworkResourceDisplayTitle(value) {
+  const resource = value && typeof value === "object" ? value : null;
+  const definition = TYPE_BY_NAME.get(String(resource?.type || ""));
+  const label = String(resource?.label || "").replace(/\s+/g, " ").trim();
+  if (!definition || !label) return label;
+  const prefix = definition.label;
+  const normalizedLabel = label.toLocaleLowerCase("en");
+  const normalizedPrefix = prefix.toLocaleLowerCase("en");
+  const nextCharacter = label.slice(prefix.length, prefix.length + 1);
+  if (
+    normalizedLabel.startsWith(normalizedPrefix)
+    && (!nextCharacter || /[\s\-–—:：/·]/.test(nextCharacter))
+  ) return label;
+  return `${prefix} - ${label}`;
 }
 
 export function fullHomeworkTriggerAtCursor(value, cursor = String(value || "").length) {
@@ -164,7 +228,11 @@ export function filterHomeworkResources(catalog, type, query = "", limit = 60) {
     if (resource?.type !== type) return false;
     const normalizedOrdinal = homeworkResourceOrdinal(resource);
     const ordinal = normalizedOrdinal === null ? "" : String(normalizedOrdinal);
-    const haystack = `${ordinal} ${resource.label || ""} ${resource.detail || ""} ${resource.id || ""}`.normalize("NFKC").toLocaleLowerCase("en");
+    const prompt = Array.isArray(resource?.questionPrompt) ? resource.questionPrompt.join(" ") : "";
+    const imageAlt = Array.isArray(resource?.questionImages)
+      ? resource.questionImages.map((image) => image?.alt || "").join(" ")
+      : "";
+    const haystack = `${ordinal} ${resource.label || ""} ${resource.detail || ""} ${resource.id || ""} ${prompt} ${imageAlt}`.normalize("NFKC").toLocaleLowerCase("en");
     return tokens.every((token) => haystack.includes(token));
   });
   if (/^\d+$/.test(normalizedQuery)) {

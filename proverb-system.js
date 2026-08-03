@@ -72,6 +72,11 @@ const elements = {
   dashboardWelcome: document.querySelector("[data-dashboard-welcome]"),
   lessonCount: document.querySelector("[data-lesson-count]"),
   lessonChoiceGrid: document.querySelector("[data-lesson-choice-grid]"),
+  lessonSearchForm: document.querySelector("[data-lesson-search-form]"),
+  lessonSearchInput: document.querySelector("[data-lesson-search-input]"),
+  lessonSearchSummary: document.querySelector("[data-lesson-search-summary]"),
+  lessonSearchResults: document.querySelector("[data-lesson-search-results]"),
+  lessonSearchClear: document.querySelector("[data-clear-lesson-search]"),
   historyList: document.querySelector("[data-history-list]"),
   progressToggle: document.querySelector("[data-sentence-progress-toggle]"),
   progressToggleLabel: document.querySelector("[data-sentence-progress-toggle-label]"),
@@ -138,6 +143,8 @@ const state = {
   selectedAdminStudentId: "",
   requestedHomeworkLessonOpened: false
 };
+
+let lessonSearchIndexCache = null;
 
 function escapeHtml(value) {
   return String(value ?? "")
@@ -715,7 +722,7 @@ async function openDashboard({ force = false } = {}) {
   state.showCumulativeProgress = readCumulativeProgressPreference();
   renderProgressPanelDisclosure();
   showView("dashboard");
-  elements.dashboardWelcome.textContent = `${state.user.name}，選擇一個諺語，由完整概念開始，再完成 50 題分輪練習。`;
+  elements.dashboardWelcome.textContent = `${state.user.name}，選擇一個諺語，由完整概念開始，再完成 50 題練習。`;
   renderLessonChoices();
   if (!state.dashboardLoaded || force) elements.historyList.innerHTML = loadingHtml();
   if (timeSave) {
@@ -780,6 +787,63 @@ function renderLessonChoices() {
     </button>${cards}`;
 }
 
+function collectLessonSearchStrings(value, output = [], key = "") {
+  if (value == null || ["source", "image", "illustration", "src", "file", "sourcePage", "answerSourcePage"].includes(key)) return output;
+  if (typeof value === "string") { const text = value.replace(/\s+/g, " ").trim(); if (text) output.push(text); }
+  else if (Array.isArray(value)) value.forEach((item) => collectLessonSearchStrings(item, output, key));
+  else if (typeof value === "object") Object.entries(value).forEach(([childKey, item]) => collectLessonSearchStrings(item, output, childKey));
+  return output;
+}
+
+function normalizeLessonSearchText(value) { return String(value || "").normalize("NFKC").toLocaleLowerCase().replace(/[’‘]/g, "'").replace(/\s+/g, " ").trim(); }
+
+function lessonSearchIndex() {
+  if (lessonSearchIndexCache) return lessonSearchIndexCache;
+  const pageFields = [["formulas", "examples", "meaning", "modelExample", "learningObjective"], ["register", "tone", "meaningGroups", "meaningGroups1", "meaningGroupsI"], ["fixedVariable", "meaningGroups2", "meaningGroupsII"], ["specificForms", "forms"], ["benefits"], ["origin", "history", "usageGuide", "realLifeUses", "uses", "realLife", "realLifeContexts", "meaningComparison", "meaningComparisons", "comparisons", "page6Intro", "usageOverview"], ["rules", "importantRules"]];
+  const entries = [];
+  for (const lesson of lessonList()) {
+    const titleTexts = [lessonTitle(lesson), lessonEnglishTitle(lesson), lesson.slug].filter(Boolean);
+    entries.push({ lessonId: lesson.id, page: 1, kind: "title", title: lessonTitle(lesson), titleEn: lessonEnglishTitle(lesson), texts: titleTexts });
+    pageFields.forEach((fields, index) => { const texts = fields.flatMap((field) => collectLessonSearchStrings(lesson[field])); if (texts.length) entries.push({ lessonId: lesson.id, page: index + 1, kind: "page", title: lessonTitle(lesson), titleEn: lessonEnglishTitle(lesson), texts }); });
+    (lesson.questions || []).forEach((question, index) => { const texts = collectLessonSearchStrings(question); if (texts.length) entries.push({ lessonId: lesson.id, page: EXERCISE_PAGE, questionId: String(question.id || ""), kind: "question", questionNumber: index + 1, title: lessonTitle(lesson), titleEn: lessonEnglishTitle(lesson), texts }); });
+  }
+  lessonSearchIndexCache = entries;
+  return entries;
+}
+
+function searchLessons(query) {
+  const tokens = normalizeLessonSearchText(query).split(" ").filter(Boolean);
+  if (!tokens.length) return [];
+  return lessonSearchIndex().filter((entry) => { const haystack = normalizeLessonSearchText(entry.texts.join(" ")); return tokens.every((token) => haystack.includes(token)); });
+}
+
+function renderLessonSearch() {
+  if (!elements.lessonSearchResults || !elements.lessonSearchSummary) return;
+  const query = String(elements.lessonSearchInput?.value || "").trim();
+  if (elements.lessonSearchClear) elements.lessonSearchClear.hidden = !query;
+  if (!query) { elements.lessonSearchResults.hidden = true; elements.lessonSearchResults.innerHTML = ""; elements.lessonSearchSummary.textContent = "尚未輸入關鍵字。可搜尋全部諺語的八個學習頁面及練習題。"; return; }
+  const matches = searchLessons(query);
+  const visibleMatches = matches.slice(0, 80);
+  elements.lessonSearchSummary.textContent = matches.length
+    ? `找到 ${matches.length} 個相符位置${matches.length > visibleMatches.length ? `，先顯示首 ${visibleMatches.length} 個` : ""}。按結果可直接前往相關頁面或題目。`
+    : "找不到相符內容，請嘗試其他中英文關鍵字。";
+  elements.lessonSearchResults.hidden = false;
+  elements.lessonSearchResults.innerHTML = visibleMatches.map((entry) => {
+    const queryTokens = normalizeLessonSearchText(query).split(" ").filter(Boolean);
+    const preview = entry.texts.find((text) => queryTokens.some((token) => normalizeLessonSearchText(text).includes(token))) || entry.texts[0] || "";
+    const place = entry.kind === "question" ? `第 8 頁 · 第 ${entry.questionNumber} 題` : `第 ${entry.page} 頁`;
+    const title = [entry.title, entry.titleEn].filter(Boolean).join(" · ");
+    return `<button class="lesson-search-result" type="button" data-lesson-search-result data-search-lesson="${escapeHtml(entry.lessonId)}" data-search-page="${entry.page}" data-search-question="${escapeHtml(entry.questionId || "")}"><span>${escapeHtml(place)}</span><strong>${escapeHtml(title)}</strong><small>${escapeHtml(preview.slice(0, 180))}</small></button>`;
+  }).join("") || '<div class="lesson-search-empty"><strong>沒有搜尋結果</strong><span>請縮短關鍵字，或改用另一個中英文詞語。</span></div>';
+}
+
+function clearLessonSearch() {
+  if (!elements.lessonSearchInput) return;
+  elements.lessonSearchInput.value = "";
+  renderLessonSearch();
+  elements.lessonSearchInput.focus();
+}
+
 function localDayKey(value) {
   const date = value instanceof Date ? value : new Date(value);
   if (!Number.isFinite(date.getTime())) return "";
@@ -796,7 +860,7 @@ function questionActivityRows(attempts = state.attempts) {
       if (!Number.isFinite(time)) continue;
       const correctIds = new Set(Array.isArray(round.correctIds) ? round.correctIds.map(String) : []);
       const incorrectIds = new Set(Array.isArray(round.incorrectIds) ? round.incorrectIds.map(String) : []);
-      for (const rawQuestionId of Array.isArray(round.checkedIds) ? round.checkedIds : []) {
+      for (const rawQuestionId of new Set(Array.isArray(round.checkedIds) ? round.checkedIds : [])) {
         const questionId = String(rawQuestionId || "");
         const question = getQuestion(attempt.lessonId, questionId);
         if (!question) continue;
@@ -830,7 +894,23 @@ function questionActivityRows(attempts = state.attempts) {
       }
     }
   }
-  return rows.sort((a, b) => a.time - b.time || a.lessonId.localeCompare(b.lessonId) || a.questionId.localeCompare(b.questionId));
+  const ordered = rows.sort((a, b) => a.time - b.time || a.lessonId.localeCompare(b.lessonId) || a.questionId.localeCompare(b.questionId));
+  const unique = new Map();
+  for (const row of ordered) {
+    const key = `${row.lessonId}\u0000${row.questionId}`;
+    const first = unique.get(key);
+    if (!first) {
+      unique.set(key, { ...row });
+      continue;
+    }
+    if (row.status === "correct" && first.status !== "correct") {
+      first.status = "correct";
+      first.round = row.round;
+      first.attemptId = row.attemptId;
+      first.correctedAt = row.time;
+    }
+  }
+  return [...unique.values()];
 }
 
 function progressRangeStart(rangeKey, rows) {
@@ -988,7 +1068,7 @@ function renderProgressDayPanel(activity = questionActivityRows()) {
     return `<div class="sentence-progress-day-row">
       <strong>${escapeHtml(lessonTitle(lesson))} · Question ${escapeHtml(question?.number || "")}</strong>
       <span>${escapeHtml(question?.prompt || question?.english || "")}</span>
-      <em class="${row.status === "correct" ? "is-correct" : ""}">${row.status === "correct" ? "答對" : row.status === "wrong" ? "待改正" : "已提交"} · 第 ${escapeHtml(row.round)} 輪</em>
+      <em class="${row.status === "correct" ? "is-correct" : ""}">${row.status === "correct" ? "答對" : row.status === "wrong" ? "待改正" : "已提交"}</em>
     </div>`;
   }).join("") : '<p class="empty-state">這一天暫時未有完成題目。</p>';
 }
@@ -1198,7 +1278,6 @@ function attemptHistoryHtml(attempts, { allowResume = true } = {}) {
         <div class="attempt-details">
           <div class="attempt-details-grid">
             <div class="attempt-detail"><span>狀態</span><strong>${complete ? "全部答對" : "尚未完成"}</strong></div>
-            <div class="attempt-detail"><span>目前輪次</span><strong>第 ${escapeHtml(attempt.roundNumber)} 輪</strong></div>
             <div class="attempt-detail"><span>提交記錄</span><strong>${escapeHtml(rounds)} 次</strong></div>
             <div class="attempt-detail"><span>練習時間</span><strong>${escapeHtml(formatDuration(attempt.durationMs))}</strong></div>
           </div>
@@ -1288,7 +1367,7 @@ function updateLessonStepper() {
   });
   const exerciseVisible = state.lessonPage === EXERCISE_PAGE && state.exercise;
   elements.lessonRound.hidden = !exerciseVisible;
-  if (exerciseVisible) elements.lessonRound.textContent = `第 ${state.exercise.round} 輪 · ${state.exercise.correctIds.length}/${getLesson()?.questions?.length || 0} 題完成`;
+  if (exerciseVisible) elements.lessonRound.textContent = `${state.exercise.correctIds.length}/${getLesson()?.questions?.length || 0} 題完成`;
 }
 
 function infoPageHeader(number, titleZh, titleEn, english, description = "") {
@@ -1944,9 +2023,8 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
           <h2>${escapeHtml(exerciseTitleZh)}<small lang="en">${escapeHtml(exerciseTitleEn)}</small></h2>
           ${instructionsZh ? `<p class="exercise-instruction-primary" lang="zh-Hant">${escapeHtml(instructionsZh)}</p>` : ""}
           ${instructionsEn ? `<p class="exercise-instruction-secondary" lang="en">${escapeHtml(instructionsEn)}</p>` : ""}
-          <p class="exercise-mechanics">部分提交只會檢查已輸入的題目；答對的題目不會在下一輪重複。</p>
+          <p class="exercise-mechanics">部分提交只會檢查已輸入的題目；答對的題目不會重複出現。</p>
         </div>
-        <span class="round-badge">第 ${escapeHtml(state.exercise.round)} 輪</span>
       </div>
       <div class="exercise-progress" style="--progress:${percentage}%"><span></span></div>
       <div class="exercise-progress-label"><span>已完成 ${escapeHtml(correct)} / ${escapeHtml(total)} 題</span><span>尚餘 ${escapeHtml(remaining)} 題</span></div>
@@ -1960,21 +2038,21 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
     ${completed ? `<section class="round-summary completion-card">
       <div class="completion-mark" aria-hidden="true">✓</div>
       <h3>恭喜，全部題目已完成！</h3>
-      <p>你用了 <strong>${escapeHtml(state.exercise.round)} 輪</strong> 完成這組 ${escapeHtml(total)} 題英文諺語練習。</p>
+      <p>你已完成這組 <strong>${escapeHtml(total)}</strong> 題英文諺語練習。</p>
       <div class="round-summary-actions"><button class="primary-button" type="button" data-finish-exercise>返回學習首頁</button></div>
     </section>` : state.exercise.awaitingNextRound ? `<section class="round-summary">
-      <h3>第 ${escapeHtml(state.exercise.round)} 輪已提交</h3>
-      <p>目前已答對 <strong>${escapeHtml(correct)}</strong> 題；尚有 <strong>${escapeHtml(remaining)}</strong> 題會在下一輪再練習。</p>
+      <h3>本次提交已檢查</h3>
+      <p>目前已答對 <strong>${escapeHtml(correct)}</strong> 題；尚有 <strong>${escapeHtml(remaining)}</strong> 題需要繼續練習。</p>
       <div class="round-summary-actions">
         ${wrongIds.length ? `<button class="correction-button" type="button" data-start-correction>立即改正錯題（${escapeHtml(wrongIds.length)}）</button>` : ""}
-        <button class="primary-button" type="button" data-next-round>開始第 ${escapeHtml(state.exercise.round + 1)} 輪</button>
+        <button class="primary-button" type="button" data-next-round>繼續練習未完成題目</button>
       </div>
     </section>` : ""}
 
     ${!completed && state.exercise.correctionMode ? `<section class="correction-round-banner">
       <div>
-        <h3>${correctionRemaining.length ? "Correction Round · 改正輪" : "本次錯題已全部改正"}</h3>
-        <p>${correctionRemaining.length ? correctionAnswerVisible ? `仍有 ${escapeHtml(correctionRemaining.length)} 題需要改正；黃色會標示遺漏或需修改部分，提交後可繼續下一改正輪。` : `集中修正 ${escapeHtml(correctionRemaining.length)} 題；首次提交前會暫時隱藏參考答案，答錯後會顯示提示並自動進入下一改正輪。` : "你可以查看已完成的綠色題卡，或返回其餘題目繼續練習。"}</p>
+        <h3>${correctionRemaining.length ? "錯題改正" : "本次錯題已全部改正"}</h3>
+        <p>${correctionRemaining.length ? correctionAnswerVisible ? `仍有 ${escapeHtml(correctionRemaining.length)} 題需要改正；黃色會標示遺漏或需修改部分。` : `集中修正 ${escapeHtml(correctionRemaining.length)} 題；首次提交前會暫時隱藏參考答案，答錯後會顯示提示。` : "你可以查看已完成的綠色題卡，或返回其餘題目繼續練習。"}</p>
       </div>
       <button class="secondary-button" type="button" data-exit-correction>返回其餘題目</button>
     </section>` : ""}
@@ -1988,7 +2066,7 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
     </div>
 
     ${!completed && !state.exercise.awaitingNextRound && (!state.exercise.correctionMode || correctionRemaining.length) ? `<div class="exercise-actions">
-      <span class="exercise-action-copy" data-exercise-action-copy>${state.exercise.correctionMode ? "修改錯題後提交；答對的題卡會留在本輪供你核對。" : "可提交全部答案，或只檢查已輸入的題目。"}</span>
+      <span class="exercise-action-copy" data-exercise-action-copy>${state.exercise.correctionMode ? "修改錯題後提交；答對的題卡會留在目前畫面供你核對。" : "可提交全部答案，或只檢查已輸入的題目。"}</span>
       <div class="exercise-action-buttons">
         ${!state.exercise.correctionMode && wrongIds.length ? `<button class="correction-button" type="button" data-start-correction>立即改正錯題（${escapeHtml(wrongIds.length)}）</button>` : ""}
         <button class="partial-button" type="button" data-submit-partial hidden>提交部分答案</button>
@@ -2053,7 +2131,7 @@ function syncExerciseButtons() {
       ? `已輸入 ${filled} / ${targets.length} 題；可先檢查這 ${filled} 題。`
       : filled === targets.length && targets.length
         ? "所有答案已填寫，現在可以提交。"
-        : "尚未輸入答案；提交全部會把空白題目留待下一輪。";
+        : "尚未輸入答案；提交全部會把空白題目保留為未完成。";
   }
 }
 
@@ -2254,7 +2332,7 @@ async function startCorrectionRound() {
     await persistExercise();
   } catch (error) {
     console.warn("Correction round save failed", error);
-    showToast("已進入改正輪，但暫時未能同步記錄。", "error");
+    showToast("已進入錯題改正，但暫時未能同步記錄。", "error");
   }
   document.querySelector(".exercise-header")?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
@@ -2594,6 +2672,9 @@ async function openAdminStudent(studentId) {
 }
 
 function handleClick(event) {
+  const searchResult = event.target.closest("[data-lesson-search-result]");
+  if (searchResult) return openLesson(searchResult.dataset.searchLesson, { page: Number(searchResult.dataset.searchPage || 1), questionId: searchResult.dataset.searchQuestion || "" });
+  if (event.target.closest("[data-clear-lesson-search]")) return clearLessonSearch();
   if (event.target.closest("[data-sentence-progress-toggle]")) return toggleProgressPanel();
   if (event.target.closest("[data-toggle-sentence-cumulative]")) return toggleCumulativeProgress();
 
@@ -2698,6 +2779,11 @@ function bindEvents() {
   document.addEventListener("click", handleClick);
   document.addEventListener("input", (event) => {
     if (event.target.matches("[data-answer-input]")) syncExerciseButtons();
+    if (event.target.matches("[data-lesson-search-input]")) renderLessonSearch();
+  });
+  elements.lessonSearchForm?.addEventListener("submit", (event) => {
+    event.preventDefault();
+    renderLessonSearch();
   });
   document.addEventListener("keydown", (event) => {
     if (!["Enter", " "].includes(event.key)) return;

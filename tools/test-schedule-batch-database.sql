@@ -656,6 +656,74 @@ begin
     and entry.schedule_date = v_week_start
     and entry.slot_index = 3;
 
+  -- The current 10-key payload must preserve the selected mutually-exclusive
+  -- status, while the mixed operation above proves legacy six-key support.
+  perform public._schedule_apply_entry_batch(
+    v_student_id,
+    v_week_start,
+    pg_catalog.jsonb_build_array(
+      pg_catalog.jsonb_build_object(
+        'action', 'upsert',
+        'scheduleDate', pg_catalog.to_char(v_week_start, 'YYYY-MM-DD'),
+        'slotIndex', 3,
+        'message', 'Mass Edit created three',
+        'estimatedMinutes', 60,
+        'expectedUpdatedAt', v_third_updated,
+        'source', 'student',
+        'isCompleted', false,
+        'isInProgress', false,
+        'isPreviousIncomplete', true
+      )
+    ),
+    'student',
+    null
+  );
+
+  if not exists (
+    select 1 from public.schedule_entries entry
+    where entry.student_id = v_student_id
+      and entry.schedule_date = v_week_start
+      and entry.slot_index = 3
+      and entry.is_previous_incomplete
+      and not entry.is_completed
+      and not entry.is_in_progress
+  ) then
+    raise exception 'Current Mass Edit payload did not preserve previous-homework status';
+  end if;
+
+  select entry.updated_at
+  into v_third_updated
+  from public.schedule_entries entry
+  where entry.student_id = v_student_id
+    and entry.schedule_date = v_week_start
+    and entry.slot_index = 3;
+
+  begin
+    perform public._schedule_apply_entry_batch(
+      v_student_id,
+      v_week_start,
+      pg_catalog.jsonb_build_array(
+        pg_catalog.jsonb_build_object(
+          'action', 'upsert',
+          'scheduleDate', pg_catalog.to_char(v_week_start, 'YYYY-MM-DD'),
+          'slotIndex', 3,
+          'message', 'Invalid overlapping statuses',
+          'estimatedMinutes', 60,
+          'expectedUpdatedAt', v_third_updated,
+          'source', 'student',
+          'isCompleted', true,
+          'isInProgress', false,
+          'isPreviousIncomplete', true
+        )
+      ),
+      'student',
+      null
+    );
+    raise exception 'Expected mutually-exclusive Mass Edit status rejection';
+  exception when sqlstate '22023' then
+    null;
+  end;
+
   begin
     perform public._schedule_apply_entry_batch(
       v_student_id,

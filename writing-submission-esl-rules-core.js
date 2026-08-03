@@ -142,8 +142,9 @@ const MODALS = Object.freeze([
 ]);
 
 const COMMON_ADVERBS = Object.freeze([
-  "also", "always", "easily", "generally", "never", "normally", "often", "quickly",
-  "really", "still", "usually"
+  "also", "always", "clearly", "easily", "generally", "gradually", "never", "normally",
+  "often", "quickly", "rapidly", "really", "sharply", "significantly", "slightly",
+  "steadily", "still", "usually"
 ]);
 
 function escapedAlternation(values) {
@@ -414,12 +415,34 @@ const PRESENT_AND_PAST_HOMOGRAPHS = new Set(["cost", "cut", "hit", "hurt", "let"
 const PRESENT_AGREEMENT_ADVERBS = new Set(COMMON_ADVERBS);
 const PAST_TIME_CUE_RE = /\b(?:ago|last\s+(?:night|week|month|year|summer)|yesterday|previously|in\s+(?:19|20)\d{2})\b/iu;
 const SINGULAR_NP_DETERMINERS = new Set([
-  "a", "an", "each", "every", "her", "his", "its", "my", "that", "the", "this"
+  "a", "an", "each", "every", "her", "his", "its", "my", "our", "that", "the",
+  "their", "this", "your"
+]);
+const SENTENCE_INITIAL_DETERMINERS = new Set([
+  ...SINGULAR_NP_DETERMINERS,
+  "all", "another", "any", "both", "either", "enough", "few", "fewer", "little",
+  "many", "more", "most", "much", "neither", "no", "several", "some", "such",
+  "these", "those", "what", "whatever", "which", "whichever", "whose"
+]);
+const SENTENCE_INITIAL_PREPOSITIONS = new Set([
+  "about", "above", "across", "after", "against", "along", "among", "around", "as", "at",
+  "before", "behind", "below", "beneath", "beside", "between", "beyond", "by", "despite",
+  "during", "except", "for", "from", "in", "inside", "into", "near", "of", "off", "on",
+  "onto", "opposite", "outside", "over", "past", "since", "through", "throughout", "to",
+  "toward", "towards", "under", "underneath", "until", "up", "upon", "via", "with",
+  "within", "without"
+]);
+const SENTENCE_INITIAL_FUNCTION_WORDS = new Set([
+  "although", "and", "because", "but", "can", "could", "if", "may", "might", "must",
+  "nor", "or", "shall", "should", "so", "than", "though", "unless", "when", "whenever",
+  "where", "whereas", "wherever", "whether", "while", "will", "would", "yet"
 ]);
 const SENTENCE_INITIAL_ADJECTIVE_MODIFIERS = new Set([
-  "clear", "current", "different", "elderly", "existing", "future", "good", "important", "international",
-  "local", "main", "major", "national", "new", "old", "personal", "private",
-  "proposed", "public", "recent", "school", "serious", "similar", "small"
+  "annual", "average", "clear", "complete", "current", "daily", "different", "elderly",
+  "existing", "final", "flexible", "future", "good", "hybrid", "important", "initial",
+  "international", "local", "main", "major", "monthly", "national", "new", "old", "online",
+  "personal", "plastic", "private", "proposed", "public", "recent", "recycled", "remote",
+  "rural", "school", "serious", "similar", "small", "total", "urban", "weekly"
 ]);
 const PLURAL_NOUN_HEADS = new Set([
   "children", "data", "feet", "men", "people", "police", "staff", "teeth", "women"
@@ -464,6 +487,46 @@ function nextVerbToken(tokens, subjectIndex) {
   let index = subjectIndex + 1;
   if (PRESENT_AGREEMENT_ADVERBS.has(tokens[index]?.lower)) index += 1;
   return { token: tokens[index] || null, index };
+}
+
+function looksLikePastPredicate(token) {
+  const lower = token?.lower || "";
+  if (!lower) return false;
+  if (IRREGULAR_PAST_TO_BASE[lower]) return true;
+  const knownBase = NON_BASE_TO_BASE[lower];
+  if (knownBase && regularPastForm(knownBase) === lower) return true;
+  // The intentionally small verb lexicon cannot enumerate every regular
+  // predicate (for example, displayed). A bounded suffix fallback is safe
+  // here because it only suppresses a speculative proper-name correction.
+  return lower.length >= 5 && /(?:ied|[^e]ed)$/u.test(lower);
+}
+
+function sentenceInitialHasFunctionRole(value) {
+  return (
+    NON_NAME_SENTENCE_INITIALS.has(value)
+    || SENTENCE_INITIAL_DETERMINERS.has(value)
+    || SENTENCE_INITIAL_PREPOSITIONS.has(value)
+    || SENTENCE_INITIAL_FUNCTION_WORDS.has(value)
+  );
+}
+
+function looksLikeFinitePredicate(token) {
+  const lower = token?.lower || "";
+  return (
+    looksLikePastPredicate(token)
+    || Boolean(THIRD_PERSON_TO_BASE[lower])
+    || KNOWN_BASE_VERBS.has(lower)
+    || MODALS.includes(lower)
+    || ["am", "are"].includes(lower)
+  );
+}
+
+function modifierNounPrecedesFinitePredicate(tokens, subjectIndex, candidateIndex) {
+  if (!SENTENCE_INITIAL_ADJECTIVE_MODIFIERS.has(tokens[subjectIndex]?.lower)) return false;
+  if (!AMBIGUOUS_NOUN_OR_VERB_COMPLEMENTS.has(tokens[candidateIndex]?.lower)) return false;
+  let predicateIndex = candidateIndex + 1;
+  while (PRESENT_AGREEMENT_ADVERBS.has(tokens[predicateIndex]?.lower)) predicateIndex += 1;
+  return looksLikeFinitePredicate(tokens[predicateIndex]);
 }
 
 function isPluralNounHead(value) {
@@ -584,7 +647,7 @@ function addGeneralPresentAgreementIssues(source, issues) {
       continue;
     }
 
-    const { token: verb } = nextVerbToken(tokens, index);
+    const { token: verb, index: verbIndex } = nextVerbToken(tokens, index);
     if (!verb) continue;
 
     if (PLURAL_PRONOUN_SUBJECTS.has(lowerSubject)) {
@@ -615,9 +678,10 @@ function addGeneralPresentAgreementIssues(source, issues) {
     const looksLikeSingularName = (
       /^[A-Z][A-Za-z'’\-]*$/u.test(subject.text)
       && isSentenceInitialToken(source, subject)
-      && !NON_NAME_SENTENCE_INITIALS.has(lowerSubject)
+      && !sentenceInitialHasFunctionRole(lowerSubject)
       && !lowerSubject.endsWith("s")
       && tokens[index - 1]?.lower !== "and"
+      && !modifierNounPrecedesFinitePredicate(tokens, index, verbIndex)
     );
     if (
       looksLikeSingularName

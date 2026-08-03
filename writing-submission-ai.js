@@ -16,6 +16,9 @@ export const REMOTE_GRAMMAR_FAILURE_KINDS = Object.freeze({
 });
 
 export const REMOTE_GRAMMAR_MAX_AUTOMATIC_RETRIES = 1;
+// This is the user's end-to-end browser deadline. The Worker and Workers AI
+// provider may still return a classified failure before this deadline.
+export const REMOTE_GRAMMAR_REQUEST_TIMEOUT_MS = 300_000;
 const REMOTE_GRAMMAR_DEFAULT_RETRY_DELAY_MS = 750;
 const REMOTE_GRAMMAR_MAX_RETRY_DELAY_MS = 2500;
 
@@ -388,6 +391,14 @@ function normalizeIssue(sentence, issue, {
   if (confidence !== null && (!Number.isFinite(confidence) || confidence < 0 || confidence > 1)) {
     return null;
   }
+  const detectorPriority = ai || issue.detectorPriority === undefined
+    ? 0
+    : Number(issue.detectorPriority);
+  if (
+    !Number.isSafeInteger(detectorPriority)
+    || detectorPriority < 0
+    || detectorPriority > 100000
+  ) return null;
 
   const canonicalTitle = WRITING_GRAMMAR_CATEGORY_TITLES[categoryId];
   const localTitle = boundedText(issue.title, MAX_TITLE_LENGTH);
@@ -419,6 +430,7 @@ function normalizeIssue(sentence, issue, {
     start: span.start,
     end: span.end,
     ...(confidence === null ? {} : { confidence }),
+    ...(detectorPriority > 0 ? { detectorPriority } : {}),
     ...(reviewRequired ? { reviewRequired: true } : {}),
     suggestions,
     engine,
@@ -428,7 +440,8 @@ function normalizeIssue(sentence, issue, {
 
 function issueSelectionOrder(left, right) {
   return (
-    left.start - right.start
+    (right.detectorPriority ?? 0) - (left.detectorPriority ?? 0)
+    || left.start - right.start
     || (left.end - left.start) - (right.end - right.start)
     || (right.confidence ?? 0) - (left.confidence ?? 0)
     || left.categoryId.localeCompare(right.categoryId)

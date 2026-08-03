@@ -1,10 +1,12 @@
 import {
   CORPUS_COMPILED_PATTERN_COUNT,
   CORPUS_COMPILED_RULE_COUNT,
+  EXECUTABLE_COMPILED_FAMILY_COUNT,
+  EXECUTABLE_COMPILED_PATTERN_COUNT,
   approvedCorpusIncorrectSentenceId,
   checkLocalLearnerEnglish,
   mergeGrammarIssues
-} from "./writing-submission-esl-rules.js?v=20260802-grammar2";
+} from "./writing-submission-esl-rules.js?v=20260802-grammar5";
 import {
   Dialect,
   SuggestionKind,
@@ -21,7 +23,9 @@ export const WRITING_GRAMMAR_ENGINE = Object.freeze({
 
 export {
   CORPUS_COMPILED_PATTERN_COUNT,
-  CORPUS_COMPILED_RULE_COUNT
+  CORPUS_COMPILED_RULE_COUNT,
+  EXECUTABLE_COMPILED_FAMILY_COUNT,
+  EXECUTABLE_COMPILED_PATTERN_COUNT
 };
 
 const TERMINATORS = new Set([".", ";"]);
@@ -33,7 +37,7 @@ const DEFAULT_LINT_OPTIONS = Object.freeze({
 
 // Harper's slim dictionary is intentionally secondary to the reviewed Edmund
 // corpus. Only rules that have positive learner-error coverage and zero hits
-// across all 322 teacher-corrected corpus sentences are shown. This prevents
+// across all teacher-corrected corpus sentences are shown. This prevents
 // proper names, MWh, Oxford-comma style and other non-errors from becoming
 // grammar cards while retaining Harper's useful structural checks.
 const REVIEWED_HARPER_RULE_IDS = new Set([

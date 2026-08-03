@@ -156,7 +156,7 @@ export const ACCEPTED_ANSWERS = Object.freeze({
     "Shake a leg, Leo, or you’ll miss the school bus."
   ],
   "idiom-02-q02": [
-    "Come on, Mia, shake a leg; class starts in five minutes."
+    "Come on, Tom, shake a leg; class starts in five minutes."
   ],
   "idiom-02-q03": [
     "Shake a leg, everyone; the film is about to start."

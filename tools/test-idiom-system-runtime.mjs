@@ -642,7 +642,8 @@ test("correct and wrong answers support immediate correction, explicit exit, and
   assert.deepEqual(Array.from(sut.state.exercise.correctionIds), [q2.id]);
   assert.deepEqual(Array.from(sut.submissionQuestions(), (question) => question.id), [q2.id]);
   assert.equal(occurrences(sut.elements.lessonContent.innerHTML, "data-question-id="), 1);
-  assert.match(sut.elements.lessonContent.innerHTML, /Correction Round · 改正輪/);
+  assert.match(sut.elements.lessonContent.innerHTML, /錯題改正/);
+  assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /第\s*\d+\s*輪|分輪|改正輪/);
   assert.ok(!sut.elements.lessonContent.innerHTML.includes(`data-question-id="${q1.id}"`));
 
   await sut.exitCorrectionRound();

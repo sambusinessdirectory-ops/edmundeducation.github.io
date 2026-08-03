@@ -16,6 +16,13 @@ function normalText(value) {
   return typeof value === "string" && value.trim() === value && value.length > 0;
 }
 
+function normalizeStudentNames(value) {
+  if (typeof value === "string") return value.replace(/\bMia\b/g, "Tom").replaceAll("米婭", "湯姆");
+  if (Array.isArray(value)) value.forEach((item, index) => { value[index] = normalizeStudentNames(item); });
+  else if (value && typeof value === "object") Object.keys(value).forEach((key) => { value[key] = normalizeStudentNames(value[key]); });
+  return value;
+}
+
 function readPublishedData() {
   const context = { window: {} };
   vm.createContext(context);
@@ -27,7 +34,7 @@ function readPublishedData() {
 
 function readLessonFragment(file) {
   const parsed = JSON.parse(fs.readFileSync(file, "utf8"));
-  return parsed?.lesson || parsed;
+  return normalizeStudentNames(parsed?.lesson || parsed);
 }
 
 function validateBilingualExamples(examples, location) {
@@ -131,7 +138,7 @@ function validateLesson(lesson, expectedOrder) {
 }
 
 const published = readPublishedData();
-const existingFirstLesson = published.lessons?.find((lesson) => lesson.id === "phrasal-verb-01");
+const existingFirstLesson = normalizeStudentNames(published.lessons?.find((lesson) => lesson.id === "phrasal-verb-01"));
 requireCondition(existingFirstLesson, "The existing Build lesson is missing");
 
 const fragments = fs.existsSync(lessonDirectory)
@@ -156,6 +163,6 @@ const content = {
 };
 const serialized = JSON.stringify(content, null, 2);
 requireCondition(!/\/Users\/|[A-Z]:\\/.test(serialized), "Generated public data contains a local path");
-const output = `/* Generated from the fully rendered and reviewed lesson sources. Do not edit answers by hand. */\n(function definePhrasalVerbSystemData() {\n  const data = ${serialized.replaceAll("\n", "\n  ")};\n  Object.freeze(data.lessons);\n  window.EDMUND_PHRASAL_VERB_SYSTEM_DATA = Object.freeze(data);\n}());\n`;
+const output = `/* Generated from the fully rendered and reviewed lesson sources. Do not edit answers by hand. */\n(function definePhrasalVerbSystemData() {\n  const data = ${serialized.replaceAll("\n", "\n  ")};\n  function normalizeStudentNames(value) {\n    if (typeof value === "string") return value.replace(/\\bMia\\b/g, "Tom").replaceAll("米婭", "湯姆");\n    if (Array.isArray(value)) value.forEach((item, index) => { value[index] = normalizeStudentNames(item); });\n    else if (value && typeof value === "object") Object.keys(value).forEach((key) => { value[key] = normalizeStudentNames(value[key]); });\n    return value;\n  }\n  normalizeStudentNames(data);\n  Object.freeze(data.lessons);\n  window.EDMUND_PHRASAL_VERB_SYSTEM_DATA = Object.freeze(data);\n}());\n`;
 fs.writeFileSync(dataPath, output);
 console.log(`Wrote ${content.lessonCount} lessons and ${content.questionCount} questions to ${path.relative(root, dataPath)}`);

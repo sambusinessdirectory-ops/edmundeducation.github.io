@@ -13,6 +13,8 @@ import {
   filterHomeworkResources,
   fullHomeworkTriggerAtCursor,
   homeworkAutocomplete,
+  homeworkResourceDisplayTitle,
+  insertHomeworkResourceTitle,
   normalizeHomeworkResource,
   parseScheduleMessage,
   serializeScheduleMessage
@@ -25,7 +27,7 @@ const read = (file) => readFile(path.join(root, file), "utf8");
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 2576, "the Homework/Schedule catalogue should include every current learning resource and all 142 August flashcard decks");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 2638, "the Homework/Schedule catalogue should include every current learning resource and all 142 August flashcard decks");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
@@ -34,10 +36,49 @@ assert.equal((byType.flashcards || []).length, 1261, "all current static and laz
 assert.equal((byType["fill-blanks"] || []).length, 310, "all current writing exercises should be indexed");
 assert.equal((byType.speaking || []).length, 787, "all currently visible speaking exercises should be indexed");
 assert.equal((byType["sentence-structure"] || []).length, 218, "all sentence structure lessons should be indexed");
+assert.equal((byType.idiom || []).length, 25, "all Idiom lessons should be indexed");
+assert.equal((byType.proverb || []).length, 1, "all Proverb lessons should be indexed");
+assert.equal((byType["phrasal-verb"] || []).length, 35, "all Phrasal Verb lessons should be indexed");
+assert.equal((byType["writing-submission"] || []).length, 1, "Writing Submission should be available as a homework type");
 assert.ok(ids.has("flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q2"));
 assert.ok(ids.has("fill:model-essay-2-ielts-advantage-disadvantage"));
 assert.ok(ids.has("speaking:ielts-part-2-book-1-exercise-01"));
 assert.ok(ids.has("sentence:ss218"));
+assert.ok(ids.has("idiom:idiom-25"));
+assert.ok(ids.has("proverb:proverb-01"));
+assert.ok(ids.has("phrasal-verb:phrasal-verb-35"));
+assert.ok(ids.has("writing-submission:portal"));
+
+for (const [type, count, prefix] of [
+  ["idiom", 25, "idiom"],
+  ["proverb", 1, "proverb"],
+  ["phrasal-verb", 35, "phrasal-verb"]
+]) {
+  assert.deepEqual(
+    (byType[type] || []).map((resource) => resource.ordinal),
+    Array.from({ length: count }, (_, index) => index + 1),
+    `${type} resources should appear in exact lesson order`
+  );
+  for (let ordinal = 1; ordinal <= count; ordinal += 1) {
+    const lessonId = `${prefix}-${String(ordinal).padStart(2, "0")}`;
+    const resource = HOMEWORK_RESOURCE_CATALOG.find((item) => item.id === `${type}:${lessonId}`);
+    assert.ok(resource, `${type} #${ordinal} should be indexed`);
+    assert.match(resource.label, new RegExp(`^#${ordinal} · `), `${type} #${ordinal} should show its order`);
+    assert.equal(resource.url, `${type}-system.html?lesson=${lessonId}`, `${type} #${ordinal} should have an exact deep link`);
+  }
+}
+
+const enrichedWritingTask = HOMEWORK_RESOURCE_CATALOG.find(
+  (resource) => resource.id === "fill:model-essay-1-ielts-task1-bar-charts"
+);
+assert.equal(enrichedWritingTask?.sectionKey, "ielts-writing");
+assert.match(enrichedWritingTask?.questionPrompt?.join(" ") || "", /number of households in the US/);
+assert.equal(enrichedWritingTask?.questionImages?.[0]?.src, "assets/writing-practice/questions/ielts-task1/model-essay-1-ielts-task1-bar-charts.webp");
+assert.equal(
+  normalizeHomeworkResource(enrichedWritingTask)?.questionPrompt,
+  undefined,
+  "large writing prompts and images must never be copied into stored Schedule markers"
+);
 assert.equal(
   HOMEWORK_RESOURCE_CATALOG.find((resource) => resource.id === "flash:ielts/reading/passage-1/Practice 1")?.label,
   "IELTS / Reading / Passage 1 / Practice 1 — Andrea Palladio - Italian Architect",
@@ -219,16 +260,76 @@ assert.equal(normalizeHomeworkResource({
   label: "Unsafe",
   url: "https://evil.example/flashcards.html?deck=bad"
 }), null);
+assert.equal(normalizeHomeworkResource({
+  id: "idiom:idiom-01",
+  type: "idiom",
+  label: "Idiom 1",
+  url: "idiom-system.html?lesson=idiom-01"
+})?.url, "idiom-system.html?lesson=idiom-01");
+assert.equal(normalizeHomeworkResource({
+  id: "writing-submission:portal",
+  type: "writing-submission",
+  label: "Writing Submission",
+  url: "writing-submission.html"
+})?.url, "writing-submission.html");
+assert.equal(normalizeHomeworkResource({
+  id: "writing-submission:bad",
+  type: "writing-submission",
+  label: "Unsafe query",
+  url: "writing-submission.html?student=someone"
+}), null, "Writing Submission must not accept unexpected query parameters");
+assert.equal(normalizeHomeworkResource({
+  id: "proverb:proverb-01",
+  type: "proverb",
+  label: "Wrong target",
+  url: "idiom-system.html?lesson=idiom-01"
+}), null, "resource types must stay bound to their exact portal");
 
 const flashCompletion = homeworkAutocomplete("F", 1);
 assert.equal(flashCompletion.trigger, "Flash Cards");
 assert.equal(flashCompletion.remainder, "lash Cards");
 assert.equal(homeworkAutocomplete("Fi", 2).trigger, "Fill in the blanks");
 assert.equal(homeworkAutocomplete("Review Se", 9).trigger, "Sentence Structure");
+assert.equal(homeworkAutocomplete("Review Id", 9).trigger, "Idiom");
+assert.equal(homeworkAutocomplete("Review Ph", 9).trigger, "Phrasal Verbs");
+assert.equal(homeworkAutocomplete("Review Pr", 9).trigger, "Proverb");
+assert.equal(homeworkAutocomplete("Choose Wr", 9).trigger, "Writing Submission");
 const accepted = acceptHomeworkAutocomplete("Please finish Fi", 16, 16, homeworkAutocomplete("Please finish Fi", 16));
 assert.equal(accepted.value, "Please finish Fill in the blanks");
 assert.equal(fullHomeworkTriggerAtCursor(accepted.value, accepted.cursor).type, "fill-blanks");
 assert.equal(fullHomeworkTriggerAtCursor(`${accepted.value} today`, accepted.value.length + 6), null, "continuing prose must dismiss the picker");
+
+const replacedHomeworkTitle = "Please finish Model Essay 2 - IELTS - Advantages / Disadvantages";
+assert.deepEqual(
+  insertHomeworkResourceTitle(accepted.value, accepted, "Model Essay 2 - IELTS - Advantages / Disadvantages"),
+  {
+    value: replacedHomeworkTitle,
+    cursor: replacedHomeworkTitle.length,
+    inserted: true
+  },
+  "selecting a homework resource should replace the exact accepted trigger with its title"
+);
+const appendedHomeworkTitle = "Read Chapter 1\n#2 · 快一點／加快動作";
+assert.deepEqual(
+  insertHomeworkResourceTitle("Read Chapter 1", null, "#2 · 快一點／加快動作"),
+  { value: appendedHomeworkTitle, cursor: appendedHomeworkTitle.length, inserted: true },
+  "a selection without a live trigger should append its title on a new editable line"
+);
+assert.equal(
+  insertHomeworkResourceTitle("#2 · 快一點／加快動作", null, "#2 · 快一點／加快動作").inserted,
+  false,
+  "the same standalone title should not be duplicated"
+);
+assert.equal(
+  homeworkResourceDisplayTitle({ type: "idiom", label: "#1 · 開始行動／帶頭開始" }),
+  "Idiom - #1 · 開始行動／帶頭開始",
+  "the auto-inserted title should include its exact Homework taxonomy type"
+);
+assert.equal(
+  homeworkResourceDisplayTitle({ type: "writing-submission", label: "Writing Submission" }),
+  "Writing Submission",
+  "a label already beginning with its type must not receive a duplicate prefix"
+);
 
 const selected = HOMEWORK_RESOURCE_CATALOG.find((resource) => resource.id === "fill:model-essay-2-ielts-advantage-disadvantage");
 const stored = serializeScheduleMessage("Fill in the blanks", [selected]);
@@ -240,6 +341,11 @@ assert.equal(parsed.resources[0].url, "writing-practice.html?exercise=model-essa
 assert.doesNotMatch(parsed.text, /@edmund-homework/);
 assert.equal(parseScheduleMessage("普通舊安排").text, "普通舊安排", "legacy messages must stay unchanged");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "speaking", "Part 2 Book 1 Advertisements").total >= 1, true);
+assert.equal(
+  filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "fill-blanks", "number households annual income 2015").items[0]?.id,
+  "fill:model-essay-1-ielts-task1-bar-charts",
+  "enriched writing prompts should be searchable without loading every full exercise source"
+);
 
 const numericFixture = [32, 24, 2, 111, 13, 22, 1, 23, 12, 11].map((ordinal) => ({
   id: `sentence:ss${ordinal}`,
@@ -348,20 +454,24 @@ try {
   await rm(tempDirectory, { recursive: true, force: true });
 }
 
-const [scheduleHtml, scheduleJs, flashcards, writing, speaking, sentence, workflow] = await Promise.all([
+const [scheduleHtml, scheduleJs, flashcards, writing, speaking, sentence, idiom, proverb, phrasalVerb, workflow] = await Promise.all([
   read("schedule-system.html"),
   read("schedule-system.js"),
   read("flashcards.html"),
   read("writing-practice.html"),
   read("speaking-system.js"),
   read("sentence-structure.js"),
+  read("idiom-system.js"),
+  read("proverb-system.js"),
+  read("phrasal-verb-system.js"),
   read(".github/workflows/pages.yml")
 ]);
 assert.match(scheduleHtml, /data-homework-autocomplete/);
 assert.match(scheduleHtml, /data-homework-picker-search/);
 assert.match(scheduleHtml, /data-homework-attachments/);
 assert.match(scheduleJs, /serializeScheduleMessage\(visibleMessage, state\.editing\.resources\)/);
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260801-1"/, "Homework catalog cache key is stale");
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260803-1"/, "Homework catalog cache key is stale");
+assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");
 assert.match(scheduleJs, /nextMessage\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "attachment selection must enforce the serialized database budget");
 assert.match(scheduleJs, /message\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "Save must recheck the serialized database budget");
 assert.match(scheduleJs, /resources\.length >= MAX_HOMEWORK_RESOURCES/, "attachment selection must enforce the resource-count cap without silent truncation");
@@ -377,6 +487,9 @@ assert.match(flashcards, /URLSearchParams\(window\.location\.search\)\.get\("dec
 assert.match(writing, /URLSearchParams\(window\.location\.search\)\.get\("exercise"\)/);
 assert.match(speaking, /URLSearchParams\(window\.location\.search\)\.get\("exercise"\)/);
 assert.match(sentence, /URLSearchParams\(window\.location\.search\)\.get\("lesson"\)/);
+assert.match(idiom, /URLSearchParams\(window\.location\.search\)\.get\("lesson"\)/);
+assert.match(proverb, /URLSearchParams\(window\.location\.search\)\.get\("lesson"\)/);
+assert.match(phrasalVerb, /URLSearchParams\(window\.location\.search\)\.get\("lesson"\)/);
 assert.ok(
   workflow.indexOf("node tools/generate-homework-resource-catalog.mjs") < workflow.indexOf("rsync -av"),
   "Pages must refresh the catalog before copying deployment files"

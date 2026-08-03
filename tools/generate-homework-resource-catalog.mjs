@@ -92,6 +92,38 @@ function writingOrdinal(exercise) {
   ]);
 }
 
+function writingSectionKey(exercise) {
+  const id = String(exercise?.id || "").toLowerCase();
+  const exam = String(exercise?.exam || "").toLowerCase();
+  if (id.startsWith("dse-") || /\bdse\b/.test(exam)) return "dse-writing";
+  if (id.startsWith("hkpf-") || /civil servant|government|hkpf/.test(exam)) return "government-writing";
+  if (/\bielts\b/.test(exam) || id.includes("ielts")) return "ielts-writing";
+  if (/\btoeic\b/.test(exam) || id.includes("toeic")) return "toeic-writing";
+  if (/\btoefl\b/.test(exam) || id.includes("toefl")) return "toefl-writing";
+  if (/\bpte\b/.test(exam) || id.includes("pte")) return "pte-writing";
+  return "";
+}
+
+function writingQuestionPrompt(exercise) {
+  const prompt = Array.isArray(exercise?.questionPrompt)
+    ? exercise.questionPrompt
+    : exercise?.questionPrompt
+      ? [exercise.questionPrompt]
+      : [];
+  return prompt.map((line) => String(line || "").trim()).filter(Boolean);
+}
+
+function writingQuestionImages(exercise) {
+  const images = Array.isArray(exercise?.questionImages) ? exercise.questionImages : [];
+  return images.map((image) => {
+    if (typeof image === "string") return { src: String(image).trim(), alt: "" };
+    return {
+      src: String(image?.src || "").trim(),
+      alt: compactText(image?.alt || "", 240)
+    };
+  }).filter((image) => image.src);
+}
+
 async function flashcardResources(allFiles) {
   const html = await readFile(path.join(root, "flashcards.html"), "utf8");
   const assignmentStart = html.indexOf("window.EDMUND_FLASHCARD_SEED = {");
@@ -163,8 +195,22 @@ async function writingResources() {
     ordinal: writingOrdinal(exercise),
     label: compactText(exercise.title),
     detail: compactText([exercise.exam, exercise.taskType].filter(Boolean).join(" · "), 140),
-    url: `writing-practice.html?exercise=${encodeURIComponent(exercise.id)}`
+    url: `writing-practice.html?exercise=${encodeURIComponent(exercise.id)}`,
+    sectionKey: writingSectionKey(exercise),
+    questionPrompt: writingQuestionPrompt(exercise),
+    questionImages: writingQuestionImages(exercise)
   }));
+}
+
+function writingSubmissionResources() {
+  return [{
+    id: "writing-submission:portal",
+    type: "writing-submission",
+    ordinal: 1,
+    label: "Edmund Sir Writing 交文系統",
+    detail: "Writing Submission · 寫作交文",
+    url: "writing-submission.html"
+  }];
 }
 
 async function speakingResources() {
@@ -220,12 +266,66 @@ async function sentenceResources() {
   });
 }
 
+async function orderedLessonResources({ file, globalName, type, idPrefix, systemLabel, page }) {
+  const globals = await evaluateFiles([file]);
+  const data = globals[globalName];
+  const lessons = Array.isArray(data?.lessons) ? data.lessons : [];
+  if (Number(data?.lessonCount) !== lessons.length) {
+    throw new Error(`${systemLabel} lesson count mismatch: metadata=${data?.lessonCount || 0}, lessons=${lessons.length}`);
+  }
+  return lessons.map((lesson, index) => {
+    const ordinal = index + 1;
+    if (Number(lesson?.order) !== ordinal) {
+      throw new Error(`${systemLabel} lesson order mismatch at option #${ordinal}: ${lesson?.order || "missing order"}`);
+    }
+    const expectedId = `${idPrefix}-${String(ordinal).padStart(2, "0")}`;
+    if (String(lesson?.id || "") !== expectedId) {
+      throw new Error(`${systemLabel} lesson id mismatch at option #${ordinal}: ${lesson?.id || "missing id"}`);
+    }
+    const titleZh = compactText(lesson.titleZh || lesson.title || lesson.titleEn || `${systemLabel} ${ordinal}`);
+    const titleEn = compactText(lesson.titleEn || lesson.title || titleZh, 140);
+    return {
+      id: `${type}:${lesson.id}`,
+      type,
+      ordinal,
+      label: `#${ordinal} · ${titleZh}`,
+      detail: `${systemLabel} #${ordinal} · ${titleEn}`,
+      url: `${page}?lesson=${encodeURIComponent(lesson.id)}`
+    };
+  });
+}
+
 const allFiles = await readdir(root);
 const resources = [
   ...await flashcardResources(allFiles),
   ...await writingResources(),
+  ...writingSubmissionResources(),
   ...await speakingResources(),
-  ...await sentenceResources()
+  ...await sentenceResources(),
+  ...await orderedLessonResources({
+    file: "idiom-system-data.js",
+    globalName: "EDMUND_IDIOM_SYSTEM_DATA",
+    type: "idiom",
+    idPrefix: "idiom",
+    systemLabel: "Idiom",
+    page: "idiom-system.html"
+  }),
+  ...await orderedLessonResources({
+    file: "proverb-system-data.js",
+    globalName: "EDMUND_PROVERB_SYSTEM_DATA",
+    type: "proverb",
+    idPrefix: "proverb",
+    systemLabel: "Proverb",
+    page: "proverb-system.html"
+  }),
+  ...await orderedLessonResources({
+    file: "phrasal-verb-system-data.js",
+    globalName: "EDMUND_PHRASAL_VERB_SYSTEM_DATA",
+    type: "phrasal-verb",
+    idPrefix: "phrasal-verb",
+    systemLabel: "Phrasal Verb",
+    page: "phrasal-verb-system.html"
+  })
 ]
   .sort((left, right) => left.type.localeCompare(right.type) || left.label.localeCompare(right.label, "en", { numeric: true }));
 

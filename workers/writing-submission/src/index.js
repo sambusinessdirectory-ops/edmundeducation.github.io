@@ -30,6 +30,7 @@ const MAX_ANSWER_CHARACTERS = 100000;
 const MAX_ANSWER_BYTES = 400000;
 const MAX_OCCURRENCES_PER_BATCH = 50;
 const MAX_OCCURRENCES_PER_DOCUMENT_RESPONSE = 2000;
+const MAX_GRAMMAR_HISTORY_PAGE_SIZE = 100;
 const MAX_PAGE_SIZE = 100;
 const MAX_ADMIN_PAGE_SIZE = 100;
 const decoder = new TextDecoder("utf-8", { fatal: true });
@@ -127,6 +128,15 @@ async function route(request, env) {
   if (url.pathname === "/v1/student/me" && request.method === "GET") {
     return studentMe(request, env);
   }
+  if (url.pathname === "/v1/preferences" && request.method === "GET") {
+    return getPreferences(request, env);
+  }
+  if (url.pathname === "/v1/preferences" && request.method === "PUT") {
+    return putPreferences(request, env);
+  }
+  if (url.pathname === "/v1/progress" && request.method === "GET") {
+    return getProgress(request, env);
+  }
   if (url.pathname === "/v1/grammar-check" && request.method === "POST") {
     return grammarCheck(request, env);
   }
@@ -141,6 +151,9 @@ async function route(request, env) {
   if (submissionMatch && request.method === "PUT") {
     return putSubmission(request, env, submissionMatch[1]);
   }
+  if (submissionMatch && request.method === "DELETE") {
+    return deleteSubmission(request, env, submissionMatch[1]);
+  }
 
   if (url.pathname === "/v1/grammar-occurrences/batch" && request.method === "POST") {
     return postOccurrenceBatch(request, env);
@@ -148,12 +161,18 @@ async function route(request, env) {
   if (url.pathname === "/v1/grammar-problems" && request.method === "GET") {
     return getGrammarProblems(request, env);
   }
+  if (url.pathname === "/v1/grammar-problem-occurrences" && request.method === "GET") {
+    return listGrammarProblemOccurrences(request, env, url);
+  }
 
   if (url.pathname === "/v1/admin/students" && request.method === "GET") {
     return listAdminStudents(request, env);
   }
   if (url.pathname === "/v1/admin/submissions" && request.method === "GET") {
     return listAdminSubmissions(request, env, url);
+  }
+  if (url.pathname === "/v1/admin/explanation-review" && request.method === "GET") {
+    return listAdminExplanationReview(request, env, url);
   }
   const adminSubmissionMatch = url.pathname.match(/^\/v1\/admin\/submissions\/([0-9a-f-]{36})$/i);
   if (adminSubmissionMatch && request.method === "GET") {
@@ -226,7 +245,7 @@ function isAllowedOrigin(origin, env) {
 function corsHeaders(origin, env) {
   const headers = securityHeaders();
   headers.set("Access-Control-Allow-Headers", "Authorization, Content-Type");
-  headers.set("Access-Control-Allow-Methods", "GET, POST, PUT, OPTIONS");
+  headers.set("Access-Control-Allow-Methods", "DELETE, GET, POST, PUT, OPTIONS");
   headers.set("Access-Control-Expose-Headers", "Retry-After");
   headers.set("Vary", "Origin");
   if (isAllowedOrigin(origin, env)) headers.set("Access-Control-Allow-Origin", origin);
@@ -640,6 +659,52 @@ async function studentMe(request, env) {
   );
 }
 
+async function getPreferences(request, env) {
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  const row = singleRow(await rpc(env, "writing_submission_preferences_get", {
+    p_student_id: student.id
+  }));
+  if (!row) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Writing preferences returned an invalid response");
+  }
+  return json({
+    preferences: {
+      grammarDetectionEnabled: row.grammar_detection_enabled !== false,
+      updatedAt: row.updated_at ? String(row.updated_at) : null
+    }
+  }, 200, request, env);
+}
+
+async function putPreferences(request, env) {
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  await enforceRateLimit(
+    env.SUBMISSION_WRITE_RATE_LIMITER,
+    `writing-submission-preference:${student.id}`,
+    "Writing preferences are temporarily unavailable",
+    "TOO_MANY_PREFERENCE_WRITES",
+    "Too many preference updates; please wait and try again"
+  );
+  const payload = await readLimitedJson(request, MAX_LOGIN_BODY_BYTES);
+  if (!hasExactKeys(payload, ["grammarDetectionEnabled"]) || typeof payload.grammarDetectionEnabled !== "boolean") {
+    throw new HttpError(400, "INVALID_PREFERENCE", "Writing preference payload is invalid");
+  }
+  const row = singleRow(await rpc(env, "writing_submission_preferences_set", {
+    p_student_id: student.id,
+    p_grammar_detection_enabled: payload.grammarDetectionEnabled
+  }));
+  if (!row) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Writing preferences returned an invalid response");
+  }
+  return json({
+    preferences: {
+      grammarDetectionEnabled: row.grammar_detection_enabled !== false,
+      updatedAt: row.updated_at ? String(row.updated_at) : null
+    }
+  }, 200, request, env);
+}
+
 function isPlainObject(value) {
   if (!value || typeof value !== "object" || Array.isArray(value)) return false;
   const prototype = Object.getPrototypeOf(value);
@@ -683,7 +748,11 @@ function wordCount(value) {
 }
 
 function normalizeSubmissionPayload(payload) {
-  if (!hasExactKeys(payload, ["topic", "answer"])) {
+  if (
+    !hasOnlyKeys(payload, new Set(["topic", "answer", "durationSeconds"]))
+    || !Object.prototype.hasOwnProperty.call(payload, "topic")
+    || !Object.prototype.hasOwnProperty.call(payload, "answer")
+  ) {
     throw new HttpError(400, "INVALID_SUBMISSION", "Submission payload has an invalid shape");
   }
   const topic = normalizeWritingText(
@@ -702,7 +771,15 @@ function normalizeSubmissionPayload(payload) {
   if (words < 1 || words > 50000) {
     throw new HttpError(400, "INVALID_SUBMISSION", "answer has an invalid word count");
   }
-  return { topic, answer, wordCount: words };
+  const durationSeconds = payload.durationSeconds === undefined ? 0 : Number(payload.durationSeconds);
+  if (
+    !Number.isSafeInteger(durationSeconds)
+    || durationSeconds < 0
+    || durationSeconds > 31536000
+  ) {
+    throw new HttpError(400, "INVALID_SUBMISSION", "durationSeconds is invalid");
+  }
+  return { topic, answer, wordCount: words, durationSeconds };
 }
 
 function submissionResponse(row) {
@@ -710,6 +787,7 @@ function submissionResponse(row) {
     id: String(row.id || ""),
     topic: String(row.topic || ""),
     wordCount: Number(row.word_count || 0),
+    durationSeconds: Number(row.duration_seconds || 0),
     submittedAt: String(row.submitted_at || "")
   };
   if (Object.prototype.hasOwnProperty.call(row, "answer")) {
@@ -721,6 +799,9 @@ function submissionResponse(row) {
   if (Object.prototype.hasOwnProperty.call(row, "student_id")) {
     response.studentId = String(row.student_id || "");
     response.studentName = String(row.student_name || "");
+  }
+  if (Object.prototype.hasOwnProperty.call(row, "deleted_at")) {
+    response.deletedAt = row.deleted_at ? String(row.deleted_at) : null;
   }
   return response;
 }
@@ -757,7 +838,7 @@ async function listSubmissions(request, env, url) {
   const student = await authenticateStudent(request, env);
   if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
   const { page, pageSize, offset } = pageParameters(url, MAX_PAGE_SIZE);
-  const rows = await rpc(env, "writing_submission_list", {
+  const rows = await rpc(env, "writing_submission_list_v2", {
     p_student_id: student.id,
     p_limit: pageSize + 1,
     p_offset: offset
@@ -781,7 +862,7 @@ async function getSubmission(request, env, submissionId) {
   const student = await authenticateStudent(request, env);
   if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
   const normalizedId = submissionId.toLowerCase();
-  const row = singleRow(await rpc(env, "writing_submission_get", {
+  const row = singleRow(await rpc(env, "writing_submission_get_v2", {
     p_student_id: student.id,
     p_id: normalizedId
   }));
@@ -816,17 +897,63 @@ async function putSubmission(request, env, submissionId) {
   const payload = normalizeSubmissionPayload(
     await readLimitedJson(request, MAX_SUBMISSION_BODY_BYTES)
   );
-  const row = singleRow(await rpc(env, "writing_submission_submit", {
+  const row = singleRow(await rpc(env, "writing_submission_submit_v2", {
     p_id: submissionId.toLowerCase(),
     p_student_id: student.id,
     p_topic: payload.topic,
     p_answer: payload.answer,
-    p_word_count: payload.wordCount
+    p_word_count: payload.wordCount,
+    p_duration_seconds: payload.durationSeconds
   }));
   if (!row) {
     throw new HttpError(409, "SUBMISSION_LIMIT_REACHED", "Submission could not be saved");
   }
   return json({ submission: submissionResponse(row) }, 200, request, env);
+}
+
+async function deleteSubmission(request, env, submissionId) {
+  if (!UUID_RE.test(submissionId)) {
+    throw new HttpError(404, "SUBMISSION_NOT_FOUND", "Submission not found");
+  }
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  await enforceRateLimit(
+    env.SUBMISSION_WRITE_RATE_LIMITER,
+    `writing-submission-delete:${student.id}`,
+    "Submission archive updates are temporarily unavailable",
+    "TOO_MANY_SUBMISSION_WRITES",
+    "Too many submission updates; please wait and try again"
+  );
+  const row = singleRow(await rpc(env, "writing_submission_soft_delete", {
+    p_student_id: student.id,
+    p_id: submissionId.toLowerCase()
+  }));
+  if (!row) throw new HttpError(404, "SUBMISSION_NOT_FOUND", "Submission not found");
+  return json({
+    deleted: {
+      id: String(row.id || submissionId).toLowerCase(),
+      deletedAt: String(row.deleted_at || "")
+    }
+  }, 200, request, env);
+}
+
+async function getProgress(request, env) {
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  const rows = await rpc(env, "writing_submission_progress", { p_student_id: student.id });
+  if (!Array.isArray(rows)) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Writing progress returned an invalid response");
+  }
+  return json({
+    progress: rows.map(row => ({
+      date: String(row.activity_date || ""),
+      articlesWritten: Number(row.articles_written || 0),
+      timeSpentSeconds: Number(row.time_spent_seconds || 0),
+      averageSeconds: Number(row.average_seconds || 0),
+      cumulativeArticles: Number(row.cumulative_articles || 0),
+      cumulativeTimeSeconds: Number(row.cumulative_time_seconds || 0)
+    }))
+  }, 200, request, env);
 }
 
 function validateClientTimestamp(value, label) {
@@ -855,6 +982,16 @@ function boundedOccurrenceText(value, label, maximumCharacters, allowEmpty = fal
   return normalized;
 }
 
+function correctedSentenceFromParts(sentenceText, originalText, suggestedText) {
+  const sentence = String(sentenceText || "");
+  const original = String(originalText || "");
+  const suggested = String(suggestedText || "");
+  if (!original) return sentence;
+  const index = sentence.indexOf(original);
+  if (index < 0) return sentence;
+  return `${sentence.slice(0, index)}${suggested}${sentence.slice(index + original.length)}`;
+}
+
 function normalizeOccurrenceBatch(payload) {
   if (!hasExactKeys(payload, ["documentId", "occurrences"])) {
     throw new HttpError(400, "INVALID_GRAMMAR_BATCH", "Grammar batch has an invalid shape");
@@ -879,10 +1016,15 @@ function normalizeOccurrenceBatch(payload) {
   const fingerprints = new Set();
   const detectedAt = new Date().toISOString();
   const occurrences = payload.occurrences.map((item, index) => {
-    if (!hasExactKeys(item, [
+    const requiredKeys = [
       "id", "fingerprint", "ruleId", "title", "message",
       "originalText", "suggestedText", "sentenceText", "detectedAt"
-    ])) {
+    ];
+    const allowedKeys = new Set([...requiredKeys, "correctedSentence"]);
+    if (
+      !hasOnlyKeys(item, allowedKeys)
+      || requiredKeys.some(key => !Object.prototype.hasOwnProperty.call(item, key))
+    ) {
       throw new HttpError(400, "INVALID_GRAMMAR_BATCH", `occurrences[${index}] has an invalid shape`);
     }
     const id = String(item.id || "").toLowerCase();
@@ -919,6 +1061,18 @@ function normalizeOccurrenceBatch(payload) {
     if (!originalText && !suggestedText) {
       throw new HttpError(400, "INVALID_GRAMMAR_BATCH", "An occurrence needs original or suggested text");
     }
+    const sentenceText = boundedOccurrenceText(
+      item.sentenceText,
+      `occurrences[${index}].sentenceText`,
+      10000
+    );
+    const correctedSentence = Object.prototype.hasOwnProperty.call(item, "correctedSentence")
+      ? boundedOccurrenceText(
+        item.correctedSentence,
+        `occurrences[${index}].correctedSentence`,
+        10000
+      )
+      : correctedSentenceFromParts(sentenceText, originalText, suggestedText);
     validateClientTimestamp(item.detectedAt, `occurrences[${index}].detectedAt`);
     return {
       id,
@@ -928,7 +1082,8 @@ function normalizeOccurrenceBatch(payload) {
       message: boundedOccurrenceText(item.message, `occurrences[${index}].message`, 2000),
       originalText,
       suggestedText,
-      sentenceText: boundedOccurrenceText(item.sentenceText, `occurrences[${index}].sentenceText`, 10000),
+      sentenceText,
+      correctedSentence,
       detectedAt
     };
   });
@@ -937,18 +1092,36 @@ function normalizeOccurrenceBatch(payload) {
 }
 
 function occurrenceResponse(row) {
-  return {
+  const sentenceText = String(row.sentence_text || "");
+  const originalText = String(row.original_text || "");
+  const suggestedText = String(row.suggested_text || "");
+  const response = {
     id: String(row.id || ""),
     documentId: String(row.document_id || ""),
     fingerprint: String(row.fingerprint || ""),
     ruleId: String(row.rule_id || ""),
     title: String(row.title || ""),
     message: String(row.message || ""),
-    originalText: String(row.original_text || ""),
-    suggestedText: String(row.suggested_text || ""),
-    sentenceText: String(row.sentence_text || ""),
+    originalText,
+    suggestedText,
+    sentenceText,
+    correctedSentence: String(row.corrected_sentence || "")
+      || correctedSentenceFromParts(sentenceText, originalText, suggestedText),
     detectedAt: String(row.detected_at || "")
   };
+  if (Object.prototype.hasOwnProperty.call(row, "submission_id")) {
+    response.submissionId = row.submission_id ? String(row.submission_id) : null;
+    response.sourceTopic = row.source_topic ? String(row.source_topic) : null;
+    response.sourceSubmittedAt = row.source_submitted_at
+      ? String(row.source_submitted_at)
+      : null;
+    response.sourceDeletedAt = row.source_deleted_at ? String(row.source_deleted_at) : null;
+  }
+  if (Object.prototype.hasOwnProperty.call(row, "student_id")) {
+    response.studentId = String(row.student_id || "");
+    response.studentName = String(row.student_name || "");
+  }
+  return response;
 }
 
 async function postOccurrenceBatch(request, env) {
@@ -996,6 +1169,42 @@ async function getGrammarProblems(request, env) {
   }, 200, request, env);
 }
 
+function grammarRuleParameter(url) {
+  const ruleId = String(url.searchParams.get("ruleId") || "");
+  if (
+    !ruleId
+    || ruleId.length > 120
+    || utf8Length(ruleId) > 480
+    || CONTROL_RE.test(ruleId)
+  ) {
+    throw new HttpError(400, "INVALID_GRAMMAR_RULE", "ruleId is invalid");
+  }
+  return ruleId;
+}
+
+async function listGrammarProblemOccurrences(request, env, url) {
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  const ruleId = grammarRuleParameter(url);
+  const { page, pageSize, offset } = pageParameters(url, MAX_GRAMMAR_HISTORY_PAGE_SIZE);
+  const rows = await rpc(env, "writing_submission_problem_occurrences", {
+    p_student_id: student.id,
+    p_rule_id: ruleId,
+    p_limit: pageSize + 1,
+    p_offset: offset
+  });
+  if (!Array.isArray(rows)) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Grammar history returned an invalid response");
+  }
+  const hasMore = rows.length > pageSize;
+  return json({
+    grammarOccurrences: rows.slice(0, pageSize).map(occurrenceResponse),
+    page,
+    pageSize,
+    hasMore
+  }, 200, request, env);
+}
+
 async function listAdminStudents(request, env) {
   const admin = await authenticateAdmin(request, env);
   if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
@@ -1028,7 +1237,7 @@ async function listAdminSubmissions(request, env, url) {
   if (studentId !== null && !UUID_RE.test(studentId)) {
     throw new HttpError(400, "INVALID_STUDENT", "studentId is invalid");
   }
-  const rows = await rpc(env, "writing_submission_admin_list_submissions", {
+  const rows = await rpc(env, "writing_submission_admin_list_submissions_v2", {
     p_admin_token: admin.token,
     p_student_id: studentId,
     p_limit: pageSize + 1,
@@ -1046,6 +1255,27 @@ async function listAdminSubmissions(request, env, url) {
   }, 200, request, env);
 }
 
+async function listAdminExplanationReview(request, env, url) {
+  const admin = await authenticateAdmin(request, env);
+  if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
+  const { page, pageSize, offset } = pageParameters(url, MAX_ADMIN_PAGE_SIZE);
+  const rows = await rpc(env, "writing_submission_admin_explanation_review_queue", {
+    p_admin_token: admin.token,
+    p_limit: pageSize + 1,
+    p_offset: offset
+  });
+  if (!Array.isArray(rows)) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Explanation review queue returned an invalid response");
+  }
+  const hasMore = rows.length > pageSize;
+  return json({
+    grammarOccurrences: rows.slice(0, pageSize).map(occurrenceResponse),
+    page,
+    pageSize,
+    hasMore
+  }, 200, request, env);
+}
+
 async function getAdminSubmission(request, env, submissionId) {
   if (!UUID_RE.test(submissionId)) {
     throw new HttpError(404, "SUBMISSION_NOT_FOUND", "Submission not found");
@@ -1053,7 +1283,7 @@ async function getAdminSubmission(request, env, submissionId) {
   const admin = await authenticateAdmin(request, env);
   if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
   const normalizedId = submissionId.toLowerCase();
-  const row = singleRow(await rpc(env, "writing_submission_admin_get_submission", {
+  const row = singleRow(await rpc(env, "writing_submission_admin_get_submission_v2", {
     p_admin_token: admin.token,
     p_id: normalizedId
   }));

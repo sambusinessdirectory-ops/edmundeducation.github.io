@@ -56,6 +56,7 @@ test("shared student login safely bridges every Flashcard-token portal", () => {
     access: { ielts: true, bookmarks: false }
   }), true);
 
+  assert.equal(read(sessionStorage, "edmund-student-progress-session-v1").token, "11111111-1111-4111-8111-111111111111");
   assert.equal(read(sessionStorage, "edmundSpeakingSessionV1").token, "11111111-1111-4111-8111-111111111111");
   assert.equal(read(sessionStorage, "edmund-writing-submission-session-v1").token, "11111111-1111-4111-8111-111111111111");
   assert.equal(read(sessionStorage, "edmund-sentence-structure-session-v1").name, "Student One");
@@ -81,6 +82,7 @@ test("switching students overwrites compatible sessions without borrowing permis
     name: "Student Two",
     role: "student"
   });
+  assert.equal(read(sessionStorage, "edmund-student-progress-session-v1").name, "Student Two");
   assert.equal(read(sessionStorage, "edmundSpeakingSessionV1").name, "Student Two");
   assert.equal(sessionStorage.getItem("edmundFlashcardSession"), null);
   assert.equal(read(sessionStorage, "edmund-universal-student-session-v1").access, undefined);
@@ -115,6 +117,7 @@ test("student logout removes the universal and app-specific browser sessions", (
   api.forgetStudentSession();
   [
     "edmund-universal-student-session-v1",
+    "edmund-student-progress-session-v1",
     "edmundFlashcardSession",
     "edmund-writing-submission-session-v1",
     "edmundSpeakingSessionV1",
@@ -131,6 +134,7 @@ test("student logout removes the universal and app-specific browser sessions", (
 test("student bridging and logout never overwrite active admin sessions", () => {
   const { api, localStorage, sessionStorage } = navigationRuntime();
   const adminSessions = {
+    "edmund-student-progress-session-v1": { name: "Progress Admin", role: "admin", token: "admin-progress" },
     edmundFlashcardSession: { name: "Student Preview", role: "student", impersonatedByAdmin: true },
     "edmund-writing-submission-session-v1": { name: "Submission Admin", role: "admin", token: "admin-submission" },
     edmundSpeakingSessionV1: { name: "Speaking Admin", role: "admin", token: "admin-speaking" },
@@ -156,8 +160,9 @@ test("student bridging and logout never overwrite active admin sessions", () => 
   assert.deepEqual(read(localStorage, "edmundWritingSession"), { name: "Writing Preview", role: "student", impersonatedByAdmin: true });
 });
 
-test("all ten student portals load the shared accessible switcher", () => {
+test("all eleven student portals load the shared accessible switcher", () => {
   const pages = {
+    "student-progress.html": "progress",
     "flashcards.html": "flashcards",
     "writing-practice.html": "writing",
     "writing-submission.html": "writing-submission",
@@ -172,7 +177,7 @@ test("all ten student portals load the shared accessible switcher", () => {
   Object.entries(pages).forEach(([file, system]) => {
     const html = fs.readFileSync(path.join(root, file), "utf8");
     assert.match(html, /shared-system-nav\.css/);
-    assert.match(html, /shared-system-nav\.js\?v=20260728-2/);
+    assert.match(html, /shared-system-nav\.js\?v=20260803-1/, `${file} must load the latest shared navigation release`);
     assert.match(html, new RegExp(`data-edmund-system-switcher data-system="${system}"`));
     assert.match(html, /data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換"/);
   });
@@ -181,6 +186,7 @@ test("all ten student portals load the shared accessible switcher", () => {
 test("menu behavior covers hover, focus, Escape and click-outside", () => {
   const { api } = navigationRuntime();
   assert.deepEqual(Array.from(api.systems, system => system.href), [
+    "student-progress.html",
     "flashcards.html",
     "writing-practice.html",
     "writing-submission.html",
@@ -192,6 +198,9 @@ test("menu behavior covers hover, focus, Escape and click-outside", () => {
     "schedule-system.html",
     "model-essay-downloads.html"
   ]);
+  const progressSystem = api.systems.find(({ id }) => id === "progress");
+  assert.equal(progressSystem?.zh, "全面英文能力發展進度表");
+  assert.equal(progressSystem?.en, "Student Progress");
   const proverbSystem = api.systems.find(({ id }) => id === "proverbs");
   assert.equal(proverbSystem?.zh, "(學生使用) 諺語");
   assert.equal(proverbSystem?.en, "學生使用系統");
@@ -211,8 +220,8 @@ test("menu behavior covers hover, focus, Escape and click-outside", () => {
   assert.match(scriptSource, /aria-current="page"/);
   assert.doesNotMatch(scriptSource, /target=["']_blank/);
   assert.doesNotMatch(cssSource, /\.edmund-system-switcher:(?:hover|focus-within)\s+\.edmund-system-switcher__menu/, "closed click and Escape state must not be overridden by CSS focus/hover selectors");
-  assert.match(cssSource, /max-height:\s*min\(78vh,\s*690px\)/, "the ten-link menu must fit small screens");
-  assert.match(cssSource, /overflow-y:\s*auto/, "the ten-link menu must scroll when needed");
+  assert.match(cssSource, /max-height:\s*min\(78vh,\s*690px\)/, "the eleven-link menu must fit small screens");
+  assert.match(cssSource, /overflow-y:\s*auto/, "the eleven-link menu must scroll when needed");
 });
 
 test("Writing Practice exchanges the shared token without handling a password again", () => {

@@ -28,6 +28,12 @@ if (process.env[TEST_MODE_KEY] !== "1") {
 const root = path.resolve(path.dirname(thisFile), "..");
 const adapter = await import(pathToFileURL(path.join(root, "writing-submission-ai.js")));
 
+assert.equal(
+  adapter.REMOTE_GRAMMAR_REQUEST_TIMEOUT_MS,
+  300000,
+  "the browser must allow one completed-sentence grammar request to run for five minutes"
+);
+
 const AI_ENGINE = Object.freeze({
   name: "cloudflare-workers-ai",
   version: "2026-07-31.1",
@@ -46,7 +52,7 @@ const HARPER_ENGINE = Object.freeze({
 });
 const CORPUS_ENGINE = Object.freeze({
   name: "edmund-approved-grammar-corpus",
-  version: "2026-08-02.1",
+  version: "2026-08-02.2",
   execution: "cloudflare-worker"
 });
 

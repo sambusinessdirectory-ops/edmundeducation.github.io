@@ -1,0 +1,118 @@
+#!/usr/bin/env node
+
+import assert from "node:assert/strict";
+import test from "node:test";
+import {
+  STUDENT_PROGRESS_SOURCES,
+  buildActivitySeries,
+  buildMasterTimeSeries,
+  buildSourceTimeSeries,
+  buildWritingAverageSeries,
+  formatProgressDuration,
+  normalizeProgressSnapshot
+} from "../student-progress-core.js";
+
+const hour = 60 * 60 * 1000;
+const sourceHours = {
+  flashcards: 3,
+  writingPractice: 2,
+  sentenceStructure: 4,
+  speaking: 5,
+  phrasalVerbs: 1,
+  idioms: 2,
+  proverbs: 1,
+  writingSubmission: 0
+};
+
+function fixture() {
+  const sources = {};
+  for (const source of STUDENT_PROGRESS_SOURCES) {
+    sources[source.id] = {
+      activityDays: [],
+      timeDays: [{ date: "2026-07-28", totalMs: sourceHours[source.id] * hour }]
+    };
+  }
+  sources.flashcards.timeDays.unshift({ date: "2026-07-27", totalMs: hour });
+  sources.flashcards.activityDays = [{ date: "2026-07-28", total: 20, green: 15, red: 5 }];
+  sources.sentenceStructure.activityDays = [{ date: "2026-07-28", questions: 3 }];
+  sources.writingSubmission.activityDays = [{ date: "2026-07-28", articles: 2, totalMs: 90 * 60 * 1000 }];
+  sources.writingSubmission.timeDays = [{ date: "2026-07-28", totalMs: 90 * 60 * 1000 }];
+  return {
+    schemaVersion: 1,
+    generatedAt: "2026-07-28T12:00:00+08:00",
+    timeZone: "Asia/Hong_Kong",
+    student: { id: "11111111-1111-4111-8111-111111111111", name: "Test Student" },
+    sources
+  };
+}
+
+test("source order matches the requested portal priority", () => {
+  assert.deepEqual(STUDENT_PROGRESS_SOURCES.map(({ id }) => id), [
+    "flashcards",
+    "writingPractice",
+    "sentenceStructure",
+    "speaking",
+    "phrasalVerbs",
+    "idioms",
+    "proverbs",
+    "writingSubmission"
+  ]);
+});
+
+test("the supplied seven-system example totals exactly 18 hours on one date", () => {
+  const snapshot = fixture();
+  snapshot.sources.writingSubmission.timeDays = [];
+  const master = buildMasterTimeSeries(snapshot, "week", new Date(2026, 6, 28, 12));
+  const point = master.points.find(({ key }) => key === "2026-07-28");
+  assert.equal(point.totalMs, 18 * hour);
+  assert.equal(point.systems.flashcards, 3 * hour);
+  assert.equal(point.systems.speaking, 5 * hour);
+  assert.equal(point.cumulativeTotalMs, 19 * hour, "the prior one-hour record remains in the cumulative line");
+  assert.equal(master.periodTotalMs, 19 * hour);
+  assert.equal(master.allTimeTotalMs, 19 * hour);
+});
+
+test("Writing Submission joins the master total as the eighth source", () => {
+  const master = buildMasterTimeSeries(fixture(), "week", new Date(2026, 6, 28, 12));
+  const point = master.points.find(({ key }) => key === "2026-07-28");
+  assert.equal(point.systems.writingSubmission, 90 * 60 * 1000);
+  assert.equal(point.totalMs, 19.5 * hour);
+  assert.equal(master.allTimeTotalMs, 20.5 * hour);
+});
+
+test("source activity and time totals preserve canonical source metrics", () => {
+  const snapshot = fixture();
+  const flashcards = buildActivitySeries(snapshot, "flashcards", "week", new Date(2026, 6, 28, 12));
+  assert.deepEqual(flashcards.allTimeTotals, { total: 20, green: 15, red: 5 });
+  assert.equal(flashcards.primaryTotal, 20);
+  const sentence = buildActivitySeries(snapshot, "sentenceStructure", "week", new Date(2026, 6, 28, 12));
+  assert.equal(sentence.primaryTotal, 3);
+  const speakingTime = buildSourceTimeSeries(snapshot, "speaking", "week", new Date(2026, 6, 28, 12));
+  assert.equal(speakingTime.allTimeMs, 5 * hour);
+});
+
+test("selected-period and all-time source totals come from one snapshot without label drift", () => {
+  const snapshot = fixture();
+  snapshot.sources.sentenceStructure.activityDays.unshift({ date: "2025-01-01", questions: 7 });
+  snapshot.sources.sentenceStructure.timeDays.unshift({ date: "2025-01-01", totalMs: 2 * hour });
+  const activity = buildActivitySeries(snapshot, "sentenceStructure", "week", new Date(2026, 6, 28, 12));
+  const time = buildSourceTimeSeries(snapshot, "sentenceStructure", "week", new Date(2026, 6, 28, 12));
+  assert.equal(activity.totals.questions, 3, "period activity excludes earlier history");
+  assert.equal(activity.allTimeTotals.questions, 10, "all-time activity retains earlier history");
+  assert.equal(time.periodTotalMs, 4 * hour);
+  assert.equal(time.allTimeMs, 6 * hour);
+});
+
+test("Writing Submission average is total composition time divided by articles", () => {
+  const average = buildWritingAverageSeries(fixture(), "week", new Date(2026, 6, 28, 12));
+  assert.equal(average.allTimeAverageMs, 45 * 60 * 1000);
+  assert.equal(average.points.find(({ key }) => key === "2026-07-28").averageMs, 45 * 60 * 1000);
+});
+
+test("malformed payloads normalize to safe empty sources", () => {
+  const normalized = normalizeProgressSnapshot({ student: { name: "A" }, sources: { flashcards: null } });
+  assert.equal(normalized.student.name, "A");
+  assert.equal(Object.keys(normalized.sources).length, 8);
+  assert.deepEqual(normalized.sources.flashcards, { activityDays: [], timeDays: [] });
+  assert.equal(formatProgressDuration(3661000), "1 小時 01 分 01 秒");
+});

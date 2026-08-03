@@ -869,12 +869,12 @@
             "band": 1,
             "sourcePage": 4,
             "answerSourcePage": 15,
-            "prompt": "The TV show made Mia seem like its next big star.",
-            "promptZh": "電視節目把米婭說成節目的下一位大明星。",
+            "prompt": "The TV show made Tom seem like its next big star.",
+            "promptZh": "電視節目把湯姆說成節目的下一位大明星。",
             "starter": "The",
-            "answer": "The TV show built Mia up as its next big star.",
-            "answerZh": "電視節目把米婭說成節目的下一位大明星。",
-            "highlight": "built Mia up",
+            "answer": "The TV show built Tom up as its next big star.",
+            "answerZh": "電視節目把湯姆說成節目的下一位大明星。",
+            "highlight": "built Tom up",
             "targetForm": "build somebody up",
             "targetMeaningZh": "把某人說得非常出色或重要"
           },
@@ -1757,11 +1757,11 @@
             "band": 5,
             "sourcePage": 13,
             "answerSourcePage": 23,
-            "prompt": "Mia wanted to phone the school, but she needed a few minutes to get herself ready to make the call.",
-            "promptZh": "米婭想致電學校，但她需要幾分鐘先讓自己準備好。",
-            "starter": "Mia",
-            "answer": "Mia wanted to phone the school, but she needed a few minutes to build herself up to making the call.",
-            "answerZh": "米婭想致電學校，但她需要幾分鐘先讓自己準備好。",
+            "prompt": "Tom wanted to phone the school, but she needed a few minutes to get herself ready to make the call.",
+            "promptZh": "湯姆想致電學校，但她需要幾分鐘先讓自己準備好。",
+            "starter": "Tom",
+            "answer": "Tom wanted to phone the school, but she needed a few minutes to build herself up to making the call.",
+            "answerZh": "湯姆想致電學校，但她需要幾分鐘先讓自己準備好。",
             "highlight": "build herself up to making the call",
             "targetForm": "build yourself up to something",
             "targetMeaningZh": "慢慢讓自己準備面對較難的事情"
@@ -2031,8 +2031,8 @@
           {
             "labelZh": "例句",
             "labelEn": "Example",
-            "en": "Mia caught on to the rules after one example.",
-            "zh": "米婭看過一個例子後便明白了規則。",
+            "en": "Tom caught on to the rules after one example.",
+            "zh": "湯姆看過一個例子後便明白了規則。",
             "highlight": "caught on to"
           }
         ],
@@ -2097,11 +2097,11 @@
             "titleZh": "明白；領會",
             "titleEn": "catch on / catch on to something",
             "descriptionZh": "明白；領會",
-            "descriptionEn": "Mia caught on to the rules after one example.",
+            "descriptionEn": "Tom caught on to the rules after one example.",
             "examples": [
               {
-                "en": "Mia caught on to the rules after one example.",
-                "zh": "米婭看過一個例子後便明白了規則。",
+                "en": "Tom caught on to the rules after one example.",
+                "zh": "湯姆看過一個例子後便明白了規則。",
                 "highlight": "caught on to"
               }
             ],
@@ -2317,8 +2317,8 @@
             {
               "formZh": "明白；領會",
               "formEn": "catch on / catch on to something",
-              "exampleZh": "米婭看過一個例子後便明白了規則。",
-              "exampleEn": "Mia caught on to the rules after one example.",
+              "exampleZh": "湯姆看過一個例子後便明白了規則。",
+              "exampleEn": "Tom caught on to the rules after one example.",
               "highlight": "caught on to"
             },
             {
@@ -2416,11 +2416,11 @@
             "formula": "catch on / catch on to something",
             "highlight": "catch on / catch on to something",
             "descriptionZh": "明白；領會",
-            "descriptionEn": "Mia caught on to the rules after one example.",
+            "descriptionEn": "Tom caught on to the rules after one example.",
             "examples": [
               {
-                "en": "Mia caught on to the rules after one example.",
-                "zh": "米婭看過一個例子後便明白了規則。",
+                "en": "Tom caught on to the rules after one example.",
+                "zh": "湯姆看過一個例子後便明白了規則。",
                 "highlight": "caught on to"
               }
             ],
@@ -2652,11 +2652,11 @@
               "formula": "catch on / catch on to something",
               "highlight": "catch on / catch on to something",
               "zh": "明白；領會",
-              "en": "Mia caught on to the rules after one example.",
+              "en": "Tom caught on to the rules after one example.",
               "examples": [
                 {
-                  "en": "Mia caught on to the rules after one example.",
-                  "zh": "米婭看過一個例子後便明白了規則。",
+                  "en": "Tom caught on to the rules after one example.",
+                  "zh": "湯姆看過一個例子後便明白了規則。",
                   "highlight": "caught on to"
                 }
               ]
@@ -2833,8 +2833,8 @@
             "number": 3,
             "formula": "catch on / catch on to something",
             "meaningZh": "明白；領會",
-            "exampleEn": "Mia caught on to the rules after one example.",
-            "exampleZh": "米婭看過一個例子後便明白了規則。",
+            "exampleEn": "Tom caught on to the rules after one example.",
+            "exampleZh": "湯姆看過一個例子後便明白了規則。",
             "highlight": "caught on to",
             "sourcePage": 2
           },
@@ -5077,11 +5077,11 @@
             "promptZhSourcePage": 6,
             "answerSourcePage": 16,
             "answerZhSourcePage": 16,
-            "prompt": "Why did Mia suddenly attack her brother?",
-            "promptZh": "米婭為甚麼突然撲向她的弟弟？",
+            "prompt": "Why did Tom suddenly attack her brother?",
+            "promptZh": "湯姆為甚麼突然撲向她的弟弟？",
             "starter": "Why",
-            "answer": "Why did Mia fly at her brother?",
-            "answerZh": "米婭為甚麼突然撲向她的弟弟？",
+            "answer": "Why did Tom fly at her brother?",
+            "answerZh": "湯姆為甚麼突然撲向她的弟弟？",
             "targetForm": "fly at somebody",
             "targetMeaningZh": "突然撲向或攻擊某人",
             "highlight": "fly at"
@@ -6769,11 +6769,11 @@
             "promptZhSourcePage": 5,
             "answerSourcePage": 16,
             "answerZhSourcePage": 16,
-            "prompt": "Mia never replies rudely when her coach corrects her.",
-            "promptZh": "米婭的教練糾正她時，她從不無禮地回應。",
-            "starter": "Mia",
-            "answer": "Mia never answers back when her coach corrects her.",
-            "answerZh": "米婭的教練糾正她時，她從不頂嘴。",
+            "prompt": "Tom never replies rudely when her coach corrects her.",
+            "promptZh": "湯姆的教練糾正她時，她從不無禮地回應。",
+            "starter": "Tom",
+            "answer": "Tom never answers back when her coach corrects her.",
+            "answerZh": "湯姆的教練糾正她時，她從不頂嘴。",
             "targetForm": "answer back",
             "targetMeaningZh": "頂嘴；無禮地回應",
             "highlight": "answers back"
@@ -8162,14 +8162,14 @@
             "promptZhSourcePage": 4,
             "answerSourcePage": 13,
             "answerZhSourcePage": 13,
-            "prompt": "After searching the whole school, we finally found Mia.",
-            "promptZh": "我們找遍整間學校後，終於找到了米婭。",
+            "prompt": "After searching the whole school, we finally found Tom.",
+            "promptZh": "我們找遍整間學校後，終於找到了湯姆。",
             "starter": "After",
-            "answer": "After searching the whole school, we finally chased Mia down.",
-            "answerZh": "我們找遍整間學校後，終於找到了米婭。",
+            "answer": "After searching the whole school, we finally chased Tom down.",
+            "answerZh": "我們找遍整間學校後，終於找到了湯姆。",
             "targetForm": "chase somebody down",
             "targetMeaningZh": "經過一番尋找，終於找到某人",
-            "highlight": "chased Mia down"
+            "highlight": "chased Tom down"
           },
           {
             "id": "phrasal-verb-05-q04",
@@ -11956,14 +11956,14 @@
             "promptZhSourcePage": 4,
             "answerSourcePage": 16,
             "answerZhSourcePage": 16,
-            "prompt": "Dad washed Mia after she slipped into the mud.",
-            "promptZh": "米婭滑進泥裏後，爸爸替她清洗乾淨。",
+            "prompt": "Dad washed Tom after she slipped into the mud.",
+            "promptZh": "湯姆滑進泥裏後，爸爸替她清洗乾淨。",
             "starter": "Dad",
-            "answer": "Dad cleaned Mia up after she slipped into the mud.",
-            "answerZh": "米婭滑進泥裏後，爸爸替她清洗乾淨。",
+            "answer": "Dad cleaned Tom up after she slipped into the mud.",
+            "answerZh": "湯姆滑進泥裏後，爸爸替她清洗乾淨。",
             "targetForm": "clean somebody up",
             "targetMeaningZh": "把某人洗乾淨、整理好",
-            "highlight": "cleaned Mia up"
+            "highlight": "cleaned Tom up"
           },
           {
             "id": "phrasal-verb-07-q03",
@@ -13333,11 +13333,11 @@
             "titleZh": "長大後因衣物或鞋子太小而不再合身",
             "titleEn": "grow out of something",
             "descriptionZh": "長大後因衣物或鞋子太小而不再合身",
-            "descriptionEn": "Mia has grown out of her old shoes.",
+            "descriptionEn": "Tom has grown out of her old shoes.",
             "examples": [
               {
-                "en": "Mia has grown out of her old shoes.",
-                "zh": "米婭長大了，舊鞋已不再合穿。",
+                "en": "Tom has grown out of her old shoes.",
+                "zh": "湯姆長大了，舊鞋已不再合穿。",
                 "highlight": "grown out of"
               }
             ],
@@ -13476,8 +13476,8 @@
             {
               "formZh": "長大後因衣物或鞋子太小而不再合身",
               "formEn": "grow out of something",
-              "exampleZh": "米婭長大了，舊鞋已不再合穿。",
-              "exampleEn": "Mia has grown out of her old shoes.",
+              "exampleZh": "湯姆長大了，舊鞋已不再合穿。",
+              "exampleEn": "Tom has grown out of her old shoes.",
               "highlight": "grown out of"
             },
             {
@@ -13594,11 +13594,11 @@
             "formula": "grow out of something",
             "highlight": "grow out of something",
             "descriptionZh": "長大後因衣物或鞋子太小而不再合身",
-            "descriptionEn": "Mia has grown out of her old shoes.",
+            "descriptionEn": "Tom has grown out of her old shoes.",
             "examples": [
               {
-                "en": "Mia has grown out of her old shoes.",
-                "zh": "米婭長大了，舊鞋已不再合穿。",
+                "en": "Tom has grown out of her old shoes.",
+                "zh": "湯姆長大了，舊鞋已不再合穿。",
                 "highlight": "grown out of"
               }
             ],
@@ -13781,11 +13781,11 @@
               "formula": "grow out of something",
               "highlight": "grow out of something",
               "zh": "長大後因衣物或鞋子太小而不再合身",
-              "en": "Mia has grown out of her old shoes.",
+              "en": "Tom has grown out of her old shoes.",
               "examples": [
                 {
-                  "en": "Mia has grown out of her old shoes.",
-                  "zh": "米婭長大了，舊鞋已不再合穿。",
+                  "en": "Tom has grown out of her old shoes.",
+                  "zh": "湯姆長大了，舊鞋已不再合穿。",
                   "highlight": "grown out of"
                 }
               ]
@@ -13910,8 +13910,8 @@
             "number": 6,
             "formula": "grow out of something",
             "meaningZh": "長大後因衣物或鞋子太小而不再合身",
-            "exampleEn": "Mia has grown out of her old shoes.",
-            "exampleZh": "米婭長大了，舊鞋已不再合穿。",
+            "exampleEn": "Tom has grown out of her old shoes.",
+            "exampleZh": "湯姆長大了，舊鞋已不再合穿。",
             "highlight": "grown out of",
             "sourcePage": 2
           },
@@ -14749,11 +14749,11 @@
             "promptZhSourcePage": 10,
             "answerSourcePage": 20,
             "answerZhSourcePage": 20,
-            "prompt": "Mia still thought the film was slow, but its gentle humour made her like it more over time.",
-            "promptZh": "米婭仍覺得電影節奏緩慢，但當中的溫和幽默令她慢慢更喜歡它。",
-            "starter": "Mia",
-            "answer": "Mia still thought the film was slow, but it grew on her over time because of its gentle humour.",
-            "answerZh": "米婭仍覺得電影節奏緩慢，但因為當中的溫和幽默，她慢慢喜歡上它。",
+            "prompt": "Tom still thought the film was slow, but its gentle humour made her like it more over time.",
+            "promptZh": "湯姆仍覺得電影節奏緩慢，但當中的溫和幽默令她慢慢更喜歡它。",
+            "starter": "Tom",
+            "answer": "Tom still thought the film was slow, but it grew on her over time because of its gentle humour.",
+            "answerZh": "湯姆仍覺得電影節奏緩慢，但因為當中的溫和幽默，她慢慢喜歡上它。",
             "targetForm": "grow on somebody",
             "targetMeaningZh": "起初不喜歡，後來逐漸喜歡",
             "highlight": "grew on"
@@ -16306,11 +16306,11 @@
             "promptZhSourcePage": 9,
             "answerSourcePage": 17,
             "answerZhSourcePage": 17,
-            "prompt": "The teacher asked Mia to keep the younger children safe for two minutes.",
-            "promptZh": "老師請米婭確保年幼的孩子安全兩分鐘。",
+            "prompt": "The teacher asked Tom to keep the younger children safe for two minutes.",
+            "promptZh": "老師請湯姆確保年幼的孩子安全兩分鐘。",
             "starter": "The",
-            "answer": "The teacher asked Mia to watch over the younger children for two minutes.",
-            "answerZh": "老師請米婭照看年幼的孩子兩分鐘。",
+            "answer": "The teacher asked Tom to watch over the younger children for two minutes.",
+            "answerZh": "老師請湯姆照看年幼的孩子兩分鐘。",
             "targetForm": "watch over somebody/something",
             "targetMeaningZh": "照看；守護；保護某人或某事物",
             "highlight": "watch over"
@@ -17532,14 +17532,14 @@
             "promptZhSourcePage": 3,
             "answerSourcePage": 10,
             "answerZhSourcePage": 10,
-            "prompt": "The long walk made Mia completely tired.",
-            "promptZh": "那段長途步行令米婭累透了。",
+            "prompt": "The long walk made Tom completely tired.",
+            "promptZh": "那段長途步行令湯姆累透了。",
             "starter": "The",
-            "answer": "The long walk washed Mia out.",
-            "answerZh": "那段長途步行令米婭累透了。",
+            "answer": "The long walk washed Tom out.",
+            "answerZh": "那段長途步行令湯姆累透了。",
             "targetForm": "wash somebody out",
             "targetMeaningZh": "令某人非常疲倦",
-            "highlight": "washed Mia out"
+            "highlight": "washed Tom out"
           },
           {
             "id": "phrasal-verb-10-q05",
@@ -19804,11 +19804,11 @@
             "promptZhSourcePage": 10,
             "answerSourcePage": 18,
             "answerZhSourcePage": 18,
-            "prompt": "As the guests talked, Mia quietly refilled their glasses.",
-            "promptZh": "賓客交談時，米婭悄悄替他們的杯再添飲品。",
+            "prompt": "As the guests talked, Tom quietly refilled their glasses.",
+            "promptZh": "賓客交談時，湯姆悄悄替他們的杯再添飲品。",
             "starter": "As",
-            "answer": "As the guests talked, Mia quietly topped them up.",
-            "answerZh": "賓客交談時，米婭悄悄替他們再添飲品。",
+            "answer": "As the guests talked, Tom quietly topped them up.",
+            "answerZh": "賓客交談時，湯姆悄悄替他們再添飲品。",
             "targetForm": "top somebody up",
             "targetMeaningZh": "替某人再添飲品",
             "highlight": "topped them up"
@@ -20826,11 +20826,11 @@
             "promptZhSourcePage": 4,
             "answerSourcePage": 13,
             "answerZhSourcePage": 13,
-            "prompt": "Mia put on the blue jacket to see whether it fitted before buying it.",
-            "promptZh": "米婭在購買藍色外套前先穿上它，看看是否合身。",
-            "starter": "Mia",
-            "answer": "Mia tried on the blue jacket before buying it.",
-            "answerZh": "米婭在購買藍色外套前先試穿了它。",
+            "prompt": "Tom put on the blue jacket to see whether it fitted before buying it.",
+            "promptZh": "湯姆在購買藍色外套前先穿上它，看看是否合身。",
+            "starter": "Tom",
+            "answer": "Tom tried on the blue jacket before buying it.",
+            "answerZh": "湯姆在購買藍色外套前先試穿了它。",
             "targetForm": "try something on",
             "targetMeaningZh": "試穿衣物",
             "highlight": "tried on"
@@ -22201,11 +22201,11 @@
             "band": 1,
             "sourcePage": 4,
             "answerSourcePage": 13,
-            "prompt": "Mia made her notes clearer and better organised before the test.",
-            "promptZh": "米婭在測驗前把筆記整理得更清楚、更有條理。",
-            "starter": "Mia",
-            "answer": "Mia tidied up her notes before the test.",
-            "answerZh": "米婭在測驗前把筆記整理得更清楚、更有條理。",
+            "prompt": "Tom made her notes clearer and better organised before the test.",
+            "promptZh": "湯姆在測驗前把筆記整理得更清楚、更有條理。",
+            "starter": "Tom",
+            "answer": "Tom tidied up her notes before the test.",
+            "answerZh": "湯姆在測驗前把筆記整理得更清楚、更有條理。",
             "highlight": "tidied up",
             "targetForm": "tidy something up",
             "targetMeaningZh": "把文章、筆記或其他工作整理得更清楚、更完整"
@@ -23030,8 +23030,8 @@
           {
             "labelZh": "例句",
             "labelEn": "Example",
-            "en": "Mia bought her partner out and became the only owner.",
-            "zh": "米婭買下了合夥人的股份，成為唯一東主。",
+            "en": "Tom bought her partner out and became the only owner.",
+            "zh": "湯姆買下了合夥人的股份，成為唯一東主。",
             "highlight": "bought her partner out"
           }
         ],
@@ -23088,11 +23088,11 @@
             "titleZh": "買下某人的股份，或收購整間公司或業務",
             "titleEn": "buy somebody/something out",
             "descriptionZh": "買下某人的股份，或收購整間公司或業務",
-            "descriptionEn": "Mia bought her partner out and became the only owner.",
+            "descriptionEn": "Tom bought her partner out and became the only owner.",
             "examples": [
               {
-                "en": "Mia bought her partner out and became the only owner.",
-                "zh": "米婭買下了合夥人的股份，成為唯一東主。",
+                "en": "Tom bought her partner out and became the only owner.",
+                "zh": "湯姆買下了合夥人的股份，成為唯一東主。",
                 "highlight": "bought her partner out"
               }
             ]
@@ -23233,8 +23233,8 @@
             {
               "formZh": "買下某人的股份，或收購整間公司或業務",
               "formEn": "buy somebody/something out",
-              "exampleZh": "米婭買下了合夥人的股份，成為唯一東主。",
-              "exampleEn": "Mia bought her partner out and became the only owner.",
+              "exampleZh": "湯姆買下了合夥人的股份，成為唯一東主。",
+              "exampleEn": "Tom bought her partner out and became the only owner.",
               "highlight": "bought her partner out"
             },
             {
@@ -23309,11 +23309,11 @@
             "formula": "buy somebody/something out",
             "highlight": "buy somebody/something out",
             "descriptionZh": "買下某人的股份，或收購整間公司或業務",
-            "descriptionEn": "Mia bought her partner out and became the only owner.",
+            "descriptionEn": "Tom bought her partner out and became the only owner.",
             "examples": [
               {
-                "en": "Mia bought her partner out and became the only owner.",
-                "zh": "米婭買下了合夥人的股份，成為唯一東主。",
+                "en": "Tom bought her partner out and became the only owner.",
+                "zh": "湯姆買下了合夥人的股份，成為唯一東主。",
                 "highlight": "bought her partner out"
               }
             ],
@@ -23466,11 +23466,11 @@
               "titleZh": "買下某人的股份，或收購整間公司或業務",
               "titleEn": "buy somebody/something out",
               "zh": "買下某人的股份，或收購整間公司或業務",
-              "en": "Mia bought her partner out and became the only owner.",
+              "en": "Tom bought her partner out and became the only owner.",
               "examples": [
                 {
-                  "en": "Mia bought her partner out and became the only owner.",
-                  "zh": "米婭買下了合夥人的股份，成為唯一東主。",
+                  "en": "Tom bought her partner out and became the only owner.",
+                  "zh": "湯姆買下了合夥人的股份，成為唯一東主。",
                   "highlight": "bought her partner out"
                 }
               ]
@@ -23682,12 +23682,12 @@
             "band": 1,
             "sourcePage": 4,
             "answerSourcePage": 16,
-            "prompt": "The dishonest manager tried to pay Mia to keep quiet.",
-            "promptZh": "那名不誠實的經理試圖付錢給米婭，叫她保持沉默。",
+            "prompt": "The dishonest manager tried to pay Tom to keep quiet.",
+            "promptZh": "那名不誠實的經理試圖付錢給湯姆，叫她保持沉默。",
             "starter": "The",
-            "answer": "The dishonest manager tried to buy Mia off.",
-            "answerZh": "那名不誠實的經理試圖收買米婭，令她保持沉默。",
-            "highlight": "buy Mia off",
+            "answer": "The dishonest manager tried to buy Tom off.",
+            "answerZh": "那名不誠實的經理試圖收買湯姆，令她保持沉默。",
+            "highlight": "buy Tom off",
             "targetForm": "buy somebody off",
             "targetMeaningZh": "用錢收買某人，使其保持沉默或停止阻撓"
           },
@@ -27041,11 +27041,11 @@
             "band": 4,
             "sourcePage": 10,
             "answerSourcePage": 19,
-            "prompt": "Mia used to call every day, but her feelings for Leo slowly became weaker.",
-            "promptZh": "米婭以前每天都會致電，但她對里奧的感情慢慢減退了。",
-            "starter": "Mia",
-            "answer": "Mia used to call every day, but her feelings for Leo slowly cooled off.",
-            "answerZh": "米婭以前每天都會致電，但她對里奧的感情慢慢減退了。",
+            "prompt": "Tom used to call every day, but her feelings for Leo slowly became weaker.",
+            "promptZh": "湯姆以前每天都會致電，但她對里奧的感情慢慢減退了。",
+            "starter": "Tom",
+            "answer": "Tom used to call every day, but her feelings for Leo slowly cooled off.",
+            "answerZh": "湯姆以前每天都會致電，但她對里奧的感情慢慢減退了。",
             "highlight": "cooled off",
             "targetForm": "cool off",
             "targetMeaningZh": "感情、興趣或熱情逐漸減退"
@@ -31869,11 +31869,11 @@
             "band": 1,
             "sourcePage": 3,
             "answerSourcePage": 13,
-            "prompt": "Mia hopes to get her place in the school team again.",
-            "promptZh": "米婭希望重新取得校隊中的位置。",
-            "starter": "Mia",
-            "answer": "Mia hopes to win back her place in the school team.",
-            "answerZh": "米婭希望重新取得校隊中的位置。",
+            "prompt": "Tom hopes to get her place in the school team again.",
+            "promptZh": "湯姆希望重新取得校隊中的位置。",
+            "starter": "Tom",
+            "answer": "Tom hopes to win back her place in the school team.",
+            "answerZh": "湯姆希望重新取得校隊中的位置。",
             "highlight": "win back",
             "targetForm": "win something back",
             "targetMeaningZh": "重新取得先前失去的事物或位置"
@@ -35004,11 +35004,11 @@
             "band": 3,
             "sourcePage": 8,
             "answerSourcePage": 17,
-            "prompt": "Why was Mia sent copies of all the emails about the lost bag?",
-            "promptZh": "為甚麼米婭收到所有關於失物袋子的電郵副本？",
+            "prompt": "Why was Tom sent copies of all the emails about the lost bag?",
+            "promptZh": "為甚麼湯姆收到所有關於失物袋子的電郵副本？",
             "starter": "Why",
-            "answer": "Why was Mia copied in on all the emails about the lost bag?",
-            "answerZh": "為甚麼米婭被加入所有關於失物袋子的電郵？",
+            "answer": "Why was Tom copied in on all the emails about the lost bag?",
+            "answerZh": "為甚麼湯姆被加入所有關於失物袋子的電郵？",
             "highlight": "copied in on",
             "targetForm": "copy somebody in on something",
             "targetMeaningZh": "把某人加入相關電郵或訊息"
@@ -35542,11 +35542,11 @@
             "titleZh": "把某人做錯的事告訴老師、家長或其他負責人；告狀",
             "titleEn": "tell on somebody",
             "descriptionZh": "把某人做錯的事告訴老師、家長或其他負責人；告狀",
-            "descriptionEn": "Ben broke the rule, and Mia told on him.",
+            "descriptionEn": "Ben broke the rule, and Tom told on him.",
             "examples": [
               {
-                "en": "Ben broke the rule, and Mia told on him.",
-                "zh": "賓違反了規則，米婭便告了他的狀。",
+                "en": "Ben broke the rule, and Tom told on him.",
+                "zh": "賓違反了規則，湯姆便告了他的狀。",
                 "highlight": "told on"
               }
             ]
@@ -35640,8 +35640,8 @@
             {
               "formZh": "把某人做錯的事告訴老師、家長或其他負責人；告狀",
               "formEn": "tell on somebody",
-              "exampleZh": "賓違反了規則，米婭便告了他的狀。",
-              "exampleEn": "Ben broke the rule, and Mia told on him.",
+              "exampleZh": "賓違反了規則，湯姆便告了他的狀。",
+              "exampleEn": "Ben broke the rule, and Tom told on him.",
               "highlight": "told on"
             }
           ]
@@ -35739,11 +35739,11 @@
             "formula": "tell on somebody",
             "highlight": "tell on somebody",
             "descriptionZh": "把某人做錯的事告訴老師、家長或其他負責人；告狀",
-            "descriptionEn": "Ben broke the rule, and Mia told on him.",
+            "descriptionEn": "Ben broke the rule, and Tom told on him.",
             "examples": [
               {
-                "en": "Ben broke the rule, and Mia told on him.",
-                "zh": "賓違反了規則，米婭便告了他的狀。",
+                "en": "Ben broke the rule, and Tom told on him.",
+                "zh": "賓違反了規則，湯姆便告了他的狀。",
                 "highlight": "told on"
               }
             ],
@@ -35865,11 +35865,11 @@
               "titleZh": "把某人做錯的事告訴老師、家長或其他負責人；告狀",
               "titleEn": "tell on somebody",
               "zh": "把某人做錯的事告訴老師、家長或其他負責人；告狀",
-              "en": "Ben broke the rule, and Mia told on him.",
+              "en": "Ben broke the rule, and Tom told on him.",
               "examples": [
                 {
-                  "en": "Ben broke the rule, and Mia told on him.",
-                  "zh": "賓違反了規則，米婭便告了他的狀。",
+                  "en": "Ben broke the rule, and Tom told on him.",
+                  "zh": "賓違反了規則，湯姆便告了他的狀。",
                   "highlight": "told on"
                 }
               ]
@@ -36656,11 +36656,11 @@
             "band": 4,
             "sourcePage": 12,
             "answerSourcePage": 23,
-            "prompt": "Mia’s parents spoke angrily to her because she had lied about the broken window.",
-            "promptZh": "米婭的父母因她對窗戶損壞一事說謊而生氣地責罵她。",
-            "starter": "Mia’s",
-            "answer": "Mia’s parents told her off for lying about the broken window.",
-            "answerZh": "米婭的父母因她對窗戶損壞一事說謊而責罵她。",
+            "prompt": "Tom’s parents spoke angrily to her because she had lied about the broken window.",
+            "promptZh": "湯姆的父母因她對窗戶損壞一事說謊而生氣地責罵她。",
+            "starter": "Tom’s",
+            "answer": "Tom’s parents told her off for lying about the broken window.",
+            "answerZh": "湯姆的父母因她對窗戶損壞一事說謊而責罵她。",
             "highlight": "told her off",
             "targetForm": "tell somebody off for doing something",
             "targetMeaningZh": "因某人做錯事而責罵對方"
@@ -36985,8 +36985,8 @@
           {
             "labelZh": "例句",
             "labelEn": "Example",
-            "en": "We are still waiting on Mia’s reply.",
-            "zh": "我們仍在等候米婭的回覆。",
+            "en": "We are still waiting on Tom’s reply.",
+            "zh": "我們仍在等候湯姆的回覆。",
             "highlight": "waiting on"
           }
         ],
@@ -37042,11 +37042,11 @@
             "titleZh": "等候某人或某事物；這個意思較常見於美式英語",
             "titleEn": "wait on somebody/something",
             "descriptionZh": "等候某人或某事物；這個意思較常見於美式英語",
-            "descriptionEn": "We are still waiting on Mia’s reply.",
+            "descriptionEn": "We are still waiting on Tom’s reply.",
             "examples": [
               {
-                "en": "We are still waiting on Mia’s reply.",
-                "zh": "我們仍在等候米婭的回覆。",
+                "en": "We are still waiting on Tom’s reply.",
+                "zh": "我們仍在等候湯姆的回覆。",
                 "highlight": "waiting on"
               }
             ]
@@ -37167,8 +37167,8 @@
             {
               "formZh": "等候某人或某事物；這個意思較常見於美式英語",
               "formEn": "wait on somebody/something",
-              "exampleZh": "我們仍在等候米婭的回覆。",
-              "exampleEn": "We are still waiting on Mia’s reply.",
+              "exampleZh": "我們仍在等候湯姆的回覆。",
+              "exampleEn": "We are still waiting on Tom’s reply.",
               "highlight": "waiting on"
             },
             {
@@ -37236,11 +37236,11 @@
             "formula": "wait on somebody/something",
             "highlight": "wait on somebody/something",
             "descriptionZh": "等候某人或某事物；這個意思較常見於美式英語",
-            "descriptionEn": "We are still waiting on Mia’s reply.",
+            "descriptionEn": "We are still waiting on Tom’s reply.",
             "examples": [
               {
-                "en": "We are still waiting on Mia’s reply.",
-                "zh": "我們仍在等候米婭的回覆。",
+                "en": "We are still waiting on Tom’s reply.",
+                "zh": "我們仍在等候湯姆的回覆。",
                 "highlight": "waiting on"
               }
             ],
@@ -37374,11 +37374,11 @@
               "titleZh": "等候某人或某事物；這個意思較常見於美式英語",
               "titleEn": "wait on somebody/something",
               "zh": "等候某人或某事物；這個意思較常見於美式英語",
-              "en": "We are still waiting on Mia’s reply.",
+              "en": "We are still waiting on Tom’s reply.",
               "examples": [
                 {
-                  "en": "We are still waiting on Mia’s reply.",
-                  "zh": "我們仍在等候米婭的回覆。",
+                  "en": "We are still waiting on Tom’s reply.",
+                  "zh": "我們仍在等候湯姆的回覆。",
                   "highlight": "waiting on"
                 }
               ]
@@ -37524,11 +37524,11 @@
             "band": 1,
             "sourcePage": 4,
             "answerSourcePage": 15,
-            "prompt": "We are still waiting for Mia’s reply.",
-            "promptZh": "我們仍在等候米婭的回覆。",
+            "prompt": "We are still waiting for Tom’s reply.",
+            "promptZh": "我們仍在等候湯姆的回覆。",
             "starter": "We",
-            "answer": "We are still waiting on Mia’s reply.",
-            "answerZh": "我們仍在等候米婭的回覆。",
+            "answer": "We are still waiting on Tom’s reply.",
+            "answerZh": "我們仍在等候湯姆的回覆。",
             "highlight": "waiting on",
             "targetForm": "wait on somebody/something",
             "targetMeaningZh": "等候某人或某事物"
@@ -37689,11 +37689,11 @@
             "band": 2,
             "sourcePage": 6,
             "answerSourcePage": 17,
-            "prompt": "The team is waiting for the doctor’s advice before deciding whether Mia can play.",
-            "promptZh": "球隊正等候醫生的意見，然後才決定米婭能否上場。",
+            "prompt": "The team is waiting for the doctor’s advice before deciding whether Tom can play.",
+            "promptZh": "球隊正等候醫生的意見，然後才決定湯姆能否上場。",
             "starter": "The",
-            "answer": "The team is waiting on the doctor’s advice before deciding whether Mia can play.",
-            "answerZh": "球隊正等候醫生的意見，然後才決定米婭能否上場。",
+            "answer": "The team is waiting on the doctor’s advice before deciding whether Tom can play.",
+            "answerZh": "球隊正等候醫生的意見，然後才決定湯姆能否上場。",
             "highlight": "waiting on",
             "targetForm": "wait on something",
             "targetMeaningZh": "等候結果或意見，然後才作決定"
@@ -38184,11 +38184,11 @@
             "band": 4,
             "sourcePage": 11,
             "answerSourcePage": 22,
-            "prompt": "At the busy café, Mia served six groups of customers without making a mistake.",
-            "promptZh": "在繁忙的咖啡店裏，米婭為六組顧客服務，而且沒有出錯。",
+            "prompt": "At the busy café, Tom served six groups of customers without making a mistake.",
+            "promptZh": "在繁忙的咖啡店裏，湯姆為六組顧客服務，而且沒有出錯。",
             "starter": "At",
-            "answer": "At the busy café, Mia waited on six groups of customers without making a mistake.",
-            "answerZh": "在繁忙的咖啡店裏，米婭為六組顧客服務，而且沒有出錯。",
+            "answer": "At the busy café, Tom waited on six groups of customers without making a mistake.",
+            "answerZh": "在繁忙的咖啡店裏，湯姆為六組顧客服務，而且沒有出錯。",
             "highlight": "waited on",
             "targetForm": "wait on somebody",
             "targetMeaningZh": "服侍某人"
@@ -39249,11 +39249,11 @@
             "band": 3,
             "sourcePage": 8,
             "answerSourcePage": 17,
-            "prompt": "Why did Mia drive away so quickly after the phone call?",
-            "promptZh": "米婭為甚麼在通話後迅速駕車離開？",
+            "prompt": "Why did Tom drive away so quickly after the phone call?",
+            "promptZh": "湯姆為甚麼在通話後迅速駕車離開？",
             "starter": "Why",
-            "answer": "Why did Mia zoom off after the phone call?",
-            "answerZh": "米婭為甚麼在通話後迅速駕車離開？",
+            "answer": "Why did Tom zoom off after the phone call?",
+            "answerZh": "湯姆為甚麼在通話後迅速駕車離開？",
             "highlight": "zoom off",
             "targetForm": "zoom off",
             "targetMeaningZh": "迅速駕車離開"
@@ -40192,11 +40192,11 @@
             "band": 1,
             "sourcePage": 4,
             "answerSourcePage": 13,
-            "prompt": "Mia recorded Tom as starting work at nine.",
-            "promptZh": "米婭替湯姆記錄在九時開始上班。",
-            "starter": "Mia",
-            "answer": "Mia clocked Tom in at nine.",
-            "answerZh": "米婭替湯姆在九時登記上班。",
+            "prompt": "Tom recorded Tom as starting work at nine.",
+            "promptZh": "湯姆替湯姆記錄在九時開始上班。",
+            "starter": "Tom",
+            "answer": "Tom clocked Tom in at nine.",
+            "answerZh": "湯姆替湯姆在九時登記上班。",
             "highlight": "clocked Tom in",
             "targetForm": "clock somebody in",
             "targetMeaningZh": "替某人登記上班"
@@ -43017,11 +43017,11 @@
             "band": 1,
             "sourcePage": 5,
             "answerSourcePage": 15,
-            "prompt": "Mia made a few small improvements to the photo before posting it.",
-            "promptZh": "米婭在發布照片前稍作修圖。",
-            "starter": "Mia",
-            "answer": "Mia touched up the photo before posting it.",
-            "answerZh": "米婭在發布照片前稍作修圖。",
+            "prompt": "Tom made a few small improvements to the photo before posting it.",
+            "promptZh": "湯姆在發布照片前稍作修圖。",
+            "starter": "Tom",
+            "answer": "Tom touched up the photo before posting it.",
+            "answerZh": "湯姆在發布照片前稍作修圖。",
             "highlight": "touched up the photo",
             "targetForm": "touch something up",
             "targetMeaningZh": "修補小處；稍作改善"
@@ -43572,11 +43572,11 @@
             "band": 4,
             "sourcePage": 11,
             "answerSourcePage": 22,
-            "prompt": "How much money did Mia ask you to lend her?",
-            "promptZh": "米婭向你借了多少錢？",
+            "prompt": "How much money did Tom ask you to lend her?",
+            "promptZh": "湯姆向你借了多少錢？",
             "starter": "How",
-            "answer": "How much did Mia touch you for?",
-            "answerZh": "米婭向你開口借了多少錢？",
+            "answer": "How much did Tom touch you for?",
+            "answerZh": "湯姆向你開口借了多少錢？",
             "highlight": "touch you",
             "targetForm": "touch somebody for something",
             "targetMeaningZh": "向某人開口要錢或借錢"
@@ -45632,11 +45632,11 @@
             "band": 1,
             "sourcePage": 4,
             "answerSourcePage": 14,
-            "prompt": "Mia put a clean cloth over the bowl.",
-            "promptZh": "米婭把一塊乾淨的布蓋在碗上。",
-            "starter": "Mia",
-            "answer": "Mia covered the bowl over with a clean cloth.",
-            "answerZh": "米婭用一塊乾淨的布把碗完全蓋住。",
+            "prompt": "Tom put a clean cloth over the bowl.",
+            "promptZh": "湯姆把一塊乾淨的布蓋在碗上。",
+            "starter": "Tom",
+            "answer": "Tom covered the bowl over with a clean cloth.",
+            "answerZh": "湯姆用一塊乾淨的布把碗完全蓋住。",
             "highlight": "covered the bowl over with a clean cloth",
             "targetForm": "cover something over with something",
             "targetMeaningZh": "用一層物料把某物完全蓋住"
@@ -47057,11 +47057,11 @@
             "band": 3,
             "sourcePage": 7,
             "answerSourcePage": 16,
-            "prompt": "No one noticed when Mia quietly left the hall.",
-            "promptZh": "米婭悄悄離開大堂時，沒有人察覺。",
+            "prompt": "No one noticed when Tom quietly left the hall.",
+            "promptZh": "湯姆悄悄離開大堂時，沒有人察覺。",
             "starter": "No",
-            "answer": "No one noticed when Mia stole away from the hall.",
-            "answerZh": "米婭悄悄離開大堂時，沒有人察覺。",
+            "answer": "No one noticed when Tom stole away from the hall.",
+            "answerZh": "湯姆悄悄離開大堂時，沒有人察覺。",
             "highlight": "stole away",
             "targetForm": "steal away",
             "targetMeaningZh": "悄悄離開；偷偷溜走"
@@ -50298,11 +50298,11 @@
             "band": 3,
             "sourcePage": 7,
             "answerSourcePage": 16,
-            "prompt": "The man promised Mia a refund, but he dishonestly kept it.",
-            "promptZh": "那名男子答應向米婭退款，卻以不誠實手段把款項留下。",
+            "prompt": "The man promised Tom a refund, but he dishonestly kept it.",
+            "promptZh": "那名男子答應向湯姆退款，卻以不誠實手段把款項留下。",
             "starter": "The",
-            "answer": "The man promised Mia a refund, but he cheated her out of it.",
-            "answerZh": "那名男子答應向米婭退款，卻騙走了這筆本應退回給她的款項。",
+            "answer": "The man promised Tom a refund, but he cheated her out of it.",
+            "answerZh": "那名男子答應向湯姆退款，卻騙走了這筆本應退回給她的款項。",
             "highlight": "cheated her out of it",
             "targetForm": "cheat somebody out of something",
             "targetMeaningZh": "欺騙某人，使其失去金錢或應得之物"
@@ -52540,6 +52540,13 @@
       }
     ]
   };
+  function normalizeStudentNames(value) {
+    if (typeof value === "string") return value.replace(/\bMia\b/g, "Tom").replaceAll("米婭", "湯姆");
+    if (Array.isArray(value)) value.forEach((item, index) => { value[index] = normalizeStudentNames(item); });
+    else if (value && typeof value === "object") Object.keys(value).forEach((key) => { value[key] = normalizeStudentNames(value[key]); });
+    return value;
+  }
+  normalizeStudentNames(data);
   Object.freeze(data.lessons);
   window.EDMUND_PHRASAL_VERB_SYSTEM_DATA = Object.freeze(data);
 }());

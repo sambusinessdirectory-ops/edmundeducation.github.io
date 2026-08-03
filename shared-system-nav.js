@@ -3,6 +3,7 @@
 
   const UNIVERSAL_SESSION_KEY = "edmund-universal-student-session-v1";
   const SYSTEMS = Object.freeze([
+    { id: "progress", href: "student-progress.html", zh: "全面英文能力發展進度表", en: "Student Progress" },
     { id: "flashcards", href: "flashcards.html", zh: "Flashcard 學習卡", en: "Flashcard System" },
     { id: "writing", href: "writing-practice.html", zh: "英文寫作練習", en: "Writing Practice" },
     { id: "writing-submission", href: "writing-submission.html", zh: "Edmund Sir Writing 交文", en: "Writing Submission" },
@@ -16,6 +17,7 @@
   ]);
 
   const SESSION_KEYS = Object.freeze({
+    progress: "edmund-student-progress-session-v1",
     flashcards: "edmundFlashcardSession",
     "writing-submission": "edmund-writing-submission-session-v1",
     speaking: "edmundSpeakingSessionV1",
@@ -65,6 +67,12 @@
     try { storage = window.sessionStorage; } catch { return null; }
     const activeSystem = document.querySelector("[data-edmund-system-switcher]")?.dataset.system || "";
     const candidates = {
+      progress() {
+        const value = storageJson(storage, SESSION_KEYS.progress);
+        return value?.role === "student" && value.impersonatedByAdmin !== true && value.token && value.name
+          ? { token: String(value.token), id: String(value.id || ""), name: String(value.name), role: "student" }
+          : null;
+      },
       flashcards() {
         const value = storageJson(storage, SESSION_KEYS.flashcards);
         if (value?.role !== "student" || value.impersonatedByAdmin === true || !value.sessionToken || !value.name) return null;
@@ -126,7 +134,7 @@
     if (universal?.role === "student" && universal.token && universal.name) return universal;
     const active = candidates[activeSystem]?.();
     if (active) return active;
-    return candidates.flashcards() || candidates["writing-submission"]() || candidates.speaking() || candidates.sentence() || candidates.idioms() || candidates.proverbs() || candidates["phrasal-verbs"]() || candidates.schedule() || candidates.downloads() || null;
+    return candidates.progress() || candidates.flashcards() || candidates["writing-submission"]() || candidates.speaking() || candidates.sentence() || candidates.idioms() || candidates.proverbs() || candidates["phrasal-verbs"]() || candidates.schedule() || candidates.downloads() || null;
   }
 
   function rememberStudentSession(value) {
@@ -171,6 +179,13 @@
       role: "student"
     };
     writeStorageJson(storage, UNIVERSAL_SESSION_KEY, universal, true);
+
+    writeStudentSession(storage, SESSION_KEYS.progress, {
+      token: universal.token,
+      id: universal.id,
+      name: universal.name,
+      role: "student"
+    }, overwrite);
 
     if (overwrite) {
       try {

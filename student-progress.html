@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover">
+  <meta name="description" content="EdmundEducation 學生全面英文能力發展進度表，集中查看所有學習系統的準確進度。">
+  <meta name="theme-color" content="#123a63">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="EdmundEducation">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>全面英文能力發展進度表｜EdmundEducation</title>
+  <link rel="canonical" href="https://edmundeducation.com/student-progress.html">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <script defer src="/pwa-register.js"></script>
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260803-1">
+  <link rel="stylesheet" href="student-progress.css?v=20260803-1">
+</head>
+<body>
+  <a class="skip-link" href="#student-progress-main">跳至主要內容</a>
+
+  <header class="site-header edmund-system-header">
+    <div class="header-inner edmund-system-header__inner">
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="progress">
+        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
+          <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
+          <span class="edmund-system-switcher__copy">
+            <strong>EdmundEducation</strong>
+            <small>Student Progress Portal</small>
+          </span>
+          <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
+        </button>
+      </div>
+      <div class="edmund-system-header__actions progress-header-actions">
+        <span class="connection-pill" data-connection-status data-state="checking">正在連接</span>
+        <span class="user-pill" data-user-pill hidden></span>
+        <button class="header-button" type="button" data-refresh hidden>更新數據</button>
+        <button class="header-button" type="button" data-logout hidden>登出</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="student-progress-main" class="progress-app-shell">
+    <section class="progress-view" data-view="login">
+      <div class="login-layout">
+        <article class="login-hero progress-panel">
+          <div class="hero-chart" aria-hidden="true">
+            <span style="--bar: 42%"></span><span style="--bar: 61%"></span><span style="--bar: 53%"></span>
+            <span style="--bar: 76%"></span><span style="--bar: 68%"></span><span style="--bar: 91%"></span>
+          </div>
+          <p class="eyebrow">EDMUND STUDENT PROGRESS</p>
+          <div class="hero-copy">
+            <p class="student-label">(學生使用)</p>
+            <h1>全面英文能力<br>發展進度表</h1>
+            <p>把各個學習系統的完成量、每日時間及累積時間集中在同一份準確進度表。</p>
+          </div>
+        </article>
+
+        <section class="login-panel progress-panel" aria-labelledby="progress-login-title">
+          <div class="login-heading">
+            <span class="section-number">01</span>
+            <div>
+              <p class="eyebrow">STUDENT / ADMIN LOGIN</p>
+              <h2 id="progress-login-title">登入進度系統</h2>
+              <p>使用 Flashcard、寫作練習及其他學生系統的同一個帳戶登入。</p>
+            </div>
+          </div>
+          <form class="login-form" data-login-form novalidate>
+            <label class="field">
+              <span>用戶名稱</span>
+              <input id="student-progress-username" name="username" type="text" autocomplete="username" maxlength="100" required placeholder="輸入用戶名稱">
+            </label>
+            <label class="field">
+              <span>密碼</span>
+              <span class="password-field">
+                <input id="student-progress-password" name="password" type="password" autocomplete="current-password" maxlength="200" required placeholder="輸入密碼">
+                <button type="button" data-password-toggle aria-label="顯示密碼" aria-pressed="false">顯示</button>
+              </span>
+            </label>
+            <p class="form-status" data-login-status role="status" aria-live="polite"></p>
+            <button class="primary-button" type="submit" data-login-button>登入並查看進度</button>
+          </form>
+          <p class="account-note">學生帳戶由 EdmundEducation 統一管理；本頁不會建立另一組學生密碼。</p>
+        </section>
+      </div>
+    </section>
+
+    <section class="progress-view" data-view="dashboard" hidden>
+      <section class="dashboard-hero progress-panel">
+        <div>
+          <p class="eyebrow">COMPLETE ENGLISH DEVELOPMENT</p>
+          <h1>全面英文能力發展進度表</h1>
+          <p data-dashboard-welcome>所有系統均使用相同的原始學習紀錄，數字會與各系統內的進度表保持一致。</p>
+        </div>
+        <div class="dashboard-total-time">
+          <span>全部系統累積時間</span>
+          <strong data-master-total>0 秒</strong>
+          <small data-generated-at>尚未更新</small>
+        </div>
+      </section>
+
+      <section class="admin-picker progress-panel" data-admin-picker hidden aria-labelledby="admin-student-heading">
+        <div>
+          <p class="eyebrow">ADMIN STUDENT VIEW</p>
+          <h2 id="admin-student-heading">選擇學生</h2>
+        </div>
+        <label>
+          <span>學生帳戶</span>
+          <select data-admin-student-select aria-label="選擇學生"></select>
+        </label>
+      </section>
+
+      <section class="progress-toolbar progress-panel" aria-label="統計範圍">
+        <div>
+          <p class="eyebrow">DATE RANGE</p>
+          <h2>選擇統計時段</h2>
+          <p>以下所有圖表會同時更新；全部組別預設展開，亦可逐項收起。</p>
+        </div>
+        <div class="range-buttons" data-range-buttons></div>
+      </section>
+
+      <p class="dashboard-status" data-dashboard-status role="status" aria-live="polite"></p>
+
+      <div class="dashboard-groups" data-dashboard-groups hidden>
+        <details class="dashboard-group master-group" open data-dashboard-group="master">
+          <summary>
+            <span class="group-index">01</span>
+            <span><strong>最重要總覽</strong><small>Master time dashboards</small></span>
+            <span class="summary-value" data-master-summary>0 秒</span>
+          </summary>
+          <div class="group-body master-chart-grid">
+            <article class="chart-card chart-card-wide">
+              <div class="chart-heading">
+                <div><p class="eyebrow">MASTER CUMULATIVE TIME</p><h3>所有系統累積學習時間</h3></div>
+                <strong data-master-cumulative-total>0 秒</strong>
+              </div>
+              <p class="chart-description">粗線顯示全部系統總和；其餘各線顯示每個系統截至當日的累積時間。</p>
+              <div class="chart-scroll"><svg class="progress-chart" data-master-cumulative-chart viewBox="0 0 960 350" role="img" aria-label="所有學習系統累積時間圖表"></svg></div>
+              <div class="chart-legend" data-master-cumulative-legend></div>
+            </article>
+
+            <article class="chart-card chart-card-wide">
+              <div class="chart-heading">
+                <div><p class="eyebrow">MASTER DAILY TIME</p><h3>每日所有系統學習時間</h3></div>
+                <strong data-master-daily-total>0 秒</strong>
+              </div>
+              <p class="chart-description">同一日期上每條彩色線代表一個系統；粗線是該日所有系統時間之和。</p>
+              <div class="chart-scroll"><svg class="progress-chart" data-master-daily-chart viewBox="0 0 960 350" role="img" aria-label="所有學習系統每日時間圖表"></svg></div>
+              <div class="chart-legend" data-master-daily-legend></div>
+            </article>
+          </div>
+        </details>
+
+        <div data-source-groups></div>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast" data-toast role="status" aria-live="polite" hidden></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabase-config.js"></script>
+  <script src="student-progress-config.js"></script>
+  <script src="shared-system-nav.js?v=20260803-1"></script>
+  <script type="module" src="student-progress.js?v=20260803-1"></script>
+</body>
+</html>
