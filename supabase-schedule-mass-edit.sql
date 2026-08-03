@@ -25,6 +25,12 @@ declare
   v_existing public.schedule_entries%rowtype;
   v_effective_source text;
   v_effective_admin_id uuid;
+  v_requested_source text;
+  v_has_status boolean;
+  v_is_completed boolean;
+  v_is_in_progress boolean;
+  v_is_previous_incomplete boolean;
+  v_preserve_completion_metadata boolean;
   v_result jsonb;
   v_deleted boolean;
   v_applied_count integer := 0;
@@ -70,7 +76,7 @@ begin
     from pg_catalog.jsonb_array_elements(p_changes)
   loop
     if pg_catalog.jsonb_typeof(v_item) <> 'object'
-      or (select count(*) from pg_catalog.jsonb_object_keys(v_item)) <> 6
+      or (select count(*) from pg_catalog.jsonb_object_keys(v_item)) not between 6 and 10
       or exists (
         select 1
         from pg_catalog.jsonb_object_keys(v_item) as key_row(key_name)
@@ -80,7 +86,31 @@ begin
           'slotIndex',
           'message',
           'estimatedMinutes',
-          'expectedUpdatedAt'
+          'expectedUpdatedAt',
+          'source',
+          'isCompleted',
+          'isInProgress',
+          'isPreviousIncomplete'
+        )
+      )
+      or not (
+        v_item ? 'action'
+        and v_item ? 'scheduleDate'
+        and v_item ? 'slotIndex'
+        and v_item ? 'message'
+        and v_item ? 'estimatedMinutes'
+        and v_item ? 'expectedUpdatedAt'
+      )
+      or not (
+        (
+          not (v_item ? 'isCompleted')
+          and not (v_item ? 'isInProgress')
+          and not (v_item ? 'isPreviousIncomplete')
+        )
+        or (
+          v_item ? 'isCompleted'
+          and v_item ? 'isInProgress'
+          and v_item ? 'isPreviousIncomplete'
         )
       )
       or pg_catalog.jsonb_typeof(v_item -> 'action') <> 'string'
@@ -91,11 +121,20 @@ begin
       or (v_item ->> 'slotIndex')::numeric <> pg_catalog.trunc((v_item ->> 'slotIndex')::numeric)
       or (v_item ->> 'slotIndex')::numeric not between 1 and 100
       or pg_catalog.jsonb_typeof(v_item -> 'expectedUpdatedAt') not in ('string', 'null')
+      or (
+        v_item ? 'source'
+        and (
+          pg_catalog.jsonb_typeof(v_item -> 'source') <> 'string'
+          or coalesce(v_item ->> 'source', '') not in ('student', 'admin')
+          or (p_actor_source = 'student' and coalesce(v_item ->> 'source', '') <> 'student')
+        )
+      )
     then
       raise exception 'Invalid Mass Edit item' using errcode = '22023';
     end if;
 
     v_action := v_item ->> 'action';
+    v_has_status := v_item ? 'isCompleted';
     begin
       v_schedule_date := (v_item ->> 'scheduleDate')::date;
       v_expected_updated_at := case
@@ -124,11 +163,29 @@ begin
             or (v_item ->> 'estimatedMinutes')::numeric not between 1 and 10080
           )
         )
+        or (
+          v_has_status
+          and (
+            pg_catalog.jsonb_typeof(v_item -> 'isCompleted') <> 'boolean'
+            or pg_catalog.jsonb_typeof(v_item -> 'isInProgress') <> 'boolean'
+            or pg_catalog.jsonb_typeof(v_item -> 'isPreviousIncomplete') <> 'boolean'
+            or (
+              (v_item ->> 'isCompleted')::boolean::integer
+              + (v_item ->> 'isInProgress')::boolean::integer
+              + (v_item ->> 'isPreviousIncomplete')::boolean::integer
+            ) > 1
+          )
+        )
       then
         raise exception 'Invalid Mass Edit upsert' using errcode = '22023';
       end if;
     elsif pg_catalog.jsonb_typeof(v_item -> 'message') <> 'null'
       or pg_catalog.jsonb_typeof(v_item -> 'estimatedMinutes') <> 'null'
+      or (v_has_status and (
+        pg_catalog.jsonb_typeof(v_item -> 'isCompleted') <> 'null'
+        or pg_catalog.jsonb_typeof(v_item -> 'isInProgress') <> 'null'
+        or pg_catalog.jsonb_typeof(v_item -> 'isPreviousIncomplete') <> 'null'
+      ))
       or v_expected_updated_at is null
     then
       raise exception 'Invalid Mass Edit delete' using errcode = '22023';
@@ -162,6 +219,8 @@ begin
       when pg_catalog.jsonb_typeof(v_item -> 'expectedUpdatedAt') = 'null' then null
       else (v_item ->> 'expectedUpdatedAt')::timestamptz
     end;
+    v_has_status := v_item ? 'isCompleted';
+    v_requested_source := case when v_item ? 'source' then v_item ->> 'source' else null end;
 
     if v_action = 'upsert' then
       v_estimated_minutes := case
@@ -169,6 +228,7 @@ begin
         else (v_item ->> 'estimatedMinutes')::integer
       end;
 
+      v_existing := null;
       select *
       into v_existing
       from public.schedule_entries entry
@@ -202,15 +262,26 @@ begin
           raise exception 'Teacher assignments can only be changed by an administrator'
             using errcode = '42501';
         end if;
-        v_effective_source := v_existing.source;
+        v_effective_source := coalesce(v_requested_source, v_existing.source);
         v_effective_admin_id := case
-          when v_existing.source = 'admin'
+          when coalesce(v_requested_source, v_existing.source) = 'admin'
             then coalesce(v_existing.created_by_admin, p_admin_id)
           else null
         end;
       else
-        v_effective_source := p_actor_source;
-        v_effective_admin_id := case when p_actor_source = 'admin' then p_admin_id else null end;
+        v_effective_source := coalesce(v_requested_source, p_actor_source);
+        v_effective_admin_id := case when coalesce(v_requested_source, p_actor_source) = 'admin' then p_admin_id else null end;
+      end if;
+
+      if v_has_status then
+        v_is_completed := (v_item ->> 'isCompleted')::boolean;
+        v_is_in_progress := (v_item ->> 'isInProgress')::boolean;
+        v_is_previous_incomplete := (v_item ->> 'isPreviousIncomplete')::boolean;
+        v_preserve_completion_metadata := v_is_completed
+          and v_existing.id is not null
+          and v_existing.is_completed
+          and v_existing.message = (v_item ->> 'message')
+          and v_existing.source = v_effective_source;
       end if;
 
       v_result := public._schedule_upsert_entry(
@@ -223,6 +294,34 @@ begin
         v_effective_source,
         v_effective_admin_id
       );
+      if v_has_status then
+        update public.schedule_entries entry
+        set is_completed = v_is_completed,
+            is_in_progress = v_is_in_progress,
+            is_previous_incomplete = v_is_previous_incomplete,
+            completed_at = case
+              when v_is_completed and v_preserve_completion_metadata then coalesce(v_existing.completed_at, now())
+              when v_is_completed then now()
+              else null
+            end,
+            completion_source = case
+              when v_is_completed and v_preserve_completion_metadata then coalesce(v_existing.completion_source, p_actor_source)
+              when v_is_completed then p_actor_source
+              else null
+            end,
+            completed_by_admin = case
+              when v_is_completed and v_preserve_completion_metadata and coalesce(v_existing.completion_source, p_actor_source) = 'admin'
+                then coalesce(v_existing.completed_by_admin, p_admin_id)
+              when v_is_completed and p_actor_source = 'admin' then p_admin_id
+              else null
+            end,
+            updated_at = now()
+        where entry.id = (v_result ->> 'id')::uuid
+           or (
+             nullif(v_result ->> 'spanGroupId', '') is not null
+             and entry.span_group_id = (v_result ->> 'spanGroupId')::uuid
+           );
+      end if;
       if v_expected_updated_at is null then
         v_created_count := v_created_count + 1;
       else

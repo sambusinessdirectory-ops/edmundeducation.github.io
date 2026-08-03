@@ -106,6 +106,12 @@ test("portal exposes the eight-step flow, keeps artwork post-login, and has no S
   assert.equal((html.match(/data-step="/g) || []).length, 8);
   assert.match(html, /data-jump-to-exercise/);
   assert.match(html, /data-lesson-search-input/);
+  assert.match(html, /class="lesson-search-label"[^>]*>搜尋關鍵字</);
+  assert.match(html, /data-clear-lesson-search/);
+  assert.ok(html.indexOf('class="lesson-search-panel') < html.indexOf('data-lesson-choice-grid'), "search must appear directly before the lesson cards");
+  assert.doesNotMatch(html, /SEARCH ALL LESSON CONTENT/);
+  assert.match(read("idiom-system.css"), /\.lesson-search-controls\s*\{[^}]*grid-template-columns:\s*minmax\(0,\s*1fr\)\s+auto\s+auto/s);
+  assert.match(read("idiom-system.css"), /\.lesson-search-controls input\s*\{[^}]*border:\s*2px/s);
   assert.match(app, /function searchLessons/);
   assert.match(app, /data-search-question/);
   assert.doesNotMatch(loginView, /class="hero-symbol"/);

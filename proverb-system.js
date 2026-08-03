@@ -76,6 +76,7 @@ const elements = {
   lessonSearchInput: document.querySelector("[data-lesson-search-input]"),
   lessonSearchSummary: document.querySelector("[data-lesson-search-summary]"),
   lessonSearchResults: document.querySelector("[data-lesson-search-results]"),
+  lessonSearchClear: document.querySelector("[data-clear-lesson-search]"),
   historyList: document.querySelector("[data-history-list]"),
   progressToggle: document.querySelector("[data-sentence-progress-toggle]"),
   progressToggleLabel: document.querySelector("[data-sentence-progress-toggle-label]"),
@@ -787,7 +788,7 @@ function renderLessonChoices() {
 }
 
 function collectLessonSearchStrings(value, output = [], key = "") {
-  if (value == null || ["source", "image", "acceptedAnswers", "correctAnswer", "answer"].includes(key)) return output;
+  if (value == null || ["source", "image", "illustration", "src", "file", "sourcePage", "answerSourcePage"].includes(key)) return output;
   if (typeof value === "string") { const text = value.replace(/\s+/g, " ").trim(); if (text) output.push(text); }
   else if (Array.isArray(value)) value.forEach((item) => collectLessonSearchStrings(item, output, key));
   else if (typeof value === "object") Object.entries(value).forEach(([childKey, item]) => collectLessonSearchStrings(item, output, childKey));
@@ -819,16 +820,28 @@ function searchLessons(query) {
 function renderLessonSearch() {
   if (!elements.lessonSearchResults || !elements.lessonSearchSummary) return;
   const query = String(elements.lessonSearchInput?.value || "").trim();
-  if (!query) { elements.lessonSearchResults.hidden = true; elements.lessonSearchResults.innerHTML = ""; elements.lessonSearchSummary.textContent = "可搜尋全部諺語的標題、八個學習頁面及練習題。"; return; }
+  if (elements.lessonSearchClear) elements.lessonSearchClear.hidden = !query;
+  if (!query) { elements.lessonSearchResults.hidden = true; elements.lessonSearchResults.innerHTML = ""; elements.lessonSearchSummary.textContent = "尚未輸入關鍵字。可搜尋全部諺語的八個學習頁面及練習題。"; return; }
   const matches = searchLessons(query);
-  elements.lessonSearchSummary.textContent = matches.length ? `找到 ${matches.length} 個相符位置。按結果可直接前往相關頁面或題目。` : "找不到相符內容，請嘗試其他中英文關鍵字。";
+  const visibleMatches = matches.slice(0, 80);
+  elements.lessonSearchSummary.textContent = matches.length
+    ? `找到 ${matches.length} 個相符位置${matches.length > visibleMatches.length ? `，先顯示首 ${visibleMatches.length} 個` : ""}。按結果可直接前往相關頁面或題目。`
+    : "找不到相符內容，請嘗試其他中英文關鍵字。";
   elements.lessonSearchResults.hidden = false;
-  elements.lessonSearchResults.innerHTML = matches.slice(0, 80).map((entry) => {
+  elements.lessonSearchResults.innerHTML = visibleMatches.map((entry) => {
     const queryTokens = normalizeLessonSearchText(query).split(" ").filter(Boolean);
     const preview = entry.texts.find((text) => queryTokens.some((token) => normalizeLessonSearchText(text).includes(token))) || entry.texts[0] || "";
     const place = entry.kind === "question" ? `第 8 頁 · 第 ${entry.questionNumber} 題` : `第 ${entry.page} 頁`;
-    return `<button class="lesson-search-result" type="button" data-lesson-search-result data-search-lesson="${escapeHtml(entry.lessonId)}" data-search-page="${entry.page}" data-search-question="${escapeHtml(entry.questionId || "")}"><span>${escapeHtml(place)}</span><strong>${escapeHtml(entry.title)} · ${escapeHtml(entry.titleEn)}</strong><small>${escapeHtml(preview.slice(0, 180))}</small></button>`;
-  }).join("");
+    const title = [entry.title, entry.titleEn].filter(Boolean).join(" · ");
+    return `<button class="lesson-search-result" type="button" data-lesson-search-result data-search-lesson="${escapeHtml(entry.lessonId)}" data-search-page="${entry.page}" data-search-question="${escapeHtml(entry.questionId || "")}"><span>${escapeHtml(place)}</span><strong>${escapeHtml(title)}</strong><small>${escapeHtml(preview.slice(0, 180))}</small></button>`;
+  }).join("") || '<div class="lesson-search-empty"><strong>沒有搜尋結果</strong><span>請縮短關鍵字，或改用另一個中英文詞語。</span></div>';
+}
+
+function clearLessonSearch() {
+  if (!elements.lessonSearchInput) return;
+  elements.lessonSearchInput.value = "";
+  renderLessonSearch();
+  elements.lessonSearchInput.focus();
 }
 
 function localDayKey(value) {
@@ -2661,6 +2674,7 @@ async function openAdminStudent(studentId) {
 function handleClick(event) {
   const searchResult = event.target.closest("[data-lesson-search-result]");
   if (searchResult) return openLesson(searchResult.dataset.searchLesson, { page: Number(searchResult.dataset.searchPage || 1), questionId: searchResult.dataset.searchQuestion || "" });
+  if (event.target.closest("[data-clear-lesson-search]")) return clearLessonSearch();
   if (event.target.closest("[data-sentence-progress-toggle]")) return toggleProgressPanel();
   if (event.target.closest("[data-toggle-sentence-cumulative]")) return toggleCumulativeProgress();
 
@@ -2770,7 +2784,6 @@ function bindEvents() {
   elements.lessonSearchForm?.addEventListener("submit", (event) => {
     event.preventDefault();
     renderLessonSearch();
-    elements.lessonSearchResults?.querySelector("[data-lesson-search-result]")?.click();
   });
   document.addEventListener("keydown", (event) => {
     if (!["Enter", " "].includes(event.key)) return;

@@ -33,12 +33,17 @@ import {
   filterHomeworkResources,
   fullHomeworkTriggerAtCursor,
   homeworkAutocomplete,
+  homeworkResourceDisplayTitle,
   insertHomeworkResourceTitle,
   normalizeHomeworkHref,
   normalizeHomeworkResource,
   parseScheduleMessage,
   serializeScheduleMessage
-} from "./schedule-homework-links.mjs?v=20260803-1";
+} from "./schedule-homework-links.mjs?v=20260803-2";
+import {
+  ScheduleGroupShiftError,
+  planScheduleGroupShift
+} from "./schedule-mass-edit.mjs?v=20260803-1";
 import {
   ScheduleClipboardError,
   createScheduleClipboardPayload,
@@ -158,6 +163,7 @@ const elements = {
   deleteEntry: document.querySelector("[data-delete-entry]"),
   toggleComplete: document.querySelector("[data-toggle-complete]"),
   toggleProgress: document.querySelector("[data-toggle-progress]"),
+  togglePreviousIncomplete: document.querySelector("[data-toggle-previous-incomplete]"),
   saveEntry: document.querySelector("[data-save-entry]"),
   deleteDialog: document.querySelector("[data-delete-dialog]"),
   cancelDelete: document.querySelector("[data-cancel-delete]"),
@@ -187,6 +193,7 @@ const state = {
   moveEntryId: null,
   draggingEntryId: null,
   touchActionEntryId: null,
+  draggingMassEditGroup: null,
   longPressTimer: null,
   longPressPointerId: null,
   longPressOrigin: null,
@@ -420,7 +427,7 @@ function addHomeworkResource(resourceId) {
   const visibleMessage = insertHomeworkResourceTitle(
     elements.entryMessage.value,
     state.homeworkPickerReplacement,
-    resource.label
+    homeworkResourceDisplayTitle(resource)
   );
   const nextMessage = serializeScheduleMessage(visibleMessage.value.trim(), nextResources);
   if (nextMessage.length > SCHEDULE_MESSAGE_MAX_LENGTH) {
@@ -496,7 +503,16 @@ function removeClipboardMarquee() {
 function applyClipboardSelectionClasses() {
   elements.weekGrid?.querySelectorAll("[data-entry-id]").forEach((slot) => {
     const selected = state.clipboardSelectedEntryIds.has(slot.dataset.entryId);
+    const entry = findEntryById(slot.dataset.entryId);
     slot.classList.toggle("is-clipboard-selected", selected);
+    if (state.massEditMode) {
+      const groupDraggable = canDragMassEditGroup(entry);
+      slot.draggable = groupDraggable;
+      slot.classList.toggle("can-group-drag", groupDraggable);
+      slot.title = groupDraggable
+        ? "拖到另一個日期欄可整組移動；按住 Option／Alt 拖動可整組複製"
+        : "";
+    }
     if (state.massEditMode && state.clipboardSelectionMode) {
       slot.setAttribute("aria-pressed", String(selected));
     } else if (!state.selectionMode) {
@@ -709,7 +725,10 @@ function stageScheduleClipboardPaste(payload) {
       estimatedMinutes: item.estimatedMinutes,
       expectedUpdatedAt: null,
       spanGroupId: null,
-      source
+      source,
+      isCompleted: false,
+      isInProgress: false,
+      isPreviousIncomplete: false
     });
   }
   rebuildMassEditPreview();
@@ -743,6 +762,89 @@ async function pasteScheduleClipboardFromButton() {
   }
   storeScheduleClipboardPayload(payload);
   stageScheduleClipboardPaste(payload);
+}
+
+function clearMassEditGroupDropClasses() {
+  elements.weekGrid?.querySelectorAll(".is-group-drop-target, .is-group-drop-blocked, .is-group-dragging")
+    .forEach((element) => element.classList.remove("is-group-drop-target", "is-group-drop-blocked", "is-group-dragging"));
+}
+
+function planCurrentMassEditGroupShift(anchorEntryId, targetDate, copy) {
+  return planScheduleGroupShift({
+    entries: state.weekPayload.entries,
+    selectedEntryIds: state.clipboardSelectedEntryIds,
+    anchorEntryId,
+    targetDate,
+    weekStart: state.weekStart,
+    capacities: state.weekPayload.capacities,
+    copy,
+    currentRole: state.currentUser?.role || "student"
+  });
+}
+
+function stageMassEditGroupShift(plan) {
+  if (!state.massEditMode || !plan?.items?.length) return false;
+  const sourceByKey = new Map(plan.items.map(({ sourceEntry }) => [
+    `${sourceEntry.scheduleDate}:${Number(sourceEntry.slotIndex)}`,
+    sourceEntry
+  ]));
+  const targetByKey = new Map(plan.items.map((item) => [
+    `${item.scheduleDate}:${Number(item.slotIndex)}`,
+    item
+  ]));
+  const affectedKeys = new Set(plan.copy
+    ? targetByKey.keys()
+    : [...sourceByKey.keys(), ...targetByKey.keys()]);
+
+  for (const key of affectedKeys) {
+    const target = targetByKey.get(key);
+    const source = sourceByKey.get(key);
+    const [scheduleDate, rawSlotIndex] = key.split(":");
+    const slotIndex = Number(rawSlotIndex);
+    const originalEntry = massEditOriginalEntry(scheduleDate, slotIndex, source || null);
+    const changeKey = massEditChangeKey(scheduleDate, slotIndex, originalEntry);
+    if (target) {
+      state.massEditChanges.set(changeKey, {
+        action: "upsert",
+        scheduleDate,
+        slotIndex,
+        message: target.message,
+        estimatedMinutes: target.estimatedMinutes,
+        expectedUpdatedAt: originalEntry?.updatedAt || null,
+        spanGroupId: null,
+        source: target.source,
+        isCompleted: target.isCompleted,
+        isInProgress: target.isInProgress,
+        isPreviousIncomplete: target.isPreviousIncomplete
+      });
+    } else if (source && originalEntry) {
+      state.massEditChanges.set(changeKey, {
+        action: "delete",
+        scheduleDate,
+        slotIndex,
+        message: null,
+        estimatedMinutes: null,
+        expectedUpdatedAt: originalEntry.updatedAt,
+        spanGroupId: originalEntry.spanGroupId || null,
+        source: originalEntry.source,
+        isCompleted: null,
+        isInProgress: null,
+        isPreviousIncomplete: null
+      });
+    } else if (source) {
+      state.massEditChanges.delete(changeKey);
+    }
+  }
+
+  rebuildMassEditPreview();
+  clearClipboardSelection({ deactivate: false });
+  renderWeek();
+  setStatus(
+    elements.massEditStatus,
+    `${plan.copy ? "整組複製" : "整組移動"} ${plan.items.length} 項已暫存；完成後請按「一次儲存全部」。`
+  );
+  showToast(`${plan.items.length} 項已整組${plan.copy ? "複製" : "移動"}；尚未上傳至雲端。`);
+  return true;
 }
 
 function massEditOriginalEntry(date, slotIndex, entry = null) {
@@ -786,7 +888,6 @@ function rebuildMassEditPreview() {
     }
 
     if (target) {
-      const contentChanged = target.message !== change.message || target.source !== change.source;
       entries = entries.map((entry) => {
         const matches = targetGroupId
           ? entry.spanGroupId === targetGroupId
@@ -798,7 +899,9 @@ function rebuildMassEditPreview() {
           message: change.message,
           estimatedMinutes: change.estimatedMinutes,
           source: change.source,
-          isCompleted: contentChanged ? false : entry.isCompleted,
+          isCompleted: Boolean(change.isCompleted),
+          isInProgress: Boolean(change.isInProgress),
+          isPreviousIncomplete: Boolean(change.isPreviousIncomplete),
           massEditDraft: true
         };
       });
@@ -810,8 +913,9 @@ function rebuildMassEditPreview() {
         message: change.message,
         estimatedMinutes: change.estimatedMinutes,
         source: change.source,
-        isCompleted: false,
-        isInProgress: false,
+        isCompleted: Boolean(change.isCompleted),
+        isInProgress: Boolean(change.isInProgress),
+        isPreviousIncomplete: Boolean(change.isPreviousIncomplete),
         spanGroupId: null,
         updatedAt: null,
         massEditDraft: true
@@ -848,7 +952,7 @@ function updateMassEditControls() {
   elements.adminStudentsButton.title = active && changeCount > 0
     ? "請先一次儲存全部或取消修改，再切換學生。"
     : "";
-  elements.currentWeek.disabled = active;
+  elements.currentWeek.disabled = state.mutationInFlight;
   const countdownCapacity = Math.max(
     MIN_COUNTDOWNS,
     Math.min(MAX_COUNTDOWNS, Number(state.weekPayload.countdownCapacity) || MIN_COUNTDOWNS)
@@ -866,6 +970,7 @@ function leaveMassEdit({ restoreOriginal = true } = {}) {
   state.massEditChanges.clear();
   state.showUnusedTemporarily = state.massEditPreviousShowUnusedTemporarily;
   state.massEditPreviousShowUnusedTemporarily = false;
+  state.draggingMassEditGroup = null;
   clearClipboardSelection({ deactivate: true });
   setStatus(elements.massEditStatus, "");
   updateMassEditControls();
@@ -941,6 +1046,7 @@ function clearRenderedSchedule() {
   state.massEditOriginalEntries = [];
   state.massEditChanges.clear();
   state.massEditPreviousShowUnusedTemporarily = false;
+  state.draggingMassEditGroup = null;
   clearClipboardSelection({ deactivate: true });
   resetSelectionMode();
   elements.weekGrid.replaceChildren();
@@ -960,6 +1066,10 @@ function clearRenderedSchedule() {
   elements.toggleProgress.dataset.inProgress = "false";
   elements.toggleProgress.setAttribute("aria-pressed", "false");
   elements.toggleProgress.textContent = "標記進行中";
+  elements.togglePreviousIncomplete.hidden = true;
+  elements.togglePreviousIncomplete.dataset.previousIncomplete = "false";
+  elements.togglePreviousIncomplete.setAttribute("aria-pressed", "false");
+  elements.togglePreviousIncomplete.textContent = "標記之前功課未完成";
   elements.countdownGrid?.replaceChildren();
   setStatus(elements.countdownStatus, "");
   setMetricsUnavailable();
@@ -1020,6 +1130,16 @@ function canMoveEntry(entry) {
   );
 }
 
+function canDragMassEditGroup(entry) {
+  return Boolean(
+    state.massEditMode
+    && entry
+    && !entry.spanGroupId
+    && state.clipboardSelectedEntryIds.has(entry.id)
+    && state.clipboardSelectedEntryIds.size > 0
+  );
+}
+
 function spanMemberIds(entry) {
   if (!entry) return new Set();
   return new Set(state.weekPayload.entries
@@ -1048,6 +1168,7 @@ function resetSelectionMode() {
   state.selectedEntryIds.clear();
   state.moveEntryId = null;
   state.draggingEntryId = null;
+  state.draggingMassEditGroup = null;
   clearLongPress();
   state.touchActionEntryId = null;
   updateSelectionControls();
@@ -2086,10 +2207,11 @@ async function loadWeek(focusTarget = null) {
         : {},
       entries: Array.isArray(payload.entries)
         ? payload.entries.map((entry) => ({
-            ...entry,
-            estimatedMinutes: Number(entry.estimatedMinutes) || null,
-            isInProgress: entry.isInProgress === true,
-            spanGroupId: entry.spanGroupId || null
+          ...entry,
+          estimatedMinutes: Number(entry.estimatedMinutes) || null,
+          isInProgress: entry.isInProgress === true,
+          isPreviousIncomplete: entry.isPreviousIncomplete === true,
+          spanGroupId: entry.spanGroupId || null
           }))
         : [],
       metrics: payload.metrics && typeof payload.metrics === "object"
@@ -2107,6 +2229,13 @@ async function loadWeek(focusTarget = null) {
       countdownCapacity: Math.max(MIN_COUNTDOWNS, Math.min(MAX_COUNTDOWNS, Number(payload.countdownCapacity) || MIN_COUNTDOWNS)),
       countdowns: Array.isArray(payload.countdowns) ? payload.countdowns : []
     };
+    if (state.massEditMode) {
+      state.massEditOriginalEntries = cloneScheduleEntries(state.weekPayload.entries);
+      state.massEditChanges.clear();
+      clearClipboardSelection({ deactivate: true });
+      state.showUnusedTemporarily = true;
+      setStatus(elements.massEditStatus, "Mass Edit 保持開啟：目前顯示的星期可直接批量編輯。");
+    }
     renderWeek();
     renderMetrics();
     renderCountdowns();
@@ -2154,11 +2283,6 @@ function updateCalendarHeading() {
   const last = toISODate(lastWeekStart());
   elements.previousWeek.disabled = state.weekStart <= first;
   elements.nextWeek.disabled = state.weekStart >= last;
-  if (state.massEditMode) {
-    elements.previousWeek.disabled = true;
-    elements.nextWeek.disabled = true;
-    elements.currentWeek.disabled = true;
-  }
 }
 
 function entryMap() {
@@ -2311,7 +2435,7 @@ function createSlotButton(date, dayIndex, slotIndex, entry, spanBottomStart = fa
   button.dataset.slotIndex = String(slotIndex);
   button.setAttribute(
     "aria-label",
-    `${WEEKDAY_LABELS[dayIndex]} ${formatDayDate(date)} 第 ${slotIndex} 格${entry ? `：${parsedEntry.text}${parsedEntry.resources.length ? `，附有 ${parsedEntry.resources.length} 個功課連結` : ""}${entry.isCompleted ? "，已完成" : entry.isInProgress ? "，進行中" : ""}` : "，新增安排"}`
+    `${WEEKDAY_LABELS[dayIndex]} ${formatDayDate(date)} 第 ${slotIndex} 格${entry ? `：${parsedEntry.text}${parsedEntry.resources.length ? `，附有 ${parsedEntry.resources.length} 個功課連結` : ""}${entry.isCompleted ? "，已完成" : entry.isInProgress ? "，進行中" : ""}${entry.isPreviousIncomplete ? "，之前功課未完成" : ""}` : "，新增安排"}`
   );
 
   const topLine = document.createElement("span");
@@ -2333,13 +2457,24 @@ function createSlotButton(date, dayIndex, slotIndex, entry, spanBottomStart = fa
     progress.textContent = "進行中";
     topLine.append(progress);
   }
+  if (entry?.isPreviousIncomplete) {
+    button.classList.add("is-previous-incomplete");
+    const previousIncomplete = document.createElement("span");
+    previousIncomplete.className = "previous-incomplete-badge";
+    previousIncomplete.textContent = "之前功課未完成";
+    topLine.append(previousIncomplete);
+  }
   button.append(topLine);
 
   if (entry) {
     button.classList.add("has-entry");
     button.dataset.entryId = entry.id;
-    button.draggable = canMoveEntry(entry);
+    button.draggable = canMoveEntry(entry) || canDragMassEditGroup(entry);
     if (canMoveEntry(entry)) button.classList.add("can-touch-drag");
+    if (canDragMassEditGroup(entry)) {
+      button.classList.add("can-group-drag");
+      button.title = "拖到另一個日期欄可整組移動；按住 Option／Alt 拖動可整組複製";
+    }
     if (state.touchActionEntryId && spanMemberIds(findEntryById(state.touchActionEntryId)).has(entry.id)) {
       button.classList.add("is-touch-action");
     }
@@ -2698,7 +2833,7 @@ async function extendEntryToDay(entry, targetDate, { adjacentOnly = false } = {}
   }
 }
 
-function queueMassEditUpsert(message, estimatedMinutes) {
+function queueMassEditUpsert(message, estimatedMinutes, statusPatch = {}) {
   if (!state.massEditMode || !state.editing) return;
   const { date, slotIndex, entry } = state.editing;
   const originalEntry = massEditOriginalEntry(date, slotIndex, entry);
@@ -2708,9 +2843,30 @@ function queueMassEditUpsert(message, estimatedMinutes) {
   const source = originalEntry?.source
     || (state.currentUser?.role === "admin" ? "admin" : "student");
   const key = massEditChangeKey(date, slotIndex, originalEntry);
+  let isCompleted = Boolean(statusPatch.isCompleted ?? entry?.isCompleted ?? originalEntry?.isCompleted ?? false);
+  let isInProgress = Boolean(statusPatch.isInProgress ?? entry?.isInProgress ?? originalEntry?.isInProgress ?? false);
+  let isPreviousIncomplete = Boolean(
+    statusPatch.isPreviousIncomplete
+    ?? entry?.isPreviousIncomplete
+    ?? originalEntry?.isPreviousIncomplete
+    ?? false
+  );
+  if (statusPatch.isCompleted === true) {
+    isInProgress = false;
+    isPreviousIncomplete = false;
+  } else if (statusPatch.isInProgress === true) {
+    isCompleted = false;
+    isPreviousIncomplete = false;
+  } else if (statusPatch.isPreviousIncomplete === true) {
+    isCompleted = false;
+    isInProgress = false;
+  }
   const unchanged = Boolean(originalEntry)
     && originalEntry.message === message
-    && (Number(originalEntry.estimatedMinutes) || null) === estimatedMinutes;
+    && (Number(originalEntry.estimatedMinutes) || null) === estimatedMinutes
+    && originalEntry.isCompleted === isCompleted
+    && originalEntry.isInProgress === isInProgress
+    && originalEntry.isPreviousIncomplete === isPreviousIncomplete;
 
   if (unchanged) {
     state.massEditChanges.delete(key);
@@ -2723,7 +2879,10 @@ function queueMassEditUpsert(message, estimatedMinutes) {
       estimatedMinutes,
       expectedUpdatedAt: originalEntry?.updatedAt || null,
       spanGroupId: originalEntry?.spanGroupId || null,
-      source
+      source,
+      isCompleted,
+      isInProgress,
+      isPreviousIncomplete
     });
   }
   rebuildMassEditPreview();
@@ -2747,7 +2906,10 @@ function queueMassEditDelete() {
       estimatedMinutes: null,
       expectedUpdatedAt: originalEntry.updatedAt,
       spanGroupId: originalEntry.spanGroupId || null,
-      source: originalEntry.source
+      source: originalEntry.source,
+      isCompleted: null,
+      isInProgress: null,
+      isPreviousIncomplete: null
     });
   }
   rebuildMassEditPreview();
@@ -2764,7 +2926,11 @@ async function saveMassEdit() {
     slotIndex: change.slotIndex,
     message: change.message,
     estimatedMinutes: change.estimatedMinutes,
-    expectedUpdatedAt: change.expectedUpdatedAt
+    expectedUpdatedAt: change.expectedUpdatedAt,
+    source: change.source,
+    isCompleted: change.isCompleted,
+    isInProgress: change.isInProgress,
+    isPreviousIncomplete: change.isPreviousIncomplete
   }));
   const owner = `${state.currentUser?.role || ""}:${student.id}:${state.weekStart}`;
   const changeCount = changes.length;
@@ -2846,6 +3012,12 @@ function openEntryDialog(date, slotIndex) {
   elements.toggleProgress.dataset.inProgress = String(Boolean(entry?.isInProgress));
   elements.toggleProgress.setAttribute("aria-pressed", String(Boolean(entry?.isInProgress)));
   elements.toggleProgress.textContent = entry?.isInProgress ? "取消進行中" : "標記進行中";
+  elements.togglePreviousIncomplete.hidden = !entry || (state.massEditMode && protectedTeacherEntry);
+  elements.togglePreviousIncomplete.dataset.previousIncomplete = String(Boolean(entry?.isPreviousIncomplete));
+  elements.togglePreviousIncomplete.setAttribute("aria-pressed", String(Boolean(entry?.isPreviousIncomplete)));
+  elements.togglePreviousIncomplete.textContent = entry?.isPreviousIncomplete
+    ? "取消之前功課未完成"
+    : "標記之前功課未完成";
   setStatus(elements.entryStatus, "");
   state.homeworkCompletion = null;
   elements.homeworkAutocomplete.hidden = true;
@@ -3079,6 +3251,64 @@ async function toggleEntryProgress() {
   }
 }
 
+async function toggleEntryPreviousIncomplete() {
+  if (!state.editing?.entry) return;
+  const entry = state.editing.entry;
+  const previousIncomplete = !Boolean(entry.isPreviousIncomplete);
+  const focusTarget = { date: state.editing.date, slotIndex: state.editing.slotIndex };
+
+  if (state.massEditMode) {
+    queueMassEditUpsert(entry.message, Number(entry.estimatedMinutes) || null, {
+      isPreviousIncomplete: previousIncomplete
+    });
+    elements.entryDialog.close();
+    showToast(previousIncomplete
+      ? "已暫存「之前功課未完成」標記；尚未上傳至雲端。"
+      : "已暫存取消「之前功課未完成」標記；尚未上傳至雲端。");
+    restoreCalendarFocus(focusTarget);
+    return;
+  }
+
+  elements.togglePreviousIncomplete.disabled = true;
+  setStatus(elements.entryStatus, previousIncomplete ? "正在加入之前未完成標記…" : "正在取消之前未完成標記…");
+  try {
+    const common = {
+      p_entry_id: entry.id,
+      p_expected_updated_at: entry.updatedAt,
+      p_previous_incomplete: previousIncomplete
+    };
+    if (state.currentUser.role === "admin") {
+      await callRpc("schedule_admin_set_entry_previous_incomplete", {
+        ...common,
+        p_admin_token: state.currentUser.adminToken,
+        p_student_id: activeStudent().id
+      });
+    } else {
+      await callRpc("schedule_student_set_entry_previous_incomplete", {
+        ...common,
+        p_token: state.currentUser.studentToken
+      });
+    }
+    elements.entryDialog.close();
+    showToast(previousIncomplete
+      ? "這項安排已標記為之前功課未完成。"
+      : "已取消之前功課未完成標記。");
+    await loadWeek(focusTarget);
+  } catch (error) {
+    console.warn("Schedule previous-incomplete update failed", error);
+    if (isConcurrencyError(error)) {
+      elements.entryDialog.close();
+      showToast("這一格已在另一個頁面更新；日程已重新載入。", "error");
+      await loadWeek(focusTarget);
+      return;
+    }
+    setStatus(elements.entryStatus, error.message || "未能更新之前未完成標記，請再試一次。", "error");
+    if (isExpiredSessionError(error)) await logout();
+  } finally {
+    elements.togglePreviousIncomplete.disabled = false;
+  }
+}
+
 async function changeCapacity(date, delta, button) {
   if (state.mutationInFlight || state.massEditMode || ![5, -5].includes(delta)) return;
   button.disabled = true;
@@ -3136,15 +3366,30 @@ async function changeCapacity(date, delta, button) {
   }
 }
 
+function prepareMassEditWeekNavigation() {
+  if (!state.massEditMode) return true;
+  if (
+    state.massEditChanges.size
+    && !window.confirm("目前星期尚有未儲存的 Mass Edit 修改。\n\n按「確定」會放棄這些修改並切換星期；按「取消」可返回後先按「一次儲存全部」。")
+  ) return false;
+  state.weekPayload.entries = cloneScheduleEntries(state.massEditOriginalEntries);
+  state.massEditOriginalEntries = [];
+  state.massEditChanges.clear();
+  clearClipboardSelection({ deactivate: true });
+  state.draggingMassEditGroup = null;
+  setStatus(elements.massEditStatus, "正在切換星期；Mass Edit 會保持開啟。");
+  return true;
+}
+
 async function changeWeek(amount) {
   if (state.mutationInFlight) return;
-  if (!guardMassEditNavigation()) return;
   const next = addDays(parseISODate(state.weekStart), amount);
   const first = firstWeekStart();
   const last = lastWeekStart();
   const clamped = next < first ? first : next > last ? last : next;
   const nextValue = toISODate(clamped);
   if (nextValue === state.weekStart) return;
+  if (!prepareMassEditWeekNavigation()) return;
   state.showUnusedTemporarily = false;
   state.weekStart = nextValue;
   await loadWeek();
@@ -3191,7 +3436,7 @@ function preparePrintSheet() {
         label.textContent = `第 ${entry.slotIndex} 格`;
         const source = document.createElement("span");
         source.className = "print-source";
-        source.textContent = `${entry.source === "admin" ? "老師安排" : "學生安排"}${entry.isCompleted ? " · 已完成" : entry.isInProgress ? " · 進行中" : ""}`;
+        source.textContent = `${entry.source === "admin" ? "老師安排" : "學生安排"}${entry.isCompleted ? " · 已完成" : entry.isInProgress ? " · 進行中" : ""}${entry.isPreviousIncomplete ? " · 之前功課未完成" : ""}`;
         const message = document.createElement("p");
         message.textContent = `${parsedEntry.text}${parsedEntry.resources.length ? `\n功課連結：${parsedEntry.resources.map((resource) => resource.label).join("、")}` : ""}${entry.estimatedMinutes ? `\n預計需時：${formatEstimatedMinutes(entry.estimatedMinutes)}` : ""}`;
         card.append(label, source, message);
@@ -3256,6 +3501,14 @@ function beginClipboardMarquee(event) {
     || clipboardShouldRemainNative(event.target)
     || event.target.closest("a")
   ) return;
+  const selectedDragSlot = event.target.closest("[data-entry-id]");
+  if (
+    selectedDragSlot
+    && state.clipboardSelectedEntryIds.has(selectedDragSlot.dataset.entryId)
+    && !event.metaKey
+    && !event.ctrlKey
+    && !event.shiftKey
+  ) return;
   removeClipboardMarquee();
   const additive = event.metaKey || event.ctrlKey || event.shiftKey;
   const entryById = new Map(state.weekPayload.entries.map((entry) => [entry.id, entry]));
@@ -3273,11 +3526,6 @@ function beginClipboardMarquee(event) {
     element: null,
     selectableSlots
   };
-  try {
-    elements.calendarScroll.setPointerCapture(event.pointerId);
-  } catch {
-    // Pointer capture is an enhancement; selection still works inside the grid.
-  }
 }
 
 function updateClipboardMarquee(event) {
@@ -3292,6 +3540,11 @@ function updateClipboardMarquee(event) {
     marquee.element.className = "clipboard-selection-marquee";
     marquee.element.setAttribute("aria-hidden", "true");
     elements.calendarScroll.append(marquee.element);
+    try {
+      elements.calendarScroll.setPointerCapture(event.pointerId);
+    } catch {
+      // Pointer capture is an enhancement; the window listener still tracks selection.
+    }
     updateSelectionControls();
     updateClipboardControls();
   }
@@ -3321,12 +3574,14 @@ function updateClipboardMarquee(event) {
 function finishClipboardMarquee(event) {
   const marquee = state.clipboardMarquee;
   if (!marquee || event.pointerId !== marquee.pointerId) return;
-  try {
-    elements.calendarScroll.releasePointerCapture(event.pointerId);
-  } catch {
-    // Pointer capture may already have been released.
-  }
   const started = marquee.started;
+  if (started) {
+    try {
+      elements.calendarScroll.releasePointerCapture(event.pointerId);
+    } catch {
+      // Pointer capture may already have been released.
+    }
+  }
   const skippedSpan = marquee.skippedSpan;
   removeClipboardMarquee();
   if (!started) return;
@@ -3454,8 +3709,18 @@ elements.weekGrid.addEventListener("click", (event) => {
   if (slot) {
     const entry = findEntry(slot.dataset.slotDate, Number(slot.dataset.slotIndex));
     if (state.clipboardSelectionMode) {
-      if (entry) toggleClipboardEntrySelection(entry);
-      else showToast("只可選取已有安排的格。", "error");
+      const selectionClick = event.metaKey
+        || event.ctrlKey
+        || event.shiftKey
+        || event.pointerType === "touch"
+        || event.pointerType === "pen";
+      if (!selectionClick) {
+        openEntryDialog(slot.dataset.slotDate, Number(slot.dataset.slotIndex));
+      } else if (entry) {
+        toggleClipboardEntrySelection(entry);
+      } else {
+        showToast("只可選取已有安排的格。", "error");
+      }
       return;
     }
     if (state.moveEntryId) {
@@ -3484,6 +3749,23 @@ elements.weekGrid.addEventListener("dragstart", (event) => {
   const slot = event.target.closest("[data-entry-id]");
   if (!slot) return;
   const entry = findEntryById(slot.dataset.entryId);
+  if (canDragMassEditGroup(entry) && !state.mutationInFlight) {
+    state.draggingEntryId = null;
+    state.draggingMassEditGroup = {
+      anchorEntryId: entry.id,
+      selectedEntryIds: new Set(state.clipboardSelectedEntryIds),
+      plan: null,
+      error: null,
+      targetDate: null,
+      copy: false
+    };
+    state.clipboardSelectedEntryIds.forEach((entryId) => {
+      elements.weekGrid.querySelector(`[data-entry-id="${CSS.escape(entryId)}"]`)?.classList.add("is-group-dragging");
+    });
+    event.dataTransfer.effectAllowed = "copyMove";
+    event.dataTransfer.setData("text/plain", `schedule-group:${entry.id}`);
+    return;
+  }
   if (!canMoveEntry(entry) || state.mutationInFlight) {
     event.preventDefault();
     return;
@@ -3496,6 +3778,37 @@ elements.weekGrid.addEventListener("dragstart", (event) => {
 });
 
 elements.weekGrid.addEventListener("dragover", (event) => {
+  if (state.draggingMassEditGroup && state.massEditMode && !state.mutationInFlight) {
+    const column = event.target.closest("[data-column-date]");
+    if (!column) return;
+    event.preventDefault();
+    clearMassEditGroupDropClasses();
+    state.draggingMassEditGroup.selectedEntryIds.forEach((entryId) => {
+      elements.weekGrid.querySelector(`[data-entry-id="${CSS.escape(entryId)}"]`)?.classList.add("is-group-dragging");
+    });
+    const copy = Boolean(event.altKey);
+    try {
+      const plan = planCurrentMassEditGroupShift(
+        state.draggingMassEditGroup.anchorEntryId,
+        column.dataset.columnDate,
+        copy
+      );
+      state.draggingMassEditGroup.plan = plan;
+      state.draggingMassEditGroup.error = null;
+      state.draggingMassEditGroup.targetDate = column.dataset.columnDate;
+      state.draggingMassEditGroup.copy = copy;
+      event.dataTransfer.dropEffect = copy ? "copy" : "move";
+      column.classList.add("is-group-drop-target");
+    } catch (error) {
+      state.draggingMassEditGroup.plan = null;
+      state.draggingMassEditGroup.error = error;
+      state.draggingMassEditGroup.targetDate = column.dataset.columnDate;
+      state.draggingMassEditGroup.copy = copy;
+      event.dataTransfer.dropEffect = "none";
+      column.classList.add("is-group-drop-blocked");
+    }
+    return;
+  }
   if (!state.draggingEntryId || state.mutationInFlight) return;
   const column = event.target.closest("[data-column-date]");
   const spanDropZone = event.target.closest("[data-span-drop-date]");
@@ -3532,6 +3845,12 @@ elements.weekGrid.addEventListener("dragover", (event) => {
 });
 
 elements.weekGrid.addEventListener("dragleave", (event) => {
+  if (state.draggingMassEditGroup) {
+    const column = event.target.closest("[data-column-date]");
+    if (column && !column.contains(event.relatedTarget)) {
+      column.classList.remove("is-group-drop-target", "is-group-drop-blocked");
+    }
+  }
   const slot = event.target.closest("[data-slot-date]");
   if (slot && !slot.contains(event.relatedTarget)) slot.classList.remove("is-drop-target", "is-swap-target");
   const spanDropZone = event.target.closest("[data-span-drop-date]");
@@ -3542,6 +3861,27 @@ elements.weekGrid.addEventListener("dragleave", (event) => {
 
 elements.weekGrid.addEventListener("drop", (event) => {
   const column = event.target.closest("[data-column-date]");
+  if (state.draggingMassEditGroup && state.massEditMode) {
+    if (!column) return;
+    event.preventDefault();
+    const drag = state.draggingMassEditGroup;
+    clearMassEditGroupDropClasses();
+    state.draggingMassEditGroup = null;
+    if (drag.plan && drag.targetDate === column.dataset.columnDate && drag.copy === Boolean(event.altKey)) {
+      stageMassEditGroupShift(drag.plan);
+    } else {
+      try {
+        stageMassEditGroupShift(planCurrentMassEditGroupShift(
+          drag.anchorEntryId,
+          column.dataset.columnDate,
+          Boolean(event.altKey)
+        ));
+      } catch (error) {
+        showToast(error instanceof ScheduleGroupShiftError ? error.message : "未能整組拖動所選安排。", "error");
+      }
+    }
+    return;
+  }
   const spanDropZone = event.target.closest("[data-span-drop-date]");
   const slot = event.target.closest("[data-slot-date]");
   if ((!slot && !spanDropZone && !column) || !state.draggingEntryId) return;
@@ -3557,6 +3897,8 @@ elements.weekGrid.addEventListener("drop", (event) => {
 
 elements.weekGrid.addEventListener("dragend", () => {
   state.draggingEntryId = null;
+  state.draggingMassEditGroup = null;
+  clearMassEditGroupDropClasses();
   elements.weekGrid.querySelectorAll(".is-dragging, .is-drop-target, .is-swap-target, .is-span-target").forEach((item) => {
     item.classList.remove("is-dragging", "is-drop-target", "is-swap-target", "is-span-target");
   });
@@ -3686,15 +4028,18 @@ elements.closeEntry.addEventListener("click", () => elements.entryDialog.close()
 elements.deleteEntry.addEventListener("click", () => elements.deleteDialog.showModal());
 elements.toggleComplete.addEventListener("click", toggleEntryCompletion);
 elements.toggleProgress.addEventListener("click", toggleEntryProgress);
+elements.togglePreviousIncomplete.addEventListener("click", toggleEntryPreviousIncomplete);
 elements.cancelDelete.addEventListener("click", () => elements.deleteDialog.close());
 elements.confirmDelete.addEventListener("click", deleteEntry);
 elements.previousWeek.addEventListener("click", () => changeWeek(-7));
 elements.nextWeek.addEventListener("click", () => changeWeek(7));
 elements.currentWeek.addEventListener("click", async () => {
   if (state.mutationInFlight) return;
-  if (!guardMassEditNavigation()) return;
+  const current = defaultWeekStart();
+  if (state.weekStart === current) return;
+  if (!prepareMassEditWeekNavigation()) return;
   state.showUnusedTemporarily = false;
-  state.weekStart = defaultWeekStart();
+  state.weekStart = current;
   await loadWeek();
 });
 elements.exportPdf.addEventListener("click", exportPdf);

@@ -30,6 +30,7 @@ const MAX_ANSWER_CHARACTERS = 100000;
 const MAX_ANSWER_BYTES = 400000;
 const MAX_OCCURRENCES_PER_BATCH = 50;
 const MAX_OCCURRENCES_PER_DOCUMENT_RESPONSE = 2000;
+const MAX_GRAMMAR_HISTORY_PAGE_SIZE = 100;
 const MAX_PAGE_SIZE = 100;
 const MAX_ADMIN_PAGE_SIZE = 100;
 const decoder = new TextDecoder("utf-8", { fatal: true });
@@ -160,12 +161,18 @@ async function route(request, env) {
   if (url.pathname === "/v1/grammar-problems" && request.method === "GET") {
     return getGrammarProblems(request, env);
   }
+  if (url.pathname === "/v1/grammar-problem-occurrences" && request.method === "GET") {
+    return listGrammarProblemOccurrences(request, env, url);
+  }
 
   if (url.pathname === "/v1/admin/students" && request.method === "GET") {
     return listAdminStudents(request, env);
   }
   if (url.pathname === "/v1/admin/submissions" && request.method === "GET") {
     return listAdminSubmissions(request, env, url);
+  }
+  if (url.pathname === "/v1/admin/explanation-review" && request.method === "GET") {
+    return listAdminExplanationReview(request, env, url);
   }
   const adminSubmissionMatch = url.pathname.match(/^\/v1\/admin\/submissions\/([0-9a-f-]{36})$/i);
   if (adminSubmissionMatch && request.method === "GET") {
@@ -975,6 +982,16 @@ function boundedOccurrenceText(value, label, maximumCharacters, allowEmpty = fal
   return normalized;
 }
 
+function correctedSentenceFromParts(sentenceText, originalText, suggestedText) {
+  const sentence = String(sentenceText || "");
+  const original = String(originalText || "");
+  const suggested = String(suggestedText || "");
+  if (!original) return sentence;
+  const index = sentence.indexOf(original);
+  if (index < 0) return sentence;
+  return `${sentence.slice(0, index)}${suggested}${sentence.slice(index + original.length)}`;
+}
+
 function normalizeOccurrenceBatch(payload) {
   if (!hasExactKeys(payload, ["documentId", "occurrences"])) {
     throw new HttpError(400, "INVALID_GRAMMAR_BATCH", "Grammar batch has an invalid shape");
@@ -999,10 +1016,15 @@ function normalizeOccurrenceBatch(payload) {
   const fingerprints = new Set();
   const detectedAt = new Date().toISOString();
   const occurrences = payload.occurrences.map((item, index) => {
-    if (!hasExactKeys(item, [
+    const requiredKeys = [
       "id", "fingerprint", "ruleId", "title", "message",
       "originalText", "suggestedText", "sentenceText", "detectedAt"
-    ])) {
+    ];
+    const allowedKeys = new Set([...requiredKeys, "correctedSentence"]);
+    if (
+      !hasOnlyKeys(item, allowedKeys)
+      || requiredKeys.some(key => !Object.prototype.hasOwnProperty.call(item, key))
+    ) {
       throw new HttpError(400, "INVALID_GRAMMAR_BATCH", `occurrences[${index}] has an invalid shape`);
     }
     const id = String(item.id || "").toLowerCase();
@@ -1039,6 +1061,18 @@ function normalizeOccurrenceBatch(payload) {
     if (!originalText && !suggestedText) {
       throw new HttpError(400, "INVALID_GRAMMAR_BATCH", "An occurrence needs original or suggested text");
     }
+    const sentenceText = boundedOccurrenceText(
+      item.sentenceText,
+      `occurrences[${index}].sentenceText`,
+      10000
+    );
+    const correctedSentence = Object.prototype.hasOwnProperty.call(item, "correctedSentence")
+      ? boundedOccurrenceText(
+        item.correctedSentence,
+        `occurrences[${index}].correctedSentence`,
+        10000
+      )
+      : correctedSentenceFromParts(sentenceText, originalText, suggestedText);
     validateClientTimestamp(item.detectedAt, `occurrences[${index}].detectedAt`);
     return {
       id,
@@ -1048,7 +1082,8 @@ function normalizeOccurrenceBatch(payload) {
       message: boundedOccurrenceText(item.message, `occurrences[${index}].message`, 2000),
       originalText,
       suggestedText,
-      sentenceText: boundedOccurrenceText(item.sentenceText, `occurrences[${index}].sentenceText`, 10000),
+      sentenceText,
+      correctedSentence,
       detectedAt
     };
   });
@@ -1057,18 +1092,36 @@ function normalizeOccurrenceBatch(payload) {
 }
 
 function occurrenceResponse(row) {
-  return {
+  const sentenceText = String(row.sentence_text || "");
+  const originalText = String(row.original_text || "");
+  const suggestedText = String(row.suggested_text || "");
+  const response = {
     id: String(row.id || ""),
     documentId: String(row.document_id || ""),
     fingerprint: String(row.fingerprint || ""),
     ruleId: String(row.rule_id || ""),
     title: String(row.title || ""),
     message: String(row.message || ""),
-    originalText: String(row.original_text || ""),
-    suggestedText: String(row.suggested_text || ""),
-    sentenceText: String(row.sentence_text || ""),
+    originalText,
+    suggestedText,
+    sentenceText,
+    correctedSentence: String(row.corrected_sentence || "")
+      || correctedSentenceFromParts(sentenceText, originalText, suggestedText),
     detectedAt: String(row.detected_at || "")
   };
+  if (Object.prototype.hasOwnProperty.call(row, "submission_id")) {
+    response.submissionId = row.submission_id ? String(row.submission_id) : null;
+    response.sourceTopic = row.source_topic ? String(row.source_topic) : null;
+    response.sourceSubmittedAt = row.source_submitted_at
+      ? String(row.source_submitted_at)
+      : null;
+    response.sourceDeletedAt = row.source_deleted_at ? String(row.source_deleted_at) : null;
+  }
+  if (Object.prototype.hasOwnProperty.call(row, "student_id")) {
+    response.studentId = String(row.student_id || "");
+    response.studentName = String(row.student_name || "");
+  }
+  return response;
 }
 
 async function postOccurrenceBatch(request, env) {
@@ -1116,6 +1169,42 @@ async function getGrammarProblems(request, env) {
   }, 200, request, env);
 }
 
+function grammarRuleParameter(url) {
+  const ruleId = String(url.searchParams.get("ruleId") || "");
+  if (
+    !ruleId
+    || ruleId.length > 120
+    || utf8Length(ruleId) > 480
+    || CONTROL_RE.test(ruleId)
+  ) {
+    throw new HttpError(400, "INVALID_GRAMMAR_RULE", "ruleId is invalid");
+  }
+  return ruleId;
+}
+
+async function listGrammarProblemOccurrences(request, env, url) {
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  const ruleId = grammarRuleParameter(url);
+  const { page, pageSize, offset } = pageParameters(url, MAX_GRAMMAR_HISTORY_PAGE_SIZE);
+  const rows = await rpc(env, "writing_submission_problem_occurrences", {
+    p_student_id: student.id,
+    p_rule_id: ruleId,
+    p_limit: pageSize + 1,
+    p_offset: offset
+  });
+  if (!Array.isArray(rows)) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Grammar history returned an invalid response");
+  }
+  const hasMore = rows.length > pageSize;
+  return json({
+    grammarOccurrences: rows.slice(0, pageSize).map(occurrenceResponse),
+    page,
+    pageSize,
+    hasMore
+  }, 200, request, env);
+}
+
 async function listAdminStudents(request, env) {
   const admin = await authenticateAdmin(request, env);
   if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
@@ -1160,6 +1249,27 @@ async function listAdminSubmissions(request, env, url) {
   const hasMore = rows.length > pageSize;
   return json({
     submissions: rows.slice(0, pageSize).map(submissionResponse),
+    page,
+    pageSize,
+    hasMore
+  }, 200, request, env);
+}
+
+async function listAdminExplanationReview(request, env, url) {
+  const admin = await authenticateAdmin(request, env);
+  if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
+  const { page, pageSize, offset } = pageParameters(url, MAX_ADMIN_PAGE_SIZE);
+  const rows = await rpc(env, "writing_submission_admin_explanation_review_queue", {
+    p_admin_token: admin.token,
+    p_limit: pageSize + 1,
+    p_offset: offset
+  });
+  if (!Array.isArray(rows)) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Explanation review queue returned an invalid response");
+  }
+  const hasMore = rows.length > pageSize;
+  return json({
+    grammarOccurrences: rows.slice(0, pageSize).map(occurrenceResponse),
     page,
     pageSize,
     hasMore

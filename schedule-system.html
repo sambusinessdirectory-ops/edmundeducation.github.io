@@ -786,6 +786,13 @@
     .day-column.is-span-target {
       box-shadow: inset 0 0 0 4px rgba(78, 188, 240, .72), 0 12px 30px rgba(54, 31, 18, .09);
     }
+    .day-column.is-group-drop-target {
+      box-shadow: inset 0 0 0 4px rgba(61, 134, 82, .72), 0 12px 30px rgba(54, 31, 18, .09);
+      background: rgba(231, 248, 234, .92);
+    }
+    .day-column.is-group-drop-blocked {
+      box-shadow: inset 0 0 0 4px rgba(185, 76, 68, .62), 0 12px 30px rgba(54, 31, 18, .09);
+    }
 
     .span-drop-zone {
       min-height: 42px;
@@ -877,9 +884,10 @@
 
     .slot-topline { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 5px; }
     .slot-number { display: block; color: var(--muted); font-size: 10px; font-weight: 800; letter-spacing: .08em; }
-    .completion-badge, .progress-badge, .span-badge, .draft-badge { border-radius: 999px; padding: 2px 7px; font-size: 10px; font-weight: 900; letter-spacing: .04em; }
+    .completion-badge, .progress-badge, .previous-incomplete-badge, .span-badge, .draft-badge { border-radius: 999px; padding: 2px 7px; font-size: 10px; font-weight: 900; letter-spacing: .04em; }
     .completion-badge { color: #1d6d3a; background: rgba(220, 245, 226, .96); }
     .progress-badge { color: #745104; background: rgba(255, 237, 159, .98); }
+    .previous-incomplete-badge { color: #8b302e; background: rgba(252, 218, 216, .98); }
     .span-badge { color: #1a6487; background: rgba(218, 244, 255, .98); }
     .draft-badge { color: #5d467d; background: rgba(237, 225, 255, .98); }
     .slot-placeholder { color: #6f5a4e; font-size: 13px; }
@@ -1046,6 +1054,8 @@
     .complete-button[data-completed="true"] { color: #fff; background: #397d50; }
     .progress-button { min-height: 42px; border: 1px solid rgba(183, 132, 13, .35); border-radius: 14px; padding: 10px 14px; color: #745104; background: #fff3bf; cursor: pointer; font-weight: 850; }
     .progress-button[data-in-progress="true"] { color: #fff; background: #ba8618; }
+    .previous-incomplete-button { min-height: 42px; border: 1px solid rgba(175, 67, 62, .3); border-radius: 14px; padding: 10px 14px; color: #8b302e; background: #fce4e2; cursor: pointer; font-weight: 850; }
+    .previous-incomplete-button[data-previous-incomplete="true"] { color: #fff; background: #b85d58; }
 
     .progress-dashboard { margin-top: 20px; padding: clamp(22px, 3vw, 34px); }
     .progress-heading { margin-bottom: 16px; }
@@ -1357,6 +1367,7 @@
             <strong data-mass-edit-count aria-live="polite">尚未有待儲存修改</strong>
             <span>逐格新增、修改或刪除；完成後一次儲存全部，期間不會重新載入日程。</span>
             <span class="mass-edit-steps">1 選取／框選 → 2 複製所選 → 3 切換學生 → 4 貼上 → 5 一次儲存全部</span>
+            <span class="mass-edit-steps">整組移動：框選後，直接把任何一個藍框項目拖到另一日期欄；按住 Option／Alt 可整組複製。</span>
             <span class="clipboard-selection-count" data-clipboard-selection-count aria-live="polite">尚未選取複製項目</span>
           </div>
           <div class="mass-edit-buttons">
@@ -1469,6 +1480,7 @@
       <p class="form-status" data-entry-status role="status" aria-live="polite"></p>
       <div class="dialog-actions">
         <button class="danger-button" type="button" data-delete-entry hidden>刪除</button>
+        <button class="previous-incomplete-button" type="button" data-toggle-previous-incomplete hidden data-previous-incomplete="false" aria-pressed="false">標記之前功課未完成</button>
         <button class="progress-button" type="button" data-toggle-progress hidden data-in-progress="false" aria-pressed="false">標記進行中</button>
         <button class="complete-button" type="button" data-toggle-complete hidden data-completed="false" aria-pressed="false">標記完成</button>
         <button class="secondary-button" type="button" data-close-entry>取消</button>
@@ -1506,6 +1518,6 @@
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
   <script src="shared-system-nav.js?v=20260803-1"></script>
-  <script type="module" src="schedule-system.js?v=20260803-1"></script>
+  <script type="module" src="schedule-system.js?v=20260803-2"></script>
 </body>
 </html>

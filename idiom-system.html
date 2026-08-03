@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="idiom-system.css?v=20260727-3">
+  <link rel="stylesheet" href="idiom-system.css?v=20260803-search1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260722-1">
 </head>
 <body>
@@ -194,17 +194,20 @@
       </section>
 
       <section class="lesson-search-panel glass-panel" aria-labelledby="idiom-search-heading">
-        <div>
-          <p class="eyebrow">SEARCH ALL LESSON CONTENT</p>
-          <h2 id="idiom-search-heading">搜尋慣用語教材</h2>
+        <div class="lesson-search-heading">
+          <h2 id="idiom-search-heading">搜尋慣用語</h2>
+          <p>輸入中英文關鍵字，即時搜尋標題、例句、學習內容、重要規則及練習題。</p>
         </div>
         <form class="lesson-search-form" data-lesson-search-form role="search">
-          <label class="sr-only" for="idiom-lesson-search">搜尋標題、例句、規則或練習題</label>
-          <input id="idiom-lesson-search" type="search" data-lesson-search-input autocomplete="off" placeholder="輸入標題、例句、規則或練習題關鍵字">
-          <button type="submit">搜尋</button>
+          <label class="lesson-search-label" for="idiom-lesson-search">搜尋關鍵字</label>
+          <div class="lesson-search-controls">
+            <input id="idiom-lesson-search" type="search" data-lesson-search-input autocomplete="off" spellcheck="false" aria-describedby="idiom-search-summary" aria-controls="idiom-search-results" placeholder="例如：帶頭、start、discussion">
+            <button class="lesson-search-submit" type="submit">搜尋</button>
+            <button class="lesson-search-clear" type="button" data-clear-lesson-search hidden>清除</button>
+          </div>
         </form>
-        <p class="lesson-search-summary" data-lesson-search-summary>可搜尋全部慣用語的標題、八個學習頁面及練習題。</p>
-        <div class="lesson-search-results" data-lesson-search-results hidden aria-live="polite"></div>
+        <p class="lesson-search-summary" id="idiom-search-summary" data-lesson-search-summary role="status">尚未輸入關鍵字。可搜尋全部慣用語的八個學習頁面及練習題。</p>
+        <div class="lesson-search-results" id="idiom-search-results" data-lesson-search-results hidden aria-live="polite"></div>
       </section>
 
       <section class="lesson-choice-grid" data-lesson-choice-grid aria-label="慣用語選擇"></section>
@@ -315,6 +318,6 @@
   <script src="idiom-system-config.js"></script>
   <script src="idiom-system-data.js?v=20260727-2"></script>
   <script src="shared-system-nav.js?v=20260803-1"></script>
-  <script type="module" src="idiom-system.js?v=20260727-2"></script>
+  <script type="module" src="idiom-system.js?v=20260803-search1"></script>
 </body>
 </html>

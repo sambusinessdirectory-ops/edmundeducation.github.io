@@ -4,10 +4,11 @@ import {
   completedWritingSegmentsOverlappingRange,
   countEnglishWords,
   formatSubmissionDate,
+  grammarOccurrenceIdentity,
   insertedRange,
   isLiveCompletedWritingSegment,
   newlyCompletedWritingSegments
-} from "./writing-submission-core.js?v=20260801-loop1";
+} from "./writing-submission-core.js?v=20260803-grammar-history1";
 import {
   classifyRemoteGrammarFailure,
   hasWritingGrammarIssuesForSentence,
@@ -40,6 +41,7 @@ const elements = {
   submissionsButton: document.querySelector("[data-submissions-button]"),
   grammarLogButton: document.querySelector("[data-grammar-log-button]"),
   adminButton: document.querySelector("[data-admin-button]"),
+  adminReviewButton: document.querySelector("[data-admin-review-button]"),
   logout: document.querySelector("[data-logout]"),
   loginForm: document.querySelector("[data-login-form]"),
   loginButton: document.querySelector("[data-login-button]"),
@@ -86,6 +88,10 @@ const elements = {
   adminCount: document.querySelector("[data-admin-count]"),
   adminList: document.querySelector("[data-admin-list]"),
   adminDetail: document.querySelector("[data-admin-detail]"),
+  refreshAdminReview: document.querySelector("[data-refresh-admin-review]"),
+  adminReviewCount: document.querySelector("[data-admin-review-count]"),
+  adminReviewList: document.querySelector("[data-admin-review-list]"),
+  adminReviewMore: document.querySelector("[data-admin-review-more]"),
   toast: document.querySelector("[data-toast]")
 };
 
@@ -138,7 +144,10 @@ const state = {
   selectedSubmissionId: "",
   grammarProblems: [],
   adminSubmissions: [],
-  selectedAdminSubmissionId: ""
+  selectedAdminSubmissionId: "",
+  adminExplanationReviews: [],
+  adminExplanationReviewPage: 0,
+  adminExplanationReviewHasMore: false
 };
 
 function createElement(tag, className = "", text = "") {
@@ -238,6 +247,7 @@ function showView(name) {
   elements.submissionsButton.hidden = !loggedIn || admin || name === "submissions";
   elements.grammarLogButton.hidden = !loggedIn || admin || name === "grammar-log";
   elements.adminButton.hidden = !loggedIn || !admin || name === "admin";
+  elements.adminReviewButton.hidden = !loggedIn || !admin || name === "admin-review";
   if (loggedIn) {
     elements.userPill.textContent = admin
       ? `${state.user.name} · 管理員`
@@ -385,7 +395,11 @@ function clearSession() {
   state.reportedFingerprints.clear();
   state.submissions = [];
   state.writingProgress = [];
+  state.grammarProblems = [];
   state.adminSubmissions = [];
+  state.adminExplanationReviews = [];
+  state.adminExplanationReviewPage = 0;
+  state.adminExplanationReviewHasMore = false;
   state.selectedTopicResource = null;
   state.draftDurationSeconds = 0;
   state.submissionDurationSeconds = null;
@@ -1099,10 +1113,25 @@ async function decorateIssue(rawIssue, segment, context) {
   const start = Math.max(0, Math.min(segment.text.length, Number.isFinite(rawStart) ? rawStart : 0));
   const end = Math.max(start, Math.min(segment.text.length, Number.isFinite(rawEnd) ? rawEnd : start));
   const ruleId = String(rawIssue.ruleId || "UnknownRule").slice(0, 120) || "UnknownRule";
-  // Stage one records each unique local rule once per article. This identity
-  // survives sentence edits, offset changes and accepted suggestions.
   const engineIdentity = `${rawIssue.engine?.name || "harper.js"}@${rawIssue.engine?.version || HARPER_VERSION}`;
-  const fingerprint = await sha256Hex([engineIdentity, context.documentId, ruleId].join("|"));
+  const originalText = String(rawIssue.originalText || segment.text.slice(start, end)).slice(0, 2000);
+  const suggestedText = String(rawIssue.suggestedText || "").slice(0, 2000);
+  const correctedSentence = String(rawIssue.correctedSentence || segment.text).slice(0, 10000);
+  // The identity represents one concrete card, not merely one rule. An
+  // unchanged rescan remains idempotent, while two errors of the same rule in
+  // the same composition retain separate records.
+  const fingerprint = await sha256Hex(grammarOccurrenceIdentity({
+    engineIdentity,
+    documentId: context.documentId,
+    ruleId,
+    segmentOrdinal: segment.ordinal,
+    sentenceText: segment.text,
+    start,
+    end,
+    originalText,
+    suggestedText,
+    correctedSentence
+  }));
   return {
     ...rawIssue,
     id: `${fingerprint}:${segment.ordinal}:${start}:${end}`,
@@ -1110,9 +1139,9 @@ async function decorateIssue(rawIssue, segment, context) {
     ruleId,
     title: String(rawIssue.title || rawIssue.category || ruleId).slice(0, 200),
     message: String(rawIssue.message || "請檢查這部分的文法。").slice(0, 2000),
-    originalText: String(rawIssue.originalText || segment.text.slice(start, end)).slice(0, 2000),
-    suggestedText: String(rawIssue.suggestedText || "").slice(0, 2000),
-    correctedSentence: String(rawIssue.correctedSentence || segment.text),
+    originalText,
+    suggestedText,
+    correctedSentence,
     start,
     end,
     documentId: context.documentId,
@@ -1152,6 +1181,7 @@ function queueOccurrence(issue) {
       originalText: issue.originalText,
       suggestedText: issue.suggestedText,
       sentenceText: issue.sentenceText,
+      correctedSentence: issue.correctedSentence,
       detectedAt: new Date().toISOString()
     }
   });
@@ -2036,6 +2066,12 @@ async function openSubmissions() {
   await Promise.all([loadSubmissions(), loadWritingProgress()]);
 }
 
+async function openGrammarSourceSubmission(id) {
+  if (!UUID_RE.test(String(id || ""))) return;
+  showView("submissions");
+  await Promise.all([loadSubmissions({ selectId: id }), loadWritingProgress()]);
+}
+
 async function deleteStudentSubmission(id) {
   if (!UUID_RE.test(String(id || ""))) return;
   const submission = state.submissions.find(item => item.id === id);
@@ -2115,8 +2151,170 @@ function normalizeGrammarProblem(value) {
     message: String(value?.message || value?.lastMessage || value?.last_message || ""),
     count: Number(value?.count ?? value?.occurrenceCount ?? value?.occurrence_count ?? 0),
     firstSeenAt: String(value?.firstSeenAt || value?.first_seen_at || ""),
-    lastSeenAt: String(value?.lastSeenAt || value?.last_seen_at || "")
+    lastSeenAt: String(value?.lastSeenAt || value?.last_seen_at || ""),
+    occurrences: [],
+    occurrencePage: 0,
+    occurrenceHasMore: false,
+    occurrencesLoaded: false,
+    occurrencesLoading: false,
+    open: false
   };
+}
+
+function correctedHistorySentence(value) {
+  const explicit = String(value?.correctedSentence || value?.corrected_sentence || "");
+  if (explicit) return explicit;
+  const sentence = String(value?.sentenceText || value?.sentence_text || "");
+  const original = String(value?.originalText || value?.original_text || "");
+  const suggested = String(value?.suggestedText || value?.suggested_text || "");
+  const index = original ? sentence.indexOf(original) : -1;
+  if (index < 0) return sentence;
+  return `${sentence.slice(0, index)}${suggested}${sentence.slice(index + original.length)}`;
+}
+
+function normalizeGrammarOccurrence(value) {
+  return {
+    id: String(value?.id || ""),
+    documentId: String(value?.documentId || value?.document_id || ""),
+    submissionId: String(value?.submissionId || value?.submission_id || ""),
+    ruleId: String(value?.ruleId || value?.rule_id || "UnknownRule"),
+    title: String(value?.title || value?.ruleTitle || value?.rule_title || "文法問題"),
+    message: String(value?.message || ""),
+    originalText: String(value?.originalText || value?.original_text || ""),
+    suggestedText: String(value?.suggestedText || value?.suggested_text || ""),
+    sentenceText: String(value?.sentenceText || value?.sentence_text || ""),
+    correctedSentence: correctedHistorySentence(value),
+    detectedAt: String(value?.detectedAt || value?.detected_at || ""),
+    sourceTopic: String(value?.sourceTopic || value?.source_topic || ""),
+    sourceSubmittedAt: String(value?.sourceSubmittedAt || value?.source_submitted_at || ""),
+    sourceDeletedAt: String(value?.sourceDeletedAt || value?.source_deleted_at || ""),
+    studentId: String(value?.studentId || value?.student_id || ""),
+    studentName: String(value?.studentName || value?.student_name || "")
+  };
+}
+
+function appendHighlightedOccurrenceSentence(container, sentence, fragment) {
+  const fullSentence = String(sentence || "");
+  const issueFragment = String(fragment || "");
+  const index = issueFragment ? fullSentence.indexOf(issueFragment) : -1;
+  if (index < 0) {
+    container.textContent = fullSentence;
+    return;
+  }
+  container.append(
+    document.createTextNode(fullSentence.slice(0, index)),
+    createElement("mark", "", issueFragment),
+    document.createTextNode(fullSentence.slice(index + issueFragment.length))
+  );
+}
+
+function createGrammarHistoryCard(occurrence, { admin = false } = {}) {
+  const card = createElement("article", "grammar-history-card");
+  const head = createElement("header", "grammar-history-card-head");
+  head.append(
+    createElement("strong", "", occurrence.title),
+    createElement("time", "", formatSubmissionDate(occurrence.detectedAt))
+  );
+  if (admin && occurrence.studentName) {
+    head.append(createElement("span", "grammar-history-student", occurrence.studentName));
+  }
+  if (admin && occurrence.ruleId) {
+    head.append(createElement("span", "grammar-history-rule", occurrence.ruleId));
+  }
+
+  const original = createElement("p", "grammar-history-original");
+  appendHighlightedOccurrenceSentence(original, occurrence.sentenceText, occurrence.originalText);
+
+  const replacement = createElement("div", "grammar-history-replacement");
+  replacement.append(
+    createElement("small", "", "此項局部修正後（句內仍可能有其他問題）"),
+    createElement("p", "", occurrence.correctedSentence || occurrence.sentenceText)
+  );
+
+  const explanation = createElement("div", "grammar-history-explanation");
+  explanation.append(
+    createElement("small", "", "Explanation"),
+    createElement("p", "", occurrence.message || "（未有解釋）")
+  );
+
+  const source = createElement("footer", "grammar-history-source");
+  const sourceLabel = occurrence.sourceTopic
+    ? `來源文章：${occurrence.sourceTopic}${occurrence.sourceDeletedAt ? "（已從我的文章刪除）" : ""}`
+    : "來源：尚未提交的寫作草稿";
+  const sourceMeta = createElement("span", "", occurrence.sourceSubmittedAt
+    ? `${sourceLabel} · ${formatSubmissionDate(occurrence.sourceSubmittedAt)}`
+    : sourceLabel);
+  source.append(sourceMeta);
+  if (occurrence.submissionId && (admin || !occurrence.sourceDeletedAt)) {
+    const sourceButton = createElement("button", "grammar-history-source-button", "開啟來源文章");
+    sourceButton.type = "button";
+    if (admin) sourceButton.dataset.adminGrammarSourceSubmission = occurrence.submissionId;
+    else sourceButton.dataset.grammarSourceSubmission = occurrence.submissionId;
+    source.append(sourceButton);
+  }
+
+  card.append(head, original, replacement, explanation, source);
+  return card;
+}
+
+function grammarProblemOccurrenceContainer(index) {
+  return document.querySelector(`[data-grammar-problem-occurrences="${index}"]`);
+}
+
+function renderGrammarProblemOccurrences(problem, index) {
+  const container = grammarProblemOccurrenceContainer(index);
+  if (!container) return;
+  if (problem.occurrencesLoading && !problem.occurrences.length) {
+    container.replaceChildren(loadingState("正在載入每次問題的完整記錄…"));
+    return;
+  }
+  if (!problem.occurrences.length) {
+    container.replaceChildren(emptyState("這個舊有分類暫時只有總數，未有可顯示的完整句子記錄。"));
+    return;
+  }
+  const fragment = document.createDocumentFragment();
+  for (const occurrence of problem.occurrences) {
+    fragment.append(createGrammarHistoryCard(occurrence));
+  }
+  if (problem.occurrenceHasMore) {
+    const more = createElement("button", "secondary-button grammar-history-more", "顯示更多記錄");
+    more.type = "button";
+    more.dataset.loadGrammarProblem = String(index);
+    more.disabled = problem.occurrencesLoading;
+    fragment.append(more);
+  }
+  container.replaceChildren(fragment);
+}
+
+async function loadGrammarProblemOccurrences(index, { reset = false } = {}) {
+  const problem = state.grammarProblems[index];
+  if (!problem || problem.occurrencesLoading) return;
+  problem.occurrencesLoading = true;
+  if (reset) {
+    problem.occurrences = [];
+    problem.occurrencePage = 0;
+    problem.occurrenceHasMore = false;
+  }
+  renderGrammarProblemOccurrences(problem, index);
+  try {
+    const page = problem.occurrencePage + 1;
+    const query = new URLSearchParams({
+      ruleId: problem.ruleId,
+      page: String(page),
+      pageSize: "25"
+    });
+    const payload = await apiJson(`/v1/grammar-problem-occurrences?${query}`);
+    const source = Array.isArray(payload) ? payload : payload?.grammarOccurrences;
+    const next = Array.isArray(source) ? source.map(normalizeGrammarOccurrence) : [];
+    const known = new Set(problem.occurrences.map(item => item.id));
+    problem.occurrences.push(...next.filter(item => item.id && !known.has(item.id)));
+    problem.occurrencePage = page;
+    problem.occurrenceHasMore = Boolean(payload?.hasMore);
+    problem.occurrencesLoaded = true;
+  } finally {
+    problem.occurrencesLoading = false;
+    renderGrammarProblemOccurrences(problem, index);
+  }
 }
 
 function renderGrammarSummary() {
@@ -2128,17 +2326,27 @@ function renderGrammarSummary() {
     return;
   }
   const fragment = document.createDocumentFragment();
-  for (const problem of state.grammarProblems) {
-    const row = createElement("article", "grammar-summary-row");
-    row.append(
+  state.grammarProblems.forEach((problem, index) => {
+    const row = createElement("details", "grammar-summary-row");
+    row.dataset.grammarProblemIndex = String(index);
+    row.open = problem.open;
+    const summary = createElement("summary", "grammar-summary-head");
+    const copy = createElement("span", "grammar-summary-copy");
+    copy.append(
       createElement("h3", "", problem.title),
       createElement("p", "", problem.message || problem.ruleId),
-      createElement("strong", "", `${problem.count} 次`),
       createElement("small", "", `規則：${problem.ruleId} · 最近：${formatSubmissionDate(problem.lastSeenAt)}`)
     );
+    summary.append(copy, createElement("strong", "", `${problem.count} 次`));
+    const occurrences = createElement("div", "grammar-history-list");
+    occurrences.dataset.grammarProblemOccurrences = String(index);
+    row.append(summary, occurrences);
     fragment.append(row);
-  }
+  });
   elements.grammarSummaryList.replaceChildren(fragment);
+  state.grammarProblems.forEach((problem, index) => {
+    if (problem.open) renderGrammarProblemOccurrences(problem, index);
+  });
 }
 
 async function openGrammarLog() {
@@ -2203,6 +2411,63 @@ async function openAdminDashboard() {
   elements.adminList.replaceChildren(loadingState("正在載入學生文章…"));
   state.adminSubmissions = await fetchAllSubmissionPages("/v1/admin/submissions", { maximumPages: 100 });
   renderAdminSubmissions();
+}
+
+async function openAdminGrammarSourceSubmission(id) {
+  if (!UUID_RE.test(String(id || ""))) return;
+  if (!state.adminSubmissions.length) {
+    await openAdminDashboard();
+  } else {
+    showView("admin");
+    renderAdminSubmissions();
+  }
+  await openAdminSubmission(id);
+}
+
+function renderAdminExplanationReviews() {
+  elements.adminReviewCount.textContent = state.adminExplanationReviewHasMore
+    ? `${state.adminExplanationReviews.length}+`
+    : String(state.adminExplanationReviews.length);
+  elements.adminReviewMore.hidden = !state.adminExplanationReviewHasMore;
+  if (!state.adminExplanationReviews.length) {
+    elements.adminReviewList.replaceChildren(emptyState("目前沒有使用通用說明、需要補充專屬解釋的記錄。"));
+    return;
+  }
+  const fragment = document.createDocumentFragment();
+  for (const occurrence of state.adminExplanationReviews) {
+    fragment.append(createGrammarHistoryCard(occurrence, { admin: true }));
+  }
+  elements.adminReviewList.replaceChildren(fragment);
+}
+
+async function loadAdminExplanationReviews({ reset = false } = {}) {
+  if (reset) {
+    state.adminExplanationReviews = [];
+    state.adminExplanationReviewPage = 0;
+    state.adminExplanationReviewHasMore = false;
+  }
+  const page = state.adminExplanationReviewPage + 1;
+  elements.adminReviewMore.disabled = true;
+  if (!state.adminExplanationReviews.length) {
+    elements.adminReviewList.replaceChildren(loadingState("正在整理待補解釋的實際句子…"));
+  }
+  try {
+    const payload = await apiJson(`/v1/admin/explanation-review?page=${page}&pageSize=50`);
+    const source = Array.isArray(payload) ? payload : payload?.grammarOccurrences;
+    const next = Array.isArray(source) ? source.map(normalizeGrammarOccurrence) : [];
+    const known = new Set(state.adminExplanationReviews.map(item => item.id));
+    state.adminExplanationReviews.push(...next.filter(item => item.id && !known.has(item.id)));
+    state.adminExplanationReviewPage = page;
+    state.adminExplanationReviewHasMore = Boolean(payload?.hasMore);
+    renderAdminExplanationReviews();
+  } finally {
+    elements.adminReviewMore.disabled = false;
+  }
+}
+
+async function openAdminExplanationReview() {
+  showView("admin-review");
+  await loadAdminExplanationReviews({ reset: true });
 }
 
 async function handleLogin(event) {
@@ -2287,10 +2552,13 @@ function bindEvents() {
   elements.submissionsButton.addEventListener("click", () => openSubmissions().catch(handleViewError));
   elements.grammarLogButton.addEventListener("click", () => openGrammarLog().catch(handleViewError));
   elements.adminButton.addEventListener("click", () => openAdminDashboard().catch(handleViewError));
+  elements.adminReviewButton.addEventListener("click", () => openAdminExplanationReview().catch(handleViewError));
   elements.newWriting.addEventListener("click", () => startNewDraft());
   elements.refreshSubmissions.addEventListener("click", () => loadSubmissions().catch(handleViewError));
   elements.refreshWritingProgress.addEventListener("click", () => loadWritingProgress().catch(handleViewError));
   elements.refreshGrammarLog.addEventListener("click", () => openGrammarLog().catch(handleViewError));
+  elements.refreshAdminReview.addEventListener("click", () => openAdminExplanationReview().catch(handleViewError));
+  elements.adminReviewMore.addEventListener("click", () => loadAdminExplanationReviews().catch(handleViewError));
   elements.writingForm.addEventListener("submit", submitWriting);
   elements.topicInput.addEventListener("input", () => {
     markWritingActivity();
@@ -2308,6 +2576,17 @@ function bindEvents() {
   elements.writingInput.addEventListener("focus", markWritingActivity);
   elements.topicInput.addEventListener("focus", markWritingActivity);
   elements.adminSearch.addEventListener("input", renderAdminSubmissions);
+  document.addEventListener("toggle", (event) => {
+    const details = event.target.closest?.("[data-grammar-problem-index]");
+    if (!details) return;
+    const index = Number(details.dataset.grammarProblemIndex);
+    const problem = state.grammarProblems[index];
+    if (!problem) return;
+    problem.open = details.open;
+    if (details.open && !problem.occurrencesLoaded) {
+      loadGrammarProblemOccurrences(index, { reset: true }).catch(handleViewError);
+    }
+  }, true);
   document.addEventListener("click", (event) => {
     const apply = event.target.closest("[data-apply-issue]");
     if (apply) return applyGrammarIssue(apply.dataset.applyIssue);
@@ -2327,6 +2606,18 @@ function bindEvents() {
     }
     const adminSubmission = event.target.closest("[data-admin-submission-id]");
     if (adminSubmission) return openAdminSubmission(adminSubmission.dataset.adminSubmissionId);
+    const moreGrammar = event.target.closest("[data-load-grammar-problem]");
+    if (moreGrammar) {
+      return loadGrammarProblemOccurrences(Number(moreGrammar.dataset.loadGrammarProblem)).catch(handleViewError);
+    }
+    const grammarSource = event.target.closest("[data-grammar-source-submission]");
+    if (grammarSource) {
+      return openGrammarSourceSubmission(grammarSource.dataset.grammarSourceSubmission).catch(handleViewError);
+    }
+    const adminGrammarSource = event.target.closest("[data-admin-grammar-source-submission]");
+    if (adminGrammarSource) {
+      return openAdminGrammarSourceSubmission(adminGrammarSource.dataset.adminGrammarSourceSubmission).catch(handleViewError);
+    }
   });
   window.addEventListener("pagehide", () => {
     accrueWritingTime();

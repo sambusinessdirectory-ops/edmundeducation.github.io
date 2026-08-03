@@ -8,6 +8,7 @@ import {
   completedWritingSegmentsAffectedByEdit,
   completedWritingSegmentsOverlappingRange,
   countEnglishWords,
+  grammarOccurrenceIdentity,
   isLiveCompletedWritingSegment,
   newlyCompletedWritingSegments
 } from "../writing-submission-core.js";
@@ -25,6 +26,10 @@ const executableGrammar = fs.readFileSync(
   "utf8"
 );
 const aiAdapter = fs.readFileSync(path.join(root, "writing-submission-ai.js"), "utf8");
+const grammarHistoryMigration = fs.readFileSync(
+  path.join(root, "supabase-writing-submission-grammar-history.sql"),
+  "utf8"
+);
 
 test("writing grammar checks begin only after newly completed full stops or semicolons", () => {
   assert.deepEqual(newlyCompletedWritingSegments("", "I am still writing"), []);
@@ -75,6 +80,31 @@ test("word count handles repeated whitespace", () => {
   assert.equal(countEnglishWords(""), 0);
 });
 
+test("grammar occurrence identities dedupe a rescan but preserve two same-rule cards", () => {
+  const base = {
+    engineIdentity: "cloudflare-workers-ai@2",
+    documentId: "11111111-1111-4111-8111-111111111111",
+    ruleId: "EdmundAI:verb_form_and_tense",
+    segmentOrdinal: 1,
+    sentenceText: "I want to writing and to reading books.",
+    originalText: "writing",
+    suggestedText: "write",
+    correctedSentence: "I want to write and to reading books."
+  };
+  const first = grammarOccurrenceIdentity({ ...base, start: 10, end: 17 });
+  const rescan = grammarOccurrenceIdentity({ ...base, start: 10, end: 17 });
+  const second = grammarOccurrenceIdentity({
+    ...base,
+    start: 25,
+    end: 32,
+    originalText: "reading",
+    suggestedText: "read",
+    correctedSentence: "I want to writing and to read books."
+  });
+  assert.equal(first, rescan);
+  assert.notEqual(first, second);
+});
+
 test("portal exposes the requested stage-one writing, archive and grammar-log interface", () => {
   assert.match(html, /data-system="writing-submission"/);
   assert.match(html, /<h2>寫作題目<\/h2>/);
@@ -115,8 +145,8 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260803-grammar-progress1/);
-  assert.match(html, /writing-submission\.js\?v=20260803-grammar-progress1/);
+  assert.match(html, /writing-submission\.css\?v=20260803-grammar-history1/);
+  assert.match(html, /writing-submission\.js\?v=20260803-grammar-history1/);
   assert.match(script, /writing-submission-harper\.js\?v=20260802-grammar5/);
   assert.match(script, /writing-submission-ai\.js\?v=20260803-grammar-progress1/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -159,6 +189,25 @@ test("writing preferences, topic selection, timing, progress and recoverable del
   assert.match(css, /\.submission-progress-grid/);
   assert.match(css, /\.grammar-toggle input:checked/);
   assert.match(css, /\.topic-picker-dialog/);
+});
+
+test("detailed grammar history and the admin explanation-review queue are private and linked", () => {
+  assert.match(html, /data-admin-review-button/);
+  assert.match(html, /data-view="admin-review"/);
+  assert.match(html, /待補文法解釋/);
+  assert.match(script, /correctedSentence:\s*issue\.correctedSentence/);
+  assert.match(script, /grammarOccurrenceIdentity\(\{/);
+  assert.match(script, /\/v1\/grammar-problem-occurrences/);
+  assert.match(script, /\/v1\/admin\/explanation-review/);
+  assert.match(script, /dataset\.grammarSourceSubmission/);
+  assert.match(css, /\.grammar-history-card/);
+  assert.match(grammarHistoryMigration, /add column if not exists corrected_sentence/);
+  assert.match(grammarHistoryMigration, /needs_explanation_review boolean[\s\S]*?請留意這部分的文法結構。/);
+  assert.match(grammarHistoryMigration, /create or replace function public\.writing_submission_problem_occurrences/);
+  assert.match(grammarHistoryMigration, /where occurrence\.student_id = p_student_id/);
+  assert.match(grammarHistoryMigration, /create or replace function public\.writing_submission_admin_explanation_review_queue/);
+  assert.match(grammarHistoryMigration, /public\._writing_submission_admin_id\(p_admin_token\) is null/);
+  assert.doesNotMatch(grammarHistoryMigration, /grant execute[\s\S]*?to (?:anon|authenticated)/);
 });
 
 test("completed sentences use the authenticated AI endpoint without sending the whole draft", () => {

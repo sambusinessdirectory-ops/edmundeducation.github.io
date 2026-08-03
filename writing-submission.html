@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20260803-grammar-progress1">
+  <link rel="stylesheet" href="writing-submission.css?v=20260803-grammar-history1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260722-1">
 </head>
 <body>
@@ -45,6 +45,7 @@
         <button class="header-button" type="button" data-submissions-button hidden>我的文章</button>
         <button class="header-button" type="button" data-grammar-log-button hidden>文法問題記錄</button>
         <button class="header-button" type="button" data-admin-button hidden>學生文章</button>
+        <button class="header-button" type="button" data-admin-review-button hidden>待補文法解釋</button>
         <button class="header-button" type="button" data-logout hidden>登出</button>
       </div>
     </div>
@@ -264,6 +265,25 @@
         </article>
       </div>
     </section>
+
+    <section class="view" data-view="admin-review" hidden>
+      <section class="utility-hero glass-panel">
+        <div>
+          <p class="eyebrow">ADMIN EXPLANATION REVIEW</p>
+          <h1>待補文法解釋</h1>
+          <p>集中顯示仍使用「請留意這部分的文法結構」通用說明的實際句子，方便日後補充專屬規則。</p>
+        </div>
+        <button class="small-button" type="button" data-refresh-admin-review>重新整理</button>
+      </section>
+      <section class="admin-review-panel glass-panel">
+        <div class="section-heading">
+          <div><p class="eyebrow">MISSING SPECIFIC EXPLANATIONS</p><h2>待覆核記錄</h2></div>
+          <span class="count-badge" data-admin-review-count>0</span>
+        </div>
+        <div class="admin-review-list" data-admin-review-list></div>
+        <button class="secondary-button admin-review-more" type="button" data-admin-review-more hidden>載入更多記錄</button>
+      </section>
+    </section>
   </main>
 
   <dialog class="topic-picker-dialog" data-topic-picker aria-labelledby="topic-picker-title">
@@ -287,6 +307,6 @@
   <script src="supabase-config.js"></script>
   <script src="writing-submission-config.js"></script>
   <script src="shared-system-nav.js?v=20260803-1"></script>
-  <script type="module" src="writing-submission.js?v=20260803-grammar-progress1"></script>
+  <script type="module" src="writing-submission.js?v=20260803-grammar-history1"></script>
 </body>
 </html>

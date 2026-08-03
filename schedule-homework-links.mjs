@@ -193,6 +193,22 @@ export function insertHomeworkResourceTitle(value, replacement, label) {
   };
 }
 
+export function homeworkResourceDisplayTitle(value) {
+  const resource = value && typeof value === "object" ? value : null;
+  const definition = TYPE_BY_NAME.get(String(resource?.type || ""));
+  const label = String(resource?.label || "").replace(/\s+/g, " ").trim();
+  if (!definition || !label) return label;
+  const prefix = definition.label;
+  const normalizedLabel = label.toLocaleLowerCase("en");
+  const normalizedPrefix = prefix.toLocaleLowerCase("en");
+  const nextCharacter = label.slice(prefix.length, prefix.length + 1);
+  if (
+    normalizedLabel.startsWith(normalizedPrefix)
+    && (!nextCharacter || /[\s\-–—:：/·]/.test(nextCharacter))
+  ) return label;
+  return `${prefix} - ${label}`;
+}
+
 export function fullHomeworkTriggerAtCursor(value, cursor = String(value || "").length) {
   const completion = homeworkAutocomplete(value, cursor);
   return completion && completion.remainder === "" ? completion : null;

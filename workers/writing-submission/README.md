@@ -18,8 +18,9 @@ explicitly granted by `../../supabase-writing-submission.sql`.
 Apply the repository's shared Flashcard-account migrations first. Then run
 `../../supabase-writing-submission.sql` in a private Supabase SQL session.
 Apply `../../supabase-writing-submission-enhancements.sql` immediately after
-it, then apply `../../supabase-writing-grammar-corpus.sql`, followed by the
-generated `../../grammar-corpus/seed-corpus-v1.sql` release seed.
+it, then apply `../../supabase-writing-submission-grammar-history.sql`. Apply
+`../../supabase-writing-grammar-corpus.sql` next, followed by the generated
+`../../grammar-corpus/seed-corpus-v1.sql` release seed.
 
 The migration creates:
 
@@ -29,7 +30,10 @@ The migration creates:
 - recoverable student archive deletion that keeps the administrator record;
 - daily article, total-time and average-time progress aggregates;
 - deduplicated grammar occurrences that can be saved before final submission;
-- per-rule grammar-problem summaries; and
+- complete per-occurrence cards with their source composition;
+- per-rule grammar-problem summaries and student-owned detail pages;
+- an administrator-only queue for generic explanations that need a specific
+  teacher-authored rule; and
 - service-role-only student and administrator RPCs.
 
 The separate corpus migration creates a normalized, versioned private archive
@@ -264,6 +268,7 @@ therefore consumes no Workers AI neurons.
 
 - `POST /v1/grammar-occurrences/batch`
 - `GET /v1/grammar-problems`
+- `GET /v1/grammar-problem-occurrences?ruleId=<rule-id>&page=1&pageSize=25`
 
 The batch body is:
 
@@ -280,6 +285,7 @@ The batch body is:
       "originalText": "companies requires",
       "suggestedText": "companies require",
       "sentenceText": "More companies requires staff to wear uniforms.",
+      "correctedSentence": "More companies require staff to wear uniforms.",
       "detectedAt": "2026-07-31T00:00:00.000Z"
     }
   ]
@@ -294,7 +300,11 @@ submission UUID links those earlier occurrences automatically. Buffer and
 batch detections rather than making one Supabase request per keystroke.
 
 `GET /v1/grammar-problems` groups the student's durable history by `ruleId`
-and returns occurrence count plus first/last detection time.
+and returns occurrence count plus first/last detection time. The paginated
+detail route requires the same authenticated student and derives the student
+identifier from that token; it returns only that student's occurrences,
+including the complete original sentence, complete locally corrected sentence,
+exact explanation, timestamp and linked source-composition metadata.
 
 ### Administrator
 
@@ -302,10 +312,13 @@ and returns occurrence count plus first/last detection time.
 - `GET /v1/admin/submissions?page=1&pageSize=20`
 - `GET /v1/admin/submissions?studentId=<student-uuid>&page=1&pageSize=20`
 - `GET /v1/admin/submissions/<submission-uuid>`
+- `GET /v1/admin/explanation-review?page=1&pageSize=50`
 
 List responses contain short answer previews. Detail responses contain the
-full writing and the associated grammar occurrences. Administrator routes do
-not expose Flashcard passwords or student session tokens.
+full writing and the associated grammar occurrences. The explanation-review
+route returns only occurrences whose saved explanation contains the exact
+generic-review marker. Administrator routes do not expose Flashcard passwords
+or student session tokens.
 
 ## Operational limits
 

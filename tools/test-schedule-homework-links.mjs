@@ -13,6 +13,7 @@ import {
   filterHomeworkResources,
   fullHomeworkTriggerAtCursor,
   homeworkAutocomplete,
+  homeworkResourceDisplayTitle,
   insertHomeworkResourceTitle,
   normalizeHomeworkResource,
   parseScheduleMessage,
@@ -318,6 +319,16 @@ assert.equal(
   insertHomeworkResourceTitle("#2 · 快一點／加快動作", null, "#2 · 快一點／加快動作").inserted,
   false,
   "the same standalone title should not be duplicated"
+);
+assert.equal(
+  homeworkResourceDisplayTitle({ type: "idiom", label: "#1 · 開始行動／帶頭開始" }),
+  "Idiom - #1 · 開始行動／帶頭開始",
+  "the auto-inserted title should include its exact Homework taxonomy type"
+);
+assert.equal(
+  homeworkResourceDisplayTitle({ type: "writing-submission", label: "Writing Submission" }),
+  "Writing Submission",
+  "a label already beginning with its type must not receive a duplicate prefix"
 );
 
 const selected = HOMEWORK_RESOURCE_CATALOG.find((resource) => resource.id === "fill:model-essay-2-ielts-advantage-disadvantage");

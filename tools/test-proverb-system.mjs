@@ -269,14 +269,37 @@ test("student search indexes titles, teaching pages, and exact exercise question
     functionSource("lessonSearchIndex", "searchLessons"),
     functionSource("searchLessons", "renderLessonSearch")
   ].join("\n");
-  const lesson = { ...syntheticLesson(), slug: "out-of-sight", benefits: [{ zh: "合作表達", en: "cooperative expression" }], rules: [{ zh: "重要規則", en: "important rule" }] };
+  const lesson = {
+    ...syntheticLesson(),
+    slug: "out-of-sight",
+    formulas: [{ formula: "page-one-unique" }],
+    register: { summaryEn: "page-two-unique" },
+    fixedVariable: { fixedEn: "page-three-unique" },
+    specificForms: [{ formula: "page-four-unique" }],
+    benefits: [{ zh: "合作表達", en: "page-five-unique cooperative expression" }],
+    origin: { history: [{ en: "page-six-unique" }] },
+    rules: [{ zh: "重要規則", en: "page-seven-unique important rule" }]
+  };
   const globals = { lessonList: () => [lesson], lessonTitle: (item) => item.titleZh, lessonEnglishTitle: (item) => item.titleEn };
+  const pageWords = ["one", "two", "three", "four", "five", "six", "seven"];
+  for (let page = 1; page <= 7; page += 1) {
+    const hit = runInSandbox(source, `searchLessons('page-${pageWords[page - 1]}-unique')`, globals);
+    assert.equal(hit.some((entry) => entry.lessonId === lesson.id && entry.page === page), true, `page ${page} must be searchable`);
+  }
   const benefit = runInSandbox(source, "searchLessons('COOPERATIVE')", globals);
   assert.equal(benefit[0].page, 5);
   const question = runInSandbox(source, "searchLessons('中文題目 7')", globals).find(({ questionId }) => questionId === "proverb-01-q07");
   assert.equal(question.page, 8);
   assert.equal(question.questionId, "proverb-01-q07");
+  const answer = runInSandbox(source, "searchLessons('This uses proverb 7')", globals).find(({ questionId }) => questionId === "proverb-01-q07");
+  assert.equal(answer.page, 8);
   assert.match(html, /data-lesson-search-input/);
+  assert.match(html, /class="lesson-search-label"[^>]*>搜尋關鍵字</);
+  assert.match(html, /data-clear-lesson-search/);
+  assert.ok(html.indexOf('class="lesson-search-panel') < html.indexOf('data-lesson-choice-grid'), "search must appear directly before the lesson cards");
+  assert.doesNotMatch(html, /SEARCH ALL LESSON CONTENT/);
+  assert.match(css, /\.lesson-search-controls\s*\{[^}]*grid-template-columns:\s*minmax\(0,\s*1fr\)\s+auto\s+auto/s);
+  assert.match(css, /\.lesson-search-controls input\s*\{[^}]*border:\s*2px/s);
   assert.match(app, /data-search-question/);
 });
 

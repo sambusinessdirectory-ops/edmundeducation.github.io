@@ -167,6 +167,8 @@ alter table public.schedule_entries
 alter table public.schedule_entries
   add column if not exists is_in_progress boolean not null default false;
 alter table public.schedule_entries
+  add column if not exists is_previous_incomplete boolean not null default false;
+alter table public.schedule_entries
   add column if not exists estimated_minutes integer;
 alter table public.schedule_entries
   add column if not exists span_group_id uuid;
@@ -219,14 +221,12 @@ begin
       );
   end if;
 
-  if not exists (
-    select 1 from pg_catalog.pg_constraint constraint_row
-    where constraint_row.conrelid = 'public.schedule_entries'::regclass
-      and constraint_row.conname = 'schedule_entries_progress_state_check'
-  ) then
-    alter table public.schedule_entries
-      add constraint schedule_entries_progress_state_check check (not (is_completed and is_in_progress));
-  end if;
+  alter table public.schedule_entries
+    drop constraint if exists schedule_entries_progress_state_check;
+  alter table public.schedule_entries
+    add constraint schedule_entries_progress_state_check check (
+      (is_completed::integer + is_in_progress::integer + is_previous_incomplete::integer) <= 1
+    );
 
   if not exists (
     select 1 from pg_catalog.pg_constraint constraint_row
@@ -668,6 +668,10 @@ begin
       estimated_minutes = p_estimated_minutes,
       is_completed = v_entry.is_completed,
       is_in_progress = case when v_entry.is_completed then false else v_entry.is_in_progress end,
+      is_previous_incomplete = case
+        when v_entry.is_completed or v_entry.is_in_progress then false
+        else v_entry.is_previous_incomplete
+      end,
       completed_at = v_entry.completed_at,
       completion_source = v_entry.completion_source,
       completed_by_admin = v_entry.completed_by_admin,
@@ -684,6 +688,7 @@ begin
     'source', v_entry.source,
     'isCompleted', v_entry.is_completed,
     'isInProgress', v_entry.is_in_progress,
+    'isPreviousIncomplete', v_entry.is_previous_incomplete,
     'estimatedMinutes', v_entry.estimated_minutes,
     'spanGroupId', v_entry.span_group_id,
     'completedAt', v_entry.completed_at,
@@ -775,6 +780,7 @@ begin
   update public.schedule_entries entry
   set is_in_progress = p_in_progress,
       is_completed = case when p_in_progress then false else entry.is_completed end,
+      is_previous_incomplete = case when p_in_progress then false else entry.is_previous_incomplete end,
       completed_at = case when p_in_progress then null else entry.completed_at end,
       completion_source = case when p_in_progress then null else entry.completion_source end,
       completed_by_admin = case when p_in_progress then null else entry.completed_by_admin end,
@@ -787,6 +793,7 @@ begin
     'id', v_entry.id,
     'isInProgress', v_entry.is_in_progress,
     'isCompleted', v_entry.is_completed,
+    'isPreviousIncomplete', v_entry.is_previous_incomplete,
     'updatedAt', v_entry.updated_at
   );
 end;
@@ -814,6 +821,90 @@ returns jsonb language plpgsql security definer set search_path = '' as $$
 begin
   if public._schedule_admin_id(p_admin_token) is null then raise exception 'Invalid or expired admin session'; end if;
   return public._schedule_set_entry_in_progress(p_student_id, p_entry_id, p_expected_updated_at, p_in_progress);
+end;
+$$;
+
+create or replace function public._schedule_set_entry_previous_incomplete(
+  p_student_id uuid,
+  p_entry_id uuid,
+  p_expected_updated_at timestamptz,
+  p_previous_incomplete boolean
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare v_entry public.schedule_entries%rowtype;
+begin
+  perform public._schedule_lock_student_mutations(p_student_id);
+  if p_previous_incomplete is null then
+    raise exception 'Invalid previous-homework request' using errcode = '22023';
+  end if;
+  select * into v_entry
+  from public.schedule_entries entry
+  where entry.student_id = p_student_id and entry.id = p_entry_id
+  for update;
+  if not found then raise exception 'Schedule entry not found'; end if;
+  if p_expected_updated_at is null or v_entry.updated_at <> p_expected_updated_at then
+    raise exception 'Schedule entry changed in another session; reload and try again' using errcode = '40001';
+  end if;
+  if v_entry.span_group_id is not null then
+    perform 1 from public.schedule_entries entry
+    where entry.student_id = p_student_id and entry.span_group_id = v_entry.span_group_id
+    order by entry.id for update;
+  end if;
+
+  update public.schedule_entries entry
+  set is_previous_incomplete = p_previous_incomplete,
+      is_completed = case when p_previous_incomplete then false else entry.is_completed end,
+      is_in_progress = case when p_previous_incomplete then false else entry.is_in_progress end,
+      completed_at = case when p_previous_incomplete then null else entry.completed_at end,
+      completion_source = case when p_previous_incomplete then null else entry.completion_source end,
+      completed_by_admin = case when p_previous_incomplete then null else entry.completed_by_admin end,
+      updated_at = now()
+  where entry.id = v_entry.id
+     or (v_entry.span_group_id is not null and entry.span_group_id = v_entry.span_group_id);
+
+  select * into v_entry from public.schedule_entries entry where entry.id = p_entry_id;
+  return pg_catalog.jsonb_build_object(
+    'id', v_entry.id,
+    'isPreviousIncomplete', v_entry.is_previous_incomplete,
+    'isInProgress', v_entry.is_in_progress,
+    'isCompleted', v_entry.is_completed,
+    'updatedAt', v_entry.updated_at
+  );
+end;
+$$;
+
+revoke all on function public._schedule_set_entry_previous_incomplete(uuid, uuid, timestamptz, boolean)
+  from public, anon, authenticated;
+
+create or replace function public.schedule_student_set_entry_previous_incomplete(
+  p_token uuid, p_entry_id uuid, p_expected_updated_at timestamptz, p_previous_incomplete boolean
+)
+returns jsonb language plpgsql security definer set search_path = '' as $$
+declare v_student_id uuid := public.flashcard_session_student_id(p_token);
+begin
+  if v_student_id is null then raise exception 'Invalid or expired student session'; end if;
+  return public._schedule_set_entry_previous_incomplete(
+    v_student_id, p_entry_id, p_expected_updated_at, p_previous_incomplete
+  );
+end;
+$$;
+
+create or replace function public.schedule_admin_set_entry_previous_incomplete(
+  p_admin_token uuid, p_student_id uuid, p_entry_id uuid,
+  p_expected_updated_at timestamptz, p_previous_incomplete boolean
+)
+returns jsonb language plpgsql security definer set search_path = '' as $$
+begin
+  if public._schedule_admin_id(p_admin_token) is null then
+    raise exception 'Invalid or expired admin session';
+  end if;
+  return public._schedule_set_entry_previous_incomplete(
+    p_student_id, p_entry_id, p_expected_updated_at, p_previous_incomplete
+  );
 end;
 $$;
 
@@ -1105,6 +1196,7 @@ begin
   update public.schedule_entries entry
   set is_completed = p_completed,
       is_in_progress = case when p_completed then false else entry.is_in_progress end,
+      is_previous_incomplete = case when p_completed then false else entry.is_previous_incomplete end,
       completed_at = case when p_completed then now() else null end,
       completion_source = case when p_completed then p_actor_source else null end,
       completed_by_admin = case
@@ -1380,6 +1472,7 @@ begin
   update public.schedule_entries schedule_entry
   set is_completed = p_completed,
       is_in_progress = case when p_completed then false else schedule_entry.is_in_progress end,
+      is_previous_incomplete = case when p_completed then false else schedule_entry.is_previous_incomplete end,
       completed_at = case when p_completed then now() else null end,
       completion_source = case when p_completed then p_actor_source else null end,
       completed_by_admin = case
@@ -2516,6 +2609,7 @@ as $$
           'source', entry.source,
           'isCompleted', entry.is_completed,
           'isInProgress', entry.is_in_progress,
+          'isPreviousIncomplete', entry.is_previous_incomplete,
           'estimatedMinutes', entry.estimated_minutes,
           'spanGroupId', entry.span_group_id,
           'completedAt', entry.completed_at,
@@ -2671,13 +2765,13 @@ begin
 
   insert into public.schedule_entries (
     student_id, schedule_date, slot_index, message, source, created_by_admin,
-    is_completed, is_in_progress, estimated_minutes, completed_at,
+    is_completed, is_in_progress, is_previous_incomplete, estimated_minutes, completed_at,
     completion_source, completed_by_admin, span_group_id
   )
   select
     p_student_id, day.schedule_date::date, v_common_slot,
     v_entry.message, v_entry.source, v_entry.created_by_admin,
-    v_entry.is_completed, v_entry.is_in_progress, v_entry.estimated_minutes,
+    v_entry.is_completed, v_entry.is_in_progress, v_entry.is_previous_incomplete, v_entry.estimated_minutes,
     v_entry.completed_at, v_entry.completion_source, v_entry.completed_by_admin, v_group_id
   from pg_catalog.generate_series(v_start::timestamp, v_end::timestamp, interval '1 day') day(schedule_date)
   where not exists (
@@ -2823,12 +2917,12 @@ begin
   if v_target.id is not null then
     insert into public.schedule_entries (
       id, student_id, schedule_date, slot_index, message, source, created_by_admin,
-      is_completed, is_in_progress, estimated_minutes, span_group_id,
+      is_completed, is_in_progress, is_previous_incomplete, estimated_minutes, span_group_id,
       completed_at, completion_source, completed_by_admin, created_at, updated_at
     ) values (
       v_target.id, v_target.student_id, p_source_date, p_source_slot_index,
       v_target.message, v_target.source, v_target.created_by_admin,
-      v_target.is_completed, v_target.is_in_progress, v_target.estimated_minutes, null,
+      v_target.is_completed, v_target.is_in_progress, v_target.is_previous_incomplete, v_target.estimated_minutes, null,
       v_target.completed_at, v_target.completion_source, v_target.completed_by_admin,
       v_target.created_at, now()
     );
@@ -2843,6 +2937,7 @@ begin
     'source', v_source.source,
     'isCompleted', v_source.is_completed,
     'isInProgress', v_source.is_in_progress,
+    'isPreviousIncomplete', v_source.is_previous_incomplete,
     'estimatedMinutes', v_source.estimated_minutes,
     'swapped', v_target.id is not null,
     'updatedAt', v_source.updated_at
@@ -3257,6 +3352,12 @@ declare
   v_existing public.schedule_entries%rowtype;
   v_effective_source text;
   v_effective_admin_id uuid;
+  v_requested_source text;
+  v_has_status boolean;
+  v_is_completed boolean;
+  v_is_in_progress boolean;
+  v_is_previous_incomplete boolean;
+  v_preserve_completion_metadata boolean;
   v_result jsonb;
   v_deleted boolean;
   v_applied_count integer := 0;
@@ -3302,7 +3403,7 @@ begin
     from pg_catalog.jsonb_array_elements(p_changes)
   loop
     if pg_catalog.jsonb_typeof(v_item) <> 'object'
-      or (select count(*) from pg_catalog.jsonb_object_keys(v_item)) <> 6
+      or (select count(*) from pg_catalog.jsonb_object_keys(v_item)) not between 6 and 10
       or exists (
         select 1
         from pg_catalog.jsonb_object_keys(v_item) as key_row(key_name)
@@ -3312,7 +3413,31 @@ begin
           'slotIndex',
           'message',
           'estimatedMinutes',
-          'expectedUpdatedAt'
+          'expectedUpdatedAt',
+          'source',
+          'isCompleted',
+          'isInProgress',
+          'isPreviousIncomplete'
+        )
+      )
+      or not (
+        v_item ? 'action'
+        and v_item ? 'scheduleDate'
+        and v_item ? 'slotIndex'
+        and v_item ? 'message'
+        and v_item ? 'estimatedMinutes'
+        and v_item ? 'expectedUpdatedAt'
+      )
+      or not (
+        (
+          not (v_item ? 'isCompleted')
+          and not (v_item ? 'isInProgress')
+          and not (v_item ? 'isPreviousIncomplete')
+        )
+        or (
+          v_item ? 'isCompleted'
+          and v_item ? 'isInProgress'
+          and v_item ? 'isPreviousIncomplete'
         )
       )
       or pg_catalog.jsonb_typeof(v_item -> 'action') <> 'string'
@@ -3323,11 +3448,20 @@ begin
       or (v_item ->> 'slotIndex')::numeric <> pg_catalog.trunc((v_item ->> 'slotIndex')::numeric)
       or (v_item ->> 'slotIndex')::numeric not between 1 and 100
       or pg_catalog.jsonb_typeof(v_item -> 'expectedUpdatedAt') not in ('string', 'null')
+      or (
+        v_item ? 'source'
+        and (
+          pg_catalog.jsonb_typeof(v_item -> 'source') <> 'string'
+          or coalesce(v_item ->> 'source', '') not in ('student', 'admin')
+          or (p_actor_source = 'student' and coalesce(v_item ->> 'source', '') <> 'student')
+        )
+      )
     then
       raise exception 'Invalid Mass Edit item' using errcode = '22023';
     end if;
 
     v_action := v_item ->> 'action';
+    v_has_status := v_item ? 'isCompleted';
     begin
       v_schedule_date := (v_item ->> 'scheduleDate')::date;
       v_expected_updated_at := case
@@ -3356,11 +3490,29 @@ begin
             or (v_item ->> 'estimatedMinutes')::numeric not between 1 and 10080
           )
         )
+        or (
+          v_has_status
+          and (
+            pg_catalog.jsonb_typeof(v_item -> 'isCompleted') <> 'boolean'
+            or pg_catalog.jsonb_typeof(v_item -> 'isInProgress') <> 'boolean'
+            or pg_catalog.jsonb_typeof(v_item -> 'isPreviousIncomplete') <> 'boolean'
+            or (
+              (v_item ->> 'isCompleted')::boolean::integer
+              + (v_item ->> 'isInProgress')::boolean::integer
+              + (v_item ->> 'isPreviousIncomplete')::boolean::integer
+            ) > 1
+          )
+        )
       then
         raise exception 'Invalid Mass Edit upsert' using errcode = '22023';
       end if;
     elsif pg_catalog.jsonb_typeof(v_item -> 'message') <> 'null'
       or pg_catalog.jsonb_typeof(v_item -> 'estimatedMinutes') <> 'null'
+      or (v_has_status and (
+        pg_catalog.jsonb_typeof(v_item -> 'isCompleted') <> 'null'
+        or pg_catalog.jsonb_typeof(v_item -> 'isInProgress') <> 'null'
+        or pg_catalog.jsonb_typeof(v_item -> 'isPreviousIncomplete') <> 'null'
+      ))
       or v_expected_updated_at is null
     then
       raise exception 'Invalid Mass Edit delete' using errcode = '22023';
@@ -3394,6 +3546,8 @@ begin
       when pg_catalog.jsonb_typeof(v_item -> 'expectedUpdatedAt') = 'null' then null
       else (v_item ->> 'expectedUpdatedAt')::timestamptz
     end;
+    v_has_status := v_item ? 'isCompleted';
+    v_requested_source := case when v_item ? 'source' then v_item ->> 'source' else null end;
 
     if v_action = 'upsert' then
       v_estimated_minutes := case
@@ -3401,6 +3555,7 @@ begin
         else (v_item ->> 'estimatedMinutes')::integer
       end;
 
+      v_existing := null;
       select *
       into v_existing
       from public.schedule_entries entry
@@ -3434,15 +3589,26 @@ begin
           raise exception 'Teacher assignments can only be changed by an administrator'
             using errcode = '42501';
         end if;
-        v_effective_source := v_existing.source;
+        v_effective_source := coalesce(v_requested_source, v_existing.source);
         v_effective_admin_id := case
-          when v_existing.source = 'admin'
+          when coalesce(v_requested_source, v_existing.source) = 'admin'
             then coalesce(v_existing.created_by_admin, p_admin_id)
           else null
         end;
       else
-        v_effective_source := p_actor_source;
-        v_effective_admin_id := case when p_actor_source = 'admin' then p_admin_id else null end;
+        v_effective_source := coalesce(v_requested_source, p_actor_source);
+        v_effective_admin_id := case when coalesce(v_requested_source, p_actor_source) = 'admin' then p_admin_id else null end;
+      end if;
+
+      if v_has_status then
+        v_is_completed := (v_item ->> 'isCompleted')::boolean;
+        v_is_in_progress := (v_item ->> 'isInProgress')::boolean;
+        v_is_previous_incomplete := (v_item ->> 'isPreviousIncomplete')::boolean;
+        v_preserve_completion_metadata := v_is_completed
+          and v_existing.id is not null
+          and v_existing.is_completed
+          and v_existing.message = (v_item ->> 'message')
+          and v_existing.source = v_effective_source;
       end if;
 
       v_result := public._schedule_upsert_entry(
@@ -3455,6 +3621,34 @@ begin
         v_effective_source,
         v_effective_admin_id
       );
+      if v_has_status then
+        update public.schedule_entries entry
+        set is_completed = v_is_completed,
+            is_in_progress = v_is_in_progress,
+            is_previous_incomplete = v_is_previous_incomplete,
+            completed_at = case
+              when v_is_completed and v_preserve_completion_metadata then coalesce(v_existing.completed_at, now())
+              when v_is_completed then now()
+              else null
+            end,
+            completion_source = case
+              when v_is_completed and v_preserve_completion_metadata then coalesce(v_existing.completion_source, p_actor_source)
+              when v_is_completed then p_actor_source
+              else null
+            end,
+            completed_by_admin = case
+              when v_is_completed and v_preserve_completion_metadata and coalesce(v_existing.completion_source, p_actor_source) = 'admin'
+                then coalesce(v_existing.completed_by_admin, p_admin_id)
+              when v_is_completed and p_actor_source = 'admin' then p_admin_id
+              else null
+            end,
+            updated_at = now()
+        where entry.id = (v_result ->> 'id')::uuid
+           or (
+             nullif(v_result ->> 'spanGroupId', '') is not null
+             and entry.span_group_id = (v_result ->> 'spanGroupId')::uuid
+           );
+      end if;
       if v_expected_updated_at is null then
         v_created_count := v_created_count + 1;
       else
@@ -3596,6 +3790,7 @@ revoke all on function public.schedule_student_batch_set_entries_completed(uuid,
 revoke all on function public.schedule_student_move_entry(uuid, uuid, timestamptz, date, integer, date, integer, bigint, bigint) from public, anon, authenticated;
 revoke all on function public.schedule_student_move_entry_checked(uuid, uuid, timestamptz, date, integer, date, integer, bigint, bigint, timestamptz) from public, anon, authenticated;
 revoke all on function public.schedule_student_set_entry_in_progress(uuid, uuid, timestamptz, boolean) from public, anon, authenticated;
+revoke all on function public.schedule_student_set_entry_previous_incomplete(uuid, uuid, timestamptz, boolean) from public, anon, authenticated;
 revoke all on function public.schedule_student_extend_entry_span(uuid, uuid, timestamptz, date) from public, anon, authenticated;
 revoke all on function public.schedule_student_upsert_countdown(uuid, integer, text, date, date, numeric, numeric, numeric, numeric, timestamptz) from public, anon, authenticated;
 revoke all on function public.schedule_student_delete_countdown(uuid, uuid, timestamptz) from public, anon, authenticated;
@@ -3614,6 +3809,7 @@ revoke all on function public.schedule_admin_batch_set_entries_completed(uuid, u
 revoke all on function public.schedule_admin_move_entry(uuid, uuid, uuid, timestamptz, date, integer, date, integer, bigint, bigint) from public, anon, authenticated;
 revoke all on function public.schedule_admin_move_entry_checked(uuid, uuid, uuid, timestamptz, date, integer, date, integer, bigint, bigint, timestamptz) from public, anon, authenticated;
 revoke all on function public.schedule_admin_set_entry_in_progress(uuid, uuid, uuid, timestamptz, boolean) from public, anon, authenticated;
+revoke all on function public.schedule_admin_set_entry_previous_incomplete(uuid, uuid, uuid, timestamptz, boolean) from public, anon, authenticated;
 revoke all on function public.schedule_admin_extend_entry_span(uuid, uuid, uuid, timestamptz, date) from public, anon, authenticated;
 revoke all on function public.schedule_admin_upsert_countdown(uuid, uuid, integer, text, date, date, numeric, numeric, numeric, numeric, timestamptz) from public, anon, authenticated;
 revoke all on function public.schedule_admin_delete_countdown(uuid, uuid, uuid, timestamptz) from public, anon, authenticated;
@@ -3638,6 +3834,7 @@ grant execute on function public.schedule_admin_batch_set_entries_completed(uuid
 grant execute on function public.schedule_admin_move_entry(uuid, uuid, uuid, timestamptz, date, integer, date, integer, bigint, bigint) to authenticated;
 grant execute on function public.schedule_admin_move_entry_checked(uuid, uuid, uuid, timestamptz, date, integer, date, integer, bigint, bigint, timestamptz) to authenticated;
 grant execute on function public.schedule_admin_set_entry_in_progress(uuid, uuid, uuid, timestamptz, boolean) to authenticated;
+grant execute on function public.schedule_admin_set_entry_previous_incomplete(uuid, uuid, uuid, timestamptz, boolean) to authenticated;
 grant execute on function public.schedule_admin_extend_entry_span(uuid, uuid, uuid, timestamptz, date) to authenticated;
 grant execute on function public.schedule_admin_upsert_countdown(uuid, uuid, integer, text, date, date, numeric, numeric, numeric, numeric, timestamptz) to authenticated;
 grant execute on function public.schedule_admin_delete_countdown(uuid, uuid, uuid, timestamptz) to authenticated;
@@ -3659,6 +3856,7 @@ grant execute on function public.schedule_student_batch_set_entries_completed(uu
 grant execute on function public.schedule_student_move_entry(uuid, uuid, timestamptz, date, integer, date, integer, bigint, bigint) to authenticated;
 grant execute on function public.schedule_student_move_entry_checked(uuid, uuid, timestamptz, date, integer, date, integer, bigint, bigint, timestamptz) to authenticated;
 grant execute on function public.schedule_student_set_entry_in_progress(uuid, uuid, timestamptz, boolean) to authenticated;
+grant execute on function public.schedule_student_set_entry_previous_incomplete(uuid, uuid, timestamptz, boolean) to authenticated;
 grant execute on function public.schedule_student_extend_entry_span(uuid, uuid, timestamptz, date) to authenticated;
 grant execute on function public.schedule_student_upsert_countdown(uuid, integer, text, date, date, numeric, numeric, numeric, numeric, timestamptz) to authenticated;
 grant execute on function public.schedule_student_delete_countdown(uuid, uuid, timestamptz) to authenticated;

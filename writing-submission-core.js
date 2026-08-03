@@ -145,6 +145,34 @@ export function normalizedIssueFingerprintPart(value) {
     .trim();
 }
 
+export function grammarOccurrenceIdentity({
+  engineIdentity = "",
+  documentId = "",
+  ruleId = "",
+  segmentOrdinal = 0,
+  sentenceText = "",
+  start = 0,
+  end = 0,
+  originalText = "",
+  suggestedText = "",
+  correctedSentence = ""
+} = {}) {
+  // JSON keeps the fields unambiguous even when the student's sentence
+  // contains punctuation used by simpler delimiter-based identities.
+  return JSON.stringify([
+    String(engineIdentity),
+    String(documentId).toLocaleLowerCase("en-GB"),
+    String(ruleId),
+    Math.max(0, Number(segmentOrdinal) || 0),
+    String(sentenceText),
+    Math.max(0, Number(start) || 0),
+    Math.max(0, Number(end) || 0),
+    String(originalText),
+    String(suggestedText),
+    String(correctedSentence)
+  ]);
+}
+
 export function formatSubmissionDate(value, locale = "zh-HK") {
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return "日期未詳";

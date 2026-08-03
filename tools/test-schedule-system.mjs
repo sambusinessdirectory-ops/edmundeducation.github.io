@@ -221,6 +221,9 @@ assert.match(scheduleHtml, /\.completion-badge/);
 assert.match(scheduleHtml, />標記完成</);
 assert.match(scheduleHtml, /data-toggle-progress/);
 assert.match(scheduleHtml, />標記進行中</);
+assert.match(scheduleHtml, /data-toggle-previous-incomplete/);
+assert.match(scheduleHtml, />標記之前功課未完成</);
+assert.match(scheduleHtml, /\.previous-incomplete-badge/);
 assert.match(scheduleHtml, /schedule-estimated-minutes/);
 assert.match(scheduleHtml, /預計需時/);
 assert.match(scheduleHtml, /重大事件倒數/);
@@ -278,7 +281,7 @@ assert.match(scheduleHtml, /data-paste-clipboard-selection/);
 assert.match(scheduleHtml, /data-clear-clipboard-selection/);
 assert.match(scheduleHtml, /clipboard-selection-marquee/);
 assert.match(scheduleHtml, /\.schedule-slot\.is-clipboard-selected/);
-assert.match(scheduleHtml, /schedule-system\.js\?v=20260803-1/);
+assert.match(scheduleHtml, /schedule-system\.js\?v=20260803-2/);
 
 const metricCards = [...scheduleHtml.matchAll(/<article\s+class="metric-card(?:\s[^"]*)?"/g)];
 assert.equal(metricCards.length, 4, "schedule progress dashboard must contain exactly four metric cards");
@@ -422,7 +425,8 @@ assert.match(scheduleJs, /schedule-clipboard\.mjs\?v=20260727-1/);
 assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260803-1"/);
 assert.match(scheduleJs, /homeworkCatalogPromise = import\(HOMEWORK_CATALOG_URL\)/);
 assert.doesNotMatch(scheduleJs, /^import\s+\{\s*HOMEWORK_RESOURCE_CATALOG\s*\}/m, "the large exercise catalogue must not block login or Supabase startup");
-assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260803-1/);
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260803-2/);
+assert.match(scheduleJs, /schedule-mass-edit\.mjs\?v=20260803-1/);
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/);
 assert.match(scheduleJs, /function renderHomeworkTypeDashboard\(/);
 assert.match(scheduleJs, /conic-gradient/);
@@ -506,6 +510,7 @@ const rpcNames = [
   "schedule_admin_move_entry",
   "schedule_admin_move_entry_checked",
   "schedule_admin_set_entry_in_progress",
+  "schedule_admin_set_entry_previous_incomplete",
   "schedule_admin_extend_entry_span",
   "schedule_admin_upsert_countdown",
   "schedule_admin_delete_countdown",
@@ -525,6 +530,7 @@ const rpcNames = [
   "schedule_student_move_entry",
   "schedule_student_move_entry_checked",
   "schedule_student_set_entry_in_progress",
+  "schedule_student_set_entry_previous_incomplete",
   "schedule_student_extend_entry_span",
   "schedule_student_upsert_countdown",
   "schedule_student_delete_countdown",
@@ -613,6 +619,7 @@ assert.match(scheduleSql, /expected_updated_at/);
 assert.match(scheduleSql, /order by schedule_entry\.id[\s\S]*?for update/);
 assert.match(scheduleSql, /Target slot is occupied/);
 assert.match(scheduleSql, /is_in_progress boolean not null default false/);
+assert.match(scheduleSql, /is_previous_incomplete boolean not null default false/);
 assert.match(scheduleSql, /estimated_minutes integer/);
 assert.match(scheduleSql, /span_group_id uuid/);
 assert.match(scheduleSql, /schedule_entries_progress_state_check/);
@@ -626,6 +633,7 @@ assert.match(scheduleSql, /check \(position between 1 and 101\)/);
 assert.match(scheduleSql, /start_date between date '2026-01-01' and date '2050-12-31'/);
 assert.match(scheduleSql, /end_date between start_date and date '2050-12-31'/);
 assert.match(scheduleSql, /create or replace function public\._schedule_set_entry_in_progress/);
+assert.match(scheduleSql, /create or replace function public\._schedule_set_entry_previous_incomplete/);
 assert.match(scheduleSql, /create or replace function public\._schedule_extend_entry_span/);
 assert.match(scheduleSql, /p_target_date between v_start and v_end/);
 assert.match(scheduleJs, /adjacentOnly && !isAdjacentSpanTarget/);
@@ -637,6 +645,16 @@ assert.match(scheduleSql, /'countdowns'/);
 assert.match(scheduleSql, /'estimatedMinutes'/);
 assert.match(scheduleSql, /'spanGroupId'/);
 assert.match(scheduleSql, /'isInProgress'/);
+assert.match(scheduleSql, /'isPreviousIncomplete'/);
+assert.match(scheduleJs, /prepareMassEditWeekNavigation\(\)/);
+assert.match(scheduleJs, /Mass Edit 保持開啟/);
+assert.doesNotMatch(
+  scheduleJs,
+  /if \(state\.massEditMode\) \{\s*elements\.previousWeek\.disabled = true/,
+  "week navigation controls must remain usable while Mass Edit is active"
+);
+assert.match(scheduleJs, /planCurrentMassEditGroupShift/);
+assert.match(scheduleJs, /stageMassEditGroupShift/);
 assert.match(scheduleSql, /create or replace function public\._schedule_homework_types\b/);
 assert.match(scheduleSql, /pg_catalog\.regexp_matches\(/);
 assert.match(scheduleSql, /pg_catalog\.decode\(v_encoded, 'base64'\)/);
@@ -671,8 +689,10 @@ assert.match(massEditSql, /create or replace function public\._schedule_apply_en
 assert.match(massEditSql, /perform public\._schedule_lock_student_mutations\(p_student_id\)/);
 assert.match(massEditSql, /pg_catalog\.jsonb_array_length\(p_changes\) not between 1 and 700/);
 assert.match(massEditSql, /Mass Edit contains duplicate schedule slots/);
+assert.match(massEditSql, /isPreviousIncomplete/);
+assert.match(massEditSql, /is_previous_incomplete = v_is_previous_incomplete/);
 assert.match(massEditSql, /using errcode = '40001'/);
-assert.match(massEditSql, /v_effective_source := v_existing\.source/);
+assert.match(massEditSql, /v_effective_source := coalesce\(v_requested_source, v_existing\.source\)/);
 assert.match(massEditSql, /group_entry\.updated_at <> v_expected_updated_at/);
 assert.match(massEditSql, /Teacher assignments can only be changed by an administrator[\s\S]*?errcode = '42501'/);
 assert.match(massEditSql, /Teacher assignments can only be deleted by an administrator[\s\S]*?errcode = '42501'/);
@@ -706,6 +726,9 @@ assert.match(databaseSmokeTest, /Expected stale swap-target rejection/);
 assert.match(databaseSmokeTest, /Expected stale countdown-capacity rejection/);
 assert.match(databaseSmokeTest, /Expected invalid countdown-date rejection/);
 assert.match(databaseSmokeTest, /Schedule Mass Edit database smoke test passed/);
+assert.match(databaseSmokeTest, /current 10-key payload/i);
+assert.match(databaseSmokeTest, /legacy six-key support/i);
+assert.match(databaseSmokeTest, /Expected mutually-exclusive Mass Edit status rejection/);
 assert.match(databaseSmokeTest, /Expected stale Mass Edit rejection/);
 assert.match(databaseSmokeTest, /Stale Mass Edit was not atomic/);
 assert.match(databaseSmokeTest, /Mass Edit transferred student-entry ownership/);
