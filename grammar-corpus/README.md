@@ -60,15 +60,16 @@ then run the generator.
 
 ## Executable rule-family layer
 
-Sets 19–22 also use the stricter authoring and compiler layer documented in
-`../tools/grammar-detector-v2/README.md`. It stores all 314 supplied source
-issues as 224 deduplicated families, then publishes only 65 patterns across 49
+Sets 19–23 also use the stricter authoring and compiler layer documented in
+`../tools/grammar-detector-v2/README.md`. It stores all 332 supplied source
+issues as 228 deduplicated families, then publishes only 65 patterns across 49
 runtime families that pass the evidence, capability, approval, confidence,
 holdout, conflict and 124-sentence adversarial-control gates.
 The generated browser module is
 `../writing-submission-executable-grammar.generated.js`. Parser-dependent or
 semantic families remain stored but inactive until the required runtime and
-tests exist.
+tests exist. Set 23 is stored as a complete draft parser-authoring record and
+does not alter this legacy teacher-approved Supabase release.
 
 ## Spreadsheet workflow
 

@@ -15,7 +15,7 @@ import {
   EXECUTABLE_GRAMMAR_COUNTS,
   EXECUTABLE_GRAMMAR_VERSION,
   checkExecutableGrammar
-} from "./writing-submission-executable-grammar.js?v=20260802-grammar5";
+} from "./writing-submission-executable-grammar.js?v=20260803-grammar6";
 
 export {
   CORPUS_COMPILED_PATTERN_COUNT,

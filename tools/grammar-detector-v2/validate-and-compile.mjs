@@ -13,9 +13,10 @@ export const EXPECTED_SET_IDS = Object.freeze([
   "SET-0019",
   "SET-0020",
   "SET-0021",
-  "SET-0022"
+  "SET-0022",
+  "SET-0023"
 ]);
-export const EXECUTABLE_GRAMMAR_VERSION = "2026-08-02.19-22.1";
+export const EXECUTABLE_GRAMMAR_VERSION = "2026-08-03.19-23.1";
 export const RUNTIME_APPROVAL_STATUS = "approved_for_bounded_surface_runtime";
 export const KNOWN_CAPABILITIES = Object.freeze([
   "case_preservation",
@@ -228,7 +229,7 @@ export function readPackages({ dataDirectory = DATA_DIRECTORY } = {}) {
     .sort();
   const packages = files.map((name) => JSON.parse(fs.readFileSync(path.join(dataDirectory, name), "utf8")));
   const actualIds = packages.map((item) => item?.set?.setId).sort();
-  assert.deepEqual(actualIds, [...EXPECTED_SET_IDS], "Executable grammar set files do not match 19–22");
+  assert.deepEqual(actualIds, [...EXPECTED_SET_IDS], "Executable grammar set files do not match 19–23");
   return packages;
 }
 
@@ -500,6 +501,47 @@ export function validateSet(data) {
   if (setId === "SET-0020" && issues.length !== 116) fail("SET-0020 must preserve all 116 physical rows");
   if (setId === "SET-0021" && bindings.length !== 85) fail("SET-0021 must preserve 85 atomic bindings");
   if (setId === "SET-0022" && issues.length !== 11) fail("SET-0022 must preserve all 11 physical issue rows");
+  if (setId === "SET-0023") {
+    if (issues.length !== 18) fail("SET-0023 must preserve all 18 physical issue rows");
+    if (sourcePatterns.length !== 0 || cases.some((testCase) => testCase.runtimeEligible)) {
+      fail("SET-0023 parser authoring must remain outside the bounded surface runtime");
+    }
+    const authoring = requireObject(data.parserAuthoring, "SET-0023.parserAuthoring");
+    const authoringTables = requireObject(authoring.tables, "SET-0023.parserAuthoring.tables");
+    const expectedTableCounts = {
+      "02 Source Sentences": 27,
+      "03 Source Issues": 18,
+      "04 Rule Families": 6,
+      "05 Matchers": 6,
+      "10 Gold Analysis": 487,
+      "11 Issue Bindings": 427,
+      "11A Derived Features": 703,
+      "13 Test Cases": 111,
+      "14 Expected Findings": 58,
+      "15 Adversarial Controls": 67,
+      "97 Hash Contracts": 14,
+      "98 Binding Registry": 49,
+      "99 Data Dictionary": 432
+    };
+    for (const [tableName, count] of Object.entries(expectedTableCounts)) {
+      if (requireArray(authoringTables[tableName], `SET-0023 ${tableName}`).length !== count) {
+        fail(`SET-0023 ${tableName} record count drifted`);
+      }
+    }
+    const hashResults = requireArray(authoring.hashContractResults, "SET-0023 hash contracts", 14);
+    if (hashResults.length !== 14 || hashResults.some((result) => result?.reproduced !== true)) {
+      fail("SET-0023 must preserve 14 reproduced hash contracts");
+    }
+    if (
+      authoring.sourceSchemaVersion !== "2.5.0"
+      || !/^[0-9a-f]{64}$/u.test(authoring.sourceWorkbookSha256)
+      || !/^[0-9a-f]{64}$/u.test(authoring.packageDefinitionSha256)
+      || authoring.releaseStatus !== "BLOCKED"
+      || authoring.compilerImportAllowed !== false
+      || authoring.teacherApproval !== "pending"
+      || authoring.runtimeSurfacePromotion !== "none"
+    ) fail("SET-0023 authoring approval or integrity state drifted");
+  }
   return {
     setId,
     issues,

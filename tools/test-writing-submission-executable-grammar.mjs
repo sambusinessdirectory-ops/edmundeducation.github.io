@@ -172,6 +172,21 @@ function fixtureRuntime(options) {
   });
 }
 
+// Case-preserving repairs retain all-caps style rather than merely capitalising the first letter.
+{
+  const detector = fixtureRuntime({
+    matchText: "much",
+    replacementText: "many",
+    leftContext: [],
+    rightContext: ["buses"],
+    startsSentence: true
+  });
+  const [issue] = detector.check("MUCH BUSES WERE NEEDED.");
+  assert.equal(issue.originalText, "MUCH");
+  assert.equal(issue.suggestedText, "MANY");
+  assert.equal(issue.correctedSentence, "MANY BUSES WERE NEEDED.");
+}
+
 // Literal regex metacharacters must stay literal, while authored whitespace is flexible.
 {
   const detector = fixtureRuntime();
@@ -286,7 +301,8 @@ if (JSON.stringify(packageIds) === JSON.stringify([
   "SET-0019",
   "SET-0020",
   "SET-0021",
-  "SET-0022"
+  "SET-0022",
+  "SET-0023"
 ])) {
   const compiledProduction = compiler.compile(packages);
   assert.equal(runtime.EXECUTABLE_GRAMMAR_VERSION, compiler.EXECUTABLE_GRAMMAR_VERSION);
@@ -294,18 +310,36 @@ if (JSON.stringify(packageIds) === JSON.stringify([
   assert.deepEqual(runtime.EXECUTABLE_GRAMMAR_COUNTS, compiledProduction.counts);
   assert.deepEqual(runtime.EXECUTABLE_GRAMMAR_FAMILIES, compiledProduction.families);
   assert.deepEqual(runtime.EXECUTABLE_GRAMMAR_PATTERNS, compiledProduction.patterns);
-  assert.equal(runtime.EXECUTABLE_GRAMMAR_COUNTS.sets, 4);
-  assert.equal(runtime.EXECUTABLE_GRAMMAR_COUNTS.sourceIssues, 314);
-  assert.equal(runtime.EXECUTABLE_GRAMMAR_COUNTS.families, 224);
+  assert.equal(runtime.EXECUTABLE_GRAMMAR_COUNTS.sets, 5);
+  assert.equal(runtime.EXECUTABLE_GRAMMAR_COUNTS.sourceIssues, 332);
+  assert.equal(runtime.EXECUTABLE_GRAMMAR_COUNTS.families, 228);
   assert.equal(runtime.EXECUTABLE_GRAMMAR_COUNTS.runtimeFamilies, 49);
   assert.equal(runtime.EXECUTABLE_GRAMMAR_COUNTS.patterns, 65);
-  assert.equal(runtime.EXECUTABLE_GRAMMAR_COUNTS.controls, 99);
-  assert.equal(runtime.EXECUTABLE_GRAMMAR_COUNTS.cases, 944);
-  assert.equal(runtime.EXECUTABLE_GRAMMAR_COUNTS.unsupportedFamilies, 175);
+  assert.equal(runtime.EXECUTABLE_GRAMMAR_COUNTS.controls, 166);
+  assert.equal(runtime.EXECUTABLE_GRAMMAR_COUNTS.cases, 1055);
+  assert.equal(runtime.EXECUTABLE_GRAMMAR_COUNTS.unsupportedFamilies, 179);
   assert.equal(runtime.EXECUTABLE_GRAMMAR_PATTERNS.length, runtime.EXECUTABLE_GRAMMAR_COUNTS.patterns);
   assert.equal(runtime.EXECUTABLE_GRAMMAR_FAMILIES.length, runtime.EXECUTABLE_GRAMMAR_COUNTS.families);
   assert.ok(runtime.EXECUTABLE_GRAMMAR_COUNTS.runtimeFamilies > 0);
   assert.ok(runtime.EXECUTABLE_GRAMMAR_COUNTS.unsupportedFamilies > 0);
+
+  const set23 = packages.find((data) => data.set.setId === "SET-0023");
+  assert.ok(set23, "SET-0023 authoring records are missing");
+  assert.equal(set23.sourceIssues.length, 18);
+  assert.equal(set23.parserAuthoring.tables["10 Gold Analysis"].length, 487);
+  assert.equal(set23.parserAuthoring.tables["11 Issue Bindings"].length, 427);
+  assert.equal(set23.parserAuthoring.tables["11A Derived Features"].length, 703);
+  assert.equal(set23.parserAuthoring.tables["13 Test Cases"].length, 111);
+  assert.equal(set23.parserAuthoring.tables["15 Adversarial Controls"].length, 67);
+  assert.equal(set23.parserAuthoring.hashContractResults.length, 14);
+  assert.equal(set23.parserAuthoring.hashContractResults.every((result) => result.reproduced), true);
+  assert.equal(set23.parserAuthoring.releaseStatus, "BLOCKED");
+  assert.equal(set23.runtimeSurfacePatterns.length, 0);
+  assert.equal(
+    runtime.EXECUTABLE_GRAMMAR_PATTERNS.some((pattern) => pattern.evidenceSetId === "SET-0023"),
+    false,
+    "pending SET-0023 parser authoring leaked into the bounded surface runtime"
+  );
 
   const adversarialControls = JSON.parse(fs.readFileSync(adversarialControlsPath, "utf8"));
   assert.equal(
@@ -473,8 +507,8 @@ if (JSON.stringify(packageIds) === JSON.stringify([
     );
   }
 } else {
-  assert.ok(packageFiles.length < 4, "partial v2 package directory contains unexpected files");
-  console.log("Executable grammar production-package assertions deferred until Sets 19–22 are present.");
+  assert.ok(packageFiles.length < 5, "partial v2 package directory contains unexpected files");
+  console.log("Executable grammar production-package assertions deferred until Sets 19–23 are present.");
 }
 
 console.log("Writing Submission executable grammar hardening: OK");

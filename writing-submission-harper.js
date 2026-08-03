@@ -6,7 +6,7 @@ import {
   approvedCorpusIncorrectSentenceId,
   checkLocalLearnerEnglish,
   mergeGrammarIssues
-} from "./writing-submission-esl-rules.js?v=20260802-grammar5";
+} from "./writing-submission-esl-rules.js?v=20260803-grammar6";
 import {
   Dialect,
   SuggestionKind,

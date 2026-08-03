@@ -1,16 +1,17 @@
-# Executable Grammar Detector — Sets 19–22
+# Executable Grammar Detector — Sets 19–23
 
-This directory is the version-controlled authoring layer that turns the four
+This directory is the version-controlled authoring layer that turns the five
 source datasets into bounded, testable detector records. The browser loads only
 the generated module at `../../writing-submission-executable-grammar.generated.js`;
 it never parses these large authoring files at runtime.
 
 ## Release contents
 
-- 314 physically supplied source issues: Set 19 = 104, Set 20 = 116, Set 21 = 83,
-  Set 22 = 11;
-- 224 deduplicated rule families;
-- 99 correct controls and 944 development, regression, or sealed-holdout cases;
+- 332 physically supplied source issues: Set 19 = 104, Set 20 = 116, Set 21 = 83,
+  Set 22 = 11, Set 23 = 18;
+- 228 deduplicated rule families;
+- 166 correct/adversarial controls and 1,055 development, regression, capability,
+  or sealed-holdout cases;
 - 124 exact adversarial controls for grammatical unseen sentences; and
 - 65 approved bounded surface patterns across 49 browser-runtime families:
   Set 19 = 9 review-only patterns, Set 20 = 24 patterns, Set 21 = 20 patterns,
@@ -28,6 +29,12 @@ and adds a separate, browser-safe surface matcher for each supplied issue. The
 valid repairs. Its two bounded variants cover both the workbook sentence and
 the reported `loves to watch TV show` incident. The unambiguous `at the night`
 item can safely offer `at night` within its bounded source context.
+Set 23 stores its complete corrected v2.5 workbook record: 27 sentences, 18
+source issues, 6 parser matchers, 427 bindings, 703 derived assertions, 111 test
+cases, 58 expected findings, 67 adversarial controls, and all 14 reproducible
+hash contracts. Its parser-dependent rules and six release gates remain
+explicitly blocked, so Set 23 contributes no surface pattern until teacher,
+parser, capability, and sealed-evaluation approval is recorded.
 
 ## Build and test
 
@@ -57,5 +64,5 @@ regex characters and whitespace are handled safely, and that the Set 20, Set
 21, and Set 22 constructions run in altered surrounding prose rather than only
 their original dataset sentences.
 
-Do not edit the generated module. Edit the four files in `data/`, rerun the
+Do not edit the generated module. Edit the five files in `data/`, rerun the
 compiler, inspect the diff, and run both commands above.

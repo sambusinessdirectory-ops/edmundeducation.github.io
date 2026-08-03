@@ -147,15 +147,15 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
   assert.match(html, /writing-submission\.css\?v=20260803-grammar-history1/);
   assert.match(html, /writing-submission\.js\?v=20260803-grammar-history1/);
-  assert.match(script, /writing-submission-harper\.js\?v=20260802-grammar5/);
+  assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260803-grammar-progress1/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
   assert.match(eslRules, /writing-submission-esl-rules-core\.js\?v=20260802-grammar3/);
-  assert.match(harper, /writing-submission-esl-rules\.js\?v=20260802-grammar5/);
-  assert.match(eslRules, /writing-submission-executable-grammar\.js\?v=20260802-grammar5/);
+  assert.match(harper, /writing-submission-esl-rules\.js\?v=20260803-grammar6/);
+  assert.match(eslRules, /writing-submission-executable-grammar\.js\?v=20260803-grammar6/);
   assert.match(
     executableGrammar,
-    /writing-submission-executable-grammar\.generated\.js\?v=20260802-grammar5/
+    /writing-submission-executable-grammar\.generated\.js\?v=20260803-grammar6/
   );
   assert.match(script, /暫未偵測到高信心文法問題/);
   assert.match(script, /正在準備文法偵測/);
