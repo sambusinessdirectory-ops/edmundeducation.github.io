@@ -1690,9 +1690,19 @@ body > .site-header.edmund-system-header {
   .exercise-header-top { align-items: flex-start; flex-direction: column; }
   .question-card { padding: 17px; }
   .answer-input { font-size: 16px; }
-  .exercise-actions { position: static; align-items: stretch; flex-direction: column; }
-  .exercise-action-buttons { display: grid; grid-template-columns: 1fr; }
+  .exercise-actions {
+    position: sticky;
+    bottom: 8px;
+    bottom: calc(8px + env(safe-area-inset-bottom, 0px));
+    padding: 10px;
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .exercise-action-copy { display: none; }
+  .exercise-action-buttons { width: 100%; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
   .exercise-action-buttons > * { width: 100%; }
+  .exercise-action-buttons .correction-button,
+  .exercise-action-buttons .partial-button[hidden] + .primary-button { grid-column: 1 / -1; }
   .bulk-visibility-button { width: 100%; }
   .correction-round-banner { align-items: stretch; flex-direction: column; }
   .attempt-row summary { grid-template-columns: minmax(0, 1fr) auto; }
