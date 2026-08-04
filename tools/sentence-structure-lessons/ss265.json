@@ -1,0 +1,1272 @@
+{
+  "id": "ss265",
+  "order": 265,
+  "slug": "first-last-next-time-clause",
+  "title": "「The first ／ last ／ next time + clause」表達「首次、上次及下次」",
+  "titleZh": "「The first ／ last ／ next time + clause」表達「首次、上次及下次」",
+  "titleEn": "Using “The first / last / next time + clause”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 264 -「The first _ last _ next time + clause——表達首次、上次及下次」.pdf",
+    "pageCount": 23,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "exercisePages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF does not provide a complete English counterpart, the English text is a faithful editorial translation.",
+      "The source filename is numbered one lower than the system lesson because two distinct source PDFs are labelled 201; source number N therefore maps to system ID ssN+1."
+    ]
+  },
+  "formula": "The first / last / next time + subject + verb, + main clause.",
+  "formulas": [
+    {
+      "id": "ss265-formula-01",
+      "labelEn": "Opening time clause",
+      "labelZh": "時間子句在句首",
+      "formula": "The first / last / next time + subject + verb, + main clause."
+    },
+    {
+      "id": "ss265-formula-02",
+      "labelEn": "Final time clause",
+      "labelZh": "時間子句在句末",
+      "formula": "Main clause + the first / last / next time + subject + verb."
+    },
+    {
+      "id": "ss265-formula-03",
+      "labelEn": "After a memory verb",
+      "labelZh": "在記憶動詞後",
+      "formula": "Subject + remember / recall / will never forget + the first / last time + clause."
+    },
+    {
+      "id": "ss265-formula-04",
+      "labelEn": "Present first experience",
+      "labelZh": "截至現在的首次經歷",
+      "formula": "It / This is the first time + subject + has / have + past participle."
+    },
+    {
+      "id": "ss265-formula-05",
+      "labelEn": "Past first experience",
+      "labelZh": "從過去回顧首次經歷",
+      "formula": "It / This / That was the first time + subject + had + past participle."
+    },
+    {
+      "id": "ss265-formula-06",
+      "labelEn": "Past last occasion",
+      "labelZh": "過去最後或最近一次",
+      "formula": "It / That was the last time + subject + verb."
+    },
+    {
+      "id": "ss265-formula-07",
+      "labelEn": "Time expression as subject",
+      "labelZh": "時間詞組作主語",
+      "formula": "The first / last / next time + clause + be / main verb."
+    },
+    {
+      "id": "ss265-formula-08",
+      "labelEn": "Future instruction",
+      "labelZh": "未來指示、建議或承諾",
+      "formula": "Imperative / modal / future clause + the next time + subject + present verb."
+    }
+  ],
+  "example": "The first time I drove alone, I felt nervous.",
+  "exampleZh": "我第一次獨自駕駛時，感到很緊張。",
+  "examples": [
+    {
+      "id": "ss265-example-01",
+      "en": "The first time I drove alone, I felt nervous.",
+      "zh": "我第一次獨自駕駛時，感到很緊張。",
+      "highlight": "The first time I drove alone, I felt nervous."
+    },
+    {
+      "id": "ss265-example-02",
+      "en": "You were preparing for an interview the last time we met.",
+      "zh": "我們上次見面時，你正在準備面試。",
+      "highlight": "You were preparing for an interview the last time we met."
+    },
+    {
+      "id": "ss265-example-03",
+      "en": "The next time you visit, bring the original document.",
+      "zh": "你下次到訪時，請帶同文件正本。",
+      "highlight": "The next time you visit, bring the original document."
+    },
+    {
+      "id": "ss265-example-04",
+      "en": "This is the first time I have used this programme.",
+      "zh": "這是我第一次使用這個程式。",
+      "highlight": "This is the first time I have used this programme."
+    }
+  ],
+  "meaning": {
+    "zh": "The first / last / next time + 子句 用來指出某件事首次發生、最近或最後一次發生，以及下一次將會發生的場合。"
+  },
+  "rules": [
+    {
+      "id": "ss265-rule-01",
+      "zh": "next time 子句談論未來時通常使用現在式而不是 will。",
+      "en": "When a next time clause refers to the future, it normally uses the present simple rather than will.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss265-rule-02",
+      "zh": "first time 可按觀察時間點配合過去式、現在完成式或過去完成式。",
+      "en": "First time can combine with the past simple, present perfect or past perfect according to the viewpoint in time.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss265-rule-03",
+      "zh": "last time 可表示最近一次或最終一次，實際意思須按上下文判斷，不一定表示永遠不再發生。",
+      "en": "Last time can mean the most recent occasion or the final occasion, depending on context; it does not necessarily mean that the event will never happen again.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss265-rule-04",
+      "zh": "the first / last / next time + 子句 本身表示時間時，前面通常不加 at、on 或 in。",
+      "en": "Do not add an unnecessary preposition such as at, on or in before the first / last / next time + clause when it already functions as a time expression.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss265-rule-05",
+      "zh": "the first time 後的關係詞 that 通常可以省略；本練習主要使用較簡潔的形式。",
+      "en": "That can normally be omitted after the first time; this exercise mainly uses the more concise form.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss265-rule-06",
+      "zh": "目標表達可放在句首、句末、記憶動詞後、It is / It was 結構內，或作整句主語，不必機械地每次放在句首。",
+      "en": "The target can appear at the beginning or end, after a memory verb, within an It is / It was structure, or as the subject of a sentence. It need not always begin the answer.",
+      "enSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss265-benefit-01",
+      "zh": "它清楚指出所說的是第一次、最近一次、最後一次還是下一次，準確識別某次場合。",
+      "en": "It identifies an exact occasion by distinguishing the earliest, most recent, final or following occasion.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss265-benefit-02",
+      "zh": "它把某次事件與當時發生的事情直接連接起來，不必寫成兩句互不相連的短句。",
+      "en": "It connects an event with what happened on that occasion instead of presenting two disconnected sentences.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss265-benefit-03",
+      "zh": "first time 可介紹經歷的開始，last time 可回顧最近或最終場合，幫助有條理地敘述事件。",
+      "en": "It helps you tell stories in a clear order by marking the beginning, most recent occasion or final occasion.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss265-benefit-04",
+      "zh": "next time 清楚指出指示、承諾或建議應何時實行，使未來安排更精確。",
+      "en": "It makes future instructions more precise by stating exactly when an instruction, promise or suggestion should be followed.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss265-benefit-05",
+      "zh": "它可放在 remember、recall 和 forget 等動詞後，自然描述難忘或記憶模糊的經歷。",
+      "en": "It helps you describe memorable experiences naturally after verbs such as remember, recall and forget.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss265-benefit-06",
+      "zh": "它可以作開首或句末時間子句、記憶動詞受詞、It is / It was 結構的一部分或整句主語，提供多種真正不同的句式。",
+      "en": "It gives you several genuine sentence patterns: an opening or final time clause, the object of a memory verb, part of an It is / It was structure, or the subject of a sentence.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF does not provide a complete English counterpart, the English text is a faithful editorial translation.",
+    "The source filename is numbered one lower than the system lesson because two distinct source PDFs are labelled 201; source number N therefore maps to system ID ssN+1."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using the first / last / next time + clause.",
+      "Keep the original meaning, tense and sequence of events. Follow the first-word hint."
+    ],
+    "zh": [
+      "使用 the first / last / next time + 子句 改寫以下句子。",
+      "保留原句意思、時態及事件次序，並按照首字提示作答。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss265-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "When you visit again, bring the original document.",
+      "promptZh": "你再次到訪時，請帶同文件正本。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The next time you visit, bring the original document.",
+      "answerZh": "你下次到訪時，請帶同文件正本。",
+      "answerZhSource": "pdf",
+      "highlight": "The next time you visit, bring the original document."
+    },
+    {
+      "id": "ss265-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I felt nervous when I drove alone for the first occasion.",
+      "promptZh": "我第一次獨自駕駛時，感到很緊張。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I felt nervous the first time I drove alone.",
+      "answerZh": "我第一次獨自駕駛時，感到很緊張。",
+      "answerZhSource": "pdf",
+      "highlight": "I felt nervous the first time I drove alone."
+    },
+    {
+      "id": "ss265-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "When we met most recently, you were preparing for an interview.",
+      "promptZh": "我們最近一次見面時，你正在準備面試。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The last time we met, you were preparing for an interview.",
+      "answerZh": "我們上次見面時，你正在準備面試。",
+      "answerZhSource": "pdf",
+      "highlight": "The last time we met, you were preparing for an interview."
+    },
+    {
+      "id": "ss265-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Sarah should ask for a receipt on her next visit to the shop.",
+      "promptZh": "莎拉下次到訪商店時，應該索取收據。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah should ask for a receipt the next time she visits the shop.",
+      "answerZh": "莎拉下次到訪商店時，應該索取收據。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah should ask for a receipt the next time she visits the shop."
+    },
+    {
+      "id": "ss265-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "When Daniel cooked a complete meal by himself for the first occasion, he followed a recipe.",
+      "promptZh": "丹尼爾第一次獨自烹調完整的一餐時，依照了食譜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first time Daniel cooked a complete meal by himself, he followed a recipe.",
+      "answerZh": "丹尼爾第一次獨自烹調完整的一餐時，依照了食譜。",
+      "answerZhSource": "pdf",
+      "highlight": "The first time Daniel cooked a complete meal by himself, he followed a recipe."
+    },
+    {
+      "id": "ss265-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "During our most recent lesson, we learnt how to write a formal email.",
+      "promptZh": "在最近一次課堂上，我們學習了如何撰寫正式電郵。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We learnt how to write a formal email the last time we had a lesson.",
+      "answerZh": "我們上次上課時，學習了如何撰寫正式電郵。",
+      "answerZhSource": "pdf",
+      "highlight": "We learnt how to write a formal email the last time we had a lesson."
+    },
+    {
+      "id": "ss265-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "When you use this machine again, check that the cover is closed.",
+      "promptZh": "你再次使用這部機器時，請檢查機蓋是否已關閉。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The next time you use this machine, check that the cover is closed.",
+      "answerZh": "你下次使用這部機器時，請檢查機蓋是否已關閉。",
+      "answerZhSource": "pdf",
+      "highlight": "The next time you use this machine, check that the cover is closed."
+    },
+    {
+      "id": "ss265-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I remember the earliest occasion when I saw the sea.",
+      "promptZh": "我記得自己第一次看見大海的情景。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I remember the first time I saw the sea.",
+      "answerZh": "我記得自己第一次看見大海的情景。",
+      "answerZhSource": "pdf",
+      "highlight": "I remember the first time I saw the sea."
+    },
+    {
+      "id": "ss265-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "They should book a larger room for their following meeting.",
+      "promptZh": "他們下次開會時，應該預訂一個較大的房間。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They should book a larger room the next time they meet.",
+      "answerZh": "他們下次開會時，應該預訂一個較大的房間。",
+      "answerZhSource": "pdf",
+      "highlight": "They should book a larger room the next time they meet."
+    },
+    {
+      "id": "ss265-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "When I called the office most recently, nobody answered.",
+      "promptZh": "我上次致電辦公室時，沒有人接聽。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The last time I called the office, nobody answered.",
+      "answerZh": "我上次致電辦公室時，沒有人接聽。",
+      "answerZhSource": "pdf",
+      "highlight": "The last time I called the office, nobody answered."
+    },
+    {
+      "id": "ss265-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "On the earliest occasion when Chloe spoke in public, her hands were shaking.",
+      "promptZh": "克洛伊第一次公開發言時，雙手不停顫抖。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first time Chloe spoke in public, her hands were shaking.",
+      "answerZh": "克洛伊第一次公開發言時，雙手不停顫抖。",
+      "answerZhSource": "pdf",
+      "highlight": "The first time Chloe spoke in public, her hands were shaking."
+    },
+    {
+      "id": "ss265-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Please tell me earlier when you need to change the appointment again.",
+      "promptZh": "你下次需要更改預約時，請早一點通知我。",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please tell me earlier the next time you need to change the appointment.",
+      "answerZh": "你下次需要更改預約時，請早一點通知我。",
+      "answerZhSource": "pdf",
+      "highlight": "Please tell me earlier the next time you need to change the appointment."
+    },
+    {
+      "id": "ss265-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I first travelled by plane when I was twelve, and I will never forget that occasion.",
+      "promptZh": "我十二歲時第一次乘搭飛機，而我永遠不會忘記那次經歷。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I will never forget the first time I travelled by plane.",
+      "answerZh": "我永遠不會忘記自己第一次乘搭飛機的情景。",
+      "answerZhSource": "pdf",
+      "highlight": "I will never forget the first time I travelled by plane."
+    },
+    {
+      "id": "ss265-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "During the machine’s most recent failure, an engineer repaired it within an hour.",
+      "promptZh": "這部機器上次發生故障時，工程師在一小時內修好了它。",
+      "promptZhSource": "pdf",
+      "starter": "An",
+      "answer": "An engineer repaired the machine within an hour the last time it failed.",
+      "answerZh": "這部機器上次發生故障時，工程師在一小時內修好了它。",
+      "answerZhSource": "pdf",
+      "highlight": "An engineer repaired the machine within an hour the last time it failed."
+    },
+    {
+      "id": "ss265-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "On the next occasion that you send an application, include two references.",
+      "promptZh": "你下次提交申請時，請附上兩名推薦人的資料。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The next time you send an application, include two references.",
+      "answerZh": "你下次提交申請時，請附上兩名推薦人的資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The next time you send an application, include two references."
+    },
+    {
+      "id": "ss265-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Our first attempt to make bread was unsuccessful.",
+      "promptZh": "我們第一次嘗試製作麵包並不成功。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first time we tried to make bread, we were unsuccessful.",
+      "answerZh": "我們第一次嘗試製作麵包時，並不成功。",
+      "answerZhSource": "pdf",
+      "highlight": "The first time we tried to make bread, we were unsuccessful."
+    },
+    {
+      "id": "ss265-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "When Grace last attended the course, it was held online.",
+      "promptZh": "格蕾絲上次參加這個課程時，課程以網上形式舉行。",
+      "promptZhSource": "pdf",
+      "starter": "Grace",
+      "answer": "Grace attended the course online the last time she took it.",
+      "answerZh": "格蕾絲上次參加這個課程時，以網上形式上課。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace attended the course online the last time she took it."
+    },
+    {
+      "id": "ss265-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I have never stayed in a tent before this trip.",
+      "promptZh": "在這次旅程之前，我從未住過帳幕。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This is the first time I have stayed in a tent.",
+      "answerZh": "這是我第一次住在帳幕裏。",
+      "answerZhSource": "pdf",
+      "highlight": "This is the first time I have stayed in a tent."
+    },
+    {
+      "id": "ss265-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Before that day, Ethan had never spoken to a television reporter.",
+      "promptZh": "在那天之前，伊森從未接受過電視記者訪問。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was the first time Ethan had spoken to a television reporter.",
+      "answerZh": "那是伊森第一次接受電視記者訪問。",
+      "answerZhSource": "pdf",
+      "highlight": "It was the first time Ethan had spoken to a television reporter."
+    },
+    {
+      "id": "ss265-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "On the previous occasion when the alarm sounded, everyone left the building calmly.",
+      "promptZh": "警報器上次響起時，所有人都冷靜地離開了大樓。",
+      "promptZhSource": "pdf",
+      "starter": "Everyone",
+      "answer": "Everyone left the building calmly the last time the alarm sounded.",
+      "answerZh": "警報器上次響起時，所有人都冷靜地離開了大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "Everyone left the building calmly the last time the alarm sounded."
+    },
+    {
+      "id": "ss265-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Remember to keep the receipt when you buy an electronic product again.",
+      "promptZh": "你下次購買電子產品時，記得保留收據。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The next time you buy an electronic product, remember to keep the receipt.",
+      "answerZh": "你下次購買電子產品時，記得保留收據。",
+      "answerZhSource": "pdf",
+      "highlight": "The next time you buy an electronic product, remember to keep the receipt."
+    },
+    {
+      "id": "ss265-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Before the conference, I had never spoken to such a large audience.",
+      "promptZh": "在這次會議之前，我從未向這麼多觀眾發言。",
+      "promptZhSource": "pdf",
+      "starter": "That",
+      "answer": "That was the first time I had spoken to such a large audience.",
+      "answerZh": "那是我第一次向這麼多觀眾發言。",
+      "answerZhSource": "pdf",
+      "highlight": "That was the first time I had spoken to such a large audience."
+    },
+    {
+      "id": "ss265-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "During Olivia’s most recent stay at the hotel, she found the staff very helpful.",
+      "promptZh": "奧莉花上次入住這間酒店時，覺得職員非常樂於助人。",
+      "promptZhSource": "pdf",
+      "starter": "Olivia",
+      "answer": "Olivia found the staff very helpful the last time she stayed at the hotel.",
+      "answerZh": "奧莉花上次入住這間酒店時，覺得職員非常樂於助人。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia found the staff very helpful the last time she stayed at the hotel."
+    },
+    {
+      "id": "ss265-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I can still remember my earliest visit to the science museum with my father.",
+      "promptZh": "我仍然記得自己第一次與父親參觀科學博物館的情景。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I can still remember the first time I visited the science museum with my father.",
+      "answerZh": "我仍然記得自己第一次與父親參觀科學博物館的情景。",
+      "answerZhSource": "pdf",
+      "highlight": "I can still remember the first time I visited the science museum with my father."
+    },
+    {
+      "id": "ss265-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "When the alarm rings again, press the green button before leaving the room.",
+      "promptZh": "警報器下次響起時，請在離開房間前按下綠色按鈕。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The next time the alarm rings, press the green button before leaving the room.",
+      "answerZh": "警報器下次響起時，請在離開房間前按下綠色按鈕。",
+      "answerZhSource": "pdf",
+      "highlight": "The next time the alarm rings, press the green button before leaving the room."
+    },
+    {
+      "id": "ss265-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The staff have never used this booking system before today.",
+      "promptZh": "在今天之前，職員從未使用過這個預訂系統。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This is the first time the staff have used this booking system.",
+      "answerZh": "這是職員第一次使用這個預訂系統。",
+      "answerZhSource": "pdf",
+      "highlight": "This is the first time the staff have used this booking system."
+    },
+    {
+      "id": "ss265-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "After that journey, the old train was never used again.",
+      "promptZh": "在那次旅程之後，那列舊火車再也沒有被使用。",
+      "promptZhSource": "pdf",
+      "starter": "That",
+      "answer": "That was the last time the old train was used.",
+      "answerZh": "那是這列舊火車最後一次被使用。",
+      "answerZhSource": "pdf",
+      "highlight": "That was the last time the old train was used."
+    },
+    {
+      "id": "ss265-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "At my first meeting with the new manager, she asked everyone to introduce themselves.",
+      "promptZh": "我第一次與新經理見面時，她要求每個人自我介紹。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first time I met the new manager, she asked everyone to introduce themselves.",
+      "answerZh": "我第一次與新經理見面時，她要求每個人自我介紹。",
+      "answerZhSource": "pdf",
+      "highlight": "The first time I met the new manager, she asked everyone to introduce themselves."
+    },
+    {
+      "id": "ss265-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Attach the completed form when you next send us an email.",
+      "promptZh": "你下次向我們發送電郵時，請附上已填妥的表格。",
+      "promptZhSource": "pdf",
+      "starter": "Attach",
+      "answer": "Attach the completed form the next time you send us an email.",
+      "answerZh": "你下次向我們發送電郵時，請附上已填妥的表格。",
+      "answerZhSource": "pdf",
+      "highlight": "Attach the completed form the next time you send us an email."
+    },
+    {
+      "id": "ss265-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "When they checked the roof previously, they found several damaged tiles.",
+      "promptZh": "他們上次檢查屋頂時，發現了數塊損壞的瓦片。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They found several damaged tiles the last time they checked the roof.",
+      "answerZh": "他們上次檢查屋頂時，發現了數塊損壞的瓦片。",
+      "answerZhSource": "pdf",
+      "highlight": "They found several damaged tiles the last time they checked the roof."
+    },
+    {
+      "id": "ss265-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Before that case, the lawyer had never dealt with an international dispute.",
+      "promptZh": "在那宗案件之前，這名律師從未處理過國際糾紛。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was the first time the lawyer had dealt with an international dispute.",
+      "answerZh": "那是這名律師第一次處理國際糾紛。",
+      "answerZhSource": "pdf",
+      "highlight": "It was the first time the lawyer had dealt with an international dispute."
+    },
+    {
+      "id": "ss265-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Staff should offer clear instructions when residents use the online service again.",
+      "promptZh": "居民下次使用網上服務時，職員應該提供清晰指示。",
+      "promptZhSource": "pdf",
+      "starter": "Staff",
+      "answer": "Staff should offer clear instructions the next time residents use the online service.",
+      "answerZh": "居民下次使用網上服務時，職員應該提供清晰指示。",
+      "answerZhSource": "pdf",
+      "highlight": "Staff should offer clear instructions the next time residents use the online service."
+    },
+    {
+      "id": "ss265-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "My earliest public speech took place during a school assembly.",
+      "promptZh": "我第一次公開發言是在學校早會上。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first time I spoke in public was during a school assembly.",
+      "answerZh": "我第一次公開發言是在學校早會上。",
+      "answerZhSource": "pdf",
+      "highlight": "The first time I spoke in public was during a school assembly."
+    },
+    {
+      "id": "ss265-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I remember that the most recent occasion when we discussed the proposal ended without a decision.",
+      "promptZh": "我記得我們上次討論這項建議時，最終沒有作出決定。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I remember that the last time we discussed the proposal, the meeting ended without a decision.",
+      "answerZh": "我記得我們上次討論這項建議時，會議最終沒有作出決定。",
+      "answerZhSource": "pdf",
+      "highlight": "I remember that the last time we discussed the proposal, the meeting ended without a decision."
+    },
+    {
+      "id": "ss265-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "When you speak to the supplier again, confirm the delivery date in writing.",
+      "promptZh": "你下次與供應商交談時，請以書面確認送貨日期。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The next time you speak to the supplier, confirm the delivery date in writing.",
+      "answerZh": "你下次與供應商交談時，請以書面確認送貨日期。",
+      "answerZhSource": "pdf",
+      "highlight": "The next time you speak to the supplier, confirm the delivery date in writing."
+    },
+    {
+      "id": "ss265-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Her first presentation to the board was more successful than she had expected.",
+      "promptZh": "她第一次向董事會進行簡報，比她預期中更加成功。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first time she gave a presentation to the board, it was more successful than she had expected.",
+      "answerZh": "她第一次向董事會進行簡報時，成果比她預期中更加成功。",
+      "answerZhSource": "pdf",
+      "highlight": "The first time she gave a presentation to the board, it was more successful than she had expected."
+    },
+    {
+      "id": "ss265-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The old theatre closed permanently after our most recent visit.",
+      "promptZh": "我們上次到訪後，這間舊戲院便永久關閉了。",
+      "promptZhSource": "pdf",
+      "starter": "That",
+      "answer": "That was the last time we visited the old theatre before it closed permanently.",
+      "answerZh": "那是舊戲院永久關閉前，我們最後一次到訪。",
+      "answerZhSource": "pdf",
+      "highlight": "That was the last time we visited the old theatre before it closed permanently."
+    },
+    {
+      "id": "ss265-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The manager should compare all the figures again during the following review.",
+      "promptZh": "經理下次審查時，應該再次比較所有數字。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The next time the manager reviews the figures, she should compare all of them again.",
+      "answerZh": "經理下次審查數字時，應該再次比較所有數字。",
+      "answerZhSource": "pdf",
+      "highlight": "The next time the manager reviews the figures, she should compare all of them again."
+    },
+    {
+      "id": "ss265-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "No team from the school had won the competition before that year.",
+      "promptZh": "在那一年之前，學校從未有隊伍贏得這項比賽。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This was the first time a team from the school had won the competition.",
+      "answerZh": "這是學校第一次有隊伍贏得這項比賽。",
+      "answerZhSource": "pdf",
+      "highlight": "This was the first time a team from the school had won the competition."
+    },
+    {
+      "id": "ss265-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "At the most recent committee meeting, members voted against the proposal.",
+      "promptZh": "在上次委員會會議上，成員投票反對這項建議。",
+      "promptZhSource": "pdf",
+      "starter": "Members",
+      "answer": "Members voted against the proposal the last time the committee met.",
+      "answerZh": "委員會上次開會時，成員投票反對這項建議。",
+      "answerZhSource": "pdf",
+      "highlight": "Members voted against the proposal the last time the committee met."
+    },
+    {
+      "id": "ss265-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The hospital had never used remote-controlled equipment in an operation before that procedure.",
+      "promptZh": "在那次手術之前，醫院從未在手術中使用遙控設備。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was the first time the hospital had used remote-controlled equipment in an operation.",
+      "answerZh": "那是醫院第一次在手術中使用遙控設備。",
+      "answerZhSource": "pdf",
+      "highlight": "It was the first time the hospital had used remote-controlled equipment in an operation."
+    },
+    {
+      "id": "ss265-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "When you submit another application, make sure every section has been completed.",
+      "promptZh": "你下次提交申請時，請確保每一部分均已填妥。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The next time you submit an application, make sure every section has been completed.",
+      "answerZh": "你下次提交申請時，請確保每一部分均已填妥。",
+      "answerZhSource": "pdf",
+      "highlight": "The next time you submit an application, make sure every section has been completed."
+    },
+    {
+      "id": "ss265-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The earliest occasion when residents complained about the noise was shortly after the factory opened.",
+      "promptZh": "居民第一次投訴噪音，是在工廠開業後不久。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first time residents complained about the noise was shortly after the factory opened.",
+      "answerZh": "居民第一次投訴噪音，是在工廠開業後不久。",
+      "answerZhSource": "pdf",
+      "highlight": "The first time residents complained about the noise was shortly after the factory opened."
+    },
+    {
+      "id": "ss265-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "During the bridge’s most recent inspection, engineers found no serious structural damage.",
+      "promptZh": "這座橋上次接受檢查時，工程師沒有發現嚴重的結構損壞。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The last time the bridge was inspected, engineers found no serious structural damage.",
+      "answerZh": "這座橋上次接受檢查時，工程師沒有發現嚴重的結構損壞。",
+      "answerZhSource": "pdf",
+      "highlight": "The last time the bridge was inspected, engineers found no serious structural damage."
+    },
+    {
+      "id": "ss265-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The committee has never approved a project of this size before.",
+      "promptZh": "委員會以前從未批准過如此大型的項目。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This is the first time the committee has approved a project of this size.",
+      "answerZh": "這是委員會第一次批准如此大型的項目。",
+      "answerZhSource": "pdf",
+      "highlight": "This is the first time the committee has approved a project of this size."
+    },
+    {
+      "id": "ss265-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "If the system fails again, record the exact time and every error message.",
+      "promptZh": "系統下次發生故障時，請記錄準確時間和所有錯誤訊息。",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please record the exact time and every error message the next time the system fails.",
+      "answerZh": "系統下次發生故障時，請記錄準確時間和所有錯誤訊息。",
+      "answerZhSource": "pdf",
+      "highlight": "Please record the exact time and every error message the next time the system fails."
+    },
+    {
+      "id": "ss265-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "When the policy was applied for the earliest occasion, several practical problems appeared.",
+      "promptZh": "這項政策第一次實施時，出現了數個實際問題。",
+      "promptZhSource": "pdf",
+      "starter": "Several",
+      "answer": "Several practical problems appeared the first time the policy was applied.",
+      "answerZh": "這項政策第一次實施時，出現了數個實際問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Several practical problems appeared the first time the policy was applied."
+    },
+    {
+      "id": "ss265-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "During the previous financial audit, the accountants identified a weakness that has since been corrected.",
+      "promptZh": "在上次財務審計期間，會計師發現了一項其後已經糾正的弱點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The last time the financial records were audited, the accountants identified a weakness that has since been corrected.",
+      "answerZh": "財務紀錄上次接受審計時，會計師發現了一項其後已經糾正的弱點。",
+      "answerZhSource": "pdf",
+      "highlight": "The last time the financial records were audited, the accountants identified a weakness that has since been corrected."
+    },
+    {
+      "id": "ss265-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "During our following negotiation with the landlord, we should request a written record of every agreement.",
+      "promptZh": "我們下次與業主磋商時，應該要求把每項協議寫成書面紀錄。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should request a written record of every agreement the next time we negotiate with the landlord.",
+      "answerZh": "我們下次與業主磋商時，應該要求把每項協議寫成書面紀錄。",
+      "answerZhSource": "pdf",
+      "highlight": "We should request a written record of every agreement the next time we negotiate with the landlord."
+    },
+    {
+      "id": "ss265-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "No earlier emergency had required the entire hospital to be evacuated.",
+      "promptZh": "以前從未有緊急事故需要疏散整間醫院。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was the first time an emergency had required the entire hospital to be evacuated.",
+      "answerZh": "那是第一次有緊急事故需要疏散整間醫院。",
+      "answerZhSource": "pdf",
+      "highlight": "It was the first time an emergency had required the entire hospital to be evacuated."
+    }
+  ]
+}

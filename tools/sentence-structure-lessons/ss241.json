@@ -1,0 +1,1279 @@
+{
+  "id": "ss241",
+  "order": 241,
+  "slug": "it-takes-person-time-effort",
+  "title": "「It takes + person ／ time ／ effort + to + verb」",
+  "titleZh": "「It takes + person ／ time ／ effort + to + verb」表示所需時間或條件",
+  "titleEn": "It takes + person / time / effort + to + verb",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence Structure 240 -「It takes + person _ time _ effort + to + verb」.pdf",
+    "pageCount": 23,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "exercisePages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "answerPages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit, together with the PDF's governing principles where applicable, is retained as a separate Chinese-primary card.",
+      "Where the PDF provides Chinese teaching content without a complete English counterpart, the English explanation is a faithful editorial translation and is labelled accordingly.",
+      "The source filename is numbered 240; it is assigned system ID ss241 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "It takes + time + to + base verb",
+  "formulas": [
+    {
+      "id": "ss241-formula-01",
+      "labelEn": "Time required",
+      "labelZh": "表示所需時間",
+      "formula": "It takes + time + to + base verb"
+    },
+    {
+      "id": "ss241-formula-02",
+      "labelEn": "Time required by a person",
+      "labelZh": "表示某人所需時間",
+      "formula": "It takes + person + time + to + base verb"
+    },
+    {
+      "id": "ss241-formula-03",
+      "labelEn": "Effort or quality required",
+      "labelZh": "表示所需努力或特質",
+      "formula": "It takes + effort / patience / courage / practice / skill + to + base verb"
+    },
+    {
+      "id": "ss241-formula-04",
+      "labelEn": "Question about time",
+      "labelZh": "詢問所需時間",
+      "formula": "How long does / did it take + person + to + base verb?"
+    },
+    {
+      "id": "ss241-formula-05",
+      "labelEn": "Question about requirements",
+      "labelZh": "詢問所需條件",
+      "formula": "What does it take to + base verb?"
+    }
+  ],
+  "example": "It takes time to build trust.",
+  "exampleZh": "建立信任需要時間。",
+  "examples": [
+    {
+      "id": "ss241-example-01",
+      "en": "It takes time to build trust.",
+      "zh": "建立信任需要時間。",
+      "highlight": "It takes time to build trust."
+    },
+    {
+      "id": "ss241-example-02",
+      "en": "It takes me thirty minutes to get to work.",
+      "zh": "我上班需要三十分鐘。",
+      "highlight": "It takes me thirty minutes to get to work."
+    },
+    {
+      "id": "ss241-example-03",
+      "en": "It takes courage to admit a mistake.",
+      "zh": "承認錯誤需要勇氣。",
+      "highlight": "It takes courage to admit a mistake."
+    },
+    {
+      "id": "ss241-example-04",
+      "en": "How long does it take you to get to school?",
+      "zh": "你上學需要多長時間？",
+      "highlight": "How long does it take you to get to school?"
+    }
+  ],
+  "meaning": {
+    "zh": "這個句型說明完成一件事需要多少時間、某人需要多少時間，或需要努力、耐性、勇氣、練習、技巧等條件。"
+  },
+  "rules": [
+    {
+      "id": "ss241-rule-01",
+      "zh": "it 是形式主語；真正被談論的事情是後面的 to 不定詞。日常英語通常使用 It takes time to learn a language，而不是把不定詞放在句首。",
+      "en": "It is a formal subject; the real activity is expressed by the following to-infinitive. Everyday English normally prefers It takes time to learn a language to placing the infinitive first.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It takes time to learn a language."
+      ]
+    },
+    {
+      "id": "ss241-rule-02",
+      "zh": "take 後不只可以放時間，也可以放 effort、patience、courage、practice、skill 或 careful planning 等所需條件。",
+      "en": "The complement after take is not limited to time. It may name effort, patience, courage, practice, skill, careful planning or another requirement.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It takes careful planning to run a successful event."
+      ]
+    },
+    {
+      "id": "ss241-rule-03",
+      "zh": "有人物和時間時，人物放在時間之前：It takes + person + time + to + verb。",
+      "en": "When both a person and a duration are present, put the person before the time: It takes + person + time + to + verb.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It takes Daniel twenty minutes to walk home.",
+        "Incorrect: It takes twenty minutes Daniel to walk home."
+      ]
+    },
+    {
+      "id": "ss241-rule-04",
+      "zh": "long 前通常不加 a；可說 It does not take long，或使用完整名詞片語 a long time。",
+      "en": "Do not normally put a before long. Say It does not take long, or use the complete noun phrase a long time.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It does not take long to finish.",
+        "It does not take a long time to finish."
+      ]
+    },
+    {
+      "id": "ss241-rule-05",
+      "zh": "to 後使用動詞原形，例如 to finish、to learn、to prepare 和 to understand。",
+      "en": "Use the base form after to, such as to finish, to learn, to prepare and to understand.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Incorrect: to finished",
+        "Incorrect: to learning"
+      ]
+    },
+    {
+      "id": "ss241-rule-06",
+      "zh": "不要把所有答案限制在同一位置；本句型可出現在陳述句、問句、否定句、that 子句、how long 間接問句、情態動詞後，或條件及對比句中。",
+      "en": "Do not restrict the structure to one position. It can appear in statements, questions, negatives, that-clauses, indirect how long questions, after modal verbs, or inside conditional and contrastive sentences.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "People sometimes forget that it takes courage to speak honestly."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss241-benefit-01",
+      "zh": "清楚指出完成事情所需的時間、努力、耐性、勇氣、練習或技巧。",
+      "en": "It clearly states what an activity requires, including time, effort, patience, courage, practice or skill.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss241-benefit-02",
+      "zh": "用一個直接句型取代較長和重複的說法，使表達更簡潔自然。",
+      "en": "It replaces longer, repetitive explanations with a shorter and more direct structure.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss241-benefit-03",
+      "zh": "How long does it take ...? 能方便詢問旅程、工作、課程或程序所需時間。",
+      "en": "It makes it easy to ask how much time a journey, task, course or procedure requires.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss241-benefit-04",
+      "zh": "除了時間外，亦可表達成功所需的勇氣、自律等較抽象條件，適合作文、演說、建議和反思。",
+      "en": "It can express abstract conditions for success, such as courage or discipline, making it useful in essays, speeches, advice and reflection.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss241-benefit-05",
+      "zh": "配合 took、will take、may take 等形式，可以分辨過去實際所需、將來預計所需和可能所需的時間。",
+      "en": "It combines easily with different tenses and modal meanings to distinguish past duration, future estimates and possible requirements.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss241-benefit-06",
+      "zh": "可自然放入轉述、報告和較成熟的長句，幫助學生由簡單句發展到完整解釋。",
+      "en": "It fits naturally into reported statements and longer explanations, helping learners develop from simple sentences to mature writing and presentations.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit, together with the PDF's governing principles where applicable, is retained as a separate Chinese-primary card.",
+    "Where the PDF provides Chinese teaching content without a complete English counterpart, the English explanation is a faithful editorial translation and is labelled accordingly.",
+    "The source filename is numbered 240; it is assigned system ID ss241 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using a suitable form of it takes + person / time / effort + to + verb.",
+      "Preserve the original meaning and tense.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用適當形式的 it takes + person / time / effort + to + verb 改寫以下句子。",
+      "保留原句的意思和時態。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss241-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Building trust requires time.",
+      "promptZh": "建立信任需要時間。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It takes time to build trust.",
+      "answerZh": "建立信任需要時間。",
+      "answerZhSource": "pdf",
+      "highlight": "It takes time to build trust."
+    },
+    {
+      "id": "ss241-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Mia needs ten minutes to walk to school.",
+      "promptZh": "米婭步行上學需要十分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It takes Mia ten minutes to walk to school.",
+      "answerZh": "米婭步行上學需要十分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "It takes Mia ten minutes to walk to school."
+    },
+    {
+      "id": "ss241-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Regular practice is necessary if you want to improve your pronunciation.",
+      "promptZh": "如果你想改善發音，便需要定期練習。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It takes regular practice to improve your pronunciation.",
+      "answerZh": "改善發音需要定期練習。",
+      "answerZhSource": "pdf",
+      "highlight": "It takes regular practice to improve your pronunciation."
+    },
+    {
+      "id": "ss241-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Repairing this bicycle requires about two hours.",
+      "promptZh": "修理這輛單車大約需要兩小時。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It takes about two hours to repair this bicycle.",
+      "answerZh": "修理這輛單車大約需要兩小時。",
+      "answerZhSource": "pdf",
+      "highlight": "It takes about two hours to repair this bicycle."
+    },
+    {
+      "id": "ss241-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A person needs patience when teaching a young child.",
+      "promptZh": "教導年幼兒童時，人需要耐性。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It takes patience to teach a young child.",
+      "answerZh": "教導年幼兒童需要耐性。",
+      "answerZhSource": "pdf",
+      "highlight": "It takes patience to teach a young child."
+    },
+    {
+      "id": "ss241-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The train journey lasts three hours.",
+      "promptZh": "火車旅程需時三小時。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It takes three hours to travel by train.",
+      "answerZh": "乘坐火車需要三小時。",
+      "answerZhSource": "pdf",
+      "highlight": "It takes three hours to travel by train."
+    },
+    {
+      "id": "ss241-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Leo spends twenty minutes cleaning his room.",
+      "promptZh": "里奧花二十分鐘清潔房間。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It takes Leo twenty minutes to clean his room.",
+      "answerZh": "里奧清潔房間需要二十分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "It takes Leo twenty minutes to clean his room."
+    },
+    {
+      "id": "ss241-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Admitting a serious mistake requires courage.",
+      "promptZh": "承認嚴重錯誤需要勇氣。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It takes courage to admit a serious mistake.",
+      "answerZh": "承認嚴重錯誤需要勇氣。",
+      "answerZhSource": "pdf",
+      "highlight": "It takes courage to admit a serious mistake."
+    },
+    {
+      "id": "ss241-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "What amount of time is needed to boil the potatoes?",
+      "promptZh": "把薯仔煮熟需要多長時間？",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How long does it take to boil the potatoes?",
+      "answerZh": "把薯仔煮熟需要多長時間？",
+      "answerZhSource": "pdf",
+      "highlight": "How long does it take to boil the potatoes?"
+    },
+    {
+      "id": "ss241-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Opening this app requires very little effort.",
+      "promptZh": "開啟這個應用程式幾乎不費力。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It does not take much effort to open this app.",
+      "answerZh": "開啟這個應用程式不需要花太多力氣。",
+      "answerZhSource": "pdf",
+      "highlight": "It does not take much effort to open this app."
+    },
+    {
+      "id": "ss241-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Sarah needed two weeks to prepare for the interview.",
+      "promptZh": "莎拉花了兩星期準備面試。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It took Sarah two weeks to prepare for the interview.",
+      "answerZh": "莎拉花了兩星期準備面試。",
+      "answerZhSource": "pdf",
+      "highlight": "It took Sarah two weeks to prepare for the interview."
+    },
+    {
+      "id": "ss241-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Solving this problem may require several months.",
+      "promptZh": "解決這個問題可能需要數月時間。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It may take several months to solve this problem.",
+      "answerZh": "解決這個問題可能需要數月時間。",
+      "answerZhSource": "pdf",
+      "highlight": "It may take several months to solve this problem."
+    },
+    {
+      "id": "ss241-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Restarting the computer should require no more than a minute.",
+      "promptZh": "重新啟動電腦應該不需超過一分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It should take no more than a minute to restart the computer.",
+      "answerZh": "重新啟動電腦應該不需超過一分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "It should take no more than a minute to restart the computer."
+    },
+    {
+      "id": "ss241-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Does learning to drive require a long time?",
+      "promptZh": "學習駕駛需要很長時間嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Does",
+      "answer": "Does it take a long time to learn to drive?",
+      "answerZh": "學習駕駛需要很長時間嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Does it take a long time to learn to drive?"
+    },
+    {
+      "id": "ss241-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Restoring the old theatre has required many years.",
+      "promptZh": "修復這座舊劇院已花了多年時間。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It has taken many years to restore the old theatre.",
+      "answerZh": "修復這座舊劇院已花了多年時間。",
+      "answerZhSource": "pdf",
+      "highlight": "It has taken many years to restore the old theatre."
+    },
+    {
+      "id": "ss241-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Operating this small machine requires little energy.",
+      "promptZh": "操作這部小型機器只需少量能量。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It takes little energy to operate this small machine.",
+      "answerZh": "操作這部小型機器只需少量能量。",
+      "answerZhSource": "pdf",
+      "highlight": "It takes little energy to operate this small machine."
+    },
+    {
+      "id": "ss241-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "How much effort is required to organise the school fair?",
+      "promptZh": "籌辦學校嘉年華需要付出多少努力？",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How much effort does it take to organise the school fair?",
+      "answerZh": "籌辦學校嘉年華需要付出多少努力？",
+      "answerZhSource": "pdf",
+      "highlight": "How much effort does it take to organise the school fair?"
+    },
+    {
+      "id": "ss241-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The team needed the whole morning to move the equipment.",
+      "promptZh": "團隊花了整個早上搬運設備。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It took the team the whole morning to move the equipment.",
+      "answerZh": "團隊花了整個早上搬運設備。",
+      "answerZhSource": "pdf",
+      "highlight": "It took the team the whole morning to move the equipment."
+    },
+    {
+      "id": "ss241-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "You will need patience to deal with this difficult situation.",
+      "promptZh": "你需要耐性處理這個困難情況。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It will take patience to deal with this difficult situation.",
+      "answerZh": "處理這個困難情況需要耐性。",
+      "answerZhSource": "pdf",
+      "highlight": "It will take patience to deal with this difficult situation."
+    },
+    {
+      "id": "ss241-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Becoming fully confident in a new language can require years.",
+      "promptZh": "要對一種新語言完全有信心，可能需要多年時間。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It can take years to become fully confident in a new language.",
+      "answerZh": "要對一種新語言完全有信心，可能需要多年時間。",
+      "answerZhSource": "pdf",
+      "highlight": "It can take years to become fully confident in a new language."
+    },
+    {
+      "id": "ss241-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "People often forget that developing a strong friendship requires time.",
+      "promptZh": "人們經常忘記，建立深厚友誼需要時間。",
+      "promptZhSource": "pdf",
+      "starter": "People",
+      "answer": "People often forget that it takes time to develop a strong friendship.",
+      "answerZh": "人們經常忘記，建立深厚友誼需要時間。",
+      "answerZhSource": "pdf",
+      "highlight": "People often forget that it takes time to develop a strong friendship."
+    },
+    {
+      "id": "ss241-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The guide explains the amount of time needed to complete the walking tour.",
+      "promptZh": "指南說明完成步行導賞所需的時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guide explains how long it takes to complete the walking tour.",
+      "answerZh": "指南說明完成步行導賞需要多長時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The guide explains how long it takes to complete the walking tour."
+    },
+    {
+      "id": "ss241-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Nobody knows the exact amount of time needed to repair the damaged bridge.",
+      "promptZh": "沒有人知道修理受損橋樑確切需要多長時間。",
+      "promptZhSource": "pdf",
+      "starter": "Nobody",
+      "answer": "Nobody knows how long it will take to repair the damaged bridge.",
+      "answerZh": "沒有人知道修理受損橋樑需要多長時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Nobody knows how long it will take to repair the damaged bridge."
+    },
+    {
+      "id": "ss241-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Do you know how much effort is required to maintain this garden?",
+      "promptZh": "你知道打理這個花園需要付出多少努力嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do you know how much effort it takes to maintain this garden?",
+      "answerZh": "你知道打理這個花園需要付出多少努力嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Do you know how much effort it takes to maintain this garden?"
+    },
+    {
+      "id": "ss241-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "We were surprised that completing the project required only one day.",
+      "promptZh": "我們很驚訝，完成這個項目只花了一天。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We were surprised that it took only one day to complete the project.",
+      "answerZh": "我們很驚訝，完成這個項目只花了一天。",
+      "answerZhSource": "pdf",
+      "highlight": "We were surprised that it took only one day to complete the project."
+    },
+    {
+      "id": "ss241-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The coach says that regular practice is necessary to master this skill.",
+      "promptZh": "教練表示，要掌握這項技巧便需要定期練習。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach says that it takes regular practice to master this skill.",
+      "answerZh": "教練表示，要掌握這項技巧便需要定期練習。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach says that it takes regular practice to master this skill."
+    },
+    {
+      "id": "ss241-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Although the device looks simple, setting it up still requires thirty minutes.",
+      "promptZh": "雖然這部裝置看似簡單，但設定它仍需要三十分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the device looks simple, it still takes thirty minutes to set up.",
+      "answerZh": "雖然這部裝置看似簡單，但設定它仍需要三十分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the device looks simple, it still takes thirty minutes to set up."
+    },
+    {
+      "id": "ss241-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "When the roads are clear, the journey requires only twenty minutes.",
+      "promptZh": "道路暢通時，這段旅程只需二十分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the roads are clear, it takes only twenty minutes to complete the journey.",
+      "answerZh": "道路暢通時，完成這段旅程只需二十分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "When the roads are clear, it takes only twenty minutes to complete the journey."
+    },
+    {
+      "id": "ss241-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Because the task was complicated, the team needed three days to complete it.",
+      "promptZh": "由於任務複雜，團隊花了三天完成它。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the task was complicated, it took the team three days to complete it.",
+      "answerZh": "由於任務複雜，團隊花了三天完成它。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the task was complicated, it took the team three days to complete it."
+    },
+    {
+      "id": "ss241-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The report estimates that completing the new railway will require several years.",
+      "promptZh": "報告估計，完成新鐵路需要數年時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report estimates that it will take several years to complete the new railway.",
+      "answerZh": "報告估計，完成新鐵路需要數年時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The report estimates that it will take several years to complete the new railway."
+    },
+    {
+      "id": "ss241-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "What qualities are required to remain calm during an emergency?",
+      "promptZh": "在緊急情況下保持冷靜需要具備甚麼特質？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What does it take to remain calm during an emergency?",
+      "answerZh": "在緊急情況下保持冷靜需要具備甚麼？",
+      "answerZhSource": "pdf",
+      "highlight": "What does it take to remain calm during an emergency?"
+    },
+    {
+      "id": "ss241-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Is great physical strength required to operate this tool?",
+      "promptZh": "操作這件工具需要很大的體力嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Does",
+      "answer": "Does it take great physical strength to operate this tool?",
+      "answerZh": "操作這件工具需要很大的體力嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Does it take great physical strength to operate this tool?"
+    },
+    {
+      "id": "ss241-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Sarah asked how much time she would need to complete the course.",
+      "promptZh": "莎拉詢問自己完成課程需要多長時間。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah asked how long it would take her to complete the course.",
+      "answerZh": "莎拉詢問自己完成課程需要多長時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah asked how long it would take her to complete the course."
+    },
+    {
+      "id": "ss241-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "We were told that installing the new windows would require three days.",
+      "promptZh": "我們獲告知，安裝新窗戶需要三天。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We were told that it would take three days to install the new windows.",
+      "answerZh": "我們獲告知，安裝新窗戶需要三天。",
+      "answerZhSource": "pdf",
+      "highlight": "We were told that it would take three days to install the new windows."
+    },
+    {
+      "id": "ss241-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "No one expected the repair to require so much time.",
+      "promptZh": "沒有人預料維修需要這麼長時間。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No one expected it to take so much time to complete the repair.",
+      "answerZh": "沒有人預料完成維修需要這麼長時間。",
+      "answerZhSource": "pdf",
+      "highlight": "No one expected it to take so much time to complete the repair."
+    },
+    {
+      "id": "ss241-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The app promises that creating a new account requires less than five minutes.",
+      "promptZh": "這個應用程式承諾，建立新戶口不需五分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The app promises that it takes less than five minutes to create a new account.",
+      "answerZh": "這個應用程式承諾，建立新戶口不需五分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "The app promises that it takes less than five minutes to create a new account."
+    },
+    {
+      "id": "ss241-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Even experts need complete concentration to perform this operation safely.",
+      "promptZh": "即使是專家，也需要全神貫注才能安全地進行這項操作。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even for experts, it takes complete concentration to perform this operation safely.",
+      "answerZh": "即使是專家，要安全地進行這項操作也需要全神貫注。",
+      "answerZhSource": "pdf",
+      "highlight": "Even for experts, it takes complete concentration to perform this operation safely."
+    },
+    {
+      "id": "ss241-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Trust develops only after months of honest communication.",
+      "promptZh": "信任要經過數月坦誠溝通才能建立。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It takes months of honest communication to build trust.",
+      "answerZh": "建立信任需要數月坦誠溝通。",
+      "answerZhSource": "pdf",
+      "highlight": "It takes months of honest communication to build trust."
+    },
+    {
+      "id": "ss241-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The manager wanted an estimate of the time needed to update the entire system.",
+      "promptZh": "經理想知道更新整個系統預計需要多長時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager wanted to know how long it would take to update the entire system.",
+      "answerZh": "經理想知道更新整個系統需要多長時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager wanted to know how long it would take to update the entire system."
+    },
+    {
+      "id": "ss241-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The doctor explained that full recovery might require several months.",
+      "promptZh": "醫生解釋，完全康復可能需要數月時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor explained that it might take several months to make a full recovery.",
+      "answerZh": "醫生解釋，完全康復可能需要數月時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor explained that it might take several months to make a full recovery."
+    },
+    {
+      "id": "ss241-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The time needed to learn the software depends on the user’s previous experience.",
+      "promptZh": "學習這套軟件所需的時間取決於使用者過往的經驗。",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How long it takes to learn the software depends on the user’s previous experience.",
+      "answerZh": "學習這套軟件需要多長時間，取決於使用者過往的經驗。",
+      "answerZhSource": "pdf",
+      "highlight": "How long it takes to learn the software depends on the user’s previous experience."
+    },
+    {
+      "id": "ss241-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "People often underestimate the effort required to change a long-standing habit.",
+      "promptZh": "人們經常低估改變長期習慣所需的努力。",
+      "promptZhSource": "pdf",
+      "starter": "People",
+      "answer": "People often underestimate how much effort it takes to change a long-standing habit.",
+      "answerZh": "人們經常低估改變長期習慣需要付出多少努力。",
+      "answerZhSource": "pdf",
+      "highlight": "People often underestimate how much effort it takes to change a long-standing habit."
+    },
+    {
+      "id": "ss241-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "For a complete beginner, learning these movements may require many hours of practice.",
+      "promptZh": "對完全沒有經驗的初學者而言，學習這些動作可能需要多小時練習。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For a complete beginner, it may take many hours of practice to learn these movements.",
+      "answerZh": "對完全沒有經驗的初學者而言，學習這些動作可能需要多小時練習。",
+      "answerZhSource": "pdf",
+      "highlight": "For a complete beginner, it may take many hours of practice to learn these movements."
+    },
+    {
+      "id": "ss241-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Although the deadline is tight, completing the work safely will require at least three days.",
+      "promptZh": "雖然限期緊迫，但要安全地完成工作至少需要三天。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the deadline is tight, it will take at least three days to complete the work safely.",
+      "answerZh": "雖然限期緊迫，但要安全地完成工作至少需要三天。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the deadline is tight, it will take at least three days to complete the work safely."
+    },
+    {
+      "id": "ss241-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Whether the investigation requires weeks or months depends on the evidence available.",
+      "promptZh": "調查需要數星期還是數月，取決於現有證據。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether it takes weeks or months to complete the investigation depends on the evidence available.",
+      "answerZh": "完成調查需要數星期還是數月，取決於現有證據。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether it takes weeks or months to complete the investigation depends on the evidence available."
+    },
+    {
+      "id": "ss241-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The committee could not agree on the amount of time needed to introduce the new policy.",
+      "promptZh": "委員會未能就推行新政策所需的時間達成共識。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee could not agree on how long it would take to introduce the new policy.",
+      "answerZh": "委員會未能就推行新政策需要多長時間達成共識。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee could not agree on how long it would take to introduce the new policy."
+    },
+    {
+      "id": "ss241-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Giving a sincere apology requires both courage and careful thought.",
+      "promptZh": "作出真誠道歉既需要勇氣，也需要深思熟慮。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It takes both courage and careful thought to give a sincere apology.",
+      "answerZh": "作出真誠道歉既需要勇氣，也需要深思熟慮。",
+      "answerZhSource": "pdf",
+      "highlight": "It takes both courage and careful thought to give a sincere apology."
+    },
+    {
+      "id": "ss241-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The public may not realise that developing a safe medicine requires many years of research.",
+      "promptZh": "公眾未必知道，研發安全藥物需要多年的研究。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The public may not realise how many years of research it takes to develop a safe medicine.",
+      "answerZh": "公眾未必知道，研發安全藥物需要多少年的研究。",
+      "answerZhSource": "pdf",
+      "highlight": "The public may not realise how many years of research it takes to develop a safe medicine."
+    },
+    {
+      "id": "ss241-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Before approving the plan, we must consider whether completing it will require too much of the team’s time and effort.",
+      "promptZh": "批准計劃前，我們必須考慮完成它會否耗費團隊過多時間和精力。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before approving the plan, we must consider whether it will take the team too much time and effort to complete it.",
+      "answerZh": "批准計劃前，我們必須考慮完成它會否耗費團隊過多時間和精力。",
+      "answerZhSource": "pdf",
+      "highlight": "Before approving the plan, we must consider whether it will take the team too much time and effort to complete it."
+    },
+    {
+      "id": "ss241-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 18,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "A task that appears simple may still require considerable skill and patience to perform well.",
+      "promptZh": "一項看似簡單的工作，要做好仍可能需要相當的技巧和耐性。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even when a task appears simple, it can take considerable skill and patience to perform it well.",
+      "answerZh": "即使一項工作看似簡單，要做好仍可能需要相當的技巧和耐性。",
+      "answerZhSource": "pdf",
+      "highlight": "Even when a task appears simple, it can take considerable skill and patience to perform it well."
+    }
+  ]
+}

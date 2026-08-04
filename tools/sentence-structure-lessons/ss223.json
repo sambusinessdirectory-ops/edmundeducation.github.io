@@ -1,0 +1,1207 @@
+{
+  "id": "ss223",
+  "order": 223,
+  "slug": "hardly-when-inversion",
+  "title": "「Hardly ... when ...」倒裝句",
+  "titleZh": "「Hardly ... when ...」倒裝句",
+  "titleEn": "Using “Hardly ... when ...” inversion",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 222 -「Hardly ... when ...」倒裝句.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 222; it is assigned system ID ss223 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "Hardly + had + subject + past participle + when + subject + past simple",
+  "formulas": [
+    {
+      "id": "ss223-formula-01",
+      "labelEn": "Past sequence",
+      "labelZh": "過去事件次序",
+      "formula": "Hardly + had + subject + past participle + when + subject + past simple"
+    }
+  ],
+  "example": "Hardly had we sat down when the fire alarm went off.",
+  "exampleZh": "我們才剛坐下，火警鐘就響了。",
+  "examples": [
+    {
+      "id": "ss223-example-01",
+      "en": "Hardly had we sat down when the fire alarm went off.",
+      "zh": "我們才剛坐下，火警鐘就響了。",
+      "highlight": "Hardly had we sat down when the fire alarm went off."
+    }
+  ],
+  "meaning": {
+    "zh": "這個句型表示第一件事情才剛發生，第二件事情便立即或幾乎立即發生。"
+  },
+  "rules": [
+    {
+      "id": "ss223-rule-01",
+      "zh": "放在句首時，必須使用倒裝 正確： Hardly had we sat down when the fire alarm went off. 錯誤： Hardly we had sat down when the fire alarm went off. had 必須放在主語 we 前面。",
+      "en": "When Hardly begins the sentence, use inversion by placing had before the subject.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss223-rule-02",
+      "zh": "第一件事情使用過去完成式 句式： had + past participle 例如： ● had sat ● had arrived ● had finished ● had gone ● had been opened 第一部分描述先發生的事情。",
+      "en": "Use the past perfect, had + past participle, for the first event.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss223-rule-03",
+      "zh": "第二件事情通常使用一般過去式 Hardly had the lesson started when the lights went out. ● had started：先發生 ● went out：緊接着發生",
+      "en": "Use the past simple for the second event after when.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss223-rule-04",
+      "zh": "與 when 配搭 正確： Hardly had I arrived when the meeting began. 錯誤： Hardly had I arrived than the meeting began. Hardly 通常與 when 配搭。",
+      "en": "Pair Hardly with when, not than.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss223-rule-05",
+      "zh": "已包含「才剛」的意思 不要在第一部分再加入 just。 錯誤： Hardly had I just arrived when the meeting began. 正確： Hardly had I arrived when the meeting began.",
+      "en": "Hardly already means that the event had only just happened, so do not add just to the first clause.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss223-rule-06",
+      "zh": "不要漏掉 had 錯誤： Hardly I arrived when the meeting began. 正確： Hardly had I arrived when the meeting began.",
+      "en": "Do not omit had from the inverted opening.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss223-rule-07",
+      "zh": "兩件事情必須非常接近 這個句型不適合描述相隔很久的事件。 不自然： Hardly had Leo moved to London when he bought a house five years later. 第二件事情必須在第一件事情之後立即或很快發生。",
+      "en": "The two events must be very close in time; the second should happen immediately or very soon after the first.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss223-benefit-01",
+      "zh": "清楚表達兩件事情相隔很短時間 這個句型讓讀者立即明白，第二件事情幾乎在第一件事情完成後便發生。",
+      "en": "It clearly shows that very little time passed between the two events.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss223-benefit-02",
+      "zh": "令故事更有節奏 Hardly ... when ... 能突出突然而迅速的轉變，因此特別適合用來敘述故事、意外和令人驚訝的事 情。",
+      "en": "It gives stories a stronger rhythm by highlighting a sudden and rapid change.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss223-benefit-03",
+      "zh": "把兩個短句連接起來 Instead of: We sat down. The fire alarm went off immediately. You can write: Hardly had we sat down when the fire alarm went off. 你可以把兩件緊接發生的事情合併成一句完整句子。",
+      "en": "It combines two short events into one complete sentence and makes their immediate relationship clear.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss223-benefit-04",
+      "zh": "增加句式變化 學生經常使用： ● Then ... ● After that ... ● As soon as ... ● A moment later ... Hardly ... when ... 提供另一種表達方法，避免文章不斷使用相同的句式。",
+      "en": "It adds sentence variety alongside expressions such as Then, After that, As soon as and A moment later.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss223-benefit-05",
+      "zh": "適合故事、作文和較正式的敘述 這個句型可以令故事更生動，也適合在作文、報告或較正式的敘述中強調事情發生得非常快。",
+      "en": "It is useful in stories, essays, reports and formal narration when events happen in rapid succession.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 222; it is assigned system ID ss223 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using Hardly ... when ... to show that the second event followed almost immediately.",
+      "Follow the supplied first word and preserve the original meaning."
+    ],
+    "zh": [
+      "使用 Hardly ... when ... 改寫每題，表示第二件事情在第一件事情之後幾乎立即發生。",
+      "按照已提供的第一個字作答，並保留原句意思。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss223-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "As soon as we sat down, the fire alarm went off.",
+      "promptZh": "我們一坐下，火警鐘便響了。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had we sat down when the fire alarm went off.",
+      "answerZh": "我們才剛坐下，火警鐘就響了。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had we sat down when the fire alarm went off."
+    },
+    {
+      "id": "ss223-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The moment Mia closed the door, someone knocked.",
+      "promptZh": "米婭一關上門，便有人敲門。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had Mia closed the door when someone knocked.",
+      "answerZh": "米婭才剛關上門，便有人敲門。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had Mia closed the door when someone knocked."
+    },
+    {
+      "id": "ss223-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Just after the lesson started, the lights went out.",
+      "promptZh": "課堂開始後不久，燈便熄滅了。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the lesson started when the lights went out.",
+      "answerZh": "課堂才剛開始，燈便熄滅了。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the lesson started when the lights went out."
+    },
+    {
+      "id": "ss223-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Tom had only just gone to bed when his phone rang.",
+      "promptZh": "湯姆才剛上床睡覺，他的電話便響了。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had Tom gone to bed when his phone rang.",
+      "answerZh": "湯姆才剛上床睡覺，他的電話便響了。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had Tom gone to bed when his phone rang."
+    },
+    {
+      "id": "ss223-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Immediately after I opened my umbrella, the rain stopped.",
+      "promptZh": "我一打開雨傘，雨便停了。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had I opened my umbrella when the rain stopped.",
+      "answerZh": "我才剛打開雨傘，雨便停了。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had I opened my umbrella when the rain stopped."
+    },
+    {
+      "id": "ss223-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The bus had just left when Leo realised that his bag was still on it.",
+      "promptZh": "巴士才剛開走，里奧便發現自己的袋子仍在車上。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the bus left when Leo realised that his bag was still on it.",
+      "answerZh": "巴士才剛開走，里奧便發現自己的袋子仍在車上。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the bus left when Leo realised that his bag was still on it."
+    },
+    {
+      "id": "ss223-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "As soon as the baby fell asleep, the dog began to bark.",
+      "promptZh": "嬰兒一入睡，狗便開始吠叫。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the baby fallen asleep when the dog began to bark.",
+      "answerZh": "嬰兒才剛入睡，狗便開始吠叫。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the baby fallen asleep when the dog began to bark."
+    },
+    {
+      "id": "ss223-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Ava turned on the computer, and almost immediately the screen froze.",
+      "promptZh": "艾娃開啟電腦後，螢幕幾乎立即停止運作。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had Ava turned on the computer when the screen froze.",
+      "answerZh": "艾娃才剛開啟電腦，螢幕便停止運作。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had Ava turned on the computer when the screen froze."
+    },
+    {
+      "id": "ss223-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The train arrived the moment we reached the station.",
+      "promptZh": "我們一到達車站，火車便到了。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had we reached the station when the train arrived.",
+      "answerZh": "我們才剛到達車站，火車便到了。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had we reached the station when the train arrived."
+    },
+    {
+      "id": "ss223-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Right after Ben put the cake on the table, his sister took a piece.",
+      "promptZh": "本剛把蛋糕放在桌上，他的妹妹便拿了一件。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had Ben put the cake on the table when his sister took a piece.",
+      "answerZh": "本才剛把蛋糕放在桌上，他的妹妹便拿了一件。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had Ben put the cake on the table when his sister took a piece."
+    },
+    {
+      "id": "ss223-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The match had only just begun when it started to rain.",
+      "promptZh": "比賽才剛開始，天便下起雨來。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the match begun when it started to rain.",
+      "answerZh": "比賽才剛開始，天便下起雨來。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the match begun when it started to rain."
+    },
+    {
+      "id": "ss223-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "As soon as Sarah entered the shop, she saw the bag she wanted.",
+      "promptZh": "莎拉一走進商店，便看見她想要的袋子。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had Sarah entered the shop when she saw the bag she wanted.",
+      "answerZh": "莎拉才剛走進商店，便看見她想要的袋子。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had Sarah entered the shop when she saw the bag she wanted."
+    },
+    {
+      "id": "ss223-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I sent the message. A moment later, I noticed a spelling mistake.",
+      "promptZh": "我發出了訊息。片刻後，我便發現一個串字錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had I sent the message when I noticed a spelling mistake.",
+      "answerZh": "我才剛發出訊息，便發現一個串字錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had I sent the message when I noticed a spelling mistake."
+    },
+    {
+      "id": "ss223-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The moment the teacher asked the question, Omar raised his hand.",
+      "promptZh": "老師一提出問題，奧馬爾便舉手。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the teacher asked the question when Omar raised his hand.",
+      "answerZh": "老師才剛提出問題，奧馬爾便舉手。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the teacher asked the question when Omar raised his hand."
+    },
+    {
+      "id": "ss223-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Immediately after the guests arrived, dinner was served.",
+      "promptZh": "客人到達後，晚餐便立即上桌。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the guests arrived when dinner was served.",
+      "answerZh": "客人才剛到達，晚餐便上桌了。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the guests arrived when dinner was served."
+    },
+    {
+      "id": "ss223-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Daniel had just stepped outside when he heard thunder.",
+      "promptZh": "丹尼爾才剛走到外面，便聽到雷聲。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had Daniel stepped outside when he heard thunder.",
+      "answerZh": "丹尼爾才剛走到外面，便聽到雷聲。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had Daniel stepped outside when he heard thunder."
+    },
+    {
+      "id": "ss223-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Just after the film started, a baby began to cry.",
+      "promptZh": "電影開始後不久，一名嬰兒便開始哭泣。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the film started when a baby began to cry.",
+      "answerZh": "電影才剛開始，一名嬰兒便開始哭泣。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the film started when a baby began to cry."
+    },
+    {
+      "id": "ss223-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Chloe paid for her coffee, and almost immediately she dropped it.",
+      "promptZh": "克洛伊付了咖啡的錢後，幾乎立即把咖啡掉在地上。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had Chloe paid for her coffee when she dropped it.",
+      "answerZh": "克洛伊才剛付了咖啡的錢，便把咖啡掉在地上。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had Chloe paid for her coffee when she dropped it."
+    },
+    {
+      "id": "ss223-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "As soon as the doctor entered the room, the patient asked a question.",
+      "promptZh": "醫生一走進房間，病人便提出問題。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the doctor entered the room when the patient asked a question.",
+      "answerZh": "醫生才剛走進房間，病人便提出問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the doctor entered the room when the patient asked a question."
+    },
+    {
+      "id": "ss223-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We had only just unpacked our bags when the hotel fire alarm sounded.",
+      "promptZh": "我們才剛把行李拿出來，酒店的火警鐘便響了。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had we unpacked our bags when the hotel fire alarm sounded.",
+      "answerZh": "我們才剛把行李拿出來，酒店的火警鐘便響了。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had we unpacked our bags when the hotel fire alarm sounded."
+    },
+    {
+      "id": "ss223-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The road was reopened, but another accident blocked it almost immediately.",
+      "promptZh": "道路重新開放後，另一宗意外幾乎立即把它堵塞了。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the road been reopened when another accident blocked it.",
+      "answerZh": "道路才剛重新開放，另一宗意外便把它堵塞了。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the road been reopened when another accident blocked it."
+    },
+    {
+      "id": "ss223-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "No sooner had the new printer been installed than it stopped working.",
+      "promptZh": "新打印機才剛安裝完成，便停止運作。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the new printer been installed when it stopped working.",
+      "answerZh": "新打印機才剛安裝完成，便停止運作。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the new printer been installed when it stopped working."
+    },
+    {
+      "id": "ss223-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The children finished lunch. Seconds later, the bell rang.",
+      "promptZh": "孩子們吃完午餐。數秒後，鐘聲便響起。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the children finished lunch when the bell rang.",
+      "answerZh": "孩子們才剛吃完午餐，鐘聲便響起。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the children finished lunch when the bell rang."
+    },
+    {
+      "id": "ss223-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Nina had only just put her phone away when it rang again.",
+      "promptZh": "妮娜才剛把電話收起來，電話便再次響起。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had Nina put her phone away when it rang again.",
+      "answerZh": "妮娜才剛把電話收起來，電話便再次響起。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had Nina put her phone away when it rang again."
+    },
+    {
+      "id": "ss223-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Immediately after the team scored its first goal, the other side scored.",
+      "promptZh": "球隊射入第一球後，對方球隊便立即入球。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the team scored its first goal when the other side scored.",
+      "answerZh": "球隊才剛射入第一球，對方球隊便入球。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the team scored its first goal when the other side scored."
+    },
+    {
+      "id": "ss223-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The moment the museum opened, a large group of visitors arrived.",
+      "promptZh": "博物館一開門，一大群訪客便到達。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the museum opened when a large group of visitors arrived.",
+      "answerZh": "博物館才剛開門，一大群訪客便到達。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the museum opened when a large group of visitors arrived."
+    },
+    {
+      "id": "ss223-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ethan locked the front door, and almost at once he remembered that his keys were inside.",
+      "promptZh": "伊森鎖上前門後，幾乎立即想起自己的鑰匙仍在屋內。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had Ethan locked the front door when he remembered that his keys were inside.",
+      "answerZh": "伊森才剛鎖上前門，便想起自己的鑰匙仍在屋內。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had Ethan locked the front door when he remembered that his keys were inside."
+    },
+    {
+      "id": "ss223-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "As soon as the nurse left the room, the patient called her back.",
+      "promptZh": "護士一離開房間，病人便把她叫回來。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the nurse left the room when the patient called her back.",
+      "answerZh": "護士才剛離開房間，病人便把她叫回來。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the nurse left the room when the patient called her back."
+    },
+    {
+      "id": "ss223-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The meeting had just ended when the manager announced another one.",
+      "promptZh": "會議才剛結束，經理便宣布要舉行另一場會議。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the meeting ended when the manager announced another one.",
+      "answerZh": "會議才剛結束，經理便宣布要舉行另一場會議。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the meeting ended when the manager announced another one."
+    },
+    {
+      "id": "ss223-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "No sooner had the workers repaired the pipe than it began to leak again.",
+      "promptZh": "工人才剛修好水管，水管便再次漏水。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the workers repaired the pipe when it began to leak again.",
+      "answerZh": "工人才剛修好水管，水管便再次漏水。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the workers repaired the pipe when it began to leak again."
+    },
+    {
+      "id": "ss223-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I had only just taken the first bite when I realised that the soup was too salty.",
+      "promptZh": "我才剛吃下第一口，便發現湯太鹹。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had I taken the first bite when I realised that the soup was too salty.",
+      "answerZh": "我才剛吃下第一口，便發現湯太鹹。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had I taken the first bite when I realised that the soup was too salty."
+    },
+    {
+      "id": "ss223-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The children walked onto the beach, and the lifeguard almost immediately told everyone to leave the water.",
+      "promptZh": "孩子們走到沙灘後，救生員幾乎立即叫所有人離開水面。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the children walked onto the beach when the lifeguard told everyone to leave the water.",
+      "answerZh": "孩子們才剛走到沙灘，救生員便叫所有人離開水面。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the children walked onto the beach when the lifeguard told everyone to leave the water."
+    },
+    {
+      "id": "ss223-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The online lesson had only just begun when the internet connection failed.",
+      "promptZh": "網上課堂才剛開始，互聯網連線便中斷了。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the online lesson begun when the internet connection failed.",
+      "answerZh": "網上課堂才剛開始，互聯網連線便中斷了。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the online lesson begun when the internet connection failed."
+    },
+    {
+      "id": "ss223-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The package was delivered. Almost immediately, the customer reported that an item was missing.",
+      "promptZh": "包裹已經送達。顧客幾乎立即報告其中一件物品不見了。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the package been delivered when the customer reported that an item was missing.",
+      "answerZh": "包裹才剛送達，顧客便報告其中一件物品不見了。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the package been delivered when the customer reported that an item was missing."
+    },
+    {
+      "id": "ss223-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Just after Grace finished cleaning the floor, her dog ran across it with muddy feet.",
+      "promptZh": "格蕾絲剛清潔完地板，她的狗便用沾滿泥濘的腳跑過地板。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had Grace finished cleaning the floor when her dog ran across it with muddy feet.",
+      "answerZh": "格蕾絲才剛清潔完地板，她的狗便用沾滿泥濘的腳跑過地板。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had Grace finished cleaning the floor when her dog ran across it with muddy feet."
+    },
+    {
+      "id": "ss223-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The plane landed, and several passengers stood up almost at once to get their bags.",
+      "promptZh": "飛機降落後，數名乘客幾乎立即站起來拿取行李。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the plane landed when several passengers stood up to get their bags.",
+      "answerZh": "飛機才剛降落，數名乘客便站起來拿取行李。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the plane landed when several passengers stood up to get their bags."
+    },
+    {
+      "id": "ss223-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "No sooner had the shop assistant changed the price sign than the manager told her to change it back.",
+      "promptZh": "店員才剛更改價錢牌，經理便叫她把價錢改回原來的數目。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the shop assistant changed the price sign when the manager told her to change it back.",
+      "answerZh": "店員才剛更改價錢牌，經理便叫她把價錢改回原來的數目。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the shop assistant changed the price sign when the manager told her to change it back."
+    },
+    {
+      "id": "ss223-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Immediately after the town repaired the bridge, heavy rain damaged it again.",
+      "promptZh": "鎮上剛修好大橋，暴雨便再次破壞了大橋。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the town repaired the bridge when heavy rain damaged it again.",
+      "answerZh": "鎮上才剛修好大橋，暴雨便再次破壞了大橋。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the town repaired the bridge when heavy rain damaged it again."
+    },
+    {
+      "id": "ss223-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We found our seats. A few seconds later, the lights went down and the play began.",
+      "promptZh": "我們找到座位。數秒後，燈光便暗下來，表演亦開始了。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had we found our seats when the lights went down and the play began.",
+      "answerZh": "我們才剛找到座位，燈光便暗下來，表演亦開始了。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had we found our seats when the lights went down and the play began."
+    },
+    {
+      "id": "ss223-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "As soon as the police cleared the road, another broken-down car blocked one lane.",
+      "promptZh": "警員一清理好道路，另一輛壞掉的汽車便堵塞了其中一條行車線。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the police cleared the road when another broken-down car blocked one lane.",
+      "answerZh": "警員才剛清理好道路，另一輛壞掉的汽車便堵塞了其中一條行車線。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the police cleared the road when another broken-down car blocked one lane."
+    },
+    {
+      "id": "ss223-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The school had only just introduced the new timetable when several parents asked for changes.",
+      "promptZh": "學校才剛推出新時間表，數名家長便要求作出更改。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the school introduced the new timetable when several parents asked for changes.",
+      "answerZh": "學校才剛推出新時間表，數名家長便要求作出更改。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the school introduced the new timetable when several parents asked for changes."
+    },
+    {
+      "id": "ss223-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The moment the hospital opened the new waiting area, it became too crowded.",
+      "promptZh": "醫院一開放新的等候區，該處便變得過於擠迫。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the hospital opened the new waiting area when it became too crowded.",
+      "answerZh": "醫院才剛開放新的等候區，該處便變得過於擠迫。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the hospital opened the new waiting area when it became too crowded."
+    },
+    {
+      "id": "ss223-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "No sooner had the company sent the final report than a client pointed out an error on the first page.",
+      "promptZh": "公司才剛發出最終報告，一名客戶便指出第一頁有一個錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the company sent the final report when a client pointed out an error on the first page.",
+      "answerZh": "公司才剛發出最終報告，一名客戶便指出第一頁有一個錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the company sent the final report when a client pointed out an error on the first page."
+    },
+    {
+      "id": "ss223-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hikers reached the shelter, and almost immediately strong winds began to shake the windows.",
+      "promptZh": "遠足者到達遮蔽處後，強風幾乎立即開始令窗戶搖晃。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the hikers reached the shelter when strong winds began to shake the windows.",
+      "answerZh": "遠足者才剛到達遮蔽處，強風便開始令窗戶搖晃。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the hikers reached the shelter when strong winds began to shake the windows."
+    },
+    {
+      "id": "ss223-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Just after the restaurant reopened following repairs, a water pipe burst in the kitchen.",
+      "promptZh": "餐廳維修後才剛重新營業，廚房的一條水管便爆裂了。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the restaurant reopened after repairs when a water pipe burst in the kitchen.",
+      "answerZh": "餐廳維修後才剛重新營業，廚房的一條水管便爆裂了。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the restaurant reopened after repairs when a water pipe burst in the kitchen."
+    },
+    {
+      "id": "ss223-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The council had only just planted the young trees when a storm damaged several of them.",
+      "promptZh": "市政當局才剛種下幼樹，暴風雨便破壞了其中數棵。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the council planted the young trees when a storm damaged several of them.",
+      "answerZh": "市政當局才剛種下幼樹，暴風雨便破壞了其中數棵。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the council planted the young trees when a storm damaged several of them."
+    },
+    {
+      "id": "ss223-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "As soon as the coach explained the new plan, one player noticed that the team did not have enough time to practise it.",
+      "promptZh": "教練一解釋新計劃，一名球員便發現球隊沒有足夠時間練習。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the coach explained the new plan when one player noticed that the team did not have enough time to practise it.",
+      "answerZh": "教練才剛解釋新計劃，一名球員便發現球隊沒有足夠時間練習。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the coach explained the new plan when one player noticed that the team did not have enough time to practise it."
+    },
+    {
+      "id": "ss223-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Almost immediately after the library launched its online booking system, users began reporting problems with their passwords.",
+      "promptZh": "圖書館推出網上預約系統後，用戶幾乎立即開始報告密碼方面的問題。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the library launched its online booking system when users began reporting problems with their passwords.",
+      "answerZh": "圖書館才剛推出網上預約系統，用戶便開始報告密碼方面的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the library launched its online booking system when users began reporting problems with their passwords."
+    },
+    {
+      "id": "ss223-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "No sooner had the rescue team reached the village than another call for help came from the other side of the mountain.",
+      "promptZh": "救援隊才剛到達村莊，山的另一邊便傳來另一個求助電話。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the rescue team reached the village when another call for help came from the other side of the mountain.",
+      "answerZh": "救援隊才剛到達村莊，山的另一邊便傳來另一個求助電話。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the rescue team reached the village when another call for help came from the other side of the mountain."
+    },
+    {
+      "id": "ss223-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school had just finished testing its new alarm system when a real emergency forced everyone to leave the building.",
+      "promptZh": "學校才剛完成測試新的警報系統，一宗真正的緊急事故便迫使所有人離開大樓。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the school finished testing its new alarm system when a real emergency forced everyone to leave the building.",
+      "answerZh": "學校才剛完成測試新的警報系統，一宗真正的緊急事故便迫使所有人離開大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the school finished testing its new alarm system when a real emergency forced everyone to leave the building."
+    }
+  ]
+}

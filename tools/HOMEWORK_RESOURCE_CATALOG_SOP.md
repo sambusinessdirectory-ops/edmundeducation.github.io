@@ -4,9 +4,11 @@
 **Repository:** `sambusinessdirectory-ops/edmundeducation.github.io`  
 **Production site:** <https://edmundeducation.com/>  
 **Document owner:** EdmundEducation  
-**Effective date:** 27 July 2026  
-**SOP version:** 1.0  
-**Last technically verified against:** commit `18613dd03a5f2dbc03d6762608a81d8494eea29e`  
+**Effective date:** 4 August 2026
+
+**SOP version:** 1.1
+
+**Last technically verified against:** the 275-lesson Sentence Structure release
 **Review frequency:** after any generator, deep-link, Schedule storage, or deployment-workflow change; otherwise at least quarterly
 
 ---
@@ -21,6 +23,10 @@ The catalogue supplies exact exercise links for these Schedule slot options:
 2. **Fill in the blanks** in Writing Practice
 3. **Speaking**
 4. **Sentence Structure**
+5. **Idiom**
+6. **Proverb**
+7. **Phrasal Verb**
+8. **Writing Submission**
 
 The objective is that an administrator can add an exact exercise to a Homework slot and a student can later open that exact exercise—not merely the portal homepage—without exposing unsafe or external URLs.
 
@@ -94,17 +100,21 @@ As of the verification commit above:
 
 | Resource type | Count |
 |---|---:|
-| Flashcards | 804 |
+| Flashcards | 1,261 |
 | Fill in the blanks / Writing Practice | 310 |
 | Speaking | 787 |
-| Sentence Structure | 218 |
-| **Total** | **2,119** |
+| Sentence Structure | 275 |
+| Idiom | 25 |
+| Proverb | 1 |
+| Phrasal Verb | 35 |
+| Writing Submission | 1 |
+| **Total** | **2,695** |
 
 Additional baseline facts:
 
-- Unique final resource IDs: **2,119**
+- Unique final resource IDs: **2,695**
 - Non-empty IELTS Task 2 Flashcard decks: **232**
-- Generated catalogue size: approximately **709,321 bytes**
+- Generated catalogue size: **1,017,013 bytes**
 - Production Pages cache currently advertises up to approximately **600 seconds**
 
 These counts are a baseline, not permanent targets. Every intentional change must explain its exact count delta.
@@ -390,7 +400,7 @@ The generator:
 1. Uses the website directory as its root.
 2. Evaluates trusted data files in a Node VM containing a `window` object.
 3. Enforces a 20-second evaluation timeout per file.
-4. Builds the four resource collections.
+4. Builds the eight supported resource collections.
 5. Sorts the combined result by resource `type`, then English-locale numeric-aware `label`.
 6. Rejects duplicate final resource IDs.
 7. Writes a frozen, deterministic ES module.
@@ -501,7 +511,7 @@ Every catalogue and saved resource is revalidated before rendering.
 Accepted links must:
 
 - resolve to origin `https://edmundeducation.com`;
-- use one of the four exact allowlisted paths;
+- use one of the eight exact allowlisted paths;
 - contain the correct non-empty query parameter;
 - contain no other query parameter names;
 - contain no username or password URL components.
@@ -579,7 +589,7 @@ Choose one category:
 | Metadata correction | Correct title/detail without changing ID | Search display and snapshot behaviour |
 | Content removal | Retire exercise | Existing saved links and compatibility plan |
 | ID/route change | Rename an ID or query contract | Major migration; never treat as content-only |
-| Generator change | Modify source parsing/sorting/schema | Full four-portal regression and deterministic-output review |
+| Generator change | Modify source parsing/sorting/schema | Full eight-portal regression and deterministic-output review |
 | New resource type | Add another portal family | Security allowlist, extraction, UI, persistence, target handler, tests |
 
 ### 12.3 Add or update the canonical portal content
@@ -760,10 +770,10 @@ Do not replace every expected count with whatever the generator produced. Count 
 
 Current pinned categories:
 
-- Flashcards: 804
+- Flashcards: 1,261
 - Fill in the blanks: 310
 - Speaking: 787
-- Sentence Structure: 218
+- Sentence Structure: 275
 - Non-empty IELTS Task 2 Flashcard decks: 232
 
 ### 12.10 Run mandatory automated tests
@@ -794,7 +804,7 @@ The catalogue test verifies:
 - exact equality between sources and tracked catalogue;
 - Mass Edit integration;
 - native accessible anchors;
-- all four deep-link query contracts;
+- all eight deep-link query contracts;
 - generator execution before Pages file copying.
 
 Also run the affected portal’s tests.
@@ -1297,7 +1307,7 @@ Run quarterly and after any major portal restructure.
 6. Verify every generated resource passes the same-origin validator.
 7. Confirm Speaking limits are parsed correctly.
 8. Confirm each HTML page still includes its canonical data scripts.
-9. Run the mandatory and all four portal regression suites.
+9. Run the mandatory and all eight portal regression suites.
 10. Sample at least five exact links per resource type.
 11. Include one authorised and one unauthorised account check.
 12. Include one desktop, one phone/tablet, and one keyboard-only check.

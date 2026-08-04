@@ -1,0 +1,1326 @@
+{
+  "id": "ss250",
+  "order": 250,
+  "slug": "there-is-more-to-x-than-y",
+  "title": "「There is more to X than Y」句",
+  "titleZh": "「There is more to X than Y」表示事情不只表面因素",
+  "titleEn": "There is more to X than Y",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence Structure 249 - There Is More to X Than Y.pdf",
+    "pageCount": 25,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "exercisePages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "answerPages": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 249; it is assigned system ID ss250 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "There is more to X than Y",
+  "formulas": [
+    {
+      "id": "ss250-formula-01",
+      "labelEn": "Basic",
+      "labelZh": "基本句型",
+      "formula": "There is more to X than Y"
+    },
+    {
+      "id": "ss250-formula-02",
+      "labelEn": "Different tense",
+      "labelZh": "不同時態",
+      "formula": "There was / has been / had been / will be more to X than Y"
+    },
+    {
+      "id": "ss250-formula-03",
+      "labelEn": "Modal",
+      "labelZh": "情態形式",
+      "formula": "There may / could / must be more to X than Y"
+    },
+    {
+      "id": "ss250-formula-04",
+      "labelEn": "Seem or appear",
+      "labelZh": "配合 seem 或 appear",
+      "formula": "There seems / appears to be more to X than Y"
+    },
+    {
+      "id": "ss250-formula-05",
+      "labelEn": "Question",
+      "labelZh": "疑問形式",
+      "formula": "Is / Was / Could there be more to X than Y?"
+    },
+    {
+      "id": "ss250-formula-06",
+      "labelEn": "Embedded",
+      "labelZh": "嵌入子句",
+      "formula": "Subject + verb + that + there is more to X than Y"
+    },
+    {
+      "id": "ss250-formula-07",
+      "labelEn": "Pronoun",
+      "labelZh": "代名詞形式",
+      "formula": "There is more to it than that"
+    },
+    {
+      "id": "ss250-formula-08",
+      "labelEn": "Clause after than",
+      "labelZh": "than 後接子句",
+      "formula": "There is more to X than + clause"
+    },
+    {
+      "id": "ss250-formula-09",
+      "labelEn": "Idiom",
+      "labelZh": "固定結尾",
+      "formula": "There is more to X than meets the eye"
+    }
+  ],
+  "example": "There is more to leadership than giving orders.",
+  "exampleZh": "領導工作涉及的遠不止發號施令。",
+  "examples": [
+    {
+      "id": "ss250-example-01",
+      "en": "There is more to leadership than giving orders.",
+      "zh": "領導工作涉及的遠不止發號施令。",
+      "highlight": "There is more to leadership than giving orders."
+    },
+    {
+      "id": "ss250-example-02",
+      "en": "There is more to it than that.",
+      "zh": "事情並非只有這麼簡單。",
+      "highlight": "There is more to it than that."
+    },
+    {
+      "id": "ss250-example-03",
+      "en": "There may be more to his silence than shyness.",
+      "zh": "他的沉默背後可能不只是害羞。",
+      "highlight": "There may be more to his silence than shyness."
+    }
+  ],
+  "meaning": {
+    "zh": "表示 X 涉及的不只是 Y；X 比表面提到的 Y 更複雜、更廣泛，或包含更多因素。"
+  },
+  "rules": [
+    {
+      "id": "ss250-rule-01",
+      "zh": "to 是介詞，不是不定詞標記；後面通常接名詞、代名詞、動名詞或名詞短語。",
+      "en": "To is a preposition in this structure, not an infinitive marker. It is normally followed by a noun, pronoun, gerund or noun phrase.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss250-rule-02",
+      "zh": "Y 代表 X 的有限部分、可能原因、過分簡單的理解或最先被注意的表面因素。",
+      "en": "Y must represent a limited part, possible cause, oversimplified understanding or surface feature of X.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss250-rule-03",
+      "zh": "be 可按時態變為 is、was、has been、had been 或 will be。",
+      "en": "Change be for time: is, was, has been, had been or will be.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss250-rule-04",
+      "zh": "情態動詞後使用 be：may be、could be 或 must be，不可說 may is。",
+      "en": "Use be after a modal verb: may be, could be or must be, not may is.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss250-rule-05",
+      "zh": "配合 seem 或 appear 時，完整外殼是 There seems / appears to be more to X than Y。",
+      "en": "With seem or appear, retain the complete shell There seems / appears to be more to X than Y.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss250-rule-06",
+      "zh": "疑問句把 be 放在 there 前；配合情態動詞可用 Could there be ...?。",
+      "en": "In questions, place be before there; a modal question may begin Could there be ...?",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss250-rule-07",
+      "zh": "目標結構可放在 realise、understand、explain 或 suggest 等動詞後，不一定在整句開首。",
+      "en": "The target may appear after verbs such as realise, understand, explain or suggest rather than at the start of the whole sentence.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss250-rule-08",
+      "zh": "它也可嵌入 what 子句、the fact that 結構或 whether 子句，核心形式不變。",
+      "en": "It can also be embedded in a what-clause, a the fact that structure or a whether-clause without changing the core expression.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss250-rule-09",
+      "zh": "There is more to it than that 是常見說法；it 指正在討論的事情，that 指剛提出的解釋。",
+      "en": "There is more to it than that is a common expression. It refers to the matter under discussion and that refers to the explanation just given.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss250-rule-10",
+      "zh": "than meets the eye 是固定結尾，表示事情比表面所見更複雜或更有內涵。",
+      "en": "Than meets the eye is a fixed idiomatic ending meaning that something is more complex or substantial than it appears.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss250-rule-11",
+      "zh": "a lot、much 和 far 可放在 more 前加強程度，但不是核心必要部分。",
+      "en": "Degree expressions such as a lot, much and far may precede more to strengthen the comparison, but they are optional.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss250-rule-12",
+      "zh": "just 和 merely 可放在 Y 前加強「不只是」的意思，但沒有它們句子仍完整。",
+      "en": "Just and merely may strengthen the idea that Y is only one part, but they are optional.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss250-rule-13",
+      "zh": "比較須使用 than，不要誤寫成表示「然後／當時」的 then。",
+      "en": "Use than for the comparison, not then, which refers to time or sequence.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss250-rule-14",
+      "zh": "保持正確的 be 結構；不可說 There has more，現在完成式須用 There has been more。",
+      "en": "Keep the correct be structure. Do not write There has more; the present perfect is There has been more.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss250-benefit-01",
+      "zh": "指出事情還有其他重要因素，並非只有表面所見或單一解釋。",
+      "en": "It shows that a matter is not as simple as its surface appearance or one isolated explanation.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss250-benefit-02",
+      "zh": "不用直接說對方完全錯誤，也能有禮貌地糾正過分簡單的看法。",
+      "en": "It politely corrects an oversimplified view without directly declaring the other person wrong.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss250-benefit-03",
+      "zh": "先指出還有其他因素，便可自然帶出下一步詳細解釋。",
+      "en": "It naturally prepares the reader for a following explanation of additional factors.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss250-benefit-04",
+      "zh": "避免把成功、教育、健康或領導等複雜題目縮成單一因素，令作文和討論更有深度。",
+      "en": "It adds depth to essays and discussion by preventing complex subjects from being reduced to a single factor.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss250-benefit-05",
+      "zh": "配合 may、could 或 seem，可表達表面原因可能不足以解釋整件事。",
+      "en": "With may, could or seem, it expresses uncertainty or suspicion that a surface reason is incomplete.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss250-benefit-06",
+      "zh": "提供 not only 以外的自然句式，增加表達變化。",
+      "en": "It offers a natural alternative to repeated use of not only and increases sentence variety.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 249; it is assigned system ID ss250 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using there is more to X than Y or one of its approved grammatical forms.",
+      "Preserve the original meaning, tense, degree of certainty and important details.",
+      "The target expression may appear at the beginning, in the middle or near the end of the answer.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 there is more to X than Y 或其認可文法變化改寫以下句子。",
+      "保留原句的意思、時態、不肯定程度和所有重要資料。",
+      "目標句型可以放在答案的開頭、中間或接近句末的位置。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss250-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Leadership involves more than giving orders.",
+      "promptZh": "領導工作不只是發號施令。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is more to leadership than giving orders.",
+      "answerZh": "領導工作涉及的遠不止發號施令。",
+      "answerZhSource": "pdf",
+      "highlight": "There is more to leadership than giving orders."
+    },
+    {
+      "id": "ss250-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Young people gradually discover that friendship is not limited to spending time together.",
+      "promptZh": "年輕人逐漸發現，友誼並不局限於共度時光。",
+      "promptZhSource": "pdf",
+      "starter": "Young",
+      "answer": "Young people gradually discover that there is more to friendship than spending time together.",
+      "answerZh": "年輕人逐漸發現，友誼並不只是共度時光。",
+      "answerZhSource": "pdf",
+      "highlight": "Young people gradually discover that there is more to friendship than spending time together."
+    },
+    {
+      "id": "ss250-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A good cook knows that following a recipe is only one part of cooking.",
+      "promptZh": "優秀的廚師知道，依照食譜只是烹飪的一部分。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A good cook knows that there is more to cooking than following a recipe.",
+      "answerZh": "優秀的廚師知道，烹飪並不只是依照食譜。",
+      "answerZhSource": "pdf",
+      "highlight": "A good cook knows that there is more to cooking than following a recipe."
+    },
+    {
+      "id": "ss250-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Students should understand that learning English includes more than memorising words.",
+      "promptZh": "學生應明白，學習英語不只是背誦詞語。",
+      "promptZhSource": "pdf",
+      "starter": "Students",
+      "answer": "Students should understand that there is more to learning English than memorising words.",
+      "answerZh": "學生應明白，學習英語並不只是背誦詞語。",
+      "answerZhSource": "pdf",
+      "highlight": "Students should understand that there is more to learning English than memorising words."
+    },
+    {
+      "id": "ss250-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Scoring goals is only one aspect of football.",
+      "promptZh": "入球只是足球運動的一個部分。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is more to football than scoring goals.",
+      "answerZh": "足球並不只是入球。",
+      "answerZhSource": "pdf",
+      "highlight": "There is more to football than scoring goals."
+    },
+    {
+      "id": "ss250-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Good teachers know that teaching involves more than explaining facts.",
+      "promptZh": "優秀教師知道，教學不只是解釋事實。",
+      "promptZhSource": "pdf",
+      "starter": "Good",
+      "answer": "Good teachers know that there is more to teaching than explaining facts.",
+      "answerZh": "優秀教師知道，教學並不只是解釋事實。",
+      "answerZhSource": "pdf",
+      "highlight": "Good teachers know that there is more to teaching than explaining facts."
+    },
+    {
+      "id": "ss250-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Health is not simply about avoiding illness. We should remember this.",
+      "promptZh": "健康並不只是避免生病。我們應記住這一點。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should remember that there is more to health than avoiding illness.",
+      "answerZh": "我們應記住，健康並不只是避免生病。",
+      "answerZhSource": "pdf",
+      "highlight": "We should remember that there is more to health than avoiding illness."
+    },
+    {
+      "id": "ss250-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Giving away things is only one part of sharing. Children soon learn this.",
+      "promptZh": "把東西送給別人只是分享的一部分。孩子很快便會明白這一點。",
+      "promptZhSource": "pdf",
+      "starter": "Children",
+      "answer": "Children soon learn that there is more to sharing than giving away things.",
+      "answerZh": "孩子很快便明白，分享並不只是把東西送給別人。",
+      "answerZhSource": "pdf",
+      "highlight": "Children soon learn that there is more to sharing than giving away things."
+    },
+    {
+      "id": "ss250-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Owning an expensive camera alone is not enough to produce a good photograph.",
+      "promptZh": "單靠擁有昂貴相機，並不足以拍出一張好照片。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is more to a good photograph than owning an expensive camera.",
+      "answerZh": "一張好照片涉及的遠不止擁有昂貴相機。）20",
+      "answerZhSource": "pdf",
+      "highlight": "There is more to a good photograph than owning an expensive camera."
+    },
+    {
+      "id": "ss250-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The guide explained that the plain exterior was only one aspect of the old building.",
+      "promptZh": "導遊解釋，樸素的外觀只是這座古老建築的一個層面。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guide explained that there was more to the old building than its plain exterior.",
+      "answerZh": "導遊解釋，這座古老建築並不只有樸素的外觀那麼簡單。",
+      "answerZhSource": "pdf",
+      "highlight": "The guide explained that there was more to the old building than its plain exterior."
+    },
+    {
+      "id": "ss250-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Teamwork involves a lot more than dividing the work equally.",
+      "promptZh": "團隊合作涉及的遠不止平均分配工作。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is a lot more to teamwork than dividing the work equally.",
+      "answerZh": "團隊合作涉及的遠不止平均分配工作。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a lot more to teamwork than dividing the work equally."
+    },
+    {
+      "id": "ss250-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Many people discover that living alone does not by itself make a person independent.",
+      "promptZh": "很多人發現，單是獨自居住並不會令人變得獨立。",
+      "promptZhSource": "pdf",
+      "starter": "Many",
+      "answer": "Many people discover that there is more to being independent than living alone.",
+      "answerZh": "很多人逐漸明白，獨立並不只是獨自居住。",
+      "answerZhSource": "pdf",
+      "highlight": "Many people discover that there is more to being independent than living alone."
+    },
+    {
+      "id": "ss250-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Sarah realised that answering telephone calls was only one part of the job.",
+      "promptZh": "莎拉意識到，接聽電話只是這份工作的一部分。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah realised that there was more to the job than answering telephone calls.",
+      "answerZh": "莎拉意識到，這份工作並不只是接聽電話。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah realised that there was more to the job than answering telephone calls."
+    },
+    {
+      "id": "ss250-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "His silence may have another cause besides shyness.",
+      "promptZh": "除了害羞外，他的沉默可能還有其他原因。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There may be more to his silence than shyness.",
+      "answerZh": "他的沉默背後可能不只是害羞。",
+      "answerZhSource": "pdf",
+      "highlight": "There may be more to his silence than shyness."
+    },
+    {
+      "id": "ss250-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Is bad weather the only reason for the delay?",
+      "promptZh": "惡劣天氣是否延誤的唯一原因？",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is there more to the delay than bad weather?",
+      "answerZh": "延誤的原因是否不只是惡劣天氣？",
+      "answerZhSource": "pdf",
+      "highlight": "Is there more to the delay than bad weather?"
+    },
+    {
+      "id": "ss250-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The students discovered that the experiment involved more than mixing two liquids.",
+      "promptZh": "學生發現，這項實驗不只是混合兩種液體。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students discovered that there was more to the experiment than mixing two liquids.",
+      "answerZh": "學生發現，這項實驗並不只是混合兩種液體。",
+      "answerZhSource": "pdf",
+      "highlight": "The students discovered that there was more to the experiment than mixing two liquids."
+    },
+    {
+      "id": "ss250-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Spending less is only one part of saving money.",
+      "promptZh": "減少消費只是儲蓄的一部分。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is more to saving money than spending less.",
+      "answerZh": "儲蓄並不只是減少消費。",
+      "answerZhSource": "pdf",
+      "highlight": "There is more to saving money than spending less."
+    },
+    {
+      "id": "ss250-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Our coach keeps reminding us that fitness involves more than running quickly.",
+      "promptZh": "教練不斷提醒我們，體能不只是跑得快。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our coach keeps reminding us that there is more to fitness than running quickly.",
+      "answerZh": "教練不斷提醒我們，體能並不只是跑得快。",
+      "answerZhSource": "pdf",
+      "highlight": "Our coach keeps reminding us that there is more to fitness than running quickly."
+    },
+    {
+      "id": "ss250-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "An exciting story is only one part of the book.",
+      "promptZh": "精彩的故事只是這本書的一部分。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is more to the book than an exciting story.",
+      "answerZh": "這本書並不只有精彩故事這一個部分。）21",
+      "answerZhSource": "pdf",
+      "highlight": "There is more to the book than an exciting story."
+    },
+    {
+      "id": "ss250-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Fear of failure may not be the only reason for her decision.",
+      "promptZh": "害怕失敗可能不是她作出這個決定的唯一原因。",
+      "promptZhSource": "pdf",
+      "starter": "Perhaps",
+      "answer": "Perhaps there is more to her decision than fear of failure.",
+      "answerZh": "她作出這個決定，也許不只是因為害怕失敗。",
+      "answerZhSource": "pdf",
+      "highlight": "Perhaps there is more to her decision than fear of failure."
+    },
+    {
+      "id": "ss250-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Musicians have always understood that music involves more than playing the correct notes.",
+      "promptZh": "音樂家一直都明白，音樂不只是奏出正確音符。",
+      "promptZhSource": "pdf",
+      "starter": "Musicians",
+      "answer": "Musicians have always understood that there is more to music than playing the correct notes.",
+      "answerZh": "音樂家一直都明白，音樂並不只是奏出正確音符。",
+      "answerZhSource": "pdf",
+      "highlight": "Musicians have always understood that there is more to music than playing the correct notes."
+    },
+    {
+      "id": "ss250-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Attending weekly lectures will be only one part of the course.",
+      "promptZh": "每星期出席講課只會是這個課程的一部分。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There will be more to the course than attending weekly lectures.",
+      "answerZh": "這個課程並不只是每星期出席講課。",
+      "answerZhSource": "pdf",
+      "highlight": "There will be more to the course than attending weekly lectures."
+    },
+    {
+      "id": "ss250-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The painting seems to contain meanings beyond its bright colours and simple shapes.",
+      "promptZh": "這幅畫似乎包含了鮮艷色彩和簡單形狀以外的意義。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There seems to be more to the painting than bright colours and simple shapes.",
+      "answerZh": "這幅畫似乎並不只有鮮艷色彩和簡單形狀那麼簡單。",
+      "answerZhSource": "pdf",
+      "highlight": "There seems to be more to the painting than bright colours and simple shapes."
+    },
+    {
+      "id": "ss250-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The committee accepted that fairness does not simply mean treating everyone identically.",
+      "promptZh": "委員會接受，公平並不只是以完全相同的方式對待每個人。）15",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee accepted that there is more to fairness than treating everyone identically.",
+      "answerZh": "委員會接受，公平並不只是以完全相同的方式對待每個人。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee accepted that there is more to fairness than treating everyone identically."
+    },
+    {
+      "id": "ss250-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Could one rude comment be only part of the reason for the complaint?",
+      "promptZh": "那句無禮的說話會否只是投訴原因的一部分？",
+      "promptZhSource": "pdf",
+      "starter": "Could",
+      "answer": "Could there be more to the complaint than one rude comment?",
+      "answerZh": "這宗投訴背後，除了那句無禮的說話外，會否還有其他原因？",
+      "answerZhSource": "pdf",
+      "highlight": "Could there be more to the complaint than one rude comment?"
+    },
+    {
+      "id": "ss250-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Protecting the environment requires far more than recycling bottles.",
+      "promptZh": "保護環境涉及的遠不止回收膠樽。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is far more to protecting the environment than recycling bottles.",
+      "answerZh": "保護環境涉及的遠不止回收膠樽。",
+      "answerZhSource": "pdf",
+      "highlight": "There is far more to protecting the environment than recycling bottles."
+    },
+    {
+      "id": "ss250-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "We gradually understood that the village festival served purposes beyond entertainment.",
+      "promptZh": "我們逐漸明白，這個村莊節慶除了娛樂外，還有其他目的。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We gradually understood that there was more to the village festival than entertainment.",
+      "answerZh": "我們逐漸明白，村莊節慶並不只是娛樂活動。",
+      "answerZhSource": "pdf",
+      "highlight": "We gradually understood that there was more to the village festival than entertainment."
+    },
+    {
+      "id": "ss250-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The article argues that natural talent alone does not explain success.",
+      "promptZh": "文章指出，單靠天分並不足以解釋成功。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The article argues that there is more to success than natural talent.",
+      "answerZh": "文章指出，成功並不只是靠天分。",
+      "answerZhSource": "pdf",
+      "highlight": "The article argues that there is more to success than natural talent."
+    },
+    {
+      "id": "ss250-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Was a simple misunderstanding the only cause of the argument?",
+      "promptZh": "一場簡單的誤會是否這次爭執的唯一原因？",
+      "promptZhSource": "pdf",
+      "starter": "Was",
+      "answer": "Was there more to the argument than a simple misunderstanding?",
+      "answerZh": "這場爭執是否不只是一場簡單誤會？）22",
+      "answerZhSource": "pdf",
+      "highlight": "Was there more to the argument than a simple misunderstanding?"
+    },
+    {
+      "id": "ss250-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Nursing involves more than carrying out medical tasks, and anyone entering this profession should know this.",
+      "promptZh": "護理工作不只是執行醫療任務，任何準備投身這個行業的人都應明白這一點。",
+      "promptZhSource": "pdf",
+      "starter": "Anyone",
+      "answer": "Anyone entering this profession should know that there is more to nursing than carrying out medical tasks.",
+      "answerZh": "任何準備投身這個行業的人都應知道，護理工作並不只是執行醫療任務。",
+      "answerZhSource": "pdf",
+      "highlight": "Anyone entering this profession should know that there is more to nursing than carrying out medical tasks."
+    },
+    {
+      "id": "ss250-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "After the second test, it became clear that a loose wire could not fully explain the machine’s failure.",
+      "promptZh": "第二次測試後，大家清楚看出，一條鬆脫的電線並不足以完全解釋機器故障。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It became clear after the second test that there was more to the machine’s failure than a loose wire.",
+      "answerZh": "第二次測試後，大家清楚看出，機器故障並不只是一條鬆脫電線造成。",
+      "answerZhSource": "pdf",
+      "highlight": "It became clear after the second test that there was more to the machine’s failure than a loose wire."
+    },
+    {
+      "id": "ss250-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Higher prices alone cannot explain the decline in sales.",
+      "promptZh": "單是價格上升並不能解釋銷售下跌。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There must be more to the decline in sales than higher prices.",
+      "answerZh": "銷售下跌背後肯定不只是價格上升。",
+      "answerZhSource": "pdf",
+      "highlight": "There must be more to the decline in sales than higher prices."
+    },
+    {
+      "id": "ss250-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "People should understand that a meaningful apology requires more than saying sorry.",
+      "promptZh": "人們應明白，一個有誠意的道歉不只是說聲對不起。",
+      "promptZhSource": "pdf",
+      "starter": "People",
+      "answer": "People should understand that there is more to a meaningful apology than saying sorry.",
+      "answerZh": "人們應明白，一個有誠意的道歉並不只是說聲對不起。",
+      "answerZhSource": "pdf",
+      "highlight": "People should understand that there is more to a meaningful apology than saying sorry."
+    },
+    {
+      "id": "ss250-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The manager wants staff to recognise that customer service includes more than answering questions.",
+      "promptZh": "經理希望員工明白，顧客服務不只是回答問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager wants staff to recognise that there is more to customer service than answering questions.",
+      "answerZh": "經理希望員工明白，顧客服務並不只是回答問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager wants staff to recognise that there is more to customer service than answering questions."
+    },
+    {
+      "id": "ss250-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Although the design looks simple, the device contains features that are not immediately obvious.",
+      "promptZh": "雖然設計看似簡單，但這部裝置包含一些無法立即看出的功能。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the design looks simple, there is more to the device than meets the eye.",
+      "answerZh": "雖然設計看似簡單，但這部裝置其實比表面所見更複雜。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the design looks simple, there is more to the device than meets the eye."
+    },
+    {
+      "id": "ss250-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The public often forgets that road safety involves more than following speed limits.",
+      "promptZh": "大眾經常忘記，道路安全不只是遵守車速限制。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What the public often forgets is that there is more to road safety than following speed limits.",
+      "answerZh": "大眾經常忘記的是，道路安全並不只是遵守車速限制。",
+      "answerZhSource": "pdf",
+      "highlight": "What the public often forgets is that there is more to road safety than following speed limits."
+    },
+    {
+      "id": "ss250-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The fact that education includes more than examination results should influence school policy.",
+      "promptZh": "教育不只是考試成績；這個事實應影響學校政策。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fact that there is more to education than examination results should influence school policy.",
+      "answerZh": "教育並不只是考試成績；這個事實應影響學校政策。",
+      "answerZhSource": "pdf",
+      "highlight": "The fact that there is more to education than examination results should influence school policy."
+    },
+    {
+      "id": "ss250-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Do you think the dispute concerns something beyond a disagreement over money?",
+      "promptZh": "你認為這場糾紛是否還涉及金錢分歧以外的事情？",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do you think there is more to the dispute than a disagreement over money?",
+      "answerZh": "你認為這場糾紛是否不只是金錢上的分歧？）23",
+      "answerZhSource": "pdf",
+      "highlight": "Do you think there is more to the dispute than a disagreement over money?"
+    },
+    {
+      "id": "ss250-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The public did not know all the reasons behind the scientist’s resignation.",
+      "promptZh": "公眾並不知道這名科學家辭職背後的所有原因。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There was more to the scientist’s resignation than the public knew.",
+      "answerZh": "這名科學家辭職一事背後，還有公眾當時不知道的內情。",
+      "answerZhSource": "pdf",
+      "highlight": "There was more to the scientist’s resignation than the public knew."
+    },
+    {
+      "id": "ss250-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "At first, we thought the computer error explained the whole problem, but later we discovered that it did not.",
+      "promptZh": "起初，我們以為電腦錯誤足以解釋整個問題，但後來發現並非如此。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At first, we thought the computer error explained the whole problem, but later we realised there was more to it than that.",
+      "answerZh": "起初我們以為電腦錯誤足以解釋整個問題，但後來我們意識到事情並非只有這麼簡單。",
+      "answerZhSource": "pdf",
+      "highlight": "At first, we thought the computer error explained the whole problem, but later we realised there was more to it than that."
+    },
+    {
+      "id": "ss250-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Democracy requires more than holding elections, and no one should forget this.",
+      "promptZh": "民主不只是舉行選舉，任何人都不應忘記這一點。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No one should forget that there is more to democracy than holding elections.",
+      "answerZh": "誰也不應忘記，民主並不只是舉行選舉。",
+      "answerZhSource": "pdf",
+      "highlight": "No one should forget that there is more to democracy than holding elections."
+    },
+    {
+      "id": "ss250-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The report suggests that poor driving may not fully explain the rise in accidents.",
+      "promptZh": "報告指出，駕駛表現欠佳可能不足以完全解釋事故增加。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report suggests that there may be more to the rise in accidents than poor driving.",
+      "answerZh": "報告指出，事故增加的原因可能不只是駕駛表現欠佳。",
+      "answerZhSource": "pdf",
+      "highlight": "The report suggests that there may be more to the rise in accidents than poor driving."
+    },
+    {
+      "id": "ss250-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Completing assigned tasks is only one part of the role. New employees need to understand this.",
+      "promptZh": "完成獲分派的工作只是這個職位的一部分。新員工需要明白這一點。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What new employees need to understand is that there is more to the role than completing assigned tasks.",
+      "answerZh": "新員工需要明白的是，這個職位並不只是完成獲分派的工作。",
+      "answerZhSource": "pdf",
+      "highlight": "What new employees need to understand is that there is more to the role than completing assigned tasks."
+    },
+    {
+      "id": "ss250-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 19,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "If the plan fails, we may discover that limited funding was not the only problem.",
+      "promptZh": "如果計劃失敗，我們可能會發現資金有限並不是唯一問題。）18",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the plan fails, we may discover that there was more to the problem than limited funding.",
+      "answerZh": "如果計劃失敗，我們可能會發現問題並不只是資金有限。",
+      "answerZhSource": "pdf",
+      "highlight": "If the plan fails, we may discover that there was more to the problem than limited funding."
+    },
+    {
+      "id": "ss250-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Experts have long argued that sleep does more than rest the body.",
+      "promptZh": "專家一直指出，睡眠的作用不只是讓身體休息。",
+      "promptZhSource": "pdf",
+      "starter": "Experts",
+      "answer": "Experts have long argued that there is more to sleep than resting the body.",
+      "answerZh": "專家一直指出，睡眠並不只是讓身體休息。",
+      "answerZhSource": "pdf",
+      "highlight": "Experts have long argued that there is more to sleep than resting the body."
+    },
+    {
+      "id": "ss250-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The interview revealed that the athlete’s recovery involved far more than physical training.",
+      "promptZh": "訪問顯示，運動員的康復過程涉及的遠不止體能訓練。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The interview revealed that there was far more to the athlete’s recovery than physical training.",
+      "answerZh": "訪問顯示，運動員的康復過程涉及的遠不止體能訓練。",
+      "answerZhSource": "pdf",
+      "highlight": "The interview revealed that there was far more to the athlete’s recovery than physical training."
+    },
+    {
+      "id": "ss250-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "It remains unclear whether one person’s mistake is the whole story.",
+      "promptZh": "某一個人的錯誤是否就是事情的全部，仍未能確定。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether there is more to the story than one person’s mistake remains unclear.",
+      "answerZh": "這件事是否不只是某一個人的錯誤，仍未能確定。）24",
+      "answerZhSource": "pdf",
+      "highlight": "Whether there is more to the story than one person’s mistake remains unclear."
+    },
+    {
+      "id": "ss250-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "After the second inspection, the engineers realised that the damage extended beyond the surface cracks.",
+      "promptZh": "第二次檢查後，工程師意識到損壞不只限於表面的裂縫。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the second inspection, the engineers realised that there was more to the damage than surface cracks.",
+      "answerZh": "第二次檢查後，工程師意識到損壞並不只是表面的裂縫。",
+      "answerZhSource": "pdf",
+      "highlight": "After the second inspection, the engineers realised that there was more to the damage than surface cracks."
+    },
+    {
+      "id": "ss250-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The main question is whether reducing costs is the new policy’s only purpose.",
+      "promptZh": "主要問題是，降低成本是否這項新政策的唯一目的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The question is whether there is more to the new policy than reducing costs.",
+      "answerZh": "問題在於，這項新政策是否不只是為了降低成本。",
+      "answerZhSource": "pdf",
+      "highlight": "The question is whether there is more to the new policy than reducing costs."
+    },
+    {
+      "id": "ss250-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "By the end of the investigation, everyone understood that a stolen document was only a small part of the case.",
+      "promptZh": "調查結束時，所有人都明白，一份被偷走的文件只是案件的一小部分。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the end of the investigation, everyone understood that there had been much more to the case than a stolen document.",
+      "answerZh": "調查結束時，所有人都明白，案件涉及的遠不止一份被偷走的文件。）25",
+      "answerZhSource": "pdf",
+      "highlight": "By the end of the investigation, everyone understood that there had been much more to the case than a stolen document."
+    }
+  ]
+}

@@ -1,0 +1,1276 @@
+{
+  "id": "ss259",
+  "order": 259,
+  "slug": "regardless-of-noun-wh-clause",
+  "title": "「Regardless of + noun ／ wh-clause」表示「不論／不管……」",
+  "titleZh": "「Regardless of + noun ／ wh-clause」表示「不論／不管……」",
+  "titleEn": "Using “Regardless of + noun / wh-clause”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 258 -「Regardless of + noun _ wh-clause」表示「不論／不管……」.pdf",
+    "pageCount": 27,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "exercisePages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "answerPages": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF does not provide a complete English counterpart, the English text is a faithful editorial translation.",
+      "The source filename is numbered one lower than the system lesson because two distinct source PDFs are labelled 201; source number N therefore maps to system ID ssN+1."
+    ]
+  },
+  "formula": "Regardless of + noun or wh-clause, + main clause.",
+  "formulas": [
+    {
+      "id": "ss259-formula-01",
+      "labelEn": "Noun phrase first",
+      "labelZh": "名詞片語在句首",
+      "formula": "Regardless of + noun or noun phrase, + main clause."
+    },
+    {
+      "id": "ss259-formula-02",
+      "labelEn": "Noun phrase last",
+      "labelZh": "名詞片語在句末",
+      "formula": "Main clause + regardless of + noun or noun phrase."
+    },
+    {
+      "id": "ss259-formula-03",
+      "labelEn": "Wh-clause first",
+      "labelZh": "wh-子句在句首",
+      "formula": "Regardless of + wh-clause, + main clause."
+    },
+    {
+      "id": "ss259-formula-04",
+      "labelEn": "Wh-clause last",
+      "labelZh": "wh-子句在句末",
+      "formula": "Main clause + regardless of + wh-clause."
+    },
+    {
+      "id": "ss259-formula-05",
+      "labelEn": "Whether-clause",
+      "labelZh": "whether 子句",
+      "formula": "Regardless of whether + subject + verb, + main clause."
+    },
+    {
+      "id": "ss259-formula-06",
+      "labelEn": "How-clause",
+      "labelZh": "how 子句",
+      "formula": "Regardless of how + adjective / adverb + clause, + main clause."
+    }
+  ],
+  "example": "Regardless of whether we agree, we must follow the procedure.",
+  "exampleZh": "不論我們是否同意，我們都必須遵守程序。",
+  "examples": [
+    {
+      "id": "ss259-example-01",
+      "en": "Regardless of whether we agree, we must follow the procedure.",
+      "zh": "不論我們是否同意，我們都必須遵守程序。",
+      "highlight": "Regardless of whether we agree, we must follow the procedure."
+    },
+    {
+      "id": "ss259-example-02",
+      "en": "The rule applies regardless of age.",
+      "zh": "不論年齡，這項規則都適用。",
+      "highlight": "The rule applies regardless of age."
+    },
+    {
+      "id": "ss259-example-03",
+      "en": "We will continue regardless of what happens.",
+      "zh": "不管發生甚麼事，我們都會繼續。",
+      "highlight": "We will continue regardless of what happens."
+    },
+    {
+      "id": "ss259-example-04",
+      "en": "The price is the same regardless of which option you choose.",
+      "zh": "不論你選擇哪個選項，價格都一樣。",
+      "highlight": "The price is the same regardless of which option you choose."
+    }
+  ],
+  "meaning": {
+    "zh": "Regardless of 是完整的介詞片語，表示即使所提因素不同，主要行動、規則、決定或結果仍然不變。of 後面可接名詞片語或完整而自然的 wh-子句。"
+  },
+  "rules": [
+    {
+      "id": "ss259-rule-01",
+      "zh": "核心表達是 regardless of；of 是固定部分，不能省略，也不可改用 to 或 for。",
+      "en": "The core expression is regardless of. Of is a fixed part and must not be omitted or replaced by to or for.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss259-rule-02",
+      "zh": "Regardless of 後面可以接簡單或較長的名詞片語，包括冠詞、形容詞、所有格和多個名詞。",
+      "en": "Regardless of can be followed by a simple or longer noun phrase containing articles, adjectives, possessives or more than one noun.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss259-rule-03",
+      "zh": "表達兩種可能時使用 whether：regardless of whether + subject + verb。or not 可加入，但不是固定句型的一部分；本課不用較口語化的 if。",
+      "en": "Use whether when there are two possibilities: regardless of whether + subject + verb. Or not is optional and is not part of the fixed structure; this exercise does not use the more conversational if.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss259-rule-04",
+      "zh": "Regardless of 後面也可接 what、who、where、when、how 或 which 等 wh-子句；子句必須表達完整而自然的意思。",
+      "en": "Other wh-clauses with what, who, where, when, how or which can follow regardless of. The wh-clause must express a complete and natural meaning.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss259-rule-05",
+      "zh": "此表達可放在句首、句末或句中。句首片語後通常加逗號；句末通常不用逗號；句中作補充資料時前後通常加逗號。",
+      "en": "The expression may appear at the beginning, end or middle of a sentence. A fronted phrase is normally followed by a comma; a final phrase usually needs no comma; a parenthetical phrase normally takes commas on both sides.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss259-rule-06",
+      "zh": "它可以配合情態動詞、被動語態、疑問句、報告動詞、命令句和條件句使用，位置不必每次相同。",
+      "en": "It can be used with modal verbs, passive sentences, questions, reporting verbs, commands and conditional sentences, and need not always appear in the same position.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss259-rule-07",
+      "zh": "所提因素即使改變，也不能改變主要結果；這正是 regardless of 所表達的邏輯。",
+      "en": "The named factor must not change the main result: the action, rule, decision or outcome remains the same even if that factor varies.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss259-rule-08",
+      "zh": "Despite 通常指出已知的困難或相反事實；regardless of 表示某因素無論如何變化都不影響結果，因此範圍通常較廣。",
+      "en": "Despite normally identifies a known difficulty or contrary fact, whereas regardless of says that variations in a factor do not affect the result and therefore usually has a broader scope.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss259-benefit-01",
+      "zh": "它讓讀者立即知道，即使某項因素改變，主要決定或行動仍然相同。",
+      "en": "It clearly shows that one factor does not change the result.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss259-benefit-02",
+      "zh": "它可以把較長的解釋合併成一句，使意思更簡潔直接。",
+      "en": "It can replace a longer explanation and combine the idea into one concise sentence.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss259-benefit-03",
+      "zh": "它常用於說明規則適用於所有人或不應因背景、年齡、性別、國籍或財政狀況而有不同待遇，有助表達公平和一視同仁。",
+      "en": "It helps express fairness and equal treatment by showing that rules or decisions do not vary with background, age, sex, nationality or financial circumstances.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss259-benefit-04",
+      "zh": "它先指出不會影響結果的因素，再說明真正重要的行動或結果，能清楚連接條件和主要訊息。",
+      "en": "It connects a condition and the main message clearly by naming a factor that does not affect the action or result.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss259-benefit-05",
+      "zh": "片語可放在句首、句末或句中，提供多種組織句子的方法，避免所有句子以相同方式開始。",
+      "en": "It gives you several ways to organise a sentence because the phrase may appear at the beginning, end or middle.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss259-benefit-06",
+      "zh": "它可用於表達決心、制定規則、解釋政策、作出承諾、提供服務、安全指示、報告和議論文，適合口語和正式寫作。",
+      "en": "It is useful in speaking and formal writing for expressing determination, rules, policies, promises, services, safety instructions, reports and essays.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF does not provide a complete English counterpart, the English text is a faithful editorial translation.",
+    "The source filename is numbered one lower than the system lesson because two distinct source PDFs are labelled 201; source number N therefore maps to system ID ssN+1."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using regardless of + noun or wh-clause.",
+      "Preserve the original meaning, tense, voice and important details. The target may appear at the beginning, middle or end. The first word is provided."
+    ],
+    "zh": [
+      "使用 regardless of + 名詞或 wh-子句 改寫以下句子。",
+      "保留原句的意思、時態、語態及重要資料。目標句型可放在句首、句中或句末。每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss259-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A visitor’s age does not affect whether they may enter.",
+      "promptZh": "訪客的年齡不會影響他們能否進入。",
+      "promptZhSource": "pdf",
+      "starter": "Visitors",
+      "answer": "Visitors may enter regardless of age.",
+      "answerZh": "不論年齡，訪客都可以進入。",
+      "answerZhSource": "pdf",
+      "highlight": "Visitors may enter regardless of age."
+    },
+    {
+      "id": "ss259-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The weather will not affect whether the match continues.",
+      "promptZh": "天氣不會影響比賽是否繼續。",
+      "promptZhSource": "pdf",
+      "starter": "Regardless",
+      "answer": "Regardless of the weather, the match will continue.",
+      "answerZh": "不論天氣如何，比賽都會繼續。",
+      "answerZhSource": "pdf",
+      "highlight": "Regardless of the weather, the match will continue."
+    },
+    {
+      "id": "ss259-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A person’s nationality does not affect how this rule is applied.",
+      "promptZh": "一個人的國籍不會影響這項規則的執行方式。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rule applies regardless of nationality.",
+      "answerZh": "不論國籍，這項規則都適用。",
+      "answerZhSource": "pdf",
+      "highlight": "The rule applies regardless of nationality."
+    },
+    {
+      "id": "ss259-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Should we continue repairing the clock even if the work costs a lot?",
+      "promptZh": "即使維修這個時鐘需要大量金錢，我們是否仍應繼續？",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should we continue repairing the clock regardless of the cost?",
+      "answerZh": "不論費用多少，我們是否仍應繼續維修這個時鐘？",
+      "answerZhSource": "pdf",
+      "highlight": "Should we continue repairing the clock regardless of the cost?"
+    },
+    {
+      "id": "ss259-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Whatever your background is, we will help you.",
+      "promptZh": "不論你的背景如何，我們都會幫助你。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We will help you regardless of your background.",
+      "answerZh": "不論你的背景如何，我們都會幫助你。",
+      "answerZhSource": "pdf",
+      "highlight": "We will help you regardless of your background."
+    },
+    {
+      "id": "ss259-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The team should be proud whether it wins or loses.",
+      "promptZh": "不論球隊勝出還是落敗，都應該感到自豪。",
+      "promptZhSource": "pdf",
+      "starter": "Regardless",
+      "answer": "Regardless of the result, the team should be proud.",
+      "answerZh": "不論結果如何，球隊都應該感到自豪。",
+      "answerZhSource": "pdf",
+      "highlight": "Regardless of the result, the team should be proud."
+    },
+    {
+      "id": "ss259-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "A customer’s payment method does not affect the service received.",
+      "promptZh": "顧客的付款方式不會影響所獲得的服務。",
+      "promptZhSource": "pdf",
+      "starter": "Customers",
+      "answer": "Customers, regardless of payment method, receive the same service.",
+      "answerZh": "不論使用哪種付款方式，顧客都會獲得相同服務。",
+      "answerZhSource": "pdf",
+      "highlight": "Customers, regardless of payment method, receive the same service."
+    },
+    {
+      "id": "ss259-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Laura attends every lesson no matter how busy her schedule is.",
+      "promptZh": "不論 Laura 的日程有多繁忙，她都會出席每一堂課。",
+      "promptZhSource": "pdf",
+      "starter": "Laura",
+      "answer": "Laura attends every lesson regardless of her busy schedule.",
+      "answerZh": "不論日程有多繁忙，Laura 都會出席每一堂課。",
+      "answerZhSource": "pdf",
+      "highlight": "Laura attends every lesson regardless of her busy schedule."
+    },
+    {
+      "id": "ss259-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "All applicants will be considered whether they have experience or not.",
+      "promptZh": "不論申請者有沒有經驗，所有申請者都會獲得考慮。",
+      "promptZhSource": "pdf",
+      "starter": "Regardless",
+      "answer": "Regardless of experience, all applicants will be considered.",
+      "answerZh": "不論有沒有經驗，所有申請者都會獲得考慮。",
+      "answerZhSource": "pdf",
+      "highlight": "Regardless of experience, all applicants will be considered."
+    },
+    {
+      "id": "ss259-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Omar cycles to work no matter how far away it is.",
+      "promptZh": "不論工作地點有多遠，Omar 都會踏單車上班。",
+      "promptZhSource": "pdf",
+      "starter": "Omar",
+      "answer": "Omar cycles to work regardless of the distance.",
+      "answerZh": "不論工作地點有多遠，Omar 都會踏單車上班。",
+      "answerZhSource": "pdf",
+      "highlight": "Omar cycles to work regardless of the distance."
+    },
+    {
+      "id": "ss259-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The event will take place whether it rains or not.",
+      "promptZh": "不論是否下雨，活動都會舉行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The event will take place regardless of whether it rains.",
+      "answerZh": "不論是否下雨，活動都會舉行。",
+      "answerZhSource": "pdf",
+      "highlight": "The event will take place regardless of whether it rains."
+    },
+    {
+      "id": "ss259-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "We must follow the procedure whether we agree with it or not.",
+      "promptZh": "不論我們是否同意這項程序，我們都必須遵守。",
+      "promptZhSource": "pdf",
+      "starter": "Regardless",
+      "answer": "Regardless of whether we agree, we must follow the procedure.",
+      "answerZh": "不論我們是否同意，我們都必須遵守程序。",
+      "answerZhSource": "pdf",
+      "highlight": "Regardless of whether we agree, we must follow the procedure."
+    },
+    {
+      "id": "ss259-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "No matter how long the work takes, we will finish the project.",
+      "promptZh": "不論工作需要多長時間，我們都會完成這個項目。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We will finish the project regardless of how long the work takes.",
+      "answerZh": "不論工作需要多長時間，我們都會完成這個項目。",
+      "answerZhSource": "pdf",
+      "highlight": "We will finish the project regardless of how long the work takes."
+    },
+    {
+      "id": "ss259-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Both teams will receive certificates no matter who wins.",
+      "promptZh": "不論誰勝出，兩支球隊都會獲得證書。",
+      "promptZhSource": "pdf",
+      "starter": "Regardless",
+      "answer": "Regardless of who wins, both teams will receive certificates.",
+      "answerZh": "不論誰勝出，兩支球隊都會獲得證書。",
+      "answerZhSource": "pdf",
+      "highlight": "Regardless of who wins, both teams will receive certificates."
+    },
+    {
+      "id": "ss259-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The door must remain locked no matter who is inside.",
+      "promptZh": "不論誰在裏面，門都必須保持上鎖。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The door, regardless of who is inside, must remain locked.",
+      "answerZh": "不論誰在裏面，門都必須保持上鎖。",
+      "answerZhSource": "pdf",
+      "highlight": "The door, regardless of who is inside, must remain locked."
+    },
+    {
+      "id": "ss259-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Whatever happens, stay calm.",
+      "promptZh": "不管發生甚麼事，都要保持冷靜。",
+      "promptZhSource": "pdf",
+      "starter": "Regardless",
+      "answer": "Regardless of what happens, stay calm.",
+      "answerZh": "不管發生甚麼事，都要保持冷靜。",
+      "answerZhSource": "pdf",
+      "highlight": "Regardless of what happens, stay calm."
+    },
+    {
+      "id": "ss259-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "She treats everyone politely, wherever they come from.",
+      "promptZh": "不論每個人來自哪裏，她都會有禮貌地對待他們。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She treats everyone politely regardless of where they come from.",
+      "answerZh": "不論每個人來自哪裏，她都會有禮貌地對待他們。",
+      "answerZhSource": "pdf",
+      "highlight": "She treats everyone politely regardless of where they come from."
+    },
+    {
+      "id": "ss259-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Whichever route we choose, the journey will take at least two hours.",
+      "promptZh": "不論我們選擇哪條路線，路程都至少需要兩小時。",
+      "promptZhSource": "pdf",
+      "starter": "Regardless",
+      "answer": "Regardless of which route we choose, the journey will take at least two hours.",
+      "answerZh": "不論我們選擇哪條路線，路程都至少需要兩小時。",
+      "answerZhSource": "pdf",
+      "highlight": "Regardless of which route we choose, the journey will take at least two hours."
+    },
+    {
+      "id": "ss259-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Even if you do not have all the documents, you should submit the form.",
+      "promptZh": "即使你未有齊所有文件，也應該遞交表格。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You should submit the form regardless of whether you have all the documents.",
+      "answerZh": "不論你是否已備齊所有文件，都應該遞交表格。",
+      "answerZhSource": "pdf",
+      "highlight": "You should submit the form regardless of whether you have all the documents."
+    },
+    {
+      "id": "ss259-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "However difficult the question is, try to answer it.",
+      "promptZh": "不論題目有多困難，都要嘗試回答。",
+      "promptZhSource": "pdf",
+      "starter": "Regardless",
+      "answer": "Regardless of how difficult the question is, try to answer it.",
+      "answerZh": "不論題目有多困難，都要嘗試回答。",
+      "answerZhSource": "pdf",
+      "highlight": "Regardless of how difficult the question is, try to answer it."
+    },
+    {
+      "id": "ss259-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "A worker’s employment status does not affect the protection provided by the policy.",
+      "promptZh": "工人的僱用身分不會影響政策所提供的保障。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy protects workers regardless of their employment status.",
+      "answerZh": "不論僱用身分如何，這項政策都會保障工人。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy protects workers regardless of their employment status."
+    },
+    {
+      "id": "ss259-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Whenever the package arrives, someone will be here to receive it.",
+      "promptZh": "不論包裹何時到達，都會有人在這裏接收。",
+      "promptZhSource": "pdf",
+      "starter": "Someone",
+      "answer": "Someone will be here to receive the package regardless of when it arrives.",
+      "answerZh": "不論包裹何時到達，都會有人在這裏接收。",
+      "answerZhSource": "pdf",
+      "highlight": "Someone will be here to receive the package regardless of when it arrives."
+    },
+    {
+      "id": "ss259-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The teacher will support every student, whatever they decide to study.",
+      "promptZh": "不論每個學生決定修讀甚麼科目，老師都會支持他們。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every student, regardless of what they decide to study, will receive support from the teacher.",
+      "answerZh": "不論學生決定修讀甚麼科目，每名學生都會得到老師的支持。",
+      "answerZhSource": "pdf",
+      "highlight": "Every student, regardless of what they decide to study, will receive support from the teacher."
+    },
+    {
+      "id": "ss259-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Whether the plan succeeds or fails, we will learn something useful.",
+      "promptZh": "不論計劃成功還是失敗，我們都會學到有用的東西。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We will learn something useful regardless of whether the plan succeeds or fails.",
+      "answerZh": "不論計劃成功還是失敗，我們都會學到有用的東西。",
+      "answerZhSource": "pdf",
+      "highlight": "We will learn something useful regardless of whether the plan succeeds or fails."
+    },
+    {
+      "id": "ss259-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The machine should be checked regularly even if it appears to be working very well.",
+      "promptZh": "即使這部機器看來運作良好，也應定期檢查。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The machine should be checked regularly regardless of how well it appears to be working.",
+      "answerZh": "不論這部機器看來運作得多好，都應定期檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine should be checked regularly regardless of how well it appears to be working."
+    },
+    {
+      "id": "ss259-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "It does not matter who made the mistake; we need to correct it immediately.",
+      "promptZh": "不論誰犯下這個錯誤，我們都需要立即改正。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We need to correct the mistake immediately regardless of who made it.",
+      "answerZh": "不論誰犯下這個錯誤，我們都需要立即改正。",
+      "answerZhSource": "pdf",
+      "highlight": "We need to correct the mistake immediately regardless of who made it."
+    },
+    {
+      "id": "ss259-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Customers receive a refund whichever branch they bought the item from.",
+      "promptZh": "不論顧客在哪一間分店購買貨品，都可以獲得退款。",
+      "promptZhSource": "pdf",
+      "starter": "Customers",
+      "answer": "Customers receive a refund regardless of which branch they bought the item from.",
+      "answerZh": "不論顧客在哪一間分店購買貨品，都可以獲得退款。",
+      "answerZhSource": "pdf",
+      "highlight": "Customers receive a refund regardless of which branch they bought the item from."
+    },
+    {
+      "id": "ss259-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Every contribution is appreciated, however large or small the donation is.",
+      "promptZh": "不論捐款金額大小，每一份捐款都值得感謝。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every contribution is appreciated regardless of the size of the donation.",
+      "answerZh": "不論捐款金額大小，每一份捐款都值得感謝。",
+      "answerZhSource": "pdf",
+      "highlight": "Every contribution is appreciated regardless of the size of the donation."
+    },
+    {
+      "id": "ss259-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "No matter where the medicine was purchased, it must be stored in a cool place.",
+      "promptZh": "不論藥物在哪裏購買，都必須存放在陰涼地方。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The medicine, regardless of where it was purchased, must be stored in a cool place.",
+      "answerZh": "不論藥物在哪裏購買，都必須存放在陰涼地方。",
+      "answerZhSource": "pdf",
+      "highlight": "The medicine, regardless of where it was purchased, must be stored in a cool place."
+    },
+    {
+      "id": "ss259-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Whether your answer is yes or no, please explain your reasons.",
+      "promptZh": "不論你的答案是同意還是不同意，請解釋原因。",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please explain your reasons regardless of whether your answer is yes or no.",
+      "answerZh": "不論你的答案是同意還是不同意，請解釋原因。",
+      "answerZhSource": "pdf",
+      "highlight": "Please explain your reasons regardless of whether your answer is yes or no."
+    },
+    {
+      "id": "ss259-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Where a child lives does not affect whether they may enter the museum free of charge.",
+      "promptZh": "兒童居住的地方不會影響他們能否免費進入博物館。",
+      "promptZhSource": "pdf",
+      "starter": "Children",
+      "answer": "Children may enter the museum free of charge regardless of their place of residence.",
+      "answerZh": "不論居住在哪裏，兒童都可以免費進入博物館。",
+      "answerZhSource": "pdf",
+      "highlight": "Children may enter the museum free of charge regardless of their place of residence."
+    },
+    {
+      "id": "ss259-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "No matter how carefully the data was collected, it must still be checked.",
+      "promptZh": "不論數據收集得多仔細，仍然必須加以檢查。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The data must still be checked regardless of how carefully it was collected.",
+      "answerZh": "不論數據收集得多仔細，仍然必須加以檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "The data must still be checked regardless of how carefully it was collected."
+    },
+    {
+      "id": "ss259-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The committee will review the complaint whoever submitted it.",
+      "promptZh": "不論由誰遞交投訴，委員會都會作出審查。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee will review the complaint regardless of who submitted it.",
+      "answerZh": "不論由誰遞交投訴，委員會都會作出審查。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee will review the complaint regardless of who submitted it."
+    },
+    {
+      "id": "ss259-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Whatever the survey shows, the final decision belongs to the board.",
+      "promptZh": "不論調查顯示甚麼結果，最終決定都由董事會作出。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final decision belongs to the board regardless of what the survey shows.",
+      "answerZh": "不論調查顯示甚麼結果，最終決定都由董事會作出。",
+      "answerZhSource": "pdf",
+      "highlight": "The final decision belongs to the board regardless of what the survey shows."
+    },
+    {
+      "id": "ss259-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Staff must report every incident, however minor it appears to be.",
+      "promptZh": "不論事故看來多麼輕微，職員都必須作出報告。",
+      "promptZhSource": "pdf",
+      "starter": "Staff",
+      "answer": "Staff must report the incident regardless of how minor it appears to be.",
+      "answerZh": "不論事故看來多麼輕微，職員都必須作出報告。",
+      "answerZhSource": "pdf",
+      "highlight": "Staff must report the incident regardless of how minor it appears to be."
+    },
+    {
+      "id": "ss259-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Passengers deserve an explanation whether the delay was avoidable or not.",
+      "promptZh": "不論延誤是否可以避免，乘客都應獲得解釋。",
+      "promptZhSource": "pdf",
+      "starter": "Passengers",
+      "answer": "Passengers deserve an explanation regardless of whether the delay was avoidable.",
+      "answerZh": "不論延誤是否可以避免，乘客都應獲得解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "Passengers deserve an explanation regardless of whether the delay was avoidable."
+    },
+    {
+      "id": "ss259-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Qualified students from any school may apply for the scholarship.",
+      "promptZh": "來自任何學校的合資格學生都可以申請獎學金。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The scholarship is open to qualified students regardless of which school they attend.",
+      "answerZh": "不論就讀哪一間學校，合資格學生都可以申請獎學金。",
+      "answerZhSource": "pdf",
+      "highlight": "The scholarship is open to qualified students regardless of which school they attend."
+    },
+    {
+      "id": "ss259-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "No matter when the error occurred, the company must correct the records.",
+      "promptZh": "不論錯誤何時發生，公司都必須更正紀錄。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company must correct the records regardless of when the error occurred.",
+      "answerZh": "不論錯誤何時發生，公司都必須更正紀錄。",
+      "answerZhSource": "pdf",
+      "highlight": "The company must correct the records regardless of when the error occurred."
+    },
+    {
+      "id": "ss259-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The emergency service will respond wherever the caller is located.",
+      "promptZh": "不論求助者身處何地，緊急服務都會作出回應。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The emergency service will respond regardless of where the caller is located.",
+      "answerZh": "不論求助者身處何地，緊急服務都會作出回應。",
+      "answerZhSource": "pdf",
+      "highlight": "The emergency service will respond regardless of where the caller is located."
+    },
+    {
+      "id": "ss259-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "However unpopular the decision may be, the council must protect public safety.",
+      "promptZh": "不論這項決定多麼不受歡迎，議會都必須保障公眾安全。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council must protect public safety regardless of how unpopular the decision may be.",
+      "answerZh": "不論這項決定多麼不受歡迎，議會都必須保障公眾安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The council must protect public safety regardless of how unpopular the decision may be."
+    },
+    {
+      "id": "ss259-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "A person’s wealth or social position must not affect how the law is applied.",
+      "promptZh": "一個人的財富或社會地位不應影響法律的執行方式。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The law should be applied equally regardless of a person’s wealth or social position.",
+      "answerZh": "不論一個人的財富或社會地位如何，法律都應獲得公平執行。",
+      "answerZhSource": "pdf",
+      "highlight": "The law should be applied equally regardless of a person’s wealth or social position."
+    },
+    {
+      "id": "ss259-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "We must report the findings honestly whether the evidence supports our original theory or not.",
+      "promptZh": "不論證據是否支持我們原先的理論，我們都必須誠實報告研究結果。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We must report the findings honestly regardless of whether the evidence supports our original theory.",
+      "answerZh": "不論證據是否支持我們原先的理論，我們都必須誠實報告研究結果。",
+      "answerZhSource": "pdf",
+      "highlight": "We must report the findings honestly regardless of whether the evidence supports our original theory."
+    },
+    {
+      "id": "ss259-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The patient’s ability to pay immediately will not affect whether urgent treatment is provided.",
+      "promptZh": "病人能否即時付款不會影響他們是否獲得緊急治療。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital will provide urgent treatment regardless of whether the patient can pay immediately.",
+      "answerZh": "不論病人能否即時付款，醫院都會提供緊急治療。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital will provide urgent treatment regardless of whether the patient can pay immediately."
+    },
+    {
+      "id": "ss259-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "It does not matter who is responsible for the misunderstanding; both departments must work together to resolve it.",
+      "promptZh": "不論誰需要為這場誤會負責，兩個部門都必須合作解決問題。",
+      "promptZhSource": "pdf",
+      "starter": "Both",
+      "answer": "Both departments must work together to resolve the misunderstanding regardless of who is responsible for it.",
+      "answerZh": "不論誰需要為這場誤會負責，兩個部門都必須合作解決問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Both departments must work together to resolve the misunderstanding regardless of who is responsible for it."
+    },
+    {
+      "id": "ss259-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Even the most experienced operator must follow the safety procedure.",
+      "promptZh": "即使是經驗最豐富的操作員，也必須遵守安全程序。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The safety procedure must be followed regardless of how experienced the operator is.",
+      "answerZh": "不論操作員有多少經驗，都必須遵守安全程序。",
+      "answerZhSource": "pdf",
+      "highlight": "The safety procedure must be followed regardless of how experienced the operator is."
+    },
+    {
+      "id": "ss259-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "No matter what changes are made to the timetable, the final examination date will remain the same.",
+      "promptZh": "不論時間表作出甚麼改動，期末考試日期都會維持不變。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final examination date will remain the same regardless of what changes are made to the timetable.",
+      "answerZh": "不論時間表作出甚麼改動，期末考試日期都會維持不變。",
+      "answerZhSource": "pdf",
+      "highlight": "The final examination date will remain the same regardless of what changes are made to the timetable."
+    },
+    {
+      "id": "ss259-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The organisation promises to protect every complainant, whichever senior employee is involved.",
+      "promptZh": "不論事件涉及哪一名高級僱員，機構都承諾保護每名投訴人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organisation promises to protect every complainant regardless of which senior employee is involved.",
+      "answerZh": "不論事件涉及哪一名高級僱員，機構都承諾保護每名投訴人。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisation promises to protect every complainant regardless of which senior employee is involved."
+    },
+    {
+      "id": "ss259-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Wherever the negotiations take place, both sides must respect the same legal conditions.",
+      "promptZh": "不論談判在哪裏進行，雙方都必須遵守相同的法律條件。",
+      "promptZhSource": "pdf",
+      "starter": "Both",
+      "answer": "Both sides must respect the same legal conditions regardless of where the negotiations take place.",
+      "answerZh": "不論談判在哪裏進行，雙方都必須遵守相同的法律條件。",
+      "answerZhSource": "pdf",
+      "highlight": "Both sides must respect the same legal conditions regardless of where the negotiations take place."
+    },
+    {
+      "id": "ss259-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The identity of the organisation that funded the research should not affect how its quality is evaluated.",
+      "promptZh": "資助研究的機構身分不應影響研究質素的評估方式。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research should be evaluated on its quality regardless of which organisation funded it.",
+      "answerZh": "不論由哪一間機構資助，都應按照研究本身的質素作出評估。",
+      "answerZhSource": "pdf",
+      "highlight": "The research should be evaluated on its quality regardless of which organisation funded it."
+    },
+    {
+      "id": "ss259-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Whether the proposal is approved, rejected or revised, the team must keep a complete record of the discussion.",
+      "promptZh": "不論建議獲得批准、遭到否決還是需要修改，團隊都必須保留完整的討論紀錄。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team must keep a complete record of the discussion regardless of whether the proposal is approved, rejected or revised.",
+      "answerZh": "不論建議獲得批准、遭到否決還是需要修改，團隊都必須保留完整的討論紀錄。",
+      "answerZhSource": "pdf",
+      "highlight": "The team must keep a complete record of the discussion regardless of whether the proposal is approved, rejected or revised."
+    }
+  ]
+}

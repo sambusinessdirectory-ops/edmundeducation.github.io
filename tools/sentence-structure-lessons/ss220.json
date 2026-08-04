@@ -1,0 +1,1235 @@
+{
+  "id": "ss220",
+  "order": 220,
+  "slug": "only-when-inversion",
+  "title": "「Only when ...」倒裝句",
+  "titleZh": "「Only when ...」倒裝句",
+  "titleEn": "Using “Only when ...” inversion",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 219 -「Only when ...」倒裝句.pdf",
+    "pageCount": 22,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "exercisePages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 219; it is assigned system ID ss220 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "Only when + condition/time clause + auxiliary or modal + subject + main verb",
+  "formulas": [
+    {
+      "id": "ss220-formula-01",
+      "labelEn": "Present simple",
+      "labelZh": "一般現在時",
+      "formula": "Only when + subject + present verb + do / does + subject + base verb"
+    },
+    {
+      "id": "ss220-formula-02",
+      "labelEn": "Past simple",
+      "labelZh": "一般過去時",
+      "formula": "Only when + subject + past verb + did + subject + base verb"
+    },
+    {
+      "id": "ss220-formula-03",
+      "labelEn": "Modal verb",
+      "labelZh": "情態動詞",
+      "formula": "Only when + clause + modal verb + subject + base verb"
+    },
+    {
+      "id": "ss220-formula-04",
+      "labelEn": "The verb be",
+      "labelZh": "Be 動詞",
+      "formula": "Only when + clause + be + subject + complement"
+    }
+  ],
+  "example": "Only when people feel safe do they speak honestly.",
+  "exampleZh": "只有當人們感到安全時，他們才會坦誠發言。",
+  "examples": [
+    {
+      "id": "ss220-example-01",
+      "en": "Only when people feel safe do they speak honestly.",
+      "zh": "只有當人們感到安全時，他們才會坦誠發言。",
+      "highlight": "Only when people feel safe do they speak honestly."
+    }
+  ],
+  "meaning": {
+    "zh": "這個句型突出 Only when 後面的必要條件，表示只有條件達成或時刻來到後，主句的事情才會發生。"
+  },
+  "rules": [
+    {
+      "id": "ss220-rule-01",
+      "zh": "只倒裝主句 Only when 後面的子句保持正常語序。 正確： Only when people feel safe do they speak honestly. 錯誤： Only when do people feel safe, they speak honestly. people feel safe 是 when 子句，因此不需要倒裝。 需要倒裝的是主句： they speak honestly → do they speak honestly",
+      "en": "Invert only the main clause. Keep normal statement order in the clause after Only when: “Only when people feel safe do they speak honestly.”",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss220-rule-02",
+      "zh": "放在句首時，主句才需要倒裝 Only when 放在句尾： People speak honestly only when they feel safe. 這裏不需要倒裝。 Only when 放在句首： Only when people feel safe do they speak honestly. 這裏必須倒裝。",
+      "en": "The main clause requires inversion only when Only when is placed at the beginning. No inversion is needed when the Only when phrase comes at the end.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss220-rule-03",
+      "zh": "和 did 後面使用原形動詞 does Mia smile did Ben realise do the students understand 不要寫： does Mia smiles did Ben realised do the students understood",
+      "en": "Use the base form after do, does and did: does Mia smile, did Ben realise and do the students understand.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss220-rule-04",
+      "zh": "選擇正確的助動詞 I、you、we、they 或複數主詞 使用 do： Only when we practise regularly do we improve. He、she、it 或單數主詞 使用 does： Only when Jack feels tired does he rest. 過去發生的事情 使用 did： Only when Jack felt tired did he rest.",
+      "en": "Choose the auxiliary to match the subject and tense: do with I/you/we/they and plural subjects, does with a third-person singular subject, and did for the past.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss220-rule-05",
+      "zh": "有情態動詞時，不要加入 do、does 或 did 正確： Only when the rain stops can we leave. 錯誤： Only when the rain stops do we can leave. 每個倒裝主句只需要使用原本的情態動詞。",
+      "en": "When the main clause already contains a modal verb, move that modal before the subject and do not add do, does or did.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss220-rule-06",
+      "zh": "表示必要條件 這個句型並不只是表示兩件事情在同一時間發生。 它表示： 第一項條件必須達成，第二件事情才會發生。 普通時間關係： When the teacher arrived, the students sat down. （老師到達時，學生坐下來。） 必要條件： Only when the teacher arrived did the students sit down. （只有當老師到達時，學生才坐下來。） 第二句表示學生在老師到達前並沒有坐下。",
+      "en": "Only when expresses a necessary condition, not merely two events happening at the same time. The condition must be met before the main event can occur.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss220-rule-07",
+      "zh": "開首子句後面通常使用逗號 Only when the shop opens, can customers enter. 在正式標準書寫中，更自然的標點是： Only when the shop opens can customers enter. 當開首的 when 子句較長時，可加入逗號以幫助閱讀： Only when every member of the team has checked the final plan, can the manager approve it. 不過，現代英語中也常省略這個逗號。這份練習會採用較流暢的無逗號形式。",
+      "en": "A comma is usually omitted after a short opening Only when clause in modern standard English. A comma may help readability after a particularly long opening clause; this exercise uses the smoother form without a comma.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss220-benefit-01",
+      "zh": "清楚表達「只有達成這個條件才可以」 這個句型能讓讀者立即明白，一件事情不會隨便發生，而是必須先達成某項條件。 Only when the light turns green can drivers move. 這句清楚表示，司機必須等到綠燈亮起才可以前進。",
+      "en": "It clearly expresses that something can happen only after a necessary condition has been met.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss220-benefit-02",
+      "zh": "突出最重要的條件 比較： We can begin only when everyone is ready. Only when everyone is ready can we begin. 第二句把 everyone is ready 放在最前面，讓讀者先注意「所有人都準備好」這項條件。",
+      "en": "It highlights the most important condition by placing that condition first.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss220-benefit-03",
+      "zh": "幫助表達事情發生的先後次序 這個句型很適合說明： ● 先發生甚麼； ● 然後另一件事情才發生。 Only when I read the final email did I understand the problem. 讀者可以清楚看出，我是先閱讀最後一封電郵，之後才明白問題。",
+      "en": "It helps show the sequence between an earlier condition and the event that follows.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss220-benefit-04",
+      "zh": "適合用於規則、警告和指示 你可以使用這個句型清楚說明某件事情在甚麼情況下才可以進行。 Only when the machine has stopped should you open the cover. 這比只寫一個普通時間句更能突出安全條件。",
+      "en": "It is useful for rules, warnings and instructions because it foregrounds the condition for safe or permitted action.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss220-benefit-05",
+      "zh": "讓作文和報告的句子更有變化 學生經常以主詞開始句子： People speak honestly only when they feel safe. Students can improve only when they practise regularly. 使用 Only when 後，可以改變句子開首： Only when people feel safe do they speak honestly. Only when students practise regularly can they improve. 這能避免連續多句都使用相同的主詞開首。",
+      "en": "It gives essays and reports more sentence variety by avoiding repeated subject-first openings.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss220-benefit-06",
+      "zh": "讓重要觀點更有力量 在討論、演講、作文和報告中，這個句型可以用來強調真正需要改變的事情。 Only when everyone follows the rule will the system work properly. 這句把「每個人都遵守規則」表示為系統正常運作的必要條件，因此語氣較有力。",
+      "en": "It gives important arguments more force by presenting a condition as essential to the result.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 219; it is assigned system ID ss220 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Place Only when at the beginning and use inversion in the main clause.",
+      "Preserve the original meaning and tense and follow the supplied first word."
+    ],
+    "zh": [
+      "把 Only when 放在句首，並在主句使用倒裝句式改寫以下句子。",
+      "保留原句的意思和時態，並按照已提供的第一個字作答。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss220-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "People speak honestly only when they feel safe.",
+      "promptZh": "人們只有感到安全時，才會坦誠發言。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when people feel safe do they speak honestly.",
+      "answerZh": "只有當人們感到安全時，他們才會坦誠發言。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when people feel safe do they speak honestly."
+    },
+    {
+      "id": "ss220-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I can concentrate only when the room is quiet.",
+      "promptZh": "我只有在房間安靜時才能集中精神。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the room is quiet can I concentrate.",
+      "answerZh": "只有當房間安靜時，我才能集中精神。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the room is quiet can I concentrate."
+    },
+    {
+      "id": "ss220-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Mia smiles only when she feels relaxed.",
+      "promptZh": "米婭只有感到放鬆時才會微笑。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when Mia feels relaxed does she smile.",
+      "answerZh": "只有當米婭感到放鬆時，她才會微笑。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when Mia feels relaxed does she smile."
+    },
+    {
+      "id": "ss220-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The bus stops only when a passenger presses the button.",
+      "promptZh": "只有乘客按下按鈕時，巴士才會停下。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when a passenger presses the button does the bus stop.",
+      "answerZh": "只有當乘客按下按鈕時，巴士才會停下。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when a passenger presses the button does the bus stop."
+    },
+    {
+      "id": "ss220-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Students can go inside only when the library is open.",
+      "promptZh": "學生只有在圖書館開放時才可以進入。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the library is open can students go inside.",
+      "answerZh": "只有當圖書館開放時，學生才可以進入。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the library is open can students go inside."
+    },
+    {
+      "id": "ss220-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "My father turns on the heater only when the weather is cold.",
+      "promptZh": "我爸爸只有在天氣寒冷時才會開暖爐。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the weather is cold does my father turn on the heater.",
+      "answerZh": "只有當天氣寒冷時，我爸爸才會開暖爐。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the weather is cold does my father turn on the heater."
+    },
+    {
+      "id": "ss220-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We eat outside only when it is sunny.",
+      "promptZh": "我們只有在天氣晴朗時才會在戶外用餐。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when it is sunny do we eat outside.",
+      "answerZh": "只有當天氣晴朗時，我們才會在戶外用餐。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when it is sunny do we eat outside."
+    },
+    {
+      "id": "ss220-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The phone charges only when the charging cable is connected.",
+      "promptZh": "手機只有在接上充電線時才會充電。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the charging cable is connected does the phone charge.",
+      "answerZh": "只有接上充電線時，手機才會充電。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the charging cable is connected does the phone charge."
+    },
+    {
+      "id": "ss220-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Emma studies in the café only when it is not crowded.",
+      "promptZh": "艾瑪只有在咖啡店不擠迫時才會在那裏溫習。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the café is not crowded does Emma study there.",
+      "answerZh": "只有當咖啡店不擠迫時，艾瑪才會在那裏溫習。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the café is not crowded does Emma study there."
+    },
+    {
+      "id": "ss220-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The dog barks only when someone comes to the door.",
+      "promptZh": "只有當有人來到門前時，這隻狗才會吠叫。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when someone comes to the door does the dog bark.",
+      "answerZh": "只有當有人來到門前時，這隻狗才會吠叫。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when someone comes to the door does the dog bark."
+    },
+    {
+      "id": "ss220-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I understood the joke only when Leo explained it.",
+      "promptZh": "只有當里奧解釋那個笑話時，我才明白它的意思。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when Leo explained the joke did I understand it.",
+      "answerZh": "只有當里奧解釋那個笑話時，我才明白它的意思。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when Leo explained the joke did I understand it."
+    },
+    {
+      "id": "ss220-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "They left the park only when the rain started.",
+      "promptZh": "只有當雨開始下時，他們才離開公園。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the rain started did they leave the park.",
+      "answerZh": "只有當雨開始下時，他們才離開公園。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the rain started did they leave the park."
+    },
+    {
+      "id": "ss220-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We could see the mountain only when the clouds moved away.",
+      "promptZh": "只有當雲層散去時，我們才看得見那座山。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the clouds moved away could we see the mountain.",
+      "answerZh": "只有當雲層散去時，我們才看得見那座山。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the clouds moved away could we see the mountain."
+    },
+    {
+      "id": "ss220-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The children became quiet only when the teacher entered the room.",
+      "promptZh": "只有當老師走進房間時，孩子們才安靜下來。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the teacher entered the room did the children become quiet.",
+      "answerZh": "只有當老師走進房間時，孩子們才安靜下來。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the teacher entered the room did the children become quiet."
+    },
+    {
+      "id": "ss220-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Ben realised his mistake only when he checked the answer.",
+      "promptZh": "只有當本核對答案時，他才發現自己的錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when Ben checked the answer did he realise his mistake.",
+      "answerZh": "只有當本核對答案時，他才發現自己的錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when Ben checked the answer did he realise his mistake."
+    },
+    {
+      "id": "ss220-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "You can use the machine only when a supervisor is present.",
+      "promptZh": "只有當主管在場時，你才可以使用這部機器。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when a supervisor is present can you use the machine.",
+      "answerZh": "只有當主管在場時，你才可以使用這部機器。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when a supervisor is present can you use the machine."
+    },
+    {
+      "id": "ss220-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We will start the meeting only when everyone arrives.",
+      "promptZh": "只有當所有人到達時，我們才會開始會議。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when everyone arrives will we start the meeting.",
+      "answerZh": "只有當所有人到達時，我們才會開始會議。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when everyone arrives will we start the meeting."
+    },
+    {
+      "id": "ss220-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Visitors should take photographs only when the guide permits it.",
+      "promptZh": "只有當導遊准許時，訪客才應該拍照。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the guide permits it should visitors take photographs.",
+      "answerZh": "只有當導遊准許時，訪客才應該拍照。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the guide permits it should visitors take photographs."
+    },
+    {
+      "id": "ss220-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Staff must open the door only when the alarm stops.",
+      "promptZh": "只有當警報停止時，職員才可以打開門。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the alarm stops must staff open the door.",
+      "answerZh": "只有當警報停止時，職員才可以打開門。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the alarm stops must staff open the door."
+    },
+    {
+      "id": "ss220-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The room is safe only when all the windows are closed.",
+      "promptZh": "只有當所有窗戶都關上時，房間才是安全的。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when all the windows are closed is the room safe.",
+      "answerZh": "只有當所有窗戶都關上時，房間才是安全的。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when all the windows are closed is the room safe."
+    },
+    {
+      "id": "ss220-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I could relax only when I had finished all my work.",
+      "promptZh": "只有當我完成所有工作後，我才能放鬆。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when I had finished all my work could I relax.",
+      "answerZh": "只有當我完成所有工作後，我才能放鬆。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when I had finished all my work could I relax."
+    },
+    {
+      "id": "ss220-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Sara began to understand the lesson only after the teacher gave a second example.",
+      "promptZh": "只有當老師再舉一個例子後，莎拉才開始明白課堂內容。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the teacher gave a second example did Sara begin to understand the lesson.",
+      "answerZh": "只有當老師再舉一個例子後，莎拉才開始明白課堂內容。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the teacher gave a second example did Sara begin to understand the lesson."
+    },
+    {
+      "id": "ss220-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The lights came on only after the electrician fixed the wire.",
+      "promptZh": "只有當電工修好電線後，燈才亮起來。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the electrician fixed the wire did the lights come on.",
+      "answerZh": "只有當電工修好電線後，燈才亮起來。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the electrician fixed the wire did the lights come on."
+    },
+    {
+      "id": "ss220-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It was only when the shop closed that we noticed the missing bag.",
+      "promptZh": "只有當商店關門時，我們才發現袋子不見了。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the shop closed did we notice the missing bag.",
+      "answerZh": "只有當商店關門時，我們才發現袋子不見了。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the shop closed did we notice the missing bag."
+    },
+    {
+      "id": "ss220-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I did not feel confident until I had practised several times.",
+      "promptZh": "直到練習了數次後，我才感到有信心。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when I had practised several times did I feel confident.",
+      "answerZh": "只有在練習了數次後，我才感到有信心。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when I had practised several times did I feel confident."
+    },
+    {
+      "id": "ss220-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The baby fell asleep only after the room became quiet.",
+      "promptZh": "只有當房間安靜下來後，嬰兒才入睡。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the room became quiet did the baby fall asleep.",
+      "answerZh": "只有當房間安靜下來後，嬰兒才入睡。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the room became quiet did the baby fall asleep."
+    },
+    {
+      "id": "ss220-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The website works properly only when cookies are enabled.",
+      "promptZh": "只有啟用 Cookie 時，網站才會正常運作。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when cookies are enabled does the website work properly.",
+      "answerZh": "只有啟用 Cookie 時，網站才會正常運作。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when cookies are enabled does the website work properly."
+    },
+    {
+      "id": "ss220-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The medicine should be taken only when the doctor says it is necessary.",
+      "promptZh": "只有當醫生認為有需要時，才應該服用這種藥物。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the doctor says it is necessary should the medicine be taken.",
+      "answerZh": "只有當醫生認為有需要時，才應該服用這種藥物。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the doctor says it is necessary should the medicine be taken."
+    },
+    {
+      "id": "ss220-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The lift can move only when all its doors are fully closed.",
+      "promptZh": "只有當升降機的所有門完全關上時，它才可以移動。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when all its doors are fully closed can the lift move.",
+      "answerZh": "只有當升降機的所有門完全關上時，它才可以移動。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when all its doors are fully closed can the lift move."
+    },
+    {
+      "id": "ss220-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The match will continue only when the rain stops.",
+      "promptZh": "只有當雨停後，比賽才會繼續。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the rain stops will the match continue.",
+      "answerZh": "只有當雨停後，比賽才會繼續。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the rain stops will the match continue."
+    },
+    {
+      "id": "ss220-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "When does Noah check his messages? He checks them only after he has finished dinner.",
+      "promptZh": "諾亞甚麼時候查看訊息？他只有吃完晚飯後才會查看。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when Noah has finished dinner does he check his messages.",
+      "answerZh": "只有當諾亞吃完晚飯後，他才會查看訊息。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when Noah has finished dinner does he check his messages."
+    },
+    {
+      "id": "ss220-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "We did not discover the truth until we read the final email.",
+      "promptZh": "直到閱讀最後一封電郵後，我們才發現真相。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when we read the final email did we discover the truth.",
+      "answerZh": "只有閱讀最後一封電郵後，我們才發現真相。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when we read the final email did we discover the truth."
+    },
+    {
+      "id": "ss220-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The manager made a decision only after she had spoken to every team member.",
+      "promptZh": "只有與每位團隊成員交談後，經理才作出決定。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the manager had spoken to every team member did she make a decision.",
+      "answerZh": "只有與每位團隊成員交談後，經理才作出決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the manager had spoken to every team member did she make a decision."
+    },
+    {
+      "id": "ss220-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The alarm sounds only when smoke reaches the sensor.",
+      "promptZh": "只有當煙霧到達感應器時，警報才會響起。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when smoke reaches the sensor does the alarm sound.",
+      "answerZh": "只有當煙霧到達感應器時，警報才會響起。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when smoke reaches the sensor does the alarm sound."
+    },
+    {
+      "id": "ss220-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A student can leave early only when a parent has given permission.",
+      "promptZh": "只有當家長已給予許可時，學生才可以提早離開。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when a parent has given permission can a student leave early.",
+      "answerZh": "只有當家長已給予許可時，學生才可以提早離開。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when a parent has given permission can a student leave early."
+    },
+    {
+      "id": "ss220-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The bank will return the money only when it confirms the mistake.",
+      "promptZh": "只有當銀行確認出錯時，它才會退還款項。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the bank confirms the mistake will it return the money.",
+      "answerZh": "只有當銀行確認出錯時，它才會退還款項。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the bank confirms the mistake will it return the money."
+    },
+    {
+      "id": "ss220-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The plants grow well only when they receive enough light.",
+      "promptZh": "植物只有獲得足夠光線時才會生長良好。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the plants receive enough light do they grow well.",
+      "answerZh": "只有當植物獲得足夠光線時，它們才會生長良好。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the plants receive enough light do they grow well."
+    },
+    {
+      "id": "ss220-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Grace saw how serious the problem was only when she read the full report.",
+      "promptZh": "只有閱讀完整報告後，格蕾絲才明白問題有多嚴重。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when Grace read the full report did she see how serious the problem was.",
+      "answerZh": "只有閱讀完整報告後，格蕾絲才明白問題有多嚴重。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when Grace read the full report did she see how serious the problem was."
+    },
+    {
+      "id": "ss220-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The village became easy to reach only after the new bridge opened.",
+      "promptZh": "只有當新橋開放後，前往這條村落才變得容易。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the new bridge opened did the village become easy to reach.",
+      "answerZh": "只有當新橋開放後，前往這條村落才變得容易。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the new bridge opened did the village become easy to reach."
+    },
+    {
+      "id": "ss220-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The service is available only when trained staff are on duty.",
+      "promptZh": "只有當受過訓練的職員當值時，這項服務才會提供。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when trained staff are on duty is the service available.",
+      "answerZh": "只有當受過訓練的職員當值時，這項服務才會提供。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when trained staff are on duty is the service available."
+    },
+    {
+      "id": "ss220-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The team could improve the plan only after customers had shared their comments.",
+      "promptZh": "只有在顧客提出意見後，團隊才能改善計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when customers had shared their comments could the team improve the plan.",
+      "answerZh": "只有在顧客提出意見後，團隊才能改善計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when customers had shared their comments could the team improve the plan."
+    },
+    {
+      "id": "ss220-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The school will cancel outdoor activities only when the weather becomes dangerous.",
+      "promptZh": "只有當天氣變得危險時，學校才會取消戶外活動。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the weather becomes dangerous will the school cancel outdoor activities.",
+      "answerZh": "只有當天氣變得危險時，學校才會取消戶外活動。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the weather becomes dangerous will the school cancel outdoor activities."
+    },
+    {
+      "id": "ss220-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The patient began to recover only after the correct treatment had been given.",
+      "promptZh": "只有在接受正確治療後，病人才開始康復。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the correct treatment had been given did the patient begin to recover.",
+      "answerZh": "只有在接受正確治療後，病人才開始康復。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the correct treatment had been given did the patient begin to recover."
+    },
+    {
+      "id": "ss220-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "We should share the news only when the family is ready.",
+      "promptZh": "只有當家人準備好時，我們才應該公布消息。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the family is ready should we share the news.",
+      "answerZh": "只有當家人準備好時，我們才應該公布消息。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the family is ready should we share the news."
+    },
+    {
+      "id": "ss220-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The company understood the cause of the delay only after it had checked every delivery record.",
+      "promptZh": "只有在核對每項送貨紀錄後，公司才明白延誤的原因。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the company had checked every delivery record did it understand the cause of the delay.",
+      "answerZh": "只有在核對每項送貨紀錄後，公司才明白延誤的原因。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the company had checked every delivery record did it understand the cause of the delay."
+    },
+    {
+      "id": "ss220-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The public can trust the system only when decisions are explained clearly.",
+      "promptZh": "只有當決定得到清楚解釋時，公眾才可以信任這個制度。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when decisions are explained clearly can the public trust the system.",
+      "answerZh": "只有當決定得到清楚解釋時，公眾才可以信任這個制度。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when decisions are explained clearly can the public trust the system."
+    },
+    {
+      "id": "ss220-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The new rule will be effective only when every department follows it.",
+      "promptZh": "只有當每個部門都遵守新規則時，它才會有效。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when every department follows the new rule will it be effective.",
+      "answerZh": "只有當每個部門都遵守新規則時，它才會有效。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when every department follows the new rule will it be effective."
+    },
+    {
+      "id": "ss220-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Dr Lee recognised the pattern only after she had compared the results from all three groups.",
+      "promptZh": "只有在比較三組的結果後，李博士才辨認出當中的規律。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when Dr Lee had compared the results from all three groups did she recognise the pattern.",
+      "answerZh": "只有在比較三組的結果後，李博士才辨認出當中的規律。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when Dr Lee had compared the results from all three groups did she recognise the pattern."
+    },
+    {
+      "id": "ss220-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The council admitted that the plan needed changes only when many residents complained.",
+      "promptZh": "只有當很多居民作出投訴時，市議會才承認計劃需要修改。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when many residents complained did the council admit that the plan needed changes.",
+      "answerZh": "只有當很多居民作出投訴時，市議會才承認計劃需要修改。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when many residents complained did the council admit that the plan needed changes."
+    },
+    {
+      "id": "ss220-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "We can judge whether the programme has worked only when we have seen results over a longer period.",
+      "promptZh": "只有在較長時間內觀察到結果後，我們才能判斷這項計劃是否有效。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when we have seen results over a longer period can we judge whether the programme has worked.",
+      "answerZh": "只有在較長時間內觀察到結果後，我們才能判斷這項計劃是否有效。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when we have seen results over a longer period can we judge whether the programme has worked."
+    }
+  ]
+}

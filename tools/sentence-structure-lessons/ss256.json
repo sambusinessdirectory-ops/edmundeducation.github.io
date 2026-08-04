@@ -1,0 +1,1269 @@
+{
+  "id": "ss256",
+  "order": 256,
+  "slug": "far-from-being-x-y",
+  "title": "「Far from being X, Y …」句",
+  "titleZh": "「Far from being X, Y …」表達強烈否定與相反結果",
+  "titleEn": "Far from being X, Y …",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence structure 255 -「Far from being X, Y …」.pdf",
+    "pageCount": 22,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "exercisePages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered one lower than this system lesson ID because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "Far from being + X, + complete main clause",
+  "formulas": [
+    {
+      "id": "ss256-formula-01",
+      "labelEn": "At the beginning",
+      "labelZh": "放在句首",
+      "formula": "Far from being X, + subject + verb."
+    },
+    {
+      "id": "ss256-formula-02",
+      "labelEn": "After an opening phrase",
+      "labelZh": "放在開首短語後",
+      "formula": "Opening phrase, + far from being X, + subject + verb."
+    },
+    {
+      "id": "ss256-formula-03",
+      "labelEn": "After an opening clause",
+      "labelZh": "放在開首子句後",
+      "formula": "Opening clause, + far from being X, + subject + verb."
+    },
+    {
+      "id": "ss256-formula-04",
+      "labelEn": "Parenthetical after subject",
+      "labelZh": "放在主語後作插入語",
+      "formula": "Subject, + far from being X, + verb."
+    },
+    {
+      "id": "ss256-formula-05",
+      "labelEn": "Reported or embedded",
+      "labelZh": "放在報告或嵌入子句內",
+      "formula": "Subject + reporting verb + that + subject, far from being X, + verb."
+    },
+    {
+      "id": "ss256-formula-06",
+      "labelEn": "Question",
+      "labelZh": "放在問句內",
+      "formula": "Question frame + subject, far from being X, + verb?"
+    },
+    {
+      "id": "ss256-formula-07",
+      "labelEn": "Contrast adverb",
+      "labelZh": "配合對比副詞",
+      "formula": "Far from being X, + subject + actually / instead / rather / in fact + verb."
+    }
+  ],
+  "example": "Far from being a failure, the pilot revealed useful weaknesses.",
+  "exampleZh": "這項試行計劃絕非失敗，反而揭示了有用的弱點。",
+  "examples": [
+    {
+      "id": "ss256-example-01",
+      "en": "Far from being a failure, the pilot revealed useful weaknesses.",
+      "zh": "這項試行計劃絕非失敗，反而揭示了有用的弱點。",
+      "highlight": "Far from being a failure, the pilot revealed useful weaknesses."
+    },
+    {
+      "id": "ss256-example-02",
+      "en": "In fact, far from being useless, the old map saved us time.",
+      "zh": "事實上，這幅舊地圖絕非毫無用處，反而替我們節省時間。",
+      "highlight": "far from being useless, the old map saved us time."
+    },
+    {
+      "id": "ss256-example-03",
+      "en": "The discussion, far from being a waste of time, produced several useful ideas.",
+      "zh": "這次討論絕非浪費時間，反而產生了數個有用構思。",
+      "highlight": "far from being a waste of time, produced several useful ideas."
+    }
+  ],
+  "meaning": {
+    "zh": "先強烈否定 X，再用完整主句說明真正情況通常與 X 不同，甚至完全相反。"
+  },
+  "rules": [
+    {
+      "id": "ss256-rule-01",
+      "zh": "X 所描述的主語必須和逗號後主句的主語指向同一人物或事物。",
+      "en": "The subject described by X must refer to the same person or thing as the subject of the following main clause.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss256-rule-02",
+      "zh": "Y 必須是包含主語和有限動詞的完整主句，不可只寫不完整短語。",
+      "en": "Y must be a complete main clause with a subject and a finite verb.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss256-rule-03",
+      "zh": "being 後面的形式要完整；名詞短語須保留所需的冠詞，亦可接形容詞、分詞形容詞或較長短語。",
+      "en": "Use a complete form after being. Retain any required article in a noun phrase; an adjective, participle adjective or longer phrase is also possible.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss256-rule-04",
+      "zh": "being 不會因時態改變；時態由主句動詞表達。",
+      "en": "Being does not change for tense. Express time through the verb in the main clause.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss256-rule-05",
+      "zh": "句首 far from being 短語後使用逗號；作插入語時在前後使用逗號。",
+      "en": "Use a comma after an opening far from being phrase, and use two commas when it is parenthetical.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss256-rule-06",
+      "zh": "Far from being 表達強烈否定和修正，語氣比單純 not 更有力。",
+      "en": "Far from being expresses strong negation and correction, so it is more forceful than a simple not statement.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss256-rule-07",
+      "zh": "不要把目標句型與 is far from perfect、Far from helping 或表示距離的 far from 混合；本練習只使用 far from being + X。",
+      "en": "Do not confuse the target with is far from perfect, Far from helping or literal distance. This exercise uses only far from being + X.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss256-benefit-01",
+      "zh": "能強烈糾正錯誤印象，清楚指出真正情況。",
+      "en": "It strongly corrects a mistaken impression.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss256-benefit-02",
+      "zh": "能在一句內連接被否定的看法和真正事實。",
+      "en": "It connects the rejected idea and the truth in one sentence.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss256-benefit-03",
+      "zh": "比普通 but 對比更有力，令結果更突出。",
+      "en": "It makes contrast more powerful.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss256-benefit-04",
+      "zh": "適合說明表面弱點、失敗或缺點如何反而帶來有用結果。",
+      "en": "It helps explain how an apparent weakness became useful.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss256-benefit-05",
+      "zh": "可放在整句開首、開首短語後、主語後或嵌入子句內，提供不同組句方法。",
+      "en": "It gives you different ways to organise a sentence.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss256-benefit-06",
+      "zh": "適合議論文、報告、簡報、比較和因果分析等說服性及分析性寫作。",
+      "en": "It is useful in persuasive and analytical writing.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered one lower than this system lesson ID because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using far from being + X.",
+      "Preserve the rejected idea and the contrasting fact. Keep any opening phrase, reporting clause, question or other sentence frame when necessary.",
+      "The target expression does not always need to appear at the beginning of the complete answer.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 far from being + X 改寫以下句子。",
+      "保留原句中被否定的看法和與之相反的事實；如有需要，保留開首短語、報告子句、問句或其他句子框架。",
+      "目標表達不一定要放在整個答案的句首。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss256-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The pilot was not a failure. In fact, it revealed useful weaknesses.",
+      "promptZh": "這項試行計劃並非失敗。事實上，它揭示了有用的弱點。",
+      "promptZhSource": "pdf",
+      "starter": "Far",
+      "answer": "Far from being a failure, the pilot revealed useful weaknesses.",
+      "answerZh": "這項試行計劃絕非失敗，反而揭示了有用的弱點。",
+      "answerZhSource": "pdf",
+      "highlight": "Far from being a failure, the pilot revealed useful weaknesses."
+    },
+    {
+      "id": "ss256-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The lesson was not boring; it kept everyone interested until the end.",
+      "promptZh": "這堂課並不沉悶；它令所有人一直保持興趣至課堂結束。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lesson, far from being boring, kept everyone interested until the end.",
+      "answerZh": "這堂課一點也不沉悶，反而令所有人一直保持興趣至課堂結束。",
+      "answerZhSource": "pdf",
+      "highlight": "The lesson, far from being boring, kept everyone interested until the end."
+    },
+    {
+      "id": "ss256-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The old map was not useless. In fact, it helped the hikers find the village.",
+      "promptZh": "這張舊地圖並非毫無用處。事實上，它幫助遠足者找到村莊。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In fact, far from being useless, the old map helped the hikers find the village.",
+      "answerZh": "事實上，這張舊地圖絕非毫無用處，反而幫助遠足者找到村莊。",
+      "answerZhSource": "pdf",
+      "highlight": "In fact, far from being useless, the old map helped the hikers find the village."
+    },
+    {
+      "id": "ss256-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Although some residents feared that the route was unsafe, it proved safe and easy to follow.",
+      "promptZh": "雖然部分居民擔心這條路線不安全，但事實證明它安全而且容易行走。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although some residents feared that the route was unsafe, far from being unsafe, it proved safe and easy to follow.",
+      "answerZh": "雖然部分居民擔心這條路線不安全，但它實際上一點也不危險，而且安全易行。",
+      "answerZhSource": "pdf",
+      "highlight": "Although some residents feared that the route was unsafe, far from being unsafe, it proved safe and easy to follow."
+    },
+    {
+      "id": "ss256-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The report found that the repair was not expensive and cost less than expected.",
+      "promptZh": "報告發現，這次維修並不昂貴，費用更低於預期。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report found that the repair, far from being expensive, cost less than expected.",
+      "answerZh": "報告發現，這次維修絕非昂貴，費用反而低於預期。",
+      "answerZhSource": "pdf",
+      "highlight": "The report found that the repair, far from being expensive, cost less than expected."
+    },
+    {
+      "id": "ss256-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "By the end of the week, it was clear that the delay had not been a problem; it had given us more preparation time.",
+      "promptZh": "到了星期末，大家都清楚知道延誤並非問題；它反而給予我們更多準備時間。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the end of the week, far from being a problem, the delay had given us more preparation time.",
+      "answerZh": "到了星期末，這次延誤絕非問題，反而給予我們更多準備時間。",
+      "answerZhSource": "pdf",
+      "highlight": "By the end of the week, far from being a problem, the delay had given us more preparation time."
+    },
+    {
+      "id": "ss256-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The material was not weak. It supported the heavy equipment without bending.",
+      "promptZh": "這種物料並不脆弱。它承托了重型設備而沒有彎曲。",
+      "promptZhSource": "pdf",
+      "starter": "Far",
+      "answer": "Far from being weak, the material supported the heavy equipment without bending.",
+      "answerZh": "這種物料絕非脆弱，承托重型設備時也沒有彎曲。",
+      "answerZhSource": "pdf",
+      "highlight": "Far from being weak, the material supported the heavy equipment without bending."
+    },
+    {
+      "id": "ss256-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "For the team, the discussion was not a waste of time; it produced several useful ideas.",
+      "promptZh": "對團隊而言，這次討論並非浪費時間；它產生了數個有用的構思。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For the team, far from being a waste of time, the discussion produced several useful ideas.",
+      "answerZh": "對團隊而言，這次討論絕非浪費時間，反而產生了數個有用的構思。",
+      "answerZhSource": "pdf",
+      "highlight": "For the team, far from being a waste of time, the discussion produced several useful ideas."
+    },
+    {
+      "id": "ss256-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The new assistant was not a burden; she saved the team several hours of work.",
+      "promptZh": "這名新助理並非負擔；她為團隊節省了數小時的工作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new assistant, far from being a burden, saved the team several hours of work.",
+      "answerZh": "這名新助理絕非負擔，反而為團隊節省了數小時的工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The new assistant, far from being a burden, saved the team several hours of work."
+    },
+    {
+      "id": "ss256-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "At the end of the show, the audience was not disappointed; they applauded for several minutes.",
+      "promptZh": "表演結束時，觀眾並沒有失望；他們鼓掌了數分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the end of the show, far from being disappointed, the audience applauded for several minutes.",
+      "answerZh": "表演結束時，觀眾不但沒有失望，反而鼓掌了數分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "At the end of the show, far from being disappointed, the audience applauded for several minutes."
+    },
+    {
+      "id": "ss256-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The coach explained that the players had not been careless and had followed the plan exactly.",
+      "promptZh": "教練解釋，球員並非粗心大意，而是完全按照計劃行事。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach explained that the players, far from being careless, had followed the plan exactly.",
+      "answerZh": "教練解釋，球員絕非粗心大意，而是完全按照計劃行事。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach explained that the players, far from being careless, had followed the plan exactly."
+    },
+    {
+      "id": "ss256-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The change was not an accident. It had been carefully planned several months earlier.",
+      "promptZh": "這項改變並非意外。它早在數個月前已經經過周詳規劃。",
+      "promptZhSource": "pdf",
+      "starter": "Far",
+      "answer": "Far from being an accident, the change had been carefully planned several months earlier.",
+      "answerZh": "這項改變絕非意外，而是早在數個月前已經過周詳規劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Far from being an accident, the change had been carefully planned several months earlier."
+    },
+    {
+      "id": "ss256-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "In the teacher's view, the task was not too difficult; it challenged the students at the right level.",
+      "promptZh": "老師認為，這項任務並非過於困難；它為學生提供了程度合適的挑戰。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the teacher's view, far from being too difficult, the task challenged the students at the right level.",
+      "answerZh": "老師認為，這項任務絕非過於困難，而是為學生提供了程度合適的挑戰。",
+      "answerZhSource": "pdf",
+      "highlight": "In the teacher's view, far from being too difficult, the task challenged the students at the right level."
+    },
+    {
+      "id": "ss256-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The policy was not unfair; it gave every applicant the same opportunity.",
+      "promptZh": "這項政策並不不公平；它給予每名申請人相同機會。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy, far from being unfair, gave every applicant the same opportunity.",
+      "answerZh": "這項政策絕非不公平，反而給予每名申請人相同機會。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy, far from being unfair, gave every applicant the same opportunity."
+    },
+    {
+      "id": "ss256-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Even now, the event has not been forgotten; it continues to influence the community.",
+      "promptZh": "即使到了現在，這件事仍未被遺忘；它繼續影響社區。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even now, far from being forgotten, the event continues to influence the community.",
+      "answerZh": "即使到了現在，這件事遠未被遺忘，並繼續影響社區。",
+      "answerZhSource": "pdf",
+      "highlight": "Even now, far from being forgotten, the event continues to influence the community."
+    },
+    {
+      "id": "ss256-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The method is not outdated. It remains useful in modern classrooms.",
+      "promptZh": "這種方法並未過時。它在現代課室中仍然實用。",
+      "promptZhSource": "pdf",
+      "starter": "Far",
+      "answer": "Far from being outdated, the method remains useful in modern classrooms.",
+      "answerZh": "這種方法絕非過時，在現代課室中仍然實用。",
+      "answerZhSource": "pdf",
+      "highlight": "Far from being outdated, the method remains useful in modern classrooms."
+    },
+    {
+      "id": "ss256-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The researchers discovered that the bacteria were not harmful and helped the plants absorb nutrients.",
+      "promptZh": "研究人員發現，這些細菌並非有害，反而幫助植物吸收養分。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The researchers discovered that the bacteria, far from being harmful, helped the plants absorb nutrients.",
+      "answerZh": "研究人員發現，這些細菌絕非有害，反而幫助植物吸收養分。",
+      "answerZhSource": "pdf",
+      "highlight": "The researchers discovered that the bacteria, far from being harmful, helped the plants absorb nutrients."
+    },
+    {
+      "id": "ss256-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Did the investigation show that the leak was not accidental but had been caused deliberately?",
+      "promptZh": "調查是否顯示，洩漏並非意外，而是有人故意造成？",
+      "promptZhSource": "pdf",
+      "starter": "Did",
+      "answer": "Did the investigation show that the leak, far from being accidental, had been caused deliberately?",
+      "answerZh": "調查是否顯示，洩漏絕非意外，而是有人故意造成？",
+      "answerZhSource": "pdf",
+      "highlight": "Did the investigation show that the leak, far from being accidental, had been caused deliberately?"
+    },
+    {
+      "id": "ss256-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Although the room looked plain, it was not uncomfortable; it was warm and quiet.",
+      "promptZh": "雖然房間看起來樸素，但並不令人不適；它既溫暖又寧靜。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the room looked plain, far from being uncomfortable, it was warm and quiet.",
+      "answerZh": "雖然房間看起來樸素，但一點也不令人不適，反而溫暖寧靜。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the room looked plain, far from being uncomfortable, it was warm and quiet."
+    },
+    {
+      "id": "ss256-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "By the end of the course, the students were not confused at all and could explain every stage clearly.",
+      "promptZh": "課程結束時，學生完全沒有感到困惑，並能清楚解釋每個階段。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the end of the course, far from being confused, the students could explain every stage clearly.",
+      "answerZh": "課程結束時，學生完全沒有感到困惑，並能清楚解釋每個階段。",
+      "answerZhSource": "pdf",
+      "highlight": "By the end of the course, far from being confused, the students could explain every stage clearly."
+    },
+    {
+      "id": "ss256-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The wall is not merely decorative; it also absorbs sound from the next room.",
+      "promptZh": "這面牆並非只有裝飾作用；它也能吸收隔壁房間的聲音。",
+      "promptZhSource": "pdf",
+      "starter": "Far",
+      "answer": "Far from being merely decorative, the wall also absorbs sound from the next room.",
+      "answerZh": "這面牆絕非只有裝飾作用，它也能吸收隔壁房間的聲音。",
+      "answerZhSource": "pdf",
+      "highlight": "Far from being merely decorative, the wall also absorbs sound from the next room."
+    },
+    {
+      "id": "ss256-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The scheme is not impractical; it has already saved money in three schools.",
+      "promptZh": "這項計劃並非不切實際；它已經為三間學校節省了金錢。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The scheme, far from being impractical, has already saved money in three schools.",
+      "answerZh": "這項計劃絕非不切實際，反而已經為三間學校節省了金錢。",
+      "answerZhSource": "pdf",
+      "highlight": "The scheme, far from being impractical, has already saved money in three schools."
+    },
+    {
+      "id": "ss256-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After the repairs, the hall was not unusable; it reopened the following morning.",
+      "promptZh": "完成維修後，禮堂並非無法使用；它在翌日早上重新開放。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the repairs, far from being unusable, the hall reopened the following morning.",
+      "answerZh": "完成維修後，禮堂絕非無法使用，反而在翌日早上重新開放。",
+      "answerZhSource": "pdf",
+      "highlight": "After the repairs, far from being unusable, the hall reopened the following morning."
+    },
+    {
+      "id": "ss256-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The committee concluded that the training was not unnecessary and had significantly reduced errors.",
+      "promptZh": "委員會認為這項培訓並非不必要，而且已大幅減少錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee concluded that the training, far from being unnecessary, had significantly reduced errors.",
+      "answerZh": "委員會認為，這項培訓絕非不必要，反而已大幅減少錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee concluded that the training, far from being unnecessary, had significantly reduced errors."
+    },
+    {
+      "id": "ss256-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "For Lena, photography was not just a hobby; it became a successful career.",
+      "promptZh": "對 Lena 而言，攝影不只是一項興趣；它後來成為一份成功的事業。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For Lena, far from being just a hobby, photography became a successful career.",
+      "answerZh": "對 Lena 而言，攝影遠不只是一項興趣，更成為一份成功的事業。",
+      "answerZhSource": "pdf",
+      "highlight": "For Lena, far from being just a hobby, photography became a successful career."
+    },
+    {
+      "id": "ss256-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "During the trial, the device was not unreliable; it completed every task correctly.",
+      "promptZh": "試驗期間，這部裝置並非不可靠；它正確完成了每項任務。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the trial, far from being unreliable, the device completed every task correctly.",
+      "answerZh": "試驗期間，這部裝置絕非不可靠，而是正確完成了每項任務。",
+      "answerZhSource": "pdf",
+      "highlight": "During the trial, far from being unreliable, the device completed every task correctly."
+    },
+    {
+      "id": "ss256-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The criticism was not destructive; it helped the writer strengthen her argument.",
+      "promptZh": "這項批評並非具有破壞性；它幫助作者加強了論點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The criticism, far from being destructive, helped the writer strengthen her argument.",
+      "answerZh": "這項批評絕非具有破壞性，反而幫助作者加強了論點。",
+      "answerZhSource": "pdf",
+      "highlight": "The criticism, far from being destructive, helped the writer strengthen her argument."
+    },
+    {
+      "id": "ss256-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Were the changes not merely cosmetic but intended to improve safety?",
+      "promptZh": "這些改動是否並非只有表面作用，而是旨在改善安全？",
+      "promptZhSource": "pdf",
+      "starter": "Were",
+      "answer": "Were the changes, far from being merely cosmetic, intended to improve safety?",
+      "answerZh": "這些改動是否絕非只有表面作用，而是旨在改善安全？",
+      "answerZhSource": "pdf",
+      "highlight": "Were the changes, far from being merely cosmetic, intended to improve safety?"
+    },
+    {
+      "id": "ss256-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Because the evidence was not incomplete but covered every major event, the panel reached a firm conclusion.",
+      "promptZh": "由於證據並非不完整，而是涵蓋了每項重大事件，評審小組得出了明確結論。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the evidence, far from being incomplete, covered every major event, the panel reached a firm conclusion.",
+      "answerZh": "由於證據絕非不完整，而是涵蓋了每項重大事件，評審小組得出了明確結論。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the evidence, far from being incomplete, covered every major event, the panel reached a firm conclusion."
+    },
+    {
+      "id": "ss256-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "What the survey showed was that the service was not unpopular but was used by residents of all ages.",
+      "promptZh": "調查顯示，這項服務並非不受歡迎，而是有不同年齡的居民使用。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What the survey showed was that the service, far from being unpopular, was used by residents of all ages.",
+      "answerZh": "調查顯示，這項服務絕非不受歡迎，而是有不同年齡的居民使用。",
+      "answerZhSource": "pdf",
+      "highlight": "What the survey showed was that the service, far from being unpopular, was used by residents of all ages."
+    },
+    {
+      "id": "ss256-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The article argues that the town is not isolated and is connected to five cities by rail.",
+      "promptZh": "文章指出，這個城鎮並非與世隔絕，而是有鐵路連接五個城市。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The article argues that the town, far from being isolated, is connected to five cities by rail.",
+      "answerZh": "文章指出，這個城鎮絕非與世隔絕，而是有鐵路連接五個城市。",
+      "answerZhSource": "pdf",
+      "highlight": "The article argues that the town, far from being isolated, is connected to five cities by rail."
+    },
+    {
+      "id": "ss256-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "For many older residents, the centre is not merely a building; it is an important meeting place.",
+      "promptZh": "對許多年長居民而言，這個中心不只是一座建築物；它也是重要的聚會地點。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For many older residents, the centre, far from being merely a building, is an important meeting place.",
+      "answerZh": "對許多年長居民而言，這個中心遠不只是一座建築物，更是重要的聚會地點。",
+      "answerZhSource": "pdf",
+      "highlight": "For many older residents, the centre, far from being merely a building, is an important meeting place."
+    },
+    {
+      "id": "ss256-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Although critics said that the decision had been rushed, it followed several months of consultation.",
+      "promptZh": "雖然批評者指這項決定倉促作出，但它其實經過了數個月的諮詢。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although critics said that the decision had been rushed, far from being rushed, it followed several months of consultation.",
+      "answerZh": "雖然批評者指這項決定倉促作出，但它絕非草率，反而經過了數個月的諮詢。",
+      "answerZhSource": "pdf",
+      "highlight": "Although critics said that the decision had been rushed, far from being rushed, it followed several months of consultation."
+    },
+    {
+      "id": "ss256-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The setback was not the end of the project. It marked the beginning of a better design.",
+      "promptZh": "這次挫折並非項目的終結。它標誌着一個更佳設計的開始。",
+      "promptZhSource": "pdf",
+      "starter": "Far",
+      "answer": "Far from being the end of the project, the setback marked the beginning of a better design.",
+      "answerZh": "這次挫折絕非項目的終結，反而標誌着一個更佳設計的開始。",
+      "answerZhSource": "pdf",
+      "highlight": "Far from being the end of the project, the setback marked the beginning of a better design."
+    },
+    {
+      "id": "ss256-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The first draft was not ready for publication and still required major revisions.",
+      "promptZh": "初稿尚未達到可以出版的程度，仍需要大幅修改。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first draft, far from being ready for publication, still required major revisions.",
+      "answerZh": "初稿遠未達到可以出版的程度，仍需要大幅修改。",
+      "answerZhSource": "pdf",
+      "highlight": "The first draft, far from being ready for publication, still required major revisions."
+    },
+    {
+      "id": "ss256-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "When the figures were checked, the fall was shown not to be evidence of failure but the result of a seasonal change.",
+      "promptZh": "核對數字後，大家發現這次下跌並非失敗的證據，而是季節性變化的結果。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the figures were checked, the fall, far from being evidence of failure, was shown to be the result of a seasonal change.",
+      "answerZh": "核對數字後，大家發現這次下跌絕非失敗的證據，而是季節性變化的結果。",
+      "answerZhSource": "pdf",
+      "highlight": "When the figures were checked, the fall, far from being evidence of failure, was shown to be the result of a seasonal change."
+    },
+    {
+      "id": "ss256-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The speaker suggested that young people were not passive and had organised the campaign themselves.",
+      "promptZh": "講者指出，年輕人並非被動，而是自行籌辦了這項運動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The speaker suggested that young people, far from being passive, had organised the campaign themselves.",
+      "answerZh": "講者指出，年輕人絕非被動，而是自行籌辦了這項運動。",
+      "answerZhSource": "pdf",
+      "highlight": "The speaker suggested that young people, far from being passive, had organised the campaign themselves."
+    },
+    {
+      "id": "ss256-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Could it be argued that the small team was not a weakness but allowed decisions to be made more quickly?",
+      "promptZh": "是否可以說，小型團隊並非弱點，反而讓決策更快作出？",
+      "promptZhSource": "pdf",
+      "starter": "Could",
+      "answer": "Could it be argued that the small team, far from being a weakness, allowed decisions to be made more quickly?",
+      "answerZh": "是否可以說，小型團隊絕非弱點，反而讓決策更快作出？",
+      "answerZhSource": "pdf",
+      "highlight": "Could it be argued that the small team, far from being a weakness, allowed decisions to be made more quickly?"
+    },
+    {
+      "id": "ss256-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The delay was not unavoidable; it resulted from poor planning and could have been prevented.",
+      "promptZh": "這次延誤並非無可避免；它源於規劃不善，本來可以避免。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The delay, far from being unavoidable, resulted from poor planning and could have been prevented.",
+      "answerZh": "這次延誤絕非無可避免；它源於規劃不善，本來可以避免。",
+      "answerZhSource": "pdf",
+      "highlight": "The delay, far from being unavoidable, resulted from poor planning and could have been prevented."
+    },
+    {
+      "id": "ss256-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The museum's decision was not opposed by local residents; it received broad support.",
+      "promptZh": "博物館的決定並未受到本地居民反對；它反而獲得廣泛支持。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum's decision, far from being opposed by local residents, received broad support.",
+      "answerZh": "博物館的決定非但沒有受到本地居民反對，反而獲得廣泛支持。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum's decision, far from being opposed by local residents, received broad support."
+    },
+    {
+      "id": "ss256-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The review makes clear that the experiment was not a complete failure and identified three important design flaws.",
+      "promptZh": "檢討報告清楚指出，這次實驗並非徹底失敗，而且找出了三項重要設計缺陷。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The review makes clear that the experiment, far from being a complete failure, identified three important design flaws.",
+      "answerZh": "檢討報告清楚指出，這次實驗絕非徹底失敗，反而找出了三項重要設計缺陷。",
+      "answerZhSource": "pdf",
+      "highlight": "The review makes clear that the experiment, far from being a complete failure, identified three important design flaws."
+    },
+    {
+      "id": "ss256-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Even if the proposal appears ambitious, it is not unrealistic; it is based on available technology and a practical budget.",
+      "promptZh": "即使這項建議看起來雄心勃勃，它也並非不切實際；它以現有科技和實際預算為基礎。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even if the proposal appears ambitious, far from being unrealistic, it is based on available technology and a practical budget.",
+      "answerZh": "即使這項建議看起來雄心勃勃，它也絕非不切實際，而是以現有科技和實際預算為基礎。",
+      "answerZhSource": "pdf",
+      "highlight": "Even if the proposal appears ambitious, far from being unrealistic, it is based on available technology and a practical budget."
+    },
+    {
+      "id": "ss256-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The principal maintained that the new rule was not designed to punish students but was intended to protect learning time.",
+      "promptZh": "校長堅稱，新規則並非為了懲罰學生，而是旨在保障學習時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The principal maintained that the new rule, far from being designed to punish students, was intended to protect learning time.",
+      "answerZh": "校長堅稱，新規則絕非為了懲罰學生，而是旨在保障學習時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The principal maintained that the new rule, far from being designed to punish students, was intended to protect learning time."
+    },
+    {
+      "id": "ss256-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "What first seemed to be a disadvantage was not harmful; it forced the team to develop a stronger solution.",
+      "promptZh": "最初看似缺點的情況並沒有造成損害；它反而迫使團隊制定更完善的解決方案。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What first seemed to be a disadvantage, far from being harmful, forced the team to develop a stronger solution.",
+      "answerZh": "最初看似缺點的情況絕非有害，反而迫使團隊制定更完善的解決方案。",
+      "answerZhSource": "pdf",
+      "highlight": "What first seemed to be a disadvantage, far from being harmful, forced the team to develop a stronger solution."
+    },
+    {
+      "id": "ss256-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The small sample was not a reason to dismiss the findings; it showed the same pattern in every case examined.",
+      "promptZh": "樣本數量較少並非否定研究結果的理由；每個受檢個案都呈現相同模式。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The small sample, far from being a reason to dismiss the findings, showed the same pattern in every case examined.",
+      "answerZh": "樣本數量較少絕非否定研究結果的理由；每個受檢個案反而都呈現相同模式。",
+      "answerZhSource": "pdf",
+      "highlight": "The small sample, far from being a reason to dismiss the findings, showed the same pattern in every case examined."
+    },
+    {
+      "id": "ss256-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Asked whether the closure had damaged the district, the mayor replied that it was not permanent but only a temporary measure.",
+      "promptZh": "市長被問及關閉措施是否損害該區時，回應指措施並非永久，只是暫時安排。",
+      "promptZhSource": "pdf",
+      "starter": "Asked",
+      "answer": "Asked whether the closure had damaged the district, the mayor replied that it, far from being permanent, was only a temporary measure.",
+      "answerZh": "市長被問及關閉措施是否損害該區時，回應指措施絕非永久，只是暫時安排。",
+      "answerZhSource": "pdf",
+      "highlight": "Asked whether the closure had damaged the district, the mayor replied that it, far from being permanent, was only a temporary measure."
+    },
+    {
+      "id": "ss256-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Only after the interviews did the panel realise that the candidate was not inexperienced but had led two international projects.",
+      "promptZh": "評審小組在面試後才發現，該名申請人並非缺乏經驗，而是曾領導兩個國際項目。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the interviews did the panel realise that the candidate, far from being inexperienced, had led two international projects.",
+      "answerZh": "評審小組在面試後才發現，該名申請人絕非缺乏經驗，而是曾領導兩個國際項目。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the interviews did the panel realise that the candidate, far from being inexperienced, had led two international projects."
+    },
+    {
+      "id": "ss256-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The judgement noted that the applicant had not been denied a fair hearing but had been given three opportunities to respond.",
+      "promptZh": "判詞指出，申請人並非未獲公平陳詞機會，而是曾獲三次回應機會。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The judgement noted that the applicant, far from being denied a fair hearing, had been given three opportunities to respond.",
+      "answerZh": "判詞指出，申請人非但沒有被剝奪公平陳詞的機會，反而曾獲三次回應機會。",
+      "answerZhSource": "pdf",
+      "highlight": "The judgement noted that the applicant, far from being denied a fair hearing, had been given three opportunities to respond."
+    },
+    {
+      "id": "ss256-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The lower sales figures were not a sign that demand had disappeared; they reflected a temporary shortage of stock.",
+      "promptZh": "較低的銷售數字並不表示需求已經消失；它們反映的是暫時缺貨。",
+      "promptZhSource": "pdf",
+      "starter": "Far",
+      "answer": "Far from being a sign that demand had disappeared, the lower sales figures reflected a temporary shortage of stock.",
+      "answerZh": "較低的銷售數字絕非需求已經消失的跡象，而是反映暫時缺貨。",
+      "answerZhSource": "pdf",
+      "highlight": "Far from being a sign that demand had disappeared, the lower sales figures reflected a temporary shortage of stock."
+    },
+    {
+      "id": "ss256-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "In the final analysis, the trial was not a failure; it revealed useful weaknesses and prevented a costly mistake.",
+      "promptZh": "歸根究柢，這次試驗並非失敗；它揭示了有用的弱點，並避免了一次代價高昂的錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the final analysis, the trial, far from being a failure, not only revealed useful weaknesses but also prevented a costly mistake.",
+      "answerZh": "歸根究柢，這次試驗絕非失敗；它不但揭示了有用的弱點，更避免了一次代價高昂的錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "In the final analysis, the trial, far from being a failure, not only revealed useful weaknesses but also prevented a costly mistake."
+    }
+  ]
+}

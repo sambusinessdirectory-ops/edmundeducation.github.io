@@ -1,0 +1,1226 @@
+{
+  "id": "ss224",
+  "order": 224,
+  "slug": "no-sooner-than-inversion",
+  "title": "「No sooner ... than ...」倒裝句",
+  "titleZh": "「No sooner ... than ...」倒裝句",
+  "titleEn": "Using “No sooner ... than ...” inversion",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 223 -「No sooner ... than ...」倒裝句.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 223; it is assigned system ID ss224 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "No sooner + had + subject + past participle + than + subject + past-tense verb",
+  "formulas": [
+    {
+      "id": "ss224-formula-01",
+      "labelEn": "Active voice",
+      "labelZh": "主動語態",
+      "formula": "No sooner + had + subject + past participle + than + subject + past-tense verb"
+    },
+    {
+      "id": "ss224-formula-02",
+      "labelEn": "Passive voice",
+      "labelZh": "被動語態",
+      "formula": "No sooner + had + subject + been + past participle + than + subject + past-tense verb"
+    }
+  ],
+  "example": "No sooner had the decision been announced than criticism began to spread.",
+  "exampleZh": "決定一宣布，批評聲音便開始擴散。",
+  "examples": [
+    {
+      "id": "ss224-example-01",
+      "en": "No sooner had the decision been announced than criticism began to spread.",
+      "zh": "決定一宣布，批評聲音便開始擴散。",
+      "highlight": "No sooner had the decision been announced than criticism began to spread."
+    }
+  ],
+  "meaning": {
+    "zh": "這個句型連接兩件過去事件，表示第一件事情剛完成，第二件事情便幾乎立即發生。"
+  },
+  "rules": [
+    {
+      "id": "ss224-rule-01",
+      "zh": "放在句首時，必須使用倒裝 正確： No sooner had the meeting begun than the fire alarm rang. 錯誤： No sooner the meeting had begun than the fire alarm rang. had 必須放在主語前面。",
+      "en": "When No sooner begins the sentence, use inversion by placing had before the subject.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss224-rule-02",
+      "zh": "第一件事使用過去完成時 No sooner 後面的事件先發生，因此使用： had + past participle 例如： ● had arrived ● had finished ● had begun ● had been announced",
+      "en": "Use the past perfect, had + past participle, for the first event.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss224-rule-03",
+      "zh": "第二件事通常使用一般過去時 than 後面的事件緊接着發生： No sooner had Amy arrived than the meeting started. 第一件事：Amy had arrived 第二件事：the meeting started",
+      "en": "Use the past simple for the second event after than.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss224-rule-04",
+      "zh": "必須使用 than，而不是 when 正確： No sooner had he sat down than the phone rang. 錯誤： No sooner had he sat down when the phone rang. Hardly 和 scarcely 通常配合 when；no sooner 則配合 than。",
+      "en": "Pair No sooner with than, not when. Hardly and scarcely normally pair with when.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss224-rule-05",
+      "zh": "適用於所有主語 無論主語是 I、he、they 或 the students，都使用 had： ● No sooner had I arrived than ... ● No sooner had she arrived than ... ● No sooner had they arrived than ... 不可因主語不同而改成 has 或 have。",
+      "en": "Use had with every subject; do not change it to has or have.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss224-rule-06",
+      "zh": "第一個動詞必須使用過去分詞 正確： No sooner had the lesson begun than ... 錯誤： No sooner had the lesson began than ... begin 的過去分詞是 begun，而一般過去式是 began。",
+      "en": "Use a past participle after had, such as begun rather than the past-simple form began.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss224-rule-07",
+      "zh": "兩件事必須幾乎緊接發生 這個句型不能只表示兩件事在過去先後發生。它強調兩者之間幾乎沒有時間間隔。 不適合： I finished school in June. I started university three months later. 兩件事相隔三個月，不符合 no sooner 所表達的即時關係。",
+      "en": "The events must happen almost immediately one after the other, not merely at different times in the past.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss224-rule-08",
+      "zh": "句中通常不需要在 than 前加逗號 No sooner had the show ended than the audience stood up. 整個結構是一個緊密相連的句子，通常不在 than 前使用逗號。",
+      "en": "Do not normally place a comma before than because the two parts form one closely connected structure.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss224-benefit-01",
+      "zh": "這個句型能清楚表示兩件事之間幾乎沒有停頓：第一件事剛完成，第二件事便發生。 No sooner had the door opened than the children ran outside. （門一打開，孩子們便跑到外面。）",
+      "en": "It shows that the second event happened immediately and that there was almost no delay between the events.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss224-benefit-02",
+      "zh": "過去完成時指出先發生的事情，而一般過去時則指出緊接發生的事情，令先後次序一目了然。",
+      "en": "It makes the order of events very clear: the past perfect marks the earlier event and the past simple marks what followed.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss224-benefit-03",
+      "zh": "你不必把兩件事寫成兩個互不相連的事實，而可以在一句之內清楚顯示它們緊接發生的關係。 比較： The announcement was made. Criticism immediately began to spread. No sooner had the announcement been made than criticism began to spread. 第二句把兩件事連接得更緊密。",
+      "en": "It links two events closely in one sentence instead of presenting them as unrelated facts.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss224-benefit-04",
+      "zh": "這個句型特別強調第二件事來得非常快，因此比普通的 after 或 then 更有力量。",
+      "en": "It creates stronger emphasis on how quickly the second event followed.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss224-benefit-05",
+      "zh": "在故事、新聞報道、報告及較正式的文章中，這個句型很適合描述突然的發展、意外反應或接連 發生的事件。",
+      "en": "It is useful in stories, reports and formal writing about sudden developments, unexpected reactions and rapid sequences.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss224-benefit-06",
+      "zh": "除了反覆使用 As soon as 或 After，你也可以使用倒裝句開始句子，令作文的句式更有變化。",
+      "en": "It gives you another way to begin a sentence instead of repeatedly using As soon as or After.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 223; it is assigned system ID ss224 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using No sooner ... than ... inversion.",
+      "Preserve the original meaning and order of events and follow the supplied first word."
+    ],
+    "zh": [
+      "使用 No sooner ... than ... 倒裝句改寫每題。",
+      "保留原句意思及事件的先後次序，並按照已提供的第一個字作答。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss224-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "As soon as Mia sat down, the lesson began.",
+      "promptZh": "米婭一坐下，課堂便開始了。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had Mia sat down than the lesson began.",
+      "answerZh": "米婭一坐下，課堂便開始了。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had Mia sat down than the lesson began."
+    },
+    {
+      "id": "ss224-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The moment I opened the door, the dog ran outside.",
+      "promptZh": "我一打開門，狗便跑到外面。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had I opened the door than the dog ran outside.",
+      "answerZh": "我一打開門，狗便跑到外面。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had I opened the door than the dog ran outside."
+    },
+    {
+      "id": "ss224-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Immediately after the train stopped, the passengers began to get off.",
+      "promptZh": "火車一停下，乘客便開始下車。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the train stopped than the passengers began to get off.",
+      "answerZh": "火車一停下，乘客便開始下車。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the train stopped than the passengers began to get off."
+    },
+    {
+      "id": "ss224-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Once Leo had turned off the light, his phone rang.",
+      "promptZh": "里奧一關掉燈，他的電話便響了。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had Leo turned off the light than his phone rang.",
+      "answerZh": "里奧一關掉燈，他的電話便響了。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had Leo turned off the light than his phone rang."
+    },
+    {
+      "id": "ss224-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Right after the rain started, people opened their umbrellas.",
+      "promptZh": "雨一開始下，人們便打開雨傘。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the rain started than people opened their umbrellas.",
+      "answerZh": "雨一開始下，人們便打開雨傘。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the rain started than people opened their umbrellas."
+    },
+    {
+      "id": "ss224-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The chef served the soup. The customer immediately asked for some salt.",
+      "promptZh": "廚師端上湯後，顧客立即要求加一些鹽。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the chef served the soup than the customer asked for some salt.",
+      "answerZh": "廚師一端上湯，顧客便要求加一些鹽。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the chef served the soup than the customer asked for some salt."
+    },
+    {
+      "id": "ss224-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "As soon as we reached the bus stop, the bus arrived.",
+      "promptZh": "我們一到達巴士站，巴士便到達了。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had we reached the bus stop than the bus arrived.",
+      "answerZh": "我們一到達巴士站，巴士便到達了。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had we reached the bus stop than the bus arrived."
+    },
+    {
+      "id": "ss224-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The moment Emma finished her homework, she turned on the television.",
+      "promptZh": "艾瑪一完成家課，便打開電視。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had Emma finished her homework than she turned on the television.",
+      "answerZh": "艾瑪一完成家課，便打開電視。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had Emma finished her homework than she turned on the television."
+    },
+    {
+      "id": "ss224-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Within moments of the shop opening, the first customer entered.",
+      "promptZh": "店舖開門後不久，第一位顧客便進來了。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the shop opened than the first customer entered.",
+      "answerZh": "店舖一開門，第一位顧客便進來了。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the shop opened than the first customer entered."
+    },
+    {
+      "id": "ss224-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The baby had barely fallen asleep when the doorbell rang.",
+      "promptZh": "嬰兒剛剛入睡，門鈴便響了。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the baby fallen asleep than the doorbell rang.",
+      "answerZh": "嬰兒剛剛入睡，門鈴便響了。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the baby fallen asleep than the doorbell rang."
+    },
+    {
+      "id": "ss224-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The moment the bell rang, the students left the classroom.",
+      "promptZh": "鐘聲一響，學生便離開課室。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the bell rung than the students left the classroom.",
+      "answerZh": "鐘聲一響，學生便離開課室。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the bell rung than the students left the classroom."
+    },
+    {
+      "id": "ss224-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Immediately after Daniel sent the email, his manager replied.",
+      "promptZh": "丹尼爾一寄出電郵，經理便回覆了。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had Daniel sent the email than his manager replied.",
+      "answerZh": "丹尼爾一寄出電郵，經理便回覆了。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had Daniel sent the email than his manager replied."
+    },
+    {
+      "id": "ss224-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The lights went out, and the emergency system immediately came on.",
+      "promptZh": "燈一熄滅，緊急系統便立即啟動。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the lights gone out than the emergency system came on.",
+      "answerZh": "燈一熄滅，緊急系統便啟動。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the lights gone out than the emergency system came on."
+    },
+    {
+      "id": "ss224-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Once Ava had locked the door, she realised that her keys were inside.",
+      "promptZh": "艾娃一鎖上門，便發現鎖匙留在屋內。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had Ava locked the door than she realised that her keys were inside.",
+      "answerZh": "艾娃一鎖上門，便發現鎖匙留在屋內。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had Ava locked the door than she realised that her keys were inside."
+    },
+    {
+      "id": "ss224-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Right after the match ended, the supporters ran onto the pitch.",
+      "promptZh": "比賽一結束，支持者便跑進球場。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the match ended than the supporters ran onto the pitch.",
+      "answerZh": "比賽一結束，支持者便跑進球場。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the match ended than the supporters ran onto the pitch."
+    },
+    {
+      "id": "ss224-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What happened as soon as the nurse entered the room? The patient began to speak.",
+      "promptZh": "護士一進入房間，發生了甚麼事？病人開始說話。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the nurse entered the room than the patient began to speak.",
+      "answerZh": "護士一進入房間，病人便開始說話。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the nurse entered the room than the patient began to speak."
+    },
+    {
+      "id": "ss224-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Within seconds of the alarm sounding, the staff left the building.",
+      "promptZh": "警鐘響起後數秒內，員工便離開大樓。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the alarm sounded than the staff left the building.",
+      "answerZh": "警鐘一響起，員工便離開大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the alarm sounded than the staff left the building."
+    },
+    {
+      "id": "ss224-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The moment the laptop connected to the Wi-Fi network, the updates started downloading.",
+      "promptZh": "手提電腦一連接無線網絡，更新便開始下載。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the laptop connected to the Wi-Fi network than the updates started downloading.",
+      "answerZh": "手提電腦一連接無線網絡，更新便開始下載。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the laptop connected to the Wi-Fi network than the updates started downloading."
+    },
+    {
+      "id": "ss224-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The audience had scarcely taken their seats when the lights dimmed.",
+      "promptZh": "觀眾剛剛坐好，燈光便暗了下來。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the audience taken their seats than the lights dimmed.",
+      "answerZh": "觀眾一坐好，燈光便暗了下來。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the audience taken their seats than the lights dimmed."
+    },
+    {
+      "id": "ss224-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Immediately after Henry signed the contract, he received a welcome pack.",
+      "promptZh": "亨利一簽署合約，便收到一份歡迎資料包。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had Henry signed the contract than he received a welcome pack.",
+      "answerZh": "亨利一簽署合約，便收到一份歡迎資料包。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had Henry signed the contract than he received a welcome pack."
+    },
+    {
+      "id": "ss224-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "As soon as the decision was announced, criticism began to spread.",
+      "promptZh": "決定一宣布，批評聲音便開始擴散。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the decision been announced than criticism began to spread.",
+      "answerZh": "決定一宣布，批評聲音便開始擴散。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the decision been announced than criticism began to spread."
+    },
+    {
+      "id": "ss224-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The moment the final whistle was blown, the crowd started celebrating.",
+      "promptZh": "終場哨聲一響，群眾便開始慶祝。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the final whistle been blown than the crowd started celebrating.",
+      "answerZh": "終場哨聲一響，群眾便開始慶祝。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the final whistle been blown than the crowd started celebrating."
+    },
+    {
+      "id": "ss224-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Immediately after the road reopened, the traffic began to move.",
+      "promptZh": "道路一重新開放，車流便開始移動。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the road reopened than the traffic began to move.",
+      "answerZh": "道路一重新開放，車流便開始移動。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the road reopened than the traffic began to move."
+    },
+    {
+      "id": "ss224-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Once the examination results had been published, the website crashed.",
+      "promptZh": "考試成績一公布，網站便癱瘓了。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the examination results been published than the website crashed.",
+      "answerZh": "考試成績一公布，網站便癱瘓了。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the examination results been published than the website crashed."
+    },
+    {
+      "id": "ss224-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The package had just been delivered when the customer reported that it was damaged.",
+      "promptZh": "包裹剛送達，顧客便報告它已經損壞。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the package been delivered than the customer reported that it was damaged.",
+      "answerZh": "包裹一送達，顧客便報告它已經損壞。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the package been delivered than the customer reported that it was damaged."
+    },
+    {
+      "id": "ss224-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "As soon as the teacher asked the question, several hands went up.",
+      "promptZh": "老師一提出問題，幾名學生便舉手。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the teacher asked the question than several hands went up.",
+      "answerZh": "老師一提出問題，幾名學生便舉手。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the teacher asked the question than several hands went up."
+    },
+    {
+      "id": "ss224-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Immediately after the medicine was given, the patient’s breathing improved.",
+      "promptZh": "藥物一經給予病人，病人的呼吸便有所改善。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the medicine been given than the patient’s breathing improved.",
+      "answerZh": "藥物一經給予病人，病人的呼吸便有所改善。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the medicine been given than the patient’s breathing improved."
+    },
+    {
+      "id": "ss224-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The moment the power returned, the machines restarted automatically.",
+      "promptZh": "電力一恢復，機器便自動重新啟動。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the power returned than the machines restarted automatically.",
+      "answerZh": "電力一恢復，機器便自動重新啟動。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the power returned than the machines restarted automatically."
+    },
+    {
+      "id": "ss224-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The speaker had scarcely begun her presentation when the microphone stopped working.",
+      "promptZh": "講者剛開始簡報，咪高峰便停止運作。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the speaker begun her presentation than the microphone stopped working.",
+      "answerZh": "講者一開始簡報，咪高峰便停止運作。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the speaker begun her presentation than the microphone stopped working."
+    },
+    {
+      "id": "ss224-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Once the team had completed the safety check, the doors were opened.",
+      "promptZh": "團隊一完成安全檢查，門便被打開。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the team completed the safety check than the doors were opened.",
+      "answerZh": "團隊一完成安全檢查，門便被打開。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the team completed the safety check than the doors were opened."
+    },
+    {
+      "id": "ss224-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The instant the booking system went online, all the available spaces were taken.",
+      "promptZh": "預約系統一上線，所有名額便被搶光。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the booking system gone online than all the available spaces were taken.",
+      "answerZh": "預約系統一上線，所有名額便被搶光。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the booking system gone online than all the available spaces were taken."
+    },
+    {
+      "id": "ss224-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The company released the update, and users immediately reported an error.",
+      "promptZh": "公司一推出更新，用戶便立即報告一項錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the company released the update than users reported an error.",
+      "answerZh": "公司一推出更新，用戶便報告一項錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the company released the update than users reported an error."
+    },
+    {
+      "id": "ss224-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "As soon as the children had left the room, the cleaner started work.",
+      "promptZh": "孩子們一離開房間，清潔工便開始工作。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the children left the room than the cleaner started work.",
+      "answerZh": "孩子們一離開房間，清潔工便開始工作。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the children left the room than the cleaner started work."
+    },
+    {
+      "id": "ss224-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Within moments of the warning being issued, residents began leaving the area.",
+      "promptZh": "警告發出後不久，居民便開始離開該區。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the warning been issued than residents began leaving the area.",
+      "answerZh": "警告一發出，居民便開始離開該區。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the warning been issued than residents began leaving the area."
+    },
+    {
+      "id": "ss224-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "What happened the moment the judge entered the courtroom? Everyone stood up.",
+      "promptZh": "法官一進入法庭，發生了甚麼事？所有人都站了起來。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the judge entered the courtroom than everyone stood up.",
+      "answerZh": "法官一進入法庭，所有人便站了起來。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the judge entered the courtroom than everyone stood up."
+    },
+    {
+      "id": "ss224-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new policy had hardly come into effect when complaints started arriving.",
+      "promptZh": "新政策剛剛生效，投訴便開始湧至。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the new policy come into effect than complaints started arriving.",
+      "answerZh": "新政策一生效，投訴便開始湧至。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the new policy come into effect than complaints started arriving."
+    },
+    {
+      "id": "ss224-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Right after Olivia placed the order, she noticed that she had entered the wrong address.",
+      "promptZh": "奧莉花一下單，便發現自己輸入了錯誤地址。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had Olivia placed the order than she noticed that she had entered the wrong address.",
+      "answerZh": "奧莉花一下單，便發現自己輸入了錯誤地址。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had Olivia placed the order than she noticed that she had entered the wrong address."
+    },
+    {
+      "id": "ss224-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "As soon as the curtain rose, the audience became silent.",
+      "promptZh": "幕一升起，觀眾便安靜下來。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the curtain risen than the audience became silent.",
+      "answerZh": "幕一升起，觀眾便安靜下來。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the curtain risen than the audience became silent."
+    },
+    {
+      "id": "ss224-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The patient had barely returned home when the hospital called again.",
+      "promptZh": "病人剛回到家，醫院便再次來電。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the patient returned home than the hospital called again.",
+      "answerZh": "病人一回到家，醫院便再次來電。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the patient returned home than the hospital called again."
+    },
+    {
+      "id": "ss224-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Immediately after the final payment had been made, the keys were handed over.",
+      "promptZh": "尾款一支付，鎖匙便被交出。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the final payment been made than the keys were handed over.",
+      "answerZh": "尾款一支付，鎖匙便被交出。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the final payment been made than the keys were handed over."
+    },
+    {
+      "id": "ss224-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "As soon as the committee had approved the proposal, the finance team began preparing the budget.",
+      "promptZh": "委員會一批准建議，財務團隊便開始準備預算。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the committee approved the proposal than the finance team began preparing the budget.",
+      "answerZh": "委員會一批准建議，財務團隊便開始準備預算。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the committee approved the proposal than the finance team began preparing the budget."
+    },
+    {
+      "id": "ss224-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The moment the emergency message was sent to the staff, the telephone lines became overloaded.",
+      "promptZh": "緊急訊息一發送給員工，電話線路便不勝負荷。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the emergency message been sent to the staff than the telephone lines became overloaded.",
+      "answerZh": "緊急訊息一發送給員工，電話線路便不勝負荷。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the emergency message been sent to the staff than the telephone lines became overloaded."
+    },
+    {
+      "id": "ss224-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Within seconds of the revised timetable being uploaded, students began reporting scheduling conflicts.",
+      "promptZh": "修訂後的時間表上載後數秒內，學生便開始報告時間衝突。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the revised timetable been uploaded than students began reporting scheduling conflicts.",
+      "answerZh": "修訂後的時間表一上載，學生便開始報告時間衝突。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the revised timetable been uploaded than students began reporting scheduling conflicts."
+    },
+    {
+      "id": "ss224-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The maintenance team had hardly put the lift back into service when it stopped again.",
+      "promptZh": "維修團隊剛讓升降機恢復運作，它便再次停止。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the maintenance team put the lift back into service than it stopped again.",
+      "answerZh": "維修團隊剛讓升降機恢復運作，它便再次停止。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the maintenance team put the lift back into service than it stopped again."
+    },
+    {
+      "id": "ss224-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "As soon as the last patient had left the clinic, the cleaning staff began disinfecting the rooms.",
+      "promptZh": "最後一名病人一離開診所，清潔人員便開始為房間消毒。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the last patient left the clinic than the cleaning staff began disinfecting the rooms.",
+      "answerZh": "最後一名病人一離開診所，清潔人員便開始為房間消毒。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the last patient left the clinic than the cleaning staff began disinfecting the rooms."
+    },
+    {
+      "id": "ss224-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Immediately after the company confirmed the merger, journalists started requesting interviews.",
+      "promptZh": "公司一確認合併，記者便開始要求進行訪問。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the company confirmed the merger than journalists started requesting interviews.",
+      "answerZh": "公司一確認合併，記者便開始要求進行訪問。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the company confirmed the merger than journalists started requesting interviews."
+    },
+    {
+      "id": "ss224-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The moment the researchers published their early findings, other teams began questioning their research methods.",
+      "promptZh": "研究人員一公布初步結果，其他團隊便開始質疑他們的研究方法。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the researchers published their early findings than other teams began questioning their research methods.",
+      "answerZh": "研究人員一公布初步結果，其他團隊便開始質疑他們的研究方法。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the researchers published their early findings than other teams began questioning their research methods."
+    },
+    {
+      "id": "ss224-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The council had barely introduced the new parking system when residents demanded changes.",
+      "promptZh": "市議會剛推出新的泊車制度，居民便要求作出修改。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the council introduced the new parking system than residents demanded changes.",
+      "answerZh": "市議會一推出新的泊車制度，居民便要求作出修改。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the council introduced the new parking system than residents demanded changes."
+    },
+    {
+      "id": "ss224-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Once the school had informed parents that classes would be suspended, messages flooded the office.",
+      "promptZh": "學校一通知家長課堂將會暫停，大量訊息便湧入校務處。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the school informed parents that classes would be suspended than messages flooded the office.",
+      "answerZh": "學校一通知家長課堂將會暫停，大量訊息便湧入校務處。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the school informed parents that classes would be suspended than messages flooded the office."
+    },
+    {
+      "id": "ss224-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "As soon as the organisation had completed one round of restructuring, another financial crisis forced it to revise its plans again.",
+      "promptZh": "機構剛完成一輪重組，另一場金融危機便迫使它再次修改計劃。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the organisation completed one round of restructuring than another financial crisis forced it to revise its plans again.",
+      "answerZh": "機構剛完成一輪重組，另一場金融危機便迫使它再次修改計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the organisation completed one round of restructuring than another financial crisis forced it to revise its plans again."
+    }
+  ]
+}

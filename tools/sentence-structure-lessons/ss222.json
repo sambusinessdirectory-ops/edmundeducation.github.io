@@ -1,0 +1,1219 @@
+{
+  "id": "ss222",
+  "order": 222,
+  "slug": "only-by-can-method",
+  "title": "「Only by ... can ...」表示只有透過某種方法，才能做到某事",
+  "titleZh": "「Only by ... can ...」表示只有透過某種方法，才能做到某事",
+  "titleEn": "Using “Only by ... can ...” to express a necessary method",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 221 - 「Only by ... can ...」表示只有透過某種方法，才能做到某事.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 221; it is assigned system ID ss222 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "Only by + V-ing + can + subject + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss222-formula-01",
+      "labelEn": "Necessary method",
+      "labelZh": "必要方法",
+      "formula": "Only by + V-ing + can + subject + base verb + other information"
+    }
+  ],
+  "example": "Only by listening carefully can we understand what others truly need.",
+  "exampleZh": "只有透過仔細聆聽，我們才能明白別人真正需要甚麼。",
+  "examples": [
+    {
+      "id": "ss222-example-01",
+      "en": "Only by listening carefully can we understand what others truly need.",
+      "zh": "只有透過仔細聆聽，我們才能明白別人真正需要甚麼。",
+      "highlight": "Only by listening carefully can we understand what others truly need."
+    }
+  ],
+  "meaning": {
+    "zh": "這個句型強調必須採取某個行動或使用某種方法，才能達到後面的結果。"
+  },
+  "rules": [
+    {
+      "id": "ss222-rule-01",
+      "zh": "是介詞。當後面表示一個行動時，動詞須使用 V-ing 形式。 Correct: Only by practising every day can you improve. Incorrect: Only by practise every day can you improve.",
+      "en": "Use V-ing after by because by is a preposition: “Only by practising every day can you improve.”",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss222-rule-02",
+      "zh": "當 Only by 短語放在句首時，主句必須使用倒裝語序： can + subject + base verb Correct: Only by working together can we solve the problem. Incorrect: Only by working together we can solve the problem.",
+      "en": "When the Only by phrase begins the sentence, invert the main clause as can + subject + base verb.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss222-rule-03",
+      "zh": "後面的主要動詞必須使用原形。 Correct: Only by asking questions can pupils understand the lesson. Incorrect: Only by asking questions can pupils understands the lesson.",
+      "en": "Use the base form after can: “can pupils understand”, not “can pupils understands”.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss222-rule-04",
+      "zh": "句中已有情態動詞 can，因此不需要再加入 do、does 或 did。 Correct: Only by checking the figures can we find the mistake. Incorrect: Only by checking the figures do we can find the mistake.",
+      "en": "Do not add do, does or did because the modal can already forms the inversion.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss222-rule-05",
+      "zh": "當 only by 短語放在句尾時，不使用倒裝： We can improve only by practising regularly. 當 only by 短語移到句首時，才需要倒裝： Only by practising regularly can we improve.",
+      "en": "Do not use inversion when the only by phrase remains at the end. Inversion is required when it moves to the beginning.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss222-rule-06",
+      "zh": "這個句型帶有「只有這樣做才可以」的強調意思。因此，前面的行動必須是達到結果所需的方法， 而不應只是其中一個普通建議。 Strong and logical: Only by entering the correct password can users open the protected file. Too strong in many situations: Only by drinking tea can people relax. 喝茶可能有助放鬆，但並不是放鬆的唯一方法，因此不適合使用這個句型。",
+      "en": "Use the structure only when the method is genuinely necessary, not merely one optional suggestion among many.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss222-rule-07",
+      "zh": "通常不要在 can 前面加逗號。正確：Only by listening carefully can we understand the problem. 錯誤：Only by listening carefully, can we understand the problem.",
+      "en": "Do not normally place a comma between the opening Only by phrase and can.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss222-rule-08",
+      "zh": "後面仍然先放主語，再使用 be + past participle。 Only by maintaining the equipment regularly can many breakdowns be prevented. （只有定期保養設備，才能避免很多故障。）",
+      "en": "Passive main clauses are possible: after can and the subject, use be + past participle.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss222-benefit-01",
+      "zh": "這個句型能清楚強調必要的方法，讓讀者知道：如果不先採取前面的行動，後面的結果便難以達 成。",
+      "en": "It clearly emphasises the necessary method. The result cannot normally be achieved without the action mentioned first.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss222-benefit-02",
+      "zh": "句型前半部分說明必須採取的方法，後半部分則交代完成這個方法後可以達到的結果。",
+      "en": "It connects a method and a result: the first part presents what must be done, and the second explains what can then be achieved.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss222-benefit-03",
+      "zh": "在討論如何解決問題或改善情況時，這個句型能幫助你清楚提出所需行動。 Example: Only by reducing unnecessary waste can the company lower its environmental impact. （只有減少不必要的浪費，公司才能降低對環境的影響。）",
+      "en": "It helps you explain solutions and the action required to solve a problem or achieve an improvement.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss222-benefit-04",
+      "zh": "把 Only by 放在句首，可以立即把讀者的注意力帶到最重要的方法或條件上。",
+      "en": "It makes the important method stand out by directing attention to the opening Only by action.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss222-benefit-05",
+      "zh": "你不需要每句都以 We can 或 People can 開始，而可以先提出方法，令句式更有變化。 Compare: We can understand customers’ needs only by listening to them. Only by listening to customers can we understand their needs.",
+      "en": "It gives sentences greater variety instead of repeatedly beginning with “We can ...” or “People can ....”",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss222-benefit-06",
+      "zh": "這個句型特別適合用於討論教育、環境保護、商業、公共政策和解決問題，也適用於作文、報告、 簡報和正式討論。",
+      "en": "It is useful in discussions, essays and presentations about education, environmental protection, business, public policy and problem-solving.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 221; it is assigned system ID ss222 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using Only by + V-ing + can + subject + base verb.",
+      "Preserve the full original meaning and follow the supplied first word."
+    ],
+    "zh": [
+      "使用 Only by + V-ing + can + subject + base verb 改寫每題。",
+      "保留原句的完整意思，並按照已提供的第一個字作答。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss222-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia can improve her pronunciation only if she practises every day.",
+      "promptZh": "米婭只有每天練習，才能改善發音。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by practising every day can Mia improve her pronunciation.",
+      "answerZh": "只有每天練習，米婭才能改善發音。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by practising every day can Mia improve her pronunciation."
+    },
+    {
+      "id": "ss222-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The only way for you to use this machine safely is to read the instructions carefully.",
+      "promptZh": "你要安全使用這部機器，唯一的方法是仔細閱讀說明。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by reading the instructions carefully can you use this machine safely.",
+      "answerZh": "只有仔細閱讀說明，你才能安全使用這部機器。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by reading the instructions carefully can you use this machine safely."
+    },
+    {
+      "id": "ss222-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Leo cannot afford a new laptop unless he saves money regularly.",
+      "promptZh": "里奧除非定期儲蓄，否則無法負擔一部新的手提電腦。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by saving money regularly can Leo afford a new laptop.",
+      "answerZh": "只有定期儲蓄，里奧才能負擔一部新的手提電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by saving money regularly can Leo afford a new laptop."
+    },
+    {
+      "id": "ss222-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Pupils must ask questions if they want to understand difficult ideas.",
+      "promptZh": "學生如想理解困難的概念，就必須提出問題。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by asking questions can pupils understand difficult ideas.",
+      "answerZh": "只有提出問題，學生才能理解困難的概念。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by asking questions can pupils understand difficult ideas."
+    },
+    {
+      "id": "ss222-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We need to get enough sleep in order to stay alert in class.",
+      "promptZh": "我們需要有充足睡眠，才能在課堂上保持精神。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by getting enough sleep can we stay alert in class.",
+      "answerZh": "只有得到充足睡眠，我們才能在課堂上保持精神。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by getting enough sleep can we stay alert in class."
+    },
+    {
+      "id": "ss222-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "How can Eva avoid missing the last bus? She must check the timetable first.",
+      "promptZh": "艾娃怎樣才能避免錯過尾班巴士？她必須先查看時間表。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by checking the timetable first can Eva avoid missing the last bus.",
+      "answerZh": "只有先查看時間表，艾娃才能避免錯過尾班巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by checking the timetable first can Eva avoid missing the last bus."
+    },
+    {
+      "id": "ss222-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The project is too large for one person. The team can finish it on time only if its members work together.",
+      "promptZh": "這個項目規模太大，一個人無法完成。團隊成員只有互相合作，才能準時完成項目。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by working together can the team finish the large project on time.",
+      "answerZh": "只有互相合作，團隊才能準時完成這個大型項目。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by working together can the team finish the large project on time."
+    },
+    {
+      "id": "ss222-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The protected file can be opened only if users enter the correct password.",
+      "promptZh": "用戶只有輸入正確密碼，才能開啟受保護的檔案。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by entering the correct password can users open the protected file.",
+      "answerZh": "只有輸入正確密碼，用戶才能開啟受保護的檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by entering the correct password can users open the protected file."
+    },
+    {
+      "id": "ss222-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Students will not become more confident speakers unless they practise speaking regularly.",
+      "promptZh": "學生除非定期練習說話，否則不會變得更有信心。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by practising speaking regularly can students become more confident speakers.",
+      "answerZh": "只有定期練習說話，學生才能成為更有信心的說話者。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by practising speaking regularly can students become more confident speakers."
+    },
+    {
+      "id": "ss222-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Residents can use the building’s recycling system correctly only if they sort their waste into the right bins.",
+      "promptZh": "居民只有把廢物放入正確的回收箱，才能正確使用大廈的回收系統。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by sorting their waste into the right bins can residents use the building’s recycling system correctly.",
+      "answerZh": "只有把廢物放入正確的回收箱，居民才能正確使用大廈的回收系統。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by sorting their waste into the right bins can residents use the building’s recycling system correctly."
+    },
+    {
+      "id": "ss222-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Shoppers can find the best available deal only when they compare prices carefully.",
+      "promptZh": "顧客只有仔細比較價格，才能找到現有的最佳優惠。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by comparing prices carefully can shoppers find the best available deal.",
+      "answerZh": "只有仔細比較價格，顧客才能找到現有的最佳優惠。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by comparing prices carefully can shoppers find the best available deal."
+    },
+    {
+      "id": "ss222-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Keep your receipts if you want to prove what you bought.",
+      "promptZh": "如果你想證明自己購買了甚麼，便應保留收據。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by keeping your receipts can you prove what you bought.",
+      "answerZh": "只有保留收據，你才能證明自己購買了甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by keeping your receipts can you prove what you bought."
+    },
+    {
+      "id": "ss222-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A household can stop wasting electricity in empty rooms only by switching off unnecessary lights.",
+      "promptZh": "一個家庭只有關掉空房內不必要的燈，才能停止浪費電力。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by switching off unnecessary lights can a household stop wasting electricity in empty rooms.",
+      "answerZh": "只有關掉空房內不必要的燈，一個家庭才能停止浪費電力。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by switching off unnecessary lights can a household stop wasting electricity in empty rooms."
+    },
+    {
+      "id": "ss222-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "How can a beginner bake the cake successfully? The recipe must be followed carefully.",
+      "promptZh": "初學者怎樣才能成功焗製蛋糕？他們必須仔細依照食譜。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by following the recipe carefully can a beginner bake the cake successfully.",
+      "answerZh": "只有仔細依照食譜，初學者才能成功焗製蛋糕。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by following the recipe carefully can a beginner bake the cake successfully."
+    },
+    {
+      "id": "ss222-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Users cannot remove this known security weakness unless they update the software.",
+      "promptZh": "用戶除非更新軟件，否則無法消除這個已知的保安漏洞。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by updating the software can users remove this known security weakness.",
+      "answerZh": "只有更新軟件，用戶才能消除這個已知的保安漏洞。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by updating the software can users remove this known security weakness."
+    },
+    {
+      "id": "ss222-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A manager can make a fair decision only after listening to both sides.",
+      "promptZh": "經理只有聆聽雙方的意見後，才能作出公平的決定。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by listening to both sides can a manager make a fair decision.",
+      "answerZh": "只有聆聽雙方的意見，經理才能作出公平的決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by listening to both sides can a manager make a fair decision."
+    },
+    {
+      "id": "ss222-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A community cannot know whether its water is safe to drink without testing it regularly.",
+      "promptZh": "一個社區如不定期檢測食水，便無法知道食水是否安全。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by testing its water regularly can a community know whether it is safe to drink.",
+      "answerZh": "只有定期檢測食水，一個社區才能知道食水是否安全。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by testing its water regularly can a community know whether it is safe to drink."
+    },
+    {
+      "id": "ss222-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A family cannot keep its monthly spending within its income unless it budgets carefully.",
+      "promptZh": "一個家庭除非仔細制定預算，否則無法把每月開支控制在收入範圍內。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by budgeting carefully can a family keep its monthly spending within its income.",
+      "answerZh": "只有仔細制定預算，一個家庭才能把每月開支控制在收入範圍內。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by budgeting carefully can a family keep its monthly spending within its income."
+    },
+    {
+      "id": "ss222-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Candidates can learn how quickly they must work only if they practise under examination conditions.",
+      "promptZh": "考生只有在考試環境下練習，才能了解自己必須以多快的速度作答。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by practising under examination conditions can candidates learn how quickly they must work.",
+      "answerZh": "只有在考試環境下練習，考生才能了解自己必須以多快的速度作答。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by practising under examination conditions can candidates learn how quickly they must work."
+    },
+    {
+      "id": "ss222-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Many equipment breakdowns can be prevented only through regular maintenance.",
+      "promptZh": "只有透過定期保養，才能避免很多設備故障。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by maintaining the equipment regularly can many breakdowns be prevented.",
+      "answerZh": "只有定期保養設備，才能避免很多故障。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by maintaining the equipment regularly can many breakdowns be prevented."
+    },
+    {
+      "id": "ss222-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "How can teachers make abstract ideas easier to understand? They need to provide clear examples.",
+      "promptZh": "教師怎樣才能讓抽象概念更容易理解？他們需要提供清楚的例子。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by providing clear examples can teachers make abstract ideas easier to understand.",
+      "answerZh": "只有提供清楚的例子，教師才能讓抽象概念更容易理解。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by providing clear examples can teachers make abstract ideas easier to understand."
+    },
+    {
+      "id": "ss222-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Leaders cannot begin to rebuild public trust unless they are honest about their mistakes.",
+      "promptZh": "領導者除非坦誠承認錯誤，否則無法開始重建公眾信任。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by being honest about their mistakes can leaders begin to rebuild public trust.",
+      "answerZh": "只有坦誠承認錯誤，領導者才能開始重建公眾信任。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by being honest about their mistakes can leaders begin to rebuild public trust."
+    },
+    {
+      "id": "ss222-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Companies can reduce the plastic waste produced by their packaging only if they remove unnecessary packaging.",
+      "promptZh": "公司只有減少不必要的包裝，才能減少包裝所產生的塑膠廢物。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by removing unnecessary packaging can companies reduce the plastic waste produced by their packaging.",
+      "answerZh": "只有減少不必要的包裝，公司才能減少包裝所產生的塑膠廢物。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by removing unnecessary packaging can companies reduce the plastic waste produced by their packaging."
+    },
+    {
+      "id": "ss222-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Check the sources if you want to verify an online claim.",
+      "promptZh": "如果你想核實一項網上說法，便應查核其資料來源。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by checking its sources can you verify an online claim.",
+      "answerZh": "只有查核資料來源，你才能核實一項網上說法。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by checking its sources can you verify an online claim."
+    },
+    {
+      "id": "ss222-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The city cannot make public transport a realistic alternative to cars unless it makes the service more convenient.",
+      "promptZh": "城市除非令公共交通服務更加方便，否則無法使其成為汽車的實際替代選擇。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by making public transport more convenient can the city make it a realistic alternative to cars.",
+      "answerZh": "只有令公共交通更加方便，城市才能使其成為汽車的實際替代選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by making public transport more convenient can the city make it a realistic alternative to cars."
+    },
+    {
+      "id": "ss222-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Researchers must collect enough evidence before they can draw a reliable conclusion.",
+      "promptZh": "研究人員必須收集足夠證據，才能得出可靠的結論。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by collecting enough evidence can researchers draw a reliable conclusion.",
+      "answerZh": "只有收集足夠證據，研究人員才能得出可靠的結論。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by collecting enough evidence can researchers draw a reliable conclusion."
+    },
+    {
+      "id": "ss222-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "An organisation cannot maintain customers’ confidence in its data practices unless it protects their personal information.",
+      "promptZh": "一個機構除非保障顧客的個人資料，否則無法維持顧客對其資料處理方式的信心。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by protecting customers’ personal information can an organisation maintain their confidence in its data practices.",
+      "answerZh": "只有保障顧客的個人資料，一個機構才能維持顧客對其資料處理方式的信心。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by protecting customers’ personal information can an organisation maintain their confidence in its data practices."
+    },
+    {
+      "id": "ss222-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Doctors can reduce the risk of some illnesses becoming serious only if symptoms are treated early.",
+      "promptZh": "醫生只有及早治理症狀，才能降低部分疾病變得嚴重的風險。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by treating symptoms early can doctors reduce the risk of some illnesses becoming serious.",
+      "answerZh": "只有及早治理症狀，醫生才能降低部分疾病變得嚴重的風險。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by treating symptoms early can doctors reduce the risk of some illnesses becoming serious."
+    },
+    {
+      "id": "ss222-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A company cannot discover hidden workplace problems unless it allows staff to raise concerns safely.",
+      "promptZh": "一間公司除非讓員工可以安全地提出憂慮，否則無法發現隱藏的工作場所問題。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by allowing staff to raise concerns safely can a company discover hidden workplace problems.",
+      "answerZh": "只有讓員工可以安全地提出憂慮，公司才能發現隱藏的工作場所問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by allowing staff to raise concerns safely can a company discover hidden workplace problems."
+    },
+    {
+      "id": "ss222-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A charity cannot check whether donations are being used responsibly unless it reviews its spending regularly.",
+      "promptZh": "一間慈善機構除非定期檢視開支，否則無法查核捐款是否得到負責任的運用。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by reviewing its spending regularly can a charity check whether donations are being used responsibly.",
+      "answerZh": "只有定期檢視開支，慈善機構才能查核捐款是否得到負責任的運用。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by reviewing its spending regularly can a charity check whether donations are being used responsibly."
+    },
+    {
+      "id": "ss222-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The school cannot prepare teachers to deliver the new curriculum unless it invests in teacher training.",
+      "promptZh": "學校除非投資於教師培訓，否則無法讓教師為教授新課程作好準備。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by investing in teacher training can the school prepare teachers to deliver the new curriculum.",
+      "answerZh": "只有投資於教師培訓，學校才能讓教師為教授新課程作好準備。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by investing in teacher training can the school prepare teachers to deliver the new curriculum."
+    },
+    {
+      "id": "ss222-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Emergency teams cannot reach remote areas quickly unless they plan their routes in advance.",
+      "promptZh": "緊急救援隊伍除非預先規劃路線，否則無法迅速到達偏遠地區。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by planning their routes in advance can emergency teams reach remote areas quickly.",
+      "answerZh": "只有預先規劃路線，緊急救援隊伍才能迅速到達偏遠地區。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by planning their routes in advance can emergency teams reach remote areas quickly."
+    },
+    {
+      "id": "ss222-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Governments cannot tackle international cybercrime effectively unless they cooperate across borders.",
+      "promptZh": "各國政府除非進行跨境合作，否則無法有效打擊國際網絡罪行。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by cooperating across borders can governments tackle international cybercrime effectively.",
+      "answerZh": "只有進行跨境合作，各國政府才能有效打擊國際網絡罪行。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by cooperating across borders can governments tackle international cybercrime effectively."
+    },
+    {
+      "id": "ss222-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "How can officials determine whether the policy is working? They must measure the results honestly.",
+      "promptZh": "官員怎樣才能判斷政策是否有效？他們必須如實衡量結果。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by measuring the results honestly can officials determine whether the policy is working.",
+      "answerZh": "只有如實衡量結果，官員才能判斷政策是否有效。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by measuring the results honestly can officials determine whether the policy is working."
+    },
+    {
+      "id": "ss222-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Organisations can make online services accessible to people with different abilities only if they design websites with these users in mind.",
+      "promptZh": "機構只有在設計網站時考慮不同能力用戶的需要，才能讓更多人使用網上服務。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by designing websites with different users’ needs in mind can organisations make online services accessible to people with different abilities.",
+      "answerZh": "只有在設計網站時考慮不同用戶的需要，機構才能讓不同能力的人使用網上服務。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by designing websites with different users’ needs in mind can organisations make online services accessible to people with different abilities."
+    },
+    {
+      "id": "ss222-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "To give staff more time for focused work, companies must limit unnecessary meetings.",
+      "promptZh": "公司必須減少不必要的會議，才能讓員工有更多時間專注工作。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by limiting unnecessary meetings can companies give staff more time for focused work.",
+      "answerZh": "只有減少不必要的會議，公司才能讓員工有更多時間專注工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by limiting unnecessary meetings can companies give staff more time for focused work."
+    },
+    {
+      "id": "ss222-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A country cannot rely on renewable power at night and during calm weather unless it combines renewable energy with reliable storage.",
+      "promptZh": "一個國家除非把再生能源與可靠的儲能系統結合，否則無法在夜間及無風時依靠再生能源供電。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by combining renewable energy with reliable storage can a country rely on renewable power at night and during calm weather.",
+      "answerZh": "只有把再生能源與可靠的儲能系統結合，一個國家才能在夜間及無風時依靠再生能源供電。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by combining renewable energy with reliable storage can a country rely on renewable power at night and during calm weather."
+    },
+    {
+      "id": "ss222-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Planners cannot learn how residents use an area unless they consult local people.",
+      "promptZh": "規劃人員除非諮詢本區居民，否則無法了解居民如何使用該區。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by consulting local people can planners learn how residents use an area.",
+      "answerZh": "只有諮詢本區居民，規劃人員才能了解居民如何使用該區。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by consulting local people can planners learn how residents use an area."
+    },
+    {
+      "id": "ss222-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The hospital cannot answer public concerns about the new funding plan unless it is transparent about the costs.",
+      "promptZh": "醫院除非公開透明地交代成本，否則無法回應公眾對新撥款計劃的憂慮。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by being transparent about the costs can the hospital answer public concerns about the new funding plan.",
+      "answerZh": "只有公開透明地交代成本，醫院才能回應公眾對新撥款計劃的憂慮。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by being transparent about the costs can the hospital answer public concerns about the new funding plan."
+    },
+    {
+      "id": "ss222-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "News organisations must balance speed with careful review if they want to avoid spreading false information.",
+      "promptZh": "新聞機構如想避免散播錯誤資訊，就必須在速度與仔細核實之間取得平衡。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by balancing speed with careful review can news organisations avoid spreading false information.",
+      "answerZh": "只有在速度與仔細核實之間取得平衡，新聞機構才能避免散播錯誤資訊。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by balancing speed with careful review can news organisations avoid spreading false information."
+    },
+    {
+      "id": "ss222-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Policymakers cannot know whether short-term success is genuine without examining the long-term outcomes.",
+      "promptZh": "政策制定者如不研究長期結果，便無法知道短期成效是否真實。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by examining the long-term outcomes can policymakers know whether short-term success is genuine.",
+      "answerZh": "只有研究長期結果，政策制定者才能知道短期成效是否真實。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by examining the long-term outcomes can policymakers know whether short-term success is genuine."
+    },
+    {
+      "id": "ss222-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Schools cannot stop disadvantaged pupils from falling further behind unless they give them additional support.",
+      "promptZh": "學校除非為弱勢學生提供額外支援，否則無法阻止他們進一步落後。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by giving disadvantaged pupils additional support can schools stop them from falling further behind.",
+      "answerZh": "只有為弱勢學生提供額外支援，學校才能阻止他們進一步落後。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by giving disadvantaged pupils additional support can schools stop them from falling further behind."
+    },
+    {
+      "id": "ss222-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Governments can protect privacy while encouraging innovation only if they establish clear rules for data use.",
+      "promptZh": "政府只有為資料使用制定清楚規則，才能在鼓勵創新的同時保障私隱。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by establishing clear rules for data use can governments protect privacy while encouraging innovation.",
+      "answerZh": "只有為資料使用制定清楚規則，政府才能在鼓勵創新的同時保障私隱。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by establishing clear rules for data use can governments protect privacy while encouraging innovation."
+    },
+    {
+      "id": "ss222-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The hospital’s experienced nurses have identified two conditions for staying: better wages and better working conditions.",
+      "promptZh": "醫院的資深護士表示，他們繼續留任有兩項條件：更好的薪酬和工作環境。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by improving both wages and working conditions can the hospital retain its experienced nurses.",
+      "answerZh": "只有同時改善薪酬和工作環境，醫院才能挽留資深護士。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by improving both wages and working conditions can the hospital retain its experienced nurses."
+    },
+    {
+      "id": "ss222-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "An algorithm must be tested on diverse groups before a company can determine whether it treats applicants fairly.",
+      "promptZh": "公司必須以不同群體測試演算法，才能判斷它是否公平對待申請人。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by testing its algorithm on diverse groups can a company determine whether it treats applicants fairly.",
+      "answerZh": "只有以不同群體測試演算法，公司才能判斷它是否公平對待申請人。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by testing its algorithm on diverse groups can a company determine whether it treats applicants fairly."
+    },
+    {
+      "id": "ss222-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "What must an organisation do to learn whether its proposed procedures will work in practice? It must involve frontline staff in the planning process.",
+      "promptZh": "一個機構必須怎樣做，才能知道建議的程序在實際環境中是否可行？它必須讓前線員工參與規劃過程。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by involving frontline staff in the planning process can an organisation learn whether its proposed procedures will work in practice.",
+      "answerZh": "只有讓前線員工參與規劃過程，機構才能知道建議的程序在實際環境中是否可行。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by involving frontline staff in the planning process can an organisation learn whether its proposed procedures will work in practice."
+    },
+    {
+      "id": "ss222-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Increasing the water supply alone will not solve the city’s shortages sustainably. Demand must also be reduced.",
+      "promptZh": "單靠增加供水量，無法持續地解決城市的缺水問題。用水需求亦必須減少。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by reducing demand as well as increasing supply can the city address its water shortages sustainably.",
+      "answerZh": "只有在增加供水量的同時減少用水需求，城市才能持續地解決缺水問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by reducing demand as well as increasing supply can the city address its water shortages sustainably."
+    },
+    {
+      "id": "ss222-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The public can receive an accurate picture of a study only when researchers publish both positive and negative results.",
+      "promptZh": "研究人員只有同時公布正面和負面結果，公眾才能準確了解一項研究。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by publishing both positive and negative results can researchers give the public an accurate picture of a study.",
+      "answerZh": "只有同時公布正面和負面結果，研究人員才能讓公眾準確了解一項研究。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by publishing both positive and negative results can researchers give the public an accurate picture of a study."
+    },
+    {
+      "id": "ss222-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Investors cannot make a complete judgement about a project unless they consider its financial, environmental and social costs.",
+      "promptZh": "投資者除非考慮項目的財務、環境和社會成本，否則無法作出完整判斷。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by considering a project’s financial, environmental and social costs can investors make a complete judgement about it.",
+      "answerZh": "只有考慮項目的財務、環境和社會成本，投資者才能對項目作出完整判斷。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by considering a project’s financial, environmental and social costs can investors make a complete judgement about it."
+    },
+    {
+      "id": "ss222-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Society cannot reduce the harm caused by misleading online content without combining strong regulation with public education.",
+      "promptZh": "社會如不把嚴格監管與公眾教育結合，便無法減少誤導性網上內容所造成的傷害。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by combining strong regulation with public education can society reduce the harm caused by misleading online content.",
+      "answerZh": "只有把嚴格監管與公眾教育結合，社會才能減少誤導性網上內容所造成的傷害。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by combining strong regulation with public education can society reduce the harm caused by misleading online content."
+    }
+  ]
+}

@@ -1,0 +1,1317 @@
+{
+  "id": "ss262",
+  "order": 262,
+  "slug": "if-not-x-then-y",
+  "title": "「If not X, then Y」替代與後果句",
+  "titleZh": "「If not X, then Y」替代與後果句",
+  "titleEn": "Using “If not X, then Y” for alternatives and consequences",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 261 -「If not X, then Y」替代與後果句.pdf",
+    "pageCount": 32,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "exercisePages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "answerPages": [
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF does not provide a complete English counterpart, the English text is a faithful editorial translation.",
+      "The source filename is numbered one lower than the system lesson because two distinct source PDFs are labelled 201; source number N therefore maps to system ID ssN+1."
+    ]
+  },
+  "formula": "If not X, then Y.",
+  "formulas": [
+    {
+      "id": "ss262-formula-01",
+      "labelEn": "Core structure",
+      "labelZh": "核心句型",
+      "formula": "If not X, then Y."
+    },
+    {
+      "id": "ss262-formula-02",
+      "labelEn": "Minimum alternative",
+      "labelZh": "最低要求",
+      "formula": "If not X, then at least Y."
+    },
+    {
+      "id": "ss262-formula-03",
+      "labelEn": "Corrective evaluation",
+      "labelZh": "修正評價",
+      "formula": "If not X, then certainly Y."
+    },
+    {
+      "id": "ss262-formula-04",
+      "labelEn": "Rhetorical question",
+      "labelZh": "反問句",
+      "formula": "If not X, then who / when / how ...?"
+    }
+  ],
+  "example": "If not this plan, then we need a workable alternative.",
+  "exampleZh": "如果不採用這個計劃，那麼我們便需要一個可行的替代方案。",
+  "examples": [
+    {
+      "id": "ss262-example-01",
+      "en": "If not this plan, then we need a workable alternative.",
+      "zh": "如果不採用這個計劃，那麼我們便需要一個可行的替代方案。",
+      "highlight": "If not this plan, then we need a workable alternative."
+    },
+    {
+      "id": "ss262-example-02",
+      "en": "If not today, then tomorrow.",
+      "zh": "如果不是今天，那便明天。",
+      "highlight": "If not today, then tomorrow."
+    },
+    {
+      "id": "ss262-example-03",
+      "en": "If not the manager, then ask the assistant manager.",
+      "zh": "如果不能找經理，那麼便詢問副經理。",
+      "highlight": "If not the manager, then ask the assistant manager."
+    },
+    {
+      "id": "ss262-example-04",
+      "en": "If not now, then when?",
+      "zh": "如果不是現在，那麼要等到何時？",
+      "highlight": "If not now, then when?"
+    }
+  ],
+  "meaning": {
+    "zh": "X 是原先考慮、預期或較理想的選擇；如果 X 不可行、不存在、不被採用或不合要求，Y 便是替代選擇、必要行動、合理推論或後果。此句型省略可從語境理解的內容，使表達更簡潔。"
+  },
+  "rules": [
+    {
+      "id": "ss262-rule-01",
+      "zh": "固定核心只有 If not + X, then + Y。at least、perhaps、certainly、immediately、instead、otherwise 和背景資料等都是可選延伸。",
+      "en": "The fixed core is only If not + X, then + Y. Items such as at least, perhaps, certainly, immediately, instead, otherwise and contextual material are optional extensions.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss262-rule-02",
+      "zh": "If not X 通常是省略形式，可能省略 if we do not use X、if X is not accepted 或 if X is unavailable 等內容；X 必須足夠清楚。",
+      "en": "If not X is usually elliptical and may stand for ideas such as if we do not use X, if X is not accepted or if X is unavailable. X must be clear enough from the context.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss262-rule-03",
+      "zh": "not 否定 X，而不是 Y。If not X, then Y 表示 X 不成立時 Y 發生，與 If X, then not Y 的意思完全不同。",
+      "en": "Not negates X, not Y. If not X, then Y says that Y follows when X does not apply; it is completely different from If X, then not Y.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss262-rule-04",
+      "zh": "X 可以是名詞、代名詞或人物；省略的動作或狀態必須能從語境清楚理解。",
+      "en": "X may be a noun, pronoun or person. Any omitted action or state must be recoverable clearly from the context.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss262-rule-05",
+      "zh": "X 可以表示時間、地點、方法或路線；這些都是省略條件句，完整主語和動詞由語境補充。",
+      "en": "X may express a time, place, method or route. These are elliptical conditions whose full subject and verb are supplied by the context.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss262-rule-06",
+      "zh": "X 可以是形容詞或過去分詞，如 if not ready 或 if not approved；被省略的主語必須清楚。",
+      "en": "X may be an adjective or past participle, as in if not ready or if not approved. The omitted subject must be clear.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss262-rule-07",
+      "zh": "X 可以是原因或較長詞組，但仍須容易理解，避免在 X 內塞入多個複雜子句。",
+      "en": "X may be a reason or longer phrase, but it must remain easy to understand; avoid packing multiple complex clauses into X.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss262-rule-08",
+      "zh": "Y 可以是包含主語和動詞的完整句子，這是最完整且最適合初學者的形式。",
+      "en": "Y may be a complete sentence containing a subject and verb; this is the fullest and most accessible form for learners.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss262-rule-09",
+      "zh": "Y 可以是命令句，主語 you 通常省略。",
+      "en": "Y may be an imperative, in which the subject you is normally omitted.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss262-rule-10",
+      "zh": "Y 可以是簡短替代詞組，但只適合語境清楚的對話、建議或決策；正式寫作中若可能不清楚，應使用完整句子。",
+      "en": "Y may be a short alternative phrase in clear conversational or decision-making contexts. In formal writing, use a complete sentence if the meaning could be unclear.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss262-rule-11",
+      "zh": "Y 可以是反問句，例如 If not us, then who?，用來強調責任、迫切性或缺乏其他方法。",
+      "en": "Y may be a rhetorical question, such as If not us, then who?, to emphasise responsibility, urgency or the lack of an obvious alternative.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss262-rule-12",
+      "zh": "普通條件句有時可以省略 then，但本課所有答案保留 then，以清楚顯示兩個對比部分。",
+      "en": "Then can sometimes be omitted in ordinary conditional sentences, but this exercise retains then in every answer to show the two contrasting parts clearly.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss262-rule-13",
+      "zh": "開首條件後通常使用逗號，把 X 和 Y 分開；核心也可放在情境語、報告子句、直接引述或結論之後。",
+      "en": "A fronted condition is normally followed by a comma separating X from Y. The core may also follow a context phrase or appear inside a report, quotation or conclusion.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss262-rule-14",
+      "zh": "整個句子不一定以 If 開始；目標結構可以嵌入更長的句子，答案首字須按語境決定。",
+      "en": "The complete sentence need not begin with If. The target structure can be embedded within a longer sentence, so the first word depends on the context.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss262-rule-15",
+      "zh": "If not X, then at least Y 表示 Y 是無法達到理想 X 時的最低要求；at least 是可選補充。",
+      "en": "If not X, then at least Y presents Y as the minimum requirement when the preferred X cannot be achieved. At least is optional.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss262-rule-16",
+      "zh": "If not X, then certainly Y 可修正或降低原先評價：可能稱不上 X，但可以肯定是 Y；這較適合中高階寫作。",
+      "en": "If not X, then certainly Y corrects or softens an evaluation: the item may not qualify as X, but it is certainly Y. This is more suitable for intermediate or advanced writing.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss262-benefit-01",
+      "zh": "它清楚提出第一選擇和第一選擇不可行時的後備方案，適合安排、建議和解決問題。",
+      "en": "It clearly presents the first choice and the backup plan if that choice is unavailable, which is useful for arrangements, advice and problem solving.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss262-benefit-02",
+      "zh": "在語境清楚時，可以縮短較長和重複的條件句，省略 use、choose、meet、travel 或 pay 等可推斷內容。",
+      "en": "When the context is clear, it shortens a longer repetitive condition by omitting recoverable verbs such as use, choose, meet, travel or pay.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss262-benefit-03",
+      "zh": "它能強調不能一直拖延，必須在選項之間作出選擇，適合決策、談判、警告和行動計劃。",
+      "en": "It emphasises that a choice must be made rather than postponed indefinitely, making it useful for decisions, negotiations, warnings and action plans.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss262-benefit-04",
+      "zh": "加入 at least 可以同時表達最理想要求和無法達到時的最低標準。",
+      "en": "With at least, it can express both the preferred requirement and the minimum acceptable standard.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss262-benefit-05",
+      "zh": "它可以形成簡短有力的反問句，強調責任或迫切性，適合演講和議論文。",
+      "en": "It can form concise, memorable rhetorical questions that emphasise responsibility or urgency in speeches and argumentative writing.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss262-benefit-06",
+      "zh": "核心可放在句首、情境語後、引述或報告動詞內，並可配合主句、命令或反問，增加句式多樣性。",
+      "en": "The core may appear at the beginning, after a context phrase or inside a quotation or report, and may end in a clause, command or rhetorical question, increasing variety.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF does not provide a complete English counterpart, the English text is a faithful editorial translation.",
+    "The source filename is numbered one lower than the system lesson because two distinct source PDFs are labelled 201; source number N therefore maps to system ID ssN+1."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using If not X, then Y.",
+      "X may be a thing, person, time, place, method, condition or reason. Preserve the original meaning and use the supplied opening."
+    ],
+    "zh": [
+      "使用 If not X, then Y 改寫以下句子。",
+      "X 可以是事物、人物、時間、地點、方法、條件或原因。保留原句意思並按照已提供的開首作答。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss262-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The group must either use this plan or find a workable alternative.",
+      "promptZh": "小組必須採用這個計劃，否則便要找出一個可行的替代方案。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If not this plan, then the group needs a workable alternative.",
+      "answerZh": "如果不採用這個計劃，那麼小組便需要一個可行的替代方案。",
+      "answerZhSource": "pdf",
+      "highlight": "If not this plan, then the group needs a workable alternative."
+    },
+    {
+      "id": "ss262-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The meeting must take place either today or tomorrow.",
+      "promptZh": "會議必須在今天或明天舉行。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If not today, then tomorrow.",
+      "answerZh": "如果不是今天，那便明天。",
+      "answerZhSource": "pdf",
+      "highlight": "If not today, then tomorrow."
+    },
+    {
+      "id": "ss262-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "For the journey, we can take the train. The coach is our second choice.",
+      "promptZh": "這次旅程可以乘搭火車。旅遊巴是我們的第二選擇。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For the journey, if not the train, then the coach.",
+      "answerZh": "這次旅程如果不乘搭火車，那便乘旅遊巴。",
+      "answerZhSource": "pdf",
+      "highlight": "For the journey, if not the train, then the coach."
+    },
+    {
+      "id": "ss262-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "At lunch, I will order rice. If there is no rice, I will order noodles.",
+      "promptZh": "午餐時我會點飯。如果沒有飯，我便會點麵。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At lunch, if not rice, then I will order noodles.",
+      "answerZh": "午餐時如果不點飯，那麼我便會點麵。",
+      "answerZhSource": "pdf",
+      "highlight": "At lunch, if not rice, then I will order noodles."
+    },
+    {
+      "id": "ss262-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The team agreed to meet in the library. If it was unavailable, they would use the classroom.",
+      "promptZh": "團隊同意在圖書館開會。如果圖書館不能使用，他們便會使用課室。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team agreed that if not the library, then the meeting would be held in the classroom.",
+      "answerZh": "團隊同意，如果不能使用圖書館，那麼會議便會在課室舉行。",
+      "answerZhSource": "pdf",
+      "highlight": "The team agreed that if not the library, then the meeting would be held in the classroom."
+    },
+    {
+      "id": "ss262-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Choose the blue shirt, or choose the black one if the blue shirt is unavailable.",
+      "promptZh": "選擇藍色恤衫；如果沒有藍色那件，便選黑色那件。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If not the blue shirt, then choose the black one.",
+      "answerZh": "如果不選藍色恤衫，那麼便選黑色那件。",
+      "answerZhSource": "pdf",
+      "highlight": "If not the blue shirt, then choose the black one."
+    },
+    {
+      "id": "ss262-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 26,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "This recipe normally uses fresh tomatoes, but tinned tomatoes are a suitable substitute.",
+      "promptZh": "這份食譜通常使用新鮮番茄，但罐頭番茄也是合適的替代品。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In this recipe, if not fresh tomatoes, then tinned tomatoes will work.",
+      "answerZh": "在這份食譜中，如果沒有新鮮番茄，那麼使用罐頭番茄也可以。",
+      "answerZhSource": "pdf",
+      "highlight": "In this recipe, if not fresh tomatoes, then tinned tomatoes will work."
+    },
+    {
+      "id": "ss262-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "We can travel by bus. If that is not possible, we can walk.",
+      "promptZh": "我們可以乘巴士前往。如果這個方法不可行，我們可以步行。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If not by bus, then we can walk.",
+      "answerZh": "如果不乘巴士，那麼我們可以步行。",
+      "answerZhSource": "pdf",
+      "highlight": "If not by bus, then we can walk."
+    },
+    {
+      "id": "ss262-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The teacher said that we should begin on page ten. If that page was missing, we should begin on page eleven.",
+      "promptZh": "老師說我們應該從第十頁開始。如果缺少該頁，我們便應該從第十一頁開始。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher said that if not page ten, then we should begin on page eleven.",
+      "answerZh": "老師說，如果不能從第十頁開始，那麼我們便應該從第十一頁開始。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher said that if not page ten, then we should begin on page eleven."
+    },
+    {
+      "id": "ss262-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "We need to decide now. If we cannot do that, we must decide before noon.",
+      "promptZh": "我們需要現在作出決定。如果不能，我們便必須在中午前決定。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If not now, then we must decide before noon.",
+      "answerZh": "如果不是現在，那麼我們便必須在中午前決定。",
+      "answerZhSource": "pdf",
+      "highlight": "If not now, then we must decide before noon."
+    },
+    {
+      "id": "ss262-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "During the repair, use this tool. If it does not fit, use the smaller one.",
+      "promptZh": "維修期間請使用這件工具。如果它不合用，便使用較小的工具。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the repair, if not this tool, then use the smaller one.",
+      "answerZh": "維修期間如果不用這件工具，那麼便使用較小的工具。",
+      "answerZhSource": "pdf",
+      "highlight": "During the repair, if not this tool, then use the smaller one."
+    },
+    {
+      "id": "ss262-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Ask the manager for approval. If the manager is unavailable, ask the assistant manager.",
+      "promptZh": "向經理申請批准。如果經理不在，便詢問副經理。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If not the manager, then ask the assistant manager for approval.",
+      "answerZh": "如果不能找經理，那麼便向副經理申請批准。",
+      "answerZhSource": "pdf",
+      "highlight": "If not the manager, then ask the assistant manager for approval."
+    },
+    {
+      "id": "ss262-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The organiser explained that the event would be held on Friday, or on Saturday if Friday was impossible.",
+      "promptZh": "主辦者解釋，活動會在星期五舉行；如果星期五不可行，便改在星期六。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organiser explained, “If not Friday, then Saturday.”",
+      "answerZh": "主辦者解釋：「如果不是星期五，那便是星期六。」",
+      "answerZhSource": "pdf",
+      "highlight": "The organiser explained, “If not Friday, then Saturday.”"
+    },
+    {
+      "id": "ss262-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Wait at the main entrance. If you cannot wait there, wait beside the information desk.",
+      "promptZh": "在正門等候。如果不能在那裏等候，便在詢問處旁邊等候。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If not at the main entrance, then wait beside the information desk.",
+      "answerZh": "如果不在正門等候，那麼便在詢問處旁邊等候。",
+      "answerZhSource": "pdf",
+      "highlight": "If not at the main entrance, then wait beside the information desk."
+    },
+    {
+      "id": "ss262-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 27,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "For payment, please use a card. If card payment is unavailable, please use cash.",
+      "promptZh": "付款時請使用信用卡。如果不能以信用卡付款，請使用現金。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For payment, if not by card, then please pay in cash.",
+      "answerZh": "付款時如果不用信用卡，那麼請以現金付款。",
+      "answerZhSource": "pdf",
+      "highlight": "For payment, if not by card, then please pay in cash."
+    },
+    {
+      "id": "ss262-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "The nurse advised the patient not to return to work unless the patient was completely rested.",
+      "promptZh": "護士建議病人，在完全休息好之前不要復工。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse advised that if not completely rested, then the patient should avoid returning to work.",
+      "answerZh": "護士建議，如果尚未完全休息好，那麼病人便應避免復工。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse advised that if not completely rested, then the patient should avoid returning to work."
+    },
+    {
+      "id": "ss262-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "Call us immediately if you are not ready by six.",
+      "promptZh": "如果你在六時前仍未準備好，請立即致電給我們。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If not ready by six, then call us immediately.",
+      "answerZh": "如果在六時前仍未準備好，那麼請立即致電給我們。",
+      "answerZhSource": "pdf",
+      "highlight": "If not ready by six, then call us immediately."
+    },
+    {
+      "id": "ss262-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "In the final paragraph, write a conclusion. If you cannot do that, include a clear recommendation.",
+      "promptZh": "在最後一段寫下結論。如果不能，便加入一項清晰的建議。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the final paragraph, if not a conclusion, then include a clear recommendation.",
+      "answerZh": "在最後一段，如果不寫結論，那麼便加入一項清晰的建議。",
+      "answerZhSource": "pdf",
+      "highlight": "In the final paragraph, if not a conclusion, then include a clear recommendation."
+    },
+    {
+      "id": "ss262-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "The delay was caused either by the weather or, more probably, by a technical fault.",
+      "promptZh": "延誤不是由天氣造成，便很可能是由技術故障造成。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If not because of the weather, then the delay was probably caused by a technical fault.",
+      "answerZh": "如果延誤不是天氣所致，那麼很可能是技術故障造成的。",
+      "answerZhSource": "pdf",
+      "highlight": "If not because of the weather, then the delay was probably caused by a technical fault."
+    },
+    {
+      "id": "ss262-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 20,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "The committee decided to use this supplier. If that was not possible, it would invite bids from two others.",
+      "promptZh": "委員會決定採用這家供應商。如果不可行，便會邀請另外兩家供應商投標。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee decided that if not this supplier, then it would invite bids from two others.",
+      "answerZh": "委員會決定，如果不採用這家供應商，那麼便會邀請另外兩家供應商投標。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee decided that if not this supplier, then it would invite bids from two others."
+    },
+    {
+      "id": "ss262-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "The employer must offer either higher wages or better working conditions.",
+      "promptZh": "僱主必須提供較高工資，否則便要改善工作環境。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The employer must offer higher wages; if not, then better working conditions must be offered.",
+      "answerZh": "僱主必須提供較高工資；如果不能，那麼便必須改善工作環境。",
+      "answerZhSource": "pdf",
+      "highlight": "The employer must offer higher wages; if not, then better working conditions must be offered."
+    },
+    {
+      "id": "ss262-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "Bring all the documents. If that is impossible, bring at least the signed form.",
+      "promptZh": "帶齊所有文件。如果不能，最低限度也要帶已簽署的表格。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If not all the documents, then at least bring the signed form.",
+      "answerZh": "如果不能帶齊所有文件，那麼最低限度也要帶已簽署的表格。",
+      "answerZhSource": "pdf",
+      "highlight": "If not all the documents, then at least bring the signed form."
+    },
+    {
+      "id": "ss262-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 29,
+        "answerPage": 29,
+        "answerZhPage": 29
+      },
+      "prompt": "According to the guide, bookings should be made by phone or, if that is unavailable, through the website.",
+      "promptZh": "根據指南，預訂應以電話辦理；如果不能，便應透過網站辦理。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the guide, if not by phone, then bookings should be made through the website.",
+      "answerZh": "根據指南，如果不以電話預訂，那麼便應透過網站辦理。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the guide, if not by phone, then bookings should be made through the website."
+    },
+    {
+      "id": "ss262-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 29,
+        "answerPage": 29,
+        "answerZhPage": 29
+      },
+      "prompt": "The original design should be preserved. If that cannot be done, something close to it should be kept.",
+      "promptZh": "應保留原來的設計。如果不能，便應保留與它相近的設計。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If not the original design, then something close to it should be preserved.",
+      "answerZh": "如果不能保留原來的設計，那麼便應保留與它相近的設計。",
+      "answerZhSource": "pdf",
+      "highlight": "If not the original design, then something close to it should be preserved."
+    },
+    {
+      "id": "ss262-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 29,
+        "answerPage": 29,
+        "answerZhPage": 29
+      },
+      "prompt": "At the interview, give a detailed answer. If you cannot, give at least one clear example.",
+      "promptZh": "面試時提供詳細答案。如果不能，最低限度也要舉出一個清楚例子。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the interview, if not a detailed answer, then give at least one clear example.",
+      "answerZh": "面試時如果不能提供詳細答案，那麼最低限度也要舉出一個清楚例子。",
+      "answerZhSource": "pdf",
+      "highlight": "At the interview, if not a detailed answer, then give at least one clear example."
+    },
+    {
+      "id": "ss262-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 29,
+        "answerPage": 29,
+        "answerZhPage": 29
+      },
+      "prompt": "The coach warned that mistakes would be inevitable unless the players maintained full concentration.",
+      "promptZh": "教練警告，除非球員保持完全專注，否則錯誤將無可避免。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach warned that if not full concentration, then mistakes would be inevitable.",
+      "answerZh": "教練警告，如果不能保持完全專注，那麼錯誤將無可避免。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach warned that if not full concentration, then mistakes would be inevitable."
+    },
+    {
+      "id": "ss262-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 29,
+        "answerPage": 29,
+        "answerZhPage": 29
+      },
+      "prompt": "The error came either from the finance team or from the supplier.",
+      "promptZh": "這項錯誤不是來自財務團隊，便是來自供應商。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If not from the finance team, then the error came from the supplier.",
+      "answerZh": "如果錯誤不是來自財務團隊，那麼便是來自供應商。",
+      "answerZhSource": "pdf",
+      "highlight": "If not from the finance team, then the error came from the supplier."
+    },
+    {
+      "id": "ss262-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 29,
+        "answerPage": 29,
+        "answerZhPage": 29
+      },
+      "prompt": "In an emergency, use the nearest exit. If it is blocked, use the safest available route.",
+      "promptZh": "在緊急情況中，使用最近的出口。如果出口受阻，便使用最安全的可行路線。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In an emergency, if not the nearest exit, then use the safest available route.",
+      "answerZh": "在緊急情況中，如果不能使用最近的出口，那麼便使用最安全的可行路線。",
+      "answerZhSource": "pdf",
+      "highlight": "In an emergency, if not the nearest exit, then use the safest available route."
+    },
+    {
+      "id": "ss262-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 29,
+        "answerPage": 29,
+        "answerZhPage": 29
+      },
+      "prompt": "The article should present the claim as fact only when there is enough evidence to prove it.",
+      "promptZh": "文章只有在有足夠證據證明該說法時，才應把它當作事實。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If not enough evidence to prove the claim, then the article should not present it as fact.",
+      "answerZh": "如果沒有足夠證據證明這項說法，那麼文章便不應把它當作事實。",
+      "answerZhSource": "pdf",
+      "highlight": "If not enough evidence to prove the claim, then the article should not present it as fact."
+    },
+    {
+      "id": "ss262-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 29,
+        "answerPage": 30,
+        "answerZhPage": 30
+      },
+      "prompt": "The director made it clear that the proposal must offer either a complete solution or at least measurable progress.",
+      "promptZh": "總監清楚表明，建議必須提供完整解決方案，最低限度也要帶來可量度的進展。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The director made it clear that if not a complete solution, then the proposal must at least offer measurable progress.",
+      "answerZh": "總監清楚表明，如果建議不能提供完整解決方案，那麼最低限度也必須帶來可量度的進展。",
+      "answerZhSource": "pdf",
+      "highlight": "The director made it clear that if not a complete solution, then the proposal must at least offer measurable progress."
+    },
+    {
+      "id": "ss262-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 22,
+        "questionPage": 22,
+        "promptZhPage": 22,
+        "starterPage": 22,
+        "answerNumberPage": 30,
+        "answerPage": 30,
+        "answerZhPage": 30
+      },
+      "prompt": "The resistance was caused either by the policy itself or by the way it was introduced.",
+      "promptZh": "這次反對不是由政策本身引起，便是由推行政策的方式引起。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If not the policy itself, then the way it was introduced caused the resistance.",
+      "answerZh": "如果反對不是由政策本身引起，那麼便是由推行政策的方式引起。",
+      "answerZhSource": "pdf",
+      "highlight": "If not the policy itself, then the way it was introduced caused the resistance."
+    },
+    {
+      "id": "ss262-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 22,
+        "questionPage": 22,
+        "promptZhPage": 22,
+        "starterPage": 22,
+        "answerNumberPage": 30,
+        "answerPage": 30,
+        "answerZhPage": 30
+      },
+      "prompt": "The doctor explained that the condition was probably an infection, with an allergic reaction as the next possibility.",
+      "promptZh": "醫生解釋，病況很可能是感染；另一個可能性是過敏反應。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor explained that if not an infection, then an allergic reaction was the next possibility.",
+      "answerZh": "醫生解釋，如果不是感染，那麼下一個可能性便是過敏反應。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor explained that if not an infection, then an allergic reaction was the next possibility."
+    },
+    {
+      "id": "ss262-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 22,
+        "questionPage": 22,
+        "promptZhPage": 22,
+        "starterPage": 22,
+        "answerNumberPage": 30,
+        "answerPage": 30,
+        "answerZhPage": 30
+      },
+      "prompt": "Someone must be responsible. If it is not this department, which team is responsible?",
+      "promptZh": "必須有部門負責。如果不是這個部門，會是哪一個團隊？",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If not this department, then which team is responsible?",
+      "answerZh": "如果不是這個部門，那麼哪一個團隊需要負責？",
+      "answerZhSource": "pdf",
+      "highlight": "If not this department, then which team is responsible?"
+    },
+    {
+      "id": "ss262-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 22,
+        "questionPage": 22,
+        "promptZhPage": 22,
+        "starterPage": 22,
+        "answerNumberPage": 30,
+        "answerPage": 30,
+        "answerZhPage": 30
+      },
+      "prompt": "During the negotiations, both sides should seek a permanent agreement or, failing that, a temporary arrangement.",
+      "promptZh": "談判期間，雙方應尋求永久協議；如果不能，便應尋求臨時安排。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the negotiations, if not a permanent agreement, then both sides should seek a temporary arrangement.",
+      "answerZh": "談判期間，如果不能達成永久協議，那麼雙方便應尋求臨時安排。",
+      "answerZhSource": "pdf",
+      "highlight": "During the negotiations, if not a permanent agreement, then both sides should seek a temporary arrangement."
+    },
+    {
+      "id": "ss262-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 22,
+        "questionPage": 23,
+        "promptZhPage": 23,
+        "starterPage": 23,
+        "answerNumberPage": 30,
+        "answerPage": 30,
+        "answerZhPage": 30
+      },
+      "prompt": "The instructions may have caused the mistake. If they did not, why did so many users make the same mistake?",
+      "promptZh": "指示可能導致了這項錯誤。如果不是，為甚麼這麼多使用者都犯同一錯誤？",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If not because the instructions were unclear, then why did so many users make the same mistake?",
+      "answerZh": "如果不是因為指示不清楚，那麼為甚麼這麼多使用者都犯同一錯誤？",
+      "answerZhSource": "pdf",
+      "highlight": "If not because the instructions were unclear, then why did so many users make the same mistake?"
+    },
+    {
+      "id": "ss262-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 23,
+        "questionPage": 23,
+        "promptZhPage": 23,
+        "starterPage": 23,
+        "answerNumberPage": 30,
+        "answerPage": 30,
+        "answerZhPage": 30
+      },
+      "prompt": "The chair asked whether Monday morning would suit everyone and suggested Tuesday afternoon as the alternative.",
+      "promptZh": "主席詢問星期一早上是否適合所有人，並建議星期二下午作為替代時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The chair asked, “If not Monday morning, then would Tuesday afternoon suit everyone?”",
+      "answerZh": "主席問：「如果星期一早上不合適，那麼星期二下午是否適合所有人？」",
+      "answerZhSource": "pdf",
+      "highlight": "The chair asked, “If not Monday morning, then would Tuesday afternoon suit everyone?”"
+    },
+    {
+      "id": "ss262-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 23,
+        "questionPage": 23,
+        "promptZhPage": 23,
+        "starterPage": 23,
+        "answerNumberPage": 30,
+        "answerPage": 31,
+        "answerZhPage": 31
+      },
+      "prompt": "This may not be the most efficient method, but it is certainly one of the safest.",
+      "promptZh": "這可能不是最高效的方法，但肯定是最安全的方法之一。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If not the most efficient method, then it is certainly one of the safest.",
+      "answerZh": "即使這不是最高效的方法，也肯定是最安全的方法之一。",
+      "answerZhSource": "pdf",
+      "highlight": "If not the most efficient method, then it is certainly one of the safest."
+    },
+    {
+      "id": "ss262-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 23,
+        "questionPage": 23,
+        "promptZhPage": 23,
+        "starterPage": 23,
+        "answerNumberPage": 31,
+        "answerPage": 31,
+        "answerZhPage": 31
+      },
+      "prompt": "In terms of responsibility, either the board or the senior management team must explain the decision.",
+      "promptZh": "在責任方面，董事會或高級管理團隊必須解釋這項決定。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In terms of responsibility, if not the board, then the senior management team must explain the decision.",
+      "answerZh": "在責任方面，如果不是董事會負責，那麼高級管理團隊便必須解釋這項決定。",
+      "answerZhSource": "pdf",
+      "highlight": "In terms of responsibility, if not the board, then the senior management team must explain the decision."
+    },
+    {
+      "id": "ss262-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 23,
+        "questionPage": 23,
+        "promptZhPage": 23,
+        "starterPage": 23,
+        "answerNumberPage": 31,
+        "answerPage": 31,
+        "answerZhPage": 31
+      },
+      "prompt": "The change was supposedly made to reduce costs. If that was not its purpose, what was the real purpose?",
+      "promptZh": "據稱這項改變是為了減低成本。如果這不是目的，真正的目的是甚麼？",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If not to reduce costs, then what was the real purpose of the change?",
+      "answerZh": "如果這項改變不是為了減低成本，那麼真正的目的是甚麼？",
+      "answerZhSource": "pdf",
+      "highlight": "If not to reduce costs, then what was the real purpose of the change?"
+    },
+    {
+      "id": "ss262-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 23,
+        "questionPage": 23,
+        "promptZhPage": 23,
+        "starterPage": 24,
+        "answerNumberPage": 31,
+        "answerPage": 31,
+        "answerZhPage": 31
+      },
+      "prompt": "The inspector concluded that the cause was either deliberate damage or serious carelessness.",
+      "promptZh": "督察認為，原因不是蓄意破壞，便是嚴重疏忽。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The inspector concluded that if not deliberate damage, then serious carelessness was the most likely cause.",
+      "answerZh": "督察認為，如果不是蓄意破壞，那麼最可能的原因便是嚴重疏忽。",
+      "answerZhSource": "pdf",
+      "highlight": "The inspector concluded that if not deliberate damage, then serious carelessness was the most likely cause."
+    },
+    {
+      "id": "ss262-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 24,
+        "questionPage": 24,
+        "promptZhPage": 24,
+        "starterPage": 24,
+        "answerNumberPage": 31,
+        "answerPage": 31,
+        "answerZhPage": 31
+      },
+      "prompt": "The researchers argued that the factor should be treated either as a direct cause or at least as a significant risk.",
+      "promptZh": "研究人員認為，這個因素應被視為直接原因，最低限度也應被視為重大風險。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The researchers argued that if not a direct cause, then the factor should at least be treated as a significant risk.",
+      "answerZh": "研究人員認為，即使這個因素不是直接原因，最低限度也應被視為重大風險。",
+      "answerZhSource": "pdf",
+      "highlight": "The researchers argued that if not a direct cause, then the factor should at least be treated as a significant risk."
+    },
+    {
+      "id": "ss262-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 24,
+        "questionPage": 24,
+        "promptZhPage": 24,
+        "starterPage": 24,
+        "answerNumberPage": 31,
+        "answerPage": 31,
+        "answerZhPage": 31
+      },
+      "prompt": "If stricter rules cannot prevent the same failure from recurring, how can the organisation prevent it?",
+      "promptZh": "如果更嚴格的規則不能防止同一失誤再次發生，機構還可以如何防止？",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If not through stricter rules, then how can the organisation prevent the same failure from recurring?",
+      "answerZh": "如果不透過更嚴格的規則，那麼機構可以如何防止同一失誤再次發生？",
+      "answerZhSource": "pdf",
+      "highlight": "If not through stricter rules, then how can the organisation prevent the same failure from recurring?"
+    },
+    {
+      "id": "ss262-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 24,
+        "questionPage": 24,
+        "promptZhPage": 24,
+        "starterPage": 24,
+        "answerNumberPage": 31,
+        "answerPage": 31,
+        "answerZhPage": 31
+      },
+      "prompt": "In public policy, there must be either immediate reform or at least a clear timetable for change.",
+      "promptZh": "在公共政策方面，必須立即改革，最低限度也要訂立清晰的改革時間表。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In public policy, if not immediate reform, then there must at least be a clear timetable for change.",
+      "answerZh": "在公共政策方面，如果不能立即改革，那麼最低限度也要訂立清晰的改革時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "In public policy, if not immediate reform, then there must at least be a clear timetable for change."
+    },
+    {
+      "id": "ss262-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 24,
+        "questionPage": 24,
+        "promptZhPage": 24,
+        "starterPage": 24,
+        "answerNumberPage": 31,
+        "answerPage": 32,
+        "answerZhPage": 32
+      },
+      "prompt": "The panel observed that the company might not be legally responsible, but it was still morally accountable.",
+      "promptZh": "評審團指出，公司可能沒有法律責任，但在道德上仍須負責。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The panel observed that if not legally responsible, then the company was still morally accountable.",
+      "answerZh": "評審團指出，即使公司沒有法律責任，在道德上仍須負責。",
+      "answerZhSource": "pdf",
+      "highlight": "The panel observed that if not legally responsible, then the company was still morally accountable."
+    },
+    {
+      "id": "ss262-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 24,
+        "questionPage": 25,
+        "promptZhPage": 25,
+        "starterPage": 25,
+        "answerNumberPage": 32,
+        "answerPage": 32,
+        "answerZhPage": 32
+      },
+      "prompt": "Either this interpretation is correct or the evidence requires a more convincing explanation.",
+      "promptZh": "不是這個詮釋正確，便是這些證據需要一個更有說服力的解釋。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If not this interpretation, then the evidence requires a more convincing explanation.",
+      "answerZh": "如果這個詮釋不正確，那麼這些證據便需要一個更有說服力的解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "If not this interpretation, then the evidence requires a more convincing explanation."
+    },
+    {
+      "id": "ss262-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 25,
+        "questionPage": 25,
+        "promptZhPage": 25,
+        "starterPage": 25,
+        "answerNumberPage": 32,
+        "answerPage": 32,
+        "answerZhPage": 32
+      },
+      "prompt": "For communities facing repeated flooding, the project should provide complete protection or at least a meaningful reduction in risk.",
+      "promptZh": "對於屢受水災影響的社區，項目應提供全面保護，最低限度也要大幅降低風險。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For communities facing repeated flooding, if not complete protection, then the project should provide a meaningful reduction in risk.",
+      "answerZh": "對於屢受水災影響的社區，如果項目不能提供全面保護，那麼最低限度也應大幅降低風險。",
+      "answerZhSource": "pdf",
+      "highlight": "For communities facing repeated flooding, if not complete protection, then the project should provide a meaningful reduction in risk."
+    },
+    {
+      "id": "ss262-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 25,
+        "questionPage": 25,
+        "promptZhPage": 25,
+        "starterPage": 25,
+        "answerNumberPage": 32,
+        "answerPage": 32,
+        "answerZhPage": 32
+      },
+      "prompt": "The people directly affected should have the strongest voice in the decision. Who else should have it?",
+      "promptZh": "直接受影響的人應在決定中擁有最大發言權。還有誰應該擁有？",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If not the people directly affected, then who should have the strongest voice in the decision?",
+      "answerZh": "如果不是直接受影響的人，那麼誰應該在決定中擁有最大發言權？",
+      "answerZhSource": "pdf",
+      "highlight": "If not the people directly affected, then who should have the strongest voice in the decision?"
+    },
+    {
+      "id": "ss262-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 25,
+        "questionPage": 25,
+        "promptZhPage": 25,
+        "starterPage": 25,
+        "answerNumberPage": 32,
+        "answerPage": 32,
+        "answerZhPage": 32
+      },
+      "prompt": "The review concluded that the incident showed either a failure of leadership or a serious weakness in communication.",
+      "promptZh": "檢討報告認為，這宗事件不是反映領導失誤，便是顯示溝通存在嚴重弱點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The review concluded that if not a failure of leadership, then the incident revealed a serious weakness in communication.",
+      "answerZh": "檢討報告認為，如果這宗事件不算是領導失誤，那麼至少也反映溝通存在嚴重弱點。",
+      "answerZhSource": "pdf",
+      "highlight": "The review concluded that if not a failure of leadership, then the incident revealed a serious weakness in communication."
+    },
+    {
+      "id": "ss262-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 25,
+        "questionPage": 25,
+        "promptZhPage": 25,
+        "starterPage": 25,
+        "answerNumberPage": 32,
+        "answerPage": 32,
+        "answerZhPage": 32
+      },
+      "prompt": "The risks should be discussed openly before the contract is signed. If they are not discussed then, when will they be discussed?",
+      "promptZh": "風險應在簽署合約前公開討論。如果屆時不討論，要到何時才討論？",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If not before the contract is signed, then when will the risks be discussed openly?",
+      "answerZh": "如果不在簽署合約前公開討論風險，那麼要到何時才討論？",
+      "answerZhSource": "pdf",
+      "highlight": "If not before the contract is signed, then when will the risks be discussed openly?"
+    },
+    {
+      "id": "ss262-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 25,
+        "questionPage": 25,
+        "promptZhPage": 25,
+        "starterPage": 26,
+        "answerNumberPage": 32,
+        "answerPage": 32,
+        "answerZhPage": 32
+      },
+      "prompt": "By the end of the debate, the audience understood that the group must either adopt this proposal or develop a fundamentally different approach.",
+      "promptZh": "辯論結束時，觀眾明白小組必須採納這項建議，否則便要制定一套截然不同的方法。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the end of the debate, the audience understood that if not this proposal, then a fundamentally different approach would be necessary.",
+      "answerZh": "辯論結束時，觀眾明白，如果不採納這項建議，那麼便需要一套截然不同的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "By the end of the debate, the audience understood that if not this proposal, then a fundamentally different approach would be necessary."
+    }
+  ]
+}

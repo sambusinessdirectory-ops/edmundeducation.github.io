@@ -1,0 +1,1311 @@
+{
+  "id": "ss248",
+  "order": 248,
+  "slug": "one-thing-another-action-source-247",
+  "title": "「It is one thing to X; it is another (thing) to Y」對比句",
+  "titleZh": "「It is one thing to X; it is another (thing) to Y」對比句",
+  "titleEn": "It is one thing to X; it is another (thing) to Y",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence Structure 247 - 「It is one thing to X; it is another (thing) to Y」對比句.pdf",
+    "pageCount": 32,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "exercisePages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "answerPages": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 247; it is assigned system ID ss248 because the source set contains two distinct PDFs labelled 201.",
+      "Source PDFs 247 and 248 are distinct files whose extracted lesson and exercise text is identical; each exact filename and physical page provenance is preserved as a separate system lesson."
+    ]
+  },
+  "formula": "It is one thing to + base verb X; it is another (thing) to + base verb Y",
+  "formulas": [
+    {
+      "id": "ss248-formula-01",
+      "labelEn": "Core",
+      "labelZh": "固定核心",
+      "formula": "It is one thing to + base verb X; it is another (thing) to + base verb Y"
+    },
+    {
+      "id": "ss248-formula-02",
+      "labelEn": "With but",
+      "labelZh": "配合 but",
+      "formula": "It is one thing to X, but it is another to Y"
+    },
+    {
+      "id": "ss248-formula-03",
+      "labelEn": "Emphatic contrast",
+      "labelZh": "加強對比",
+      "formula": "It is one thing to X; it is quite another to Y"
+    },
+    {
+      "id": "ss248-formula-04",
+      "labelEn": "With an actor",
+      "labelZh": "指出行動者",
+      "formula": "It is one thing for A to X; it is another for A or B to Y"
+    },
+    {
+      "id": "ss248-formula-05",
+      "labelEn": "Past",
+      "labelZh": "過去式",
+      "formula": "It was one thing to X; it was another to Y"
+    },
+    {
+      "id": "ss248-formula-06",
+      "labelEn": "Modal",
+      "labelZh": "情態形式",
+      "formula": "It may be one thing to X; it may be another to Y"
+    },
+    {
+      "id": "ss248-formula-07",
+      "labelEn": "Negative infinitive",
+      "labelZh": "否定不定詞",
+      "formula": "It is one thing not to X; it is another to Y"
+    }
+  ],
+  "example": "It is one thing to make a promise; it is another to keep it.",
+  "exampleZh": "作出承諾是一回事；信守承諾則是另一回事。",
+  "examples": [
+    {
+      "id": "ss248-example-01",
+      "en": "It is one thing to make a promise; it is another to keep it.",
+      "zh": "作出承諾是一回事；信守承諾則是另一回事。",
+      "highlight": "It is one thing to make a promise; it is another to keep it."
+    },
+    {
+      "id": "ss248-example-02",
+      "en": "It is one thing to appear calm; it is quite another to remain calm under pressure.",
+      "zh": "看起來冷靜是一回事；在壓力下保持冷靜則完全是另一回事。",
+      "highlight": "It is one thing to appear calm; it is quite another to remain calm under pressure."
+    },
+    {
+      "id": "ss248-example-03",
+      "en": "In business, it is one thing to attract customers; it is another to retain them.",
+      "zh": "在商業上，吸引客戶是一回事；挽留客戶則是另一回事。",
+      "highlight": "In business, it is one thing to attract customers; it is another to retain them."
+    }
+  ],
+  "meaning": {
+    "zh": "把兩項有關連、但不能視為相同的行動放在一起比較；Y 通常較實際、較困難或更需要努力。"
+  },
+  "rules": [
+    {
+      "id": "ss248-rule-01",
+      "zh": "固定核心只有兩個對比部分：It is one thing to X; it is another to Y；其他語境、人物、時態和加強詞都是可選延伸。",
+      "en": "The fixed core has two contrasted parts: It is one thing to X; it is another to Y. Context, actors, tense and intensifiers are optional extensions.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss248-rule-02",
+      "zh": "another 後的 thing 可以省略；another 在這裏表示另一回事、情況或挑戰，不是實物。",
+      "en": "Thing may be omitted after another. Here, another means another matter, situation or challenge rather than a physical object.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss248-rule-03",
+      "zh": "X 和 Y 都使用 to + 原形動詞，不使用 V-ing 作本課標準形式。",
+      "en": "Use to + base verb for both X and Y, not V-ing, in the standard target pattern.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss248-rule-04",
+      "zh": "兩個部分應保持平行，兩邊都使用相近的 to-infinitive 結構。",
+      "en": "Keep the two parts parallel by using comparable to-infinitive structures on both sides.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss248-rule-05",
+      "zh": "第二項行動通常更困難、更實際或更重要；兩項行動必須有清楚關係，不可完全無關。",
+      "en": "The second action is usually more difficult, practical or important. The two actions must have a clear relationship rather than being unrelated.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss248-rule-06",
+      "zh": "可用分號、comma + but 或句號連接；不可只用逗號連接兩個完整分句。",
+      "en": "Join the clauses with a semicolon, comma + but, or a full stop. Do not create a comma splice.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss248-rule-07",
+      "zh": "quite another 可加強兩者差別，但 quite 不是固定核心的一部分。",
+      "en": "Quite another strengthens the contrast but quite is optional rather than part of the core.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss248-rule-08",
+      "zh": "加入 for + person 時，須清楚指出每個動作由誰進行，不可令行動者含糊。",
+      "en": "When using for + person, identify clearly who performs each action.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss248-rule-09",
+      "zh": "時態或情態可變為 is、was、may be 或 would be，但兩邊通常須保持一致。",
+      "en": "Tense or modality may change to is, was, may be or would be, but the two sides should normally remain consistent.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss248-rule-10",
+      "zh": "固定句型可放在報述動詞、思想動詞或前置語之後，不必成為整個答案的第一部分。",
+      "en": "The target may occur after a reporting verb, thinking verb or introductory context rather than at the beginning of the whole answer.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss248-rule-11",
+      "zh": "否定不定詞使用 not to + 原形動詞。",
+      "en": "Use not to + base verb for a negative infinitive.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss248-rule-12",
+      "zh": "代名詞須有清楚指涉，並保持正確單複數，例如 a promise -> it、rules -> them。",
+      "en": "Pronouns must have clear antecedents and preserve number, such as a promise -> it and rules -> them.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss248-benefit-01",
+      "zh": "清楚比較說話與行動，指出說出某件事和真正做到並不相同。",
+      "en": "It clearly compares words with actions and shows that saying something differs from doing it.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss248-benefit-02",
+      "zh": "適合比較理論與實踐、知道與應用、計劃與執行。",
+      "en": "It clearly compares theory with practice, knowledge with application and planning with execution.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss248-benefit-03",
+      "zh": "不用反覆寫 easy 和 difficult，也能含蓄表達第二項更具挑戰。",
+      "en": "It avoids repeatedly using easy and difficult while still implying that the second action is more demanding.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss248-benefit-04",
+      "zh": "重複的 one thing ... another 結構形成清楚節奏，適合演講、辯論、意見文章、建議和警告。",
+      "en": "Its repeated one thing ... another pattern creates memorable rhythm for speeches, debates, opinion writing, advice and warnings.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss248-benefit-05",
+      "zh": "能把較長的解釋濃縮成一句清楚對比。",
+      "en": "It condenses a longer explanation into one concise contrast.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss248-benefit-06",
+      "zh": "可獨立成句，或放在報述、思想和前置語後，並配合不同時態及情態。",
+      "en": "It can occupy different sentence positions and combine with reporting, thinking, introductory, tense and modal frames.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 247; it is assigned system ID ss248 because the source set contains two distinct PDFs labelled 201.",
+    "Source PDFs 247 and 248 are distinct files whose extracted lesson and exercise text is identical; each exact filename and physical page provenance is preserved as a separate system lesson."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using It is one thing to X; it is another (thing) to Y.",
+      "Preserve all important information, including the people involved, tense, modality, objects and context.",
+      "Some answers begin with an introductory phrase or a reporting clause. Do not assume that every answer begins with It.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 It is one thing to X; it is another (thing) to Y 改寫句子。",
+      "答案必須保留所有重要資料，包括人物、時態、情態、受詞和語境。",
+      "部分答案會先使用前置語或引述句。不要假設每題答案都以 It 開始。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss248-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Making a promise and keeping it are two different matters.",
+      "promptZh": "作出承諾和信守承諾是兩回事。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is one thing to make a promise; it is another to keep it.",
+      "answerZh": "作出承諾是一回事；信守承諾則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "It is one thing to make a promise; it is another to keep it."
+    },
+    {
+      "id": "ss248-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "In practice, reading the rules is not the same as following them.",
+      "promptZh": "在實際情況中，閱讀規則和遵守規則並不相同。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In practice, it is one thing to read the rules, but it is another to follow them.",
+      "answerZh": "在實際情況中，閱讀規則是一回事，但遵守規則則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "In practice, it is one thing to read the rules, but it is another to follow them."
+    },
+    {
+      "id": "ss248-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "For a beginner, buying a guitar is very different from practising every day.",
+      "promptZh": "對初學者來說，購買結他和每天練習是很不同的事情。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For a beginner, it is one thing to buy a guitar; it is another thing to practise every day.",
+      "answerZh": "對初學者來說，購買結他是一回事；每天練習則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "For a beginner, it is one thing to buy a guitar; it is another thing to practise every day."
+    },
+    {
+      "id": "ss248-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "In a discussion, having an idea is different from explaining it clearly.",
+      "promptZh": "在討論中，想到一個主意和清楚解釋它是兩回事。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In a discussion, it is one thing to have an idea, but it is another to explain it clearly.",
+      "answerZh": "在討論中，想到一個主意是一回事，但清楚解釋它則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "In a discussion, it is one thing to have an idea, but it is another to explain it clearly."
+    },
+    {
+      "id": "ss248-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "At first, starting a diet may seem manageable, but continuing it for months is a separate matter.",
+      "promptZh": "起初，開始節食似乎可以應付，但持續數個月則是另一回事。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At first, it is one thing to start a diet; it is another to continue it for months.",
+      "answerZh": "起初，開始節食是一回事；持續數個月則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "At first, it is one thing to start a diet; it is another to continue it for months."
+    },
+    {
+      "id": "ss248-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "After a mistake, saying sorry is not the same as changing your behaviour.",
+      "promptZh": "犯錯後，道歉和改變自己的行為並不相同。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After a mistake, it is one thing to say sorry, but it is another to change your behaviour.",
+      "answerZh": "犯錯後，道歉是一回事，但改變自己的行為則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "After a mistake, it is one thing to say sorry, but it is another to change your behaviour."
+    },
+    {
+      "id": "ss248-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "In the kitchen, watching a cooking video is different from preparing the dish yourself.",
+      "promptZh": "在廚房裏，觀看烹飪影片和親自準備菜式是兩回事。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the kitchen, it is one thing to watch a cooking video; it is another thing to prepare the dish yourself.",
+      "answerZh": "在廚房裏，觀看烹飪影片是一回事；親自準備菜式則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "In the kitchen, it is one thing to watch a cooking video; it is another thing to prepare the dish yourself."
+    },
+    {
+      "id": "ss248-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 25,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "With money, saving a small amount is not the same as building an emergency fund.",
+      "promptZh": "在金錢管理方面，儲蓄一小筆錢和建立應急儲備並不相同。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With money, it is one thing to save a small amount; it is another to build an emergency fund.",
+      "answerZh": "在金錢管理方面，儲蓄一小筆錢是一回事；建立應急儲備則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "With money, it is one thing to save a small amount; it is another to build an emergency fund."
+    },
+    {
+      "id": "ss248-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "In language learning, learning new words is different from using them naturally.",
+      "promptZh": "在語言學習中，學習新詞和自然運用它們是兩回事。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In language learning, it is one thing to learn new words, but it is another to use them naturally.",
+      "answerZh": "在語言學習中，學習新詞是一回事，但自然運用它們則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "In language learning, it is one thing to learn new words, but it is another to use them naturally."
+    },
+    {
+      "id": "ss248-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "On a team, becoming a member is not the same as supporting your teammates consistently.",
+      "promptZh": "在團隊中，成為成員和持續支持隊友並不相同。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On a team, it is one thing to become a member; it is another to support your teammates consistently.",
+      "answerZh": "在團隊中，成為成員是一回事；持續支持隊友則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "On a team, it is one thing to become a member; it is another to support your teammates consistently."
+    },
+    {
+      "id": "ss248-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "For new drivers, passing the test and driving confidently in heavy traffic are very different challenges.",
+      "promptZh": "對新手司機來說，通過考試和在繁忙交通中自信駕駛是很不同的挑戰。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For new drivers, it is one thing to pass the test; it is another thing to drive confidently in heavy traffic.",
+      "answerZh": "對新手司機來說，通過考試是一回事；在繁忙交通中自信駕駛則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "For new drivers, it is one thing to pass the test; it is another thing to drive confidently in heavy traffic."
+    },
+    {
+      "id": "ss248-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "At school, understanding a formula does not mean that you can apply it to an unfamiliar problem.",
+      "promptZh": "在學校裏，理解公式並不代表你能把它應用於陌生的問題。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At school, it is one thing to understand a formula, but it is another to apply it to an unfamiliar problem.",
+      "answerZh": "在學校裏，理解公式是一回事，但把它應用於陌生的問題則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "At school, it is one thing to understand a formula, but it is another to apply it to an unfamiliar problem."
+    },
+    {
+      "id": "ss248-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "During training, practising the procedure felt very different from performing it under pressure.",
+      "promptZh": "在訓練期間，練習程序和在壓力下執行程序的感覺很不相同。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During training, it was one thing to practise the procedure; it was another to perform it under pressure.",
+      "answerZh": "在訓練期間，練習程序是一回事；在壓力下執行程序則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "During training, it was one thing to practise the procedure; it was another to perform it under pressure."
+    },
+    {
+      "id": "ss248-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "In a meeting, expressing an opinion and defending it with evidence are completely different matters.",
+      "promptZh": "在會議中，表達意見和以證據支持意見完全是兩回事。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In a meeting, it is one thing to express an opinion, but it is quite another to defend it with evidence.",
+      "answerZh": "在會議中，表達意見是一回事，但以證據支持意見則完全是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "In a meeting, it is one thing to express an opinion, but it is quite another to defend it with evidence."
+    },
+    {
+      "id": "ss248-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Recognising a problem does not necessarily involve accepting responsibility for it.",
+      "promptZh": "察覺問題並不一定等於願意為問題承擔責任。",
+      "promptZhSource": "pdf",
+      "starter": "Sometimes",
+      "answer": "Sometimes, it may be one thing to recognise a problem; it may be another to accept responsibility for it.",
+      "answerZh": "有時候，察覺問題可能是一回事；願意為問題承擔責任則可能是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "Sometimes, it may be one thing to recognise a problem; it may be another to accept responsibility for it."
+    },
+    {
+      "id": "ss248-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Within a family, parents may give advice, but teenagers must decide whether to act on it.",
+      "promptZh": "在家庭中，父母可以提出建議，但青少年必須決定是否依從。",
+      "promptZhSource": "pdf",
+      "starter": "Within",
+      "answer": "Within a family, it is one thing for parents to give advice; it is another for teenagers to act on it.",
+      "answerZh": "在家庭中，父母提出建議是一回事；青少年依從建議則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "Within a family, it is one thing for parents to give advice; it is another for teenagers to act on it."
+    },
+    {
+      "id": "ss248-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "In business, attracting customers is not the same as earning their long-term trust.",
+      "promptZh": "在商業上，吸引客戶和取得他們的長期信任並不相同。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In business, it is one thing to attract customers, but it is another to earn their long-term trust.",
+      "answerZh": "在商業上，吸引客戶是一回事，但取得他們的長期信任則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "In business, it is one thing to attract customers, but it is another to earn their long-term trust."
+    },
+    {
+      "id": "ss248-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Before a trip, planning a holiday and managing unexpected changes while travelling are separate tasks.",
+      "promptZh": "出發前規劃假期，和在旅途中處理突發變化，是兩項不同的事情。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before a trip, it is one thing to plan a holiday; it is another thing to manage unexpected changes while travelling.",
+      "answerZh": "出發前規劃假期是一回事；在旅途中處理突發變化則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "Before a trip, it is one thing to plan a holiday; it is another thing to manage unexpected changes while travelling."
+    },
+    {
+      "id": "ss248-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "During the first meeting, the group agreed on the goal, but deciding how to divide the work proved to be a separate matter.",
+      "promptZh": "在第一次會議中，小組就目標達成共識，但決定如何分配工作則是另一回事。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the first meeting, it was one thing to agree on the goal; it was another to decide how the work should be divided.",
+      "answerZh": "在第一次會議中，就目標達成共識是一回事；決定如何分配工作則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "During the first meeting, it was one thing to agree on the goal; it was another to decide how the work should be divided."
+    },
+    {
+      "id": "ss248-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "In theory, telling yourself to stay calm is different from actually doing so in an emergency.",
+      "promptZh": "在理論上，告訴自己保持冷靜和在緊急情況中真正做到是兩回事。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In theory, it is one thing to stay calm; in a real emergency, it is another to do so.",
+      "answerZh": "在理論上保持冷靜是一回事；在真正的緊急情況中做到則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "In theory, it is one thing to stay calm; in a real emergency, it is another to do so."
+    },
+    {
+      "id": "ss248-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The coach reminded the players that knowing the strategy and using it at the right moment were different matters.",
+      "promptZh": "教練提醒球員，知道策略和在適當時候運用策略是兩回事。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach reminded the players that it is one thing to know the strategy, but it is another to use it at the right moment.",
+      "answerZh": "教練提醒球員，知道策略是一回事，但在適當時候運用策略則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach reminded the players that it is one thing to know the strategy, but it is another to use it at the right moment."
+    },
+    {
+      "id": "ss248-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "Our teacher explained that memorising a speech is not the same as delivering it naturally.",
+      "promptZh": "老師解釋，背熟演辭和自然地發表演辭並不相同。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our teacher explained that it is one thing to memorise a speech, but it is another to deliver it naturally.",
+      "answerZh": "老師解釋，背熟演辭是一回事，但自然地發表演辭則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "Our teacher explained that it is one thing to memorise a speech, but it is another to deliver it naturally."
+    },
+    {
+      "id": "ss248-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "People often forget that asking for feedback is different from listening without becoming defensive.",
+      "promptZh": "人們經常忘記，要求別人提供意見和在不產生防衛心的情況下聆聽意見是兩回事。",
+      "promptZhSource": "pdf",
+      "starter": "People",
+      "answer": "People often forget that it is one thing to ask for feedback, but it is another to listen without becoming defensive.",
+      "answerZh": "人們經常忘記，要求別人提供意見是一回事，但在不產生防衛心的情況下聆聽意見則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "People often forget that it is one thing to ask for feedback, but it is another to listen without becoming defensive."
+    },
+    {
+      "id": "ss248-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "The manager realised that announcing a new policy and making sure every employee understood it were separate tasks.",
+      "promptZh": "經理察覺，宣布新政策和確保每名僱員都明白政策是兩項不同的工作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager realised that it was one thing to announce a new policy, but it was another to make sure every employee understood it.",
+      "answerZh": "經理察覺，宣布新政策是一回事，但確保每名僱員都明白政策則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager realised that it was one thing to announce a new policy, but it was another to make sure every employee understood it."
+    },
+    {
+      "id": "ss248-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "We should remember that identifying a mistake is not the same as correcting the system that caused it.",
+      "promptZh": "我們應該記住，找出錯誤和改正導致錯誤的制度並不相同。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should remember that it is one thing to identify a mistake, but it is another to correct the system that caused it.",
+      "answerZh": "我們應該記住，找出錯誤是一回事，但改正導致錯誤的制度則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "We should remember that it is one thing to identify a mistake, but it is another to correct the system that caused it."
+    },
+    {
+      "id": "ss248-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 20,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "The doctor pointed out that knowing what is healthy is different from changing a long-established habit.",
+      "promptZh": "醫生指出，知道甚麼有益健康和改變長久形成的習慣是兩回事。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As the doctor pointed out, it is one thing to know what is healthy; it is another to change a long-established habit.",
+      "answerZh": "正如醫生指出，知道甚麼有益健康是一回事；改變長久形成的習慣則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "As the doctor pointed out, it is one thing to know what is healthy; it is another to change a long-established habit."
+    },
+    {
+      "id": "ss248-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "The report shows that collecting data and interpreting it accurately are not the same task.",
+      "promptZh": "報告顯示，收集數據和準確解讀數據並不是同一項工作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report shows that it is one thing to collect data, but it is another to interpret it accurately.",
+      "answerZh": "報告顯示，收集數據是一回事，但準確解讀數據則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "The report shows that it is one thing to collect data, but it is another to interpret it accurately."
+    },
+    {
+      "id": "ss248-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 28,
+        "answerPage": 29,
+        "answerZhPage": 29
+      },
+      "prompt": "The committee discovered that approving the project and finding enough money for it were separate matters.",
+      "promptZh": "委員會發現，批准項目和為項目找到足夠資金是兩回事。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee discovered that it was one thing to approve the project, but it was another to find enough money for it.",
+      "answerZh": "委員會發現，批准項目是一回事，但為項目找到足夠資金則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee discovered that it was one thing to approve the project, but it was another to find enough money for it."
+    },
+    {
+      "id": "ss248-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 29,
+        "answerPage": 29,
+        "answerZhPage": 29
+      },
+      "prompt": "Experienced teachers know that explaining a topic is different from checking whether students truly understand it.",
+      "promptZh": "有經驗的教師知道，解釋課題和檢查學生是否真正理解是兩回事。",
+      "promptZhSource": "pdf",
+      "starter": "Experienced",
+      "answer": "Experienced teachers know that it is one thing to explain a topic, but it is another to check whether students truly understand it.",
+      "answerZh": "有經驗的教師知道，解釋課題是一回事，但檢查學生是否真正理解則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "Experienced teachers know that it is one thing to explain a topic, but it is another to check whether students truly understand it."
+    },
+    {
+      "id": "ss248-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 29,
+        "answerPage": 29,
+        "answerZhPage": 29
+      },
+      "prompt": "The interview made clear that appearing confident is not the same as remaining calm when challenged.",
+      "promptZh": "訪問清楚顯示，看起來自信和受到質疑時保持冷靜並不相同。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The interview made clear that it is one thing to appear confident, but it is another to remain calm when challenged.",
+      "answerZh": "訪問清楚顯示，看起來自信是一回事，但受到質疑時保持冷靜則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "The interview made clear that it is one thing to appear confident, but it is another to remain calm when challenged."
+    },
+    {
+      "id": "ss248-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 29,
+        "answerPage": 29,
+        "answerZhPage": 29
+      },
+      "prompt": "Cycling to work in pleasant weather is very different from doing so in heavy rain.",
+      "promptZh": "在天氣宜人時踏單車上班，和在大雨中這樣做，是很不同的經歷。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the weather is pleasant, it is one thing to cycle to work; when it is raining heavily, it is another to do so.",
+      "answerZh": "天氣宜人時踏單車上班是一回事；下大雨時這樣做則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "When the weather is pleasant, it is one thing to cycle to work; when it is raining heavily, it is another to do so."
+    },
+    {
+      "id": "ss248-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 29,
+        "answerPage": 29,
+        "answerZhPage": 29
+      },
+      "prompt": "Before the shop opened, designing an attractive website seemed manageable. After orders arrived, providing reliable service became a separate challenge.",
+      "promptZh": "商店開業前，設計一個吸引的網站似乎可以應付。訂單到來後，提供可靠服務則成為另一項挑戰。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before the shop opened, it was one thing to design an attractive website; after orders arrived, it was another to provide reliable service.",
+      "answerZh": "商店開業前，設計一個吸引的網站是一回事；訂單到來後提供可靠服務則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "Before the shop opened, it was one thing to design an attractive website; after orders arrived, it was another to provide reliable service."
+    },
+    {
+      "id": "ss248-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 29,
+        "answerPage": 29,
+        "answerZhPage": 29
+      },
+      "prompt": "Following simple instructions may be easy, while following several unclear steps may be very different.",
+      "promptZh": "遵從簡單指示可能很容易，但遵從數個不清楚的步驟則可能很不一樣。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the instructions are simple, it may be one thing to follow them; if several steps are unclear, it may be another.",
+      "answerZh": "如果指示簡單，遵從指示可能是一回事；如果數個步驟不清楚，情況則可能完全不同。",
+      "answerZhSource": "pdf",
+      "highlight": "If the instructions are simple, it may be one thing to follow them; if several steps are unclear, it may be another."
+    },
+    {
+      "id": "ss248-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 29,
+        "answerPage": 29,
+        "answerZhPage": 29
+      },
+      "prompt": "For a public speaker, preparing strong points and responding to an unexpected question are very different challenges.",
+      "promptZh": "對公開演講者來說，準備有力論點和回答突如其來的問題是很不同的挑戰。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For a public speaker, it is one thing to prepare strong points; it is quite another to respond to an unexpected question.",
+      "answerZh": "對公開演講者來說，準備有力論點是一回事；回答突如其來的問題則完全是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "For a public speaker, it is one thing to prepare strong points; it is quite another to respond to an unexpected question."
+    },
+    {
+      "id": "ss248-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 30,
+        "answerPage": 30,
+        "answerZhPage": 30
+      },
+      "prompt": "In customer service, solving a problem quickly is not the same as making the customer feel respected.",
+      "promptZh": "在客戶服務中，迅速解決問題和讓客戶感到受尊重並不相同。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In customer service, it is one thing to solve a problem quickly; it is another to make the customer feel respected.",
+      "answerZh": "在客戶服務中，迅速解決問題是一回事；讓客戶感到受尊重則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "In customer service, it is one thing to solve a problem quickly; it is another to make the customer feel respected."
+    },
+    {
+      "id": "ss248-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 22,
+        "answerNumberPage": 30,
+        "answerPage": 30,
+        "answerZhPage": 30
+      },
+      "prompt": "While learning online, watching every lesson is different from practising what has been taught.",
+      "promptZh": "網上學習時，觀看每一課和練習所學內容是兩回事。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While learning online, it is one thing to watch every lesson; it is another thing to practise what has been taught.",
+      "answerZh": "網上學習時，觀看每一課是一回事；練習所學內容則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "While learning online, it is one thing to watch every lesson; it is another thing to practise what has been taught."
+    },
+    {
+      "id": "ss248-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 22,
+        "questionPage": 22,
+        "promptZhPage": 22,
+        "starterPage": 22,
+        "answerNumberPage": 30,
+        "answerPage": 30,
+        "answerZhPage": 30
+      },
+      "prompt": "After the accident, the driver admitted fault, but accepting the financial consequences was a separate matter.",
+      "promptZh": "意外發生後，司機承認責任，但承擔經濟後果則是另一回事。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the accident, it was one thing for the driver to admit fault; it was another for him to accept the financial consequences.",
+      "answerZh": "意外發生後，司機承認責任是一回事；承擔經濟後果則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "After the accident, it was one thing for the driver to admit fault; it was another for him to accept the financial consequences."
+    },
+    {
+      "id": "ss248-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 22,
+        "questionPage": 22,
+        "promptZhPage": 22,
+        "starterPage": 22,
+        "answerNumberPage": 30,
+        "answerPage": 30,
+        "answerZhPage": 30
+      },
+      "prompt": "At the beginning of a project, creating an ambitious timetable is different from revising it honestly when delays occur.",
+      "promptZh": "在項目開始時，制訂進取的時間表和在出現延誤時如實修訂時間表是兩回事。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At the beginning of a project, it is one thing to create an ambitious timetable; it is another to revise it honestly when delays occur.",
+      "answerZh": "在項目開始時，制訂進取的時間表是一回事；在出現延誤時如實修訂時間表則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "At the beginning of a project, it is one thing to create an ambitious timetable; it is another to revise it honestly when delays occur."
+    },
+    {
+      "id": "ss248-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 22,
+        "questionPage": 22,
+        "promptZhPage": 22,
+        "starterPage": 22,
+        "answerNumberPage": 30,
+        "answerPage": 30,
+        "answerZhPage": 30
+      },
+      "prompt": "In an argument, not raising your voice does not mean that you understand the other person’s point of view.",
+      "promptZh": "在爭論中，不提高聲線並不代表你理解對方的觀點。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In an argument, it is one thing not to raise your voice; it is another to understand the other person’s point of view.",
+      "answerZh": "在爭論中，不提高聲線是一回事；理解對方的觀點則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "In an argument, it is one thing not to raise your voice; it is another to understand the other person’s point of view."
+    },
+    {
+      "id": "ss248-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 22,
+        "questionPage": 22,
+        "promptZhPage": 22,
+        "starterPage": 22,
+        "answerNumberPage": 30,
+        "answerPage": 30,
+        "answerZhPage": 30
+      },
+      "prompt": "For a leader, asking others to work harder is not the same as setting the same standard through personal example.",
+      "promptZh": "對領袖來說，要求別人更加努力和以身作則地訂立相同標準並不相同。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For a leader, it is one thing to ask others to work harder; it is another to set the same standard through personal example.",
+      "answerZh": "對領袖來說，要求別人更加努力是一回事；以身作則地訂立相同標準則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "For a leader, it is one thing to ask others to work harder; it is another to set the same standard through personal example."
+    },
+    {
+      "id": "ss248-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 23,
+        "questionPage": 23,
+        "promptZhPage": 23,
+        "starterPage": 23,
+        "answerNumberPage": 30,
+        "answerPage": 31,
+        "answerZhPage": 31
+      },
+      "prompt": "The director warned that reducing costs for one month would be very different from maintaining quality after repeated cuts.",
+      "promptZh": "總監警告，削減一個月的成本，和在多次削減開支後維持質素，會是很不同的挑戰。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The director warned that it would be one thing to reduce costs for one month, but it would be another to maintain quality after repeated cuts.",
+      "answerZh": "總監警告，削減一個月的成本會是一回事，但在多次削減開支後維持質素則會是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "The director warned that it would be one thing to reduce costs for one month, but it would be another to maintain quality after repeated cuts."
+    },
+    {
+      "id": "ss248-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 23,
+        "questionPage": 23,
+        "promptZhPage": 23,
+        "starterPage": 23,
+        "answerNumberPage": 31,
+        "answerPage": 31,
+        "answerZhPage": 31
+      },
+      "prompt": "As the campaign developed, the organisers discovered that gaining public attention was different from turning that attention into lasting support.",
+      "promptZh": "隨着活動發展，主辦者發現，獲得公眾注意和把注意轉化為持久支持是兩回事。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As the campaign developed, it became clear that it was one thing to gain public attention, but it was another to turn that attention into lasting support.",
+      "answerZh": "隨着活動發展，情況逐漸清楚：獲得公眾注意是一回事，但把注意轉化為持久支持則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "As the campaign developed, it became clear that it was one thing to gain public attention, but it was another to turn that attention into lasting support."
+    },
+    {
+      "id": "ss248-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 23,
+        "questionPage": 23,
+        "promptZhPage": 23,
+        "starterPage": 23,
+        "answerNumberPage": 31,
+        "answerPage": 31,
+        "answerZhPage": 31
+      },
+      "prompt": "Offering equal opportunities on paper is different from removing the practical barriers that prevent people from using them.",
+      "promptZh": "在文件上提供平等機會，和消除妨礙人們使用這些機會的實際障礙，是兩回事。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On paper, it is one thing to offer equal opportunities; in practice, it is another to remove the barriers that prevent people from using them.",
+      "answerZh": "在文件上提供平等機會是一回事；在實際情況中消除妨礙人們使用這些機會的障礙則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "On paper, it is one thing to offer equal opportunities; in practice, it is another to remove the barriers that prevent people from using them."
+    },
+    {
+      "id": "ss248-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 23,
+        "questionPage": 23,
+        "promptZhPage": 23,
+        "starterPage": 23,
+        "answerNumberPage": 31,
+        "answerPage": 31,
+        "answerZhPage": 31
+      },
+      "prompt": "The research team understood that producing a promising result and reproducing it under different conditions were completely different achievements.",
+      "promptZh": "研究團隊明白，取得有希望的結果和在不同條件下重現該結果完全是兩回事。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research team understood that it was one thing to produce a promising result, but it was quite another to reproduce it under different conditions.",
+      "answerZh": "研究團隊明白，取得有希望的結果是一回事，但在不同條件下重現該結果則完全是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "The research team understood that it was one thing to produce a promising result, but it was quite another to reproduce it under different conditions."
+    },
+    {
+      "id": "ss248-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 23,
+        "questionPage": 23,
+        "promptZhPage": 23,
+        "starterPage": 23,
+        "answerNumberPage": 31,
+        "answerPage": 31,
+        "answerZhPage": 31
+      },
+      "prompt": "In international negotiations, agreeing on general principles is not the same as settling the difficult details.",
+      "promptZh": "在國際談判中，就一般原則達成共識和解決棘手細節並不相同。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In international negotiations, it is one thing for both sides to agree on general principles; it is another for them to settle the difficult details.",
+      "answerZh": "在國際談判中，雙方就一般原則達成共識是一回事；解決棘手細節則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "In international negotiations, it is one thing for both sides to agree on general principles; it is another for them to settle the difficult details."
+    },
+    {
+      "id": "ss248-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 23,
+        "questionPage": 24,
+        "promptZhPage": 24,
+        "starterPage": 24,
+        "answerNumberPage": 31,
+        "answerPage": 31,
+        "answerZhPage": 31
+      },
+      "prompt": "A responsible organisation knows that not breaking the law is different from acting fairly when the law provides no clear answer.",
+      "promptZh": "負責任的機構明白，不違反法律和在法律沒有清楚答案時公平行事是兩回事。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A responsible organisation recognises that it is one thing not to break the law, but it is another to act fairly when the law provides no clear answer.",
+      "answerZh": "負責任的機構明白，不違反法律是一回事，但在法律沒有清楚答案時公平行事則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "A responsible organisation recognises that it is one thing not to break the law, but it is another to act fairly when the law provides no clear answer."
+    },
+    {
+      "id": "ss248-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 24,
+        "questionPage": 24,
+        "promptZhPage": 24,
+        "starterPage": 24,
+        "answerNumberPage": 31,
+        "answerPage": 31,
+        "answerZhPage": 32
+      },
+      "prompt": "The crisis taught the hospital that having an emergency plan and carrying it out when staff and equipment were under pressure were very different matters.",
+      "promptZh": "這場危機令醫院明白，擁有緊急應變計劃和在人手及設備受壓時執行計劃是兩回事。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The crisis taught the hospital that it was one thing to have an emergency plan, but it was another thing to carry it out when staff and equipment were under pressure.",
+      "answerZh": "這場危機令醫院明白，擁有緊急應變計劃是一回事，但在人手及設備受壓時執行計劃則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "The crisis taught the hospital that it was one thing to have an emergency plan, but it was another thing to carry it out when staff and equipment were under pressure."
+    },
+    {
+      "id": "ss248-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 24,
+        "questionPage": 24,
+        "promptZhPage": 24,
+        "starterPage": 24,
+        "answerNumberPage": 32,
+        "answerPage": 32,
+        "answerZhPage": 32
+      },
+      "prompt": "For anyone managing a large team, communicating a decision is different from ensuring that every department interprets it in the same way.",
+      "promptZh": "對管理大型團隊的人來說，傳達決定和確保每個部門以相同方式理解決定是兩回事。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For anyone managing a large team, it is one thing to communicate a decision; it is another to ensure that different departments interpret it in the same way.",
+      "answerZh": "對管理大型團隊的人來說，傳達決定是一回事；確保不同部門以相同方式理解決定則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "For anyone managing a large team, it is one thing to communicate a decision; it is another to ensure that different departments interpret it in the same way."
+    },
+    {
+      "id": "ss248-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 24,
+        "questionPage": 24,
+        "promptZhPage": 24,
+        "starterPage": 24,
+        "answerNumberPage": 32,
+        "answerPage": 32,
+        "answerZhPage": 32
+      },
+      "prompt": "History repeatedly shows that winning power is not the same as using it without silencing criticism or weakening public trust.",
+      "promptZh": "歷史一再顯示，取得權力和在不壓制批評或削弱公眾信任的情況下運用權力並不相同。",
+      "promptZhSource": "pdf",
+      "starter": "History",
+      "answer": "History repeatedly shows that it is one thing to win power; it is another to use it without silencing criticism or weakening public trust.",
+      "answerZh": "歷史一再顯示，取得權力是一回事；在不壓制批評或削弱公眾信任的情況下運用權力則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "History repeatedly shows that it is one thing to win power; it is another to use it without silencing criticism or weakening public trust."
+    },
+    {
+      "id": "ss248-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 24,
+        "questionPage": 24,
+        "promptZhPage": 24,
+        "starterPage": 24,
+        "answerNumberPage": 32,
+        "answerPage": 32,
+        "answerZhPage": 32
+      },
+      "prompt": "By the end of the investigation, everyone understood that suspecting what had happened and proving it with reliable evidence were separate matters.",
+      "promptZh": "調查結束時，每個人都明白，懷疑發生了甚麼事和以可靠證據加以證明是兩回事。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the end of the investigation, everyone understood that it was one thing to suspect what had happened, but it was another to prove it with reliable evidence.",
+      "answerZh": "調查結束時，每個人都明白，懷疑發生了甚麼事是一回事，但以可靠證據加以證明則是另一回事。",
+      "answerZhSource": "pdf",
+      "highlight": "By the end of the investigation, everyone understood that it was one thing to suspect what had happened, but it was another to prove it with reliable evidence."
+    }
+  ]
+}

@@ -4,9 +4,9 @@ import { readFile, writeFile } from "node:fs/promises";
 
 const root = new URL("../", import.meta.url);
 const lessonDirectory = new URL("sentence-structure-lessons/", import.meta.url);
-const outputUrl = new URL("sentence-structure-lessons-5-218.js", root);
+const outputUrl = new URL("sentence-structure-lessons-5-275.js", root);
 const FIRST_LESSON = 5;
-const LAST_LESSON = 218;
+const LAST_LESSON = 275;
 const QUESTIONS_PER_LESSON = 50;
 const REQUIRED_QUESTION_FIELDS = [
   "id",
@@ -54,6 +54,11 @@ function occurrenceCount(text, fragment) {
   const source = String(text).toLocaleLowerCase();
   const target = String(fragment).toLocaleLowerCase();
   return target ? source.split(target).length - 1 : 0;
+}
+
+function answerStartsWithStarter(answer, starter) {
+  const source = normalText(answer).replace(/^[“”‘’"']+/u, "");
+  return source.toLocaleLowerCase().startsWith(normalText(starter).toLocaleLowerCase());
 }
 
 function validateBilingualItems(lesson, field, { requireProvenance = false } = {}) {
@@ -150,9 +155,19 @@ function validateLesson(lesson, number) {
       requireCondition(normalText(question?.[field]), `${expectedId}: ${field} is missing`);
     }
     requireCondition(
-      question.answer.toLocaleLowerCase().startsWith(question.starter.toLocaleLowerCase()),
+      answerStartsWithStarter(question.answer, question.starter),
       `${expectedId}: starter does not prefix answer`
     );
+    if (/^[“”‘’"']/u.test(normalText(question.answer))) {
+      requireCondition(
+        Array.isArray(question.acceptedAnswers)
+          && question.acceptedAnswers.some((answer) => (
+            answerStartsWithStarter(answer, question.starter)
+              && !/[“”‘’"']/u.test(normalText(answer))
+          )),
+        `${expectedId}: quoted answer needs a complete quote-free acceptedAnswers variant`
+      );
+    }
     requireCondition(
       occurrenceCount(question.answer, question.highlight) === 1,
       `${expectedId}: highlight must occur exactly once`
@@ -213,7 +228,7 @@ function validateLesson(lesson, number) {
           );
         }
         requireCondition(
-          part.answer.toLocaleLowerCase().startsWith(part.starter.toLocaleLowerCase()),
+          answerStartsWithStarter(part.answer, part.starter),
           `${expectedId}: answerParts[${partIndex}] starter does not prefix answer`
         );
         for (const field of ["starterPage", "answerPage", "answerZhPage"]) {
@@ -277,7 +292,7 @@ for (let number = FIRST_LESSON; number <= LAST_LESSON; number += 1) {
   lessons.push(validateLesson(lesson, number));
 }
 
-const output = `// Generated from tools/sentence-structure-lessons/ss05.json through ss218.json.\n`
+const output = `// Generated from tools/sentence-structure-lessons/ss05.json through ss275.json.\n`
   + `// Run tools/build-sentence-structure-expansion.mjs after editing an imported lesson.\n`
   + `(function () {\n`
   + `  "use strict";\n`

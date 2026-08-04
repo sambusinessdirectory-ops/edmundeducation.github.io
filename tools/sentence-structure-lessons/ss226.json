@@ -1,0 +1,1229 @@
+{
+  "id": "ss226",
+  "order": 226,
+  "slug": "not-until-then-inversion",
+  "title": "「Not until then + 倒裝句」表達「直到那時才……」",
+  "titleZh": "「Not until then + 倒裝句」表達「直到那時才……」",
+  "titleEn": "Using “not until then” with inversion",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 225 -「Not until then + 倒裝句」表達「直到那時才……」.pdf",
+    "pageCount": 23,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 225; it is assigned system ID ss226 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "Previous event + but not until then + auxiliary + subject + main verb",
+  "formulas": [
+    {
+      "id": "ss226-formula-01",
+      "labelEn": "Past simple",
+      "labelZh": "一般過去式",
+      "formula": "Previous event + but not until then did + subject + base verb"
+    },
+    {
+      "id": "ss226-formula-02",
+      "labelEn": "The verb be",
+      "labelZh": "Be 動詞",
+      "formula": "Previous event + but not until then was / were + subject + complement"
+    },
+    {
+      "id": "ss226-formula-03",
+      "labelEn": "Modal verb",
+      "labelZh": "情態動詞",
+      "formula": "Previous event + but not until then could + subject + base verb"
+    }
+  ],
+  "example": "I had heard the story before, but not until then did I understand its meaning.",
+  "exampleZh": "我之前聽過這個故事，但直到那時我才明白它的意義。",
+  "examples": [
+    {
+      "id": "ss226-example-01",
+      "en": "I had heard the story before, but not until then did I understand its meaning.",
+      "zh": "我之前聽過這個故事，但直到那時我才明白它的意義。",
+      "highlight": "I had heard the story before, but not until then did I understand its meaning."
+    }
+  ],
+  "meaning": {
+    "zh": "這個句型表示某件事情在特定時刻之前一直沒有發生，直到前述事件發生後，情況才改變。"
+  },
+  "rules": [
+    {
+      "id": "ss226-rule-01",
+      "zh": "後面要使用倒裝語序 普通語序： I understood the rule. 倒裝語序： Not until then did I understand the rule. 助動詞 did 要放在主語 I 前面。",
+      "en": "Use inversion after not until then by placing the auxiliary before the subject: “Not until then did I understand the rule.”",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss226-rule-02",
+      "zh": "一般過去式要使用 did + 主語 + 原形動詞 正確： Not until then did I understand the rule. 錯誤： Not until then I understood the rule. 錯誤： Not until then did I understood the rule. did 已經表示過去時間，因此後面的動詞必須使用原形： did I understand 不是： did I understood",
+      "en": "For the past simple, use did + subject + base verb. Because did already marks past time, write did I understand, not did I understood.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss226-rule-03",
+      "zh": "使用 be 時，不需要加入 did 普通語序： Sara was calm. 倒裝語序： Not until then was Sara calm. 普通語序： The rooms were ready. 倒裝語序： Not until then were the rooms ready.",
+      "en": "With the verb be, invert was or were directly and do not add did: “Not until then was Sara calm.”",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss226-rule-04",
+      "zh": "使用 could 等情態動詞時，把情態動詞放在主語前面 普通語序： We could see the town. 倒裝語序： Not until then could we see the town. could 後面的動詞使用原形： could we see",
+      "en": "With a modal such as could, place the modal before the subject and use the base verb after it.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss226-rule-05",
+      "zh": "必須清楚指向前面的一件事情或一個時刻 清楚： The teacher explained the rule again, but not until then did I understand it. then 指的是「老師再次解釋規則的時候」。 不清楚： Not until then did I understand it. 如果前文沒有說明發生了甚麼，讀者便不知道 then 指哪個時刻。",
+      "en": "Then must refer clearly to an event or moment mentioned earlier; without that context, the reader cannot know which time then means.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss226-rule-06",
+      "zh": "只有 Not until then 後面的子句需要倒裝 正確： The rain stopped, but not until then did we leave the house. 第一部分： The rain stopped. 使用普通語序。 第二部分： not until then did we leave 使用倒裝語序。",
+      "en": "Invert only the clause after not until then. The preceding event remains in normal word order.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss226-rule-07",
+      "zh": "這個句型通常描述真正的時間轉變 它不只是把兩件無關的事情放在一起。 自然： The lights came back on, but not until then could I see the number. 燈亮起後，「看見號碼」才變得可能。 不自然： The lights came back on, but not until then did Ben buy some bread. 兩件事情之間沒有清楚的時間或意義關係。",
+      "en": "Use the structure for a genuine turning point in time, not to connect two unrelated events.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss226-benefit-01",
+      "zh": "這個句型能清楚指出情況在哪一刻出現改變。 The doctor explained the results, but not until then was Sara calm. 讀者會明白，莎拉在醫生解釋結果之前一直未能平靜下來。",
+      "en": "It clearly shows a turning point and tells the reader exactly when a situation changed.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss226-benefit-02",
+      "zh": "第二句把 Not until then 放在較重要的位置，因此更能強調「在此之前一直不明白」。",
+      "en": "It gives important information more emphasis by foregrounding the fact that something had not happened before that moment.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss226-benefit-03",
+      "zh": "第一部分說明先發生的事情，第二部分說明其後才出現的結果，讓讀者更容易掌握事情的先後次 序。",
+      "en": "It makes the order of events easier to follow: the first part gives the earlier event, and the second gives what changed afterwards.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss226-benefit-04",
+      "zh": "你可以用這個句型描述發現真相、突然明白、情緒轉變、問題變得清楚，或某件事情終於變得可 行。",
+      "en": "It is useful in stories for discoveries, sudden understanding, changes in feeling, newly clear problems and actions that finally become possible.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss226-benefit-05",
+      "zh": "這個句型提供另一種組織句子的方法，避免不斷重複使用相同的 until 句式。",
+      "en": "It gives you another way to organise a sentence instead of repeatedly using an ordinary did not ... until ... pattern.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss226-benefit-06",
+      "zh": "這個句型適合用於反思文章，說明某段經歷如何令你產生新的理解。 I had seen the problem many times, but not until then did I understand its cause. （我以前曾多次看見這個問題，但直到那時我才明白它的成因。）",
+      "en": "It can make reflective writing more effective when explaining how an experience changed your understanding.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 225; it is assigned system ID ss226 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt as one sentence using but not until then and inversion.",
+      "Preserve the original meaning and tense and follow the supplied first word."
+    ],
+    "zh": [
+      "使用 but not until then 和倒裝語序，把每組內容改寫成一句句子。",
+      "保留原句的意思和時態，並按照已提供的第一個字作答。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss226-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I did not understand the rule until the teacher explained it again.",
+      "promptZh": "直到老師再次解釋這條規則，我才明白。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher explained the rule again, but not until then did I understand it.",
+      "answerZh": "老師再次解釋這條規則，但直到那時我才明白。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher explained the rule again, but not until then did I understand it."
+    },
+    {
+      "id": "ss226-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It was only after Mia read the sign beside the lift that she found the right room.",
+      "promptZh": "米婭看過升降機旁的指示牌後，才找到正確的房間。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia read the sign beside the lift, but not until then did she find the right room.",
+      "answerZh": "米婭閱讀升降機旁的指示牌，但直到那時她才找到正確的房間。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia read the sign beside the lift, but not until then did she find the right room."
+    },
+    {
+      "id": "ss226-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We did not leave the house until the rain stopped.",
+      "promptZh": "直到雨停，我們才離開家。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rain stopped, but not until then did we leave the house.",
+      "answerZh": "雨停了，但直到那時我們才離開家。",
+      "answerZhSource": "pdf",
+      "highlight": "The rain stopped, but not until then did we leave the house."
+    },
+    {
+      "id": "ss226-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Ben realised that the soup was too salty only after he tasted it.",
+      "promptZh": "本品嘗過湯後，才發現湯太鹹。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben tasted the soup, but not until then did he realise that it was too salty.",
+      "answerZh": "本品嘗了湯，但直到那時他才發現湯太鹹。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben tasted the soup, but not until then did he realise that it was too salty."
+    },
+    {
+      "id": "ss226-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "No one relaxed until the bus finally arrived.",
+      "promptZh": "直到巴士終於到達，大家才放鬆下來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bus finally arrived, but not until then did everyone relax.",
+      "answerZh": "巴士終於到達，但直到那時大家才放鬆下來。",
+      "answerZhSource": "pdf",
+      "highlight": "The bus finally arrived, but not until then did everyone relax."
+    },
+    {
+      "id": "ss226-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I learned that the meeting had been cancelled only when I checked my email.",
+      "promptZh": "我查看電郵後，才知道會議已被取消。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I checked my email, but not until then did I learn that the meeting had been cancelled.",
+      "answerZh": "我查看電郵，但直到那時才知道會議已被取消。",
+      "answerZhSource": "pdf",
+      "highlight": "I checked my email, but not until then did I learn that the meeting had been cancelled."
+    },
+    {
+      "id": "ss226-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The patient did not feel safe until the nurse smiled and said everything was fine.",
+      "promptZh": "直到護士微笑並表示一切正常，病人才感到安心。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse smiled and said everything was fine, but not until then did the patient feel safe.",
+      "answerZh": "護士微笑並表示一切正常，但直到那時病人才感到安心。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse smiled and said everything was fine, but not until then did the patient feel safe."
+    },
+    {
+      "id": "ss226-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The room remained dark until Mum opened the curtains.",
+      "promptZh": "直到媽媽拉開窗簾，房間才變得明亮。",
+      "promptZhSource": "pdf",
+      "starter": "Mum",
+      "answer": "Mum opened the curtains, but not until then did the room become bright.",
+      "answerZh": "媽媽拉開窗簾，但直到那時房間才變得明亮。",
+      "answerZhSource": "pdf",
+      "highlight": "Mum opened the curtains, but not until then did the room become bright."
+    },
+    {
+      "id": "ss226-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We could not see the whole town until we reached the top of the hill.",
+      "promptZh": "直到我們到達山頂，才可以看到整個城鎮。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We reached the top of the hill, but not until then could we see the whole town.",
+      "answerZh": "我們到達山頂，但直到那時才可以看到整個城鎮。",
+      "answerZhSource": "pdf",
+      "highlight": "We reached the top of the hill, but not until then could we see the whole town."
+    },
+    {
+      "id": "ss226-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Lucy finally understood the new schedule after she spoke to the manager.",
+      "promptZh": "露西與經理交談後，才終於明白新的時間表。",
+      "promptZhSource": "pdf",
+      "starter": "Lucy",
+      "answer": "Lucy spoke to the manager, but not until then did she understand the new schedule.",
+      "answerZh": "露西與經理交談，但直到那時她才明白新的時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "Lucy spoke to the manager, but not until then did she understand the new schedule."
+    },
+    {
+      "id": "ss226-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I could not make the call until I charged my phone.",
+      "promptZh": "直到我為手機充電後，才可以打電話。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I charged my phone, but not until then could I make the call.",
+      "answerZh": "我為手機充電，但直到那時才可以打電話。",
+      "answerZhSource": "pdf",
+      "highlight": "I charged my phone, but not until then could I make the call."
+    },
+    {
+      "id": "ss226-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The children were unable to enter until the caretaker opened the door.",
+      "promptZh": "直到管理員打開門，孩子們才可以進入。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The caretaker opened the door, but not until then could the children enter.",
+      "answerZh": "管理員打開門，但直到那時孩子們才可以進入。",
+      "answerZhSource": "pdf",
+      "highlight": "The caretaker opened the door, but not until then could the children enter."
+    },
+    {
+      "id": "ss226-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Before the lights came back on, I could not see the number on the wall.",
+      "promptZh": "在燈重新亮起之前，我看不到牆上的號碼。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lights came back on, but not until then could I see the number on the wall.",
+      "answerZh": "燈重新亮起，但直到那時我才可以看到牆上的號碼。",
+      "answerZhSource": "pdf",
+      "highlight": "The lights came back on, but not until then could I see the number on the wall."
+    },
+    {
+      "id": "ss226-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Sara became calm only after the doctor explained the results.",
+      "promptZh": "醫生解釋結果後，莎拉才平靜下來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor explained the results, but not until then was Sara calm.",
+      "answerZh": "醫生解釋結果，但直到那時莎拉才平靜下來。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor explained the results, but not until then was Sara calm."
+    },
+    {
+      "id": "ss226-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We did not believe that our team could succeed until it won its first match.",
+      "promptZh": "直到我們的球隊勝出第一場比賽，我們才相信自己可以成功。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our team won its first match, but not until then did we believe we could succeed.",
+      "answerZh": "我們的球隊勝出第一場比賽，但直到那時我們才相信自己可以成功。",
+      "answerZhSource": "pdf",
+      "highlight": "Our team won its first match, but not until then did we believe we could succeed."
+    },
+    {
+      "id": "ss226-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The route did not make sense to us until Maya turned the map the right way up.",
+      "promptZh": "直到瑪雅把地圖轉到正確方向，我們才看得懂路線。",
+      "promptZhSource": "pdf",
+      "starter": "Maya",
+      "answer": "Maya turned the map the right way up, but not until then did the route make sense to us.",
+      "answerZh": "瑪雅把地圖轉到正確方向，但直到那時我們才看得懂路線。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya turned the map the right way up, but not until then did the route make sense to us."
+    },
+    {
+      "id": "ss226-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We waited for Dad to return from work before beginning dinner.",
+      "promptZh": "我們等到爸爸下班回家後才開始吃晚飯。",
+      "promptZhSource": "pdf",
+      "starter": "Dad",
+      "answer": "Dad returned from work, but not until then did dinner begin.",
+      "answerZh": "爸爸下班回家，但直到那時我們才開始吃晚飯。",
+      "answerZhSource": "pdf",
+      "highlight": "Dad returned from work, but not until then did dinner begin."
+    },
+    {
+      "id": "ss226-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I made my choice only after the shop assistant showed me the size chart.",
+      "promptZh": "店員向我展示尺碼表後，我才作出選擇。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop assistant showed me the size chart, but not until then did I choose a jacket.",
+      "answerZh": "店員向我展示尺碼表，但直到那時我才選擇了一件外套。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop assistant showed me the size chart, but not until then did I choose a jacket."
+    },
+    {
+      "id": "ss226-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The second alarm woke Leo. Before that, he was still asleep.",
+      "promptZh": "第二次鬧鐘聲把里奧吵醒。在此之前，他仍然在睡覺。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The alarm rang for the second time, but not until then did Leo wake up.",
+      "answerZh": "鬧鐘第二次響起，但直到那時里奧才醒來。",
+      "answerZhSource": "pdf",
+      "highlight": "The alarm rang for the second time, but not until then did Leo wake up."
+    },
+    {
+      "id": "ss226-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Ms Lee read the full report and noticed the mistake only at that point.",
+      "promptZh": "李女士閱讀完整份報告後，才在那一刻發現錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "Ms",
+      "answer": "Ms Lee read the full report, but not until then did she notice the mistake.",
+      "answerZh": "李女士閱讀完整份報告，但直到那時她才發現錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Ms Lee read the full report, but not until then did she notice the mistake."
+    },
+    {
+      "id": "ss226-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The students could not answer the question until the teacher gave a simple example.",
+      "promptZh": "直到老師提供一個簡單例子，學生才可以回答問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher gave a simple example, but not until then could the students answer the question.",
+      "answerZh": "老師提供一個簡單例子，但直到那時學生才可以回答問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher gave a simple example, but not until then could the students answer the question."
+    },
+    {
+      "id": "ss226-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We saw the broken tile only after our neighbour pointed to the roof.",
+      "promptZh": "鄰居指向屋頂後，我們才看到破裂的瓦片。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our neighbour pointed to the roof, but not until then did we see the broken tile.",
+      "answerZh": "鄰居指向屋頂，但直到那時我們才看到破裂的瓦片。",
+      "answerZhSource": "pdf",
+      "highlight": "Our neighbour pointed to the roof, but not until then did we see the broken tile."
+    },
+    {
+      "id": "ss226-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The mother could not hear the doctor until her child stopped crying.",
+      "promptZh": "直到孩子停止哭泣，母親才可以聽到醫生說話。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The child stopped crying, but not until then could his mother hear the doctor.",
+      "answerZh": "孩子停止哭泣，但直到那時他的母親才可以聽到醫生說話。",
+      "answerZhSource": "pdf",
+      "highlight": "The child stopped crying, but not until then could his mother hear the doctor."
+    },
+    {
+      "id": "ss226-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Amir heard the strange noise only when he started the engine.",
+      "promptZh": "阿米爾啟動引擎後，才聽到奇怪的聲音。",
+      "promptZhSource": "pdf",
+      "starter": "Amir",
+      "answer": "Amir started the engine, but not until then did he hear the strange noise.",
+      "answerZh": "阿米爾啟動引擎，但直到那時他才聽到奇怪的聲音。",
+      "answerZhSource": "pdf",
+      "highlight": "Amir started the engine, but not until then did he hear the strange noise."
+    },
+    {
+      "id": "ss226-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The passengers did not realise they were on the wrong train until it began to move.",
+      "promptZh": "直到火車開始行駛，乘客才發現自己上錯了火車。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The train began to move, but not until then did the passengers realise they were on the wrong train.",
+      "answerZh": "火車開始行駛，但直到那時乘客才發現自己上錯了火車。",
+      "answerZhSource": "pdf",
+      "highlight": "The train began to move, but not until then did the passengers realise they were on the wrong train."
+    },
+    {
+      "id": "ss226-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The path was not safe enough for us to continue until the sun came out.",
+      "promptZh": "直到太陽出來，小路才安全得足以讓我們繼續前進。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sun came out, but not until then was the path safe enough for us to continue.",
+      "answerZh": "太陽出來了，但直到那時小路才安全得足以讓我們繼續前進。",
+      "answerZhSource": "pdf",
+      "highlight": "The sun came out, but not until then was the path safe enough for us to continue."
+    },
+    {
+      "id": "ss226-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The family knew the total cost only when the final bill arrived.",
+      "promptZh": "最後一張賬單到達後，這家人才知道總費用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final bill arrived, but not until then did the family know the total cost.",
+      "answerZh": "最後一張賬單到達，但直到那時這家人才知道總費用。",
+      "answerZhSource": "pdf",
+      "highlight": "The final bill arrived, but not until then did the family know the total cost."
+    },
+    {
+      "id": "ss226-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Anna recognised the man only after police officers showed her a photograph.",
+      "promptZh": "警員向安娜展示照片後，她才認出那名男子。",
+      "promptZhSource": "pdf",
+      "starter": "Police",
+      "answer": "Police officers showed Anna a photograph, but not until then did she recognise the man.",
+      "answerZh": "警員向安娜展示照片，但直到那時她才認出那名男子。",
+      "answerZhSource": "pdf",
+      "highlight": "Police officers showed Anna a photograph, but not until then did she recognise the man."
+    },
+    {
+      "id": "ss226-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I could not enter my account until I reset my password.",
+      "promptZh": "直到我重新設定密碼，才可以進入自己的帳戶。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I reset my password, but not until then could I enter my account.",
+      "answerZh": "我重新設定密碼，但直到那時才可以進入自己的帳戶。",
+      "answerZhSource": "pdf",
+      "highlight": "I reset my password, but not until then could I enter my account."
+    },
+    {
+      "id": "ss226-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "It was only when the teacher returned Ella’s project that Ella saw how much she had improved.",
+      "promptZh": "老師把項目習作交還給艾拉後，她才看到自己進步了多少。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher returned Ella’s project, but not until then did Ella see how much she had improved.",
+      "answerZh": "老師把項目習作交還給艾拉，但直到那時她才看到自己進步了多少。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher returned Ella’s project, but not until then did Ella see how much she had improved."
+    },
+    {
+      "id": "ss226-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The staff did not speak openly until the manager left the room.",
+      "promptZh": "直到經理離開房間，員工才坦率地說話。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager left the room, but not until then did the staff speak openly.",
+      "answerZh": "經理離開房間，但直到那時員工才坦率地說話。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager left the room, but not until then did the staff speak openly."
+    },
+    {
+      "id": "ss226-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Leo could not see that the cut had healed until Dr Wong removed his bandage.",
+      "promptZh": "直到黃醫生除下里奧的繃帶，他才看到傷口已經癒合。",
+      "promptZhSource": "pdf",
+      "starter": "Dr",
+      "answer": "Dr Wong removed Leo’s bandage, but not until then could Leo see that the cut had healed.",
+      "answerZh": "黃醫生除下里奧的繃帶，但直到那時里奧才看到傷口已經癒合。",
+      "answerZhSource": "pdf",
+      "highlight": "Dr Wong removed Leo’s bandage, but not until then could Leo see that the cut had healed."
+    },
+    {
+      "id": "ss226-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The flights were allowed to leave only after the storm ended.",
+      "promptZh": "暴風雨結束後，航班才獲准起飛。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The storm ended, but not until then were the flights allowed to leave.",
+      "answerZh": "暴風雨結束了，但直到那時航班才獲准起飛。",
+      "answerZhSource": "pdf",
+      "highlight": "The storm ended, but not until then were the flights allowed to leave."
+    },
+    {
+      "id": "ss226-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The story made sense to Nora only when she read the final page.",
+      "promptZh": "諾拉讀到最後一頁時，才明白整個故事。",
+      "promptZhSource": "pdf",
+      "starter": "Nora",
+      "answer": "Nora read the final page, but not until then did the story make sense to her.",
+      "answerZh": "諾拉讀到最後一頁，但直到那時她才明白整個故事。",
+      "answerZhSource": "pdf",
+      "highlight": "Nora read the final page, but not until then did the story make sense to her."
+    },
+    {
+      "id": "ss226-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The workers waited outside until the fire alarm stopped. They went back into the building after that.",
+      "promptZh": "工人一直在外面等候，直至火警鐘停止。他們之後才返回大樓。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fire alarm stopped, but not until then did the workers go back into the building.",
+      "answerZh": "火警鐘停止，但直到那時工人才返回大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "The fire alarm stopped, but not until then did the workers go back into the building."
+    },
+    {
+      "id": "ss226-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "More people joined the club only after it lowered its monthly fee.",
+      "promptZh": "會所降低月費後，才有更多人加入。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The club lowered its monthly fee, but not until then did more people join.",
+      "answerZh": "會所降低月費，但直到那時才有更多人加入。",
+      "answerZhSource": "pdf",
+      "highlight": "The club lowered its monthly fee, but not until then did more people join."
+    },
+    {
+      "id": "ss226-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The class relaxed only after Mr Chan said the test would not be graded.",
+      "promptZh": "陳先生表示測驗不會計分後，全班才放鬆下來。",
+      "promptZhSource": "pdf",
+      "starter": "Mr",
+      "answer": "Mr Chan said the test would not be graded, but not until then did the class relax.",
+      "answerZh": "陳先生表示測驗不會計分，但直到那時全班才放鬆下來。",
+      "answerZhSource": "pdf",
+      "highlight": "Mr Chan said the test would not be graded, but not until then did the class relax."
+    },
+    {
+      "id": "ss226-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The family did not notice a sound inside the box until their dog barked at it.",
+      "promptZh": "直到家中的狗向箱子吠叫，這家人才注意到箱內有聲音。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our dog barked at the box, but not until then did the family notice a sound inside it.",
+      "answerZh": "我們的狗向箱子吠叫，但直到那時這家人才注意到箱內有聲音。",
+      "answerZhSource": "pdf",
+      "highlight": "Our dog barked at the box, but not until then did the family notice a sound inside it."
+    },
+    {
+      "id": "ss226-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "After we cleaned the window, we could finally see the mountain clearly.",
+      "promptZh": "我們清潔窗戶後，才終於可以清楚看到山。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We cleaned the window, but not until then could we see the mountain clearly.",
+      "answerZh": "我們清潔窗戶，但直到那時才可以清楚看到山。",
+      "answerZhSource": "pdf",
+      "highlight": "We cleaned the window, but not until then could we see the mountain clearly."
+    },
+    {
+      "id": "ss226-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The visitors understood how the old machine worked only after the guide turned it on.",
+      "promptZh": "導遊開動舊機器後，訪客才明白它如何運作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guide turned on the old machine, but not until then did the visitors understand how it worked.",
+      "answerZh": "導遊開動舊機器，但直到那時訪客才明白它如何運作。",
+      "answerZhSource": "pdf",
+      "highlight": "The guide turned on the old machine, but not until then did the visitors understand how it worked."
+    },
+    {
+      "id": "ss226-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The team did not discover that the video was missing until they checked the camera carefully.",
+      "promptZh": "直到團隊仔細檢查攝影機，他們才發現影片不見了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team checked the camera carefully, but not until then did they discover that the video was missing.",
+      "answerZh": "團隊仔細檢查攝影機，但直到那時他們才發現影片不見了。",
+      "answerZhSource": "pdf",
+      "highlight": "The team checked the camera carefully, but not until then did they discover that the video was missing."
+    },
+    {
+      "id": "ss226-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The doctors could choose the right treatment only after the hospital received the second test result.",
+      "promptZh": "醫院收到第二份檢測結果後，醫生才可以選擇合適的治療方法。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital received the second test result, but not until then could the doctors choose the right treatment.",
+      "answerZh": "醫院收到第二份檢測結果，但直到那時醫生才可以選擇合適的治療方法。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital received the second test result, but not until then could the doctors choose the right treatment."
+    },
+    {
+      "id": "ss226-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The full story remained unclear until the school spoke to both students.",
+      "promptZh": "直到學校與兩名學生交談，整件事情才變得清楚。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school spoke to both students, but not until then was the full story clear.",
+      "answerZh": "學校與兩名學生交談，但直到那時整件事情才變得清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "The school spoke to both students, but not until then was the full story clear."
+    },
+    {
+      "id": "ss226-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Company staff understood why the app was unpopular only after they read the customer messages.",
+      "promptZh": "公司員工閱讀顧客留言後，才明白這個應用程式為何不受歡迎。",
+      "promptZhSource": "pdf",
+      "starter": "Company",
+      "answer": "Company staff read the customer messages, but not until then did they understand why the app was unpopular.",
+      "answerZh": "公司員工閱讀顧客留言，但直到那時他們才明白這個應用程式為何不受歡迎。",
+      "answerZhSource": "pdf",
+      "highlight": "Company staff read the customer messages, but not until then did they understand why the app was unpopular."
+    },
+    {
+      "id": "ss226-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Buses could not reach the village again until the bridge reopened.",
+      "promptZh": "直到大橋重新開放，巴士才可以再次到達村莊。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bridge reopened, but not until then could buses reach the village again.",
+      "answerZh": "大橋重新開放，但直到那時巴士才可以再次到達村莊。",
+      "answerZhSource": "pdf",
+      "highlight": "The bridge reopened, but not until then could buses reach the village again."
+    },
+    {
+      "id": "ss226-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The ceremony did not begin until the last guest arrived.",
+      "promptZh": "直到最後一位客人到達，典禮才開始。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The last guest arrived, but not until then did the ceremony begin.",
+      "answerZh": "最後一位客人到達，但直到那時典禮才開始。",
+      "answerZhSource": "pdf",
+      "highlight": "The last guest arrived, but not until then did the ceremony begin."
+    },
+    {
+      "id": "ss226-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Police officers did not know who had taken the bag until they checked the station camera.",
+      "promptZh": "直到警員查看車站的攝影機，他們才知道誰拿走了袋子。",
+      "promptZhSource": "pdf",
+      "starter": "Police",
+      "answer": "Police officers checked the station camera, but not until then did they know who had taken the bag.",
+      "answerZh": "警員查看車站的攝影機，但直到那時他們才知道誰拿走了袋子。",
+      "answerZhSource": "pdf",
+      "highlight": "Police officers checked the station camera, but not until then did they know who had taken the bag."
+    },
+    {
+      "id": "ss226-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Hannah realised how much her writing had improved only after the teacher compared her first and final essays.",
+      "promptZh": "老師比較漢娜第一篇和最後一篇文章後，她才發現自己的寫作進步了多少。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher compared Hannah’s first and final essays, but not until then did Hannah realise how much her writing had improved.",
+      "answerZh": "老師比較漢娜第一篇和最後一篇文章，但直到那時漢娜才發現自己的寫作進步了多少。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher compared Hannah’s first and final essays, but not until then did Hannah realise how much her writing had improved."
+    },
+    {
+      "id": "ss226-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The family understood how high the floodwater had risen only after they saw a dark line on the wall.",
+      "promptZh": "這家人看到牆上的深色水痕後，才明白洪水曾升至多高。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The family saw a dark line on the wall, but not until then did they understand how high the floodwater had risen.",
+      "answerZh": "這家人看到牆上的深色水痕，但直到那時他們才明白洪水曾升至多高。",
+      "answerZhSource": "pdf",
+      "highlight": "The family saw a dark line on the wall, but not until then did they understand how high the floodwater had risen."
+    },
+    {
+      "id": "ss226-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The rescue team did not realise that the path inside was blocked until they reached the cave entrance.",
+      "promptZh": "直到救援隊到達洞穴入口，他們才發現裏面的通道被堵塞。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rescue team reached the cave entrance, but not until then did they realise that the path inside was blocked.",
+      "answerZh": "救援隊到達洞穴入口，但直到那時他們才發現裏面的通道被堵塞。",
+      "answerZhSource": "pdf",
+      "highlight": "The rescue team reached the cave entrance, but not until then did they realise that the path inside was blocked."
+    }
+  ]
+}

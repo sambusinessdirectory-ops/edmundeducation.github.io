@@ -1,0 +1,1231 @@
+{
+  "id": "ss227",
+  "order": 227,
+  "slug": "generic-pronoun-one",
+  "title": "「one 作泛指人稱代名詞」",
+  "titleZh": "「one 作泛指人稱代名詞」",
+  "titleEn": "Using “one” as a generic personal pronoun",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 226 -「one 作泛指人稱代名詞」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 226; it is assigned system ID ss227 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "one / one’s / oneself",
+  "formulas": [
+    {
+      "id": "ss227-formula-01",
+      "labelEn": "Subject",
+      "labelZh": "作主語",
+      "formula": "One + singular verb / modal verb + other information"
+    },
+    {
+      "id": "ss227-formula-02",
+      "labelEn": "Dependent clause",
+      "labelZh": "從屬子句",
+      "formula": "When / If / Before / After / Although + one + singular verb + main clause"
+    },
+    {
+      "id": "ss227-formula-03",
+      "labelEn": "Possessive",
+      "labelZh": "所有格",
+      "formula": "one’s + noun"
+    },
+    {
+      "id": "ss227-formula-04",
+      "labelEn": "Reflexive",
+      "labelZh": "反身形式",
+      "formula": "oneself"
+    }
+  ],
+  "example": "In an unfamiliar situation, one should remain calm and ask questions.",
+  "exampleZh": "在陌生的情況下，人應該保持冷靜並提出問題。",
+  "examples": [
+    {
+      "id": "ss227-example-01",
+      "en": "In an unfamiliar situation, one should remain calm and ask questions.",
+      "zh": "在陌生的情況下，人應該保持冷靜並提出問題。",
+      "highlight": "In an unfamiliar situation, one should remain calm and ask questions."
+    }
+  ],
+  "meaning": {
+    "zh": "One 可以泛指任何人或一般人，適合用來表達普遍原則、建議、觀察和意見，而不直接以 you 稱呼讀者。"
+  },
+  "rules": [
+    {
+      "id": "ss227-rule-01",
+      "zh": "One 後面使用單數動詞。應使用：one is、one has、one does、one needs、one thinks。不要使用：one are、one have、one do、one need、one think。",
+      "en": "One takes a singular verb: one is, one has, one does, one needs and one thinks.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss227-rule-02",
+      "zh": "人應該仔細檢查自己的成果。） The apostrophe is required: one’s work Do not write: ones work",
+      "en": "Use one’s for possession and include the apostrophe: “One should check one’s work carefully.”",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss227-rule-03",
+      "zh": "人應該容許自己休息。） Do not use themselves when the same person has already been referred to as one in this exercise.",
+      "en": "Use oneself as the reflexive form. Do not switch to themselves when the same generic person has already been called one.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss227-rule-04",
+      "zh": "人應該保護自己的密碼。） Avoid: One should protect your password. One should protect their password. When one refers to the same person throughout the sentence, use one, one’s and oneself consistently.",
+      "en": "Keep pronouns consistent: use one, one’s and oneself throughout a reference instead of switching to your or their.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss227-rule-05",
+      "zh": "One 的語氣較正式。泛指的 one 特別適合用於作文、報告、正式建議、學術討論、一般原則及經過仔細撰寫的論點。日常對話通常使用泛指的 you 較自然：You never know what will happen。使用 one 的版本較正式：One never knows what will happen。One 並不一定比 you 更好，應按情境和語氣選擇。",
+      "en": "Generic one is relatively formal and is especially useful in essays, reports, formal advice, academic discussion and carefully written arguments. Generic you is often more natural in ordinary conversation.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss227-rule-06",
+      "zh": "One 不一定要放在句首。例子：One should consider the risks. Before one decides, one should consider the risks. I believe that one should consider the risks. Experience can teach one to consider the risks. It is important for one to consider the risks. One 的位置會按照句子結構而改變。",
+      "en": "One can appear in different sentence positions: at the beginning, inside a dependent clause, after that, as an object, or after a preposition.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss227-rule-07",
+      "zh": "在陌生的情況下，人應該保持冷靜並提出問題。）",
+      "en": "This exercise uses one to mean any person or people in general. It excludes the number one, one as a replacement for a countable noun, one of + plural noun, and the replacement pronoun ones.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss227-benefit-01",
+      "zh": "可以用來說明任何人都可能遇到的情況，或一般人應該採取的做法。句子的意思不只限於某 一個人。",
+      "en": "It helps you express a general principle that applies to any person rather than one named individual.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss227-benefit-02",
+      "zh": "使用 you 有時會令人覺得你正在直接指示讀者。使用 one 則可以把相同意思表達成普遍的觀察 或原則。 Compare: You should check your sources before publishing a claim. （你在發表說法前，應該核實自己的資料來源。） One should check one’s sources before publishing a claim. （人在發表說法前，應該核實自己的資料來源。） The first sentence speaks directly to the reader. The second presents a general rule. 第一句直接向讀者說話；第二句則提出一項普遍原則。",
+      "en": "It avoids speaking directly to the reader and presents advice as a general observation or principle.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss227-benefit-03",
+      "zh": "在作文、報告和正式解釋中，如需討論行為、責任、決定或共同經歷，one 十分實用。",
+      "en": "It is useful in formal discussion about behaviour, responsibility, decisions and common experiences.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss227-benefit-04",
+      "zh": "和 oneself 可以清楚表示相關物件或動作屬於同一個由 one 所代表的人。 One should accept responsibility for one’s decisions. （人應該為自己的決定承擔責任。） One should give oneself time to improve. （人應該給自己時間進步。）",
+      "en": "One’s and oneself keep the reference clear by linking possession or reflexive action to the same generic person.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss227-benefit-05",
+      "zh": "如果多個句子都以 People 或 You 開始，你有時可以使用 one，令句式更有變化。",
+      "en": "It gives you an alternative to repeated uses of people and you and creates controlled sentence variety.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss227-benefit-06",
+      "zh": "可以出現在句首、時間或條件子句內、that 之後，或作為動詞及介詞的受詞。這種靈活性有 助你以不同方式組織正式句子。",
+      "en": "It can appear in several parts of a sentence, helping you organise formal writing in different ways.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 226; it is assigned system ID ss227 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt using the generic pronoun one and the appropriate form one’s or oneself where required.",
+      "Preserve the meaning and use the supplied first word or opening."
+    ],
+    "zh": [
+      "使用泛指人稱代名詞 one 改寫每題，並在需要時使用 one’s 或 oneself。",
+      "保留原句意思，並按照已提供的第一個字或開首文字作答。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss227-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "People should read the instructions carefully.",
+      "promptZh": "人們應該仔細閱讀指示。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One should read the instructions carefully.",
+      "answerZh": "人應該仔細閱讀指示。",
+      "answerZhSource": "pdf",
+      "highlight": "One should read the instructions carefully."
+    },
+    {
+      "id": "ss227-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "To stay focused, people need enough sleep.",
+      "promptZh": "要保持專注，人們需要有充足睡眠。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To stay focused, one needs enough sleep.",
+      "answerZh": "要保持專注，人需要有充足睡眠。",
+      "answerZhSource": "pdf",
+      "highlight": "To stay focused, one needs enough sleep."
+    },
+    {
+      "id": "ss227-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "People can learn a lot when they make mistakes.",
+      "promptZh": "人們犯錯時可以學到很多東西。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One can learn a lot when one makes mistakes.",
+      "answerZh": "人在犯錯時可以學到很多東西。",
+      "answerZhSource": "pdf",
+      "highlight": "One can learn a lot when one makes mistakes."
+    },
+    {
+      "id": "ss227-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "At home, people should keep important documents in a safe place.",
+      "promptZh": "在家中，人們應該把重要文件存放在安全的地方。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At home, one should keep important documents in a safe place.",
+      "answerZh": "在家中，人應該把重要文件存放在安全的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "At home, one should keep important documents in a safe place."
+    },
+    {
+      "id": "ss227-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "People often feel nervous before an interview.",
+      "promptZh": "人們在面試前往往會感到緊張。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before an interview, one often feels nervous.",
+      "answerZh": "人在面試前往往會感到緊張。",
+      "answerZhSource": "pdf",
+      "highlight": "Before an interview, one often feels nervous."
+    },
+    {
+      "id": "ss227-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "People must show a ticket before they enter the hall.",
+      "promptZh": "人們進入禮堂前必須出示門票。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before one enters the hall, one must show a ticket.",
+      "answerZh": "人進入禮堂前必須出示門票。",
+      "answerZhSource": "pdf",
+      "highlight": "Before one enters the hall, one must show a ticket."
+    },
+    {
+      "id": "ss227-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "People may need help when they use new software.",
+      "promptZh": "人們使用新軟件時可能需要協助。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When one uses new software, one may need help.",
+      "answerZh": "人使用新軟件時可能需要協助。",
+      "answerZhSource": "pdf",
+      "highlight": "When one uses new software, one may need help."
+    },
+    {
+      "id": "ss227-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "You should not share your password with strangers.",
+      "promptZh": "你不應該把自己的密碼告訴陌生人。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One should not share one’s password with strangers.",
+      "answerZh": "人不應該把自己的密碼告訴陌生人。",
+      "answerZhSource": "pdf",
+      "highlight": "One should not share one’s password with strangers."
+    },
+    {
+      "id": "ss227-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "People learn more effectively when they practise regularly.",
+      "promptZh": "人們定期練習時，學習會更有效。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When one practises regularly, one learns more effectively.",
+      "answerZh": "人定期練習時，學習會更有效。",
+      "answerZhSource": "pdf",
+      "highlight": "When one practises regularly, one learns more effectively."
+    },
+    {
+      "id": "ss227-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "People cannot always control what happens.",
+      "promptZh": "人們無法時刻控制所發生的事情。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One cannot always control what happens.",
+      "answerZh": "人無法時刻控制所發生的事情。",
+      "answerZhSource": "pdf",
+      "highlight": "One cannot always control what happens."
+    },
+    {
+      "id": "ss227-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "When people travel abroad, they should check local customs.",
+      "promptZh": "人們到外地旅行時，應該了解當地習俗。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When one travels abroad, one should check local customs.",
+      "answerZh": "人到外地旅行時，應該了解當地習俗。",
+      "answerZhSource": "pdf",
+      "highlight": "When one travels abroad, one should check local customs."
+    },
+    {
+      "id": "ss227-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If you feel unwell, you should seek medical advice.",
+      "promptZh": "如果你感到不適，便應該尋求醫療意見。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If one feels unwell, one should seek medical advice.",
+      "answerZh": "如感到不適，便應該尋求醫療意見。",
+      "answerZhSource": "pdf",
+      "highlight": "If one feels unwell, one should seek medical advice."
+    },
+    {
+      "id": "ss227-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "People may need time to learn the routines in a new job.",
+      "promptZh": "人們在新工作中可能需要時間熟習日常程序。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In a new job, one may need time to learn the routines.",
+      "answerZh": "在新工作中，人可能需要時間熟習日常程序。",
+      "answerZhSource": "pdf",
+      "highlight": "In a new job, one may need time to learn the routines."
+    },
+    {
+      "id": "ss227-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A person should read every section before signing a contract.",
+      "promptZh": "一個人在簽署合約前，應該閱讀每一部分。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before one signs a contract, one should read every section.",
+      "answerZh": "人在簽署合約前，應該閱讀每一部分。",
+      "answerZhSource": "pdf",
+      "highlight": "Before one signs a contract, one should read every section."
+    },
+    {
+      "id": "ss227-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "People should check their work after they finish a task.",
+      "promptZh": "人們完成工作後，應該檢查自己的成果。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After one finishes a task, one should check one’s work.",
+      "answerZh": "人完成工作後，應該檢查自己的成果。",
+      "answerZhSource": "pdf",
+      "highlight": "After one finishes a task, one should check one’s work."
+    },
+    {
+      "id": "ss227-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "At a busy station, passengers must watch their belongings.",
+      "promptZh": "在繁忙的車站，乘客必須小心看管自己的隨身物品。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At a busy station, one must watch one’s belongings.",
+      "answerZh": "在繁忙的車站，人必須小心看管自己的隨身物品。",
+      "answerZhSource": "pdf",
+      "highlight": "At a busy station, one must watch one’s belongings."
+    },
+    {
+      "id": "ss227-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "To improve their English, people need regular practice.",
+      "promptZh": "要改善英語，人們需要定期練習。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To improve one’s English, one needs regular practice.",
+      "answerZh": "要改善自己的英語，人需要定期練習。",
+      "answerZhSource": "pdf",
+      "highlight": "To improve one’s English, one needs regular practice."
+    },
+    {
+      "id": "ss227-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "During an emergency, people should remain calm.",
+      "promptZh": "在緊急情況下，人們應該保持冷靜。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During an emergency, one should remain calm.",
+      "answerZh": "在緊急情況下，人應該保持冷靜。",
+      "answerZhSource": "pdf",
+      "highlight": "During an emergency, one should remain calm."
+    },
+    {
+      "id": "ss227-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Without a clear plan, people can easily waste time.",
+      "promptZh": "沒有清晰計劃，人們很容易浪費時間。",
+      "promptZhSource": "pdf",
+      "starter": "Without",
+      "answer": "Without a clear plan, one can easily waste time.",
+      "answerZh": "沒有清晰計劃，人很容易浪費時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Without a clear plan, one can easily waste time."
+    },
+    {
+      "id": "ss227-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "In order to save money, a person should compare prices.",
+      "promptZh": "為了省錢，一個人應該比較價格。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In order to save money, one should compare prices.",
+      "answerZh": "為了省錢，人應該比較價格。",
+      "answerZhSource": "pdf",
+      "highlight": "In order to save money, one should compare prices."
+    },
+    {
+      "id": "ss227-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I believe that people should admit their mistakes.",
+      "promptZh": "我相信人們應該承認自己的錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I believe that one should admit one’s mistakes.",
+      "answerZh": "我相信人應該承認自己的錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "I believe that one should admit one’s mistakes."
+    },
+    {
+      "id": "ss227-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This experience teaches people to be more patient.",
+      "promptZh": "這次經歷教人們要更有耐性。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This experience teaches one to be more patient.",
+      "answerZh": "這次經歷教人要更有耐性。",
+      "answerZhSource": "pdf",
+      "highlight": "This experience teaches one to be more patient."
+    },
+    {
+      "id": "ss227-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A good teacher encourages people to think independently.",
+      "promptZh": "一位好老師會鼓勵人們獨立思考。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A good teacher encourages one to think independently.",
+      "answerZh": "一位好老師會鼓勵人獨立思考。",
+      "answerZhSource": "pdf",
+      "highlight": "A good teacher encourages one to think independently."
+    },
+    {
+      "id": "ss227-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Clear instructions allow people to complete the task more easily.",
+      "promptZh": "清晰的指示讓人們可以更輕鬆地完成工作。",
+      "promptZhSource": "pdf",
+      "starter": "Clear",
+      "answer": "Clear instructions allow one to complete the task more easily.",
+      "answerZh": "清晰的指示讓人可以更輕鬆地完成工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Clear instructions allow one to complete the task more easily."
+    },
+    {
+      "id": "ss227-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Regular exercise can help people feel more energetic.",
+      "promptZh": "定期運動可以幫助人們感到更有活力。",
+      "promptZhSource": "pdf",
+      "starter": "Regular",
+      "answer": "Regular exercise can help one feel more energetic.",
+      "answerZh": "定期運動可以幫助人感到更有活力。",
+      "answerZhSource": "pdf",
+      "highlight": "Regular exercise can help one feel more energetic."
+    },
+    {
+      "id": "ss227-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It is sometimes difficult for a person to change an old habit.",
+      "promptZh": "一個人有時很難改掉舊習慣。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is sometimes difficult for one to change an old habit.",
+      "answerZh": "人有時很難改掉舊習慣。",
+      "answerZhSource": "pdf",
+      "highlight": "It is sometimes difficult for one to change an old habit."
+    },
+    {
+      "id": "ss227-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "How can a person stay calm under pressure?",
+      "promptZh": "一個人怎樣才能在壓力下保持冷靜？",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How can one stay calm under pressure?",
+      "answerZh": "人怎樣才能在壓力下保持冷靜？",
+      "answerZhSource": "pdf",
+      "highlight": "How can one stay calm under pressure?"
+    },
+    {
+      "id": "ss227-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why should a person apologise for something they did not do?",
+      "promptZh": "一個人為甚麼要為自己沒有做過的事道歉？",
+      "promptZhSource": "pdf",
+      "starter": "Why",
+      "answer": "Why should one apologise for something one did not do?",
+      "answerZh": "人為甚麼要為自己沒有做過的事道歉？",
+      "answerZhSource": "pdf",
+      "highlight": "Why should one apologise for something one did not do?"
+    },
+    {
+      "id": "ss227-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "People should give themselves enough time to make an important decision.",
+      "promptZh": "人們應該給自己足夠時間作出重要決定。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One should give oneself enough time to make an important decision.",
+      "answerZh": "人應該給自己足夠時間作出重要決定。",
+      "answerZhSource": "pdf",
+      "highlight": "One should give oneself enough time to make an important decision."
+    },
+    {
+      "id": "ss227-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "People can protect themselves by learning basic safety rules.",
+      "promptZh": "人們可以透過學習基本安全規則來保護自己。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One can protect oneself by learning basic safety rules.",
+      "answerZh": "人可以透過學習基本安全規則來保護自己。",
+      "answerZhSource": "pdf",
+      "highlight": "One can protect oneself by learning basic safety rules."
+    },
+    {
+      "id": "ss227-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "By keeping a diary, people can understand their feelings better.",
+      "promptZh": "透過寫日記，人們可以更了解自己的感受。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By keeping a diary, one can understand one’s feelings better.",
+      "answerZh": "透過寫日記，人可以更了解自己的感受。",
+      "answerZhSource": "pdf",
+      "highlight": "By keeping a diary, one can understand one’s feelings better."
+    },
+    {
+      "id": "ss227-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Although a person may feel uncertain, they should still ask questions.",
+      "promptZh": "雖然一個人可能感到不確定，但仍然應該提問。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although one may feel uncertain, one should still ask questions.",
+      "answerZh": "雖然人可能感到不確定，但仍然應該提問。",
+      "answerZhSource": "pdf",
+      "highlight": "Although one may feel uncertain, one should still ask questions."
+    },
+    {
+      "id": "ss227-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Whenever people use public Wi-Fi, they should protect their personal information.",
+      "promptZh": "每當人們使用公共 Wi-Fi 時，都應該保護自己的個人資料。",
+      "promptZhSource": "pdf",
+      "starter": "Whenever",
+      "answer": "Whenever one uses public Wi-Fi, one should protect one’s personal information.",
+      "answerZh": "每當人使用公共 Wi-Fi 時，都應該保護自己的個人資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Whenever one uses public Wi-Fi, one should protect one’s personal information."
+    },
+    {
+      "id": "ss227-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Unless people ask for clarification, they may misunderstand the instructions.",
+      "promptZh": "除非人們要求澄清，否則可能會誤解指示。",
+      "promptZhSource": "pdf",
+      "starter": "Unless",
+      "answer": "Unless one asks for clarification, one may misunderstand the instructions.",
+      "answerZh": "除非人要求澄清，否則可能會誤解指示。",
+      "answerZhSource": "pdf",
+      "highlight": "Unless one asks for clarification, one may misunderstand the instructions."
+    },
+    {
+      "id": "ss227-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "As people gain experience, they become more confident.",
+      "promptZh": "隨着人們累積經驗，他們會變得更有信心。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As one gains experience, one becomes more confident.",
+      "answerZh": "隨着人累積經驗，便會變得更有信心。",
+      "answerZhSource": "pdf",
+      "highlight": "As one gains experience, one becomes more confident."
+    },
+    {
+      "id": "ss227-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Even when people disagree, they should speak respectfully.",
+      "promptZh": "即使人們意見不同，也應該有禮貌地說話。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even when one disagrees, one should speak respectfully.",
+      "answerZh": "即使人意見不同，也應該有禮貌地說話。",
+      "answerZhSource": "pdf",
+      "highlight": "Even when one disagrees, one should speak respectfully."
+    },
+    {
+      "id": "ss227-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Whether people work alone or in a team, they need clear goals.",
+      "promptZh": "無論人們獨自工作還是團隊合作，都需要清晰目標。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether one works alone or in a team, one needs clear goals.",
+      "answerZh": "無論人獨自工作還是團隊合作，都需要清晰目標。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether one works alone or in a team, one needs clear goals."
+    },
+    {
+      "id": "ss227-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If people want others to listen, they must also listen to them.",
+      "promptZh": "如果人們希望別人聆聽，自己也必須聆聽對方。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If one wants others to listen, one must also listen to them.",
+      "answerZh": "如果人希望別人聆聽，自己也必須聆聽對方。",
+      "answerZhSource": "pdf",
+      "highlight": "If one wants others to listen, one must also listen to them."
+    },
+    {
+      "id": "ss227-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "It is easy for people to lose track of time while using social media.",
+      "promptZh": "人們使用社交媒體時，很容易忘記時間。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is easy for one to lose track of time while using social media.",
+      "answerZh": "人使用社交媒體時，很容易忘記時間。",
+      "answerZhSource": "pdf",
+      "highlight": "It is easy for one to lose track of time while using social media."
+    },
+    {
+      "id": "ss227-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A supportive environment makes it easier for people to learn.",
+      "promptZh": "互相支持的環境讓人們更容易學習。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A supportive environment makes it easier for one to learn.",
+      "answerZh": "互相支持的環境讓人更容易學習。",
+      "answerZhSource": "pdf",
+      "highlight": "A supportive environment makes it easier for one to learn."
+    },
+    {
+      "id": "ss227-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "In my view, people should judge an argument by its evidence.",
+      "promptZh": "我認為，人們應該根據證據判斷一個論點。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In my view, one should judge an argument by its evidence.",
+      "answerZh": "我認為，人應該根據證據判斷一個論點。",
+      "answerZhSource": "pdf",
+      "highlight": "In my view, one should judge an argument by its evidence."
+    },
+    {
+      "id": "ss227-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The more carefully a person plans, the fewer problems they are likely to face.",
+      "promptZh": "一個人計劃得越仔細，可能遇到的問題便越少。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The more carefully one plans, the fewer problems one is likely to face.",
+      "answerZh": "人計劃得越仔細，可能遇到的問題便越少。",
+      "answerZhSource": "pdf",
+      "highlight": "The more carefully one plans, the fewer problems one is likely to face."
+    },
+    {
+      "id": "ss227-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "No matter where people live, they can contribute to the community.",
+      "promptZh": "無論人們住在哪裏，都可以為社區作出貢獻。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No matter where one lives, one can contribute to the community.",
+      "answerZh": "無論人住在哪裏，都可以為社區作出貢獻。",
+      "answerZhSource": "pdf",
+      "highlight": "No matter where one lives, one can contribute to the community."
+    },
+    {
+      "id": "ss227-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Before making a complaint, a person should make sure that their information is accurate.",
+      "promptZh": "一個人在提出投訴前，應該確保自己的資料準確。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before making a complaint, one should make sure that one’s information is accurate.",
+      "answerZh": "人在提出投訴前，應該確保自己的資料準確。",
+      "answerZhSource": "pdf",
+      "highlight": "Before making a complaint, one should make sure that one’s information is accurate."
+    },
+    {
+      "id": "ss227-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "When people are responsible for others, they must consider those people’s needs as well as their own needs.",
+      "promptZh": "當人們要照顧其他人時，必須同時考慮對方的需要和自己的需要。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When one is responsible for others, one must consider their needs as well as one’s own.",
+      "answerZh": "當人要為其他人負責時，必須同時考慮對方的需要和自己的需要。",
+      "answerZhSource": "pdf",
+      "highlight": "When one is responsible for others, one must consider their needs as well as one’s own."
+    },
+    {
+      "id": "ss227-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "People may disagree with a decision without treating others disrespectfully.",
+      "promptZh": "人們可以不同意一項決定，而不需要以不尊重的態度對待別人。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One may disagree with a decision without treating others disrespectfully.",
+      "answerZh": "人可以不同意一項決定，而不需要以不尊重的態度對待別人。",
+      "answerZhSource": "pdf",
+      "highlight": "One may disagree with a decision without treating others disrespectfully."
+    },
+    {
+      "id": "ss227-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It is important for people to know when to ask for professional help.",
+      "promptZh": "人們必須知道何時應該尋求專業協助，這一點十分重要。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is important for one to know when to ask for professional help.",
+      "answerZh": "人必須知道何時應該尋求專業協助，這一點十分重要。",
+      "answerZhSource": "pdf",
+      "highlight": "It is important for one to know when to ask for professional help."
+    },
+    {
+      "id": "ss227-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A person can improve only if they are willing to examine their own weaknesses.",
+      "promptZh": "一個人只有願意審視自己的弱點，才能進步。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One can improve only if one is willing to examine one’s own weaknesses.",
+      "answerZh": "人只有願意審視自己的弱點，才能進步。",
+      "answerZhSource": "pdf",
+      "highlight": "One can improve only if one is willing to examine one’s own weaknesses."
+    },
+    {
+      "id": "ss227-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "People cannot predict every problem, but they can prepare for many of them.",
+      "promptZh": "人們無法預測每一個問題，但可以為其中很多問題作好準備。",
+      "promptZhSource": "pdf",
+      "starter": "While",
+      "answer": "While one cannot predict every problem, one can prepare for many of them.",
+      "answerZh": "雖然人無法預測每一個問題，但可以為其中很多問題作好準備。",
+      "answerZhSource": "pdf",
+      "highlight": "While one cannot predict every problem, one can prepare for many of them."
+    },
+    {
+      "id": "ss227-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "In situations where emotions are strong, people should pause before expressing their opinions.",
+      "promptZh": "在情緒強烈的情況下，人們應該先停一停，才表達自己的意見。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In situations where emotions are strong, one should pause before expressing one’s opinion.",
+      "answerZh": "在情緒強烈的情況下，人應該先停一停，才表達自己的意見。",
+      "answerZhSource": "pdf",
+      "highlight": "In situations where emotions are strong, one should pause before expressing one’s opinion."
+    }
+  ]
+}

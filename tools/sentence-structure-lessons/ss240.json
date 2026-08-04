@@ -1,0 +1,1270 @@
+{
+  "id": "ss240",
+  "order": 240,
+  "slug": "context-supported-bare-fragments",
+  "title": "「Bare Fragment after Context」語境中的簡略片語",
+  "titleZh": "「Bare Fragment after Context」語境中的簡略片語",
+  "titleEn": "Context-supported elliptical fragments",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence Structure 239 -「Bare Fragment after Context」語境中的簡略片語.pdf",
+    "pageCount": 25,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "exercisePages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "answerPages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit, together with the PDF's governing principles where applicable, is retained as a separate Chinese-primary card.",
+      "The source filename is numbered 239; it is assigned system ID ss240 because the source set contains two distinct PDFs labelled 201.",
+      "Questions 14 and 15 preserve the answer key's quoted dialogue as the primary answer; a plain unquoted dialogue variant is accepted so students following the visible starter hint are also credited."
+    ]
+  },
+  "formula": "Clear context + short fragment containing the necessary information",
+  "formulas": [
+    {
+      "id": "ss240-formula-01",
+      "labelEn": "General pattern",
+      "labelZh": "一般句式",
+      "formula": "Clear context + short fragment containing the necessary information"
+    },
+    {
+      "id": "ss240-formula-02",
+      "labelEn": "Possible fragment types",
+      "labelZh": "可用片語類型",
+      "formula": "noun / pronoun / adjective phrase / prepositional phrase / adverb / to-infinitive / dependent clause / correction / agreement / reduced question"
+    }
+  ],
+  "example": "Who broke it? Not me.",
+  "exampleZh": "誰弄壞的？不是我。",
+  "examples": [
+    {
+      "id": "ss240-example-01",
+      "en": "Who broke it? Not me.",
+      "zh": "誰弄壞的？不是我。",
+      "highlight": "Who broke it? Not me."
+    },
+    {
+      "id": "ss240-example-02",
+      "en": "Coming with us? Probably not.",
+      "zh": "跟我們一起來嗎？大概不來。",
+      "highlight": "Coming with us? Probably not."
+    },
+    {
+      "id": "ss240-example-03",
+      "en": "Why did Maya call? To apologise.",
+      "zh": "瑪雅為甚麼打電話？為了道歉。",
+      "highlight": "Why did Maya call? To apologise."
+    },
+    {
+      "id": "ss240-example-04",
+      "en": "Which day suits you? Tuesday, not Monday.",
+      "zh": "哪一天適合你？星期二，不是星期一。",
+      "highlight": "Which day suits you? Tuesday, not Monday."
+    },
+    {
+      "id": "ss240-example-05",
+      "en": "I enjoy hiking. Me too.",
+      "zh": "我喜歡遠足。我也是。",
+      "highlight": "I enjoy hiking. Me too."
+    }
+  ],
+  "meaning": {
+    "zh": "語境支援的簡略片語會省略聽者或讀者已能從上文理解的部分，只保留新的、重要的或帶有對比的資訊。"
+  },
+  "rules": [
+    {
+      "id": "ss240-rule-01",
+      "zh": "這個結構沒有單一固定語序；Not + 片語只是其中一種形式，並非所有答案的固定句型。",
+      "en": "There is no single fixed word order. Not + phrase is only one possible pattern and must not be treated as the fixed structure.",
+      "enSource": "pdf",
+      "examples": [
+        "Who broke it? Not me.",
+        "Coming with us? Probably not."
+      ]
+    },
+    {
+      "id": "ss240-rule-02",
+      "zh": "片語必須由清楚語境支援，使被省略的主語、動詞、助動詞或其他內容仍可恢復。",
+      "en": "A fragment must be supported by clear context so that omitted subjects, verbs, auxiliaries or other repeated words remain recoverable.",
+      "enSource": "pdf",
+      "examples": [
+        "Whose umbrella? Mine.",
+        "Main problem? The cost."
+      ]
+    },
+    {
+      "id": "ss240-rule-03",
+      "zh": "可使用名詞、代名詞、形容詞片語、介詞片語、副詞、to 不定詞、從屬子句、更正、附和回應、簡略問句或其他語境片語。",
+      "en": "A fragment may be a noun or pronoun, adjective phrase, prepositional phrase, adverb, to-infinitive, dependent clause, correction, agreement response, reduced question or another context-supported expression.",
+      "enSource": "pdf",
+      "examples": [
+        "By bus.",
+        "If necessary.",
+        "Me neither."
+      ]
+    },
+    {
+      "id": "ss240-rule-04",
+      "zh": "片語位置應按語境而變化，可接在完整或簡略問句後、放在完整解釋前、接在陳述句後、作更正、接在標籤或冒號後，或形成片語序列。",
+      "en": "Do not force the fragment into one position. It may follow a full or reduced question, precede an explanation, follow a statement, form a correction, follow a label or colon, or appear in a sequence of fragments.",
+      "enSource": "pdf",
+      "examples": [
+        "Not yet. I still need to check the figures.",
+        "Problem: the cost."
+      ]
+    },
+    {
+      "id": "ss240-rule-05",
+      "zh": "這類片語在對話、訪問、訊息、非正式電郵、筆記、指示、簡報和標題中特別自然；正式報告或學術段落通常以完整句較穩妥。",
+      "en": "Context-supported fragments are especially natural in conversation, interviews, messages, informal emails, notes, instructions, presentations and headings. Complete sentences are often safer in formal reports or academic paragraphs unless a fragment is a deliberate stylistic device.",
+      "enSource": "pdf",
+      "examples": [
+        "Result: clear. Cause: unclear."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss240-benefit-01",
+      "zh": "當意思已清楚時刪去重複字詞，只保留需要回答的部分，令對話更自然。",
+      "en": "It makes conversation sound natural because fluent speakers do not repeat every word once the meaning is clear.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss240-benefit-02",
+      "zh": "簡短片語能立即提供最重要資料，令回答更快速直接。",
+      "en": "It gives faster and more direct answers by supplying the important information immediately.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss240-benefit-03",
+      "zh": "省略已清楚的名詞、動詞或其他內容，能避免不必要的重複。",
+      "en": "It avoids unnecessary repetition by omitting nouns, verbs and other material already understood from context.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss240-benefit-04",
+      "zh": "簡略片語能把注意力直接放在關鍵資訊或正誤對比上。",
+      "en": "It places emphasis on the key information or contrast rather than on repeated grammatical material.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss240-benefit-05",
+      "zh": "Probably not、Not yet、Me too、If necessary 等框架能幫助說話者快速作出自然回應。",
+      "en": "It helps speakers react quickly through useful frames such as Probably not, Not yet, Me too and If necessary.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss240-benefit-06",
+      "zh": "短片語可以打破冗長解釋、建立節奏，並增加句式變化。",
+      "en": "It creates rhythm and sentence variety by breaking up long explanations and making contrasts easier to notice.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit, together with the PDF's governing principles where applicable, is retained as a separate Chinese-primary card.",
+    "The source filename is numbered 239; it is assigned system ID ss240 because the source set contains two distinct PDFs labelled 201.",
+    "Questions 14 and 15 preserve the answer key's quoted dialogue as the primary answer; a plain unquoted dialogue variant is accepted so students following the visible starter hint are also credited."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or exchange using one or more natural bare fragments supported by the context.",
+      "You may reduce a question, shorten an answer, use a correction fragment or place a fragment before a supporting sentence.",
+      "Preserve all important meaning. Do not use the same fragment pattern or position in every answer.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用一個或多個能由語境支援的自然簡略片語，改寫以下句子或對話。",
+      "你可以省略問句、縮短答案、使用更正片語，或把片語放在補充句子之前。",
+      "保留所有重要意思。不要在每題使用相同的片語形式或位置。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss240-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Who broke the cup? I did not break it.",
+      "promptZh": "誰弄壞了杯子？不是我弄壞的。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who broke the cup? Not me.",
+      "answerZh": "誰弄壞了杯子？不是我。",
+      "answerZhSource": "pdf",
+      "highlight": "Who broke the cup? Not me."
+    },
+    {
+      "id": "ss240-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Are you coming with us? I probably will not come.",
+      "promptZh": "你會跟我們一起來嗎？我大概不會來。",
+      "promptZhSource": "pdf",
+      "starter": "Coming",
+      "answer": "Coming with us? Probably not.",
+      "answerZh": "跟我們一起來嗎？大概不來。",
+      "answerZhSource": "pdf",
+      "highlight": "Coming with us? Probably not."
+    },
+    {
+      "id": "ss240-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "This café is too crowded. Shall we eat in another place?",
+      "promptZh": "這間咖啡店太擠迫了。我們到另一個地方吃東西好嗎？",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This café is too crowded. Elsewhere?",
+      "answerZh": "這間咖啡店太擠迫了。去別處？",
+      "answerZhSource": "pdf",
+      "highlight": "This café is too crowded. Elsewhere?"
+    },
+    {
+      "id": "ss240-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Where does Mia want to live? She wants to live in a quiet place near the sea.",
+      "promptZh": "米婭想住在哪裏？她想住在海邊一個寧靜的地方。",
+      "promptZhSource": "pdf",
+      "starter": "Where",
+      "answer": "Where does Mia want to live? Somewhere quiet near the sea.",
+      "answerZh": "米婭想住在哪裏？海邊某個寧靜的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "Where does Mia want to live? Somewhere quiet near the sea."
+    },
+    {
+      "id": "ss240-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Where can I charge my phone? There is no place where I can charge it.",
+      "promptZh": "我可以在哪裏為電話充電？沒有地方可以讓我充電。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A place to charge my phone? Nowhere.",
+      "answerZh": "有地方可以為電話充電嗎？沒有。",
+      "answerZhSource": "pdf",
+      "highlight": "A place to charge my phone? Nowhere."
+    },
+    {
+      "id": "ss240-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Where should we wait? Please wait in a different place because the waiting area is full.",
+      "promptZh": "我們應該在哪裏等候？請到另一個地方等候，因為等候區已經坐滿。",
+      "promptZhSource": "pdf",
+      "starter": "Where",
+      "answer": "Where should we wait? Elsewhere, please. The waiting area is full.",
+      "answerZh": "我們應該在哪裏等候？請到別處。等候區已經坐滿。",
+      "answerZhSource": "pdf",
+      "highlight": "Where should we wait? Elsewhere, please. The waiting area is full."
+    },
+    {
+      "id": "ss240-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Why was the match cancelled? It was cancelled because of the rain.",
+      "promptZh": "比賽為甚麼取消？比賽因為下雨而取消。",
+      "promptZhSource": "pdf",
+      "starter": "Why",
+      "answer": "Why was the match cancelled? Because of the rain.",
+      "answerZh": "比賽為甚麼取消？因為下雨。",
+      "answerZhSource": "pdf",
+      "highlight": "Why was the match cancelled? Because of the rain."
+    },
+    {
+      "id": "ss240-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Who wants more soup? Ben does not want any because he has already eaten.",
+      "promptZh": "誰想再喝一點湯？本不想要，因為他已經吃過東西。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who wants more soup? Not Ben. He has already eaten.",
+      "answerZh": "誰想再喝一點湯？不是本。他已經吃過東西。",
+      "answerZhSource": "pdf",
+      "highlight": "Who wants more soup? Not Ben. He has already eaten."
+    },
+    {
+      "id": "ss240-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Is the report ready? It is not ready yet because it still needs one final check.",
+      "promptZh": "報告準備好了嗎？還沒有，因為報告仍需要最後檢查一次。",
+      "promptZhSource": "pdf",
+      "starter": "Report",
+      "answer": "Report ready? Not yet. It still needs one final check.",
+      "answerZh": "報告準備好了嗎？還沒有。報告仍需要最後檢查一次。",
+      "answerZhSource": "pdf",
+      "highlight": "Report ready? Not yet. It still needs one final check."
+    },
+    {
+      "id": "ss240-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "How tired are you? I am very tired.",
+      "promptZh": "你有多累？我非常累。",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How tired? Very tired.",
+      "answerZh": "有多累？非常累。",
+      "answerZhSource": "pdf",
+      "highlight": "How tired? Very tired."
+    },
+    {
+      "id": "ss240-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "How did Noah travel to the town centre? He travelled there by bus.",
+      "promptZh": "諾亞怎樣前往市中心？他乘巴士前往。",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How did Noah travel to the town centre? By bus.",
+      "answerZh": "諾亞怎樣前往市中心？乘巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "How did Noah travel to the town centre? By bus."
+    },
+    {
+      "id": "ss240-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Did you finish the form? I did not finish it completely because I still need to sign the last page.",
+      "promptZh": "你填好表格了嗎？還未完全填好，因為我仍要在最後一頁簽名。",
+      "promptZhSource": "pdf",
+      "starter": "Form",
+      "answer": "Form finished? Not completely. I still need to sign the last page.",
+      "answerZh": "表格填好了嗎？還未完全填好。我仍要在最後一頁簽名。",
+      "answerZhSource": "pdf",
+      "highlight": "Form finished? Not completely. I still need to sign the last page."
+    },
+    {
+      "id": "ss240-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Whose umbrella is this? It is mine.",
+      "promptZh": "這是誰的雨傘？這是我的。",
+      "promptZhSource": "pdf",
+      "starter": "Whose",
+      "answer": "Whose umbrella? Mine.",
+      "answerZh": "誰的雨傘？我的。",
+      "answerZhSource": "pdf",
+      "highlight": "Whose umbrella? Mine."
+    },
+    {
+      "id": "ss240-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "“I enjoy hiking.” “I enjoy hiking too.”",
+      "promptZh": "「我喜歡遠足。」「我也喜歡遠足。」",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "“I enjoy hiking.” “Me too.”",
+      "answerZh": "「我喜歡遠足。」「我也是。」",
+      "answerZhSource": "pdf",
+      "highlight": "“I enjoy hiking.” “Me too.”",
+      "acceptedAnswers": [
+        "I enjoy hiking. Me too."
+      ]
+    },
+    {
+      "id": "ss240-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "“I do not like crowded places.” “I do not like them either.”",
+      "promptZh": "「我不喜歡擠迫的地方。」「我也不喜歡。」",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "“I do not like crowded places.” “Me neither.”",
+      "answerZh": "「我不喜歡擠迫的地方。」「我也不喜歡。」",
+      "answerZhSource": "pdf",
+      "highlight": "“I do not like crowded places.” “Me neither.”",
+      "acceptedAnswers": [
+        "I do not like crowded places. Me neither."
+      ]
+    },
+    {
+      "id": "ss240-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Which day suits you? Tuesday suits me, not Monday.",
+      "promptZh": "哪一天適合你？星期二適合我，不是星期一。",
+      "promptZhSource": "pdf",
+      "starter": "Which",
+      "answer": "Which day suits you? Tuesday, not Monday.",
+      "answerZh": "哪一天適合你？星期二，不是星期一。",
+      "answerZhSource": "pdf",
+      "highlight": "Which day suits you? Tuesday, not Monday."
+    },
+    {
+      "id": "ss240-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Should we leave now? We should perhaps leave later instead.",
+      "promptZh": "我們應該現在離開嗎？或許應該稍後才離開。",
+      "promptZhSource": "pdf",
+      "starter": "Leave",
+      "answer": "Leave now? Maybe later.",
+      "answerZh": "現在離開？或許稍後。",
+      "answerZhSource": "pdf",
+      "highlight": "Leave now? Maybe later."
+    },
+    {
+      "id": "ss240-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "How many times have you visited the museum? I have visited it only once.",
+      "promptZh": "你參觀過這間博物館多少次？我只參觀過一次。",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How many times? Only once.",
+      "answerZh": "多少次？只有一次。",
+      "answerZhSource": "pdf",
+      "highlight": "How many times? Only once."
+    },
+    {
+      "id": "ss240-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Do you know who left the window open? I have no idea.",
+      "promptZh": "你知道誰沒有關窗嗎？我不知道。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who left the window open? No idea.",
+      "answerZh": "誰沒有關窗？不知道。",
+      "answerZhSource": "pdf",
+      "highlight": "Who left the window open? No idea."
+    },
+    {
+      "id": "ss240-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Is there anything else you want to ask? I have just one more question.",
+      "promptZh": "你還有其他問題想問嗎？我只有多一個問題。",
+      "promptZhSource": "pdf",
+      "starter": "Anything",
+      "answer": "Anything else? Just one more question.",
+      "answerZh": "還有其他問題嗎？只有多一個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Anything else? Just one more question."
+    },
+    {
+      "id": "ss240-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Why did Maya call? She called to apologise.",
+      "promptZh": "瑪雅為甚麼打電話？她打電話是為了道歉。",
+      "promptZhSource": "pdf",
+      "starter": "Why",
+      "answer": "Why did Maya call? To apologise.",
+      "answerZh": "瑪雅為甚麼打電話？為了道歉。",
+      "answerZhSource": "pdf",
+      "highlight": "Why did Maya call? To apologise."
+    },
+    {
+      "id": "ss240-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "How should I open the box? You should open it with a key.",
+      "promptZh": "我應該怎樣打開箱子？你應該用鎖匙打開。",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How should I open the box? With a key.",
+      "answerZh": "我應該怎樣打開箱子？用鎖匙。",
+      "answerZhSource": "pdf",
+      "highlight": "How should I open the box? With a key."
+    },
+    {
+      "id": "ss240-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "When may the visitors enter? They may enter after noon, but not earlier.",
+      "promptZh": "訪客甚麼時候可以進入？他們可以在中午十二時後進入，但不能更早。",
+      "promptZhSource": "pdf",
+      "starter": "Visitor",
+      "answer": "Visitor entry? After noon—no earlier.",
+      "answerZh": "訪客入場時間？中午十二時後，不能更早。",
+      "answerZhSource": "pdf",
+      "highlight": "Visitor entry? After noon—no earlier."
+    },
+    {
+      "id": "ss240-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "What is the main problem with the plan? The main problem is the cost.",
+      "promptZh": "這個計劃的主要問題是甚麼？主要問題是費用。",
+      "promptZhSource": "pdf",
+      "starter": "Main",
+      "answer": "Main problem? The cost.",
+      "answerZh": "主要問題？費用。",
+      "answerZhSource": "pdf",
+      "highlight": "Main problem? The cost."
+    },
+    {
+      "id": "ss240-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Where should we meet? We should meet in a place near the station.",
+      "promptZh": "我們應該在哪裏見面？我們應該在車站附近一個地方見面。",
+      "promptZhSource": "pdf",
+      "starter": "Where",
+      "answer": "Where should we meet? Somewhere near the station.",
+      "answerZh": "我們應該在哪裏見面？車站附近某處。",
+      "answerZhSource": "pdf",
+      "highlight": "Where should we meet? Somewhere near the station."
+    },
+    {
+      "id": "ss240-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Which folder is yours? The blue folder is mine, not the red folder.",
+      "promptZh": "哪個文件夾是你的？藍色文件夾是我的，不是紅色文件夾。",
+      "promptZhSource": "pdf",
+      "starter": "Which",
+      "answer": "Which folder is yours? The blue one, not the red one.",
+      "answerZh": "哪個文件夾是你的？藍色的，不是紅色的。",
+      "answerZhSource": "pdf",
+      "highlight": "Which folder is yours? The blue one, not the red one."
+    },
+    {
+      "id": "ss240-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Should I print extra copies? Print them only if they are necessary; otherwise, one copy is enough.",
+      "promptZh": "我應該列印額外副本嗎？只有在有需要時才列印；否則，一份便足夠。",
+      "promptZhSource": "pdf",
+      "starter": "Extra",
+      "answer": "Extra copies? If necessary. Otherwise, one is enough.",
+      "answerZh": "額外副本？如有需要才印。否則，一份便足夠。",
+      "answerZhSource": "pdf",
+      "highlight": "Extra copies? If necessary. Otherwise, one is enough."
+    },
+    {
+      "id": "ss240-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "When will the team begin? The team will begin when everyone is ready.",
+      "promptZh": "團隊甚麼時候開始？當所有人準備好時便會開始。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When will the team begin? When everyone is ready.",
+      "answerZh": "團隊甚麼時候開始？當所有人準備好時。",
+      "answerZhSource": "pdf",
+      "highlight": "When will the team begin? When everyone is ready."
+    },
+    {
+      "id": "ss240-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Who can help us with the boxes? My sister can help us.",
+      "promptZh": "誰可以幫我們搬箱子？我妹妹可以幫忙。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who can help with the boxes? My sister.",
+      "answerZh": "誰可以幫忙搬箱子？我妹妹。",
+      "answerZhSource": "pdf",
+      "highlight": "Who can help with the boxes? My sister."
+    },
+    {
+      "id": "ss240-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "How did the audience react? The audience remained completely silent, and nobody said a word.",
+      "promptZh": "觀眾有甚麼反應？觀眾完全沉默，沒有人說一句話。",
+      "promptZhSource": "pdf",
+      "starter": "Audience",
+      "answer": "Audience reaction? Complete silence. Nobody said a word.",
+      "answerZh": "觀眾的反應？完全沉默。沒有人說一句話。",
+      "answerZhSource": "pdf",
+      "highlight": "Audience reaction? Complete silence. Nobody said a word."
+    },
+    {
+      "id": "ss240-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Are you free this afternoon? I am not free today, but I may be free tomorrow.",
+      "promptZh": "你今天下午有空嗎？我今天沒有空，但明天可能有空。",
+      "promptZhSource": "pdf",
+      "starter": "Free",
+      "answer": "Free this afternoon? Not today. Maybe tomorrow.",
+      "answerZh": "今天下午有空嗎？今天沒有。明天可能有。",
+      "answerZhSource": "pdf",
+      "highlight": "Free this afternoon? Not today. Maybe tomorrow."
+    },
+    {
+      "id": "ss240-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Did Leo send the message to you or to Mia? He sent it to Mia, not to me.",
+      "promptZh": "里奧把訊息傳給你還是米婭？他傳給米婭，不是我。",
+      "promptZhSource": "pdf",
+      "starter": "Sent",
+      "answer": "Sent to whom? Mia, not me.",
+      "answerZh": "傳給誰？米婭，不是我。",
+      "answerZhSource": "pdf",
+      "highlight": "Sent to whom? Mia, not me."
+    },
+    {
+      "id": "ss240-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "What was your impression of the room? We thought it was small but comfortable.",
+      "promptZh": "你對房間有甚麼印象？我們覺得房間很小，但很舒適。",
+      "promptZhSource": "pdf",
+      "starter": "Small",
+      "answer": "Small, but comfortable. That was our impression of the room.",
+      "answerZh": "小，但舒適。這就是我們對房間的印象。",
+      "answerZhSource": "pdf",
+      "highlight": "Small, but comfortable. That was our impression of the room."
+    },
+    {
+      "id": "ss240-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Where did the sound come from? It came from an unknown place upstairs.",
+      "promptZh": "聲音來自哪裏？聲音來自樓上某個不確定的位置。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sound? Somewhere upstairs.",
+      "answerZh": "那個聲音？來自樓上某處。",
+      "answerZhSource": "pdf",
+      "highlight": "The sound? Somewhere upstairs."
+    },
+    {
+      "id": "ss240-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Why are you carrying a notebook? I am carrying it to write down new words.",
+      "promptZh": "你為甚麼帶着筆記簿？我帶着它是為了記下新詞。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A notebook? To write down new words.",
+      "answerZh": "筆記簿？用來記下新詞。",
+      "answerZhSource": "pdf",
+      "highlight": "A notebook? To write down new words."
+    },
+    {
+      "id": "ss240-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Did everyone agree with the proposal? Almost everyone agreed; only two people disagreed.",
+      "promptZh": "所有人都同意這項建議嗎？幾乎所有人都同意；只有兩人不同意。",
+      "promptZhSource": "pdf",
+      "starter": "Almost",
+      "answer": "Almost everyone. Only two people disagreed.",
+      "answerZh": "幾乎所有人。只有兩人不同意。",
+      "answerZhSource": "pdf",
+      "highlight": "Almost everyone. Only two people disagreed."
+    },
+    {
+      "id": "ss240-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Who should speak first? You should probably speak first because you know the topic best.",
+      "promptZh": "誰應該先發言？你可能應該先發言，因為你最熟悉這個題目。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You, probably. You know the topic best.",
+      "answerZh": "可能是你。你最熟悉這個題目。",
+      "answerZhSource": "pdf",
+      "highlight": "You, probably. You know the topic best."
+    },
+    {
+      "id": "ss240-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Will the train arrive at six? It probably will not arrive at six. It is more likely to arrive at seven.",
+      "promptZh": "火車會在六時到達嗎？大概不會。火車較有可能在七時到達。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At six? Probably not. At seven? More likely.",
+      "answerZh": "六時？大概不會。七時？較有可能。",
+      "answerZhSource": "pdf",
+      "highlight": "At six? Probably not. At seven? More likely."
+    },
+    {
+      "id": "ss240-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "When should we discuss the budget? We can discuss it now if necessary, but I would prefer to discuss it after lunch.",
+      "promptZh": "我們應該甚麼時候討論預算？如有需要，我們可以現在討論，但我較希望在午飯後討論。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After lunch, preferably. Now only if necessary.",
+      "answerZh": "最好在午飯後。只有在必要時才現在討論。",
+      "answerZhSource": "pdf",
+      "highlight": "After lunch, preferably. Now only if necessary."
+    },
+    {
+      "id": "ss240-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "How much of the report have you read? I have read only the first two pages, so I still have a long way to go.",
+      "promptZh": "你已經閱讀了多少份報告？我只讀了最初兩頁，所以還有很多內容未讀。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only the first two pages. I still have a long way to go.",
+      "answerZh": "只有最初兩頁。我仍有很多內容未讀。",
+      "answerZhSource": "pdf",
+      "highlight": "Only the first two pages. I still have a long way to go."
+    },
+    {
+      "id": "ss240-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "What caused the delay? The weather did not cause it; the missing permit caused it.",
+      "promptZh": "甚麼導致延誤？不是天氣，而是遺失的許可證導致延誤。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What caused the delay? Not the weather—the missing permit.",
+      "answerZh": "甚麼導致延誤？不是天氣，而是遺失的許可證。",
+      "answerZhSource": "pdf",
+      "highlight": "What caused the delay? Not the weather—the missing permit."
+    },
+    {
+      "id": "ss240-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Is the answer completely emotional or completely logical? It is somewhere between emotion and logic.",
+      "promptZh": "答案是完全感性還是完全理性？答案介乎感性與理性之間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The answer? Somewhere between emotion and logic.",
+      "answerZh": "答案？介乎感性與理性之間。",
+      "answerZhSource": "pdf",
+      "highlight": "The answer? Somewhere between emotion and logic."
+    },
+    {
+      "id": "ss240-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Where did the evidence point? It pointed in a different direction.",
+      "promptZh": "證據指向哪裏？證據指向另一個方向。",
+      "promptZhSource": "pdf",
+      "starter": "Where",
+      "answer": "Where did the evidence point? Elsewhere.",
+      "answerZh": "證據指向哪裏？另一個方向。",
+      "answerZhSource": "pdf",
+      "highlight": "Where did the evidence point? Elsewhere."
+    },
+    {
+      "id": "ss240-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Is the policy fair in every case? It is fair in some cases but not in others.",
+      "promptZh": "這項政策在每種情況下都公平嗎？在某些情況下公平，但在另一些情況下不公平。",
+      "promptZhSource": "pdf",
+      "starter": "Fair",
+      "answer": "Fair in every case? In some, yes; in others, no.",
+      "answerZh": "每種情況都公平嗎？有些是；有些不是。",
+      "answerZhSource": "pdf",
+      "highlight": "Fair in every case? In some, yes; in others, no."
+    },
+    {
+      "id": "ss240-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Did the manager reject the idea? She did not reject it completely. She wanted more evidence first.",
+      "promptZh": "經理拒絕了這個構思嗎？她沒有完全拒絕。她想先看到更多證據。",
+      "promptZhSource": "pdf",
+      "starter": "Rejected",
+      "answer": "Rejected? Not completely. More evidence first.",
+      "answerZh": "拒絕了嗎？沒有完全拒絕。她想先看到更多證據。",
+      "answerZhSource": "pdf",
+      "highlight": "Rejected? Not completely. More evidence first."
+    },
+    {
+      "id": "ss240-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Which part of the plan needs revision? The timetable needs revision, especially the final week.",
+      "promptZh": "計劃的哪一部分需要修改？時間表需要修改，尤其是最後一星期。",
+      "promptZhSource": "pdf",
+      "starter": "Which",
+      "answer": "Which part needs revision? The timetable—especially the final week.",
+      "answerZh": "哪一部分需要修改？時間表，尤其是最後一星期。",
+      "answerZhSource": "pdf",
+      "highlight": "Which part needs revision? The timetable—especially the final week."
+    },
+    {
+      "id": "ss240-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "How certain are the scientists? They are cautiously optimistic.",
+      "promptZh": "科學家有多肯定？他們抱持審慎樂觀的態度。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The scientists? Cautiously optimistic.",
+      "answerZh": "科學家？審慎樂觀。",
+      "answerZhSource": "pdf",
+      "highlight": "The scientists? Cautiously optimistic."
+    },
+    {
+      "id": "ss240-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "When should the emergency team act? They should act immediately if necessary; otherwise, they should remain on standby.",
+      "promptZh": "緊急應變小組應該甚麼時候行動？如有需要，他們應立即行動；否則，應保持候命。",
+      "promptZhSource": "pdf",
+      "starter": "Immediately",
+      "answer": "Immediately, if necessary. Otherwise, on standby.",
+      "answerZh": "如有需要，立即行動。否則，保持候命。",
+      "answerZhSource": "pdf",
+      "highlight": "Immediately, if necessary. Otherwise, on standby."
+    },
+    {
+      "id": "ss240-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Was the report clear about both the result and the cause? It was clear about the result but unclear about the cause.",
+      "promptZh": "報告是否清楚交代結果和原因？結果交代得很清楚，但原因並不清楚。",
+      "promptZhSource": "pdf",
+      "starter": "Result",
+      "answer": "Result: clear. Cause: unclear.",
+      "answerZh": "結果：清楚。原因：不清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "Result: clear. Cause: unclear."
+    },
+    {
+      "id": "ss240-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Should we follow the original assumption when reliable evidence suggests a different answer? We certainly should not. We should consider the evidence first.",
+      "promptZh": "當可靠證據顯示另一個答案時，我們應否繼續依照原先的假設？當然不應該。我們應該先考慮證據。",
+      "promptZhSource": "pdf",
+      "starter": "Follow",
+      "answer": "Follow the original assumption? Certainly not. Evidence first.",
+      "answerZh": "繼續依照原先的假設？當然不。應先看證據。",
+      "answerZhSource": "pdf",
+      "highlight": "Follow the original assumption? Certainly not. Evidence first."
+    }
+  ]
+}

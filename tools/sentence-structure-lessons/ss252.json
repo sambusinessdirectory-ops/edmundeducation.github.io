@@ -1,0 +1,1273 @@
+{
+  "id": "ss252",
+  "order": 252,
+  "slug": "on-the-one-hand-on-the-other-hand",
+  "title": "「On the one hand …; on the other hand …」句",
+  "titleZh": "「On the one hand …; on the other hand …」表達事物的兩面",
+  "titleEn": "On the one hand …; on the other hand …",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence Structure 251 - 「On the one hand …; on the other hand …」表達事物的兩面.pdf",
+    "pageCount": 26,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "exercisePages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered one lower than this system lesson ID because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "On the one hand, + complete clause; on the other hand, + complete clause",
+  "formulas": [
+    {
+      "id": "ss252-formula-01",
+      "labelEn": "Direct core",
+      "labelZh": "直接核心表達",
+      "formula": "On the one hand, clause 1; on the other hand, clause 2."
+    },
+    {
+      "id": "ss252-formula-02",
+      "labelEn": "Topic frame",
+      "labelZh": "加入主題框架",
+      "formula": "For + group, + overview clause: on the one hand, clause 1; on the other hand, clause 2."
+    },
+    {
+      "id": "ss252-formula-03",
+      "labelEn": "Overview sentence",
+      "labelZh": "先以一句概括兩面",
+      "formula": "Subject + has mixed effects / has two sides. On the one hand, clause 1; on the other hand, clause 2."
+    },
+    {
+      "id": "ss252-formula-04",
+      "labelEn": "Colon after overview",
+      "labelZh": "概括語後使用冒號",
+      "formula": "Subject + involves a trade-off: on the one hand, clause 1; on the other hand, clause 2."
+    },
+    {
+      "id": "ss252-formula-05",
+      "labelEn": "Situation frame",
+      "labelZh": "先交代情況",
+      "formula": "When + situation, + overview clause: on the one hand, clause 1; on the other hand, clause 2."
+    },
+    {
+      "id": "ss252-formula-06",
+      "labelEn": "Gerund topic",
+      "labelZh": "以動名詞短語作主語",
+      "formula": "V-ing + topic + involves / creates / brings + a trade-off: on the one hand, clause 1; on the other hand, clause 2."
+    }
+  ],
+  "example": "On the one hand, remote work saves time; on the other hand, it can feel isolating.",
+  "exampleZh": "遙距工作一方面可以節省時間；另一方面，也可能令人感到孤立。",
+  "examples": [
+    {
+      "id": "ss252-example-01",
+      "en": "On the one hand, remote work saves time; on the other hand, it can feel isolating.",
+      "zh": "遙距工作一方面可以節省時間；另一方面，也可能令人感到孤立。",
+      "highlight": "On the one hand, remote work saves time; on the other hand, it can feel isolating."
+    },
+    {
+      "id": "ss252-example-02",
+      "en": "The plan has two sides: on the one hand, it is affordable; on the other hand, it offers limited support.",
+      "zh": "這項計劃有兩面：一方面價格相宜；另一方面提供的支援有限。",
+      "highlight": "The plan has two sides: on the one hand, it is affordable; on the other hand, it offers limited support."
+    },
+    {
+      "id": "ss252-example-03",
+      "en": "Living in the city involves a trade-off: on the one hand, many services are nearby; on the other hand, living costs are high.",
+      "zh": "居住在城市涉及取捨：一方面很多服務都在附近；另一方面生活成本很高。",
+      "highlight": "Living in the city involves a trade-off: on the one hand, many services are nearby; on the other hand, living costs are high."
+    }
+  ],
+  "meaning": {
+    "zh": "用兩個固定連接語清楚呈現同一主題的兩個不同方面，通常是好處與限制、優點與缺點或兩種取捨。"
+  },
+  "rules": [
+    {
+      "id": "ss252-rule-01",
+      "zh": "核心表達只有 on the one hand 和 on the other hand 兩個部分；主題框架只是可選的引入語。",
+      "en": "The core expression contains only on the one hand and on the other hand. A topic frame is an optional introduction.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss252-rule-02",
+      "zh": "兩部分應表達同一主題真正不同的方面，而不是完全無關的資料。",
+      "en": "The two parts must present genuinely different aspects of the same subject rather than unrelated information.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss252-rule-03",
+      "zh": "不一定要先寫好處；先寫哪一面取決於你希望怎樣組織答案。",
+      "en": "The positive side does not have to come first. Choose the order that best organises the answer.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss252-rule-04",
+      "zh": "the 是固定表達的一部分，必須寫成 on the one hand 和 on the other hand。",
+      "en": "The word the is fixed and must appear in both on the one hand and on the other hand.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss252-rule-05",
+      "zh": "每個連接語後通常使用逗號。",
+      "en": "Place a comma after each connector.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss252-rule-06",
+      "zh": "兩個完整子句可用分號連接，也可分成兩句；本練習的標準答案使用分號。",
+      "en": "Two complete clauses may be joined with a semicolon or written as separate sentences. The standard answers in this exercise use a semicolon.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss252-rule-07",
+      "zh": "兩部分的文法形式應盡量平衡，令對比更清楚。",
+      "en": "Keep the grammar of the two parts as balanced as possible so that the contrast is clear.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss252-rule-08",
+      "zh": "代名詞必須有清楚所指，避免 it、they 或 this 造成含糊。",
+      "en": "Make every pronoun reference clear so that it, they or this cannot be misunderstood.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss252-benefit-01",
+      "zh": "能立即清楚顯示同一主題的兩個方面。",
+      "en": "It makes the two sides immediately clear.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss252-benefit-02",
+      "zh": "能同時承認好處和限制，使立場更平衡。",
+      "en": "It helps you present a balanced opinion.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss252-benefit-03",
+      "zh": "兩個固定語像清晰路標，有助組織較長答案。",
+      "en": "It organises longer answers by marking where each side begins.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss252-benefit-04",
+      "zh": "可替代重複使用 but，增加連接方式的變化。",
+      "en": "It gives you an alternative to repeatedly using but.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss252-benefit-05",
+      "zh": "適合呈現真正的取捨：一個選擇解決某問題，同時可能帶來另一問題。",
+      "en": "It can highlight a genuine trade-off.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss252-benefit-06",
+      "zh": "可放在句首、主題框架或概括語後，令句子開首更多變。",
+      "en": "It allows more varied sentence openings.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered one lower than this system lesson ID because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each item using on the one hand …; on the other hand … to present the two contrasting sides.",
+      "You may add a suitable topic frame or overview expression when needed.",
+      "Preserve the original meaning and the order of the two main ideas.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 on the one hand …; on the other hand … 改寫句子，以表達事情不同的兩個方面。",
+      "有需要時可加入合適的主題框架或概括語。",
+      "保留原句的意思及兩項主要資料的次序。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss252-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Remote work saves commuting time, but it can feel isolating.",
+      "promptZh": "遙距工作可以節省通勤時間，但也可能令人感到孤立。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On the one hand, remote work saves commuting time; on the other hand, it can feel isolating.",
+      "answerZh": "遙距工作一方面可以節省通勤時間；另一方面，也可能令人感到孤立。",
+      "answerZhSource": "pdf",
+      "highlight": "On the one hand, remote work saves commuting time; on the other hand, it can feel isolating."
+    },
+    {
+      "id": "ss252-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "For students, online lessons offer flexibility. However, they require strong self-discipline.",
+      "promptZh": "對學生而言，網上課堂較有彈性。然而，學生必須有很強的自律能力。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For students, online learning involves a trade-off: on the one hand, it offers flexibility; on the other hand, it requires strong self-discipline.",
+      "answerZh": "對學生而言，網上學習有利有弊：一方面，它較有彈性；另一方面，它要求學生有很強的自律能力。",
+      "answerZhSource": "pdf",
+      "highlight": "For students, online learning involves a trade-off: on the one hand, it offers flexibility; on the other hand, it requires strong self-discipline."
+    },
+    {
+      "id": "ss252-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Under the new timetable, lunch breaks are shorter, but classes finish earlier.",
+      "promptZh": "根據新時間表，午膳時間縮短了，但課堂會較早結束。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new timetable has mixed effects. On the one hand, lunch breaks are shorter; on the other hand, classes finish earlier.",
+      "answerZh": "新時間表帶來不同影響。一方面，午膳時間縮短了；另一方面，課堂會較早結束。",
+      "answerZhSource": "pdf",
+      "highlight": "The new timetable has mixed effects. On the one hand, lunch breaks are shorter; on the other hand, classes finish earlier."
+    },
+    {
+      "id": "ss252-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Public transport allows passengers to avoid parking costs, although they may face delays.",
+      "promptZh": "公共交通工具讓乘客不用支付泊車費，但他們可能遇上延誤。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When passengers use public transport, they face two considerations: on the one hand, they can avoid parking costs; on the other hand, they may face delays.",
+      "answerZh": "乘客使用公共交通工具時需要考慮兩方面：一方面，他們不用支付泊車費；另一方面，他們可能遇上延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "When passengers use public transport, they face two considerations: on the one hand, they can avoid parking costs; on the other hand, they may face delays."
+    },
+    {
+      "id": "ss252-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "This plan limits some activities, but it reduces spending.",
+      "promptZh": "這個計劃限制了部分活動，但能減少開支。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This plan creates a clear trade-off: on the one hand, it limits some activities; on the other hand, it reduces spending.",
+      "answerZh": "這個計劃需要作出明確取捨：一方面，它限制了部分活動；另一方面，它能減少開支。",
+      "answerZhSource": "pdf",
+      "highlight": "This plan creates a clear trade-off: on the one hand, it limits some activities; on the other hand, it reduces spending."
+    },
+    {
+      "id": "ss252-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Living near school is convenient, but the rent may be high.",
+      "promptZh": "居住在學校附近很方便，但租金可能很高。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On the one hand, living near school is convenient; on the other hand, the rent may be high.",
+      "answerZh": "居住在學校附近一方面很方便；另一方面，租金可能很高。",
+      "answerZhSource": "pdf",
+      "highlight": "On the one hand, living near school is convenient; on the other hand, the rent may be high."
+    },
+    {
+      "id": "ss252-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "From a parent’s point of view, homework can build good habits, whereas too much of it can cause stress.",
+      "promptZh": "從家長的角度來看，功課可以培養良好習慣，但過多功課也可能造成壓力。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From a parent’s point of view, homework has both benefits and risks: on the one hand, it can build good habits; on the other hand, too much of it can cause stress.",
+      "answerZh": "從家長的角度來看，功課有好處也有風險：一方面，它可以培養良好習慣；另一方面，過多功課可能造成壓力。",
+      "answerZhSource": "pdf",
+      "highlight": "From a parent’s point of view, homework has both benefits and risks: on the one hand, it can build good habits; on the other hand, too much of it can cause stress."
+    },
+    {
+      "id": "ss252-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The new phone is heavier than the old one. However, its battery lasts longer.",
+      "promptZh": "新電話比舊電話重。然而，它的電池續航時間較長。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new phone comes with strengths and weaknesses. On the one hand, it is heavier than the old one; on the other hand, its battery lasts longer.",
+      "answerZh": "新電話有優點也有缺點。一方面，它比舊電話重；另一方面，它的電池續航時間較長。",
+      "answerZhSource": "pdf",
+      "highlight": "The new phone comes with strengths and weaknesses. On the one hand, it is heavier than the old one; on the other hand, its battery lasts longer."
+    },
+    {
+      "id": "ss252-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A shared office makes it easy for people to exchange ideas. Its drawback is that noise may reduce concentration.",
+      "promptZh": "共用辦公室方便人們交流意見，但缺點是噪音可能令人難以集中精神。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In a shared office, workers face a trade-off: on the one hand, they can exchange ideas easily; on the other hand, noise may reduce their concentration.",
+      "answerZh": "員工在共用辦公室工作時需要作出取捨：一方面，他們可以輕鬆交流意見；另一方面，噪音可能令他們難以集中精神。",
+      "answerZhSource": "pdf",
+      "highlight": "In a shared office, workers face a trade-off: on the one hand, they can exchange ideas easily; on the other hand, noise may reduce their concentration."
+    },
+    {
+      "id": "ss252-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "For short journeys, a bicycle is cheap to use, although bad weather can make travelling difficult.",
+      "promptZh": "就短途旅程而言，使用單車成本低，但惡劣天氣可能令出行變得困難。",
+      "promptZhSource": "pdf",
+      "starter": "Choosing",
+      "answer": "Choosing a bicycle for short journeys involves advantages and disadvantages: on the one hand, it is cheap to use; on the other hand, bad weather can make travelling difficult.",
+      "answerZh": "選擇以單車作短途出行有利有弊：一方面，使用成本低；另一方面，惡劣天氣可能令出行變得困難。",
+      "answerZhSource": "pdf",
+      "highlight": "Choosing a bicycle for short journeys involves advantages and disadvantages: on the one hand, it is cheap to use; on the other hand, bad weather can make travelling difficult."
+    },
+    {
+      "id": "ss252-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "School uniforms can reduce pressure about clothing, but they limit personal choice.",
+      "promptZh": "校服可以減輕學生在衣着方面的壓力，但會限制個人選擇。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On the one hand, school uniforms can reduce pressure about clothing; on the other hand, they limit personal choice.",
+      "answerZh": "校服一方面可以減輕學生在衣着方面的壓力；另一方面，會限制個人選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "On the one hand, school uniforms can reduce pressure about clothing; on the other hand, they limit personal choice."
+    },
+    {
+      "id": "ss252-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "For local shops, social media advertising takes time to manage, but it is inexpensive.",
+      "promptZh": "對本地商店而言，管理社交媒體廣告需要時間，但成本較低。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For local shops, social media advertising brings both benefits and demands: on the one hand, it takes time to manage; on the other hand, it is inexpensive.",
+      "answerZh": "對本地商店而言，社交媒體廣告帶來好處，也帶來額外要求：一方面，管理廣告需要時間；另一方面，成本較低。",
+      "answerZhSource": "pdf",
+      "highlight": "For local shops, social media advertising brings both benefits and demands: on the one hand, it takes time to manage; on the other hand, it is inexpensive."
+    },
+    {
+      "id": "ss252-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The new park gives residents more green space. However, nearby roads may become busier.",
+      "promptZh": "新公園為居民提供更多綠化空間。然而，附近道路可能會變得更繁忙。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new park may affect the area in different ways. On the one hand, residents gain more green space; on the other hand, nearby roads may become busier.",
+      "answerZh": "新公園可能以不同方式影響該區。一方面，居民獲得更多綠化空間；另一方面，附近道路可能會變得更繁忙。",
+      "answerZhSource": "pdf",
+      "highlight": "The new park may affect the area in different ways. On the one hand, residents gain more green space; on the other hand, nearby roads may become busier."
+    },
+    {
+      "id": "ss252-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Students who join a sports team lose some free time because of training, but they can make new friends.",
+      "promptZh": "參加運動隊的學生會因訓練而失去部分空閒時間，但可以結識新朋友。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When students join a sports team, they face a trade-off: on the one hand, training takes up some of their free time; on the other hand, they can make new friends.",
+      "answerZh": "學生參加運動隊時需要作出取捨：一方面，訓練佔用部分空閒時間；另一方面，他們可以結識新朋友。",
+      "answerZhSource": "pdf",
+      "highlight": "When students join a sports team, they face a trade-off: on the one hand, training takes up some of their free time; on the other hand, they can make new friends."
+    },
+    {
+      "id": "ss252-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Digital textbooks mean that students carry fewer books, but they spend more time looking at screens.",
+      "promptZh": "電子課本令學生少帶一些書，但也令他們花更多時間觀看螢幕。",
+      "promptZhSource": "pdf",
+      "starter": "Using",
+      "answer": "Using digital textbooks has advantages and disadvantages: on the one hand, students carry fewer books; on the other hand, they spend more time looking at screens.",
+      "answerZh": "使用電子課本有利有弊：一方面，學生少帶一些書；另一方面，他們花更多時間觀看螢幕。",
+      "answerZhSource": "pdf",
+      "highlight": "Using digital textbooks has advantages and disadvantages: on the one hand, students carry fewer books; on the other hand, they spend more time looking at screens."
+    },
+    {
+      "id": "ss252-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Some food may be wasted when people buy in bulk, but buying in bulk can save money.",
+      "promptZh": "人們大量購買食物時，部分食物可能會被浪費，但大量購買可以節省金錢。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On the one hand, buying food in bulk may cause some of it to be wasted; on the other hand, it can save money.",
+      "answerZh": "大量購買食物一方面可能造成浪費；另一方面，也可以節省金錢。",
+      "answerZhSource": "pdf",
+      "highlight": "On the one hand, buying food in bulk may cause some of it to be wasted; on the other hand, it can save money."
+    },
+    {
+      "id": "ss252-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "From an employer’s point of view, flexible hours can improve staff satisfaction, but they can make scheduling harder.",
+      "promptZh": "從僱主的角度來看，彈性工作時間可以提高員工滿意度，但會增加編排工作時間的難度。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From an employer’s point of view, flexible hours create both opportunities and challenges: on the one hand, they can improve staff satisfaction; on the other hand, they can make scheduling harder.",
+      "answerZh": "從僱主的角度來看，彈性工作時間同時帶來機會和挑戰：一方面，它可以提高員工滿意度；另一方面，它會增加編排工作時間的難度。",
+      "answerZhSource": "pdf",
+      "highlight": "From an employer’s point of view, flexible hours create both opportunities and challenges: on the one hand, they can improve staff satisfaction; on the other hand, they can make scheduling harder."
+    },
+    {
+      "id": "ss252-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The city-centre flat is noisy at night. However, it is close to many services.",
+      "promptZh": "這個市中心單位晚上十分嘈吵。然而，它鄰近多種服務設施。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The city-centre flat comes with clear benefits and drawbacks. On the one hand, it is noisy at night; on the other hand, it is close to many services.",
+      "answerZh": "這個市中心單位有明顯的優點和缺點。一方面，它晚上十分嘈吵；另一方面，它鄰近多種服務設施。",
+      "answerZhSource": "pdf",
+      "highlight": "The city-centre flat comes with clear benefits and drawbacks. On the one hand, it is noisy at night; on the other hand, it is close to many services."
+    },
+    {
+      "id": "ss252-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Group projects allow students to share the workload, but some members may contribute less.",
+      "promptZh": "小組項目讓學生分擔工作，但部分成員可能付出較少。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In group projects, students face two different possibilities: on the one hand, they can share the workload; on the other hand, some members may contribute less.",
+      "answerZh": "在小組項目中，學生可能遇到兩種不同情況：一方面，他們可以分擔工作；另一方面，部分成員可能付出較少。",
+      "answerZhSource": "pdf",
+      "highlight": "In group projects, students face two different possibilities: on the one hand, they can share the workload; on the other hand, some members may contribute less."
+    },
+    {
+      "id": "ss252-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A pet can provide companionship, although caring for it takes time and money.",
+      "promptZh": "寵物可以陪伴主人，但照顧寵物需要時間和金錢。",
+      "promptZhSource": "pdf",
+      "starter": "Deciding",
+      "answer": "Deciding to keep a pet involves a trade-off: on the one hand, an animal can provide companionship; on the other hand, caring for it takes time and money.",
+      "answerZh": "決定飼養寵物需要作出取捨：一方面，動物可以陪伴主人；另一方面，照顧牠需要時間和金錢。",
+      "answerZhSource": "pdf",
+      "highlight": "Deciding to keep a pet involves a trade-off: on the one hand, an animal can provide companionship; on the other hand, caring for it takes time and money."
+    },
+    {
+      "id": "ss252-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Part-time work gives teenagers useful experience, but it may reduce their study time.",
+      "promptZh": "兼職工作能為青少年提供實用經驗，但可能減少他們的溫習時間。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On the one hand, part-time work gives teenagers useful experience; on the other hand, it may reduce their study time.",
+      "answerZh": "兼職工作一方面能為青少年提供實用經驗；另一方面，可能減少他們的溫習時間。",
+      "answerZhSource": "pdf",
+      "highlight": "On the one hand, part-time work gives teenagers useful experience; on the other hand, it may reduce their study time."
+    },
+    {
+      "id": "ss252-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "For hospitals, some patients may struggle to use online appointment systems. However, these systems can reduce waiting times.",
+      "promptZh": "對醫院而言，部分病人可能不懂使用網上預約系統。然而，這些系統可以縮短輪候時間。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For hospitals, online appointments create both benefits and difficulties: on the one hand, some patients may struggle with the technology; on the other hand, the systems can reduce waiting times.",
+      "answerZh": "對醫院而言，網上預約同時帶來好處和困難：一方面，部分病人可能不懂使用相關科技；另一方面，這些系統可以縮短輪候時間。",
+      "answerZhSource": "pdf",
+      "highlight": "For hospitals, online appointments create both benefits and difficulties: on the one hand, some patients may struggle with the technology; on the other hand, the systems can reduce waiting times."
+    },
+    {
+      "id": "ss252-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The tourism plan could create jobs, but it might damage the natural area.",
+      "promptZh": "這項旅遊計劃可能創造職位，但也可能破壞自然環境。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The tourism plan presents a difficult balance. On the one hand, it could create jobs; on the other hand, it might damage the natural area.",
+      "answerZh": "這項旅遊計劃需要在兩方面取得平衡。一方面，它可能創造職位；另一方面，它也可能破壞自然環境。",
+      "answerZhSource": "pdf",
+      "highlight": "The tourism plan presents a difficult balance. On the one hand, it could create jobs; on the other hand, it might damage the natural area."
+    },
+    {
+      "id": "ss252-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A dead phone battery may leave people unable to pay, although phone payments are normally quick.",
+      "promptZh": "電話沒有電時，人們可能無法付款，但電話付款通常十分迅速。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When people pay by phone, they face a practical trade-off: on the one hand, a dead battery can leave them unable to pay; on the other hand, transactions are normally quick.",
+      "answerZh": "人們使用電話付款時需要面對實際取捨：一方面，電話沒有電時可能無法付款；另一方面，交易通常十分迅速。",
+      "answerZhSource": "pdf",
+      "highlight": "When people pay by phone, they face a practical trade-off: on the one hand, a dead battery can leave them unable to pay; on the other hand, transactions are normally quick."
+    },
+    {
+      "id": "ss252-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "An open-plan office makes communication easier, but it makes private conversations difficult.",
+      "promptZh": "開放式辦公室令溝通更容易，但私人談話也會變得困難。",
+      "promptZhSource": "pdf",
+      "starter": "Working",
+      "answer": "Working in an open-plan office has mixed effects: on the one hand, communication is easier; on the other hand, private conversations are difficult.",
+      "answerZh": "在開放式辦公室工作帶來不同影響：一方面，溝通更容易；另一方面，私人談話會變得困難。",
+      "answerZhSource": "pdf",
+      "highlight": "Working in an open-plan office has mixed effects: on the one hand, communication is easier; on the other hand, private conversations are difficult."
+    },
+    {
+      "id": "ss252-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Artificial intelligence can help workers complete routine tasks, but it may replace some jobs.",
+      "promptZh": "人工智能可以協助員工完成例行工作，但也可能取代部分職位。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On the one hand, artificial intelligence can help workers complete routine tasks; on the other hand, it may replace some jobs.",
+      "answerZh": "人工智能一方面可以協助員工完成例行工作；另一方面，也可能取代部分職位。",
+      "answerZhSource": "pdf",
+      "highlight": "On the one hand, artificial intelligence can help workers complete routine tasks; on the other hand, it may replace some jobs."
+    },
+    {
+      "id": "ss252-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "From a teacher’s point of view, quieter students may be overlooked during group discussions, but these discussions encourage participation.",
+      "promptZh": "從教師的角度來看，較安靜的學生在小組討論中可能被忽略，但這類討論能鼓勵學生參與。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From a teacher’s point of view, group discussions raise two considerations: on the one hand, quieter students may be overlooked; on the other hand, the discussions encourage participation.",
+      "answerZh": "從教師的角度來看，小組討論涉及兩項考慮：一方面，較安靜的學生可能被忽略；另一方面，討論能鼓勵學生參與。",
+      "answerZhSource": "pdf",
+      "highlight": "From a teacher’s point of view, group discussions raise two considerations: on the one hand, quieter students may be overlooked; on the other hand, the discussions encourage participation."
+    },
+    {
+      "id": "ss252-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Widening the road may allow traffic to move more smoothly. The cost is that several trees would be removed.",
+      "promptZh": "擴闊道路可能令交通更暢順，代價是需要移除數棵樹木。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road-widening proposal has benefits and costs. On the one hand, traffic may move more smoothly; on the other hand, several trees would be removed.",
+      "answerZh": "擴闊道路的建議有好處也有代價。一方面，交通可能變得更暢順；另一方面，需要移除數棵樹木。",
+      "answerZhSource": "pdf",
+      "highlight": "The road-widening proposal has benefits and costs. On the one hand, traffic may move more smoothly; on the other hand, several trees would be removed."
+    },
+    {
+      "id": "ss252-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Living costs in a city are often high, although residents have access to many services.",
+      "promptZh": "城市的生活成本通常很高，但居民可以使用多種服務。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In city life, residents often face a trade-off: on the one hand, living costs are high; on the other hand, they have access to many services.",
+      "answerZh": "在城市生活中，居民往往需要作出取捨：一方面，生活成本高昂；另一方面，他們可以使用多種服務。",
+      "answerZhSource": "pdf",
+      "highlight": "In city life, residents often face a trade-off: on the one hand, living costs are high; on the other hand, they have access to many services."
+    },
+    {
+      "id": "ss252-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Phones can support learning in school, but they can also distract students.",
+      "promptZh": "電話可以支援校內學習，但也可能令學生分心。",
+      "promptZhSource": "pdf",
+      "starter": "Allowing",
+      "answer": "Allowing students to use phones at school involves both opportunity and risk: on the one hand, the devices can support learning; on the other hand, they can cause distraction.",
+      "answerZh": "允許學生在校內使用電話同時帶來機會和風險：一方面，這些裝置可以支援學習；另一方面，也可能令學生分心。",
+      "answerZhSource": "pdf",
+      "highlight": "Allowing students to use phones at school involves both opportunity and risk: on the one hand, the devices can support learning; on the other hand, they can cause distraction."
+    },
+    {
+      "id": "ss252-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Longer daily working hours may be tiring under a four-day working week, but the arrangement may improve work-life balance.",
+      "promptZh": "在四天工作周下，每日較長的工時可能令人疲倦，但這種安排也可能改善工作與生活的平衡。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On the one hand, a four-day working week may require longer and more tiring working days; on the other hand, it may improve work-life balance.",
+      "answerZh": "四天工作周一方面可能導致每日工時更長、更令人疲倦；另一方面，也可能改善工作與生活的平衡。",
+      "answerZhSource": "pdf",
+      "highlight": "On the one hand, a four-day working week may require longer and more tiring working days; on the other hand, it may improve work-life balance."
+    },
+    {
+      "id": "ss252-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "For small businesses, selling online can reach more customers, but delivery and return costs can be difficult to control.",
+      "promptZh": "對小型企業而言，網上銷售可以接觸更多顧客，但送貨及退貨成本可能難以控制。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For small businesses, selling online offers opportunities and challenges: on the one hand, it can reach more customers; on the other hand, delivery and return costs can be difficult to control.",
+      "answerZh": "對小型企業而言，網上銷售同時帶來機會和挑戰：一方面，它可以接觸更多顧客；另一方面，送貨及退貨成本可能難以控制。",
+      "answerZhSource": "pdf",
+      "highlight": "For small businesses, selling online offers opportunities and challenges: on the one hand, it can reach more customers; on the other hand, delivery and return costs can be difficult to control."
+    },
+    {
+      "id": "ss252-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The city needs more homes, but residents also want to protect open space.",
+      "promptZh": "城市需要更多住宅，但居民也希望保護休憩用地。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The decision to build more flats creates a difficult balance. On the one hand, the city needs more homes; on the other hand, residents want to protect open space.",
+      "answerZh": "增建住宅的決定需要在兩方面取得平衡。一方面，城市需要更多住宅；另一方面，居民希望保護休憩用地。",
+      "answerZhSource": "pdf",
+      "highlight": "The decision to build more flats creates a difficult balance. On the one hand, the city needs more homes; on the other hand, residents want to protect open space."
+    },
+    {
+      "id": "ss252-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "A permanent job offers greater security, whereas freelance work may provide more freedom.",
+      "promptZh": "長期職位提供較大保障，而自由工作可能帶來更多自主空間。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When choosing between a permanent job and freelance work, people must weigh two different priorities: on the one hand, a permanent job offers greater security; on the other hand, freelance work may provide more freedom.",
+      "answerZh": "在長期職位和自由工作之間作選擇時，人們需要衡量兩項不同考慮：一方面，長期職位提供較大保障；另一方面，自由工作可能帶來更多自主空間。",
+      "answerZhSource": "pdf",
+      "highlight": "When choosing between a permanent job and freelance work, people must weigh two different priorities: on the one hand, a permanent job offers greater security; on the other hand, freelance work may provide more freedom."
+    },
+    {
+      "id": "ss252-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "When several generations live together, family members can support one another, but they may have less privacy.",
+      "promptZh": "幾代家庭成員同住時，可以互相支持，但各人的私人空間可能會減少。",
+      "promptZhSource": "pdf",
+      "starter": "Living",
+      "answer": "Living with several generations under one roof brings both support and pressure: on the one hand, family members can support one another; on the other hand, they may have less privacy.",
+      "answerZh": "幾代家庭成員同住既帶來支持，也帶來壓力：一方面，家庭成員可以互相支持；另一方面，各人的私人空間可能會減少。",
+      "answerZhSource": "pdf",
+      "highlight": "Living with several generations under one roof brings both support and pressure: on the one hand, family members can support one another; on the other hand, they may have less privacy."
+    },
+    {
+      "id": "ss252-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Electric cars produce no exhaust fumes while being driven, but making their batteries requires large amounts of raw materials.",
+      "promptZh": "電動車在行駛時不會排放廢氣，但製造電池需要大量原材料。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On the one hand, electric cars produce no exhaust fumes while being driven; on the other hand, making their batteries requires large amounts of raw materials.",
+      "answerZh": "電動車一方面在行駛時不會排放廢氣；另一方面，製造電池需要大量原材料。",
+      "answerZhSource": "pdf",
+      "highlight": "On the one hand, electric cars produce no exhaust fumes while being driven; on the other hand, making their batteries requires large amounts of raw materials."
+    },
+    {
+      "id": "ss252-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "From the government’s point of view, raising public transport fares could place more pressure on low-income passengers, but it could increase revenue.",
+      "promptZh": "從政府的角度來看，提高公共交通票價可能加重低收入乘客的負擔，但可以增加收入。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the government’s point of view, raising public transport fares presents a difficult trade-off: on the one hand, it could place greater pressure on low-income passengers; on the other hand, it could increase revenue.",
+      "answerZh": "從政府的角度來看，提高公共交通票價需要作出困難取捨：一方面，這可能加重低收入乘客的負擔；另一方面，可以增加收入。",
+      "answerZhSource": "pdf",
+      "highlight": "From the government’s point of view, raising public transport fares presents a difficult trade-off: on the one hand, it could place greater pressure on low-income passengers; on the other hand, it could increase revenue."
+    },
+    {
+      "id": "ss252-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Recording every lesson might make teachers and students less comfortable speaking openly. However, absent students could review the material.",
+      "promptZh": "錄影每一堂課可能令師生較不願意公開發言。然而，缺席學生可以重溫教材。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The proposal to record all lessons raises two important concerns. On the one hand, teachers and students might feel less comfortable speaking openly; on the other hand, absent students could review the material.",
+      "answerZh": "錄影所有課堂的建議涉及兩項重要考慮。一方面，師生可能較不願意公開發言；另一方面，缺席學生可以重溫教材。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposal to record all lessons raises two important concerns. On the one hand, teachers and students might feel less comfortable speaking openly; on the other hand, absent students could review the material."
+    },
+    {
+      "id": "ss252-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "International visitors support local businesses, but popular destinations can become overcrowded.",
+      "promptZh": "國際旅客能支持本地企業，但熱門旅遊地點可能變得過度擠迫。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In international tourism, communities can experience both benefits and pressure: on the one hand, visitors support local businesses; on the other hand, popular destinations can become overcrowded.",
+      "answerZh": "在國際旅遊業中，社區可能同時獲得好處和承受壓力：一方面，旅客支持本地企業；另一方面，熱門旅遊地點可能變得過度擠迫。",
+      "answerZhSource": "pdf",
+      "highlight": "In international tourism, communities can experience both benefits and pressure: on the one hand, visitors support local businesses; on the other hand, popular destinations can become overcrowded."
+    },
+    {
+      "id": "ss252-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Self-service machines may reduce the personal support available to customers, although they can provide faster service.",
+      "promptZh": "自助服務機可能減少顧客獲得的個人協助，但可以提供更快捷的服務。",
+      "promptZhSource": "pdf",
+      "starter": "Introducing",
+      "answer": "Introducing self-service machines offers efficiency but also creates a risk: on the one hand, customers may receive less personal support; on the other hand, they may be served more quickly.",
+      "answerZh": "引入自助服務機可以提升效率，但也帶來風險：一方面，顧客可能獲得較少個人協助；另一方面，他們可能更快獲得服務。",
+      "answerZhSource": "pdf",
+      "highlight": "Introducing self-service machines offers efficiency but also creates a risk: on the one hand, customers may receive less personal support; on the other hand, they may be served more quickly."
+    },
+    {
+      "id": "ss252-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 25
+      },
+      "prompt": "Allowing employees to choose where they work may improve morale and staff retention, but it can make team communication less consistent.",
+      "promptZh": "允許員工選擇工作地點可能提高士氣和員工留任率，但可能令團隊溝通變得不一致。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On the one hand, allowing employees to choose where they work may improve morale and staff retention; on the other hand, it can make team communication less consistent.",
+      "answerZh": "允許員工選擇工作地點一方面可能提高士氣和員工留任率；另一方面，也可能令團隊溝通變得不一致。",
+      "answerZhSource": "pdf",
+      "highlight": "On the one hand, allowing employees to choose where they work may improve morale and staff retention; on the other hand, it can make team communication less consistent."
+    },
+    {
+      "id": "ss252-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "For universities, admitting more international students may place pressure on housing and support services. However, it can increase cultural exchange.",
+      "promptZh": "對大學而言，取錄更多國際學生可能令住宿及支援服務承受壓力。然而，這也能促進文化交流。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For universities, admitting more international students brings both gains and pressures: on the one hand, housing and support services may come under pressure; on the other hand, cultural exchange may increase.",
+      "answerZh": "對大學而言，取錄更多國際學生同時帶來得益和壓力：一方面，住宿及支援服務可能承受壓力；另一方面，文化交流可能增加。",
+      "answerZhSource": "pdf",
+      "highlight": "For universities, admitting more international students brings both gains and pressures: on the one hand, housing and support services may come under pressure; on the other hand, cultural exchange may increase."
+    },
+    {
+      "id": "ss252-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The old market needs safer and more modern facilities, but local residents want to preserve its history.",
+      "promptZh": "舊市場需要更安全和現代化的設施，但本區居民希望保留它的歷史。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The plan to redevelop the old market creates a difficult balance. On the one hand, the area needs safer and more modern facilities; on the other hand, local residents want to preserve its history.",
+      "answerZh": "重建舊市場的計劃需要在兩方面取得平衡。一方面，該區需要更安全和現代化的設施；另一方面，本區居民希望保留它的歷史。",
+      "answerZhSource": "pdf",
+      "highlight": "The plan to redevelop the old market creates a difficult balance. On the one hand, the area needs safer and more modern facilities; on the other hand, local residents want to preserve its history."
+    },
+    {
+      "id": "ss252-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Stricter environmental rules may increase operating costs for some businesses, but they may also reduce pollution.",
+      "promptZh": "更嚴格的環保規例可能增加部分企業的營運成本，但也可能減少污染。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When governments introduce stricter environmental rules, they must weigh two effects: on the one hand, some businesses may face higher operating costs; on the other hand, pollution may fall.",
+      "answerZh": "政府引入更嚴格的環保規例時，需要衡量兩方面的影響：一方面，部分企業可能面對更高營運成本；另一方面，污染可能減少。",
+      "answerZhSource": "pdf",
+      "highlight": "When governments introduce stricter environmental rules, they must weigh two effects: on the one hand, some businesses may face higher operating costs; on the other hand, pollution may fall."
+    },
+    {
+      "id": "ss252-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Increasing airport capacity can support tourism and business, but it may increase noise and carbon emissions.",
+      "promptZh": "增加機場容量可以支持旅遊業和商業發展，但也可能增加噪音及碳排放。",
+      "promptZhSource": "pdf",
+      "starter": "Expanding",
+      "answer": "Expanding airport capacity involves a serious trade-off: on the one hand, it can support tourism and business; on the other hand, it may increase noise and carbon emissions.",
+      "answerZh": "擴大機場容量涉及重大取捨：一方面，它可以支持旅遊業和商業發展；另一方面，也可能增加噪音及碳排放。",
+      "answerZhSource": "pdf",
+      "highlight": "Expanding airport capacity involves a serious trade-off: on the one hand, it can support tourism and business; on the other hand, it may increase noise and carbon emissions."
+    },
+    {
+      "id": "ss252-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Facial recognition can improve security in crowded places, but it raises concerns about privacy and the misuse of personal data.",
+      "promptZh": "人面識別技術可以提高人多地方的保安水平，但也引起私隱及個人資料被濫用的疑慮。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On the one hand, using facial recognition can improve security in crowded places; on the other hand, it raises concerns about privacy and the misuse of personal data.",
+      "answerZh": "使用人面識別技術一方面可以提高人多地方的保安水平；另一方面，也引起私隱及個人資料被濫用的疑慮。",
+      "answerZhSource": "pdf",
+      "highlight": "On the one hand, using facial recognition can improve security in crowded places; on the other hand, it raises concerns about privacy and the misuse of personal data."
+    },
+    {
+      "id": "ss252-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "From a public-health perspective, a tax on sugary drinks may affect lower-income households more heavily, but it may reduce consumption.",
+      "promptZh": "從公共衞生角度來看，含糖飲品稅可能對低收入家庭造成較大影響，但也可能減少飲用量。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From a public-health perspective, taxing sugary drinks has both benefits and costs: on the one hand, the policy may affect lower-income households more heavily; on the other hand, it may reduce consumption.",
+      "answerZh": "從公共衞生角度來看，向含糖飲品徵稅既有好處也有代價：一方面，政策可能對低收入家庭造成較大影響；另一方面，也可能減少飲用量。",
+      "answerZhSource": "pdf",
+      "highlight": "From a public-health perspective, taxing sugary drinks has both benefits and costs: on the one hand, the policy may affect lower-income households more heavily; on the other hand, it may reduce consumption."
+    },
+    {
+      "id": "ss252-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Cashless payments are fast and easy to record. However, people without suitable devices or bank accounts may be left behind.",
+      "promptZh": "無現金付款快捷，而且容易留下紀錄。然而，沒有合適裝置或銀行戶口的人可能會被排除在外。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The move towards cashless payment creates both opportunity and exclusion. On the one hand, digital payments are fast and easy to record; on the other hand, people without suitable devices or bank accounts may be left behind.",
+      "answerZh": "轉向無現金付款同時帶來機會和排斥。一方面，電子付款快捷，而且容易留下紀錄；另一方面，沒有合適裝置或銀行戶口的人可能會被排除在外。",
+      "answerZhSource": "pdf",
+      "highlight": "The move towards cashless payment creates both opportunity and exclusion. On the one hand, digital payments are fast and easy to record; on the other hand, people without suitable devices or bank accounts may be left behind."
+    },
+    {
+      "id": "ss252-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Removing university tuition fees could widen access, but governments would need to find a large amount of public funding.",
+      "promptZh": "取消大學學費可以讓更多人接受大學教育，但政府需要尋找大量公共資金。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the debate over free university education, governments face two competing priorities: on the one hand, they would need to find a large amount of public funding; on the other hand, removing tuition fees could widen access.",
+      "answerZh": "在免費大學教育的討論中，政府需要處理兩項互相競爭的考慮：一方面，政府需要尋找大量公共資金；另一方面，取消學費可以讓更多人接受大學教育。",
+      "answerZhSource": "pdf",
+      "highlight": "In the debate over free university education, governments face two competing priorities: on the one hand, they would need to find a large amount of public funding; on the other hand, removing tuition fees could widen access."
+    },
+    {
+      "id": "ss252-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "A fully automated transport system could improve efficiency and reduce human error, but technical failures could affect many passengers at once.",
+      "promptZh": "全自動交通系統可以提高效率並減少人為錯誤，但技術故障可能同時影響大量乘客。",
+      "promptZhSource": "pdf",
+      "starter": "Adopting",
+      "answer": "Adopting a fully automated transport system involves a serious trade-off: on the one hand, automation could improve efficiency and reduce human error; on the other hand, technical failures could affect many passengers at once.",
+      "answerZh": "採用全自動交通系統涉及重大取捨：一方面，自動化可以提高效率並減少人為錯誤；另一方面，技術故障可能同時影響大量乘客。",
+      "answerZhSource": "pdf",
+      "highlight": "Adopting a fully automated transport system involves a serious trade-off: on the one hand, automation could improve efficiency and reduce human error; on the other hand, technical failures could affect many passengers at once."
+    }
+  ]
+}

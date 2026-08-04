@@ -1,0 +1,1272 @@
+{
+  "id": "ss245",
+  "order": 245,
+  "slug": "only-a-matter-of-time-before",
+  "title": "「It is only a matter of time before + clause」表示「某事遲早會發生」",
+  "titleZh": "「It is only a matter of time before + clause」表示「某事遲早會發生」",
+  "titleEn": "It is only a matter of time before + clause",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence Structure 244 - 「It is only a matter of time before + clause」表示「某事遲早會發生」.pdf",
+    "pageCount": 24,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "exercisePages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "answerPages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 244; it is assigned system ID ss245 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "It + be + only a matter of time + before + subject + verb",
+  "formulas": [
+    {
+      "id": "ss245-formula-01",
+      "labelEn": "Core formula",
+      "labelZh": "核心公式",
+      "formula": "It + be + only a matter of time + before + subject + verb"
+    },
+    {
+      "id": "ss245-formula-02",
+      "labelEn": "Present",
+      "labelZh": "現在式",
+      "formula": "It is only a matter of time before + present-tense clause"
+    },
+    {
+      "id": "ss245-formula-03",
+      "labelEn": "Past",
+      "labelZh": "過去式",
+      "formula": "It was only a matter of time before + past-tense clause"
+    },
+    {
+      "id": "ss245-formula-04",
+      "labelEn": "Future or modal",
+      "labelZh": "將來式或情態形式",
+      "formula": "It will / may / could only be a matter of time before + clause"
+    },
+    {
+      "id": "ss245-formula-05",
+      "labelEn": "Reporting",
+      "labelZh": "報述形式",
+      "formula": "Subject + reporting verb + it is / was only a matter of time before + clause"
+    },
+    {
+      "id": "ss245-formula-06",
+      "labelEn": "Question",
+      "labelZh": "疑問形式",
+      "formula": "Is / Was it only a matter of time before + clause?"
+    }
+  ],
+  "example": "It is only a matter of time before the system fails.",
+  "exampleZh": "這個系統失靈只是時間問題。",
+  "examples": [
+    {
+      "id": "ss245-example-01",
+      "en": "It is only a matter of time before the system fails.",
+      "zh": "這個系統失靈只是時間問題。",
+      "highlight": "It is only a matter of time before the system fails."
+    },
+    {
+      "id": "ss245-example-02",
+      "en": "It was only a matter of time before the truth came out.",
+      "zh": "真相大白只是時間問題。",
+      "highlight": "It was only a matter of time before the truth came out."
+    },
+    {
+      "id": "ss245-example-03",
+      "en": "Experts believe it is only a matter of time before prices rise again.",
+      "zh": "專家認為價格再次上升只是時間問題。",
+      "highlight": "Experts believe it is only a matter of time before prices rise again."
+    }
+  ],
+  "meaning": {
+    "zh": "表示說話者認為某件事幾乎必定會發生，現在只是在等待它發生。"
+  },
+  "rules": [
+    {
+      "id": "ss245-rule-01",
+      "zh": "核心形式可按時間變為 It is、It was 或 It will only be a matter of time before + clause，但「某事遲早會發生」的意思不變。",
+      "en": "Use the complete core expression with the appropriate form of be: It is, It was or It will only be a matter of time before + clause.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is only a matter of time before the battery runs out."
+      ]
+    },
+    {
+      "id": "ss245-rule-02",
+      "zh": "before 後必須接含有自己主語和動詞的完整子句，而不是單獨的 V-ing 或名詞片語。",
+      "en": "Before must be followed by a complete clause with its own subject and verb, not merely a V-ing form or noun phrase.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "before the system fails",
+        "Incorrect for this target: before failing"
+      ]
+    },
+    {
+      "id": "ss245-rule-03",
+      "zh": "表達將來事件時，基本現在式句型的 before 子句通常使用現在式，而不是 will。",
+      "en": "Use the present tense in the before-clause for a future event in the basic present form; do not normally insert will there.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is only a matter of time before the system fails."
+      ]
+    },
+    {
+      "id": "ss245-rule-04",
+      "zh": "過去情境通常使用 It was only a matter of time before + past simple，兩部分時態須一致。",
+      "en": "Keep past time consistent: use It was only a matter of time before + past simple for a past situation.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It was only a matter of time before the roof collapsed."
+      ]
+    },
+    {
+      "id": "ss245-rule-05",
+      "zh": "這個句型表示強烈預期，不等同只表示可能性的 might。只有原句含有相應不確定程度時才保留情態語氣。",
+      "en": "The structure expresses a strong expectation, not mere possibility. A sentence with might alone is weaker and is not automatically equivalent.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is only a matter of time before the damaged wall collapses."
+      ]
+    },
+    {
+      "id": "ss245-rule-06",
+      "zh": "目標表達不一定放在整句開首；它可放在轉述、問句、條件句或其他背景資料之後。",
+      "en": "The expression does not have to appear first. It may occur inside a reported statement, question, conditional sentence or another contextual frame.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Everyone knows it is only a matter of time before the secret is discovered."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss245-benefit-01",
+      "zh": "清楚表示事情不只是可能發生，而是有充分理由相信它遲早會發生。",
+      "en": "It clearly shows that something is expected to happen sooner or later.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss245-benefit-02",
+      "zh": "用一句簡潔句子表達「尚未發生，但遲早會發生」，縮短較長預測。",
+      "en": "It shortens a longer prediction that an event has not happened yet but will eventually happen.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss245-benefit-03",
+      "zh": "當問題持續惡化時，可用來提出清楚而有力的警告。",
+      "en": "It is useful for warnings about an outcome that is becoming difficult to avoid.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss245-benefit-04",
+      "zh": "把目前情況與預期結果連接起來，令預測更有組織。",
+      "en": "It makes predictions more organised by linking the present situation to its expected result.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss245-benefit-05",
+      "zh": "可自然放入轉述、根據資料的句子或條件句，避免所有答案都以 It 開始。",
+      "en": "It can be used inside longer sentences, including reports, evidence-based statements and conditions.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 244; it is assigned system ID ss245 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using only a matter of time before.",
+      "Preserve the original meaning, tense, certainty and important details.",
+      "The target expression may appear at the beginning or in the middle of the answer.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 only a matter of time before 改寫以下句子。",
+      "答案須保留原句的意思、時態、確定程度及重要資料。",
+      "目標句型可以放在答案的開首或中間。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss245-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The old battery will stop working sooner or later.",
+      "promptZh": "這枚舊電池遲早會停止運作。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is only a matter of time before the old battery stops working.",
+      "answerZh": "這枚舊電池停止運作只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "It is only a matter of time before the old battery stops working."
+    },
+    {
+      "id": "ss245-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If the heavy rain continues, the river will inevitably overflow.",
+      "promptZh": "如果大雨持續，河流必定會氾濫。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the heavy rain continues, it is only a matter of time before the river overflows.",
+      "answerZh": "如果大雨持續，河流氾濫只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "If the heavy rain continues, it is only a matter of time before the river overflows."
+    },
+    {
+      "id": "ss245-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Everyone knows the secret will eventually be discovered.",
+      "promptZh": "所有人都知道這個秘密最終會被發現。",
+      "promptZhSource": "pdf",
+      "starter": "Everyone",
+      "answer": "Everyone knows it is only a matter of time before the secret is discovered.",
+      "answerZh": "所有人都知道，這個秘密被發現只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Everyone knows it is only a matter of time before the secret is discovered."
+    },
+    {
+      "id": "ss245-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The coach believes the young player will score her first goal sooner or later.",
+      "promptZh": "教練相信這名年輕球員遲早會取得她的第一個入球。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach believes it is only a matter of time before the young player scores her first goal.",
+      "answerZh": "教練相信，這名年輕球員取得她的第一個入球只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach believes it is only a matter of time before the young player scores her first goal."
+    },
+    {
+      "id": "ss245-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Will the damaged wall inevitably collapse?",
+      "promptZh": "這幅受損的牆是否必定會倒塌？",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is it only a matter of time before the damaged wall collapses?",
+      "answerZh": "這幅受損的牆倒塌是否只是時間問題？",
+      "answerZhSource": "pdf",
+      "highlight": "Is it only a matter of time before the damaged wall collapses?"
+    },
+    {
+      "id": "ss245-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Experts are certain that electric buses will eventually become common in the city.",
+      "promptZh": "專家肯定電動巴士最終會在這個城市普及。",
+      "promptZhSource": "pdf",
+      "starter": "Experts",
+      "answer": "Experts are certain that it is only a matter of time before electric buses become common in the city.",
+      "answerZh": "專家肯定，電動巴士在這個城市普及只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Experts are certain that it is only a matter of time before electric buses become common in the city."
+    },
+    {
+      "id": "ss245-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We knew the ice would eventually melt in the warm room.",
+      "promptZh": "我們知道冰塊最終會在溫暖的房間內融化。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We knew it was only a matter of time before the ice melted in the warm room.",
+      "answerZh": "我們知道，冰塊在溫暖的房間內融化只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "We knew it was only a matter of time before the ice melted in the warm room."
+    },
+    {
+      "id": "ss245-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The doctor says the patient will recover sooner or later.",
+      "promptZh": "醫生說病人遲早會康復。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor says it is only a matter of time before the patient recovers.",
+      "answerZh": "醫生說，病人康復只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor says it is only a matter of time before the patient recovers."
+    },
+    {
+      "id": "ss245-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After the team’s repeated losses, the manager will inevitably make changes.",
+      "promptZh": "球隊接連落敗後，經理必定會作出改變。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the team’s repeated losses, it is only a matter of time before the manager makes changes.",
+      "answerZh": "球隊接連落敗後，經理作出改變只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "After the team’s repeated losses, it is only a matter of time before the manager makes changes."
+    },
+    {
+      "id": "ss245-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The cracked pipe will start leaking sooner or later.",
+      "promptZh": "這條有裂縫的水管遲早會開始漏水。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is only a matter of time before the cracked pipe starts leaking.",
+      "answerZh": "這條有裂縫的水管開始漏水只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "It is only a matter of time before the cracked pipe starts leaking."
+    },
+    {
+      "id": "ss245-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "People believe the new café will eventually become popular.",
+      "promptZh": "人們相信這間新咖啡店最終會大受歡迎。",
+      "promptZhSource": "pdf",
+      "starter": "People",
+      "answer": "People believe it is only a matter of time before the new café becomes popular.",
+      "answerZh": "人們相信，這間新咖啡店大受歡迎只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "People believe it is only a matter of time before the new café becomes popular."
+    },
+    {
+      "id": "ss245-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Because the machine is making a strange noise, it will almost certainly break down soon.",
+      "promptZh": "由於這部機器正在發出奇怪的聲音，它幾乎肯定很快便會故障。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the machine is making a strange noise, it is only a matter of time before it breaks down.",
+      "answerZh": "由於這部機器正在發出奇怪的聲音，它發生故障只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the machine is making a strange noise, it is only a matter of time before it breaks down."
+    },
+    {
+      "id": "ss245-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Could the repeated delays mean that passengers will inevitably lose patience?",
+      "promptZh": "接連延誤是否可能表示乘客必定會失去耐性？",
+      "promptZhSource": "pdf",
+      "starter": "Could",
+      "answer": "Could the repeated delays mean that it is only a matter of time before passengers lose patience?",
+      "answerZh": "接連延誤是否可能表示，乘客失去耐性只是時間問題？",
+      "answerZhSource": "pdf",
+      "highlight": "Could the repeated delays mean that it is only a matter of time before passengers lose patience?"
+    },
+    {
+      "id": "ss245-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The principal warned that the roof would eventually need to be replaced.",
+      "promptZh": "校長警告說，屋頂最終需要更換。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The principal warned that it was only a matter of time before the roof needed to be replaced.",
+      "answerZh": "校長警告說，屋頂需要更換只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The principal warned that it was only a matter of time before the roof needed to be replaced."
+    },
+    {
+      "id": "ss245-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "As the birds keep returning each spring, they will inevitably build nests here again.",
+      "promptZh": "由於這些鳥每年春天都會回來，牠們必定會再次在這裏築巢。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As the birds keep returning each spring, it is only a matter of time before they build nests here again.",
+      "answerZh": "由於這些鳥每年春天都會回來，牠們再次在這裏築巢只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "As the birds keep returning each spring, it is only a matter of time before they build nests here again."
+    },
+    {
+      "id": "ss245-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "It seems inevitable that online payments will replace cash in many shops.",
+      "promptZh": "看來網上付款必定會在很多商店取代現金。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It seems to be only a matter of time before online payments replace cash in many shops.",
+      "answerZh": "看來網上付款在很多商店取代現金只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "It seems to be only a matter of time before online payments replace cash in many shops."
+    },
+    {
+      "id": "ss245-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The villagers were certain that help would eventually arrive.",
+      "promptZh": "村民肯定援助最終會到達。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The villagers were certain that it was only a matter of time before help arrived.",
+      "answerZh": "村民肯定，援助到達只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The villagers were certain that it was only a matter of time before help arrived."
+    },
+    {
+      "id": "ss245-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Will someone eventually notice the missing file?",
+      "promptZh": "遲早會有人注意到這份遺失的檔案嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is it only a matter of time before someone notices the missing file?",
+      "answerZh": "有人注意到這份遺失的檔案是否只是時間問題？",
+      "answerZhSource": "pdf",
+      "highlight": "Is it only a matter of time before someone notices the missing file?"
+    },
+    {
+      "id": "ss245-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Company leaders know they cannot ignore these complaints forever and will eventually have to respond.",
+      "promptZh": "公司管理層知道他們不能永遠無視這些投訴，最終必須作出回應。",
+      "promptZhSource": "pdf",
+      "starter": "Company",
+      "answer": "Company leaders know it is only a matter of time before they have to respond to these complaints.",
+      "answerZh": "公司管理層知道，他們遲早必須回應這些投訴。",
+      "answerZhSource": "pdf",
+      "highlight": "Company leaders know it is only a matter of time before they have to respond to these complaints."
+    },
+    {
+      "id": "ss245-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "As the sky grew darker, everyone knew the storm would begin soon.",
+      "promptZh": "隨着天空愈來愈暗，所有人都知道暴風雨很快便會開始。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As the sky grew darker, everyone knew it was only a matter of time before the storm began.",
+      "answerZh": "隨着天空愈來愈暗，所有人都知道暴風雨開始只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "As the sky grew darker, everyone knew it was only a matter of time before the storm began."
+    },
+    {
+      "id": "ss245-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The public believes the truth will inevitably come out.",
+      "promptZh": "公眾相信真相必定會大白。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The public believes it is only a matter of time before the truth comes out.",
+      "answerZh": "公眾相信，真相大白只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The public believes it is only a matter of time before the truth comes out."
+    },
+    {
+      "id": "ss245-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Because the tyres were badly worn, one of them was bound to develop a puncture.",
+      "promptZh": "由於輪胎嚴重磨損，其中一個輪胎必定會爆胎。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the tyres were badly worn, it was only a matter of time before one of them developed a puncture.",
+      "answerZh": "由於輪胎嚴重磨損，其中一個輪胎爆胎只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the tyres were badly worn, it was only a matter of time before one of them developed a puncture."
+    },
+    {
+      "id": "ss245-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "If the heat continues, the ice cream will eventually melt.",
+      "promptZh": "如果高溫持續，雪糕最終會融化。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the heat continues, it is only a matter of time before the ice cream melts.",
+      "answerZh": "如果高溫持續，雪糕融化只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "If the heat continues, it is only a matter of time before the ice cream melts."
+    },
+    {
+      "id": "ss245-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "According to the researchers, another breakthrough is inevitable.",
+      "promptZh": "研究人員認為，再次取得突破是必然的。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the researchers, it is only a matter of time before another breakthrough is made.",
+      "answerZh": "研究人員認為，再次取得突破只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the researchers, it is only a matter of time before another breakthrough is made."
+    },
+    {
+      "id": "ss245-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Without repairs, the old bridge could eventually collapse.",
+      "promptZh": "如果不進行維修，這座舊橋最終可能會倒塌。",
+      "promptZhSource": "pdf",
+      "starter": "Without",
+      "answer": "Without repairs, it may only be a matter of time before the old bridge collapses.",
+      "answerZh": "如果不進行維修，這座舊橋倒塌可能只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Without repairs, it may only be a matter of time before the old bridge collapses."
+    },
+    {
+      "id": "ss245-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The teacher was sure the quiet class would eventually start talking.",
+      "promptZh": "老師肯定這個安靜的班別最終會開始交談。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher was sure it was only a matter of time before the quiet class started talking.",
+      "answerZh": "老師肯定，這個安靜的班別開始交談只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher was sure it was only a matter of time before the quiet class started talking."
+    },
+    {
+      "id": "ss245-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Will rising costs inevitably force the shop to raise its prices?",
+      "promptZh": "不斷上升的成本是否必定會迫使商店加價？",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is it only a matter of time before rising costs force the shop to raise its prices?",
+      "answerZh": "不斷上升的成本迫使商店加價是否只是時間問題？",
+      "answerZhSource": "pdf",
+      "highlight": "Is it only a matter of time before rising costs force the shop to raise its prices?"
+    },
+    {
+      "id": "ss245-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The match was becoming increasingly tense, and a player was bound to be sent off.",
+      "promptZh": "比賽氣氛愈來愈緊張，必定會有球員被罰離場。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With the match becoming increasingly tense, it was only a matter of time before a player was sent off.",
+      "answerZh": "隨着比賽氣氛愈來愈緊張，有球員被罰離場只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "With the match becoming increasingly tense, it was only a matter of time before a player was sent off."
+    },
+    {
+      "id": "ss245-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The software keeps freezing. The support team is certain that it will fail completely soon.",
+      "promptZh": "這套軟件不斷當機。支援團隊肯定它很快便會徹底故障。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The support team is certain that it is only a matter of time before the software fails completely.",
+      "answerZh": "支援團隊肯定，這套軟件徹底故障只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The support team is certain that it is only a matter of time before the software fails completely."
+    },
+    {
+      "id": "ss245-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Although the change has been slow, paper tickets will inevitably disappear.",
+      "promptZh": "雖然轉變一直很緩慢，但紙本車票必定會消失。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the change has been slow, it is only a matter of time before paper tickets disappear.",
+      "answerZh": "雖然轉變一直很緩慢，但紙本車票消失只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the change has been slow, it is only a matter of time before paper tickets disappear."
+    },
+    {
+      "id": "ss245-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The hospital director said the question was not whether the waiting list would grow longer, but when.",
+      "promptZh": "醫院總監表示，問題不在於輪候名單會否變長，而在於何時會變長。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital director said it was only a matter of time before the waiting list grew longer.",
+      "answerZh": "醫院總監表示，輪候名單變長只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital director said it was only a matter of time before the waiting list grew longer."
+    },
+    {
+      "id": "ss245-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "If people continue wasting water, restrictions will inevitably be introduced.",
+      "promptZh": "如果人們繼續浪費食水，限制措施必定會實施。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If people continue wasting water, it is only a matter of time before restrictions are introduced.",
+      "answerZh": "如果人們繼續浪費食水，實施限制措施只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "If people continue wasting water, it is only a matter of time before restrictions are introduced."
+    },
+    {
+      "id": "ss245-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Everyone knew the dog would eventually try to take some of the food.",
+      "promptZh": "所有人都知道這隻狗最終會嘗試拿走一些食物。",
+      "promptZhSource": "pdf",
+      "starter": "Everyone",
+      "answer": "Everyone knew it was only a matter of time before the dog tried to take some of the food.",
+      "answerZh": "所有人都知道，這隻狗嘗試拿走一些食物只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Everyone knew it was only a matter of time before the dog tried to take some of the food."
+    },
+    {
+      "id": "ss245-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "As the crack kept growing, was the window certain to break?",
+      "promptZh": "隨着裂縫不斷擴大，窗戶是否必定會破裂？",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As the crack kept growing, was it only a matter of time before the window broke?",
+      "answerZh": "隨着裂縫不斷擴大，窗戶破裂是否只是時間問題？",
+      "answerZhSource": "pdf",
+      "highlight": "As the crack kept growing, was it only a matter of time before the window broke?"
+    },
+    {
+      "id": "ss245-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Since the new employee is learning quickly, promotion seems inevitable.",
+      "promptZh": "由於這名新僱員學習得很快，獲得晉升似乎是必然的。",
+      "promptZhSource": "pdf",
+      "starter": "Since",
+      "answer": "Since the new employee is learning quickly, it seems to be only a matter of time before the new employee is promoted.",
+      "answerZh": "由於這名新僱員學習得很快，看來獲得晉升只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Since the new employee is learning quickly, it seems to be only a matter of time before the new employee is promoted."
+    },
+    {
+      "id": "ss245-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Once the team had lost trust in its captain, the captain would inevitably be replaced.",
+      "promptZh": "球隊一旦失去對隊長的信任，隊長便必定會被撤換。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the team had lost trust in its captain, it was only a matter of time before the captain was replaced.",
+      "answerZh": "球隊一旦失去對隊長的信任，隊長被撤換便只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the team had lost trust in its captain, it was only a matter of time before the captain was replaced."
+    },
+    {
+      "id": "ss245-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The council knows that residents will eventually demand safer crossings.",
+      "promptZh": "議會知道居民最終會要求更安全的過路設施。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council knows it is only a matter of time before residents demand safer crossings.",
+      "answerZh": "議會知道，居民要求更安全的過路設施只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The council knows it is only a matter of time before residents demand safer crossings."
+    },
+    {
+      "id": "ss245-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "As the child kept touching the wet paint, his hands were certain to get dirty.",
+      "promptZh": "由於這個孩子不斷觸摸未乾的油漆，他的雙手必定會弄髒。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As the child kept touching the wet paint, it was only a matter of time before his hands got dirty.",
+      "answerZh": "由於這個孩子不斷觸摸未乾的油漆，他的雙手弄髒只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "As the child kept touching the wet paint, it was only a matter of time before his hands got dirty."
+    },
+    {
+      "id": "ss245-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Unless orders increase, the factory will have to close sooner or later.",
+      "promptZh": "除非訂單增加，否則工廠遲早必須關閉。",
+      "promptZhSource": "pdf",
+      "starter": "Unless",
+      "answer": "Unless orders increase, it is only a matter of time before the factory has to close.",
+      "answerZh": "除非訂單增加，否則工廠被迫關閉只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Unless orders increase, it is only a matter of time before the factory has to close."
+    },
+    {
+      "id": "ss245-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Many critics believe the question is not whether the actor’s latest film will win an award, but when.",
+      "promptZh": "很多影評人認為，問題不在於這名演員的最新電影會否得獎，而在於何時得獎。",
+      "promptZhSource": "pdf",
+      "starter": "Many",
+      "answer": "Many critics think it is only a matter of time before the actor’s latest film wins an award.",
+      "answerZh": "很多影評人認為，這名演員的最新電影得獎只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Many critics think it is only a matter of time before the actor’s latest film wins an award."
+    },
+    {
+      "id": "ss245-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The security team believes that someone will eventually discover the weakness in the system.",
+      "promptZh": "保安團隊相信，最終會有人發現系統的弱點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The security team believes it is only a matter of time before someone discovers the weakness in the system.",
+      "answerZh": "保安團隊相信，有人發現系統的弱點只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The security team believes it is only a matter of time before someone discovers the weakness in the system."
+    },
+    {
+      "id": "ss245-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Because the population is ageing, demand for home-care services will inevitably rise.",
+      "promptZh": "由於人口老化，家居照顧服務的需求必定會上升。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the population is ageing, it is only a matter of time before demand for home-care services rises.",
+      "answerZh": "由於人口老化，家居照顧服務的需求上升只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the population is ageing, it is only a matter of time before demand for home-care services rises."
+    },
+    {
+      "id": "ss245-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The judge warned that, if the offences continued, a prison sentence would eventually be imposed.",
+      "promptZh": "法官警告說，如果繼續犯案，最終必定會判處監禁。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The judge warned that, if the offences continued, it was only a matter of time before a prison sentence was imposed.",
+      "answerZh": "法官警告說，如果繼續犯案，被判處監禁只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The judge warned that, if the offences continued, it was only a matter of time before a prison sentence was imposed."
+    },
+    {
+      "id": "ss245-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "If the company keeps ignoring the rules, will legal action become inevitable?",
+      "promptZh": "如果公司繼續無視規則，採取法律行動是否會變得無可避免？",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the company keeps ignoring the rules, is it only a matter of time before it faces legal action?",
+      "answerZh": "如果公司繼續無視規則，它面對法律行動是否只是時間問題？",
+      "answerZhSource": "pdf",
+      "highlight": "If the company keeps ignoring the rules, is it only a matter of time before it faces legal action?"
+    },
+    {
+      "id": "ss245-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Given the damage to the sea wall, the question is not whether a powerful storm will break through it, but when.",
+      "promptZh": "鑑於海堤已經受損，問題不在於強烈風暴會否衝破海堤，而在於何時會發生。",
+      "promptZhSource": "pdf",
+      "starter": "Given",
+      "answer": "Given the damage to the sea wall, it is only a matter of time before a powerful storm breaks through it.",
+      "answerZh": "鑑於海堤已經受損，強烈風暴衝破海堤只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Given the damage to the sea wall, it is only a matter of time before a powerful storm breaks through it."
+    },
+    {
+      "id": "ss245-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Having collected enough evidence, the research team believed publication was now inevitable.",
+      "promptZh": "研究團隊收集了足夠證據後，相信研究結果現在必定會獲得發表。",
+      "promptZhSource": "pdf",
+      "starter": "Having",
+      "answer": "Having collected enough evidence, the research team believed it was only a matter of time before its findings were published.",
+      "answerZh": "研究團隊收集了足夠證據後，相信研究結果獲得發表只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Having collected enough evidence, the research team believed it was only a matter of time before its findings were published."
+    },
+    {
+      "id": "ss245-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Even though the talks are moving slowly, both sides agree that a deal will eventually be reached.",
+      "promptZh": "儘管談判進展緩慢，雙方都同意最終必定會達成協議。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even though the talks are moving slowly, both sides agree it is only a matter of time before a deal is reached.",
+      "answerZh": "儘管談判進展緩慢，雙方都同意達成協議只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Even though the talks are moving slowly, both sides agree it is only a matter of time before a deal is reached."
+    },
+    {
+      "id": "ss245-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "According to the head teacher, the temporary classrooms would eventually have to be replaced.",
+      "promptZh": "校長表示，這些臨時課室最終必須更換。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the head teacher, it was only a matter of time before the temporary classrooms had to be replaced.",
+      "answerZh": "校長表示，這些臨時課室需要更換只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the head teacher, it was only a matter of time before the temporary classrooms had to be replaced."
+    },
+    {
+      "id": "ss245-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Once the new law takes effect, businesses will inevitably change how they store customer data.",
+      "promptZh": "新法例一旦生效，企業必定會改變儲存顧客資料的方式。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the new law takes effect, it will only be a matter of time before businesses change how they store customer data.",
+      "answerZh": "新法例一旦生效，企業改變儲存顧客資料的方式只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the new law takes effect, it will only be a matter of time before businesses change how they store customer data."
+    },
+    {
+      "id": "ss245-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Analysts believe that, if the current trend continues, the smaller banks will eventually be forced to merge.",
+      "promptZh": "分析員相信，如果目前的趨勢持續，規模較小的銀行最終必定會被迫合併。",
+      "promptZhSource": "pdf",
+      "starter": "Analysts",
+      "answer": "Analysts believe that, if the current trend continues, it is only a matter of time before the smaller banks are forced to merge.",
+      "answerZh": "分析員相信，如果目前的趨勢持續，規模較小的銀行被迫合併只是時間問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Analysts believe that, if the current trend continues, it is only a matter of time before the smaller banks are forced to merge."
+    }
+  ]
+}

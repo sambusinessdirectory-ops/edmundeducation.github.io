@@ -16,10 +16,10 @@ It covers:
 
 | Document status | Value |
 | --- | --- |
-| Last verified | 23 July 2026 |
+| Last verified | 4 August 2026 |
 | Applies to | EdmundEducation Sentence Structure System |
-| Current corpus | `ss1`–`ss70`, 3,500 questions |
-| Current imported JSON range | `ss5`–`ss70`, 66 lessons and 3,300 questions |
+| Current corpus | `ss1`–`ss275`, 13,750 questions |
+| Current imported JSON range | `ss5`–`ss275`, 271 lessons and 13,550 questions |
 | Legacy inline range | `ss1`–`ss4`, 4 lessons and 200 questions |
 | Standard import unit | One bilingual lesson with exactly 50 questions |
 | Saved-content version | `"1"` |
@@ -60,7 +60,7 @@ bundle, frontend, catalogue, Worker, Supabase and tests must all agree.
 | Editable imported lessons | `tools/sentence-structure-lessons/ssNN.json` |
 | Imported-lesson notes | `tools/sentence-structure-lessons/README.md` |
 | Legacy `ss1`–`ss4` and final lesson merge | `sentence-structure-data.js` |
-| Generated public imported-lesson bundle | `sentence-structure-lessons-5-70.js` |
+| Generated public imported-lesson bundle | `sentence-structure-lessons-5-275.js` |
 | Imported-bundle builder | `tools/build-sentence-structure-expansion.mjs` |
 | PDF/source verifier | `tools/verify-sentence-structure-pdf-imports.py` |
 | Browser rendering and answer checking | `sentence-structure.js` |
@@ -70,7 +70,7 @@ bundle, frontend, catalogue, Worker, Supabase and tests must all agree.
 | Catalogue generator | `tools/generate-sentence-structure-catalog.mjs` |
 | Worker validation and API | `workers/sentence-structure/src/index.js` |
 | Fresh-install Supabase schema | `supabase-sentence-structure.sql` |
-| Latest production widening migration | `supabase-sentence-structure-lessons-40-70.sql` |
+| Latest production widening migration | `supabase-sentence-structure-lessons-219-275.sql` |
 | Root system tests | `tools/test-sentence-structure-system.mjs` |
 | Worker tests | `workers/sentence-structure/test/worker.test.mjs` |
 | Worker operations | `workers/sentence-structure/README.md` |
@@ -86,20 +86,20 @@ bundle, frontend, catalogue, Worker, Supabase and tests must all agree.
 
 ### Never edit manually
 
-- `sentence-structure-lessons-5-70.js`; or
+- `sentence-structure-lessons-5-275.js`; or
 - `workers/sentence-structure/src/catalog.js`.
 
 Regenerate both files from their canonical sources.
 
 When the highest lesson changes, the bundle filename must also change so its
-range remains truthful. For example, adding `ss71` changes the generated file
-to `sentence-structure-lessons-5-71.js`.
+range remains truthful. For example, adding `ss276` changes the generated file
+to `sentence-structure-lessons-5-276.js`.
 
 ## 3. Standard lesson and interface contract
 
 A normal imported lesson must contain:
 
-1. one permanent lesson ID such as `ss71`;
+1. one permanent lesson ID such as `ss276`;
 2. matching display order and a stable kebab-case slug;
 3. English and Traditional Chinese lesson titles;
 4. source filename, physical page count and page inventories;
@@ -169,9 +169,9 @@ field elsewhere must automatically be reordered.
 | Questions per lesson | Exactly 50 |
 | Question IDs | `ssN-q01` through `ssN-q50` |
 | Saved content version | `"1"` |
-| Bookmark limit | 4,000 per student |
-| Bookmark request body | 768 KiB at the Worker |
-| Bookmark JSON accepted by Supabase | 512 KiB |
+| Bookmark limit | 16,000 per student |
+| Bookmark request body | 2 MiB at the Worker |
+| Bookmark JSON accepted by Supabase | 2 MiB |
 | Saved round summaries | 250 per attempt |
 | Saved attempts | 1,000 per student |
 | Attempt request body | 128 KiB |
@@ -182,22 +182,33 @@ the 50-question contract. If a source does not contain exactly 50 suitable
 questions, revise the source PDF or deliberately redesign the frontend,
 Worker, SQL and tests before importing it.
 
-The current corpus contains 3,500 possible bookmarks, below the 4,000 limit.
-Before a future release pushes the corpus above 4,000 questions, raise and test
-the matching frontend, Worker, SQL payload and pagination limits together.
+The current corpus contains 13,750 question bookmarks plus 275 lesson-section
+bookmarks, for 14,025 possible entries below the 16,000 limit. Before a future
+release approaches 16,000 total entries, raise and test the matching frontend,
+Worker, SQL payload and pagination limits together.
 
 ## 4. Never change published identifiers
 
 Lesson and question IDs are database keys, not cosmetic labels.
 
-- A lesson ID is `ss` plus its permanent number: `ss1`, `ss2`, …, `ss70`.
+- A lesson ID is `ss` plus its permanent number: `ss1`, `ss2`, …, `ss275`.
 - Imported filenames use two digits where applicable: `ss05.json`,
-  `ss70.json`.
+  `ss275.json`.
 - Question IDs are `ssN-q01` through `ssN-q50`.
 - `id` and `order` must agree for a standard sequential import.
 - Never reuse an earlier lesson ID for different content.
 - Never renumber published questions.
 - Never move the content of one published question to another ID.
+
+The source archive contains two distinct PDFs both numbered 201. Both are
+published, so source 201 maps to `ss201` and `ss202`; source numbers 202–274
+therefore map to system IDs `ss203`–`ss275`. In particular, the current source
+batch 218–274 maps to `ss219`–`ss275`. Use the system ID inside JSON while
+preserving the exact source filename in `source.file`.
+
+Matching-looking titles do not authorize deduplication. Source 229 and 230 are
+separate Embedded Questions lessons, and source 247 and 248 are separate
+“It is one thing …” lessons. Preserve all four permanent lesson records.
 
 Saved attempts, correction state and bookmarks refer to these IDs. Correct
 published wording under the same ID when necessary. If a question must be
@@ -223,7 +234,7 @@ Before transcription, record:
 - any obvious PDF typo requiring an editorial correction.
 
 The lesson JSON is the current source registry. Its `source` object must contain
-the inventory. Do not maintain a separate hand-written 70-row registry that can
+the inventory. Do not maintain a separate hand-written 275-row registry that can
 drift from the actual data.
 
 Always use physical PDF page numbers beginning at page 1, not a page number
@@ -457,7 +468,9 @@ Every question must contain:
 ### 7.1 Starter rule
 
 The normalized suggested answer must begin with the supplied starter,
-case-insensitively.
+case-insensitively. An opening dialogue quotation mark may appear immediately
+before the starter; the build and validation tools deliberately ignore only
+that leading quotation mark when checking this rule.
 
 Valid:
 
@@ -510,6 +523,11 @@ When the source genuinely permits another complete answer:
 
 Do not add fragments or loose paraphrases. Every accepted answer is copied
 into the protected Worker catalogue.
+
+For a source answer written as quoted dialogue, keep the exact PDF wording and
+quotation marks in `answer`. Also add a complete unquoted dialogue variant to
+`acceptedAnswers`, because students normally type the words without typographic
+quotation marks. Do not remove or rewrite any words in that accepted variant.
 
 ### 7.4 Editorial Chinese
 
@@ -593,37 +611,37 @@ Every page value must be an integer from `1` through `source.pageCount`.
 
 ### 9.1 Updating an existing imported lesson
 
-After correcting an existing `ss05.json`–`ss70.json`:
+After correcting an existing `ss05.json`–`ss275.json`:
 
 ```sh
 node tools/build-sentence-structure-expansion.mjs
 python3 tools/verify-sentence-structure-pdf-imports.py \
   --pdf-dir /path/to/the/original/pdfs \
   --first 5 \
-  --last 70
+  --last 275
 node tools/generate-sentence-structure-catalog.mjs
 ```
 
 Current expected output:
 
 ```text
-Generated 66 Sentence Structure lessons with 3300 questions.
-Verified 66 lessons against their source PDF pages (3300 questions).
-Generated 3500 accepted-answer entries.
+Generated 271 Sentence Structure lessons with 13550 questions.
+Verified 271 lessons against their source PDF pages (13550 questions).
+Generated 13750 accepted-answer entries.
 ```
 
 The catalogue total includes legacy `ss1`–`ss4`.
 
 ### 9.2 Adding a lesson above the current high-water mark
 
-Adding `ss71` requires all of the following:
+Adding `ss276` requires all of the following:
 
-1. add `tools/sentence-structure-lessons/ss71.json`;
+1. add `tools/sentence-structure-lessons/ss276.json`;
 2. update `LAST_LESSON` in
    `tools/build-sentence-structure-expansion.mjs`;
-3. change that builder’s output and generated comment from `5-70` to `5-71`;
+3. change that builder’s output and generated comment from `5-275` to `5-276`;
 4. rename the generated browser bundle to
-   `sentence-structure-lessons-5-71.js`;
+   `sentence-structure-lessons-5-276.js`;
 5. update the bundle filename in
    `tools/generate-sentence-structure-catalog.mjs`;
 6. update the bundle filename and lesson count in `sentence-structure.html`;
@@ -641,7 +659,7 @@ Adding `ss71` requires all of the following:
 Search for stale range references:
 
 ```sh
-rg -n "5-70|ss70|length: 70|3500" \
+rg -n "5-275|ss275|length: 275|13750" \
   sentence-structure.html \
   tools \
   workers/sentence-structure
@@ -652,7 +670,7 @@ remain unchanged; active range and count contracts must be updated.
 
 ### 9.3 PDF verification
 
-The verifier defaults to `~/Downloads`, lessons `5`–`70`, and the canonical
+The verifier defaults to `~/Downloads`, lessons `5`–`275`, and the canonical
 lesson JSON directory:
 
 ```sh
@@ -664,8 +682,8 @@ For a targeted import:
 ```sh
 python3 tools/verify-sentence-structure-pdf-imports.py \
   --pdf-dir "/path/to/pdfs" \
-  --first 71 \
-  --last 71
+  --first 276 \
+  --last 276
 ```
 
 It checks PDF existence, physical page count and page-local presence of the
@@ -747,10 +765,10 @@ Current contracts include:
 
 ```js
 const LESSON_IDS = new Set(
-  Array.from({ length: 70 }, (_, index) => `ss${index + 1}`)
+  Array.from({ length: 275 }, (_, index) => `ss${index + 1}`)
 );
 const QUESTIONS_PER_LESSON = 50;
-const MAX_BOOKMARKS = 4000;
+const MAX_BOOKMARKS = 16000;
 const BOOKMARK_PAGE_SIZE = 900;
 ```
 
@@ -772,11 +790,11 @@ The new ID must be accepted by:
 5. `sentence_structure_upsert_attempt`.
 
 Create a new transactional, repeatable forward migration. Do not rewrite
-`supabase-sentence-structure-lessons-40-70.sql` after it has been applied.
+`supabase-sentence-structure-lessons-219-275.sql` after it has been applied.
 For example:
 
 ```text
-supabase-sentence-structure-lessons-71-80.sql
+supabase-sentence-structure-lessons-276-NN.sql
 ```
 
 The current root contract test expects the newest lesson migration to contain
@@ -810,7 +828,7 @@ After applying the migration privately, verify the highest lesson:
 ```sql
 select
   public._sentence_structure_result_valid(
-    'ss71',
+    'ss276',
     '{
       "round": 1,
       "correctIds": [],
@@ -823,8 +841,8 @@ select
   public._sentence_structure_bookmark_payload_valid(
     '[
       {
-        "lessonId": "ss71",
-        "questionId": "ss71-q01",
+        "lessonId": "ss276",
+        "questionId": "ss276-q01",
         "includeAnswer": false
       }
     ]'::jsonb
@@ -900,9 +918,9 @@ node tools/build-sentence-structure-expansion.mjs
 python3 tools/verify-sentence-structure-pdf-imports.py \
   --pdf-dir "/path/to/the/original/pdfs" \
   --first 5 \
-  --last 70
+  --last 275
 node tools/generate-sentence-structure-catalog.mjs
-node --check sentence-structure-lessons-5-70.js
+node --check sentence-structure-lessons-5-275.js
 node --check sentence-structure-data.js
 node --check sentence-structure.js
 node tools/test-sentence-structure-system.mjs
@@ -1050,7 +1068,7 @@ curl -fsSL \
   'https://edmundeducation.com/sentence-structure.html?verify=UNIQUE_VALUE'
 
 curl -fsSL \
-  'https://edmundeducation.com/sentence-structure-lessons-5-70.js?verify=UNIQUE_VALUE'
+  'https://edmundeducation.com/sentence-structure-lessons-5-275.js?verify=UNIQUE_VALUE'
 ```
 
 After adding lessons, use the new bundle range. Confirm:
@@ -1153,19 +1171,19 @@ Do not delete Supabase data merely to match a static display rollback.
 
 ## 21. Current release baseline
 
-The verified 23 July 2026 baseline is:
+The verified 4 August 2026 baseline is:
 
-- 70 lessons: `ss1`–`ss70`;
-- 3,500 questions;
-- 66 auditable imported JSON files: `ss05.json`–`ss70.json`;
+- 275 lessons: `ss1`–`ss275`;
+- 13,750 questions;
+- 271 auditable imported JSON files: `ss05.json`–`ss275.json`;
 - generated public bundle:
-  `sentence-structure-lessons-5-70.js`;
-- 4,000-bookmark capacity;
+  `sentence-structure-lessons-5-275.js`;
+- 16,000-bookmark and 2 MiB payload capacity;
 - Benefits and Important Rules both render Traditional Chinese first in the
   larger primary font;
 - English appears underneath in the smaller secondary font;
-- root suite: 16 tests passing at this baseline; and
-- Worker suite: 6 tests passing at this baseline.
+- root suite: 36 tests passing at this baseline; and
+- Worker suite: 8 tests passing at this baseline.
 
 Test counts may grow later. A future release must pass every discovered test,
 not merely reproduce these historical counts.

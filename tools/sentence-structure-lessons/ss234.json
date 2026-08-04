@@ -1,0 +1,1242 @@
+{
+  "id": "ss234",
+  "order": 234,
+  "slug": "reverse-pseudo-cleft",
+  "title": "「Reverse pseudo-cleft 反向偽分裂句」",
+  "titleZh": "「Reverse pseudo-cleft 反向偽分裂句」",
+  "titleEn": "Reverse Pseudo-cleft Sentences",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 233 - 「Reverse pseudo-cleft 反向偽分裂句」.pdf",
+    "pageCount": 24,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exercisePages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 233; it is assigned system ID ss234 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "Focus + be + WH-clause",
+  "formulas": [
+    {
+      "id": "ss234-formula-01",
+      "labelEn": "Thing, action or idea",
+      "labelZh": "事物、行動或概念",
+      "formula": "Focus + is / are / was / were + what + subject + verb"
+    },
+    {
+      "id": "ss234-formula-02",
+      "labelEn": "Place",
+      "labelZh": "地點",
+      "formula": "Place + is / was + where + clause"
+    },
+    {
+      "id": "ss234-formula-03",
+      "labelEn": "Time",
+      "labelZh": "時間",
+      "formula": "Time + is / was + when + clause"
+    },
+    {
+      "id": "ss234-formula-04",
+      "labelEn": "Reason",
+      "labelZh": "原因",
+      "formula": "Reason + is / was + why + clause"
+    },
+    {
+      "id": "ss234-formula-05",
+      "labelEn": "Method",
+      "labelZh": "方法",
+      "formula": "Method + is / was + how + clause"
+    }
+  ],
+  "example": "Trust was what the team lacked.",
+  "exampleZh": "信任，就是團隊所缺乏的。",
+  "examples": [
+    {
+      "id": "ss234-example-01",
+      "en": "Trust was what the team lacked.",
+      "zh": "信任，就是團隊所缺乏的。",
+      "highlight": "Trust was what the team lacked."
+    }
+  ],
+  "meaning": {
+    "zh": "反向偽分裂句把焦點資料放在句首，然後以 be 動詞和 WH 子句補充說明。"
+  },
+  "rules": [
+    {
+      "id": "ss234-rule-01",
+      "zh": "焦點成分必須放在句首 Target: Trust was what the team lacked. （信任，就是團隊所缺乏的。） 本練習不使用以下次序： What the team lacked was trust. （團隊所缺乏的，就是信任。） 後者是一般 WH-cleft／pseudo-cleft，並不是本練習的目標句型。",
+      "en": "Put the focus first. “Trust was what the team lacked” is the target reverse pseudo-cleft; the WH-first form belongs to the ordinary pseudo-cleft pattern.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss234-rule-02",
+      "zh": "按意思選擇正確的 WH 詞 ● what：事物、行動或概念 ● where：地點 ● when：時間 ● why：原因 ● how：方法 ● who：人物 ● how long：時長 ● how much：數量、程度或價錢 ● how often：頻率",
+      "en": "Choose the WH-word according to meaning: what, where, when, why, how, who, how long, how much or how often.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss234-rule-03",
+      "zh": "不要在 WH 子句內重複焦點成分 Correct: Trust was what the team lacked. Incorrect: Trust was what the team lacked it. what 已經代表所欠缺的事物，所以不可再加入 it。",
+      "en": "Do not repeat the focus inside the WH-clause: write “Trust was what the team lacked”, not “lacked it”.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss234-rule-04",
+      "zh": "保留必要的介詞 A refund was what the customer asked for. （退款，就是顧客所要求的。） Ms Lee is who you should speak to. （李女士，就是你應該交談的人。） ask for 和 speak to 中的介詞不可刪去。",
+      "en": "Keep a necessary preposition, as in “A refund was what the customer asked for” and “Ms Lee is who you should speak to.”",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss234-rule-05",
+      "zh": "或 when 後不要加入多餘介詞 Correct: The library is where we meet. Incorrect: The library is where we meet at. Correct: Friday is when the course begins. Incorrect: Friday is when the course begins on. where 已包含地點意思，而 when 已包含時間意思。",
+      "en": "Do not add an unnecessary preposition after where or when because those words already carry place or time meaning.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss234-rule-06",
+      "zh": "不要重複原因或方法標記 Correct: A power cut was why the lights went out. Incorrect: A power cut was why the lights went out because of it. Correct: Careful planning was how the team avoided delays. Incorrect: Careful planning was how the team avoided delays by it.",
+      "en": "Do not repeat because, by or the reason inside a why- or how-clause.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss234-rule-07",
+      "zh": "按焦點的單複數及時間選擇 be 動詞 A clear map is what the visitors need. （訪客所需要的，就是一張清晰地圖。） Two more chairs are what the classroom needs. （課室所需要的，就是多兩張椅子。） A clear map was what the visitors requested. （訪客當時所要求的，就是一張清晰地圖。） The missing documents were what the auditor asked for. （核數師所要求的，就是那些遺漏的文件。）",
+      "en": "Match the form of be with the number and time of the focused information.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss234-rule-08",
+      "zh": "把一段時間、價錢或頻率視為一個整體 Forty minutes is how long the journey takes. Three months was how long the repairs took. 雖然 minutes 和 months 是複數形式，但整段時間被視為一個完整的時長，因此通常使用單數 動詞。",
+      "en": "Treat a single measurement of time, price or frequency as one amount, so it normally takes singular be.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss234-benefit-01",
+      "zh": "立即突出最重要的資料 The team lacked trust. Trust was what the team lacked. 第二句把 Trust 放在最前面，讀者一開始便知道句子的重點。",
+      "en": "It makes the key point stand out immediately by putting the focus at the beginning.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss234-benefit-02",
+      "zh": "清楚更正資料或作出對比 The blue jacket, not the black one, was what Amy chose. （艾米所選的，是藍色外套，而不是黑色那件。） 這個句型可以把正確答案或真正重點放在前面，特別適合澄清誤會或比較兩個選項。",
+      "en": "It helps you correct or contrast information clearly and foreground the true choice or fact.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss234-benefit-03",
+      "zh": "增加句式變化 學生經常使用一般的主語＋動詞＋賓語句式。反向偽分裂句提供另一種組織方法，避免多個句子 使用完全相同的開首。",
+      "en": "It gives you more sentence variety beyond ordinary subject-verb-object order.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss234-benefit-04",
+      "zh": "幫助組織解釋和口語答案 你可以先說出重點，再補充相關資料： ● Better communication is what the team needs. ● Monday is when the programme begins. ● A lack of time is why we changed the plan. 這些句型框架能幫助你在說話時更快整理答案。",
+      "en": "It helps organise explanations and spoken answers by stating the focus before the supporting WH-clause.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss234-benefit-05",
+      "zh": "適合在作文、報告和簡報中強調重點 當你希望讀者特別注意一個原因、方法、時間、地點或解決方案時，可以使用反向偽分裂句。 不過，這個句型帶有明顯的強調作用，因此不需要在每一句中使用。",
+      "en": "It is useful for emphasis in essays, reports and presentations when highlighting a reason, method, time, place or solution.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 233; it is assigned system ID ss234 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence as a reverse pseudo-cleft with the focused information first.",
+      "Preserve the original meaning and follow the supplied first word."
+    ],
+    "zh": [
+      "把焦點資料放在句首，將每題改寫成反向偽分裂句。",
+      "保留原句意思，並按照已提供的第一個字作答。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss234-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The team lacked trust.",
+      "promptZh": "團隊缺乏信任。",
+      "promptZhSource": "pdf",
+      "starter": "Trust",
+      "answer": "Trust was what the team lacked.",
+      "answerZh": "信任，就是團隊所缺乏的。",
+      "answerZhSource": "pdf",
+      "highlight": "Trust was what the team lacked."
+    },
+    {
+      "id": "ss234-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "For the interview, Mia needs a quieter room.",
+      "promptZh": "為了進行面試，米婭需要一個較安靜的房間。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A quieter room is what Mia needs for the interview.",
+      "answerZh": "一個較安靜的房間，就是米婭進行面試時所需要的。",
+      "answerZhSource": "pdf",
+      "highlight": "A quieter room is what Mia needs for the interview."
+    },
+    {
+      "id": "ss234-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "What did we buy at the market? We bought fresh fruit.",
+      "promptZh": "我們在市場買了甚麼？我們買了新鮮水果。",
+      "promptZhSource": "pdf",
+      "starter": "Fresh",
+      "answer": "Fresh fruit was what we bought at the market.",
+      "answerZh": "新鮮水果，就是我們在市場買的東西。",
+      "answerZhSource": "pdf",
+      "highlight": "Fresh fruit was what we bought at the market."
+    },
+    {
+      "id": "ss234-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The classroom still needs two more chairs.",
+      "promptZh": "課室仍然需要多兩張椅子。",
+      "promptZhSource": "pdf",
+      "starter": "Two",
+      "answer": "Two more chairs are what the classroom still needs.",
+      "answerZh": "多兩張椅子，就是課室仍然需要的。",
+      "answerZhSource": "pdf",
+      "highlight": "Two more chairs are what the classroom still needs."
+    },
+    {
+      "id": "ss234-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The visitors asked for a clear map.",
+      "promptZh": "訪客要求取得一張清晰的地圖。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A clear map was what the visitors asked for.",
+      "answerZh": "一張清晰的地圖，就是訪客所要求的。",
+      "answerZhSource": "pdf",
+      "highlight": "A clear map was what the visitors asked for."
+    },
+    {
+      "id": "ss234-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Ben needs more practice before the test.",
+      "promptZh": "本在測驗前需要更多練習。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More practice is what Ben needs before the test.",
+      "answerZh": "更多練習，就是本在測驗前所需要的。",
+      "answerZhSource": "pdf",
+      "highlight": "More practice is what Ben needs before the test."
+    },
+    {
+      "id": "ss234-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Amy chose the blue jacket instead of the black one.",
+      "promptZh": "艾米選了藍色外套，而不是黑色那件。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The blue jacket, not the black one, was what Amy chose.",
+      "answerZh": "艾米所選的，是藍色外套，而不是黑色那件。",
+      "answerZhSource": "pdf",
+      "highlight": "The blue jacket, not the black one, was what Amy chose."
+    },
+    {
+      "id": "ss234-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I would like a hot drink.",
+      "promptZh": "我想要一杯熱飲。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A hot drink is what I would like.",
+      "answerZh": "一杯熱飲，就是我想要的。",
+      "answerZhSource": "pdf",
+      "highlight": "A hot drink is what I would like."
+    },
+    {
+      "id": "ss234-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The manager wants honest feedback from us.",
+      "promptZh": "經理希望我們提供坦誠的意見。",
+      "promptZhSource": "pdf",
+      "starter": "Honest",
+      "answer": "Honest feedback is what the manager wants from us.",
+      "answerZh": "坦誠的意見，就是經理希望我們提供的。",
+      "answerZhSource": "pdf",
+      "highlight": "Honest feedback is what the manager wants from us."
+    },
+    {
+      "id": "ss234-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Right now, the baby needs peace and quiet.",
+      "promptZh": "嬰兒現在需要安靜的環境。",
+      "promptZhSource": "pdf",
+      "starter": "Peace",
+      "answer": "Peace and quiet are what the baby needs right now.",
+      "answerZh": "安靜的環境，就是嬰兒現在所需要的。",
+      "answerZhSource": "pdf",
+      "highlight": "Peace and quiet are what the baby needs right now."
+    },
+    {
+      "id": "ss234-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Many employees prefer working from home.",
+      "promptZh": "很多僱員較喜歡在家工作。",
+      "promptZhSource": "pdf",
+      "starter": "Working",
+      "answer": "Working from home is what many employees prefer.",
+      "answerZh": "在家工作，就是很多僱員所偏好的安排。",
+      "answerZhSource": "pdf",
+      "highlight": "Working from home is what many employees prefer."
+    },
+    {
+      "id": "ss234-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Where should staff meet? They should meet at the back entrance.",
+      "promptZh": "職員應該在哪裏集合？他們應該在後門入口集合。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The back entrance is where staff should meet.",
+      "answerZh": "後門入口，就是職員應該集合的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "The back entrance is where staff should meet."
+    },
+    {
+      "id": "ss234-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "When does the new course begin? It begins on Friday.",
+      "promptZh": "新課程何時開始？課程在星期五開始。",
+      "promptZhSource": "pdf",
+      "starter": "Friday",
+      "answer": "Friday is when the new course begins.",
+      "answerZh": "星期五，就是新課程開始的日子。",
+      "answerZhSource": "pdf",
+      "highlight": "Friday is when the new course begins."
+    },
+    {
+      "id": "ss234-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The lights went out because of a power cut.",
+      "promptZh": "燈因停電而熄滅。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A power cut was why the lights went out.",
+      "answerZh": "停電，就是燈熄滅的原因。",
+      "answerZhSource": "pdf",
+      "highlight": "A power cut was why the lights went out."
+    },
+    {
+      "id": "ss234-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We usually travel to the city by train.",
+      "promptZh": "我們通常乘搭火車前往市區。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The train is how we usually travel to the city.",
+      "answerZh": "乘搭火車，就是我們通常前往市區的方式。",
+      "answerZhSource": "pdf",
+      "highlight": "The train is how we usually travel to the city."
+    },
+    {
+      "id": "ss234-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Who should you speak to about the application? You should speak to Ms Lee.",
+      "promptZh": "你應該就申請事宜與誰交談？你應該與李女士交談。",
+      "promptZhSource": "pdf",
+      "starter": "Ms",
+      "answer": "Ms Lee is who you should speak to about the application.",
+      "answerZh": "李女士，就是你應該就申請事宜交談的人。",
+      "answerZhSource": "pdf",
+      "highlight": "Ms Lee is who you should speak to about the application."
+    },
+    {
+      "id": "ss234-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "How long does the journey take? It takes forty minutes.",
+      "promptZh": "這段旅程需時多久？旅程需時四十分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "Forty",
+      "answer": "Forty minutes is how long the journey takes.",
+      "answerZh": "四十分鐘，就是這段旅程所需的時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Forty minutes is how long the journey takes."
+    },
+    {
+      "id": "ss234-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The repair costs fifty dollars.",
+      "promptZh": "維修費用是五十元。",
+      "promptZhSource": "pdf",
+      "starter": "Fifty",
+      "answer": "Fifty dollars is how much the repair costs.",
+      "answerZh": "五十元，就是維修所需的費用。",
+      "answerZhSource": "pdf",
+      "highlight": "Fifty dollars is how much the repair costs."
+    },
+    {
+      "id": "ss234-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "How often does the club meet? It meets twice a week.",
+      "promptZh": "學會多久舉行一次活動？學會每星期舉行兩次活動。",
+      "promptZhSource": "pdf",
+      "starter": "Twice",
+      "answer": "Twice a week is how often the club meets.",
+      "answerZh": "每星期兩次，就是學會舉行活動的頻率。",
+      "answerZhSource": "pdf",
+      "highlight": "Twice a week is how often the club meets."
+    },
+    {
+      "id": "ss234-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The auditor asked for the missing documents.",
+      "promptZh": "核數師要求取得那些遺漏的文件。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The missing documents were what the auditor asked for.",
+      "answerZh": "那些遺漏的文件，就是核數師所要求的。",
+      "answerZhSource": "pdf",
+      "highlight": "The missing documents were what the auditor asked for."
+    },
+    {
+      "id": "ss234-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The team does not need more rules.",
+      "promptZh": "團隊並不需要更多規則。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More rules are not what the team needs.",
+      "answerZh": "更多規則，並不是團隊所需要的。",
+      "answerZhSource": "pdf",
+      "highlight": "More rules are not what the team needs."
+    },
+    {
+      "id": "ss234-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The injured cyclist was taken to the local hospital.",
+      "promptZh": "受傷的騎單車人士被送往本地醫院。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The local hospital was where the injured cyclist was taken.",
+      "answerZh": "本地醫院，就是受傷的騎單車人士被送往的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "The local hospital was where the injured cyclist was taken."
+    },
+    {
+      "id": "ss234-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The final bus left at six o’clock.",
+      "promptZh": "尾班巴士在六時開出。",
+      "promptZhSource": "pdf",
+      "starter": "Six",
+      "answer": "Six o’clock was when the final bus left.",
+      "answerZh": "六時，就是尾班巴士開出的時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Six o’clock was when the final bus left."
+    },
+    {
+      "id": "ss234-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The meeting ended early because of a misunderstanding.",
+      "promptZh": "會議因一場誤會而提早結束。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A misunderstanding was why the meeting ended early.",
+      "answerZh": "一場誤會，就是會議提早結束的原因。",
+      "answerZhSource": "pdf",
+      "highlight": "A misunderstanding was why the meeting ended early."
+    },
+    {
+      "id": "ss234-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The team avoided delays through careful planning.",
+      "promptZh": "團隊透過仔細規劃避免了延誤。",
+      "promptZhSource": "pdf",
+      "starter": "Careful",
+      "answer": "Careful planning was how the team avoided delays.",
+      "answerZh": "仔細規劃，就是團隊避免延誤的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Careful planning was how the team avoided delays."
+    },
+    {
+      "id": "ss234-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The committee selected Daniel as its new chairperson.",
+      "promptZh": "委員會選出丹尼爾擔任新主席。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel was who the committee selected as its new chairperson.",
+      "answerZh": "丹尼爾，就是委員會選為新主席的人。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel was who the committee selected as its new chairperson."
+    },
+    {
+      "id": "ss234-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The repairs took three months.",
+      "promptZh": "維修工程需時三個月。",
+      "promptZhSource": "pdf",
+      "starter": "Three",
+      "answer": "Three months was how long the repairs took.",
+      "answerZh": "三個月，就是維修工程所需的時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Three months was how long the repairs took."
+    },
+    {
+      "id": "ss234-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The equipment cost nearly half the budget.",
+      "promptZh": "這批設備的費用接近整筆預算的一半。",
+      "promptZhSource": "pdf",
+      "starter": "Nearly",
+      "answer": "Nearly half the budget was how much the equipment cost.",
+      "answerZh": "接近整筆預算的一半，就是這批設備所需的費用。",
+      "answerZhSource": "pdf",
+      "highlight": "Nearly half the budget was how much the equipment cost."
+    },
+    {
+      "id": "ss234-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The safety system is tested once every two months.",
+      "promptZh": "安全系統每兩個月測試一次。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once every two months is how often the safety system is tested.",
+      "answerZh": "每兩個月一次，就是安全系統接受測試的頻率。",
+      "answerZhSource": "pdf",
+      "highlight": "Once every two months is how often the safety system is tested."
+    },
+    {
+      "id": "ss234-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The project required more time rather than more staff.",
+      "promptZh": "這個項目所需要的是更多時間，而不是更多人手。",
+      "promptZhSource": "pdf",
+      "starter": "More",
+      "answer": "More time, not more staff, was what the project required.",
+      "answerZh": "這個項目所需要的，是更多時間，而不是更多人手。",
+      "answerZhSource": "pdf",
+      "highlight": "More time, not more staff, was what the project required."
+    },
+    {
+      "id": "ss234-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "This role requires staff to keep accurate records.",
+      "promptZh": "這個職位要求員工保存準確的紀錄。",
+      "promptZhSource": "pdf",
+      "starter": "Keeping",
+      "answer": "Keeping accurate records is what this role requires staff to do.",
+      "answerZh": "保存準確紀錄，就是這個職位要求員工做到的事情。",
+      "answerZhSource": "pdf",
+      "highlight": "Keeping accurate records is what this role requires staff to do."
+    },
+    {
+      "id": "ss234-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The public meeting will take place in the community hall.",
+      "promptZh": "公眾會議將在社區會堂舉行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The community hall is where the public meeting will take place.",
+      "answerZh": "社區會堂，就是公眾會議將會舉行的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "The community hall is where the public meeting will take place."
+    },
+    {
+      "id": "ss234-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Applications must be submitted next Monday.",
+      "promptZh": "申請必須在下星期一提交。",
+      "promptZhSource": "pdf",
+      "starter": "Next",
+      "answer": "Next Monday is when applications must be submitted.",
+      "answerZh": "下星期一，就是申請必須提交的日子。",
+      "answerZhSource": "pdf",
+      "highlight": "Next Monday is when applications must be submitted."
+    },
+    {
+      "id": "ss234-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Many small problems become serious because communication is poor.",
+      "promptZh": "很多小問題因溝通不良而變得嚴重。",
+      "promptZhSource": "pdf",
+      "starter": "Poor",
+      "answer": "Poor communication is why many small problems become serious.",
+      "answerZh": "溝通不良，就是很多小問題變得嚴重的原因。",
+      "answerZhSource": "pdf",
+      "highlight": "Poor communication is why many small problems become serious."
+    },
+    {
+      "id": "ss234-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The company keeps new staff on track by giving them regular feedback.",
+      "promptZh": "公司透過定期向新員工提供意見，幫助他們按照正確方向工作。",
+      "promptZhSource": "pdf",
+      "starter": "Giving",
+      "answer": "Giving them regular feedback is how the company keeps new staff on track.",
+      "answerZh": "定期向他們提供意見，就是公司幫助新員工按照正確方向工作的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Giving them regular feedback is how the company keeps new staff on track."
+    },
+    {
+      "id": "ss234-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The patient asked to see Dr Wong.",
+      "promptZh": "病人要求與黃醫生見面。",
+      "promptZhSource": "pdf",
+      "starter": "Dr",
+      "answer": "Dr Wong was who the patient asked to see.",
+      "answerZh": "黃醫生，就是病人要求見的人。",
+      "answerZhSource": "pdf",
+      "highlight": "Dr Wong was who the patient asked to see."
+    },
+    {
+      "id": "ss234-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The office normally takes ten working days to process an application.",
+      "promptZh": "辦事處通常需要十個工作天處理一份申請。",
+      "promptZhSource": "pdf",
+      "starter": "Ten",
+      "answer": "Ten working days is how long the office normally takes to process an application.",
+      "answerZh": "十個工作天，就是辦事處通常處理一份申請所需的時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Ten working days is how long the office normally takes to process an application."
+    },
+    {
+      "id": "ss234-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The new system reduces energy use by around 30 per cent compared with the old one.",
+      "promptZh": "與舊系統相比，新系統把能源使用量減少約百分之三十。",
+      "promptZhSource": "pdf",
+      "starter": "Around",
+      "answer": "Around 30 per cent is how much the new system reduces energy use compared with the old one.",
+      "answerZh": "約百分之三十，就是新系統相對舊系統減少能源使用的幅度。",
+      "answerZhSource": "pdf",
+      "highlight": "Around 30 per cent is how much the new system reduces energy use compared with the old one."
+    },
+    {
+      "id": "ss234-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The machine must be checked every three hours.",
+      "promptZh": "這部機器必須每三小時檢查一次。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every three hours is how often the machine must be checked.",
+      "answerZh": "每三小時一次，就是這部機器必須接受檢查的頻率。",
+      "answerZhSource": "pdf",
+      "highlight": "Every three hours is how often the machine must be checked."
+    },
+    {
+      "id": "ss234-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The student had not been given a chance to explain herself.",
+      "promptZh": "該名學生一直沒有獲得為自己解釋的機會。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A chance to explain herself was what the student had not been given.",
+      "answerZh": "為自己解釋的機會，就是該名學生一直沒有獲得的。",
+      "answerZhSource": "pdf",
+      "highlight": "A chance to explain herself was what the student had not been given."
+    },
+    {
+      "id": "ss234-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "If more people register, the school will need a larger venue.",
+      "promptZh": "如果有更多人報名，學校便會需要一個更大的場地。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A larger venue will be what the school needs if more people register.",
+      "answerZh": "如果有更多人報名，一個更大的場地，就是學校將會需要的。",
+      "answerZhSource": "pdf",
+      "highlight": "A larger venue will be what the school needs if more people register."
+    },
+    {
+      "id": "ss234-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The community first held its annual festival in the old theatre.",
+      "promptZh": "社區最初在舊劇院舉行一年一度的節慶活動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The old theatre was where the community first held its annual festival.",
+      "answerZh": "舊劇院，就是社區最初舉行一年一度節慶活動的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "The old theatre was where the community first held its annual festival."
+    },
+    {
+      "id": "ss234-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Most errors tend to occur during the period after lunch.",
+      "promptZh": "大部分錯誤通常在午膳後的一段時間出現。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The period after lunch is when most errors tend to occur.",
+      "answerZh": "午膳後的一段時間，就是大部分錯誤通常出現的時段。",
+      "answerZhSource": "pdf",
+      "highlight": "The period after lunch is when most errors tend to occur."
+    },
+    {
+      "id": "ss234-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The two studies may have reached different conclusions because they lacked reliable data.",
+      "promptZh": "兩項研究可能因欠缺可靠數據而得出不同結論。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A lack of reliable data may be why the two studies reached different conclusions.",
+      "answerZh": "欠缺可靠數據，可能就是兩項研究得出不同結論的原因。",
+      "answerZhSource": "pdf",
+      "highlight": "A lack of reliable data may be why the two studies reached different conclusions."
+    },
+    {
+      "id": "ss234-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The interviewer kept the discussion focused by asking one question at a time.",
+      "promptZh": "訪問者透過每次只問一條問題，使討論保持集中。",
+      "promptZhSource": "pdf",
+      "starter": "Asking",
+      "answer": "Asking one question at a time was how the interviewer kept the discussion focused.",
+      "answerZh": "每次只問一條問題，就是訪問者使討論保持集中的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Asking one question at a time was how the interviewer kept the discussion focused."
+    },
+    {
+      "id": "ss234-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "All spending requests must go through the finance director.",
+      "promptZh": "所有開支申請都必須交由財務總監處理。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The finance director is who all spending requests must go through.",
+      "answerZh": "財務總監，就是所有開支申請都必須經由處理的人。",
+      "answerZhSource": "pdf",
+      "highlight": "The finance director is who all spending requests must go through."
+    },
+    {
+      "id": "ss234-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The research team expects the full study to take eighteen months.",
+      "promptZh": "研究團隊預計整項研究需時十八個月。",
+      "promptZhSource": "pdf",
+      "starter": "Eighteen",
+      "answer": "Eighteen months is how long the research team expects the full study to take.",
+      "answerZh": "十八個月，就是研究團隊預計整項研究所需的時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Eighteen months is how long the research team expects the full study to take."
+    },
+    {
+      "id": "ss234-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The entire project is expected to cost just under two million dollars.",
+      "promptZh": "整個項目的預計費用略低於二百萬元。",
+      "promptZhSource": "pdf",
+      "starter": "Just",
+      "answer": "Just under two million dollars is how much the entire project is expected to cost.",
+      "answerZh": "略低於二百萬元，就是整個項目的預計費用。",
+      "answerZhSource": "pdf",
+      "highlight": "Just under two million dollars is how much the entire project is expected to cost."
+    },
+    {
+      "id": "ss234-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The full emergency plan is practised only once a year.",
+      "promptZh": "完整的緊急應變計劃每年只演練一次。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only once a year is how often the full emergency plan is practised.",
+      "answerZh": "每年只有一次，就是完整緊急應變計劃接受演練的頻率。",
+      "answerZhSource": "pdf",
+      "highlight": "Only once a year is how often the full emergency plan is practised."
+    },
+    {
+      "id": "ss234-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The review showed that the department needed clearer priorities and more realistic deadlines.",
+      "promptZh": "檢討結果顯示，該部門需要更清晰的優先次序和更實際的限期。",
+      "promptZhSource": "pdf",
+      "starter": "That",
+      "answer": "That the department needed clearer priorities and more realistic deadlines was what the review showed.",
+      "answerZh": "該部門需要更清晰的優先次序和更實際的限期，就是這次檢討所顯示的結果。",
+      "answerZhSource": "pdf",
+      "highlight": "That the department needed clearer priorities and more realistic deadlines was what the review showed."
+    }
+  ]
+}

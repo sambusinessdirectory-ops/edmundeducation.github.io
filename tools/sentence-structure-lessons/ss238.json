@@ -1,0 +1,1286 @@
+{
+  "id": "ss238",
+  "order": 238,
+  "slug": "sluicing-wh-remnant-ellipsis",
+  "title": "Sluicing 殘留疑問結構",
+  "titleZh": "Sluicing 殘留疑問結構",
+  "titleEn": "Sluicing: Wh-remnant ellipsis",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence Structure 237 - Sluicing 殘留疑問結構.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exercisePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit, together with the PDF's governing principles where applicable, is retained as a separate Chinese-primary card.",
+      "The source filename is numbered 237; it is assigned system ID ss238 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "Antecedent clause + reporting expression + wh-remnant",
+  "formulas": [
+    {
+      "id": "ss238-formula-01",
+      "labelEn": "After a reporting expression",
+      "labelZh": "報述表達之後",
+      "formula": "Antecedent clause + reporting expression + wh-remnant"
+    },
+    {
+      "id": "ss238-formula-02",
+      "labelEn": "As a short direct question",
+      "labelZh": "簡短直接問句",
+      "formula": "Antecedent sentence. + Wh-remnant?"
+    },
+    {
+      "id": "ss238-formula-03",
+      "labelEn": "As the subject of another clause",
+      "labelZh": "作為另一子句的主語",
+      "formula": "Antecedent clause + wh-remnant + remains / is + unclear"
+    },
+    {
+      "id": "ss238-formula-04",
+      "labelEn": "Before the supporting clause",
+      "labelZh": "放在支援子句之前",
+      "formula": "Reporting expression + wh-remnant, but + antecedent clause"
+    },
+    {
+      "id": "ss238-formula-05",
+      "labelEn": "With a preposition",
+      "labelZh": "配合介詞",
+      "formula": "Antecedent clause + reporting expression + preposition + wh-remnant"
+    },
+    {
+      "id": "ss238-formula-06",
+      "labelEn": "With two connected unknowns",
+      "labelZh": "連接兩項未知資料",
+      "formula": "Antecedent clause + reporting expression + wh-remnant + or / and + wh-remnant"
+    }
+  ],
+  "example": "Someone called, but I don’t know who.",
+  "exampleZh": "有人打過來，但我不知道是誰。",
+  "examples": [
+    {
+      "id": "ss238-example-01",
+      "en": "Someone called, but I don’t know who.",
+      "zh": "有人打過來，但我不知道是誰。",
+      "highlight": "Someone called, but I don’t know who."
+    },
+    {
+      "id": "ss238-example-02",
+      "en": "Someone has changed the password. Who?",
+      "zh": "有人更改了密碼。是誰？",
+      "highlight": "Someone has changed the password. Who?"
+    },
+    {
+      "id": "ss238-example-03",
+      "en": "Someone deleted the file; exactly who remains unknown.",
+      "zh": "有人刪除了檔案；究竟是誰仍然不明。",
+      "highlight": "Someone deleted the file; exactly who remains unknown."
+    },
+    {
+      "id": "ss238-example-04",
+      "en": "A message was sent by someone, but we cannot tell by whom.",
+      "zh": "有人發出了一則訊息，但我們無法判斷是由誰發出的。",
+      "highlight": "A message was sent by someone, but we cannot tell by whom."
+    }
+  ],
+  "meaning": {
+    "zh": "保留疑問詞或疑問詞組，省略能夠從上文理解的重複子句；真正目標是 wh-word or wh-phrase + omitted recoverable clause。"
+  },
+  "rules": [
+    {
+      "id": "ss238-rule-01",
+      "zh": "被省略的資料必須能夠從上文恢復；讀者必須明白疑問詞所代表的完整問題。",
+      "en": "The missing information must be recoverable. The reader must be able to understand the omitted clause from the preceding context.",
+      "enSource": "pdf",
+      "examples": [
+        "Someone took the key, but I don’t know who."
+      ]
+    },
+    {
+      "id": "ss238-rule-02",
+      "zh": "不要保留已重複的子句。完整間接問句中的重複內容應在疑問詞後省略。",
+      "en": "Do not retain the repeated clause. In the target sluicing structure, words already supplied by the antecedent are understood and should be omitted.",
+      "enSource": "pdf",
+      "examples": [
+        "Someone took the key, but I don’t know who."
+      ]
+    },
+    {
+      "id": "ss238-rule-03",
+      "zh": "按照未知資料選擇正確疑問詞，例如 who、what、where、when、why、how、which、whose、how many 或 how much。",
+      "en": "Choose the correct wh-word for the missing person, thing, place, time, reason, method, choice, possession, number or amount.",
+      "enSource": "pdf",
+      "examples": [
+        "Someone called, but I don’t know who.",
+        "She bought something, but I don’t know what.",
+        "They went somewhere, but I don’t know where."
+      ]
+    },
+    {
+      "id": "ss238-rule-04",
+      "zh": "在 I don’t know、I wonder 或 nobody can explain 等嵌入式表達後，不要使用直接問句語序；通常以句號結束。",
+      "en": "Do not use direct-question word order after an embedded expression. A sluice after expressions such as I don’t know, I wonder or nobody can explain normally ends with a full stop.",
+      "enSource": "pdf",
+      "examples": [
+        "I don’t know who.",
+        "Incorrect: I don’t know who did?"
+      ]
+    },
+    {
+      "id": "ss238-rule-05",
+      "zh": "獨立出現的殘留疑問詞屬於直接問句，須使用問號。",
+      "en": "A standalone sluice is a direct question and takes a question mark.",
+      "enSource": "pdf",
+      "examples": [
+        "Someone called. Who?",
+        "They moved the meeting. When?"
+      ]
+    },
+    {
+      "id": "ss238-rule-06",
+      "zh": "被理解的完整意思須保留原句的時態和情態，不可把 may 等可能性改成確定語氣。",
+      "en": "Preserve tense and modality in the understood meaning. For example, may in the antecedent must remain part of the recovered question rather than becoming certainty.",
+      "enSource": "pdf",
+      "examples": [
+        "Someone may have opened the door, but I don’t know who."
+      ]
+    },
+    {
+      "id": "ss238-rule-07",
+      "zh": "殘留疑問結構不一定放在句末；它可放在支援子句前、作另一子句主語，或獨立成為簡短問句。",
+      "en": "The sluice does not have to appear at the end. It may precede its supporting clause, serve as the subject of another clause or stand alone as a short direct question.",
+      "enSource": "pdf",
+      "examples": [
+        "I don’t know who, but someone called.",
+        "Someone called; who remains unclear."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss238-benefit-01",
+      "zh": "省略整個重複子句，只保留仍然未知的資料，能避免不必要的重複。",
+      "en": "It removes unnecessary repetition by leaving only the information that is still unknown instead of repeating an entire clause.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss238-benefit-02",
+      "zh": "保留下來的疑問詞能立即指出說話者想知道的是人物、事物、地點、時間、原因、方法或數量。",
+      "en": "It directs attention to the missing information because the remaining wh-word immediately identifies the kind of detail being requested.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss238-benefit-03",
+      "zh": "流利說話者通常不會重複聽者已能理解的內容，因此這個結構令對話更自然、不會顯得機械化。",
+      "en": "It makes conversation sound less mechanical because fluent speakers avoid repeating words the listener can already understand.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss238-benefit-04",
+      "zh": "殘留部分可以放在句末、支援子句前、另一子句的主語位置，或獨立成為直接問句，增加句式變化。",
+      "en": "It gives several ways to organise a sentence: at the end, before the supporting clause, as the subject of another clause or as a short direct question.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss238-benefit-05",
+      "zh": "當你知道事情已發生、但仍不知道其中一項重要資料時，這個結構十分實用。",
+      "en": "It is useful when information is incomplete: the event is known, but one important detail is still unknown.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit, together with the PDF's governing principles where applicable, is retained as a separate Chinese-primary card.",
+    "The source filename is numbered 237; it is assigned system ID ss238 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using a sluicing structure.",
+      "Remove the repeated clause after the appropriate wh-word or wh-phrase.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用殘留疑問結構改寫以下句子。",
+      "在適當的疑問詞或疑問詞組後，省略能夠從上文理解的重複子句。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss238-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Someone rang the bell, but I do not know who rang it.",
+      "promptZh": "有人按門鈴，但我不知道是誰按的。",
+      "promptZhSource": "pdf",
+      "starter": "Someone",
+      "answer": "Someone rang the bell, but I don’t know who.",
+      "answerZh": "有人按門鈴，但我不知道是誰。",
+      "answerZhSource": "pdf",
+      "highlight": "Someone rang the bell, but I don’t know who."
+    },
+    {
+      "id": "ss238-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Maya bought something, but she will not tell me what she bought.",
+      "promptZh": "瑪雅買了某樣東西，但她不肯告訴我她買了甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "Maya",
+      "answer": "Maya bought something, but she won’t tell me what.",
+      "answerZh": "瑪雅買了某樣東西，但她不肯告訴我是甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya bought something, but she won’t tell me what."
+    },
+    {
+      "id": "ss238-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "They met somewhere after work, but we are not sure where they met.",
+      "promptZh": "他們下班後在某處見面，但我們不確定他們在哪裏見面。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They met somewhere after work, but we aren’t sure where.",
+      "answerZh": "他們下班後在某處見面，但我們不確定在哪裏。",
+      "answerZhSource": "pdf",
+      "highlight": "They met somewhere after work, but we aren’t sure where."
+    },
+    {
+      "id": "ss238-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The train will arrive at some time, though nobody has announced when it will arrive.",
+      "promptZh": "火車會在某個時間到達，但沒有人公布它何時到達。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The train will arrive at some time, though nobody has announced when.",
+      "answerZh": "火車會在某個時間到達，但沒有人公布何時到達。",
+      "answerZhSource": "pdf",
+      "highlight": "The train will arrive at some time, though nobody has announced when."
+    },
+    {
+      "id": "ss238-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The lights went out for some reason, but no one knows why they went out.",
+      "promptZh": "燈因某個原因熄滅了，但沒有人知道它們為甚麼熄滅。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lights went out for some reason; no one knows why.",
+      "answerZh": "燈因某個原因熄滅了；沒有人知道原因。",
+      "answerZhSource": "pdf",
+      "highlight": "The lights went out for some reason; no one knows why."
+    },
+    {
+      "id": "ss238-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Leo solved the puzzle somehow, but he has not explained how he solved it.",
+      "promptZh": "里奧以某種方法解開謎題，但他沒有解釋自己如何做到。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo solved the puzzle somehow, but he hasn’t explained how.",
+      "answerZh": "里奧以某種方法解開謎題，但他沒有解釋如何做到。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo solved the puzzle somehow, but he hasn’t explained how."
+    },
+    {
+      "id": "ss238-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "One of these keys opens the cupboard, but I cannot remember which key opens it.",
+      "promptZh": "這些鑰匙之中有一把能打開碗櫃，但我不記得是哪一把。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of these keys opens the cupboard, but I can’t remember which.",
+      "answerZh": "這些鑰匙之中有一把能打開碗櫃，但我不記得是哪一把。",
+      "answerZhSource": "pdf",
+      "highlight": "One of these keys opens the cupboard, but I can’t remember which."
+    },
+    {
+      "id": "ss238-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Someone’s coat is on my chair, but I do not know whose coat it is.",
+      "promptZh": "有人的外套放在我的椅子上，但我不知道那是誰的外套。",
+      "promptZhSource": "pdf",
+      "starter": "Someone’s",
+      "answer": "Someone’s coat is on my chair, but I don’t know whose.",
+      "answerZh": "有人的外套放在我的椅子上，但我不知道是誰的。",
+      "answerZhSource": "pdf",
+      "highlight": "Someone’s coat is on my chair, but I don’t know whose."
+    },
+    {
+      "id": "ss238-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Some students stayed behind, but the teacher does not know how many students stayed behind.",
+      "promptZh": "有些學生留了下來，但老師不知道有多少名學生留了下來。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some students stayed behind. The teacher doesn’t know how many.",
+      "answerZh": "有些學生留了下來。老師不知道有多少人。",
+      "answerZhSource": "pdf",
+      "highlight": "Some students stayed behind. The teacher doesn’t know how many."
+    },
+    {
+      "id": "ss238-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The meal cost a certain amount, though Ravi will not say how much it cost.",
+      "promptZh": "這頓飯花了某個金額，但拉維不肯說花了多少錢。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meal cost a certain amount, though Ravi won’t say how much.",
+      "answerZh": "這頓飯花了某個金額，但拉維不肯說多少。",
+      "answerZhSource": "pdf",
+      "highlight": "The meal cost a certain amount, though Ravi won’t say how much."
+    },
+    {
+      "id": "ss238-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Someone left this note. Who left this note?",
+      "promptZh": "有人留下這張字條。是誰留下這張字條的？",
+      "promptZhSource": "pdf",
+      "starter": "Someone",
+      "answer": "Someone left this note. Who?",
+      "answerZh": "有人留下這張字條。是誰？",
+      "answerZhSource": "pdf",
+      "highlight": "Someone left this note. Who?"
+    },
+    {
+      "id": "ss238-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Something is making that noise. Can you guess what is making it?",
+      "promptZh": "有東西正在發出那種聲音。你猜到是甚麼在發出聲音嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Something",
+      "answer": "Something is making that noise. Can you guess what?",
+      "answerZh": "有東西正在發出那種聲音。你猜到是甚麼嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Something is making that noise. Can you guess what?"
+    },
+    {
+      "id": "ss238-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The children hid the present somewhere. Do you know where they hid it?",
+      "promptZh": "孩子們把禮物藏在某處。你知道他們藏在哪裏嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children hid the present somewhere. Do you know where?",
+      "answerZh": "孩子們把禮物藏在某處。你知道在哪裏嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "The children hid the present somewhere. Do you know where?"
+    },
+    {
+      "id": "ss238-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The meeting was moved to another day, but I have forgotten when it was moved.",
+      "promptZh": "會議改到另一天舉行，但我忘記改到哪一天。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meeting was moved to another day, but I have forgotten when.",
+      "answerZh": "會議改到另一天舉行，但我忘記是哪一天。",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting was moved to another day, but I have forgotten when."
+    },
+    {
+      "id": "ss238-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "They left early, although I am not sure why they left early.",
+      "promptZh": "他們提早離開了，儘管我不確定他們為甚麼提早離開。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They left early, although I’m not sure why.",
+      "answerZh": "他們提早離開了，儘管我不確定原因。",
+      "answerZhSource": "pdf",
+      "highlight": "They left early, although I’m not sure why."
+    },
+    {
+      "id": "ss238-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Nina opened the locked box somehow, but she never explained how she opened it.",
+      "promptZh": "妮娜以某種方法打開上鎖的盒子，但她從沒有解釋自己如何打開它。",
+      "promptZhSource": "pdf",
+      "starter": "Nina",
+      "answer": "Nina opened the locked box somehow, but she never explained how.",
+      "answerZh": "妮娜以某種方法打開上鎖的盒子，但她從沒有解釋如何做到。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina opened the locked box somehow, but she never explained how."
+    },
+    {
+      "id": "ss238-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "One of the buses goes to the museum. The receptionist can tell you which bus goes there.",
+      "promptZh": "其中一輛巴士會前往博物館。接待員可以告訴你是哪一輛巴士。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the buses goes to the museum. The receptionist can tell you which.",
+      "answerZh": "其中一輛巴士會前往博物館。接待員可以告訴你是哪一輛。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the buses goes to the museum. The receptionist can tell you which."
+    },
+    {
+      "id": "ss238-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Someone owns this bicycle. I wonder whose bicycle it is.",
+      "promptZh": "有人擁有這輛單車。我想知道這是誰的單車。",
+      "promptZhSource": "pdf",
+      "starter": "Someone",
+      "answer": "Someone owns this bicycle. I wonder whose.",
+      "answerZh": "有人擁有這輛單車。我想知道是誰的。",
+      "answerZhSource": "pdf",
+      "highlight": "Someone owns this bicycle. I wonder whose."
+    },
+    {
+      "id": "ss238-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Several customers complained, but the manager will not reveal how many customers complained.",
+      "promptZh": "幾名顧客作出投訴，但經理不肯透露有多少名顧客投訴。",
+      "promptZhSource": "pdf",
+      "starter": "Several",
+      "answer": "Several customers complained, but the manager won’t reveal how many.",
+      "answerZh": "幾名顧客作出投訴，但經理不肯透露有多少人。",
+      "answerZhSource": "pdf",
+      "highlight": "Several customers complained, but the manager won’t reveal how many."
+    },
+    {
+      "id": "ss238-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We need a certain amount of paint, but I do not know how much paint we need.",
+      "promptZh": "我們需要某個分量的油漆，但我不知道需要多少油漆。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We need a certain amount of paint, but I don’t know how much.",
+      "answerZh": "我們需要某個分量的油漆，但我不知道需要多少。",
+      "answerZhSource": "pdf",
+      "highlight": "We need a certain amount of paint, but I don’t know how much."
+    },
+    {
+      "id": "ss238-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I do not know who sent the flowers, but someone sent them.",
+      "promptZh": "我不知道是誰送花來，但確實有人送了這些花。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I don’t know who, but someone sent the flowers.",
+      "answerZh": "我不知道是誰，但確實有人送了這些花。",
+      "answerZhSource": "pdf",
+      "highlight": "I don’t know who, but someone sent the flowers."
+    },
+    {
+      "id": "ss238-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We cannot remember where we parked, but we parked somewhere near the station.",
+      "promptZh": "我們不記得把車停在哪裏，但我們把車停在車站附近的某處。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We cannot remember where, but we parked somewhere near the station.",
+      "answerZh": "我們不記得在哪裏，但確實把車停在車站附近某處。",
+      "answerZhSource": "pdf",
+      "highlight": "We cannot remember where, but we parked somewhere near the station."
+    },
+    {
+      "id": "ss238-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "No one understands why the alarm rang, although it rang for some reason.",
+      "promptZh": "沒有人明白警報為甚麼響起，儘管它確實因某個原因響起。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No one understands why, although the alarm rang for some reason.",
+      "answerZh": "沒有人明白原因，儘管警報確實因某個原因響起。",
+      "answerZhSource": "pdf",
+      "highlight": "No one understands why, although the alarm rang for some reason."
+    },
+    {
+      "id": "ss238-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I have forgotten when the shop closes, but it closes at some time this evening.",
+      "promptZh": "我忘記商店何時關門，但它會在今晚某個時間關門。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I have forgotten when, but the shop closes at some time this evening.",
+      "answerZh": "我忘記了是甚麼時候，但商店會在今晚某個時間關門。",
+      "answerZhSource": "pdf",
+      "highlight": "I have forgotten when, but the shop closes at some time this evening."
+    },
+    {
+      "id": "ss238-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "She will not explain how she entered, but she entered somehow.",
+      "promptZh": "她不肯解釋自己如何進入，但她確實以某種方法進去了。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She won’t explain how, but she entered somehow.",
+      "answerZh": "她不肯解釋自己如何進入，但她確實以某種方法進去了。",
+      "answerZhSource": "pdf",
+      "highlight": "She won’t explain how, but she entered somehow."
+    },
+    {
+      "id": "ss238-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Someone deleted the file. The exact identity of the person who deleted it remains unknown.",
+      "promptZh": "有人刪除了檔案。刪除檔案者的確實身分仍然不明。",
+      "promptZhSource": "pdf",
+      "starter": "Someone",
+      "answer": "Someone deleted the file; exactly who remains unknown.",
+      "answerZh": "有人刪除了檔案；究竟是誰仍然不明。",
+      "answerZhSource": "pdf",
+      "highlight": "Someone deleted the file; exactly who remains unknown."
+    },
+    {
+      "id": "ss238-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The event was cancelled for some reason. The reason has never been explained.",
+      "promptZh": "活動因某個原因取消了。這個原因一直沒有得到解釋。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The event was cancelled; why has never been explained.",
+      "answerZh": "活動取消了；原因一直沒有得到解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "The event was cancelled; why has never been explained."
+    },
+    {
+      "id": "ss238-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The parcel was sent from somewhere, but the precise place from which it was sent remains uncertain.",
+      "promptZh": "包裹從某處寄出，但它確切的寄出地點仍不確定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The parcel was sent from somewhere, but precisely where remains uncertain.",
+      "answerZh": "包裹從某處寄出，但究竟從哪裏寄出仍不確定。",
+      "answerZhSource": "pdf",
+      "highlight": "The parcel was sent from somewhere, but precisely where remains uncertain."
+    },
+    {
+      "id": "ss238-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Someone spoke to the director. The exact identity of the person who spoke to her is still a mystery.",
+      "promptZh": "有人跟主管交談過。跟她交談者的確實身分仍然是個謎。",
+      "promptZhSource": "pdf",
+      "starter": "Someone",
+      "answer": "Someone spoke to the director; exactly who is still a mystery.",
+      "answerZh": "有人跟主管交談過；究竟是誰仍然是個謎。",
+      "answerZhSource": "pdf",
+      "highlight": "Someone spoke to the director; exactly who is still a mystery."
+    },
+    {
+      "id": "ss238-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "One of the plans was approved, but it is not yet clear which plan was approved.",
+      "promptZh": "其中一個計劃獲得批准，但目前仍不清楚是哪一個計劃。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the plans was approved, but which one is not yet clear.",
+      "answerZh": "其中一個計劃獲得批准，但目前仍不清楚是哪一個。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the plans was approved, but which one is not yet clear."
+    },
+    {
+      "id": "ss238-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A guest took my seat, but I have no idea which guest took it.",
+      "promptZh": "有一名客人佔用了我的座位，但我完全不知道是哪一名客人。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A guest took my seat, but I have no idea who.",
+      "answerZh": "有一名客人佔用了我的座位，但我完全不知道是誰。",
+      "answerZhSource": "pdf",
+      "highlight": "A guest took my seat, but I have no idea who."
+    },
+    {
+      "id": "ss238-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The council has chosen a site for the new park, but nobody knows where the site is.",
+      "promptZh": "市議會已為新公園選定一個地點，但沒有人知道該地點在哪裏。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council has chosen a site for the new park, but nobody knows where.",
+      "answerZh": "市議會已為新公園選定一個地點，但沒有人知道在哪裏。",
+      "answerZhSource": "pdf",
+      "highlight": "The council has chosen a site for the new park, but nobody knows where."
+    },
+    {
+      "id": "ss238-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The package was delivered to someone, but the receptionist cannot remember who it was delivered to.",
+      "promptZh": "包裹交給了某人，但接待員不記得包裹交給了誰。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The package was delivered to someone, but the receptionist can’t remember who.",
+      "answerZh": "包裹交給了某人，但接待員不記得是誰。",
+      "answerZhSource": "pdf",
+      "highlight": "The package was delivered to someone, but the receptionist can’t remember who."
+    },
+    {
+      "id": "ss238-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A message was sent by someone, but we cannot tell by whom it was sent.",
+      "promptZh": "有人發出了一則訊息，但我們無法判斷訊息是由誰發出的。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A message was sent by someone, but we cannot tell by whom.",
+      "answerZh": "有人發出了一則訊息，但我們無法判斷是由誰發出的。",
+      "answerZhSource": "pdf",
+      "highlight": "A message was sent by someone, but we cannot tell by whom."
+    },
+    {
+      "id": "ss238-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "They discussed something during the meeting, though nobody knows what they discussed.",
+      "promptZh": "他們在會議期間討論了某件事，但沒有人知道他們討論了甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They discussed something during the meeting, though nobody knows what.",
+      "answerZh": "他們在會議期間討論了某件事，但沒有人知道是甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "They discussed something during the meeting, though nobody knows what."
+    },
+    {
+      "id": "ss238-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The children are going somewhere after school, but their parents do not know where they are going.",
+      "promptZh": "孩子們放學後會前往某處，但父母不知道他們會去哪裏。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children are going somewhere after school, but their parents don’t know where.",
+      "answerZh": "孩子們放學後會前往某處，但父母不知道在哪裏。",
+      "answerZhSource": "pdf",
+      "highlight": "The children are going somewhere after school, but their parents don’t know where."
+    },
+    {
+      "id": "ss238-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "You may need to contact one of the technicians, but I cannot say which technician you should contact.",
+      "promptZh": "你可能需要聯絡其中一名技術員，但我無法告訴你應該聯絡哪一名。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You may need to contact one of the technicians, but I can’t say which.",
+      "answerZh": "你可能需要聯絡其中一名技術員，但我無法告訴你是哪一名。",
+      "answerZhSource": "pdf",
+      "highlight": "You may need to contact one of the technicians, but I can’t say which."
+    },
+    {
+      "id": "ss238-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Someone has been using my desk, but I have not discovered who has been using it.",
+      "promptZh": "有人一直在使用我的書桌，但我仍未查出是誰在使用。",
+      "promptZhSource": "pdf",
+      "starter": "Someone",
+      "answer": "Someone has been using my desk, but I haven’t discovered who.",
+      "answerZh": "有人一直在使用我的書桌，但我仍未查出是誰。",
+      "answerZhSource": "pdf",
+      "highlight": "Someone has been using my desk, but I haven’t discovered who."
+    },
+    {
+      "id": "ss238-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A number of tickets were sold online, though the organiser cannot confirm how many tickets were sold online.",
+      "promptZh": "網上售出了若干張門票，但主辦者無法確認售出了多少張。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A number of tickets were sold online, though the organiser can’t confirm how many.",
+      "answerZh": "網上售出了若干張門票，但主辦者無法確認有多少張。",
+      "answerZhSource": "pdf",
+      "highlight": "A number of tickets were sold online, though the organiser can’t confirm how many."
+    },
+    {
+      "id": "ss238-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The repair may cost a certain amount, but the engineer cannot yet estimate how much it may cost.",
+      "promptZh": "維修費可能會是某個金額，但工程師尚未能估計可能需要多少。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The repair may cost a certain amount, but the engineer cannot yet estimate how much.",
+      "answerZh": "維修費可能會是某個金額，但工程師尚未能估計是多少。",
+      "answerZhSource": "pdf",
+      "highlight": "The repair may cost a certain amount, but the engineer cannot yet estimate how much."
+    },
+    {
+      "id": "ss238-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I do not know which applicant changed the figures, but one of the applicants changed them.",
+      "promptZh": "我不知道是哪一名申請人更改了數字，但其中一名申請人的確更改了。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I don’t know who, but one of the applicants changed the figures.",
+      "answerZh": "我不知道是誰，但其中一名申請人的確更改了數字。",
+      "answerZhSource": "pdf",
+      "highlight": "I don’t know who, but one of the applicants changed the figures."
+    },
+    {
+      "id": "ss238-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The exact location is uncertain, but the committee has chosen somewhere for the ceremony.",
+      "promptZh": "確切地點仍未確定，但委員會已為典禮選定某個地方。",
+      "promptZhSource": "pdf",
+      "starter": "Exactly",
+      "answer": "Exactly where remains uncertain, but the committee has chosen somewhere for the ceremony.",
+      "answerZh": "究竟在哪裏仍未確定，但委員會已為典禮選定了某個地方。",
+      "answerZhSource": "pdf",
+      "highlight": "Exactly where remains uncertain, but the committee has chosen somewhere for the ceremony."
+    },
+    {
+      "id": "ss238-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Although the system shut down for some reason, the reason remains a mystery.",
+      "promptZh": "雖然系統因某個原因停止運作，但這個原因仍是個謎。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the system shut down for some reason, why remains a mystery.",
+      "answerZh": "雖然系統因某個原因停止運作，但原因仍是個謎。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the system shut down for some reason, why remains a mystery."
+    },
+    {
+      "id": "ss238-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The team will announce the results at some point; the exact time has not been decided.",
+      "promptZh": "團隊會在某個時間公布結果；確切時間仍未決定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team will announce the results at some point; when has not been decided.",
+      "answerZh": "團隊會在某個時間公布結果；何時公布仍未決定。",
+      "answerZhSource": "pdf",
+      "highlight": "The team will announce the results at some point; when has not been decided."
+    },
+    {
+      "id": "ss238-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The thieves entered somehow without breaking a window; the exact way they entered is difficult to explain.",
+      "promptZh": "竊賊以某種方法進入，而且沒有打破窗戶；他們進入的確實方法很難解釋。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The thieves entered somehow without breaking a window; exactly how remains difficult to explain.",
+      "answerZh": "竊賊以某種方法進入，而且沒有打破窗戶；究竟如何進入很難解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "The thieves entered somehow without breaking a window; exactly how remains difficult to explain."
+    },
+    {
+      "id": "ss238-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Someone has changed the password. Who has changed it?",
+      "promptZh": "有人更改了密碼。是誰更改的？",
+      "promptZhSource": "pdf",
+      "starter": "Someone",
+      "answer": "Someone has changed the password. Who?",
+      "answerZh": "有人更改了密碼。是誰？",
+      "answerZhSource": "pdf",
+      "highlight": "Someone has changed the password. Who?"
+    },
+    {
+      "id": "ss238-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The team bought some new equipment. Can you guess what equipment they bought?",
+      "promptZh": "團隊買了一些新設備。你猜到他們買了甚麼設備嗎？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team bought some new equipment. Can you guess what?",
+      "answerZh": "團隊買了一些新設備。你猜到是甚麼嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "The team bought some new equipment. Can you guess what?"
+    },
+    {
+      "id": "ss238-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "One of the witnesses left before the interview, but I cannot remember which witness left.",
+      "promptZh": "其中一名證人在訪問前離開了，但我不記得是哪一名證人。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the witnesses left before the interview, but I can’t remember which one.",
+      "answerZh": "其中一名證人在訪問前離開了，但我不記得是哪一名。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the witnesses left before the interview, but I can’t remember which one."
+    },
+    {
+      "id": "ss238-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The charity received a donation from someone, but nobody knows from whom it received the donation.",
+      "promptZh": "慈善機構收到某人的捐款，但沒有人知道它從誰那裏收到這筆捐款。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The charity received a donation from someone, but nobody knows from whom.",
+      "answerZh": "慈善機構收到某人的捐款，但沒有人知道來自誰。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity received a donation from someone, but nobody knows from whom."
+    },
+    {
+      "id": "ss238-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Someone changed the final schedule for some reason, but nobody knows who changed it or why that person changed it.",
+      "promptZh": "有人因某個原因更改了最終時間表，但沒有人知道是誰更改，或者那人為甚麼更改。",
+      "promptZhSource": "pdf",
+      "starter": "Someone",
+      "answer": "Someone changed the final schedule for some reason, but nobody knows who or why.",
+      "answerZh": "有人因某個原因更改了最終時間表，但沒有人知道是誰，也不知道原因。",
+      "answerZhSource": "pdf",
+      "highlight": "Someone changed the final schedule for some reason, but nobody knows who or why."
+    }
+  ]
+}

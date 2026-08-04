@@ -1,0 +1,1271 @@
+{
+  "id": "ss263",
+  "order": 263,
+  "slug": "but-for-noun",
+  "title": "「But for + noun」表示「若不是因為……」",
+  "titleZh": "「But for + noun」表示「若不是因為……」",
+  "titleEn": "Using “But for + noun”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 262 - 「But for + noun」表示「若不是因為……」.pdf",
+    "pageCount": 29,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "exercisePages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "answerPages": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF does not provide a complete English counterpart, the English text is a faithful editorial translation.",
+      "The source filename is numbered one lower than the system lesson because two distinct source PDFs are labelled 201; source number N therefore maps to system ID ssN+1."
+    ]
+  },
+  "formula": "But for + noun or noun phrase, + hypothetical result.",
+  "formulas": [
+    {
+      "id": "ss263-formula-01",
+      "labelEn": "Present or future unreal result",
+      "labelZh": "現在或將來的假設結果",
+      "formula": "But for + noun phrase, + subject + would / could / might + base verb."
+    },
+    {
+      "id": "ss263-formula-02",
+      "labelEn": "Present or future, final position",
+      "labelZh": "現在或將來，句末位置",
+      "formula": "Subject + would / could / might + base verb + but for + noun phrase."
+    },
+    {
+      "id": "ss263-formula-03",
+      "labelEn": "Past unreal result",
+      "labelZh": "過去並未發生的假設結果",
+      "formula": "But for + noun phrase, + subject + would / could / might have + past participle."
+    },
+    {
+      "id": "ss263-formula-04",
+      "labelEn": "Past unreal, final position",
+      "labelZh": "過去假設，句末位置",
+      "formula": "Subject + would / could / might have + past participle + but for + noun phrase."
+    },
+    {
+      "id": "ss263-formula-05",
+      "labelEn": "Question form",
+      "labelZh": "疑問形式",
+      "formula": "Question word + would / could / might + subject + base verb + but for + noun phrase?"
+    }
+  ],
+  "example": "But for your help, we would have missed the deadline.",
+  "exampleZh": "若不是因為你的幫助，我們便會錯過限期。",
+  "examples": [
+    {
+      "id": "ss263-example-01",
+      "en": "But for your help, we would have missed the deadline.",
+      "zh": "若不是因為你的幫助，我們便會錯過限期。",
+      "highlight": "But for your help, we would have missed the deadline."
+    },
+    {
+      "id": "ss263-example-02",
+      "en": "But for this map, we could not find the village.",
+      "zh": "若不是因為這張地圖，我們便找不到那條村莊。",
+      "highlight": "But for this map, we could not find the village."
+    },
+    {
+      "id": "ss263-example-03",
+      "en": "The plants would die but for daily watering.",
+      "zh": "若不是每天澆水，這些植物便會枯死。",
+      "highlight": "The plants would die but for daily watering."
+    },
+    {
+      "id": "ss263-example-04",
+      "en": "But for the alarm, Olivia would have overslept.",
+      "zh": "若不是因為鬧鐘，奧莉花便會睡過頭。",
+      "highlight": "But for the alarm, Olivia would have overslept."
+    }
+  ],
+  "meaning": {
+    "zh": "But for 表示 if it were not for、if it had not been for 或 without，指出某人、事物、事件或情況阻止了另一個假設結果發生。中文通常譯作「若不是因為……」、「要不是……」或「如果沒有……」。"
+  },
+  "rules": [
+    {
+      "id": "ss263-rule-01",
+      "zh": "But for 後面必須接名詞表達，包括普通名詞片語、所有格名詞片語或受格代名詞；完整子句通常不能直接跟在後面。",
+      "en": "But for must be followed by a noun expression, such as a common noun phrase, possessive noun phrase or object pronoun. A complete clause cannot normally follow it directly.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss263-rule-02",
+      "zh": "But for 本身已帶有條件意思，不要在同一結構中再加入 if。",
+      "en": "Do not add if to the same structure because but for already carries the conditional meaning.",
+      "enSource": "pdf",
+      "examples": [
+        "But for the map, we would be lost.",
+        "If it were not for the map, we would be lost.",
+        "Incorrect: If but for the map, we would be lost."
+      ]
+    },
+    {
+      "id": "ss263-rule-03",
+      "zh": "but for 片語放在句首時後面通常加逗號；放在句末時前面通常不需要逗號。",
+      "en": "Use a comma when the but for phrase comes first. In final position, a comma is normally unnecessary.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss263-rule-04",
+      "zh": "結果形式須配合時間：現在或將來的假設結果使用 would / could / might + 原形動詞；過去未發生的結果使用 would / could / might have + 過去分詞。",
+      "en": "Match the result form to the time. Use would / could / might + base verb for a present or future hypothetical result, and would / could / might have + past participle for an unreal past result.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss263-rule-05",
+      "zh": "改寫時必須保留肯定或否定意思；隨意加入或刪除 not 可能完全顛倒原意。",
+      "en": "Preserve positive and negative meaning. Adding or removing not can reverse the meaning completely.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss263-rule-06",
+      "zh": "不要把普通實際原因改成必要條件。來源句必須清楚表示：如果沒有該人物、事物或條件，另一結果便會、可能會或本來能夠發生。",
+      "en": "Do not turn an ordinary cause into a necessary condition. The source must make the counterfactual meaning clear: without the named person, thing or condition, another result would, could or might occur.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss263-rule-07",
+      "zh": "But for 在某些語境可表示 except for，但本課只教授 if it were not for / if it had not been for 的假設條件意思。",
+      "en": "Do not confuse the target with the except for meaning. This exercise teaches only the conditional meaning if it were not for / if it had not been for.",
+      "enSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss263-benefit-01",
+      "zh": "它把較長的 if it were not for 或 if it had not been for 子句縮短，使句子更緊湊。",
+      "en": "It shortens a long conditional clause, replacing if it were not for or if it had not been for with a compact expression.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss263-benefit-02",
+      "zh": "它把注意力放在阻止不同結果發生的人、物件或事件上，清楚指出決定性因素。",
+      "en": "It clearly identifies the deciding factor by focusing on the person, object or event that prevented a different result.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss263-benefit-03",
+      "zh": "它可以把實際情況與不同條件下本來會、可能會或能夠發生的替代結果作比較。",
+      "en": "It helps explain alternative results by comparing reality with what would, could or might have happened under different conditions.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss263-benefit-04",
+      "zh": "透過 would、could 和 might，可以準確控制假設結果的肯定程度。",
+      "en": "It gives you control over certainty: would presents an expected result, could shows ability or possibility, and might shows a less certain possibility.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss263-benefit-05",
+      "zh": "可以先寫條件、先寫結果，或把結構放進報告子句，提供不同句子開首。",
+      "en": "It allows different sentence openings because the condition may come first, the result may come first, or the structure may appear inside a report.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss263-benefit-06",
+      "zh": "它適合解釋項目成功、意外避免、問題阻止、必要支援和其他可能結果，常用於報告、作文、簡報和反思寫作。",
+      "en": "It is useful for explanations, reports and reflective writing, especially when explaining success, avoided accidents, prevented problems, essential support and possible alternative outcomes.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF does not provide a complete English counterpart, the English text is a faithful editorial translation.",
+    "The source filename is numbered one lower than the system lesson because two distinct source PDFs are labelled 201; source number N therefore maps to system ID ssN+1."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using but for + noun or noun phrase.",
+      "Preserve the original meaning, time, modality and degree of certainty. The target may appear at the beginning, middle or end. The first word is provided."
+    ],
+    "zh": [
+      "使用 but for + 名詞或名詞片語 改寫以下句子。",
+      "保留原句的意思、時間、情態及肯定程度。目標表達可放在答案的開頭、中間或結尾。每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss263-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "If it had not been for your help, we would have missed the deadline.",
+      "promptZh": "若不是因為你的幫助，我們便會錯過限期。",
+      "promptZhSource": "pdf",
+      "starter": "But",
+      "answer": "But for your help, we would have missed the deadline.",
+      "answerZh": "若不是因為你的幫助，我們便會錯過限期。",
+      "answerZhSource": "pdf",
+      "highlight": "But for your help, we would have missed the deadline."
+    },
+    {
+      "id": "ss263-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Without daily watering, the plants would die.",
+      "promptZh": "如果沒有每天澆水，這些植物便會枯死。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The plants would die but for daily watering.",
+      "answerZh": "若不是每天澆水，這些植物便會枯死。",
+      "answerZhSource": "pdf",
+      "highlight": "The plants would die but for daily watering."
+    },
+    {
+      "id": "ss263-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "If we did not have this map, we could not find the village.",
+      "promptZh": "如果沒有這張地圖，我們便找不到那條村莊。",
+      "promptZhSource": "pdf",
+      "starter": "But",
+      "answer": "But for this map, we could not find the village.",
+      "answerZh": "若不是因為這張地圖，我們便找不到那條村莊。",
+      "answerZhSource": "pdf",
+      "highlight": "But for this map, we could not find the village."
+    },
+    {
+      "id": "ss263-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The baby would not sleep without the quiet music.",
+      "promptZh": "如果沒有柔和的音樂，嬰兒便不會入睡。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The baby would not sleep but for the quiet music.",
+      "answerZh": "若不是因為柔和的音樂，嬰兒便不會入睡。",
+      "answerZhSource": "pdf",
+      "highlight": "The baby would not sleep but for the quiet music."
+    },
+    {
+      "id": "ss263-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "If Ben had not scored the final goal, our team would have lost.",
+      "promptZh": "如果本沒有射入最後一球，我們的球隊便會落敗。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our team would have lost but for Ben’s final goal.",
+      "answerZh": "若不是因為本在最後射入一球，我們的球隊便會落敗。",
+      "answerZhSource": "pdf",
+      "highlight": "Our team would have lost but for Ben’s final goal."
+    },
+    {
+      "id": "ss263-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Had it not been for the seat belt, the driver might have been badly injured.",
+      "promptZh": "若不是因為安全帶，司機可能已經受了重傷。",
+      "promptZhSource": "pdf",
+      "starter": "But",
+      "answer": "But for the seat belt, the driver might have been badly injured.",
+      "answerZh": "若不是因為安全帶，司機可能已經受了重傷。",
+      "answerZhSource": "pdf",
+      "highlight": "But for the seat belt, the driver might have been badly injured."
+    },
+    {
+      "id": "ss263-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Without my glasses, I could not read the sign.",
+      "promptZh": "如果沒有眼鏡，我便無法閱讀那個告示。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I could not read the sign but for my glasses.",
+      "answerZh": "若不是因為眼鏡，我便無法閱讀那個告示。",
+      "answerZhSource": "pdf",
+      "highlight": "I could not read the sign but for my glasses."
+    },
+    {
+      "id": "ss263-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "If there had not been a covered area, the picnic would have been cancelled.",
+      "promptZh": "如果沒有有蓋地方，野餐便會取消。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The picnic would have been cancelled but for the covered area.",
+      "answerZh": "若不是因為有蓋地方，野餐便會取消。",
+      "answerZhSource": "pdf",
+      "highlight": "The picnic would have been cancelled but for the covered area."
+    },
+    {
+      "id": "ss263-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The alarm was the only reason Olivia did not oversleep.",
+      "promptZh": "鬧鐘是奧莉花沒有睡過頭的唯一原因。",
+      "promptZhSource": "pdf",
+      "starter": "But",
+      "answer": "But for the alarm, Olivia would have overslept.",
+      "answerZh": "若不是因為鬧鐘，奧莉花便會睡過頭。",
+      "answerZhSource": "pdf",
+      "highlight": "But for the alarm, Olivia would have overslept."
+    },
+    {
+      "id": "ss263-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Were it not for the satellite phone, we would not be able to contact them.",
+      "promptZh": "若不是因為衛星電話，我們便無法聯絡他們。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We would not be able to contact them but for the satellite phone.",
+      "answerZh": "若不是因為衛星電話，我們便無法聯絡他們。",
+      "answerZhSource": "pdf",
+      "highlight": "We would not be able to contact them but for the satellite phone."
+    },
+    {
+      "id": "ss263-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "If it were not for Ms Lee’s clear rules, the class would be much noisier.",
+      "promptZh": "若不是因為李老師訂立了清晰規則，課堂便會嘈吵得多。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The class would be much noisier but for Ms Lee’s clear rules.",
+      "answerZh": "若不是因為李老師訂立了清晰規則，課堂便會嘈吵得多。",
+      "answerZhSource": "pdf",
+      "highlight": "The class would be much noisier but for Ms Lee’s clear rules."
+    },
+    {
+      "id": "ss263-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Daniel could not afford the laptop without the discount.",
+      "promptZh": "如果沒有折扣，丹尼爾便買不起這部手提電腦。",
+      "promptZhSource": "pdf",
+      "starter": "But",
+      "answer": "But for the discount, Daniel could not afford the laptop.",
+      "answerZh": "若不是因為折扣，丹尼爾便買不起這部手提電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "But for the discount, Daniel could not afford the laptop."
+    },
+    {
+      "id": "ss263-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "According to the guide, the hikers would have taken the wrong path without the trail markers.",
+      "promptZh": "按照導遊的說法，如果沒有路線標記，遠足人士便會走錯路。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the guide, the hikers would have taken the wrong path but for the trail markers.",
+      "answerZh": "按照導遊的說法，若不是因為路線標記，遠足人士便會走錯路。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the guide, the hikers would have taken the wrong path but for the trail markers."
+    },
+    {
+      "id": "ss263-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "If Grace did not practise regularly, she would not play so confidently.",
+      "promptZh": "如果格蕾絲沒有定期練習，她便不會演奏得如此自信。",
+      "promptZhSource": "pdf",
+      "starter": "But",
+      "answer": "But for regular practice, Grace would not play so confidently.",
+      "answerZh": "若不是因為定期練習，格蕾絲便不會演奏得如此自信。",
+      "answerZhSource": "pdf",
+      "highlight": "But for regular practice, Grace would not play so confidently."
+    },
+    {
+      "id": "ss263-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The museum could not remain open without its volunteers.",
+      "promptZh": "如果沒有義工，博物館便無法繼續開放。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum could not remain open but for its volunteers.",
+      "answerZh": "若不是因為義工，博物館便無法繼續開放。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum could not remain open but for its volunteers."
+    },
+    {
+      "id": "ss263-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "If the shop had not stayed open late, we could not have bought the medicine.",
+      "promptZh": "如果商店沒有營業至較晚時間，我們便無法買到藥物。",
+      "promptZhSource": "pdf",
+      "starter": "But",
+      "answer": "But for the fact that the shop stayed open late, we could not have bought the medicine.",
+      "answerZh": "若不是因為商店營業至較晚時間，我們便無法買到藥物。",
+      "answerZhSource": "pdf",
+      "highlight": "But for the fact that the shop stayed open late, we could not have bought the medicine."
+    },
+    {
+      "id": "ss263-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "Ethan might have missed the interview without the earlier train.",
+      "promptZh": "如果沒有較早開出的火車，伊森可能已經錯過面試。",
+      "promptZhSource": "pdf",
+      "starter": "Ethan",
+      "answer": "Ethan might have missed the interview but for the earlier train.",
+      "answerZh": "若不是因為較早開出的火車，伊森可能已經錯過面試。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan might have missed the interview but for the earlier train."
+    },
+    {
+      "id": "ss263-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The chef believes that the soup would taste flat without fresh herbs.",
+      "promptZh": "廚師認為，如果沒有新鮮香草，這道湯的味道便會很單調。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the chef’s view, the soup would taste flat but for fresh herbs.",
+      "answerZh": "在廚師看來，若不是因為新鮮香草，這道湯的味道便會很單調。",
+      "answerZhSource": "pdf",
+      "highlight": "In the chef’s view, the soup would taste flat but for fresh herbs."
+    },
+    {
+      "id": "ss263-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "If the storm warning had not been issued, many boats might have remained at sea.",
+      "promptZh": "如果沒有發出暴風警告，很多船隻可能仍然留在海上。",
+      "promptZhSource": "pdf",
+      "starter": "But",
+      "answer": "But for the storm warning, many boats might have remained at sea.",
+      "answerZh": "若不是因為暴風警告，很多船隻可能仍然留在海上。",
+      "answerZhSource": "pdf",
+      "highlight": "But for the storm warning, many boats might have remained at sea."
+    },
+    {
+      "id": "ss263-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Without the taxi driver’s shortcut, they would have arrived late.",
+      "promptZh": "如果的士司機沒有走捷徑，他們便會遲到。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They would have arrived late but for the taxi driver’s shortcut.",
+      "answerZh": "若不是因為的士司機走了捷徑，他們便會遲到。",
+      "answerZhSource": "pdf",
+      "highlight": "They would have arrived late but for the taxi driver’s shortcut."
+    },
+    {
+      "id": "ss263-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "If the project had not received extra funding, it would have failed.",
+      "promptZh": "如果項目沒有獲得額外資金，便會失敗。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The project would have failed but for the extra funding.",
+      "answerZh": "若不是因為額外資金，項目便會失敗。",
+      "answerZhSource": "pdf",
+      "highlight": "The project would have failed but for the extra funding."
+    },
+    {
+      "id": "ss263-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Without her experience, Chloe could not manage the event alone.",
+      "promptZh": "如果沒有她的經驗，克洛伊便無法獨自管理活動。",
+      "promptZhSource": "pdf",
+      "starter": "But",
+      "answer": "But for her experience, Chloe could not manage the event alone.",
+      "answerZh": "若不是因為她的經驗，克洛伊便無法獨自管理活動。",
+      "answerZhSource": "pdf",
+      "highlight": "But for her experience, Chloe could not manage the event alone."
+    },
+    {
+      "id": "ss263-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Were it not for the new drainage system, the town would flood every summer.",
+      "promptZh": "若不是因為新的排水系統，這個小鎮每年夏天都會水浸。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The town would flood every summer but for the new drainage system.",
+      "answerZh": "若不是因為新的排水系統，這個小鎮每年夏天都會水浸。",
+      "answerZhSource": "pdf",
+      "highlight": "The town would flood every summer but for the new drainage system."
+    },
+    {
+      "id": "ss263-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "If the nurse had not responded quickly, the patient might have become much worse.",
+      "promptZh": "如果護士沒有迅速作出反應，病人的情況可能已經惡化得多。",
+      "promptZhSource": "pdf",
+      "starter": "But",
+      "answer": "But for the nurse’s quick response, the patient might have become much worse.",
+      "answerZh": "若不是因為護士迅速作出反應，病人的情況可能已經惡化得多。",
+      "answerZhSource": "pdf",
+      "highlight": "But for the nurse’s quick response, the patient might have become much worse."
+    },
+    {
+      "id": "ss263-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The students could not complete the experiment without the laboratory assistant’s guidance.",
+      "promptZh": "如果沒有實驗室助理的指導，學生便無法完成實驗。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students could not complete the experiment but for the laboratory assistant’s guidance.",
+      "answerZh": "若不是因為實驗室助理的指導，學生便無法完成實驗。",
+      "answerZhSource": "pdf",
+      "highlight": "The students could not complete the experiment but for the laboratory assistant’s guidance."
+    },
+    {
+      "id": "ss263-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The speaker admitted that he would have forgotten several key points without his detailed notes.",
+      "promptZh": "講者承認，如果沒有詳細筆記，他便會忘記數個重點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The speaker admitted that, but for his detailed notes, he would have forgotten several key points.",
+      "answerZh": "講者承認，若不是因為他的詳細筆記，他便會忘記數個重點。",
+      "answerZhSource": "pdf",
+      "highlight": "The speaker admitted that, but for his detailed notes, he would have forgotten several key points."
+    },
+    {
+      "id": "ss263-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "If the road had not been closed, we would have driven through the valley.",
+      "promptZh": "如果道路沒有封閉，我們便會駕車穿過山谷。",
+      "promptZhSource": "pdf",
+      "starter": "But",
+      "answer": "But for the road closure, we would have driven through the valley.",
+      "answerZh": "若不是因為道路封閉，我們便會駕車穿過山谷。",
+      "answerZhSource": "pdf",
+      "highlight": "But for the road closure, we would have driven through the valley."
+    },
+    {
+      "id": "ss263-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The company might be facing a serious shortage now if it had not placed the orders last month.",
+      "promptZh": "如果公司上個月沒有訂購物資，現在可能正面對嚴重短缺。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company might be facing a serious shortage now but for the orders placed last month.",
+      "answerZh": "若不是上個月已經訂購物資，公司現在可能正面對嚴重短缺。",
+      "answerZhSource": "pdf",
+      "highlight": "The company might be facing a serious shortage now but for the orders placed last month."
+    },
+    {
+      "id": "ss263-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Without your reminder, I would still be waiting at the wrong platform.",
+      "promptZh": "如果沒有你的提醒，我現在仍然會在錯誤的月台等候。",
+      "promptZhSource": "pdf",
+      "starter": "But",
+      "answer": "But for your reminder, I would still be waiting at the wrong platform.",
+      "answerZh": "若不是因為你的提醒，我現在仍然會在錯誤的月台等候。",
+      "answerZhSource": "pdf",
+      "highlight": "But for your reminder, I would still be waiting at the wrong platform."
+    },
+    {
+      "id": "ss263-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "How could the villagers cross the river without the temporary bridge?",
+      "promptZh": "如果沒有臨時橋樑，村民怎能過河？",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How could the villagers cross the river but for the temporary bridge?",
+      "answerZh": "若不是因為臨時橋樑，村民怎能過河？",
+      "answerZhSource": "pdf",
+      "highlight": "How could the villagers cross the river but for the temporary bridge?"
+    },
+    {
+      "id": "ss263-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "The report concludes that more accidents would occur if there were no strict safety checks.",
+      "promptZh": "報告認為，如果沒有嚴格的安全檢查，便會發生更多意外。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report concludes that, but for strict safety checks, more accidents would occur.",
+      "answerZh": "報告認為，若不是因為嚴格的安全檢查，便會發生更多意外。",
+      "answerZhSource": "pdf",
+      "highlight": "The report concludes that, but for strict safety checks, more accidents would occur."
+    },
+    {
+      "id": "ss263-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Had it not been for the backup copy, we could not have recovered the files.",
+      "promptZh": "若不是因為備份檔案，我們便無法恢復這些檔案。",
+      "promptZhSource": "pdf",
+      "starter": "But",
+      "answer": "But for the backup copy, we could not have recovered the files.",
+      "answerZh": "若不是因為備份檔案，我們便無法恢復這些檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "But for the backup copy, we could not have recovered the files."
+    },
+    {
+      "id": "ss263-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "Without the local fishermen’s knowledge, the rescue would have taken much longer.",
+      "promptZh": "如果沒有當地漁民的知識，救援行動便會花費更多時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rescue would have taken much longer but for the local fishermen’s knowledge.",
+      "answerZh": "若不是因為當地漁民的知識，救援行動便會花費更多時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The rescue would have taken much longer but for the local fishermen’s knowledge."
+    },
+    {
+      "id": "ss263-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerZhPage": 26
+      },
+      "prompt": "If it were not for the trees, the house would be visible from the road.",
+      "promptZh": "若不是因為樹木遮擋，從道路上便可以看見這所房屋。",
+      "promptZhSource": "pdf",
+      "starter": "But",
+      "answer": "But for the trees, the house would be visible from the road.",
+      "answerZh": "若不是因為樹木遮擋，從道路上便可以看見這所房屋。",
+      "answerZhSource": "pdf",
+      "highlight": "But for the trees, the house would be visible from the road."
+    },
+    {
+      "id": "ss263-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 26,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The children might not have found their parents without the staff member’s announcement.",
+      "promptZh": "如果沒有職員的廣播，孩子們可能無法找到父母。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children might not have found their parents but for the staff member’s announcement.",
+      "answerZh": "若不是因為職員的廣播，孩子們可能無法找到父母。",
+      "answerZhSource": "pdf",
+      "highlight": "The children might not have found their parents but for the staff member’s announcement."
+    },
+    {
+      "id": "ss263-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "If I did not have the language app, I could not practise pronunciation at home.",
+      "promptZh": "如果沒有語言應用程式，我便無法在家練習發音。",
+      "promptZhSource": "pdf",
+      "starter": "But",
+      "answer": "But for the language app, I could not practise pronunciation at home.",
+      "answerZh": "若不是因為語言應用程式，我便無法在家練習發音。",
+      "answerZhSource": "pdf",
+      "highlight": "But for the language app, I could not practise pronunciation at home."
+    },
+    {
+      "id": "ss263-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "In a situation such as this, reliable data is the only thing that would make a decision possible.",
+      "promptZh": "在這種情況下，可靠數據是令決定成為可能的唯一條件。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In a situation such as this, the decision would be impossible but for reliable data.",
+      "answerZh": "在這種情況下，若不是因為有可靠數據，便無法作出決定。",
+      "answerZhSource": "pdf",
+      "highlight": "In a situation such as this, the decision would be impossible but for reliable data."
+    },
+    {
+      "id": "ss263-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The actor said that he would have forgotten his lines without repeated rehearsals.",
+      "promptZh": "演員說，如果沒有反覆綵排，他便會忘記台詞。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The actor said that he would have forgotten his lines but for repeated rehearsals.",
+      "answerZh": "演員說，若不是因為反覆綵排，他便會忘記台詞。",
+      "answerZhSource": "pdf",
+      "highlight": "The actor said that he would have forgotten his lines but for repeated rehearsals."
+    },
+    {
+      "id": "ss263-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "Had the worker not been wearing protective gloves, he might have burnt his hands.",
+      "promptZh": "如果工人沒有戴上防護手套，他可能已經灼傷雙手。",
+      "promptZhSource": "pdf",
+      "starter": "But",
+      "answer": "But for the protective gloves, the worker might have burnt his hands.",
+      "answerZh": "若不是因為防護手套，工人可能已經灼傷雙手。",
+      "answerZhSource": "pdf",
+      "highlight": "But for the protective gloves, the worker might have burnt his hands."
+    },
+    {
+      "id": "ss263-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "The kindness of several strangers prevented the journey from being far more difficult.",
+      "promptZh": "數名陌生人的善意令這段旅程不至於困難得多。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was a journey that would have been far more difficult but for the kindness of several strangers.",
+      "answerZh": "若不是因為數名陌生人的善意，這段旅程便會困難得多。",
+      "answerZhSource": "pdf",
+      "highlight": "It was a journey that would have been far more difficult but for the kindness of several strangers."
+    },
+    {
+      "id": "ss263-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "After reviewing the incident, the inspector concluded that the collision would have been unavoidable without the automatic brake.",
+      "promptZh": "督察審視事故後認為，如果沒有自動煞車系統，碰撞便無法避免。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After reviewing the incident, the inspector concluded that, but for the automatic brake, the collision would have been unavoidable.",
+      "answerZh": "督察審視事故後認為，若不是因為自動煞車系統，碰撞便無法避免。",
+      "answerZhSource": "pdf",
+      "highlight": "After reviewing the incident, the inspector concluded that, but for the automatic brake, the collision would have been unavoidable."
+    },
+    {
+      "id": "ss263-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 27,
+        "answerZhPage": 27
+      },
+      "prompt": "If Sofia had not received the scholarship, she could not be studying abroad this year.",
+      "promptZh": "如果蘇菲亞沒有獲得獎學金，她今年便無法在外國留學。",
+      "promptZhSource": "pdf",
+      "starter": "But",
+      "answer": "But for the scholarship, Sofia could not be studying abroad this year.",
+      "answerZh": "若不是因為獎學金，蘇菲亞今年便無法在外國留學。",
+      "answerZhSource": "pdf",
+      "highlight": "But for the scholarship, Sofia could not be studying abroad this year."
+    },
+    {
+      "id": "ss263-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 27,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "Without its team of part-time volunteers, the hospital would struggle to serve the whole district.",
+      "promptZh": "如果沒有兼職義工團隊，醫院便難以服務整個地區。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital would struggle to serve the whole district but for its team of part-time volunteers.",
+      "answerZh": "若不是因為兼職義工團隊，醫院便難以服務整個地區。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital would struggle to serve the whole district but for its team of part-time volunteers."
+    },
+    {
+      "id": "ss263-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "Although the plan had several weaknesses, it might have collapsed completely without the engineers’ careful changes.",
+      "promptZh": "雖然計劃有數個弱點，但如果沒有工程師作出的細心修改，計劃可能已經完全失敗。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the plan had several weaknesses, it might have collapsed completely but for the engineers’ careful changes.",
+      "answerZh": "雖然計劃有數個弱點，但若不是因為工程師作出的細心修改，計劃可能已經完全失敗。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the plan had several weaknesses, it might have collapsed completely but for the engineers’ careful changes."
+    },
+    {
+      "id": "ss263-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "promptZhPage": 21,
+        "starterPage": 22,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "The chairperson acknowledged that neither side would have accepted the agreement without the final compromise.",
+      "promptZh": "主席承認，如果沒有最後的妥協，雙方都不會接受協議。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The chairperson acknowledged that, but for the final compromise, neither side would have accepted the agreement.",
+      "answerZh": "主席承認，若不是因為最後的妥協，雙方都不會接受協議。",
+      "answerZhSource": "pdf",
+      "highlight": "The chairperson acknowledged that, but for the final compromise, neither side would have accepted the agreement."
+    },
+    {
+      "id": "ss263-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 22,
+        "questionPage": 22,
+        "promptZhPage": 22,
+        "starterPage": 22,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "If the warning had not arrived in time, the village might have suffered far greater damage.",
+      "promptZh": "如果警告沒有及時傳到，村莊可能已經受到嚴重得多的破壞。",
+      "promptZhSource": "pdf",
+      "starter": "But",
+      "answer": "But for the fact that the warning arrived in time, the village might have suffered far greater damage.",
+      "answerZh": "若不是因為警告及時傳到，村莊可能已經受到嚴重得多的破壞。",
+      "answerZhSource": "pdf",
+      "highlight": "But for the fact that the warning arrived in time, the village might have suffered far greater damage."
+    },
+    {
+      "id": "ss263-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 22,
+        "questionPage": 22,
+        "promptZhPage": 22,
+        "starterPage": 22,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "What would have happened to the research without the university’s continued financial support?",
+      "promptZh": "如果沒有大學持續提供財政支援，這項研究會有甚麼結果？",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What would have happened to the research but for the university’s continued financial support?",
+      "answerZh": "若不是因為大學持續提供財政支援，這項研究會有甚麼結果？",
+      "answerZhSource": "pdf",
+      "highlight": "What would have happened to the research but for the university’s continued financial support?"
+    },
+    {
+      "id": "ss263-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 22,
+        "questionPage": 22,
+        "promptZhPage": 22,
+        "starterPage": 22,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "Close cooperation between the schools and local services is necessary for the new policy to function effectively.",
+      "promptZh": "學校與本地服務機構之間的緊密合作，是新政策有效運作的必要條件。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new policy could not function effectively but for close cooperation between the schools and local services.",
+      "answerZh": "若不是因為學校與本地服務機構緊密合作，新政策便無法有效運作。",
+      "answerZhSource": "pdf",
+      "highlight": "The new policy could not function effectively but for close cooperation between the schools and local services."
+    },
+    {
+      "id": "ss263-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 22,
+        "questionPage": 22,
+        "promptZhPage": 22,
+        "starterPage": 22,
+        "answerNumberPage": 28,
+        "answerPage": 28,
+        "answerZhPage": 28
+      },
+      "prompt": "Looking back, the manager admitted that the company would still be investigating the error without one assistant’s accurate records.",
+      "promptZh": "回顧事件時，經理承認，如果沒有一名助理的準確紀錄，公司現在仍會調查該項錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "Looking",
+      "answer": "Looking back, the manager admitted that, but for one assistant’s accurate records, the company would still be investigating the error.",
+      "answerZh": "回顧事件時，經理承認，若不是因為一名助理的準確紀錄，公司現在仍會調查該項錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Looking back, the manager admitted that, but for one assistant’s accurate records, the company would still be investigating the error."
+    },
+    {
+      "id": "ss263-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 22,
+        "questionPage": 22,
+        "promptZhPage": 22,
+        "starterPage": 22,
+        "answerNumberPage": 28,
+        "answerPage": 29,
+        "answerZhPage": 29
+      },
+      "prompt": "After comparing every stage of the rescue, the committee agreed that the passengers might not have survived without the captain’s calm decisions.",
+      "promptZh": "委員會比較救援行動的每個階段後，同意如果沒有船長冷靜的決定，乘客可能無法生還。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After comparing every stage of the rescue, the committee agreed that the passengers might not have survived but for the captain’s calm decisions.",
+      "answerZh": "委員會比較救援行動的每個階段後，同意若不是因為船長冷靜的決定，乘客可能無法生還。",
+      "answerZhSource": "pdf",
+      "highlight": "After comparing every stage of the rescue, the committee agreed that the passengers might not have survived but for the captain’s calm decisions."
+    }
+  ]
+}

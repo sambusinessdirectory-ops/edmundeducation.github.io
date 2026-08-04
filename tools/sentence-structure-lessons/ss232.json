@@ -1,0 +1,1264 @@
+{
+  "id": "ss232",
+  "order": 232,
+  "slug": "minor-sentences",
+  "title": "Minor Sentences 簡略句／零碎句",
+  "titleZh": "Minor Sentences 簡略句／零碎句",
+  "titleEn": "Minor Sentences",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 231 - Minor Sentences 簡略句／零碎句.pdf",
+    "pageCount": 25,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exercisePages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "answerPages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 231; it is assigned system ID ss232 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "Context + concise expression without a full subject-verb structure",
+  "formulas": [
+    {
+      "id": "ss232-formula-01",
+      "labelEn": "No + noun",
+      "labelZh": "No + 名詞",
+      "formula": "No + noun"
+    },
+    {
+      "id": "ss232-formula-02",
+      "labelEn": "Adjective phrase",
+      "labelZh": "形容詞或形容詞短語",
+      "formula": "Adjective / adjective phrase"
+    },
+    {
+      "id": "ss232-formula-03",
+      "labelEn": "Short contextual response",
+      "labelZh": "語境中的簡短回應",
+      "formula": "Context + concise response"
+    }
+  ],
+  "example": "No chance.",
+  "exampleZh": "沒可能。",
+  "examples": [
+    {
+      "id": "ss232-example-01",
+      "en": "No chance.",
+      "zh": "沒可能。",
+      "highlight": "No chance."
+    }
+  ],
+  "meaning": {
+    "zh": "簡略句雖然沒有一般完整句子的主語和動詞結構，但在清楚語境中仍可傳達完整意思。"
+  },
+  "rules": [
+    {
+      "id": "ss232-rule-01",
+      "zh": "簡略句省略的內容必須能夠從語境中清楚推斷。 A: Where is the receipt? B: No idea. （甲：收據在哪裏？） （乙：不知道。） The listener understands that No idea means: I have no idea where the receipt is.",
+      "en": "A minor sentence must be understandable from the context. For example, “No idea” can mean “I have no idea where the receipt is” when the question supplies that context.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss232-rule-02",
+      "zh": "甲：我們可以在五分鐘內完成嗎？） （乙：沒可能。）",
+      "en": "A minor sentence can be a complete reply, such as “No chance” in answer to an unrealistic suggestion.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss232-rule-03",
+      "zh": "沒問題。我可以幫你。）",
+      "en": "A minor sentence can appear before an explanation: “No problem. I can help you.”",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss232-rule-04",
+      "zh": "我傳送了錯誤的附件。是我的錯。）",
+      "en": "A minor sentence can appear after a complete sentence: “I sent the wrong attachment. My mistake.”",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss232-rule-05",
+      "zh": "告示寫得很清楚：禁止進入。）",
+      "en": "A minor sentence can appear after a colon: “The notice was clear: No entry.”",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss232-rule-06",
+      "zh": "無可奉告，」主管回答。）",
+      "en": "A minor sentence can appear inside direct speech: “No comment,” the director replied.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss232-rule-07",
+      "zh": "在對話、標誌、筆記或有意營造語氣的文章中，簡略句可以是正確而自然的表達。 但是，在正式作文中，如果學生無意中遺漏必要的主語或動詞，便可能形成錯誤的殘缺句。 Intentional and clear: Too late. The train has already left. （太遲了。火車已經開走。） Accidental and unclear: Because the train had already left. 這一句只有原因，沒有完整主句，因此在一般正式寫作中是不完整的。",
+      "en": "Intentional minor sentences differ from accidental fragments. They are clear in dialogue, signs, notes or deliberate stylistic writing; an unintentionally incomplete subordinate clause is still an error in formal writing.",
+      "enSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss232-benefit-01",
+      "zh": "讓日常對話更自然 英語母語使用者在語境清楚時，通常不會重複所有已知資料。 A: Do you know where Leo went? B: I have no idea where Leo went. 這個回答符合文法，但有不必要的重複。 更自然的回答是： A: Do you know where Leo went? B: No idea.",
+      "en": "It makes everyday conversation more natural by avoiding repetition of information already supplied by the context.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss232-benefit-02",
+      "zh": "幫助你更快作出回應 簡略句可以讓你不用臨時組織一個長而完整的句子，也能迅速表達態度、反應或答案。 例如： Good idea. （好主意。） Not yet. （還未。） Maybe later. （也許遲些吧。）",
+      "en": "It helps you respond quickly without constructing a long full sentence.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss232-benefit-03",
+      "zh": "避免重複語境中已經清楚的內容 當對方已經說明人物、事件或問題時，你可以只保留真正重要的新資訊。 A: Have the results been announced? B: Not yet. 你不需要重複： The results have not been announced yet.",
+      "en": "It avoids repeating content that the other speaker or the surrounding text has already made clear.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss232-benefit-04",
+      "zh": "加強語氣和節奏 把簡略句放在完整句子之前或之後，可以令重點更加突出。 Too late. The doors have already closed. （太遲了。大門已經關上。） The doors have already closed. Too late. （大門已經關上。太遲了。） 兩個版本的基本意思相同，但重點和節奏略有不同。",
+      "en": "It strengthens emphasis and rhythm when placed before or after a complete sentence.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss232-benefit-05",
+      "zh": "適合多種真實情境 簡略句常見於： ● 日常對話； ● 電影及故事對白； ● 即時訊息； ● 標誌及告示； ● 標題； ● 筆記； ● 廣告； ● 簡短指示。 學會這些形式，有助你理解真實英語，而不只是課本中的完整句子。",
+      "en": "It is useful in real contexts such as conversation, dialogue, messaging, signs, notices, headlines, notes, advertisements and short instructions.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss232-benefit-06",
+      "zh": "增加句式變化 你不需要把所有句子都寫成相同的主語加動詞結構。 The plan failed. It was a real shame. 也可以寫成： The plan failed. A real shame. 第二個版本更簡潔，亦帶有較明顯的個人反應。",
+      "en": "It increases sentence variety and can express a concise personal reaction more directly.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 231; it is assigned system ID ss232 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each situation with the appropriate minor sentence shown by the context and first-word hint.",
+      "Keep the intended meaning concise and natural."
+    ],
+    "zh": [
+      "按照語境及已提供的第一個字，使用適當的簡略句改寫每題。",
+      "保留原意，並使答案簡潔自然。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss232-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A: Can we complete this five-hour task in ten minutes? B: There is no possibility of that.",
+      "promptZh": "甲：我們可以在十分鐘內完成這項需要五小時的工作嗎？）（乙：這是不可能的。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No chance.",
+      "answerZh": "沒可能。",
+      "answerZhSource": "pdf",
+      "highlight": "No chance."
+    },
+    {
+      "id": "ss232-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A: Where did Maya put the receipt? B: I do not know.",
+      "promptZh": "甲：瑪雅把收據放在哪裏？）（乙：我不知道。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No idea.",
+      "answerZh": "不知道。",
+      "answerZhSource": "pdf",
+      "highlight": "No idea."
+    },
+    {
+      "id": "ss232-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A: Can we still enter the cinema? B: We cannot because the doors have already closed.",
+      "promptZh": "甲：我們仍然可以進入戲院嗎？）（乙：不可以，因為大門已經關上。",
+      "promptZhSource": "pdf",
+      "starter": "Too",
+      "answer": "Too late.",
+      "answerZh": "太遲了。",
+      "answerZhSource": "pdf",
+      "highlight": "Too late."
+    },
+    {
+      "id": "ss232-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A: Shall we check the map before leaving? B: I think that is a good idea.",
+      "promptZh": "甲：我們出發前查看地圖好嗎？）（乙：我認為這是個好主意。",
+      "promptZhSource": "pdf",
+      "starter": "Good",
+      "answer": "Good idea.",
+      "answerZh": "好主意。",
+      "answerZhSource": "pdf",
+      "highlight": "Good idea."
+    },
+    {
+      "id": "ss232-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A: Have the examination results been released? B: They have not been released yet.",
+      "promptZh": "甲：考試成績公布了嗎？）（乙：還未公布。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not yet.",
+      "answerZh": "還未。",
+      "answerZhSource": "pdf",
+      "highlight": "Not yet."
+    },
+    {
+      "id": "ss232-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I sent you the old timetable, and I admit that it was my mistake.",
+      "promptZh": "我把舊時間表傳送給你，而我承認這是我的錯。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I sent you the old timetable. My mistake.",
+      "answerZh": "我把舊時間表傳送給你。是我的錯。",
+      "answerZhSource": "pdf",
+      "highlight": "I sent you the old timetable. My mistake."
+    },
+    {
+      "id": "ss232-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I can carry the smaller box for you, so you do not need to worry.",
+      "promptZh": "我可以替你搬較小的箱子，所以你不用擔心。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No problem. I can carry the smaller box for you.",
+      "answerZh": "沒問題。我可以替你搬較小的箱子。",
+      "answerZhSource": "pdf",
+      "highlight": "No problem. I can carry the smaller box for you."
+    },
+    {
+      "id": "ss232-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I have answered the first question, and now it is your turn.",
+      "promptZh": "我已經回答了第一條問題，現在輪到你了。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I have answered the first question. Your turn.",
+      "answerZh": "我已經回答了第一條問題。輪到你了。",
+      "answerZhSource": "pdf",
+      "highlight": "I have answered the first question. Your turn."
+    },
+    {
+      "id": "ss232-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We have another thirty minutes, so there is no need to rush.",
+      "promptZh": "我們還有三十分鐘，所以不用急。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No hurry. We have another thirty minutes.",
+      "answerZh": "不用急。我們還有三十分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "No hurry. We have another thirty minutes."
+    },
+    {
+      "id": "ss232-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A: Does everyone understand the emergency instructions? B: Yes, everyone understands them.",
+      "promptZh": "甲：大家都明白緊急情況指示嗎？）（乙：是的，大家都明白。",
+      "promptZhSource": "pdf",
+      "starter": "All",
+      "answer": "All clear.",
+      "answerZh": "全部明白。",
+      "answerZhSource": "pdf",
+      "highlight": "All clear."
+    },
+    {
+      "id": "ss232-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A: What did you think of Leo’s first presentation? B: I thought it was fairly good.",
+      "promptZh": "甲：你認為里奧的第一次簡報表現如何？）（乙：我認為相當不錯。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not bad.",
+      "answerZh": "不錯。",
+      "answerZhSource": "pdf",
+      "highlight": "Not bad."
+    },
+    {
+      "id": "ss232-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A: May I borrow your pen for a minute? B: Yes, certainly.",
+      "promptZh": "甲：我可以借你的筆一分鐘嗎？）（乙：可以，當然可以。",
+      "promptZhSource": "pdf",
+      "starter": "Of",
+      "answer": "Of course.",
+      "answerZh": "當然可以。",
+      "answerZhSource": "pdf",
+      "highlight": "Of course."
+    },
+    {
+      "id": "ss232-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A: Would you like another cup of tea? B: No, thank you.",
+      "promptZh": "甲：你想再喝一杯茶嗎？）（乙：不用了，謝謝。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No, thanks.",
+      "answerZh": "不用了，謝謝。",
+      "answerZhSource": "pdf",
+      "highlight": "No, thanks."
+    },
+    {
+      "id": "ss232-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A: Do you want to watch the film now? B: Perhaps we can watch it later.",
+      "promptZh": "甲：你現在想看這部電影嗎？）（乙：也許我們可以遲些再看。",
+      "promptZhSource": "pdf",
+      "starter": "Maybe",
+      "answer": "Maybe later.",
+      "answerZh": "也許遲些吧。",
+      "answerZhSource": "pdf",
+      "highlight": "Maybe later."
+    },
+    {
+      "id": "ss232-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A: When will you be ready? B: I will be ready in one minute.",
+      "promptZh": "甲：你何時會準備好？）（乙：我一分鐘後便會準備好。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In a minute.",
+      "answerZh": "一分鐘後。",
+      "answerZhSource": "pdf",
+      "highlight": "In a minute."
+    },
+    {
+      "id": "ss232-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A: Who should go through the door first? B: You should go before me.",
+      "promptZh": "甲：誰應該先進門？）（乙：你應該走在我前面。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After you.",
+      "answerZh": "你先請。",
+      "answerZhSource": "pdf",
+      "highlight": "After you."
+    },
+    {
+      "id": "ss232-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Supervisor: When must we leave the restricted area? Assistant: We must leave immediately.",
+      "promptZh": "主管：我們何時必須離開限制區域？）（助理：我們必須立即離開。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At once.",
+      "answerZh": "立即。",
+      "answerZhSource": "pdf",
+      "highlight": "At once."
+    },
+    {
+      "id": "ss232-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A visitor asked where the meeting room was. The receptionist told him to follow her in that direction.",
+      "promptZh": "一名訪客詢問會議室在哪裏。接待員叫他跟着她往那個方向走。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "“This way,” the receptionist said.",
+      "answerZh": "「這邊請，」接待員說。",
+      "answerZhSource": "pdf",
+      "acceptedAnswers": [
+        "This way, the receptionist said."
+      ],
+      "highlight": "“This way,” the receptionist said."
+    },
+    {
+      "id": "ss232-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 21
+      },
+      "prompt": "A: Where should I put these chairs? B: Put them in this place beside me.",
+      "promptZh": "甲：我應該把這些椅子放在哪裏？）（乙：把它們放在我旁邊這個位置。",
+      "promptZhSource": "pdf",
+      "starter": "Over",
+      "answer": "Over here.",
+      "answerZh": "放在這邊。",
+      "answerZhSource": "pdf",
+      "highlight": "Over here."
+    },
+    {
+      "id": "ss232-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A: Are you going to repair the bicycle today? B: No, I am not going to repair it today.",
+      "promptZh": "甲：你今天會修理單車嗎？）（乙：不，我今天不會修理。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not today.",
+      "answerZh": "今天不會。",
+      "answerZhSource": "pdf",
+      "highlight": "Not today."
+    },
+    {
+      "id": "ss232-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "There was a notice on the locked laboratory door saying that people were not allowed to enter.",
+      "promptZh": "上鎖的實驗室門上有一張告示，表示任何人都不准進入。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The notice read: “No entry.”",
+      "answerZh": "告示寫着：「禁止進入。」",
+      "answerZhSource": "pdf",
+      "highlight": "The notice read: “No entry.”"
+    },
+    {
+      "id": "ss232-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A sign on the office door said that only members of staff could enter.",
+      "promptZh": "辦公室門上的標誌表示只有職員可以進入。",
+      "promptZhSource": "pdf",
+      "starter": "Staff",
+      "answer": "Staff only.",
+      "answerZh": "只限職員。",
+      "answerZhSource": "pdf",
+      "highlight": "Staff only."
+    },
+    {
+      "id": "ss232-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A label on the lift said that it was not working.",
+      "promptZh": "升降機上的標示表示它暫停使用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lift was labelled “Out of order”.",
+      "answerZh": "升降機上標示着「暫停使用」。",
+      "answerZhSource": "pdf",
+      "highlight": "The lift was labelled “Out of order”."
+    },
+    {
+      "id": "ss232-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A road sign told drivers that they were not allowed to park there.",
+      "promptZh": "一個道路標誌告訴駕駛者不准在該處泊車。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road sign said, “No parking.”",
+      "answerZh": "道路標誌寫着：「禁止泊車。」",
+      "answerZhSource": "pdf",
+      "highlight": "The road sign said, “No parking.”"
+    },
+    {
+      "id": "ss232-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A notice told people that smoking was not permitted in the waiting area.",
+      "promptZh": "一張告示表示等候區內禁止吸煙。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No smoking in the waiting area.",
+      "answerZh": "等候區內禁止吸煙。",
+      "answerZhSource": "pdf",
+      "highlight": "No smoking in the waiting area."
+    },
+    {
+      "id": "ss232-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The student said that she wanted to ask one additional question before the lesson ended.",
+      "promptZh": "學生表示，她想在課堂結束前多問一條問題。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One more question before the lesson ends.",
+      "answerZh": "課堂結束前再問一條問題。",
+      "answerZhSource": "pdf",
+      "highlight": "One more question before the lesson ends."
+    },
+    {
+      "id": "ss232-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The outdoor concert was cancelled after months of preparation. This was extremely disappointing.",
+      "promptZh": "戶外音樂會在籌備了數月後被取消。這實在令人非常失望。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The outdoor concert was cancelled after months of preparation. A real shame.",
+      "answerZh": "戶外音樂會在籌備了數月後被取消。真的很可惜。",
+      "answerZhSource": "pdf",
+      "highlight": "The outdoor concert was cancelled after months of preparation. A real shame."
+    },
+    {
+      "id": "ss232-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The missing child was found safe, and everyone felt extremely relieved.",
+      "promptZh": "失蹤的孩子被安全尋回，大家都感到如釋重負。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The missing child was found safe. What a relief.",
+      "answerZh": "失蹤的孩子被安全尋回。真的令人如釋重負。",
+      "answerZhSource": "pdf",
+      "highlight": "The missing child was found safe. What a relief."
+    },
+    {
+      "id": "ss232-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Mia had worked for fourteen hours, so it was completely understandable that she was exhausted.",
+      "promptZh": "米婭已經工作了十四小時，因此她筋疲力盡是完全可以理解的。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia was exhausted after working for fourteen hours. No wonder.",
+      "answerZh": "米婭工作了十四小時後筋疲力盡。難怪如此。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia was exhausted after working for fourteen hours. No wonder."
+    },
+    {
+      "id": "ss232-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "At the café, Daniel asked the server to bring him the same drink as before.",
+      "promptZh": "在咖啡店裏，丹尼爾請侍應再次給他之前喝的同一款飲品。",
+      "promptZhSource": "pdf",
+      "starter": "Same",
+      "answer": "“Same again,” Daniel told the server.",
+      "answerZh": "「再來一杯一樣的，」丹尼爾對侍應說。",
+      "answerZhSource": "pdf",
+      "acceptedAnswers": [
+        "Same again, Daniel told the server."
+      ],
+      "highlight": "“Same again,” Daniel told the server."
+    },
+    {
+      "id": "ss232-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The computer had crashed just before the deadline, and Ava asked what they should do next.",
+      "promptZh": "電腦在限期前突然死機，艾娃問他們接下來應該怎麼辦。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The computer had crashed just before the deadline. What now?",
+      "answerZh": "電腦在限期前突然死機。現在怎麼辦？",
+      "answerZhSource": "pdf",
+      "highlight": "The computer had crashed just before the deadline. What now?"
+    },
+    {
+      "id": "ss232-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Leo was shown two keys and asked which key he should use.",
+      "promptZh": "有人向里奧展示兩把鑰匙，並叫他選擇應該使用哪一把。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo looked at the two keys. Which one?",
+      "answerZh": "里奧看着兩把鑰匙。哪一把？",
+      "answerZhSource": "pdf",
+      "highlight": "Leo looked at the two keys. Which one?"
+    },
+    {
+      "id": "ss232-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "When the manager selected Nina for the difficult task, she asked why she had been chosen.",
+      "promptZh": "經理選擇妮娜負責這項困難任務時，她問為甚麼選中她。",
+      "promptZhSource": "pdf",
+      "starter": "Why",
+      "answer": "“Why me?” Nina asked.",
+      "answerZh": "「為甚麼是我？」妮娜問。",
+      "answerZhSource": "pdf",
+      "acceptedAnswers": [
+        "Why me? Nina asked."
+      ],
+      "highlight": "“Why me?” Nina asked."
+    },
+    {
+      "id": "ss232-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The customer asked what the total price was.",
+      "promptZh": "顧客詢問總價是多少。",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "“How much?” the customer asked.",
+      "answerZh": "「多少錢？」顧客問。",
+      "answerZhSource": "pdf",
+      "acceptedAnswers": [
+        "How much? The customer asked."
+      ],
+      "highlight": "“How much?” the customer asked."
+    },
+    {
+      "id": "ss232-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "At the end of the explanation, the teacher asked whether anyone had questions.",
+      "promptZh": "解釋結束時，老師詢問大家是否有問題。",
+      "promptZhSource": "pdf",
+      "starter": "Any",
+      "answer": "“Any questions?” the teacher asked.",
+      "answerZh": "「有問題嗎？」老師問。",
+      "answerZhSource": "pdf",
+      "acceptedAnswers": [
+        "Any questions? The teacher asked."
+      ],
+      "highlight": "“Any questions?” the teacher asked."
+    },
+    {
+      "id": "ss232-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The team had completed the first stage and wanted to know what they should do next.",
+      "promptZh": "團隊已完成第一階段，並想知道接下來應該做甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first stage was complete. What next?",
+      "answerZh": "第一階段已經完成。接下來做甚麼？",
+      "answerZhSource": "pdf",
+      "highlight": "The first stage was complete. What next?"
+    },
+    {
+      "id": "ss232-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "A: How is your headache after taking the medicine? B: It is better now.",
+      "promptZh": "甲：服藥後，你的頭痛情況如何？）（乙：現在好多了。",
+      "promptZhSource": "pdf",
+      "starter": "Better",
+      "answer": "Better now.",
+      "answerZh": "現在好多了。",
+      "answerZhSource": "pdf",
+      "highlight": "Better now."
+    },
+    {
+      "id": "ss232-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "After the teacher showed us a simpler method, the task became much easier.",
+      "promptZh": "老師向我們展示一個更簡單的方法後，這項工作變得容易多了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher showed us a simpler method. Much easier.",
+      "answerZh": "老師向我們展示了一個更簡單的方法。容易多了。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher showed us a simpler method. Much easier."
+    },
+    {
+      "id": "ss232-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "A: Are the bags packed and the tickets ready? B: Yes, everything is ready.",
+      "promptZh": "甲：行李收拾好了嗎？車票準備好了嗎？）（乙：是的，一切都準備妥當。",
+      "promptZhSource": "pdf",
+      "starter": "All",
+      "answer": "All set.",
+      "answerZh": "一切準備妥當。",
+      "answerZhSource": "pdf",
+      "highlight": "All set."
+    },
+    {
+      "id": "ss232-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The guest told the server that she had already had enough food.",
+      "promptZh": "客人告訴侍應，她已經吃得很足夠。",
+      "promptZhSource": "pdf",
+      "starter": "Quite",
+      "answer": "“Quite enough, thank you,” the guest said.",
+      "answerZh": "「已經很足夠了，謝謝，」客人說。",
+      "answerZhSource": "pdf",
+      "acceptedAnswers": [
+        "Quite enough, thank you, the guest said."
+      ],
+      "highlight": "“Quite enough, thank you,” the guest said."
+    },
+    {
+      "id": "ss232-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The receptionist told us that it was unnecessary to book another appointment.",
+      "promptZh": "接待員告訴我們，沒有必要再預約一次。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "“No need to book another appointment,” the receptionist said.",
+      "answerZh": "「不用再預約，」接待員說。",
+      "answerZhSource": "pdf",
+      "acceptedAnswers": [
+        "No need to book another appointment, the receptionist said."
+      ],
+      "highlight": "“No need to book another appointment,” the receptionist said."
+    },
+    {
+      "id": "ss232-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 24
+      },
+      "prompt": "A: Should we take the train or the bus? B: You can decide.",
+      "promptZh": "甲：我們應該乘搭火車還是巴士？）（乙：你可以決定。",
+      "promptZhSource": "pdf",
+      "starter": "Your",
+      "answer": "Your choice.",
+      "answerZh": "由你決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Your choice."
+    },
+    {
+      "id": "ss232-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "A: Can you stay for dinner tonight? B: I cannot stay tonight, but perhaps I can join you on another occasion.",
+      "promptZh": "甲：你今晚可以留下吃晚飯嗎？）（乙：我今晚不能留下，但也許另一次可以。",
+      "promptZhSource": "pdf",
+      "starter": "Another",
+      "answer": "Another time, perhaps.",
+      "answerZh": "也許另一次吧。",
+      "answerZhSource": "pdf",
+      "highlight": "Another time, perhaps."
+    },
+    {
+      "id": "ss232-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The project had reached the halfway point without any serious problems.",
+      "promptZh": "項目已進行到一半，而且沒有出現任何嚴重問題。",
+      "promptZhSource": "pdf",
+      "starter": "So",
+      "answer": "So far, so good.",
+      "answerZh": "目前為止一切順利。",
+      "answerZhSource": "pdf",
+      "highlight": "So far, so good."
+    },
+    {
+      "id": "ss232-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "A journalist asked the director about the investigation, but the director refused to say anything.",
+      "promptZh": "一名記者向主管查問調查的情況，但主管拒絕發表任何意見。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "“No comment,” the director replied.",
+      "answerZh": "「無可奉告，」主管回答。",
+      "answerZhSource": "pdf",
+      "acceptedAnswers": [
+        "No comment, the director replied."
+      ],
+      "highlight": "“No comment,” the director replied."
+    },
+    {
+      "id": "ss232-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The engineer said that completing the repairs safely in five minutes could not be done.",
+      "promptZh": "工程師表示，要在五分鐘內安全地完成維修是不可能的。",
+      "promptZhSource": "pdf",
+      "starter": "Impossible",
+      "answer": "“Impossible,” the engineer said.",
+      "answerZh": "「不可能，」工程師說。",
+      "answerZhSource": "pdf",
+      "acceptedAnswers": [
+        "Impossible, the engineer said."
+      ],
+      "highlight": "“Impossible,” the engineer said."
+    },
+    {
+      "id": "ss232-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "A: Will the owner accept half the asking price? B: There is absolutely no possibility of that.",
+      "promptZh": "甲：業主會接受叫價的一半嗎？）（乙：這絕對不可能。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not a chance.",
+      "answerZh": "絕對沒可能。",
+      "answerZhSource": "pdf",
+      "highlight": "Not a chance."
+    },
+    {
+      "id": "ss232-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The manager had finished the meeting but wanted to add one final point before everyone left.",
+      "promptZh": "經理已經結束會議，但想在大家離開前補充最後一點。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "“One last thing,” the manager said before everyone left.",
+      "answerZh": "「最後一件事，」經理在大家離開前說。",
+      "answerZhSource": "pdf",
+      "acceptedAnswers": [
+        "One last thing, the manager said before everyone left."
+      ],
+      "highlight": "“One last thing,” the manager said before everyone left."
+    },
+    {
+      "id": "ss232-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The coach said that the decision was final and that there would be no further discussion.",
+      "promptZh": "教練表示決定已經落實，不會再作進一步討論。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "“The decision is final. End of story,” the coach said.",
+      "answerZh": "「決定已經落實。事情就此結束，」教練說。",
+      "answerZhSource": "pdf",
+      "acceptedAnswers": [
+        "The decision is final. End of story, the coach said."
+      ],
+      "highlight": "“The decision is final. End of story,” the coach said."
+    },
+    {
+      "id": "ss232-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The safety officer rejected the plan because carrying the equipment across the wet roof involved too much danger.",
+      "promptZh": "安全主任否決了該計劃，因為在濕滑的天台上搬運設備實在過於危險。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The safety officer rejected the plan. Too risky.",
+      "answerZh": "安全主任否決了該計劃。實在太危險了。",
+      "answerZhSource": "pdf",
+      "highlight": "The safety officer rejected the plan. Too risky."
+    }
+  ]
+}

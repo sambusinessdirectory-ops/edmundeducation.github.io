@@ -1,0 +1,1228 @@
+{
+  "id": "ss225",
+  "order": 225,
+  "slug": "scarcely-when-inversion",
+  "title": "「Scarcely ... when ...」倒裝句",
+  "titleZh": "「Scarcely ... when ...」倒裝句",
+  "titleEn": "Using “Scarcely ... when ...” inversion",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 224 - 「Scarcely ... when ...」倒裝句.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+      "The source filename is numbered 224; it is assigned system ID ss225 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "Scarcely + had + subject + past participle + when + subject + past simple",
+  "formulas": [
+    {
+      "id": "ss225-formula-01",
+      "labelEn": "Immediate sequence",
+      "labelZh": "緊接發生",
+      "formula": "Scarcely + had + subject + past participle + other information + when + subject + past simple + other information"
+    }
+  ],
+  "example": "Scarcely had the teacher finished speaking when the students started asking questions.",
+  "exampleZh": "老師話音剛落，學生就開始發問。",
+  "examples": [
+    {
+      "id": "ss225-example-01",
+      "en": "Scarcely had the teacher finished speaking when the students started asking questions.",
+      "zh": "老師話音剛落，學生就開始發問。",
+      "highlight": "Scarcely had the teacher finished speaking when the students started asking questions."
+    }
+  ],
+  "meaning": {
+    "zh": "這個句型表示第一件事情剛剛完成，第二件事情便幾乎立即發生。"
+  },
+  "rules": [
+    {
+      "id": "ss225-rule-01",
+      "zh": "放在句首時，必須使用倒裝語序 普通語序： The teacher had scarcely finished speaking when the students started asking questions. 倒裝語序： Scarcely had the teacher finished speaking when the students started asking questions. 必須把 had 放在主語前面： Scarcely + had + the teacher + finished... 不可寫成： Scarcely the teacher had finished...",
+      "en": "When Scarcely begins the sentence, invert the first clause by placing had before the subject.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss225-rule-02",
+      "zh": "第一部分使用過去完成時 句型的第一部分是： had + past participle 例如： ● had finished ● had opened ● had left ● had begun ● had been completed",
+      "en": "Use the past perfect, had + past participle, in the first clause.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss225-rule-03",
+      "zh": "第二部分通常使用過去式 Scarcely had the bell rung when the students left the classroom. ● 第一件事：had rung ● 第二件事：left",
+      "en": "Use the past simple in the second clause after when.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss225-rule-04",
+      "zh": "與 when 配搭 正確： Scarcely had the meeting begun when the fire alarm sounded. 錯誤： Scarcely had the meeting begun than the fire alarm sounded. 請記住： ● Scarcely ... when ... ● Hardly ... when ... ● No sooner ... than ... 本練習只接受 Scarcely ... when ...。",
+      "en": "Pair Scarcely with when. Hardly also pairs with when, whereas No sooner pairs with than.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss225-rule-05",
+      "zh": "兩件事情必須幾乎緊接發生 這個句型不能用來描述相隔很久的事情。 自然： Scarcely had I sat down when the phone rang. （我剛坐下，電話便響了。） 不自然： Scarcely had I finished school when I found a job three years later. （我畢業後三年才找到工作。） 三年後並不是「幾乎立即」。",
+      "en": "Use the structure only for events that happen almost immediately one after the other, not events separated by a long period.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss225-rule-06",
+      "zh": "第一件事情通常先完成 Scarcely had Maya locked the door when she realised that her keys were inside. 先發生： Maya locked the door. 緊接發生： She realised that her keys were inside.",
+      "en": "The first event is normally completed just before the second event occurs.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss225-rule-07",
+      "zh": "兩部分的主語可以不同 Scarcely had the train stopped when the doors opened. ● 第一部分主語：the train ● 第二部分主語：the doors 兩個主語不需要相同，但事情的先後關係必須清楚。",
+      "en": "The two clauses may have different subjects as long as their sequence is clear.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss225-rule-08",
+      "zh": "在這裏不是「很少」 Scarcely 有時表示「幾乎不」： I could scarcely hear him. （我幾乎聽不到他說話。） 但在 Scarcely ... when ... 中，它表示： 「剛剛……便……」",
+      "en": "In this pattern, Scarcely means “only just ... when ...”, not its separate meaning “hardly” or “almost not”.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss225-rule-09",
+      "zh": "這個句型語氣較正式 Scarcely ... when ... 常見於： ● 故事 ● 新聞敘述 ● 正式作文 ● 事件報告 ● 描述突然發生的事情 日常口語通常更常使用 as soon as。",
+      "en": "The structure is relatively formal and is common in stories, news narratives, formal essays and incident reports; everyday speech more often uses as soon as.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss225-benefit-01",
+      "zh": "清楚表達兩件事緊接發生 這個句型能準確表示第一件事剛剛完成，第二件事便立即發生，讓事情的先後次序十分清楚。",
+      "en": "It shows that two events happened almost immediately and makes their order clear.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss225-benefit-02",
+      "zh": "加強速度感或突然感 Scarcely 放在句首，會特別強調第二件事情來得很快，有時甚至令人意外。 Compare： As soon as the teacher finished speaking, the students started asking questions. （老師一說完，學生便開始發問。） Scarcely had the teacher finished speaking when the students started asking questions. （老師話音剛落，學生就開始發問。） 第二句更強調學生幾乎沒有等待，老師剛說完，他們便立即發問。",
+      "en": "It adds a sense of speed or surprise by emphasising how quickly the second event occurred.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss225-benefit-03",
+      "zh": "避免反覆使用 as soon as 學生在描述事情先後發生時，經常只使用 as soon as。掌握這個句型後，可以用另一種方式表達 相同關係，使文章不會過於重複。",
+      "en": "It gives you another way to express “as soon as” and reduces repetition.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss225-benefit-04",
+      "zh": "增加句子開頭的變化 一般句子經常以人物或事物作為主語開始： The meeting had just begun when the alarm sounded. 使用倒裝後，可以用 Scarcely 開始： Scarcely had the meeting begun when the alarm sounded. 這能讓故事和文章的句式更有變化。",
+      "en": "It creates a more varied sentence opening by beginning with Scarcely instead of the subject.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss225-benefit-05",
+      "zh": "適合描述接連發生的事件 這個句型很適合描述： ● 突然收到消息 ● 警報響起 ● 人群作出反應 ● 意外發生 ● 某人剛完成一件事便遇到另一件事 它可以令故事發展更加緊湊。",
+      "en": "It is useful for storytelling and for describing sudden messages, alarms, reactions and accidents.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss225-benefit-06",
+      "zh": "把兩件事情清楚連成一句 不用寫成兩個互不相連的短句： The train stopped. The doors opened immediately. 你可以寫成： Scarcely had the train stopped when the doors opened. 讀者能立即理解兩件事情的時間關係。",
+      "en": "It combines two events clearly in one sentence so that their time relationship is immediately understood.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit is retained as a separate Chinese-primary card. Where the PDF has no complete English counterpart, the English explanation is a faithful editorial translation.",
+    "The source filename is numbered 224; it is assigned system ID ss225 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using Scarcely ... when ... inversion.",
+      "Show that the second event happened almost immediately after the first and follow the supplied first word."
+    ],
+    "zh": [
+      "使用 Scarcely ... when ... 倒裝句改寫每題。",
+      "表示第二件事情在第一件事情後幾乎立即發生，並按照已提供的第一個字作答。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss225-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "As soon as the bell rang, the students left the classroom.",
+      "promptZh": "鐘聲一響，學生便離開課室。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the bell rung when the students left the classroom.",
+      "answerZh": "鐘聲剛響起，學生便離開課室。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the bell rung when the students left the classroom."
+    },
+    {
+      "id": "ss225-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "As soon as Mia opened the door, the dog ran outside.",
+      "promptZh": "米婭一打開門，狗便跑了出去。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had Mia opened the door when the dog ran outside.",
+      "answerZh": "米婭剛打開門，狗便跑了出去。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had Mia opened the door when the dog ran outside."
+    },
+    {
+      "id": "ss225-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "As soon as I sat down, the phone rang.",
+      "promptZh": "我一坐下，電話便響了。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had I sat down when the phone rang.",
+      "answerZh": "我剛坐下，電話便響了。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had I sat down when the phone rang."
+    },
+    {
+      "id": "ss225-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "As soon as the rain stopped, the children went outside.",
+      "promptZh": "雨一停，孩子們便走到外面。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the rain stopped when the children went outside.",
+      "answerZh": "雨剛停，孩子們便走到外面。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the rain stopped when the children went outside."
+    },
+    {
+      "id": "ss225-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "As soon as the bus arrived, the passengers started boarding.",
+      "promptZh": "巴士一到，乘客便開始上車。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the bus arrived when the passengers started boarding.",
+      "answerZh": "巴士剛到，乘客便開始上車。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the bus arrived when the passengers started boarding."
+    },
+    {
+      "id": "ss225-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "As soon as Ben turned off the light, he heard a strange noise.",
+      "promptZh": "本一關燈，便聽到一陣奇怪的聲音。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had Ben turned off the light when he heard a strange noise.",
+      "answerZh": "本剛關燈，便聽到一陣奇怪的聲音。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had Ben turned off the light when he heard a strange noise."
+    },
+    {
+      "id": "ss225-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "As soon as the lesson ended, everyone began packing their bags.",
+      "promptZh": "課堂一結束，所有人便開始收拾袋子。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the lesson ended when everyone began packing their bags.",
+      "answerZh": "課堂剛結束，所有人便開始收拾袋子。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the lesson ended when everyone began packing their bags."
+    },
+    {
+      "id": "ss225-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "As soon as Emma sent the message, she received a reply.",
+      "promptZh": "艾瑪一傳送訊息，便收到回覆。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had Emma sent the message when she received a reply.",
+      "answerZh": "艾瑪剛傳送訊息，便收到回覆。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had Emma sent the message when she received a reply."
+    },
+    {
+      "id": "ss225-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "As soon as the shop opened, customers entered.",
+      "promptZh": "商店一開門，顧客便走了進去。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the shop opened when customers entered.",
+      "answerZh": "商店剛開門，顧客便走了進去。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the shop opened when customers entered."
+    },
+    {
+      "id": "ss225-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "As soon as the baby fell asleep, the parents began cleaning the kitchen.",
+      "promptZh": "嬰兒一入睡，父母便開始清潔廚房。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the baby fallen asleep when the parents began cleaning the kitchen.",
+      "answerZh": "嬰兒剛入睡，父母便開始清潔廚房。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the baby fallen asleep when the parents began cleaning the kitchen."
+    },
+    {
+      "id": "ss225-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Immediately after Leo finished breakfast, he left for work.",
+      "promptZh": "里奧吃完早餐後，立即出門上班。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had Leo finished breakfast when he left for work.",
+      "answerZh": "里奧剛吃完早餐，便出門上班。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had Leo finished breakfast when he left for work."
+    },
+    {
+      "id": "ss225-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The moment the train stopped, the doors opened.",
+      "promptZh": "火車一停下，車門便打開了。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the train stopped when the doors opened.",
+      "answerZh": "火車剛停下，車門便打開了。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the train stopped when the doors opened."
+    },
+    {
+      "id": "ss225-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Right after Olivia placed the cake on the table, the children gathered around it.",
+      "promptZh": "奧莉花把蛋糕放在桌上後，孩子們立即圍了過來。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had Olivia placed the cake on the table when the children gathered around it.",
+      "answerZh": "奧莉花剛把蛋糕放在桌上，孩子們便圍了過來。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had Olivia placed the cake on the table when the children gathered around it."
+    },
+    {
+      "id": "ss225-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Daniel had just closed his laptop when his manager called him.",
+      "promptZh": "丹尼爾剛合上手提電腦，經理便打電話給他。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had Daniel closed his laptop when his manager called him.",
+      "answerZh": "丹尼爾剛合上手提電腦，經理便打電話給他。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had Daniel closed his laptop when his manager called him."
+    },
+    {
+      "id": "ss225-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The instant the match ended, the crowd cheered.",
+      "promptZh": "比賽一結束，觀眾便歡呼起來。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the match ended when the crowd cheered.",
+      "answerZh": "比賽剛結束，觀眾便歡呼起來。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the match ended when the crowd cheered."
+    },
+    {
+      "id": "ss225-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Immediately after the nurse entered the room, the patient asked a question.",
+      "promptZh": "護士一進入房間，病人便提出了一個問題。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the nurse entered the room when the patient asked a question.",
+      "answerZh": "護士剛進入房間，病人便提出了一個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the nurse entered the room when the patient asked a question."
+    },
+    {
+      "id": "ss225-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "As soon as the lights came on, the audience applauded.",
+      "promptZh": "燈光一亮起，觀眾便鼓掌。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the lights come on when the audience applauded.",
+      "answerZh": "燈光剛亮起，觀眾便鼓掌。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the lights come on when the audience applauded."
+    },
+    {
+      "id": "ss225-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The second Grace unlocked her bicycle, it began to rain.",
+      "promptZh": "格蕾絲剛解開單車鎖，天便開始下雨。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had Grace unlocked her bicycle when it began to rain.",
+      "answerZh": "格蕾絲剛解開單車鎖，天便開始下雨。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had Grace unlocked her bicycle when it began to rain."
+    },
+    {
+      "id": "ss225-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Immediately after the waiter served the food, everyone started eating.",
+      "promptZh": "侍應端上食物後，所有人立即開始進食。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the waiter served the food when everyone started eating.",
+      "answerZh": "侍應剛端上食物，所有人便開始進食。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the waiter served the food when everyone started eating."
+    },
+    {
+      "id": "ss225-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The moment the computer restarted, the warning message appeared.",
+      "promptZh": "電腦一重新啟動，警告訊息便出現了。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the computer restarted when the warning message appeared.",
+      "answerZh": "電腦剛重新啟動，警告訊息便出現了。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the computer restarted when the warning message appeared."
+    },
+    {
+      "id": "ss225-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The report was uploaded, and almost immediately, the editor began reviewing it.",
+      "promptZh": "報告上載後，編輯幾乎立即開始審閱。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the report been uploaded when the editor began reviewing it.",
+      "answerZh": "報告剛上載，編輯便開始審閱。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the report been uploaded when the editor began reviewing it."
+    },
+    {
+      "id": "ss225-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "As soon as the road had been cleared, traffic began moving again.",
+      "promptZh": "道路一完成清理，車輛便再次開始行駛。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the road been cleared when traffic began moving again.",
+      "answerZh": "道路剛完成清理，車輛便再次開始行駛。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the road been cleared when traffic began moving again."
+    },
+    {
+      "id": "ss225-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The new timetable was announced, and students immediately started checking their classes.",
+      "promptZh": "新時間表公布後，學生立即開始查看自己的課堂。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the new timetable been announced when students started checking their classes.",
+      "answerZh": "新時間表剛公布，學生便開始查看自己的課堂。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the new timetable been announced when students started checking their classes."
+    },
+    {
+      "id": "ss225-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "As soon as Chloe finished speaking, the chairperson asked her another question.",
+      "promptZh": "克洛伊一說完，主席便再問她一個問題。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had Chloe finished speaking when the chairperson asked her another question.",
+      "answerZh": "克洛伊剛說完，主席便再問她一個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had Chloe finished speaking when the chairperson asked her another question."
+    },
+    {
+      "id": "ss225-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Immediately after the doctor examined the patient, she ordered further tests.",
+      "promptZh": "醫生為病人檢查後，立即安排了進一步檢驗。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the doctor examined the patient when she ordered further tests.",
+      "answerZh": "醫生剛為病人完成檢查，便安排了進一步檢驗。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the doctor examined the patient when she ordered further tests."
+    },
+    {
+      "id": "ss225-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The moment the museum opened its new exhibition, visitors began taking photographs.",
+      "promptZh": "博物館的新展覽一開放，訪客便開始拍照。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the museum opened its new exhibition when visitors began taking photographs.",
+      "answerZh": "博物館剛開放新展覽，訪客便開始拍照。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the museum opened its new exhibition when visitors began taking photographs."
+    },
+    {
+      "id": "ss225-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Once the firefighters had put out the fire, investigators entered the building immediately.",
+      "promptZh": "消防員撲滅火警後，調查人員立即進入大樓。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the firefighters put out the fire when investigators entered the building.",
+      "answerZh": "消防員剛撲滅火警，調查人員便進入大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the firefighters put out the fire when investigators entered the building."
+    },
+    {
+      "id": "ss225-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The chef had only just removed the bread from the oven when the fire alarm sounded.",
+      "promptZh": "廚師剛把麵包從焗爐取出，火警鐘便響了。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the chef removed the bread from the oven when the fire alarm sounded.",
+      "answerZh": "廚師剛把麵包從焗爐取出，火警鐘便響了。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the chef removed the bread from the oven when the fire alarm sounded."
+    },
+    {
+      "id": "ss225-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "As soon as the teacher handed out the test papers, the room became silent.",
+      "promptZh": "老師一派發試卷，課室便安靜下來。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the teacher handed out the test papers when the room became silent.",
+      "answerZh": "老師剛派發試卷，課室便安靜下來。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the teacher handed out the test papers when the room became silent."
+    },
+    {
+      "id": "ss225-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Immediately after the final runner crossed the finishing line, the organisers announced the results.",
+      "promptZh": "最後一名跑手衝過終點後，主辦單位立即公布賽果。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the final runner crossed the finishing line when the organisers announced the results.",
+      "answerZh": "最後一名跑手剛衝過終點，主辦單位便公布賽果。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the final runner crossed the finishing line when the organisers announced the results."
+    },
+    {
+      "id": "ss225-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "No sooner had the lift doors opened than everyone stepped out.",
+      "promptZh": "升降機門一打開，所有人便走了出去。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the lift doors opened when everyone stepped out.",
+      "answerZh": "升降機門剛打開，所有人便走了出去。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the lift doors opened when everyone stepped out."
+    },
+    {
+      "id": "ss225-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The moment the power was restored, the machines started running again.",
+      "promptZh": "電力一恢復，機器便再次開始運作。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the power been restored when the machines started running again.",
+      "answerZh": "電力剛恢復，機器便再次開始運作。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the power been restored when the machines started running again."
+    },
+    {
+      "id": "ss225-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The announcement had barely ended before reporters began asking questions.",
+      "promptZh": "公布內容剛結束，記者便開始發問。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the announcement ended when reporters began asking questions.",
+      "answerZh": "公布內容剛結束，記者便開始發問。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the announcement ended when reporters began asking questions."
+    },
+    {
+      "id": "ss225-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "As soon as the customer had completed the online form, a confirmation email arrived.",
+      "promptZh": "顧客一完成網上表格，確認電郵便送達了。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the customer completed the online form when a confirmation email arrived.",
+      "answerZh": "顧客剛完成網上表格，確認電郵便送達了。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the customer completed the online form when a confirmation email arrived."
+    },
+    {
+      "id": "ss225-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Immediately after Maya had locked the front door, she realised that her keys were still inside.",
+      "promptZh": "瑪雅剛鎖上前門，便發現自己的鎖匙仍在屋內。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had Maya locked the front door when she realised that her keys were still inside.",
+      "answerZh": "瑪雅剛鎖上前門，便發現自己的鎖匙仍在屋內。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had Maya locked the front door when she realised that her keys were still inside."
+    },
+    {
+      "id": "ss225-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The instant the referee blew the final whistle, players from both teams shook hands.",
+      "promptZh": "球證一吹響終場哨子，兩隊球員便互相握手。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the referee blown the final whistle when players from both teams shook hands.",
+      "answerZh": "球證剛吹響終場哨子，兩隊球員便互相握手。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the referee blown the final whistle when players from both teams shook hands."
+    },
+    {
+      "id": "ss225-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The package had just been delivered when the customer received a request for feedback.",
+      "promptZh": "包裹剛送達，顧客便收到提供意見的要求。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the package been delivered when the customer received a request for feedback.",
+      "answerZh": "包裹剛送達，顧客便收到提供意見的要求。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the package been delivered when the customer received a request for feedback."
+    },
+    {
+      "id": "ss225-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "No sooner had the speaker introduced the topic than several hands went up.",
+      "promptZh": "講者剛介紹完主題，便有幾個人舉手。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the speaker introduced the topic when several hands went up.",
+      "answerZh": "講者剛介紹完主題，便有幾個人舉手。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the speaker introduced the topic when several hands went up."
+    },
+    {
+      "id": "ss225-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Once the medicine had been given, the patient began to feel calmer almost immediately.",
+      "promptZh": "病人服藥後，幾乎立即開始感到平靜一些。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the medicine been given when the patient began to feel calmer.",
+      "answerZh": "病人剛服藥，便開始感到平靜一些。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the medicine been given when the patient began to feel calmer."
+    },
+    {
+      "id": "ss225-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The moment the security guard opened the gate, the waiting vehicles moved forward.",
+      "promptZh": "保安員一打開大閘，正在等候的車輛便向前駛。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the security guard opened the gate when the waiting vehicles moved forward.",
+      "answerZh": "保安員剛打開大閘，正在等候的車輛便向前駛。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the security guard opened the gate when the waiting vehicles moved forward."
+    },
+    {
+      "id": "ss225-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Immediately after the committee approved the revised plan, the finance team began preparing the budget.",
+      "promptZh": "委員會通過修訂計劃後，財務團隊立即開始編製預算。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the committee approved the revised plan when the finance team began preparing the budget.",
+      "answerZh": "委員會剛通過修訂計劃，財務團隊便開始編製預算。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the committee approved the revised plan when the finance team began preparing the budget."
+    },
+    {
+      "id": "ss225-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The new booking system had only just gone online when users started reporting a technical problem.",
+      "promptZh": "新的預約系統剛剛上線，使用者便開始報告技術問題。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the new booking system gone online when users started reporting a technical problem.",
+      "answerZh": "新的預約系統剛上線，使用者便開始報告技術問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the new booking system gone online when users started reporting a technical problem."
+    },
+    {
+      "id": "ss225-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "As soon as the school had informed parents about the closure, messages began appearing in the class group.",
+      "promptZh": "學校一通知家長停課的消息，班級群組便開始出現訊息。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the school informed parents about the closure when messages began appearing in the class group.",
+      "answerZh": "學校剛通知家長停課的消息，班級群組便開始出現訊息。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the school informed parents about the closure when messages began appearing in the class group."
+    },
+    {
+      "id": "ss225-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "No sooner had the rescue team reached the injured walker than heavy rain began to fall.",
+      "promptZh": "救援隊剛到達受傷行山人士身邊，便下起大雨。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the rescue team reached the injured walker when heavy rain began to fall.",
+      "answerZh": "救援隊剛到達受傷行山人士身邊，便下起大雨。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the rescue team reached the injured walker when heavy rain began to fall."
+    },
+    {
+      "id": "ss225-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The moment the technician finished repairing the network, employees who had been waiting returned to work.",
+      "promptZh": "技術人員一完成網絡維修，一直等候的員工便恢復工作。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the technician finished repairing the network when employees who had been waiting returned to work.",
+      "answerZh": "技術人員剛完成網絡維修，一直等候的員工便恢復工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the technician finished repairing the network when employees who had been waiting returned to work."
+    },
+    {
+      "id": "ss225-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Immediately after the final safety check had been completed, the aircraft began moving towards the runway.",
+      "promptZh": "最後一項安全檢查完成後，飛機立即開始駛向跑道。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the final safety check been completed when the aircraft began moving towards the runway.",
+      "answerZh": "最後一項安全檢查剛完成，飛機便開始駛向跑道。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the final safety check been completed when the aircraft began moving towards the runway."
+    },
+    {
+      "id": "ss225-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The company had barely published its results before investors started asking about the sudden fall in profits.",
+      "promptZh": "公司剛公布業績，投資者便開始追問利潤突然下跌的原因。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the company published its results when investors started asking about the sudden fall in profits.",
+      "answerZh": "公司剛公布業績，投資者便開始追問利潤突然下跌的原因。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the company published its results when investors started asking about the sudden fall in profits."
+    },
+    {
+      "id": "ss225-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "As soon as the councillor had finished explaining the proposal, residents raised concerns about traffic and noise.",
+      "promptZh": "議員一解釋完建議，居民便提出對交通和噪音的憂慮。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the councillor finished explaining the proposal when residents raised concerns about traffic and noise.",
+      "answerZh": "議員剛解釋完建議，居民便提出對交通和噪音的憂慮。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the councillor finished explaining the proposal when residents raised concerns about traffic and noise."
+    },
+    {
+      "id": "ss225-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The moment the last customer left the restaurant, the staff began preparing the dining area for the next day.",
+      "promptZh": "最後一名顧客一離開餐廳，員工便開始為翌日整理用餐區。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the last customer left the restaurant when the staff began preparing the dining area for the next day.",
+      "answerZh": "最後一名顧客剛離開餐廳，員工便開始為翌日整理用餐區。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the last customer left the restaurant when the staff began preparing the dining area for the next day."
+    },
+    {
+      "id": "ss225-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "No sooner had the emergency services reopened the bridge than a long line of vehicles began crossing it.",
+      "promptZh": "緊急服務人員剛重開大橋，一長列車輛便開始駛過。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the emergency services reopened the bridge when a long line of vehicles began crossing it.",
+      "answerZh": "緊急服務人員剛重開大橋，一長列車輛便開始駛過。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the emergency services reopened the bridge when a long line of vehicles began crossing it."
+    }
+  ]
+}

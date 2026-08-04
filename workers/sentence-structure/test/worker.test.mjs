@@ -10,7 +10,7 @@ const ORIGIN = "https://edmundeducation.github.io";
 const STUDENT_TOKEN = "11111111-1111-4111-8111-111111111111";
 const STUDENT_ID = "22222222-2222-4222-8222-222222222222";
 const ATTEMPT_ID = "33333333-3333-4333-8333-333333333333";
-const ALL_BOOKMARK_ROWS = Array.from({ length: 10900 }, (_, index) => {
+const ALL_BOOKMARK_ROWS = Array.from({ length: 13750 }, (_, index) => {
   const lessonNumber = Math.floor(index / 50) + 1;
   const questionNumber = (index % 50) + 1;
   return {
@@ -47,7 +47,7 @@ function jsonResponse(value, status = 200) {
 }
 
 test("the Worker answer catalog exactly matches the published lesson data", () => {
-  const expansionPath = new URL("../../../sentence-structure-lessons-5-218.js", import.meta.url);
+  const expansionPath = new URL("../../../sentence-structure-lessons-5-275.js", import.meta.url);
   const dataPath = new URL("../../../sentence-structure-data.js", import.meta.url);
   const context = { window: {} };
   vm.createContext(context);
@@ -60,7 +60,7 @@ test("the Worker answer catalog exactly matches the published lesson data", () =
       expected[question.id] = [question.answer, ...Array.from(question.acceptedAnswers || [])];
     }
   }
-  assert.equal(Object.keys(expected).length, 10900);
+  assert.equal(Object.keys(expected).length, 13750);
   assert.deepEqual(ACCEPTED_ANSWERS, expected);
 });
 
@@ -130,8 +130,8 @@ test("a valid new-lesson correctIds array reaches the attempt RPC unchanged", as
   };
 
   const startedAt = new Date().toISOString();
-  const lessonId = "ss218";
-  const questionId = "ss218-q01";
+  const lessonId = "ss275";
+  const questionId = "ss275-q01";
   const answer = ACCEPTED_ANSWERS[questionId]?.[0];
   assert.ok(answer, `${questionId} must exist in the generated catalogue`);
   const request = new Request(`https://worker.example/v1/attempts/${ATTEMPT_ID}`, {
@@ -305,11 +305,11 @@ test("bookmark replacement reloads every page instead of truncating at PostgREST
   const response = await worker.fetch(request, environment());
   const responseText = await response.text();
   assert.equal(response.status, 200, responseText);
-  assert.equal(replacedCount, 10900);
-  assert.deepEqual(pageOffsets, [0, 900, 1800, 2700, 3600, 4500, 5400, 6300, 7200, 8100, 9000, 9900, 10800]);
+  assert.equal(replacedCount, 13750);
+  assert.deepEqual(pageOffsets, [0, 900, 1800, 2700, 3600, 4500, 5400, 6300, 7200, 8100, 9000, 9900, 10800, 11700, 12600, 13500]);
   const body = JSON.parse(responseText);
-  assert.equal(body.bookmarks.length, 10900);
-  assert.equal(body.bookmarks.at(-1).questionId, "ss218-q50");
+  assert.equal(body.bookmarks.length, 13750);
+  assert.equal(body.bookmarks.at(-1).questionId, "ss275-q50");
 });
 
 test("lesson-level bookmarks are accepted without exposing a synthetic answer", async t => {

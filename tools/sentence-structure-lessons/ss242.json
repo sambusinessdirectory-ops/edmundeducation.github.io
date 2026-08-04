@@ -1,0 +1,1293 @@
+{
+  "id": "ss242",
+  "order": 242,
+  "slug": "it-is-up-to-person-to-verb",
+  "title": "「It is up to + Person + to + Verb」",
+  "titleZh": "「It is up to + Person + to + Verb」表示責任、權力或選擇",
+  "titleEn": "It is up to + person + to + verb",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence Structure 241 - 「It is up to + Person + to + Verb」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exercisePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "Every numbered Important Rule and Benefit, together with the PDF's governing principles where applicable, is retained as a separate Chinese-primary card.",
+      "Where the PDF provides Chinese teaching content without a complete English counterpart, the English explanation is a faithful editorial translation and is labelled accordingly.",
+      "The source filename is numbered 241; it is assigned system ID ss242 because the source set contains two distinct PDFs labelled 201."
+    ]
+  },
+  "formula": "It + be + up to + person + to + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss242-formula-01",
+      "labelEn": "Core structure",
+      "labelZh": "核心句型",
+      "formula": "It + be + up to + person + to + base verb + other information"
+    },
+    {
+      "id": "ss242-formula-02",
+      "labelEn": "Negative",
+      "labelZh": "否定形式",
+      "formula": "It is not up to + person + to + base verb"
+    },
+    {
+      "id": "ss242-formula-03",
+      "labelEn": "Question",
+      "labelZh": "疑問形式",
+      "formula": "Is it up to + person + to + base verb?"
+    },
+    {
+      "id": "ss242-formula-04",
+      "labelEn": "Past",
+      "labelZh": "過去形式",
+      "formula": "It was up to + person + to + base verb"
+    },
+    {
+      "id": "ss242-formula-05",
+      "labelEn": "Future",
+      "labelZh": "將來形式",
+      "formula": "It will be up to + person + to + base verb"
+    },
+    {
+      "id": "ss242-formula-06",
+      "labelEn": "Modal",
+      "labelZh": "情態形式",
+      "formula": "It may / should / must be up to + person + to + base verb"
+    }
+  ],
+  "example": "It is up to the board to decide.",
+  "exampleZh": "由董事會作出決定。",
+  "examples": [
+    {
+      "id": "ss242-example-01",
+      "en": "It is up to the board to decide.",
+      "zh": "由董事會作出決定。",
+      "highlight": "It is up to the board to decide."
+    },
+    {
+      "id": "ss242-example-02",
+      "en": "It is not up to me to change the rules.",
+      "zh": "更改規則並非我的權責。",
+      "highlight": "It is not up to me to change the rules."
+    },
+    {
+      "id": "ss242-example-03",
+      "en": "It will be up to the panel to choose the winner.",
+      "zh": "將由評審小組選出優勝者。",
+      "highlight": "It will be up to the panel to choose the winner."
+    },
+    {
+      "id": "ss242-example-04",
+      "en": "Although we can advise you, it is up to you to choose.",
+      "zh": "雖然我們可以給你意見，但仍由你選擇。",
+      "highlight": "Although we can advise you, it is up to you to choose."
+    }
+  ],
+  "meaning": {
+    "zh": "這個句型表示某人有責任、權力或自由作出某個決定或採取某項行動。"
+  },
+  "rules": [
+    {
+      "id": "ss242-rule-01",
+      "zh": "up to 後的人稱代名詞須使用受詞形式，例如 me、you、him、her、us 和 them。",
+      "en": "Use an object pronoun after up to: me, you, him, her, us or them.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is up to him to decide.",
+        "Incorrect: It is up to he to decide."
+      ]
+    },
+    {
+      "id": "ss242-rule-02",
+      "zh": "to 後使用原形動詞，不使用第三人稱或 V-ing 形式。",
+      "en": "Use the base form after to, not a third-person or V-ing form.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is up to the board to decide.",
+        "Incorrect: It is up to the board to decides."
+      ]
+    },
+    {
+      "id": "ss242-rule-03",
+      "zh": "person 可以是一個人、一個群體或 each + 單數名詞。",
+      "en": "The person element may identify one person, a group or each + a singular noun.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is up to the committee to decide.",
+        "It is up to each student to decide."
+      ]
+    },
+    {
+      "id": "ss242-rule-04",
+      "zh": "be 可按時間和語氣變為 is、was、will be 或 may be；核心 up to + person + to + verb 保持不變。",
+      "en": "Change be for time or modality: is, was, will be or may be. The core up to + person + to + verb remains unchanged.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It was up to her to decide.",
+        "It may be up to her to decide."
+      ]
+    },
+    {
+      "id": "ss242-rule-05",
+      "zh": "it 通常是形式主語；句子重點是誰負責，以及負責做甚麼。",
+      "en": "It is normally a formal subject. The sentence focuses on who is responsible and what that person or group must decide or do.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is up to the board to decide."
+      ]
+    },
+    {
+      "id": "ss242-rule-06",
+      "zh": "責任和個人選擇都可使用這個句型；語境決定它表示職責還是選擇權。",
+      "en": "The structure can express either responsibility or personal choice, depending on context.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is up to the manager to approve the payment.",
+        "It is up to you to decide whether to join."
+      ]
+    },
+    {
+      "id": "ss242-rule-07",
+      "zh": "不要混入 What are you up to?、up to 200 或 up to standard 等其他 up to 用法；本課只練習 be up to + person + to + verb。",
+      "en": "Do not confuse the target with What are you up to?, numerical up to, or up to standard. This lesson practises only be up to + person + to + verb.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "What are you up to?",
+        "The hall can hold up to 200 people."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss242-benefit-01",
+      "zh": "立即指出由誰負責作決定或完成工作，清楚交代最後權責。",
+      "en": "It clearly shows who has responsibility for a decision or action.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss242-benefit-02",
+      "zh": "表示選擇權在對方手上，比直接命令 You must decide 更有禮貌和自然。",
+      "en": "It can express personal choice without sounding too forceful, making it softer than a direct command.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss242-benefit-03",
+      "zh": "否定形式能清楚說明某件事不屬於誰的權責，適合工作、會議和顧客服務。",
+      "en": "It helps explain the limits of a person’s role, especially in workplace, meeting and customer-service situations.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss242-benefit-04",
+      "zh": "提供 responsible for 以外的另一種表達，避免反覆使用同一說法。",
+      "en": "It gives an alternative to responsible for and adds sentence variety.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss242-benefit-05",
+      "zh": "可配合背景、條件、轉折或轉述，自然地放入較長句子。",
+      "en": "It fits naturally into longer sentences containing background, conditions, contrast or reported speech.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss242-benefit-06",
+      "zh": "適用於日常選擇、學校安排、工作分工、會議決定、規則、政策和公共服務。",
+      "en": "It is useful in both everyday and formal situations, including school, work, meetings, policy and public service.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "Every numbered Important Rule and Benefit, together with the PDF's governing principles where applicable, is retained as a separate Chinese-primary card.",
+    "Where the PDF provides Chinese teaching content without a complete English counterpart, the English explanation is a faithful editorial translation and is labelled accordingly.",
+    "The source filename is numbered 241; it is assigned system ID ss242 because the source set contains two distinct PDFs labelled 201."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using be up to + person + to + base verb.",
+      "Keep any opening phrases, clauses, questions or reporting expressions when they are needed.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 be up to + 人物 + to + 原形動詞 改寫以下句子。",
+      "如原句包含句首短語、從句、問句或轉述表達，請在有需要時保留。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss242-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "You can choose the colour yourself.",
+      "promptZh": "你可以自行選擇顏色。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is up to you to choose the colour.",
+      "answerZh": "由你選擇顏色。",
+      "answerZhSource": "pdf",
+      "highlight": "It is up to you to choose the colour."
+    },
+    {
+      "id": "ss242-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia must decide where everyone will sit.",
+      "promptZh": "米婭必須決定大家坐在哪裏。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is up to Mia to decide where everyone will sit.",
+      "answerZh": "由米婭決定大家坐在哪裏。",
+      "answerZhSource": "pdf",
+      "highlight": "It is up to Mia to decide where everyone will sit."
+    },
+    {
+      "id": "ss242-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The teacher is responsible for setting the deadline.",
+      "promptZh": "老師負責訂定截止日期。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is up to the teacher to set the deadline.",
+      "answerZh": "由老師訂定截止日期。",
+      "answerZhSource": "pdf",
+      "highlight": "It is up to the teacher to set the deadline."
+    },
+    {
+      "id": "ss242-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "According to the rules, the referee makes the final decision.",
+      "promptZh": "根據規則，球證作出最後決定。",
+      "promptZhSource": "pdf",
+      "starter": "According",
+      "answer": "According to the rules, it is up to the referee to make the final decision.",
+      "answerZh": "根據規則，由球證作出最後決定。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the rules, it is up to the referee to make the final decision."
+    },
+    {
+      "id": "ss242-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Although we can offer advice, Ben must choose his own course.",
+      "promptZh": "雖然我們可以提供意見，但本必須自行選擇修讀的課程。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although we can offer advice, it is up to Ben to choose his own course.",
+      "answerZh": "雖然我們可以提供意見，但應由本自行選擇修讀的課程。",
+      "answerZhSource": "pdf",
+      "highlight": "Although we can offer advice, it is up to Ben to choose his own course."
+    },
+    {
+      "id": "ss242-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The manager explained that each employee is responsible for checking the form.",
+      "promptZh": "經理解釋，每名僱員都負責檢查表格。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager explained that it is up to each employee to check the form.",
+      "answerZh": "經理解釋，每名僱員都應自行檢查表格。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager explained that it is up to each employee to check the form."
+    },
+    {
+      "id": "ss242-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Is the captain responsible for selecting the team?",
+      "promptZh": "隊長負責挑選隊員嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is it up to the captain to select the team?",
+      "answerZh": "是否由隊長挑選隊員？",
+      "answerZhSource": "pdf",
+      "highlight": "Is it up to the captain to select the team?"
+    },
+    {
+      "id": "ss242-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Do you think the parents should make the decision?",
+      "promptZh": "你認為應該由家長作出決定嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do you think it is up to the parents to make the decision?",
+      "answerZh": "你認為應該由家長作出決定嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Do you think it is up to the parents to make the decision?"
+    },
+    {
+      "id": "ss242-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "In the end, I alone must decide whether to accept or refuse the offer.",
+      "promptZh": "最終，只有我可以決定接受還是拒絕這項提議。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In the end, it is up to me to decide whether to accept or refuse the offer.",
+      "answerZh": "最終，由我決定接受還是拒絕這項提議。",
+      "answerZhSource": "pdf",
+      "highlight": "In the end, it is up to me to decide whether to accept or refuse the offer."
+    },
+    {
+      "id": "ss242-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We do not have the authority to change the school rules.",
+      "promptZh": "我們無權更改校規。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is not up to us to change the school rules.",
+      "answerZh": "更改校規並非我們的權責。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not up to us to change the school rules."
+    },
+    {
+      "id": "ss242-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The doctor said that the patient had to choose between the two treatments.",
+      "promptZh": "醫生說病人必須在兩種治療方法之間作出選擇。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor said that it was up to the patient to choose between the two treatments.",
+      "answerZh": "醫生說應由病人在兩種治療方法之間作出選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor said that it was up to the patient to choose between the two treatments."
+    },
+    {
+      "id": "ss242-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "At that time, Chloe was responsible for contacting the customer.",
+      "promptZh": "當時，克洛伊負責聯絡顧客。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At that time, it was up to Chloe to contact the customer.",
+      "answerZh": "當時，由克洛伊負責聯絡顧客。",
+      "answerZhSource": "pdf",
+      "highlight": "At that time, it was up to Chloe to contact the customer."
+    },
+    {
+      "id": "ss242-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We can suggest a restaurant, but they must book a table themselves.",
+      "promptZh": "我們可以建議一間餐廳，但他們必須自行訂座。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can suggest a restaurant, but it is up to them to book a table.",
+      "answerZh": "我們可以建議餐廳，但應由他們自行訂座。",
+      "answerZhSource": "pdf",
+      "highlight": "We can suggest a restaurant, but it is up to them to book a table."
+    },
+    {
+      "id": "ss242-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If the weather improves, the organisers will have to decide whether to restart the event.",
+      "promptZh": "如果天氣好轉，主辦單位便必須決定是否重新開始活動。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the weather improves, it will be up to the organisers to decide whether to restart the event.",
+      "answerZh": "如果天氣好轉，便由主辦單位決定是否重新開始活動。",
+      "answerZhSource": "pdf",
+      "highlight": "If the weather improves, it will be up to the organisers to decide whether to restart the event."
+    },
+    {
+      "id": "ss242-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The owner has always been responsible for approving large repairs.",
+      "promptZh": "一直以來，大型維修都由業主負責批准。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It has always been up to the owner to approve large repairs.",
+      "answerZh": "一直以來，大型維修均由業主批准。",
+      "answerZhSource": "pdf",
+      "highlight": "It has always been up to the owner to approve large repairs."
+    },
+    {
+      "id": "ss242-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "After the interviews, the panel will be responsible for choosing the best candidate.",
+      "promptZh": "面試結束後，評審小組將負責選出最佳人選。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the interviews, it will be up to the panel to choose the best candidate.",
+      "answerZh": "面試結束後，由評審小組選出最佳人選。",
+      "answerZhSource": "pdf",
+      "highlight": "After the interviews, it will be up to the panel to choose the best candidate."
+    },
+    {
+      "id": "ss242-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The coach reminded us that regular practice was our own responsibility.",
+      "promptZh": "教練提醒我們，定期練習是我們自己的責任。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach reminded us that it was up to us to practise regularly.",
+      "answerZh": "教練提醒我們，定期練習是我們自己的責任。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach reminded us that it was up to us to practise regularly."
+    },
+    {
+      "id": "ss242-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Does he really have the authority to decide how the money is spent?",
+      "promptZh": "他真的有權決定如何運用這筆款項嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is it really up to him to decide how the money is spent?",
+      "answerZh": "真的應由他決定如何運用這筆款項嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Is it really up to him to decide how the money is spent?"
+    },
+    {
+      "id": "ss242-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Even if everyone disagrees, she must make the final choice herself.",
+      "promptZh": "即使所有人都不同意，她仍必須自行作出最後選擇。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even if everyone disagrees, it is up to her to make the final choice.",
+      "answerZh": "即使所有人都不同意，最後選擇仍應由她作出。",
+      "answerZhSource": "pdf",
+      "highlight": "Even if everyone disagrees, it is up to her to make the final choice."
+    },
+    {
+      "id": "ss242-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The local council may have to solve the parking problem.",
+      "promptZh": "地區議會可能需要解決泊車問題。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It may be up to the local council to solve the parking problem.",
+      "answerZh": "泊車問題可能需要由地區議會解決。",
+      "answerZhSource": "pdf",
+      "highlight": "It may be up to the local council to solve the parking problem."
+    },
+    {
+      "id": "ss242-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The head teacher confirmed that each department is responsible for arranging its own training.",
+      "promptZh": "校長確認，每個部門均負責安排自己的培訓。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The head teacher confirmed that it is up to each department to arrange its own training.",
+      "answerZh": "校長確認，每個部門均應自行安排培訓。",
+      "answerZhSource": "pdf",
+      "highlight": "The head teacher confirmed that it is up to each department to arrange its own training."
+    },
+    {
+      "id": "ss242-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "By the end of the meeting, the chairperson will have to decide whether to hold a vote.",
+      "promptZh": "會議結束前，主席必須決定是否進行表決。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By the end of the meeting, it will be up to the chairperson to decide whether to hold a vote.",
+      "answerZh": "會議結束前，由主席決定是否進行表決。",
+      "answerZhSource": "pdf",
+      "highlight": "By the end of the meeting, it will be up to the chairperson to decide whether to hold a vote."
+    },
+    {
+      "id": "ss242-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The assistant did not have the authority to release the confidential report.",
+      "promptZh": "助理無權發布機密報告。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was not up to the assistant to release the confidential report.",
+      "answerZh": "發布機密報告並非助理的權責。",
+      "answerZhSource": "pdf",
+      "highlight": "It was not up to the assistant to release the confidential report."
+    },
+    {
+      "id": "ss242-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "When the time comes, you will be responsible for explaining the decision.",
+      "promptZh": "到時候，你將負責解釋這項決定。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When the time comes, it will be up to you to explain the decision.",
+      "answerZh": "到時候，由你解釋這項決定。",
+      "answerZhSource": "pdf",
+      "highlight": "When the time comes, it will be up to you to explain the decision."
+    },
+    {
+      "id": "ss242-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "No matter how much pressure he faces, Daniel alone must decide whether to resign.",
+      "promptZh": "無論面對多大壓力，只有丹尼爾可以決定是否辭職。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No matter how much pressure he faces, it is up to Daniel to decide whether to resign.",
+      "answerZh": "無論面對多大壓力，仍應由丹尼爾決定是否辭職。",
+      "answerZhSource": "pdf",
+      "highlight": "No matter how much pressure he faces, it is up to Daniel to decide whether to resign."
+    },
+    {
+      "id": "ss242-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The policy states clearly that parents are responsible for providing accurate information.",
+      "promptZh": "政策清楚列明，家長有責任提供準確資料。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy makes it clear that it is up to parents to provide accurate information.",
+      "answerZh": "政策清楚列明，家長有責任提供準確資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy makes it clear that it is up to parents to provide accurate information."
+    },
+    {
+      "id": "ss242-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If no agreement is reached, a judge may have to settle the dispute.",
+      "promptZh": "如果無法達成協議，可能需要由法官解決爭議。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If no agreement is reached, it may be up to a judge to settle the dispute.",
+      "answerZh": "如無法達成協議，可能需要由法官解決爭議。",
+      "answerZhSource": "pdf",
+      "highlight": "If no agreement is reached, it may be up to a judge to settle the dispute."
+    },
+    {
+      "id": "ss242-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The customer alone can decide whether to request a refund or an exchange.",
+      "promptZh": "只有顧客本人可以決定要求退款還是換貨。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is entirely up to the customer to decide whether to request a refund or an exchange.",
+      "answerZh": "完全由顧客自行決定要求退款還是換貨。",
+      "answerZhSource": "pdf",
+      "highlight": "It is entirely up to the customer to decide whether to request a refund or an exchange."
+    },
+    {
+      "id": "ss242-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The guide told us that each visitor was responsible for following the safety instructions.",
+      "promptZh": "導遊告訴我們，每名訪客都有責任遵守安全指示。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guide told us that it was up to each visitor to follow the safety instructions.",
+      "answerZh": "導遊告訴我們，每名訪客都有責任遵守安全指示。",
+      "answerZhSource": "pdf",
+      "highlight": "The guide told us that it was up to each visitor to follow the safety instructions."
+    },
+    {
+      "id": "ss242-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Before we continue, does the committee have responsibility for approving this change?",
+      "promptZh": "在我們繼續之前，委員會是否負責批准這項改動？",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before we continue, is it up to the committee to approve this change?",
+      "answerZh": "在我們繼續之前，是否應由委員會批准這項改動？",
+      "answerZhSource": "pdf",
+      "highlight": "Before we continue, is it up to the committee to approve this change?"
+    },
+    {
+      "id": "ss242-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Although the computer can provide suggestions, the user must select the final option.",
+      "promptZh": "雖然電腦可以提供建議，但用戶必須選擇最終選項。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the computer can provide suggestions, it is up to the user to select the final option.",
+      "answerZh": "雖然電腦可以提供建議，但最終選項應由用戶選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the computer can provide suggestions, it is up to the user to select the final option."
+    },
+    {
+      "id": "ss242-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "After all the evidence has been reviewed, the board will be responsible for making the final decision.",
+      "promptZh": "在審閱所有證據後，董事會將負責作出最後決定。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After all the evidence has been reviewed, it will still be up to the board to make the final decision.",
+      "answerZh": "審閱所有證據後，最後決定仍將由董事會作出。",
+      "answerZhSource": "pdf",
+      "highlight": "After all the evidence has been reviewed, it will still be up to the board to make the final decision."
+    },
+    {
+      "id": "ss242-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The principal said that individual teachers were not authorised to cancel the examination.",
+      "promptZh": "校長說個別教師無權取消考試。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The principal said that it was not up to individual teachers to cancel the examination.",
+      "answerZh": "校長說，取消考試並非個別教師的權責。",
+      "answerZhSource": "pdf",
+      "highlight": "The principal said that it was not up to individual teachers to cancel the examination."
+    },
+    {
+      "id": "ss242-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Whether the plan succeeds or fails, the team is responsible for carrying it out properly.",
+      "promptZh": "無論計劃成敗，團隊都有責任妥善執行計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the plan succeeds or fails, it is up to the team to carry it out properly.",
+      "answerZh": "無論計劃成敗，團隊都有責任妥善執行計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the plan succeeds or fails, it is up to the team to carry it out properly."
+    },
+    {
+      "id": "ss242-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Do you believe teenagers should decide how they use their pocket money themselves?",
+      "promptZh": "你認為青少年應該自行決定如何使用零用錢嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do you believe it should be up to teenagers to decide how they use their pocket money?",
+      "answerZh": "你認為應該由青少年自行決定如何使用零用錢嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Do you believe it should be up to teenagers to decide how they use their pocket money?"
+    },
+    {
+      "id": "ss242-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "In situations like this, the senior nurse is usually responsible for contacting the family.",
+      "promptZh": "在這類情況下，通常由資深護士負責聯絡家屬。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In situations like this, it is usually up to the senior nurse to contact the family.",
+      "answerZh": "在這類情況下，通常由資深護士聯絡家屬。",
+      "answerZhSource": "pdf",
+      "highlight": "In situations like this, it is usually up to the senior nurse to contact the family."
+    },
+    {
+      "id": "ss242-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The contract states that the supplier must replace any faulty equipment.",
+      "promptZh": "合約列明，供應商必須更換任何有問題的設備。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The contract states that it is up to the supplier to replace any faulty equipment.",
+      "answerZh": "合約列明，供應商有責任更換任何有問題的設備。",
+      "answerZhSource": "pdf",
+      "highlight": "The contract states that it is up to the supplier to replace any faulty equipment."
+    },
+    {
+      "id": "ss242-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If the two sides remain unable to agree, the mediator will be responsible for proposing a compromise.",
+      "promptZh": "如果雙方仍未能達成協議，調解員將負責提出折衷方案。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the two sides remain unable to agree, it will be up to the mediator to propose a compromise.",
+      "answerZh": "如雙方仍未能達成協議，將由調解員提出折衷方案。",
+      "answerZhSource": "pdf",
+      "highlight": "If the two sides remain unable to agree, it will be up to the mediator to propose a compromise."
+    },
+    {
+      "id": "ss242-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "One person should not be responsible for controlling all the information.",
+      "promptZh": "不應由一個人負責控制所有資訊。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It should not be up to one person to control all the information.",
+      "answerZh": "不應由一個人控制所有資訊。",
+      "answerZhSource": "pdf",
+      "highlight": "It should not be up to one person to control all the information."
+    },
+    {
+      "id": "ss242-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "During an emergency, the person in charge must give clear instructions.",
+      "promptZh": "在緊急情況下，負責人必須給予清晰指示。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During an emergency, it is up to the person in charge to give clear instructions.",
+      "answerZh": "在緊急情況下，由負責人給予清晰指示。",
+      "answerZhSource": "pdf",
+      "highlight": "During an emergency, it is up to the person in charge to give clear instructions."
+    },
+    {
+      "id": "ss242-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The report concludes that the regulator should be responsible for investigating serious complaints.",
+      "promptZh": "報告總結指出，監管機構應負責調查嚴重投訴。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report concludes that it should be up to the regulator to investigate serious complaints.",
+      "answerZh": "報告總結指出，嚴重投訴應由監管機構調查。",
+      "answerZhSource": "pdf",
+      "highlight": "The report concludes that it should be up to the regulator to investigate serious complaints."
+    },
+    {
+      "id": "ss242-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Once the public consultation has ended, the council will have to decide whether the project should proceed.",
+      "promptZh": "公眾諮詢結束後，議會必須決定項目是否應該繼續。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the public consultation has ended, it will be up to the council to decide whether the project should proceed.",
+      "answerZh": "公眾諮詢結束後，由議會決定項目是否應該繼續。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the public consultation has ended, it will be up to the council to decide whether the project should proceed."
+    },
+    {
+      "id": "ss242-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Although experts can explain the risks, each patient must personally decide whether to give informed consent.",
+      "promptZh": "雖然專家可以解釋風險，但每名病人都必須親自決定是否給予知情同意。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although experts can explain the risks, it is ultimately up to each patient to decide whether to give informed consent.",
+      "answerZh": "雖然專家可以解釋風險，但最終應由每名病人自行決定是否給予知情同意。",
+      "answerZhSource": "pdf",
+      "highlight": "Although experts can explain the risks, it is ultimately up to each patient to decide whether to give informed consent."
+    },
+    {
+      "id": "ss242-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The director made it clear that the production team was responsible for solving the technical problem before filming resumed.",
+      "promptZh": "總監清楚表示，製作團隊負責在恢復拍攝前解決技術問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The director made it clear that it was up to the production team to solve the technical problem before filming resumed.",
+      "answerZh": "總監清楚表示，製作團隊有責任在恢復拍攝前解決技術問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The director made it clear that it was up to the production team to solve the technical problem before filming resumed."
+    },
+    {
+      "id": "ss242-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If the appeal is accepted, a different panel may have to review the evidence again.",
+      "promptZh": "如果上訴獲接納，可能需要由另一個評審小組再次審閱證據。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the appeal is accepted, it may be up to a different panel to review the evidence again.",
+      "answerZh": "如果上訴獲接納，可能需要由另一個評審小組再次審閱證據。",
+      "answerZhSource": "pdf",
+      "highlight": "If the appeal is accepted, it may be up to a different panel to review the evidence again."
+    },
+    {
+      "id": "ss242-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The school believes that students should be allowed to choose at least one creative subject themselves.",
+      "promptZh": "學校認為應該讓學生自行選擇至少一科創意科目。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school believes that it should be up to students to choose at least one creative subject.",
+      "answerZh": "學校認為，學生應有權自行選擇至少一科創意科目。",
+      "answerZhSource": "pdf",
+      "highlight": "The school believes that it should be up to students to choose at least one creative subject."
+    },
+    {
+      "id": "ss242-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Before any personal data is shared, the organisation is responsible for obtaining the user's permission.",
+      "promptZh": "在分享任何個人資料前，機構有責任取得用戶同意。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before any personal data is shared, it is up to the organisation to obtain the user's permission.",
+      "answerZh": "在分享任何個人資料前，機構有責任取得用戶同意。",
+      "answerZhSource": "pdf",
+      "highlight": "Before any personal data is shared, it is up to the organisation to obtain the user's permission."
+    },
+    {
+      "id": "ss242-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Do the regulations make the landlord responsible for arranging the safety inspection?",
+      "promptZh": "規例是否訂明業主負責安排安全檢查？",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do the regulations say that it is up to the landlord to arrange the safety inspection?",
+      "answerZh": "規例是否訂明安全檢查應由業主安排？",
+      "answerZhSource": "pdf",
+      "highlight": "Do the regulations say that it is up to the landlord to arrange the safety inspection?"
+    },
+    {
+      "id": "ss242-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Even after the advisers have presented both options, the client must make the final decision.",
+      "promptZh": "即使顧問已提出兩個選項，客戶仍必須作出最後決定。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even after the advisers have presented both options, it remains up to the client to make the final decision.",
+      "answerZh": "即使顧問已提出兩個選項，最後決定仍由客戶作出。",
+      "answerZhSource": "pdf",
+      "highlight": "Even after the advisers have presented both options, it remains up to the client to make the final decision."
+    },
+    {
+      "id": "ss242-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "In a case involving several departments, the chief executive may have to decide who has final responsibility.",
+      "promptZh": "在涉及多個部門的個案中，行政總裁可能需要決定誰負有最終責任。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In a case involving several departments, it may ultimately be up to the chief executive to decide who has final responsibility.",
+      "answerZh": "在涉及多個部門的個案中，最終可能需要由行政總裁決定誰負有最終責任。",
+      "answerZhSource": "pdf",
+      "highlight": "In a case involving several departments, it may ultimately be up to the chief executive to decide who has final responsibility."
+    }
+  ]
+}
